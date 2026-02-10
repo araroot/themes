@@ -61,15 +61,202 @@ def main():
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Theme Constituents</title>
+    <title>Theme Constituents Dashboard</title>
     <style>
-      body {{ font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 24px; }}
-      h1 {{ font-size: 20px; margin: 0 0 8px 0; }}
+      * {{
+        box-sizing: border-box;
+      }}
+
+      body {{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+      }}
+
+      .container {{
+        max-width: 1400px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        overflow: hidden;
+      }}
+
+      .header {{
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 32px 40px;
+        border-bottom: 4px solid #5568d3;
+      }}
+
+      h1 {{
+        font-size: 32px;
+        margin: 0 0 8px 0;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+      }}
+
+      .date-badge {{
+        display: inline-block;
+        background: rgba(255,255,255,0.2);
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 500;
+        backdrop-filter: blur(10px);
+      }}
+
+      .table-container {{
+        padding: 24px 40px 40px 40px;
+        overflow-x: auto;
+      }}
+
+      .tp-table {{
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        font-size: 13px;
+        line-height: 1.5;
+      }}
+
+      .tp-table thead {{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }}
+
+      .tp-table th {{
+        text-align: left;
+        padding: 14px 16px;
+        background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+        font-weight: 700;
+        color: #2c3e50;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 0.5px;
+        border-bottom: 2px solid #667eea;
+        border-top: 1px solid #dee2e6;
+      }}
+
+      .tp-table tbody tr {{
+        transition: all 0.2s ease;
+        border-bottom: 1px solid #e9ecef;
+      }}
+
+      .tp-table tbody tr:nth-child(odd) {{
+        background: #ffffff;
+      }}
+
+      .tp-table tbody tr:nth-child(even) {{
+        background: #f8f9fa;
+      }}
+
+      .tp-table tbody tr:hover {{
+        background: #e7f3ff !important;
+        transform: scale(1.01);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+        cursor: pointer;
+      }}
+
+      .tp-table td {{
+        vertical-align: top;
+        padding: 14px 16px;
+      }}
+
+      .tp-table .col-median {{
+        text-align: right;
+        white-space: nowrap;
+        color: #2c3e50;
+        font-weight: 600;
+        font-size: 14px;
+      }}
+
+      .tp-table .col-theme {{
+        font-weight: 600;
+        color: #2c3e50;
+        font-size: 14px;
+      }}
+
+      .tp-table .col-list {{
+        color: #495057;
+        font-weight: 400;
+        white-space: normal;
+        word-break: break-word;
+        line-height: 1.6;
+      }}
+
+      .delta-up {{
+        color: #28a745;
+        font-weight: 700;
+        background: #d4edda;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 11px;
+      }}
+
+      .delta-down {{
+        color: #dc3545;
+        font-weight: 700;
+        background: #f8d7da;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 11px;
+      }}
+
+      .delta-flat {{
+        color: #6c757d;
+        font-weight: 600;
+        background: #e2e3e5;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 11px;
+      }}
+
+      .delta-unk {{
+        color: #6c757d;
+        font-weight: 400;
+      }}
+
+      @media (max-width: 768px) {{
+        body {{
+          padding: 12px;
+        }}
+
+        .header {{
+          padding: 24px 20px;
+        }}
+
+        h1 {{
+          font-size: 24px;
+        }}
+
+        .table-container {{
+          padding: 16px 20px 24px 20px;
+        }}
+
+        .tp-table {{
+          font-size: 11px;
+        }}
+
+        .tp-table th,
+        .tp-table td {{
+          padding: 10px 12px;
+        }}
+      }}
     </style>
   </head>
   <body>
-    <h1>Theme Constituents</h1>
-    {html_body}
+    <div class="container">
+      <div class="header">
+        <h1>📊 Theme Constituents Dashboard</h1>
+        <span class="date-badge">📅 As of {latest:%Y-%m-%d}</span>
+      </div>
+      <div class="table-container">
+        {html_body}
+      </div>
+    </div>
   </body>
 </html>
 """

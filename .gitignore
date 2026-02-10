@@ -17,3 +17,7 @@ ENV/
 # IDE
 .vscode/
 .idea/
+
+# Google API credentials
+credentials.json
+token.json
