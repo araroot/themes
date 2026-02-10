@@ -235,33 +235,42 @@ def main():
       .delta-up {{
         color: #28a745;
         font-weight: 700;
-        background: #d4edda;
-        padding: 2px 6px;
-        border-radius: 4px;
-        font-size: 11px;
       }}
 
       .delta-down {{
         color: #dc3545;
         font-weight: 700;
-        background: #f8d7da;
-        padding: 2px 6px;
-        border-radius: 4px;
-        font-size: 11px;
       }}
 
       .delta-flat {{
         color: #6c757d;
         font-weight: 600;
-        background: #e2e3e5;
-        padding: 2px 6px;
-        border-radius: 4px;
-        font-size: 11px;
       }}
 
       .delta-unk {{
         color: #6c757d;
         font-weight: 400;
+      }}
+
+      /* Dynamic arrow sizes based on delta magnitude */
+      .delta-xs {{
+        font-size: 11px;
+      }}
+
+      .delta-sm {{
+        font-size: 13px;
+      }}
+
+      .delta-md {{
+        font-size: 15px;
+      }}
+
+      .delta-lg {{
+        font-size: 18px;
+      }}
+
+      .delta-xl {{
+        font-size: 21px;
       }}
 
       @media (max-width: 768px) {{

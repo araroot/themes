@@ -104,6 +104,20 @@ def _rank_delta_text(prev_val, latest_val):
     return f"{arrow}{abs(delta):.0f}"
 
 
+def _get_delta_size_class(delta_magnitude):
+    """Returns CSS size class based on delta magnitude"""
+    if delta_magnitude < 5:
+        return "delta-xs"
+    elif delta_magnitude < 10:
+        return "delta-sm"
+    elif delta_magnitude < 20:
+        return "delta-md"
+    elif delta_magnitude < 30:
+        return "delta-lg"
+    else:
+        return "delta-xl"
+
+
 def build_theme_table(
     th: pd.DataFrame,
     latest,
@@ -150,9 +164,10 @@ def build_theme_table(
                 delta = latest_rank - int(prev_rank)
                 arrow = "▲" if delta < 0 else "▼" if delta > 0 else "•"
                 klass = "delta-up" if delta < 0 else "delta-down" if delta > 0 else "delta-flat"
-                delta_text = f"<span class='{klass}'>({arrow}{abs(delta)})</span>"
+                size_klass = _get_delta_size_class(abs(delta))
+                delta_text = f"<span class='{klass} {size_klass}'>({arrow}{abs(delta)})</span>"
             else:
-                delta_text = "<span class='delta-unk'>(?)</span>"
+                delta_text = "<span class='delta-unk delta-xs'>(?)</span>"
             label = f"{sym} {latest_rank} {delta_text}"
             if sym in portfolio_symbol_set:
                 portfolio_cells.append(label)
@@ -165,7 +180,8 @@ def build_theme_table(
         if pd.notna(latest_med) and pd.notna(prev_med):
             delta_val = latest_med - prev_med
             klass = "delta-up" if delta_val < 0 else "delta-down" if delta_val > 0 else "delta-flat"
-            med_cell = f"{latest_med:.0f} <span class='{klass}'>({delta_text})</span>"
+            size_klass = _get_delta_size_class(abs(delta_val))
+            med_cell = f"{latest_med:.0f} <span class='{klass} {size_klass}'>({delta_text})</span>"
         else:
             med_cell = ""
         row = {
@@ -225,10 +241,15 @@ def render_table(rows, show_non_portfolio: bool, latest_date, font_size=14, date
         ".tp-table .col-median{text-align:right;white-space:nowrap;color:#222;}"
         ".tp-table .col-theme{font-weight:500;color:#222;}"
         ".tp-table .col-list{color:#222;font-weight:400;white-space:normal;word-break:break-word;}"
-        ".delta-up{color:#2ca02c;font-weight:600;}"
-        ".delta-down{color:#d62728;font-weight:600;}"
+        ".delta-up{color:#2ca02c;font-weight:700;}"
+        ".delta-down{color:#d62728;font-weight:700;}"
         ".delta-flat{color:#888;font-weight:600;}"
         ".delta-unk{color:#888;font-weight:400;}"
+        ".delta-xs{font-size:11px;}"
+        ".delta-sm{font-size:13px;}"
+        ".delta-md{font-size:15px;}"
+        ".delta-lg{font-size:18px;}"
+        ".delta-xl{font-size:21px;}"
         "</style>"
         f"<div style='margin:4px 0 8px 0;color:#666;font-size:{date_font_size}px;'>As of {latest_date:%Y-%m-%d}</div>"
         "<table class='tp-table'>"
