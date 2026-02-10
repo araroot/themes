@@ -98,6 +98,24 @@ def main():
         letter-spacing: -0.5px;
       }}
 
+      .header-content {{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+      }}
+
+      .header-left {{
+        flex: 1;
+      }}
+
+      .header-right {{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }}
+
       .date-badge {{
         display: inline-block;
         background: rgba(255,255,255,0.2);
@@ -106,6 +124,33 @@ def main():
         font-size: 13px;
         font-weight: 500;
         backdrop-filter: blur(10px);
+      }}
+
+      .refresh-btn {{
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(255,255,255,0.9);
+        color: #667eea;
+        padding: 10px 20px;
+        border-radius: 24px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }}
+
+      .refresh-btn:hover {{
+        background: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        border-color: rgba(255,255,255,0.3);
+      }}
+
+      .refresh-btn:active {{
+        transform: translateY(0);
       }}
 
       .table-container {{
@@ -228,6 +273,20 @@ def main():
           padding: 24px 20px;
         }}
 
+        .header-content {{
+          flex-direction: column;
+          align-items: flex-start;
+        }}
+
+        .header-right {{
+          width: 100%;
+        }}
+
+        .refresh-btn {{
+          width: 100%;
+          justify-content: center;
+        }}
+
         h1 {{
           font-size: 24px;
         }}
@@ -250,8 +309,20 @@ def main():
   <body>
     <div class="container">
       <div class="header">
-        <h1>📊 Theme Constituents Dashboard</h1>
-        <span class="date-badge">📅 As of {latest:%Y-%m-%d}</span>
+        <div class="header-content">
+          <div class="header-left">
+            <h1>📊 Theme Constituents Dashboard</h1>
+            <span class="date-badge">📅 As of {latest:%Y-%m-%d}</span>
+          </div>
+          <div class="header-right">
+            <a href="https://github.com/araroot/themes/actions/workflows/update-dashboard.yml"
+               target="_blank"
+               class="refresh-btn"
+               title="Click to refresh data from Google Drive">
+              🔄 Refresh Data
+            </a>
+          </div>
+        </div>
       </div>
       <div class="table-container">
         {html_body}
