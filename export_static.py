@@ -252,27 +252,6 @@ def main():
         font-weight: 400;
       }}
 
-      /* Dynamic arrow sizes based on delta magnitude */
-      .delta-xs {{
-        font-size: 11px;
-      }}
-
-      .delta-sm {{
-        font-size: 13px;
-      }}
-
-      .delta-md {{
-        font-size: 15px;
-      }}
-
-      .delta-lg {{
-        font-size: 18px;
-      }}
-
-      .delta-xl {{
-        font-size: 21px;
-      }}
-
       @media (max-width: 768px) {{
         body {{
           padding: 12px;
