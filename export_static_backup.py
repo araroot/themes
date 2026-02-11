@@ -12,13 +12,6 @@ from app import (
     theme_medians,
 )
 
-from mf_processor import (
-    load_mf_data,
-    get_latest_prev_bb_cols,
-    build_mf_table,
-    render_mf_table,
-)
-
 
 def is_real_symbol(val: str) -> bool:
     s = str(val).strip()
@@ -35,7 +28,6 @@ def is_real_symbol(val: str) -> bool:
 
 
 def main():
-    # ========== RANKS TAB DATA ==========
     path = Path(DATA_PATH_DEFAULT)
     pf = pd.read_excel(path, sheet_name="PF_Ranks")
     th = pd.read_excel(path, sheet_name="theme_park")
@@ -63,29 +55,13 @@ def main():
         show_non_portfolio=True,
     )
 
-    ranks_html_body = render_table(rows, True, latest, font_size=12, date_font_size=12)
-
-    # ========== MF MOVES TAB DATA ==========
-    try:
-        mf_df = load_mf_data()
-        latest_bb, prev_bb = get_latest_prev_bb_cols(mf_df)
-
-        if latest_bb:
-            mf_rows = build_mf_table(mf_df, latest_bb, prev_bb, pf_symbols, top_n=100)
-            mf_html_body = render_mf_table(mf_rows, latest_date_str=latest_bb.replace("bb_", "").replace("25", " 2025"))
-        else:
-            mf_html_body = "<p>No MF data available</p>"
-    except Exception as e:
-        print(f"Warning: Could not load MF data: {e}")
-        mf_html_body = "<p>MF data not available</p>"
-
-    # ========== GENERATE TABBED HTML ==========
+    html_body = render_table(rows, True, latest, font_size=12, date_font_size=12)
     full_html = f"""<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Investment Dashboard</title>
+    <title>Theme Constituents Dashboard</title>
     <style>
       * {{
         box-sizing: border-box;
@@ -111,7 +87,7 @@ def main():
       .header {{
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         color: white;
-        padding: 32px 40px 0 40px;
+        padding: 32px 40px;
         border-bottom: 4px solid #5568d3;
       }}
 
@@ -128,7 +104,6 @@ def main():
         align-items: center;
         flex-wrap: wrap;
         gap: 16px;
-        margin-bottom: 24px;
       }}
 
       .header-left {{
@@ -178,49 +153,9 @@ def main():
         transform: translateY(0);
       }}
 
-      /* Tabs */
-      .tabs {{
-        display: flex;
-        gap: 4px;
-        padding: 0;
-        margin: 0;
-      }}
-
-      .tab {{
-        padding: 12px 28px;
-        background: rgba(255,255,255,0.1);
-        color: rgba(255,255,255,0.7);
-        border: none;
-        cursor: pointer;
-        font-size: 15px;
-        font-weight: 600;
-        transition: all 0.3s ease;
-        border-radius: 8px 8px 0 0;
-        position: relative;
-      }}
-
-      .tab:hover {{
-        background: rgba(255,255,255,0.15);
-        color: rgba(255,255,255,0.9);
-      }}
-
-      .tab.active {{
-        background: white;
-        color: #667eea;
-      }}
-
-      .tab-content {{
-        display: none;
+      .table-container {{
         padding: 24px 40px 40px 40px;
         overflow-x: auto;
-      }}
-
-      .tab-content.active {{
-        display: block;
-      }}
-
-      .table-container {{
-        padding: 0;
       }}
 
       .tp-table {{
@@ -268,14 +203,6 @@ def main():
         transform: scale(1.01);
         box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
         cursor: pointer;
-      }}
-
-      .tp-table tbody tr.portfolio-row {{
-        background: #fff3cd !important;
-      }}
-
-      .tp-table tbody tr.portfolio-row:hover {{
-        background: #ffe69c !important;
       }}
 
       .tp-table td {{
@@ -331,7 +258,7 @@ def main():
         }}
 
         .header {{
-          padding: 24px 20px 0 20px;
+          padding: 24px 20px;
         }}
 
         .header-content {{
@@ -352,17 +279,7 @@ def main():
           font-size: 24px;
         }}
 
-        .tabs {{
-          flex-direction: column;
-          gap: 8px;
-        }}
-
-        .tab {{
-          width: 100%;
-          border-radius: 8px;
-        }}
-
-        .tab-content {{
+        .table-container {{
           padding: 16px 20px 24px 20px;
         }}
 
@@ -382,7 +299,7 @@ def main():
       <div class="header">
         <div class="header-content">
           <div class="header-left">
-            <h1>📊 Investment Dashboard</h1>
+            <h1>📊 Theme Constituents Dashboard</h1>
             <span class="date-badge">📅 As of {latest:%Y-%m-%d}</span>
           </div>
           <div class="header-right">
@@ -394,44 +311,11 @@ def main():
             </a>
           </div>
         </div>
-
-        <!-- Tabs -->
-        <div class="tabs">
-          <button class="tab active" onclick="switchTab(event, 'ranks')">📈 Ranks</button>
-          <button class="tab" onclick="switchTab(event, 'mf-moves')">🏦 MF Moves</button>
-        </div>
       </div>
-
-      <!-- Ranks Tab Content -->
-      <div id="ranks" class="tab-content active">
-        {ranks_html_body}
-      </div>
-
-      <!-- MF Moves Tab Content -->
-      <div id="mf-moves" class="tab-content">
-        {mf_html_body}
+      <div class="table-container">
+        {html_body}
       </div>
     </div>
-
-    <script>
-      function switchTab(evt, tabName) {{
-        // Hide all tab contents
-        var tabContents = document.getElementsByClassName("tab-content");
-        for (var i = 0; i < tabContents.length; i++) {{
-          tabContents[i].classList.remove("active");
-        }}
-
-        // Remove active class from all tabs
-        var tabs = document.getElementsByClassName("tab");
-        for (var i = 0; i < tabs.length; i++) {{
-          tabs[i].classList.remove("active");
-        }}
-
-        // Show current tab and mark button as active
-        document.getElementById(tabName).classList.add("active");
-        evt.currentTarget.classList.add("active");
-      }}
-    </script>
   </body>
 </html>
 """
