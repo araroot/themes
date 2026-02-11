@@ -8,6 +8,63 @@ import pandas as pd
 import re
 
 
+def parse_symbols_from_html(html_str: str):
+    """
+    Parse HTML string to extract symbols in order with their data
+    Returns: OrderedDict of {symbol: html_fragment}
+    Example: "SBIN 4 <span...>, AXIS 3 <span...>"
+    Returns: {'SBIN': '4 <span...>', 'AXIS': '3 <span...>'}
+    """
+    from collections import OrderedDict
+
+    if not html_str or not html_str.strip():
+        return OrderedDict()
+
+    symbols = OrderedDict()
+
+    # Split by comma-space to get individual stock entries
+    parts = [p.strip() for p in html_str.split(', ') if p.strip()]
+
+    for part in parts:
+        # Extract symbol (first word, all caps/special chars before first space+digit)
+        match = re.match(r'^([A-Z0-9&\-]+)\s+(.+)$', part)
+        if match:
+            symbol = match.group(1)
+            value_html = match.group(2)
+            symbols[symbol] = value_html
+
+    return symbols
+
+
+def reorder_bb_to_match_rank(rank_html: str, bb_html: str):
+    """
+    Reorder BB HTML to match the symbol order in Rank HTML
+    """
+    if not rank_html or not rank_html.strip():
+        return bb_html
+
+    if not bb_html or not bb_html.strip():
+        return ""
+
+    # Parse both
+    rank_symbols = parse_symbols_from_html(rank_html)
+    bb_symbols = parse_symbols_from_html(bb_html)
+
+    # Build BB in same order as Rank
+    reordered_parts = []
+
+    for symbol in rank_symbols.keys():
+        if symbol in bb_symbols:
+            reordered_parts.append(f"{symbol} {bb_symbols[symbol]}")
+
+    # Add any BB symbols not in Rank (at the end)
+    for symbol, value_html in bb_symbols.items():
+        if symbol not in rank_symbols:
+            reordered_parts.append(f"{symbol} {value_html}")
+
+    return ", ".join(reordered_parts)
+
+
 def build_combined_theme_table(
     theme_rows_data,  # Data from build_theme_table
     mf_rows_data,     # Data from build_mf_theme_table
@@ -36,21 +93,25 @@ def build_combined_theme_table(
         # Get rank median only
         rank_median = theme_data.get('Median (Latest Δ)', '')
 
-        # Parse and split portfolio data
+        # Get rank HTML (this determines the order)
         portfolio_rank_html = theme_data.get('Portfolio', '')
-        portfolio_bb_html = mf_data.get('Portfolio', '')
-
-        # Parse and split others data
         others_rank_html = theme_data.get('Others', '')
+
+        # Get BB HTML
+        portfolio_bb_html = mf_data.get('Portfolio', '')
         others_bb_html = mf_data.get('Others', '')
+
+        # Reorder BB to match Rank symbol order
+        portfolio_bb_reordered = reorder_bb_to_match_rank(portfolio_rank_html, portfolio_bb_html)
+        others_bb_reordered = reorder_bb_to_match_rank(others_rank_html, others_bb_html)
 
         row = {
             'Theme': theme,
             'Rank_Median': rank_median,
             'Portfolio_Rank': portfolio_rank_html,
-            'Portfolio_BB': portfolio_bb_html,
+            'Portfolio_BB': portfolio_bb_reordered,
             'Others_Rank': others_rank_html,
-            'Others_BB': others_bb_html
+            'Others_BB': others_bb_reordered
         }
         rows.append(row)
 
