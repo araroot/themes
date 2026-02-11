@@ -72,14 +72,14 @@ def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
             if pd.notna(latest_bb):
                 bb_values.append(latest_bb)
 
-                # Build display string
+                # Build display string (all integers)
                 if pd.notna(prev_bb):
-                    delta = latest_bb - prev_bb
+                    delta = int(latest_bb - prev_bb)
                     arrow = "▲" if delta > 0 else "▼" if delta < 0 else "•"
                     klass = "delta-up" if delta > 0 else "delta-down" if delta < 0 else "delta-flat"
-                    bb_text = f"{symbol} {latest_bb:.0f} <span class='{klass}'>({arrow}{abs(delta):.0f})</span>"
+                    bb_text = f"{symbol} {int(latest_bb)} <span class='{klass}'>({arrow}{abs(delta)})</span>"
                 else:
-                    bb_text = f"{symbol} {latest_bb:.0f}"
+                    bb_text = f"{symbol} {int(latest_bb)}"
 
                 # Separate portfolio vs others
                 if symbol in portfolio_symbols:
@@ -87,31 +87,10 @@ def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
                 else:
                     other_cells.append(bb_text)
 
-        # Calculate median BB for the theme
-        if bb_values:
-            median_bb = pd.Series(bb_values).median()
-
-            # Get previous median for delta calculation
-            prev_bb_values = []
-            for symbol in theme_symbols:
-                _, prev_bb = get_symbol_bb_aggregated(mf_df, symbol, latest_col, prev_col)
-                if pd.notna(prev_bb):
-                    prev_bb_values.append(prev_bb)
-
-            if prev_bb_values:
-                prev_median = pd.Series(prev_bb_values).median()
-                delta = median_bb - prev_median
-                arrow = "▲" if delta > 0 else "▼" if delta < 0 else "•"
-                klass = "delta-up" if delta > 0 else "delta-down" if delta < 0 else "delta-flat"
-                median_cell = f"{median_bb:.1f} <span class='{klass}'>({arrow}{abs(delta):.1f})</span>"
-            else:
-                median_cell = f"{median_bb:.1f}"
-        else:
-            median_cell = ""
+        # No median BB calculation - not needed
 
         row = {
             "Theme": theme,
-            "Median BB (Latest Δ)": median_cell,
             "Portfolio": ", ".join(portfolio_cells),
             "Others": ", ".join(other_cells)
         }
@@ -123,14 +102,13 @@ def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
 def render_mf_theme_table(rows, latest_date_str: str = "Dec 2025"):
     """Render MF theme table as HTML - matching Ranks tab layout"""
 
-    cols = ["Theme", "Median BB (Latest Δ)", "Portfolio", "Others"]
+    cols = ["Theme", "Portfolio", "Others"]
 
     colgroup = (
         "<colgroup>"
         "<col style='width:14%'>"
-        "<col style='width:8%'>"
-        "<col style='width:39%'>"
-        "<col style='width:39%'>"
+        "<col style='width:43%'>"
+        "<col style='width:43%'>"
         "</colgroup>"
     )
 
@@ -139,13 +117,11 @@ def render_mf_theme_table(rows, latest_date_str: str = "Dec 2025"):
 
     for r in rows:
         theme = r.get("Theme", "")
-        median = r.get("Median BB (Latest Δ)", "")
         portfolio = r.get("Portfolio", "")
         others = r.get("Others", "")
 
         cells = [
             f"<td class='col-theme'>{theme}</td>",
-            f"<td class='col-median'>{median}</td>",
             f"<td class='col-list'>{portfolio}</td>",
             f"<td class='col-list'>{others}</td>",
         ]
