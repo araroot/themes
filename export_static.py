@@ -19,6 +19,11 @@ from mf_processor import (
     render_mf_theme_table,
 )
 
+from combined_processor import (
+    build_combined_theme_table,
+    render_combined_table,
+)
+
 
 def is_real_symbol(val: str) -> bool:
     s = str(val).strip()
@@ -81,11 +86,17 @@ def main():
                 pf_symbols
             )
             mf_html_body = render_mf_theme_table(mf_rows, latest_date_str=latest_bb.replace("bb_", "").replace("25", " 2025"))
+
+            # ========== COMBINED TAB DATA ==========
+            combined_rows = build_combined_theme_table(rows, mf_rows, selected)
+            combined_html_body = render_combined_table(combined_rows, latest_date_str=f"{latest:%Y-%m-%d}")
         else:
             mf_html_body = "<p>No MF data available</p>"
+            combined_html_body = "<p>No MF data available for combined view</p>"
     except Exception as e:
         print(f"Warning: Could not load MF data: {e}")
         mf_html_body = "<p>MF data not available</p>"
+        combined_html_body = "<p>MF data not available for combined view</p>"
 
     # ========== GENERATE TABBED HTML ==========
     full_html = f"""<!doctype html>
@@ -333,6 +344,19 @@ def main():
         font-weight: 400;
       }}
 
+      /* Combined table styles */
+      .combined-table .sub-header {{
+        font-size: 10px;
+        padding: 8px 12px;
+        background: linear-gradient(180deg, #e9ecef 0%, #dee2e6 100%);
+        border-bottom: 1px solid #667eea;
+      }}
+
+      .combined-table strong {{
+        color: #2c3e50;
+        font-weight: 600;
+      }}
+
       @media (max-width: 768px) {{
         body {{
           padding: 12px;
@@ -407,6 +431,7 @@ def main():
         <div class="tabs">
           <button class="tab active" onclick="switchTab(event, 'ranks')">📈 Ranks</button>
           <button class="tab" onclick="switchTab(event, 'mf-moves')">🏦 MF Moves</button>
+          <button class="tab" onclick="switchTab(event, 'combined')">🔀 Combined</button>
         </div>
       </div>
 
@@ -418,6 +443,11 @@ def main():
       <!-- MF Moves Tab Content -->
       <div id="mf-moves" class="tab-content">
         {mf_html_body}
+      </div>
+
+      <!-- Combined Tab Content -->
+      <div id="combined" class="tab-content">
+        {combined_html_body}
       </div>
     </div>
 
