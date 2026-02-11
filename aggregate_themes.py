@@ -2,11 +2,45 @@
 """
 Aggregate MF data by Theme + FundFamily
 Sums tv_ columns for all stocks within each theme
+Calculates bb_ (bucket bands) from tv_ values
 """
 
 from pathlib import Path
 import pandas as pd
+import numpy as np
 from app import build_theme_map, DATA_PATH_DEFAULT
+
+
+def tv_to_bb(tv):
+    """
+    Convert total value (tv) to bucket band (bb)
+
+    Bucketing logic from code2026/r/pivot.R:
+    - tv >= 100:    bb = 3   (strong buying)
+    - tv >= 10:     bb = 2   (moderate buying)
+    - tv > 0:       bb = 1   (light buying)
+    - tv == 0:      bb = 0   (neutral)
+    - tv >= -10:    bb = -1  (light selling)
+    - tv >= -100:   bb = -2  (moderate selling)
+    - tv < -100:    bb = -3  (strong selling)
+    """
+    if pd.isna(tv):
+        return np.nan
+
+    if tv >= 100:
+        return 3
+    elif tv >= 10:
+        return 2
+    elif tv > 0:
+        return 1
+    elif tv == 0:
+        return 0
+    elif tv >= -10:
+        return -1
+    elif tv >= -100:
+        return -2
+    else:
+        return -3
 
 
 def aggregate_by_theme_and_fund():
@@ -82,8 +116,20 @@ def aggregate_by_theme_and_fund():
     # Drop IsPortfolio helper column
     result_df = result_df.drop(columns=['IsPortfolio'])
 
-    # Reorder columns: Theme, FundFamily, then all tv_ columns
-    cols = ['Theme', 'FundFamily'] + tv_cols
+    # Calculate bb_ columns from tv_ columns
+    print("Calculating bb_ (bucket bands) from tv_ values...")
+    bb_cols = []
+    for tv_col in tv_cols:
+        bb_col = tv_col.replace('tv_', 'bb_')
+        result_df[bb_col] = result_df[tv_col].apply(tv_to_bb).astype('Int64')  # Use Int64 for nullable integers
+        bb_cols.append(bb_col)
+
+    # Reorder columns: Theme, FundFamily, then alternating tv_ and bb_ columns
+    cols = ['Theme', 'FundFamily']
+    for tv_col, bb_col in zip(tv_cols, bb_cols):
+        cols.append(tv_col)
+        cols.append(bb_col)
+
     result_df = result_df[cols]
 
     # Save to Excel
@@ -95,7 +141,8 @@ def aggregate_by_theme_and_fund():
     print(f"   - {len(result_df)} rows")
     print(f"   - {len(result_df['Theme'].unique())} unique themes")
     print(f"   - {len(portfolio_themes)} portfolio themes")
-    print(f"   - Columns: {', '.join(cols)}")
+    print(f"   - {len(tv_cols)} months of data (tv_ and bb_ columns)")
+    print(f"   - Total columns: {len(cols)}")
 
     return result_df
 
@@ -105,6 +152,7 @@ if __name__ == "__main__":
 
     # Show sample
     print("\n" + "="*80)
-    print("SAMPLE OUTPUT (first 20 rows):")
+    print("SAMPLE OUTPUT (first 10 rows, showing Nov and Dec columns):")
     print("="*80)
-    print(df.head(20).to_string(index=False))
+    sample_cols = ['Theme', 'FundFamily', 'tv_Nov25', 'bb_Nov25', 'tv_Dec25', 'bb_Dec25']
+    print(df[sample_cols].head(10).to_string(index=False))
