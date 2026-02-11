@@ -17,9 +17,29 @@ def load_mf_data(path: Path = MF_DATA_PATH):
 
 
 def get_latest_prev_bb_cols(df: pd.DataFrame):
-    """Get latest and previous bb_ columns"""
+    """Get latest and previous bb_ columns (chronologically)"""
+    import re
+    from datetime import datetime
+
     bb_cols = [c for c in df.columns if c.startswith('bb_') and c != 'bb_']
-    bb_cols_sorted = sorted(bb_cols)
+
+    # Sort chronologically by parsing month names
+    month_map = {
+        'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6,
+        'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12
+    }
+
+    def parse_date(col_name):
+        # Extract month and year from column name like "bb_Dec25"
+        match = re.match(r'bb_([A-Za-z]+)(\d+)', col_name)
+        if match:
+            month_str = match.group(1)
+            year = int('20' + match.group(2))  # Convert 25 to 2025
+            month = month_map.get(month_str[:3], 0)
+            return (year, month)
+        return (0, 0)
+
+    bb_cols_sorted = sorted(bb_cols, key=parse_date)
 
     if len(bb_cols_sorted) >= 2:
         latest = bb_cols_sorted[-1]
@@ -32,15 +52,15 @@ def get_latest_prev_bb_cols(df: pd.DataFrame):
 
 
 def get_symbol_bb_aggregated(df: pd.DataFrame, symbol: str, latest_col: str, prev_col: str):
-    """Get aggregated BB value for a symbol (median across all fund families)"""
+    """Get BB value for a symbol (per-symbol, same across all fund families)"""
     symbol_df = df[df['Symbol'] == symbol]
 
     if len(symbol_df) == 0:
         return None, None
 
-    # Take median BB value across all fund families
-    latest_val = symbol_df[latest_col].median() if latest_col in symbol_df.columns else None
-    prev_val = symbol_df[prev_col].median() if prev_col and prev_col in symbol_df.columns else None
+    # BB values are per-symbol (same across all fund families), so just take first value
+    latest_val = symbol_df[latest_col].iloc[0] if latest_col in symbol_df.columns and len(symbol_df) > 0 else None
+    prev_val = symbol_df[prev_col].iloc[0] if prev_col and prev_col in symbol_df.columns and len(symbol_df) > 0 else None
 
     return latest_val, prev_val
 
