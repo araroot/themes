@@ -15,8 +15,8 @@ from app import (
 from mf_processor import (
     load_mf_data,
     get_latest_prev_bb_cols,
-    build_mf_table,
-    render_mf_table,
+    build_mf_theme_table,
+    render_mf_theme_table,
 )
 
 
@@ -71,8 +71,16 @@ def main():
         latest_bb, prev_bb = get_latest_prev_bb_cols(mf_df)
 
         if latest_bb:
-            mf_rows = build_mf_table(mf_df, latest_bb, prev_bb, pf_symbols, top_n=100)
-            mf_html_body = render_mf_table(mf_rows, latest_date_str=latest_bb.replace("bb_", "").replace("25", " 2025"))
+            # Use same theme structure as Ranks tab
+            mf_rows = build_mf_theme_table(
+                mf_df,
+                latest_bb,
+                prev_bb,
+                selected,  # Same themes in same order as Ranks
+                theme_map,
+                pf_symbols
+            )
+            mf_html_body = render_mf_theme_table(mf_rows, latest_date_str=latest_bb.replace("bb_", "").replace("25", " 2025"))
         else:
             mf_html_body = "<p>No MF data available</p>"
     except Exception as e:

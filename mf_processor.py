@@ -1,6 +1,6 @@
 """
 Mutual Fund Movement Processor
-Processes Dec25_pivot_features.xlsx to show mutual fund buy/sell movements
+Processes Dec25_pivot_features.xlsx to show mutual fund buy/sell movements BY THEME
 """
 
 from pathlib import Path
@@ -31,106 +31,106 @@ def get_latest_prev_bb_cols(df: pd.DataFrame):
         return None, None
 
 
-def get_top_movers(df: pd.DataFrame, latest_col: str, prev_col: str, top_n: int = 50):
-    """Get stocks with biggest changes in bb_ values"""
-    if prev_col is None:
-        return []
+def get_symbol_bb_aggregated(df: pd.DataFrame, symbol: str, latest_col: str, prev_col: str):
+    """Get aggregated BB value for a symbol (median across all fund families)"""
+    symbol_df = df[df['Symbol'] == symbol]
 
-    # Calculate aggregate change per symbol across all fund families
-    df['bb_delta'] = df[latest_col] - df[prev_col]
+    if len(symbol_df) == 0:
+        return None, None
 
-    # Group by symbol and get median bb values and max delta
-    symbol_summary = df.groupby('Symbol').agg({
-        latest_col: 'median',
-        prev_col: 'median',
-        'bb_delta': 'median',
-        'cmp': 'first',
-        'FundFamily': 'count'  # Count how many funds hold it
-    }).reset_index()
+    # Take median BB value across all fund families
+    latest_val = symbol_df[latest_col].median() if latest_col in symbol_df.columns else None
+    prev_val = symbol_df[prev_col].median() if prev_col and prev_col in symbol_df.columns else None
 
-    symbol_summary.columns = ['Symbol', 'bb_latest', 'bb_prev', 'bb_delta', 'cmp', 'fund_count']
-
-    # Sort by absolute delta (biggest movers)
-    symbol_summary['abs_delta'] = symbol_summary['bb_delta'].abs()
-    symbol_summary = symbol_summary.sort_values('abs_delta', ascending=False)
-
-    return symbol_summary.head(top_n)
+    return latest_val, prev_val
 
 
-def build_mf_table(df: pd.DataFrame, latest_col: str, prev_col: str, portfolio_symbols: set, top_n: int = 50):
-    """Build mutual fund movement table showing top movers"""
+def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
+                         selected_themes: list, theme_map: pd.DataFrame,
+                         portfolio_symbols: set):
+    """
+    Build MF table matching the theme structure from Ranks tab
+    Shows BB flags by theme instead of ranks
+    """
 
     if latest_col is None:
         return []
 
-    # Get top movers
-    top_movers = get_top_movers(df, latest_col, prev_col, top_n)
-
     rows = []
-    for _, stock in top_movers.iterrows():
-        symbol = stock['Symbol']
-        bb_latest = stock['bb_latest']
-        bb_prev = stock['bb_prev']
-        bb_delta = stock['bb_delta']
-        fund_count = int(stock['fund_count'])
-        cmp = stock['cmp']
 
-        # Get fund family details for this symbol
-        symbol_df = df[df['Symbol'] == symbol]
+    for theme in selected_themes:
+        # Get all symbols for this theme
+        theme_symbols = theme_map[theme_map['Theme'] == theme]['Symbol'].unique()
 
-        # Group by fund family and show their bb values
-        fund_details = []
-        for _, row in symbol_df.iterrows():
-            fund = row['FundFamily']
-            latest_val = row[latest_col]
-            prev_val = row[prev_col] if prev_col else None
+        portfolio_cells = []
+        other_cells = []
+        bb_values = []  # For calculating median
 
-            if pd.notna(latest_val) and latest_val != 0:
-                if pd.notna(prev_val):
-                    delta = latest_val - prev_val
-                    if delta != 0:
-                        arrow = "▲" if delta > 0 else "▼"
-                        klass = "delta-up" if delta > 0 else "delta-down"
-                        fund_details.append(f"{fund} {latest_val:.0f} <span class='{klass}'>({arrow}{abs(delta):.0f})</span>")
-                    else:
-                        fund_details.append(f"{fund} {latest_val:.0f} <span class='delta-flat'>(•0)</span>")
+        for symbol in theme_symbols:
+            latest_bb, prev_bb = get_symbol_bb_aggregated(mf_df, symbol, latest_col, prev_col)
+
+            if pd.notna(latest_bb):
+                bb_values.append(latest_bb)
+
+                # Build display string
+                if pd.notna(prev_bb):
+                    delta = latest_bb - prev_bb
+                    arrow = "▲" if delta > 0 else "▼" if delta < 0 else "•"
+                    klass = "delta-up" if delta > 0 else "delta-down" if delta < 0 else "delta-flat"
+                    bb_text = f"{symbol} {latest_bb:.0f} <span class='{klass}'>({arrow}{abs(delta):.0f})</span>"
                 else:
-                    fund_details.append(f"{fund} {latest_val:.0f}")
+                    bb_text = f"{symbol} {latest_bb:.0f}"
 
-        # Median bb value with delta
-        if pd.notna(bb_prev):
-            arrow = "▲" if bb_delta > 0 else "▼" if bb_delta < 0 else "•"
-            klass = "delta-up" if bb_delta > 0 else "delta-down" if bb_delta < 0 else "delta-flat"
-            median_cell = f"{bb_latest:.1f} <span class='{klass}'>({arrow}{abs(bb_delta):.1f})</span>"
+                # Separate portfolio vs others
+                if symbol in portfolio_symbols:
+                    portfolio_cells.append(bb_text)
+                else:
+                    other_cells.append(bb_text)
+
+        # Calculate median BB for the theme
+        if bb_values:
+            median_bb = pd.Series(bb_values).median()
+
+            # Get previous median for delta calculation
+            prev_bb_values = []
+            for symbol in theme_symbols:
+                _, prev_bb = get_symbol_bb_aggregated(mf_df, symbol, latest_col, prev_col)
+                if pd.notna(prev_bb):
+                    prev_bb_values.append(prev_bb)
+
+            if prev_bb_values:
+                prev_median = pd.Series(prev_bb_values).median()
+                delta = median_bb - prev_median
+                arrow = "▲" if delta > 0 else "▼" if delta < 0 else "•"
+                klass = "delta-up" if delta > 0 else "delta-down" if delta < 0 else "delta-flat"
+                median_cell = f"{median_bb:.1f} <span class='{klass}'>({arrow}{abs(delta):.1f})</span>"
+            else:
+                median_cell = f"{median_bb:.1f}"
         else:
-            median_cell = f"{bb_latest:.1f}"
+            median_cell = ""
 
-        is_portfolio = symbol in portfolio_symbols
-        row_data = {
-            "Symbol": symbol,
-            "Median BB (Δ)": median_cell,
-            "Funds": fund_count,
-            "Price": f"₹{cmp:.1f}" if pd.notna(cmp) else "—",
-            "Fund Details": ", ".join(fund_details[:10]),  # Limit to top 10 funds
-            "IsPortfolio": is_portfolio
+        row = {
+            "Theme": theme,
+            "Median BB (Latest Δ)": median_cell,
+            "Portfolio": ", ".join(portfolio_cells),
+            "Others": ", ".join(other_cells)
         }
-        rows.append(row_data)
+        rows.append(row)
 
     return rows
 
 
-def render_mf_table(rows, latest_date_str: str = "Dec 2025"):
-    """Render MF table as HTML"""
+def render_mf_theme_table(rows, latest_date_str: str = "Dec 2025"):
+    """Render MF theme table as HTML - matching Ranks tab layout"""
 
-    cols = ["Symbol", "Median BB (Δ)", "Funds", "Price", "Fund Details"]
+    cols = ["Theme", "Median BB (Latest Δ)", "Portfolio", "Others"]
 
     colgroup = (
         "<colgroup>"
-        "<col style='width:10%'>"
-        "<col style='width:12%'>"
+        "<col style='width:14%'>"
         "<col style='width:8%'>"
-        "<col style='width:10%'>"
-        "<col style='width:60%'>"
+        "<col style='width:39%'>"
+        "<col style='width:39%'>"
         "</colgroup>"
     )
 
@@ -138,27 +138,21 @@ def render_mf_table(rows, latest_date_str: str = "Dec 2025"):
     body_rows = []
 
     for r in rows:
-        symbol = r.get("Symbol", "")
-        median = r.get("Median BB (Δ)", "")
-        funds = r.get("Funds", "")
-        price = r.get("Price", "")
-        details = r.get("Fund Details", "")
-        is_portfolio = r.get("IsPortfolio", False)
-
-        # Highlight portfolio stocks
-        row_class = " class='portfolio-row'" if is_portfolio else ""
+        theme = r.get("Theme", "")
+        median = r.get("Median BB (Latest Δ)", "")
+        portfolio = r.get("Portfolio", "")
+        others = r.get("Others", "")
 
         cells = [
-            f"<td class='col-theme'>{symbol}</td>",
+            f"<td class='col-theme'>{theme}</td>",
             f"<td class='col-median'>{median}</td>",
-            f"<td class='col-median'>{funds}</td>",
-            f"<td class='col-median'>{price}</td>",
-            f"<td class='col-list'>{details}</td>",
+            f"<td class='col-list'>{portfolio}</td>",
+            f"<td class='col-list'>{others}</td>",
         ]
-        body_rows.append(f"<tr{row_class}>" + "".join(cells) + "</tr>")
+        body_rows.append("<tr>" + "".join(cells) + "</tr>")
 
     html = (
-        f"<div style='margin:4px 0 8px 0;color:#666;font-size:12px;'>Mutual Fund Buy/Sell Signals - {latest_date_str}</div>"
+        f"<div style='margin:4px 0 8px 0;color:#666;font-size:12px;'>Mutual Fund BB Signals - {latest_date_str}</div>"
         "<table class='tp-table'>"
         f"{colgroup}"
         f"<thead><tr>{head_cells}</tr></thead>"
