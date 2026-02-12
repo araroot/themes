@@ -71,8 +71,9 @@ def main():
     ranks_html_body = render_table(rows, True, latest, font_size=12, date_font_size=12)
 
     # ========== MF MOVES TAB DATA ==========
+    mf_pivot_date = None
     try:
-        mf_df = load_mf_data()
+        mf_df, mf_pivot_date = load_mf_data()
         latest_bb, prev_bb = get_latest_prev_bb_cols(mf_df)
 
         if latest_bb:
@@ -416,6 +417,7 @@ def main():
           <div class="header-left">
             <h1>📊 Investment Dashboard</h1>
             <span class="date-badge">📅 As of {latest:%Y-%m-%d}</span>
+            {f'<span class="date-badge">📊 Pivot File: {mf_pivot_date}</span>' if mf_pivot_date else ''}
           </div>
           <div class="header-right">
             <a href="https://github.com/araroot/themes/actions/workflows/update-dashboard.yml"

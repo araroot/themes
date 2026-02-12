@@ -4,6 +4,18 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from mf_processor import (
+    load_mf_data,
+    get_latest_prev_bb_cols,
+    build_mf_theme_table,
+    render_mf_theme_table,
+)
+
+from combined_processor import (
+    build_combined_theme_table,
+    render_combined_table,
+)
+
 DATA_PATH_DEFAULT = Path("/Users/raviaranke/Desktop/themes/PF_Ranks.xlsx")
 
 
@@ -241,8 +253,8 @@ def render_table(rows, show_non_portfolio: bool, latest_date, font_size=14, date
 
 
 def main():
-    st.set_page_config(page_title="Theme Park Explorer", layout="wide")
-    st.title("Theme Park Explorer")
+    st.set_page_config(page_title="Investment Dashboard", layout="wide")
+    st.title("📊 Investment Dashboard")
 
     with st.expander("Data source", expanded=False):
         data_path = st.text_input("Excel path", str(DATA_PATH_DEFAULT))
@@ -254,6 +266,7 @@ def main():
     theme_map = build_theme_map(th)
     pf = pf.rename(columns={"Symbol / Rank": "Symbol"})
     pf["Symbol"] = pf["Symbol"].astype(str).str.strip()
+
     # Ignore non-portfolio summary rows
     def is_real_symbol(val: str) -> bool:
         s = str(val).strip()
@@ -285,6 +298,18 @@ def main():
     bottom20 = latest_median.tail(20).index.tolist()
     all_themes = latest_median.index.tolist()
 
+    # Load MF data
+    mf_pivot_date = None
+    mf_df = None
+    try:
+        mf_df, mf_pivot_date = load_mf_data()
+        st.info(f"📊 Using Pivot File: {mf_pivot_date}")
+    except Exception as e:
+        st.warning(f"Could not load MF data: {e}")
+
+    prev_text = prev.strftime("%Y-%m-%d") if prev else "N/A"
+    st.caption(f"📅 Latest date: {latest:%Y-%m-%d} | Previous date: {prev_text}")
+
     st.subheader("Theme Selection")
     mode = st.radio(
         "Pick a theme set",
@@ -309,9 +334,6 @@ def main():
         .tolist()
     )
 
-    prev_text = prev.strftime("%Y-%m-%d") if prev else "N/A"
-    st.caption(f"Latest date: {latest:%Y-%m-%d} | Previous date: {prev_text}")
-
     controls_left, controls_right = st.columns([1, 1])
     with controls_left:
         show_non_portfolio = st.checkbox("Show non-portfolio stocks", value=True)
@@ -322,27 +344,73 @@ def main():
     if show_non_portfolio and mode == "Portfolio themes":
         selected = all_themes
 
-    st.subheader("Theme Constituents (Compact)")
-    rows = build_theme_table(
-        th,
-        latest,
-        prev,
-        selected,
-        pf_symbols,
-        latest_median,
-        show_non_portfolio,
-    )
-    html_display = render_table(rows, show_non_portfolio, latest, font_size=14, date_font_size=13)
-    html_download = render_table(rows, show_non_portfolio, latest, font_size=12, date_font_size=12)
-    st.download_button(
-        label="Download HTML",
-        data=html_download,
-        file_name=f"theme_constituents_{latest:%Y-%m-%d}.html",
-        mime="text/html",
-    )
-    st.markdown(html_display, unsafe_allow_html=True)
+    # Create tabs
+    tab1, tab2, tab3 = st.tabs(["📈 Ranks", "🏦 MF Moves", "🔀 Combined"])
 
-    # Removed theme coverage section (per user request)
+    # TAB 1: RANKS
+    with tab1:
+        st.subheader("Theme Constituents (Compact)")
+        rows = build_theme_table(
+            th,
+            latest,
+            prev,
+            selected,
+            pf_symbols,
+            latest_median,
+            show_non_portfolio,
+        )
+        html_display = render_table(rows, show_non_portfolio, latest, font_size=14, date_font_size=13)
+        html_download = render_table(rows, show_non_portfolio, latest, font_size=12, date_font_size=12)
+        st.download_button(
+            label="Download HTML",
+            data=html_download,
+            file_name=f"theme_constituents_{latest:%Y-%m-%d}.html",
+            mime="text/html",
+        )
+        st.markdown(html_display, unsafe_allow_html=True)
+
+    # TAB 2: MF MOVES
+    with tab2:
+        if mf_df is not None:
+            latest_bb, prev_bb = get_latest_prev_bb_cols(mf_df)
+            if latest_bb:
+                st.subheader("Mutual Fund Movement by Theme")
+                mf_rows = build_mf_theme_table(
+                    mf_df,
+                    latest_bb,
+                    prev_bb,
+                    selected,
+                    theme_map,
+                    pf_symbols
+                )
+                mf_html = render_mf_theme_table(mf_rows, latest_date_str=latest_bb.replace("bb_", "").replace("25", " 2025").replace("26", " 2026"))
+                st.markdown(mf_html, unsafe_allow_html=True)
+            else:
+                st.warning("No MF data columns found")
+        else:
+            st.warning("MF data not available")
+
+    # TAB 3: COMBINED
+    with tab3:
+        if mf_df is not None:
+            latest_bb, prev_bb = get_latest_prev_bb_cols(mf_df)
+            if latest_bb:
+                st.subheader("Combined View: Ranks + MF Moves")
+                mf_rows = build_mf_theme_table(
+                    mf_df,
+                    latest_bb,
+                    prev_bb,
+                    selected,
+                    theme_map,
+                    pf_symbols
+                )
+                combined_rows = build_combined_theme_table(rows, mf_rows, selected)
+                combined_html = render_combined_table(combined_rows, latest_date_str=f"{latest:%Y-%m-%d}")
+                st.markdown(combined_html, unsafe_allow_html=True)
+            else:
+                st.warning("No MF data available for combined view")
+        else:
+            st.warning("MF data not available for combined view")
 
 
 if __name__ == "__main__":

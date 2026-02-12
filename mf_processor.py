@@ -1,19 +1,64 @@
 """
 Mutual Fund Movement Processor
-Processes Dec25_pivot_features.xlsx to show mutual fund buy/sell movements BY THEME
+Processes latest *_pivot_features.xlsx to show mutual fund buy/sell movements BY THEME
 """
 
 from pathlib import Path
 import pandas as pd
+import re
+from datetime import datetime
 
 
-MF_DATA_PATH = Path("/Users/raviaranke/Desktop/themes/Dec25_pivot_features.xlsx")
+def find_latest_pivot_file(base_dir: Path = None):
+    """Find the latest pivot_features.xlsx file based on date prefix"""
+    if base_dir is None:
+        base_dir = Path("/Users/raviaranke/Desktop/themes")
+
+    # Find all files matching pattern *_pivot_features.xlsx
+    pivot_files = list(base_dir.glob("*_pivot_features.xlsx"))
+
+    if not pivot_files:
+        raise FileNotFoundError("No pivot_features.xlsx files found")
+
+    # Parse dates from filenames (format: MonYY_pivot_features.xlsx)
+    month_map = {
+        'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6,
+        'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12
+    }
+
+    def parse_filename_date(filepath):
+        """Extract date from filename like Dec25_pivot_features.xlsx"""
+        match = re.match(r'([A-Za-z]+)(\d+)_pivot_features\.xlsx', filepath.name)
+        if match:
+            month_str = match.group(1)
+            year = int('20' + match.group(2))  # Convert 25 to 2025
+            month = month_map.get(month_str[:3], 0)
+            return (year, month), match.group(1) + match.group(2)
+        return (0, 0), None
+
+    # Sort by date and get the latest
+    files_with_dates = [(f, parse_filename_date(f)) for f in pivot_files]
+    files_with_dates = [(f, date, label) for f, (date, label) in files_with_dates if label]
+
+    if not files_with_dates:
+        raise ValueError("Could not parse dates from pivot file names")
+
+    latest_file, _, date_label = max(files_with_dates, key=lambda x: x[1])
+    return latest_file, date_label
 
 
-def load_mf_data(path: Path = MF_DATA_PATH):
-    """Load mutual fund data"""
+def load_mf_data(path: Path = None):
+    """Load mutual fund data from latest pivot file"""
+    if path is None:
+        path, date_label = find_latest_pivot_file()
+        print(f"Using pivot file: {path.name} ({date_label})")
+    else:
+        # Extract date label from provided path
+        match = re.match(r'([A-Za-z]+\d+)_pivot_features\.xlsx', path.name)
+        date_label = match.group(1) if match else "Unknown"
+
     df = pd.read_excel(path, sheet_name="Summary Data")
-    return df
+    return df, date_label
 
 
 def get_latest_prev_bb_cols(df: pd.DataFrame):
