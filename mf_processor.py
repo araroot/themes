@@ -139,7 +139,7 @@ def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
                          portfolio_symbols: set):
     """
     Build MF table matching the theme structure from Ranks tab
-    Shows last 3 BB values by theme (comma-separated)
+    Shows last 3 BB values by theme (comma-separated in brackets)
     """
 
     if latest_col is None:
@@ -162,8 +162,8 @@ def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
             bb_last_3 = get_symbol_bb_last_3(mf_df, symbol, bb_cols_sorted)
 
             if bb_last_3:
-                # Build display string: "SYMBOL value1, value2, value3"
-                bb_text = f"{symbol} {', '.join(map(str, bb_last_3))}"
+                # Build display string: "SYMBOL(value1,value2,value3)"
+                bb_text = f"{symbol}({','.join(map(str, bb_last_3))})"
 
                 # Separate portfolio vs others
                 if symbol in portfolio_symbols:

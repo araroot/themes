@@ -12,8 +12,8 @@ def parse_symbols_from_html(html_str: str):
     """
     Parse HTML string to extract symbols in order with their data
     Returns: OrderedDict of {symbol: html_fragment}
-    Example: "SBIN 4 <span...>, AXIS 3 <span...>" or "SBIN 8, 4, 4, AXIS 5, 3, 2"
-    Returns: {'SBIN': '4 <span...>', 'AXIS': '3 <span...>'} or {'SBIN': '8, 4, 4', 'AXIS': '5, 3, 2'}
+    Example: "SBIN 4 <span...>, AXIS 3 <span...>" or "SBIN(8,4,4), AXIS(5,3,2)"
+    Returns: {'SBIN': '4 <span...>', 'AXIS': '3 <span...>'} or {'SBIN': '(8,4,4)', 'AXIS': '(5,3,2)'}
     """
     from collections import OrderedDict
 
@@ -23,15 +23,24 @@ def parse_symbols_from_html(html_str: str):
     symbols = OrderedDict()
 
     # Split by ", " followed by capital letter (lookahead) - this separates symbols
-    # but preserves ", " within BB values like "8, 4, 4"
-    parts = re.split(r',\s+(?=[A-Z0-9&\-]+\s+)', html_str)
+    # Pattern handles both "SYM value <span>" and "SYM(val1,val2,val3)"
+    parts = re.split(r',\s+(?=[A-Z0-9&\-]+[\s\(])', html_str)
 
     for part in parts:
         part = part.strip()
         if not part:
             continue
 
-        # Extract symbol (first word, all caps/special chars before first space)
+        # Extract symbol - can be followed by space or opening parenthesis
+        # Pattern 1: "SYMBOL(...)" - BB format
+        match = re.match(r'^([A-Z0-9&\-]+)(\(.+?\))$', part)
+        if match:
+            symbol = match.group(1)
+            value_html = match.group(2)
+            symbols[symbol] = value_html
+            continue
+
+        # Pattern 2: "SYMBOL value..." - Rank format
         match = re.match(r'^([A-Z0-9&\-]+)\s+(.+)$', part)
         if match:
             symbol = match.group(1)
@@ -60,12 +69,13 @@ def reorder_bb_to_match_rank(rank_html: str, bb_html: str):
 
     for symbol in rank_symbols.keys():
         if symbol in bb_symbols:
-            reordered_parts.append(f"{symbol} {bb_symbols[symbol]}")
+            # BB values are in format "(val1,val2,val3)" - include them with symbol
+            reordered_parts.append(f"{symbol}{bb_symbols[symbol]}")
 
     # Add any BB symbols not in Rank (at the end)
     for symbol, value_html in bb_symbols.items():
         if symbol not in rank_symbols:
-            reordered_parts.append(f"{symbol} {value_html}")
+            reordered_parts.append(f"{symbol}{value_html}")
 
     return ", ".join(reordered_parts)
 
