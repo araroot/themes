@@ -31,8 +31,8 @@ def parse_symbols_from_html(html_str: str):
             continue
 
         # Extract symbol - can be followed by space or opening parenthesis
-        # Pattern 1: "SYMBOL(...)" - BB format
-        match = re.match(r'^([A-Z0-9&\-]+)(\(.+?\))$', part)
+        # Pattern 1: "SYMBOL (...)" or "SYMBOL(...)" - BB format (with or without space)
+        match = re.match(r'^([A-Z0-9&\-]+)\s*(\(.+?\))$', part)
         if match:
             symbol = match.group(1)
             value_html = match.group(2)
@@ -68,13 +68,13 @@ def reorder_bb_to_match_rank(rank_html: str, bb_html: str):
 
     for symbol in rank_symbols.keys():
         if symbol in bb_symbols:
-            # BB values are in format "(val1,val2,val3)" - include them with symbol
-            reordered_parts.append(f"{symbol}{bb_symbols[symbol]}")
+            # BB values are in format "(val1,val2,val3)" - include them with symbol and space
+            reordered_parts.append(f"{symbol} {bb_symbols[symbol]}")
 
     # Add any BB symbols not in Rank (at the end)
     for symbol, value_html in bb_symbols.items():
         if symbol not in rank_symbols:
-            reordered_parts.append(f"{symbol}{value_html}")
+            reordered_parts.append(f"{symbol} {value_html}")
 
     return "<br/>".join(reordered_parts)
 

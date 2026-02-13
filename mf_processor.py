@@ -162,8 +162,8 @@ def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
             bb_last_3 = get_symbol_bb_last_3(mf_df, symbol, bb_cols_sorted)
 
             if bb_last_3:
-                # Build display string: "SYMBOL(value1,value2,value3)"
-                bb_text = f"{symbol}({','.join(map(str, bb_last_3))})"
+                # Build display string: "SYMBOL (value1,value2,value3)" with space before bracket
+                bb_text = f"{symbol} ({','.join(map(str, bb_last_3))})"
 
                 # Separate portfolio vs others
                 if symbol in portfolio_symbols:
