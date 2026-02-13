@@ -12,7 +12,7 @@ def parse_symbols_from_html(html_str: str):
     """
     Parse HTML string to extract symbols in order with their data
     Returns: OrderedDict of {symbol: html_fragment}
-    Example: "SBIN 4 <span...>, AXIS 3 <span...>" or "SBIN(8,4,4), AXIS(5,3,2)"
+    Example: "SBIN 4 <span...><br/>AXIS 3 <span...>" or "SBIN(8,4,4)<br/>AXIS(5,3,2)"
     Returns: {'SBIN': '4 <span...>', 'AXIS': '3 <span...>'} or {'SBIN': '(8,4,4)', 'AXIS': '(5,3,2)'}
     """
     from collections import OrderedDict
@@ -22,9 +22,8 @@ def parse_symbols_from_html(html_str: str):
 
     symbols = OrderedDict()
 
-    # Split by ", " followed by capital letter (lookahead) - this separates symbols
-    # Pattern handles both "SYM value <span>" and "SYM(val1,val2,val3)"
-    parts = re.split(r',\s+(?=[A-Z0-9&\-]+[\s\(])', html_str)
+    # Split by <br/> to get individual symbol entries (one per line)
+    parts = re.split(r'<br\s*/?>', html_str, flags=re.IGNORECASE)
 
     for part in parts:
         part = part.strip()
@@ -77,7 +76,7 @@ def reorder_bb_to_match_rank(rank_html: str, bb_html: str):
         if symbol not in rank_symbols:
             reordered_parts.append(f"{symbol}{value_html}")
 
-    return ", ".join(reordered_parts)
+    return "<br/>".join(reordered_parts)
 
 
 def build_combined_theme_table(
@@ -187,9 +186,9 @@ def render_combined_table(rows, latest_date_str: str = "2026-01-31"):
                 <td class='col-theme'>{theme}</td>
                 <td class='col-median'>{rank_median}</td>
                 <td class='col-list'>{portfolio_rank}</td>
-                <td class='col-list'>{portfolio_bb}</td>
+                <td class='col-bb'>{portfolio_bb}</td>
                 <td class='col-list'>{others_rank}</td>
-                <td class='col-list'>{others_bb}</td>
+                <td class='col-bb'>{others_bb}</td>
             </tr>
         """)
 

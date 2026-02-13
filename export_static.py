@@ -325,6 +325,15 @@ def main():
         line-height: 1.6;
       }}
 
+      .tp-table .col-bb {{
+        text-align: right;
+        color: #495057;
+        font-weight: 400;
+        white-space: normal;
+        word-break: break-word;
+        line-height: 1.6;
+      }}
+
       .delta-up {{
         color: #28a745;
         font-weight: 700;
@@ -356,6 +365,15 @@ def main():
       .combined-table strong {{
         color: #2c3e50;
         font-weight: 600;
+      }}
+
+      .combined-table .col-bb {{
+        text-align: right;
+        color: #495057;
+        font-weight: 400;
+        white-space: normal;
+        word-break: break-word;
+        line-height: 1.6;
       }}
 
       @media (max-width: 768px) {{

@@ -173,8 +173,8 @@ def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
 
         row = {
             "Theme": theme,
-            "Portfolio": ", ".join(portfolio_cells),
-            "Others": ", ".join(other_cells)
+            "Portfolio": "<br/>".join(portfolio_cells),
+            "Others": "<br/>".join(other_cells)
         }
         rows.append(row)
 
@@ -204,8 +204,8 @@ def render_mf_theme_table(rows, latest_date_str: str = "Dec 2025"):
 
         cells = [
             f"<td class='col-theme'>{theme}</td>",
-            f"<td class='col-list'>{portfolio}</td>",
-            f"<td class='col-list'>{others}</td>",
+            f"<td class='col-bb'>{portfolio}</td>",
+            f"<td class='col-bb'>{others}</td>",
         ]
         body_rows.append("<tr>" + "".join(cells) + "</tr>")
 

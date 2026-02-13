@@ -183,10 +183,10 @@ def build_theme_table(
         row = {
             "Theme": theme,
             "Median (Latest Δ)": med_cell,
-            "Portfolio": ", ".join(portfolio_cells),
+            "Portfolio": "<br/>".join(portfolio_cells),
         }
         if show_non_portfolio:
-            row["Others"] = ", ".join(other_cells)
+            row["Others"] = "<br/>".join(other_cells)
         rows.append(row)
     return rows
 
