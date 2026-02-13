@@ -332,7 +332,6 @@ def main():
         white-space: normal;
         word-break: break-word;
         line-height: 1.6;
-        font-family: 'Courier New', Courier, monospace;
       }}
 
       .delta-up {{
@@ -375,7 +374,6 @@ def main():
         white-space: normal;
         word-break: break-word;
         line-height: 1.6;
-        font-family: 'Courier New', Courier, monospace;
       }}
 
       @media (max-width: 768px) {{
