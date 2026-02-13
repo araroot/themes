@@ -12,8 +12,8 @@ def parse_symbols_from_html(html_str: str):
     """
     Parse HTML string to extract symbols in order with their data
     Returns: OrderedDict of {symbol: html_fragment}
-    Example: "SBIN 4 <span...>, AXIS 3 <span...>"
-    Returns: {'SBIN': '4 <span...>', 'AXIS': '3 <span...>'}
+    Example: "SBIN 4 <span...>, AXIS 3 <span...>" or "SBIN 8, 4, 4, AXIS 5, 3, 2"
+    Returns: {'SBIN': '4 <span...>', 'AXIS': '3 <span...>'} or {'SBIN': '8, 4, 4', 'AXIS': '5, 3, 2'}
     """
     from collections import OrderedDict
 
@@ -22,15 +22,20 @@ def parse_symbols_from_html(html_str: str):
 
     symbols = OrderedDict()
 
-    # Split by comma-space to get individual stock entries
-    parts = [p.strip() for p in html_str.split(', ') if p.strip()]
+    # Split by ", " followed by capital letter (lookahead) - this separates symbols
+    # but preserves ", " within BB values like "8, 4, 4"
+    parts = re.split(r',\s+(?=[A-Z0-9&\-]+\s+)', html_str)
 
     for part in parts:
-        # Extract symbol (first word, all caps/special chars before first space+digit)
+        part = part.strip()
+        if not part:
+            continue
+
+        # Extract symbol (first word, all caps/special chars before first space)
         match = re.match(r'^([A-Z0-9&\-]+)\s+(.+)$', part)
         if match:
             symbol = match.group(1)
-            value_html = match.group(2)
+            value_html = match.group(2).strip()
             symbols[symbol] = value_html
 
     return symbols

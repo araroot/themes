@@ -63,8 +63,21 @@ def load_mf_data(path: Path = None):
 
 def get_latest_prev_bb_cols(df: pd.DataFrame):
     """Get latest and previous bb_ columns (chronologically)"""
+    bb_cols = get_all_bb_cols_sorted(df)
+
+    if len(bb_cols) >= 2:
+        latest = bb_cols[-1]
+        prev = bb_cols[-2]
+        return latest, prev
+    elif len(bb_cols) == 1:
+        return bb_cols[0], None
+    else:
+        return None, None
+
+
+def get_all_bb_cols_sorted(df: pd.DataFrame):
+    """Get all bb_ columns sorted chronologically"""
     import re
-    from datetime import datetime
 
     bb_cols = [c for c in df.columns if c.startswith('bb_') and c != 'bb_']
 
@@ -84,16 +97,7 @@ def get_latest_prev_bb_cols(df: pd.DataFrame):
             return (year, month)
         return (0, 0)
 
-    bb_cols_sorted = sorted(bb_cols, key=parse_date)
-
-    if len(bb_cols_sorted) >= 2:
-        latest = bb_cols_sorted[-1]
-        prev = bb_cols_sorted[-2]
-        return latest, prev
-    elif len(bb_cols_sorted) == 1:
-        return bb_cols_sorted[0], None
-    else:
-        return None, None
+    return sorted(bb_cols, key=parse_date)
 
 
 def get_symbol_bb_aggregated(df: pd.DataFrame, symbol: str, latest_col: str, prev_col: str):
@@ -110,16 +114,39 @@ def get_symbol_bb_aggregated(df: pd.DataFrame, symbol: str, latest_col: str, pre
     return latest_val, prev_val
 
 
+def get_symbol_bb_last_3(df: pd.DataFrame, symbol: str, bb_cols_sorted: list):
+    """Get last 3 BB values for a symbol"""
+    symbol_df = df[df['Symbol'] == symbol]
+
+    if len(symbol_df) == 0:
+        return []
+
+    # Get last 3 columns
+    last_3_cols = bb_cols_sorted[-3:] if len(bb_cols_sorted) >= 3 else bb_cols_sorted
+
+    values = []
+    for col in last_3_cols:
+        if col in symbol_df.columns and len(symbol_df) > 0:
+            val = symbol_df[col].iloc[0]
+            if pd.notna(val):
+                values.append(int(val))
+
+    return values
+
+
 def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
                          selected_themes: list, theme_map: pd.DataFrame,
                          portfolio_symbols: set):
     """
     Build MF table matching the theme structure from Ranks tab
-    Shows BB flags by theme instead of ranks
+    Shows last 3 BB values by theme (comma-separated)
     """
 
     if latest_col is None:
         return []
+
+    # Get all BB columns sorted chronologically
+    bb_cols_sorted = get_all_bb_cols_sorted(mf_df)
 
     rows = []
 
@@ -129,30 +156,20 @@ def build_mf_theme_table(mf_df: pd.DataFrame, latest_col: str, prev_col: str,
 
         portfolio_cells = []
         other_cells = []
-        bb_values = []  # For calculating median
 
         for symbol in theme_symbols:
-            latest_bb, prev_bb = get_symbol_bb_aggregated(mf_df, symbol, latest_col, prev_col)
+            # Get last 3 BB values
+            bb_last_3 = get_symbol_bb_last_3(mf_df, symbol, bb_cols_sorted)
 
-            if pd.notna(latest_bb):
-                bb_values.append(latest_bb)
-
-                # Build display string (all integers)
-                if pd.notna(prev_bb):
-                    delta = int(latest_bb - prev_bb)
-                    arrow = "▲" if delta > 0 else "▼" if delta < 0 else "•"
-                    klass = "delta-up" if delta > 0 else "delta-down" if delta < 0 else "delta-flat"
-                    bb_text = f"{symbol} {int(latest_bb)} <span class='{klass}'>({arrow}{abs(delta)})</span>"
-                else:
-                    bb_text = f"{symbol} {int(latest_bb)}"
+            if bb_last_3:
+                # Build display string: "SYMBOL value1, value2, value3"
+                bb_text = f"{symbol} {', '.join(map(str, bb_last_3))}"
 
                 # Separate portfolio vs others
                 if symbol in portfolio_symbols:
                     portfolio_cells.append(bb_text)
                 else:
                     other_cells.append(bb_text)
-
-        # No median BB calculation - not needed
 
         row = {
             "Theme": theme,
