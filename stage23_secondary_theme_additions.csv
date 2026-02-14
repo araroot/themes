@@ -1,0 +1,101 @@
+Symbol,PrimaryTheme,SecondaryTheme,Rationale
+ATHERENERG,EV Mobility Stack - 2W OEMs,2W/3W OEMs,EV thesis + 2W OEM volume/mix cycle
+OLAELEC,EV Mobility Stack - 2W OEMs,2W/3W OEMs,EV thesis + 2W OEM volume/mix cycle
+JTEKTINDIA,EV Mobility Stack - Components & Systems,Auto Components - Driveline / Chassis,EV component thesis + steering/driveline content share
+SCHAEFFLER,EV Mobility Stack - Components & Systems,Auto Components - Driveline / Chassis,EV component thesis + drivetrain/bearing content share
+SONACOMS,EV Mobility Stack - Components & Systems,Auto Components - Driveline / Chassis,EV component thesis + drivetrain systems cycle
+ZFCVINDIA,EV Mobility Stack - Components & Systems,Auto Components - Driveline / Chassis,EV component thesis + CV axle/driveline cycle
+EXIDEIND,EV Mobility Stack - Components & Systems,"Auto Components - Electrical, Interiors & Lighting",EV component thesis + battery/electrical systems cycle
+UNOMINDA,EV Mobility Stack - Components & Systems,"Auto Components - Electrical, Interiors & Lighting",EV component thesis + cockpit/electrical systems cycle
+BOSCHLTD,EV Mobility Stack - Components & Systems,"Auto Components - Precision, Systems & Harnesses",EV component thesis + auto systems engineering cycle
+INDIAMART,India Digital Stack - Enterprise Platforms,B2B Distribution Platforms,Enterprise platform + B2B commerce network effects
+UNIECOM,India Digital Stack - Enterprise Platforms,B2B Distribution Platforms,Enterprise platform + merchant enablement/distribution
+BUILDPRO,B2B Distribution Platforms,Cement - Regional / Midcap,B2B distribution + building materials demand cycle
+OPTIEMUS,B2B Distribution Platforms,Consumer Durables & Electronics,B2B distribution + electronics channel cycle
+REDINGTON,B2B Distribution Platforms,Consumer Durables & Electronics,B2B distribution + IT/electronics channel cycle
+AWL,Adani Ecosystem,Consumer Staples Brands,Adani ownership + staples/FMCG cycle
+ETERNAL,India Digital Stack - Consumer Internet,Digital Marketplace & Logistics Platforms,Consumer internet + on-demand commerce/logistics flywheel
+SWIGGY,India Digital Stack - Consumer Internet,Digital Marketplace & Logistics Platforms,Consumer internet + logistics marketplace economics
+URBANCO,India Digital Stack - Consumer Internet,Digital Marketplace & Logistics Platforms,Consumer internet + service marketplace matching
+STLTECH,India Digital Stack - Connectivity & Infra,"Electrical Cables, Wires & Conductors",Digital infra + fiber cable capex cycle
+GROWW,Capital Markets Ecosystem - Digital Finance Platforms,Financial Services,Fintech platform + retail participation cycle
+PAYTM,Capital Markets Ecosystem - Digital Finance Platforms,Financial Services,Fintech platform + digital payments/financialization cycle
+PINELABS,Capital Markets Ecosystem - Digital Finance Platforms,Financial Services,Fintech platform + merchant acquiring cycle
+POLICYBZR,Capital Markets Ecosystem - Digital Finance Platforms,Financial Services,Fintech platform + insurance distribution cycle
+ZAGGLE,Capital Markets Ecosystem - Digital Finance Platforms,Financial Services,Fintech platform + corporate spends/payment rails cycle
+ENTERO,B2B Distribution Platforms,Healthcare Services Platforms,B2B distribution + pharma supply chain execution
+BRIGHOTEL,Tourism Ecosystem - Mobility & Hospitality,Hospitality Chains,Tourism ecosystem + hotel room cycle
+ITCHOTELS,Tourism Ecosystem - Mobility & Hospitality,Hospitality Chains,Tourism ecosystem + hotel room cycle
+JUNIPER,Tourism Ecosystem - Mobility & Hospitality,Hospitality Chains,Tourism ecosystem + hotel room cycle
+THELEELA,Tourism Ecosystem - Mobility & Hospitality,Hospitality Chains,Tourism ecosystem + hotel room cycle
+AGARWALEYE,Healthcare Services Platforms,Hospitals - Mid Cap,Healthcare services + specialty care utilization cycle
+NEPHROPLUS,Healthcare Services Platforms,Hospitals - Mid Cap,Healthcare services + specialty care utilization cycle
+LAXMIDENTL,Healthcare Services Platforms,Hospitals - Small Cap,Healthcare services + specialty care utilization cycle
+AFFLE,India Digital Stack - Enterprise Platforms,IT Products,Enterprise platform + ad-tech product model
+MAPMYINDIA,India Digital Stack - Enterprise Platforms,IT Products,Enterprise platform + map/IP product economics
+NETWEB,India Digital Stack - Data Center & Compute,IT Products,Data center thesis + server hardware exposure
+ROUTE,India Digital Stack - Enterprise Platforms,IT Products,Enterprise platform + communication API product model
+RPTECH,B2B Distribution Platforms,IT Products,B2B distribution + enterprise hardware cycle
+BBOX,India Digital Stack - Connectivity & Infra,IT Services - Enterprise / BFSI,Digital infra + enterprise network services
+CAPILLARY,India Digital Stack - Enterprise Platforms,IT Services - Enterprise / BFSI,Enterprise platform + enterprise SaaS implementation cycle
+IKS,Healthcare Services Platforms,IT Services - Enterprise / BFSI,Healthcare services + healthcare BPM/digital services
+INDGN,Healthcare Services Platforms,IT Services - Enterprise / BFSI,Healthcare services + healthcare tech services
+MPSLTD,India Digital Stack - Enterprise Platforms,IT Services - Enterprise / BFSI,Enterprise platform + outsourced digital workflow services
+CARTRADE,Digital Marketplace & Logistics Platforms,India Digital Stack - Consumer Internet,Marketplace model + auto retail demand funnel
+IXIGO,Tourism Ecosystem - Discovery & Booking,India Digital Stack - Consumer Internet,Travel discovery + consumer booking funnel
+JUSTDIAL,India Digital Stack - Enterprise Platforms,India Digital Stack - Consumer Internet,Enterprise ad platform + consumer local search demand
+NAUKRI,India Digital Stack - Enterprise Platforms,India Digital Stack - Consumer Internet,Enterprise HR platform + consumer job marketplace
+YATRA,Tourism Ecosystem - Discovery & Booking,India Digital Stack - Consumer Internet,Travel discovery + consumer booking funnel
+E2E,India Digital Stack - Connectivity & Infra,India Digital Stack - Data Center & Compute,Connectivity infra + cloud/data-center exposure
+TBOTEK,Tourism Ecosystem - Discovery & Booking,India Digital Stack - Enterprise Platforms,Travel discovery + B2B travel distribution platform
+BLACKBUCK,Digital Marketplace & Logistics Platforms,Infra Buildout - Logistics Networks,Marketplace model + freight network utilization
+DELHIVERY,Digital Marketplace & Logistics Platforms,Infra Buildout - Logistics Networks,Marketplace model + logistics network density
+GMRAIRPORT,Tourism Ecosystem - Mobility & Hospitality,Infra Buildout - Logistics Networks,Tourism ecosystem + airport infra throughput
+ADANIPORTS,Adani Ecosystem,Infra Buildout - Ports & Maritime,Adani ownership + ports throughput cycle
+IRCTC,Tourism Ecosystem - Discovery & Booking,Infra Buildout - Rail Mobility,Travel discovery + rail network operating leverage
+MEDIASSIST,Healthcare Services Platforms,Insurance,Healthcare services + insurance claims processing linkage
+KALYANKJIL,Luxury Retail & Premium Consumption,Jewellery,Premium consumption + jewelry demand cycle
+SKYGOLD,Luxury Retail & Premium Consumption,Jewellery,Premium consumption + jewelry demand cycle
+THANGAMAYL,Luxury Retail & Premium Consumption,Jewellery,Premium consumption + jewelry demand cycle
+TITAN,Luxury Retail & Premium Consumption,Jewellery,Premium consumption + jewelry demand cycle
+AMAGI,India Digital Stack - Enterprise Platforms,Media & Broadcasting Platforms,Enterprise platform + media tech monetization
+NAZARA,India Digital Stack - Enterprise Platforms,Media & Music,Enterprise platform + digital content/gaming monetization
+ETHOSLTD,Luxury Retail & Premium Consumption,Niche Retail & Entertainment,Premium consumption + specialty retail demand
+LENSKART,Luxury Retail & Premium Consumption,Organized Retail - Large Format,Premium consumption + organized retail unit economics
+MEDPLUS,Healthcare Services Platforms,Organized Retail - Large Format,Healthcare services + pharmacy retail cycle
+FIRSTCRY,India Digital Stack - Consumer Internet,Organized Retail - Value & Fashion,Consumer internet + omni retail inventory cycle
+MEESHO,India Digital Stack - Consumer Internet,Organized Retail - Value & Fashion,Consumer internet + value retail demand cycle
+NYKAA,India Digital Stack - Consumer Internet,Organized Retail - Value & Fashion,Consumer internet + beauty retail merchandising cycle
+RAYMONDLSL,Luxury Retail & Premium Consumption,Organized Retail - Value & Fashion,Premium consumption + apparel retail cycle
+STYL,Luxury Retail & Premium Consumption,Organized Retail - Value & Fashion,Premium consumption + apparel retail cycle
+GLAND,Pharma CDMO - Advanced Platforms,Pharma - Export Generics - Large Cap,CDMO platform + injectables export cycle
+PPLPHARMA,Pharma CDMO - Advanced Platforms,Pharma - Specialty / Emerging,CDMO platform + niche portfolio cycle
+CONCORDBIO,Pharma CDMO - Advanced Platforms,Pharma API & Intermediates,CDMO platform + API fermentation demand cycle
+DIVISLAB,Pharma CDMO - Advanced Platforms,Pharma API & Intermediates,CDMO platform + API/intermediates scale economics
+LAURUSLABS,Pharma CDMO - Advanced Platforms,Pharma API & Intermediates,CDMO platform + API/intermediates cycle
+ANTHEM,Pharma CDMO - Advanced Platforms,Pharma CDMO - Core Contract Manufacturing,Advanced CDMO + core contract manufacturing overlap
+RUBICON,Pharma CDMO - Advanced Platforms,Pharma CDMO - Core Contract Manufacturing,Advanced CDMO + core contract manufacturing overlap
+ENRIN,Renewables & Energy Transition,Power Equip - Grid & T&D,Energy transition + grid equipment capex cycle
+QPOWER,Renewables & Energy Transition,Power Equip - Grid & T&D,Energy transition + electrical equipment order cycle
+TECHNOE,India Digital Stack - Data Center & Compute,Power Equip - Grid & T&D,Data center thesis + power infra EPC exposure
+ADANIPOWER,Adani Ecosystem,Power Utilities - Generation & Renewables,Adani ownership + power generation cycle
+NTPCGREEN,Renewables & Energy Transition,Power Utilities - Generation & Renewables,Energy transition + renewable utility generation cycle
+ADANIENSOL,Adani Ecosystem,Power Utilities - Regulated / Transmission,Adani ownership + power transmission utility cycle
+TRAVELFOOD,Tourism Ecosystem - Mobility & Hospitality,Quick Service Restaurants,Tourism ecosystem + airport F&B throughput
+ANANTRAJ,India Digital Stack - Data Center & Compute,Real Estate - Commercial / Leasing,Data center thesis + land/lease economics
+AWFIS,Flexible Workspaces & Office Platforms,Real Estate - Commercial / Leasing,Workspace model + office absorption cycle
+INDIQUBE,Flexible Workspaces & Office Platforms,Real Estate - Commercial / Leasing,Workspace model + office absorption cycle
+PHOENIXLTD,Luxury Retail & Premium Consumption,Real Estate - Commercial / Leasing,Premium consumption + mall leasing/footfall cycle
+SMARTWORKS,Flexible Workspaces & Office Platforms,Real Estate - Commercial / Leasing,Workspace model + office absorption cycle
+WEWORK,Flexible Workspaces & Office Platforms,Real Estate - Commercial / Leasing,Workspace model + office absorption cycle
+ADANIGREEN,Adani Ecosystem,Renewables & Energy Transition,Adani ownership + renewable generation cycle
+ACMESOLAR,Renewables & Energy Transition,Renewables - Solar,Energy transition + utility solar execution cycle
+EMMVEE,Renewables & Energy Transition,Renewables - Solar,Energy transition + solar module manufacturing cycle
+SAATVIKGL,Renewables & Energy Transition,Renewables - Solar,Energy transition + solar module manufacturing cycle
+SUZLON,Renewables & Energy Transition,Renewables - Wind,Energy transition + wind turbine order cycle
+TRUALT,Renewables & Energy Transition,Sugar & Bioenergy,Energy transition + ethanol/bioenergy economics
+BHARTIARTL,India Digital Stack - Connectivity & Infra,Telecom Operators & Tower Infra,Digital stack + telecom operator coverage
+BHARTIHEXA,India Digital Stack - Connectivity & Infra,Telecom Operators & Tower Infra,Digital stack + telecom operator coverage
+IDEA,India Digital Stack - Connectivity & Infra,Telecom Operators & Tower Infra,Digital stack + telecom operator coverage
+RAILTEL,India Digital Stack - Connectivity & Infra,Telecom Operators & Tower Infra,Digital stack + telecom infra operator coverage
+THOMASCOOK,Tourism Ecosystem - Discovery & Booking,Tourism Ecosystem - Mobility & Hospitality,Travel booking + packaged travel operations

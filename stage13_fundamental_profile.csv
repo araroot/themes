@@ -1,0 +1,819 @@
+Symbol,sector_mode,sector_obs,sector_mode_share,industry_mode,industry_obs,industry_mode_share,industry_variants,debug_theme,has_sector,has_industry,has_debug
+360ONE,Financial Services,27,1.0,Other Financial Services,27,1.0,1,Wealth Mgr,True,True,True
+3MINDIA,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+AADHARHFC,,0,0.0,,0,0.0,0,Housing Fin,False,False,True
+AARTIDRUGS,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+AARTIIND,Basic Materials,32,1.0,Specialty Chemicals,32,1.0,1,,True,True,False
+AARTIPHARM,Healthcare,20,1.0,Pharmaceuticals,20,1.0,1,,True,True,False
+AAVAS,Financial Services,27,1.0,Housing Finance,27,1.0,1,Housing Fin,True,True,True
+ABB,Industrials,27,1.0,Heavy Electrical Equipment,27,1.0,1,,True,True,False
+ABBOTINDIA,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+ABCAPITAL,Financial Services,27,1.0,Holding Companies,27,1.0,1,NBFC,True,True,True
+ABDL,,0,0.0,,0,0.0,0,Sin Stocks,False,False,True
+ABFRL,Consumer Cyclical,27,1.0,Department Stores,27,1.0,1,,True,True,False
+ABLBL,,0,0.0,,0,0.0,0,,False,False,False
+ABREL,,0,0.0,,0,0.0,0,Real Estate,False,False,True
+ABSLAMC,Financial Services,27,1.0,Asset Management Cos.,27,1.0,1,,True,True,False
+ACC,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,,True,True,False
+ACI,Basic Materials,27,1.0,Commodity Chemicals,27,1.0,1,,True,True,False
+ACMESOLAR,,0,0.0,,0,0.0,0,,False,False,False
+ACUTAAS,,0,0.0,,0,0.0,0,Cdmo,False,False,True
+ADANIENSOL,Utilities,4,1.0,Electric Utilities,4,1.0,1,,True,True,False
+ADANIENT,Energy,8,1.0,Commodity Trading & Distribution,8,1.0,1,Infra,True,True,True
+ADANIGREEN,Utilities,19,1.0,Electric Utilities,19,1.0,1,,True,True,False
+ADANIPORTS,Industrials,27,1.0,Marine Port & Services,27,1.0,1,Infra,True,True,True
+ADANIPOWER,Utilities,21,1.0,Electric Utilities,21,1.0,1,Infra,True,True,True
+ADVENZYMES,Basic Materials,27,1.0,Biotechnology,27,1.0,1,,True,True,False
+AEGISLOG,Energy,6,1.0,Oil Marketing & Distribution,6,1.0,1,Oil/gas,True,True,True
+AEGISVOPAK,,0,0.0,,0,0.0,0,,False,False,False
+AEQUS,,0,0.0,,0,0.0,0,,False,False,False
+AETHER,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+AFCONS,,0,0.0,,0,0.0,0,,False,False,False
+AFFLE,Communication Services,27,1.0,Internet Software & Services,27,1.0,1,,True,True,False
+AGARWALEYE,,0,0.0,,0,0.0,0,,False,False,False
+AGI,Consumer Cyclical,26,1.0,Furniture-Furnishing-Paints,26,0.6153846153846154,2,,True,True,False
+AHLUCONT,Industrials,27,1.0,Construction & Engineering,27,1.0,1,,True,True,False
+AIAENG,Industrials,27,1.0,Other Industrial Goods,27,1.0,1,Mine Supply,True,True,True
+AIIL,,0,0.0,,0,0.0,0,,False,False,False
+AJANTPHARM,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+AJAXENGG,,0,0.0,,0,0.0,0,,False,False,False
+AKUMS,,0,0.0,,0,0.0,0,,False,False,False
+AKZOINDIA,Basic Materials,27,1.0,Furniture-Furnishing-Paints,27,1.0,1,,True,True,False
+ALIVUS,,0,0.0,,0,0.0,0,,False,False,False
+ALKEM,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+AMAGI,,0,0.0,,0,0.0,0,,False,False,False
+AMBER,Consumer Cyclical,27,1.0,Consumer Electronics,27,1.0,1,EMS,True,True,True
+AMBUJACEM,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,,True,True,False
+AMRUTANJAN,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+ANANDRATHI,Financial Services,27,1.0,Other Financial Services,27,0.6296296296296297,2,Wealth Mgr,True,True,True
+ANANTRAJ,Real Estate,17,1.0,Realty,17,1.0,1,Data Centers,True,True,True
+ANGELONE,Financial Services,27,1.0,Capital Markets,27,1.0,1,,True,True,False
+ANTHEM,,0,0.0,,0,0.0,0,,False,False,False
+ANUP,,0,0.0,,0,0.0,0,Engineering,False,False,True
+ANURAS,Basic Materials,27,1.0,Agrochemicals,27,0.6296296296296297,2,,True,True,False
+APARINDS,Industrials,27,1.0,Other Electrical Equipment/Products,27,1.0,1,CABLES,True,True,True
+APLAPOLLO,Basic Materials,27,1.0,Iron & Steel Products,27,1.0,1,Metals,True,True,True
+APLLTD,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+APOLLOHOSP,Healthcare,27,1.0,Healthcare Facilities,27,1.0,1,Hospitals,True,True,True
+APOLLOTYRE,Consumer Cyclical,27,1.0,Auto Tyres & Rubber Products,27,1.0,1,,True,True,False
+APTUS,Financial Services,27,1.0,Housing Finance,27,1.0,1,Housing Fin,True,True,True
+ARE&M,Industrials,16,1.0,Auto Parts & Equipment,16,1.0,1,,True,True,False
+ARTEMISMED,Healthcare,19,1.0,Healthcare Facilities,19,1.0,1,,True,True,False
+ARVIND,Consumer Cyclical,27,1.0,Textiles,27,1.0,1,Textile,True,True,True
+ARVINDFASN,Consumer Cyclical,27,1.0,Other Apparels & Accessories,27,1.0,1,,True,True,False
+ARVSMART,Real Estate,27,1.0,Realty,27,1.0,1,,True,True,False
+ASAHIINDIA,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+ASHAPURMIN,,0,0.0,,0,0.0,0,,False,False,False
+ASHOKA,Industrials,27,1.0,Roads & Highways,27,1.0,1,,True,True,False
+ASHOKLEY,Industrials,27,1.0,Commercial Vehicles,27,1.0,1,CV,True,True,True
+ASIANPAINT,Basic Materials,27,1.0,Furniture-Furnishing-Paints,27,1.0,1,,True,True,False
+ASTERDM,Healthcare,27,1.0,Healthcare Facilities,27,1.0,1,Hospitals,True,True,True
+ASTRAL,Industrials,27,1.0,Plastic Products,27,1.0,1,,True,True,False
+ASTRAMICRO,Technology,25,1.0,Defence,25,1.0,1,,True,True,False
+ASTRAZEN,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+ATHERENERG,,0,0.0,,0,0.0,0,,False,False,False
+ATLANTAELE,,0,0.0,,0,0.0,0,,False,False,False
+ATUL,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+AUBANK,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+AUROPHARMA,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+AUTOAXLES,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+AVALON,Technology,20,1.0,Heavy Electrical Equipment,20,1.0,1,EMS,True,True,True
+AVANTIFEED,Consumer Defensive,27,1.0,Other Food Products,27,1.0,1,,True,True,False
+AVL,Consumer Cyclical,17,1.0,Specialty Retail,17,1.0,1,Retail,True,True,True
+AWFIS,,0,0.0,,0,0.0,0,Unique Biz Models,False,False,True
+AWL,,0,0.0,,0,0.0,0,,False,False,False
+AXISBANK,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+AZAD,Industrials,9,1.0,Industrial Machinery,9,1.0,1,,True,True,False
+BAJAJ-AUTO,Consumer Cyclical,27,1.0,2/3 Wheelers,27,1.0,1,2w,True,True,True
+BAJAJCON,Consumer Defensive,26,1.0,Personal Products,26,1.0,1,,True,True,False
+BAJAJELEC,Consumer Cyclical,16,1.0,Household Appliances,16,1.0,1,,True,True,False
+BAJAJFINSV,Financial Services,27,1.0,Holding Companies,27,1.0,1,Insurance,True,True,True
+BAJAJHFL,,0,0.0,,0,0.0,0,,False,False,False
+BAJAJHLDNG,Financial Services,27,1.0,Holding Companies,27,1.0,1,,True,True,False
+BAJEL,Utilities,2,1.0,Heavy Electrical Equipment,2,1.0,1,,True,True,False
+BAJFINANCE,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,NBFC,True,True,True
+BALKRISIND,Consumer Cyclical,27,1.0,Auto Tyres & Rubber Products,27,1.0,1,,True,True,False
+BALRAMCHIN,Consumer Defensive,27,1.0,Sugar,27,1.0,1,,True,True,False
+BANDHANBNK,Financial Services,27,1.0,Banks,27,1.0,1,,True,True,False
+BANKBARODA,Financial Services,27,1.0,Banks,27,1.0,1,PSU Bank,True,True,True
+BANKINDIA,Financial Services,27,1.0,Banks,27,1.0,1,,True,True,False
+BANSALWIRE,,0,0.0,,0,0.0,0,Metal Wires,False,False,True
+BASF,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+BATAINDIA,Consumer Cyclical,27,1.0,Footwear,27,1.0,1,,True,True,False
+BAYERCROP,Basic Materials,27,1.0,Agrochemicals,27,1.0,1,,True,True,False
+BBL,Industrials,23,1.0,Other Electrical Equipment/Products,23,1.0,1,,True,True,False
+BBOX,,0,0.0,,0,0.0,0,,False,False,False
+BDL,Industrials,27,1.0,Defence,27,1.0,1,Defense (large),True,True,True
+BECTORFOOD,Consumer Defensive,27,1.0,Packaged Foods,27,1.0,1,,True,True,False
+BEL,Industrials,27,1.0,Defence,27,1.0,1,Defense (large),True,True,True
+BELRISE,,0,0.0,,0,0.0,0,Auto Comp,False,False,True
+BEML,Industrials,27,1.0,Commercial Vehicles,27,1.0,1,,True,True,False
+BERGEPAINT,Basic Materials,27,1.0,Furniture-Furnishing-Paints,27,1.0,1,,True,True,False
+BHARATCOAL,,0,0.0,,0,0.0,0,,False,False,False
+BHARATFORG,Consumer Cyclical,27,1.0,Other Industrial Products,27,1.0,1,,True,True,False
+BHARTIARTL,Communication Services,27,1.0,Telecom Services,27,1.0,1,Telecom,True,True,True
+BHARTIHEXA,,0,0.0,,0,0.0,0,,False,False,False
+BHEL,Industrials,27,1.0,Heavy Electrical Equipment,27,1.0,1,,True,True,False
+BIKAJI,Consumer Defensive,27,1.0,Packaged Foods,27,1.0,1,,True,True,False
+BIOCON,Healthcare,27,1.0,Biotechnology,27,1.0,1,Pharma,True,True,True
+BIRLACORPN,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,,True,True,False
+BLACKBUCK,,0,0.0,,0,0.0,0,,False,False,False
+BLUEDART,Industrials,27,1.0,Transportation - Logistics,27,1.0,1,,True,True,False
+BLUEJET,Healthcare,9,1.0,Pharmaceuticals,9,1.0,1,,True,True,False
+BLUESTARCO,Industrials,27,1.0,Consumer Electronics,27,1.0,1,AIRCON,True,True,True
+BLUESTONE,,0,0.0,,0,0.0,0,Jewellery,False,False,True
+BORORENEW,Consumer Cyclical,17,1.0,Houseware,17,1.0,1,,True,True,False
+BOSCHLTD,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+BPCL,Energy,27,1.0,Refineries/Petro-Products,27,1.0,1,,True,True,False
+BRIGADE,Real Estate,27,1.0,Realty,27,1.0,1,Real Estate,True,True,True
+BRIGHOTEL,,0,0.0,,0,0.0,0,,False,False,False
+BRITANNIA,Consumer Defensive,27,1.0,Packaged Foods,27,1.0,1,,True,True,False
+BSE,Financial Services,23,1.0,Exchange,23,1.0,1,Exchanges,True,True,True
+BSOFT,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+BUILDPRO,,0,0.0,,0,0.0,0,,False,False,False
+CAMPUS,Consumer Cyclical,27,1.0,Footwear,27,1.0,1,,True,True,False
+CAMS,Technology,27,1.0,Capital Markets,27,0.6296296296296297,2,Exchanges,True,True,True
+CANBK,Financial Services,27,1.0,Banks,27,1.0,1,PSU Bank,True,True,True
+CANFINHOME,Financial Services,27,1.0,Housing Finance,27,1.0,1,,True,True,False
+CANHLIFE,,0,0.0,,0,0.0,0,,False,False,False
+CAPILLARY,,0,0.0,,0,0.0,0,,False,False,False
+CAPLIPOINT,Healthcare,18,1.0,Pharmaceuticals,18,1.0,1,,True,True,False
+CARBORUNIV,Industrials,27,1.0,Other Industrial Products,27,1.0,1,,True,True,False
+CARERATING,Financial Services,27,1.0,Other Financial Services,27,1.0,1,,True,True,False
+CARRARO,,0,0.0,,0,0.0,0,,False,False,False
+CARTRADE,Consumer Cyclical,27,1.0,Internet & Catalogue Retail,27,1.0,1,New Gen,True,True,True
+CARYSIL,Consumer Cyclical,25,1.0,Household Products,25,1.0,1,,True,True,False
+CASTROLIND,Energy,27,1.0,Oil Marketing & Distribution,27,1.0,1,,True,True,False
+CCL,Consumer Defensive,27,1.0,Tea & Coffee,27,1.0,1,,True,True,False
+CDSL,Financial Services,27,1.0,Investment Companies,27,0.6296296296296297,2,Exchanges,True,True,True
+CEATLTD,Consumer Cyclical,27,1.0,Auto Tyres & Rubber Products,27,1.0,1,,True,True,False
+CEIGALL,,0,0.0,,0,0.0,0,,False,False,False
+CEMPRO,,0,0.0,,0,0.0,0,,False,False,False
+CENTUM,Technology,27,1.0,Electronic Components,27,1.0,1,,True,True,False
+CENTURYPLY,Basic Materials,27,1.0,Forest Products,27,1.0,1,,True,True,False
+CERA,Industrials,27,1.0,Furniture-Furnishing-Paints,27,1.0,1,,True,True,False
+CESC,Utilities,27,1.0,Electric Utilities,27,1.0,1,,True,True,False
+CGCL,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,,True,True,False
+CGPOWER,Industrials,32,1.0,Heavy Electrical Equipment,32,1.0,1,Power Equip,True,True,True
+CHALET,Consumer Cyclical,27,1.0,Hotels,27,1.0,1,HOTELS,True,True,True
+CHAMBLFERT,Basic Materials,27,1.0,Fertilizers,27,1.0,1,Fertilizer,True,True,True
+CHEMPLASTS,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+CHENNPETRO,Energy,17,1.0,Refineries/Petro-Products,17,1.0,1,,True,True,False
+CHOLAFIN,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,NBFC,True,True,True
+CHOLAHLDNG,Financial Services,27,1.0,Holding Companies,27,1.0,1,,True,True,False
+CIEINDIA,Consumer Cyclical,25,1.0,Auto Parts & Equipment,25,1.0,1,,True,True,False
+CIGNITITEC,Technology,19,1.0,IT Consulting & Software,19,1.0,1,,True,True,False
+CIPLA,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+CLEAN,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+CMSINFO,Industrials,27,1.0,Other Financial Services,27,1.0,1,,True,True,False
+COALINDIA,Energy,27,1.0,Coal,27,1.0,1,,True,True,False
+COFORGE,Technology,27,1.0,IT Consulting & Software,27,1.0,1,IT (mid),True,True,True
+COHANCE,,0,0.0,,0,0.0,0,,False,False,False
+COLPAL,Consumer Defensive,27,1.0,Personal Products,27,1.0,1,,True,True,False
+CONCOR,Industrials,27,1.0,Warehousing and Logistics,27,1.0,1,,True,True,False
+CONCORDBIO,Healthcare,9,1.0,Biotechnology,9,1.0,1,,True,True,False
+COROMANDEL,Basic Materials,27,1.0,Fertilizers,27,1.0,1,Fertilizer,True,True,True
+CORONA,,0,0.0,,0,0.0,0,,False,False,False
+CPPLUS,,0,0.0,,0,0.0,0,,False,False,False
+CRAFTSMAN,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,Auto Comp,True,True,True
+CRAMC,,0,0.0,,0,0.0,0,,False,False,False
+CREDITACC,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,Micro Fin,True,True,True
+CRISIL,Financial Services,27,1.0,Other Financial Services,27,1.0,1,,True,True,False
+CRIZAC,,0,0.0,,0,0.0,0,,False,False,False
+CROMPTON,Consumer Cyclical,27,1.0,Household Appliances,27,1.0,1,,True,True,False
+CSBBANK,Financial Services,27,1.0,Banks,27,1.0,1,,True,True,False
+CUB,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+CUMMINSIND,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+CYIENT,Industrials,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+CYIENTDLM,Technology,9,1.0,Electronic Components,9,1.0,1,,True,True,False
+DABUR,Consumer Defensive,27,1.0,Personal Products,27,1.0,1,FMCG,True,True,True
+DALBHARAT,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,Cement,True,True,True
+DAMCAPITAL,,0,0.0,,0,0.0,0,,False,False,False
+DATAPATTNS,Industrials,27,1.0,Defence,27,1.0,1,,True,True,False
+DCBBANK,Financial Services,27,1.0,Banks,27,1.0,1,,True,True,False
+DCMSHRIRAM,Basic Materials,27,1.0,Specialty Chemicals,27,0.6296296296296297,2,,True,True,False
+DEEPAKFERT,Basic Materials,27,1.0,Commodity Chemicals,27,1.0,1,Fertilizer,True,True,True
+DEEPAKNTR,Basic Materials,27,1.0,Commodity Chemicals,27,1.0,1,,True,True,False
+DELHIVERY,Industrials,32,1.0,Transportation - Logistics,32,1.0,1,New Gen,True,True,True
+DEVYANI,Consumer Cyclical,27,1.0,Restaurants,27,1.0,1,,True,True,False
+DHANUKA,Basic Materials,27,1.0,Agrochemicals,27,1.0,1,Agri,True,True,True
+DIVGIITTS,Consumer Cyclical,20,1.0,Auto Parts & Equipment,20,1.0,1,,True,True,False
+DIVISLAB,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+DIXON,Technology,27,1.0,Consumer Electronics,27,1.0,1,EMS,True,True,True
+DLF,Real Estate,27,1.0,Realty,27,1.0,1,Real Estate,True,True,True
+DMART,Consumer Defensive,27,1.0,Department Stores,27,1.0,1,,True,True,False
+DODLA,Consumer Defensive,27,1.0,Packaged Foods,27,1.0,1,,True,True,False
+DOMS,Industrials,9,1.0,Commodity Printing/Stationery,9,1.0,1,,True,True,False
+DREDGECORP,,0,0.0,,0,0.0,0,Dredging,False,False,True
+DRREDDY,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+DYNAMATECH,,0,0.0,,0,0.0,0,,False,False,False
+E2E,,0,0.0,,0,0.0,0,,False,False,False
+EBGNG,,0,0.0,,0,0.0,0,,False,False,False
+ECLERX,Technology,27,1.0,BPO/KPO,27,1.0,1,IT (mid),True,True,True
+EDELWEISS,Financial Services,15,1.0,Other Financial Services,15,1.0,1,,True,True,False
+EICHERMOT,Consumer Cyclical,27,1.0,2/3 Wheelers,27,1.0,1,2w,True,True,True
+EIDPARRY,Basic Materials,27,0.5555555555555556,Other Food Products,27,0.6666666666666666,2,,True,True,False
+EIHOTEL,Consumer Cyclical,27,1.0,Hotels,27,1.0,1,HOTELS,True,True,True
+ELECON,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+ELLEN,,0,0.0,,0,0.0,0,,False,False,False
+EMAMILTD,Consumer Defensive,27,1.0,Personal Products,27,1.0,1,,True,True,False
+EMCURE,,0,0.0,,0,0.0,0,,False,False,False
+EMIL,Consumer Cyclical,27,1.0,Consumer Electronics,27,0.6296296296296297,2,,True,True,False
+EMMVEE,,0,0.0,,0,0.0,0,,False,False,False
+ENDURANCE,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,Auto Comp,True,True,True
+ENGINERSIN,Industrials,27,1.0,Consulting Services,27,1.0,1,,True,True,False
+ENRIN,,0,0.0,,0,0.0,0,,False,False,False
+ENTERO,,0,0.0,,0,0.0,0,Unique Biz Models,False,False,True
+EPACK,,0,0.0,,0,0.0,0,,False,False,False
+EPACKPEB,,0,0.0,,0,0.0,0,,False,False,False
+EPIGRAL,,0,0.0,,0,0.0,0,Chemicals,False,False,True
+EPL,Consumer Cyclical,27,1.0,Containers & Packaging,27,1.0,1,,True,True,False
+EQUITASBNK,Financial Services,27,1.0,Banks,27,1.0,1,,True,True,False
+ERIS,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+ESABINDIA,Industrials,27,1.0,Other Industrial Goods,27,1.0,1,,True,True,False
+ESCORTS,Industrials,27,1.0,Commercial Vehicles,27,1.0,1,,True,True,False
+ETERNAL,,0,0.0,,0,0.0,0,New Gen,False,False,True
+ETHOSLTD,Consumer Cyclical,27,1.0,Specialty Retail,27,1.0,1,Luxury Consumer,True,True,True
+EUREKAFORB,,0,0.0,,0,0.0,0,,False,False,False
+EUROPRATIK,,0,0.0,,0,0.0,0,,False,False,False
+EXIDEIND,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+FDC,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+FEDERALBNK,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+FEDFINA,Financial Services,9,1.0,Finance (including NBFCs),9,1.0,1,GOLD,True,True,True
+FIEMIND,Consumer Cyclical,15,1.0,Auto Parts & Equipment,15,1.0,1,Auto Comp,True,True,True
+FILATEX,,0,0.0,,0,0.0,0,,False,False,False
+FINCABLES,Industrials,27,1.0,Other Electrical Equipment/Products,27,1.0,1,CABLES,True,True,True
+FINEORG,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+FINPIPE,Industrials,27,1.0,Plastic Products,27,1.0,1,,True,True,False
+FIRSTCRY,,0,0.0,,0,0.0,0,,False,False,False
+FIVESTAR,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,NBFC,True,True,True
+FLAIR,Industrials,9,1.0,Commodity Printing/Stationery,9,1.0,1,,True,True,False
+FLUOROCHEM,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,Chemicals,True,True,True
+FORCEMOT,Consumer Cyclical,27,1.0,Cars & Utility Vehicles,27,1.0,1,CV,True,True,True
+FORTIS,Healthcare,27,1.0,Healthcare Facilities,27,1.0,1,Hospitals,True,True,True
+FOSECOIND,,0,0.0,,0,0.0,0,,False,False,False
+FSL,Technology,27,1.0,BPO/KPO,27,1.0,1,,True,True,False
+FUSION,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,,True,True,False
+GABRIEL,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+GAIL,Utilities,27,1.0,Utilities:Non-Electrical,27,1.0,1,,True,True,False
+GALAXYSURF,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+GALLANTT,,0,0.0,,0,0.0,0,,False,False,False
+GARFIBRES,Consumer Cyclical,27,1.0,Textiles,27,1.0,1,,True,True,False
+GATEWAY,Industrials,27,1.0,Transportation - Logistics,27,1.0,1,,True,True,False
+GESHIP,Industrials,27,1.0,Shipping,27,1.0,1,Shipping,True,True,True
+GHCL,Basic Materials,20,1.0,Commodity Chemicals,20,1.0,1,,True,True,False
+GICRE,Financial Services,26,1.0,General Insurance,26,1.0,1,,True,True,False
+GILLETTE,Consumer Defensive,27,1.0,Personal Products,27,1.0,1,,True,True,False
+GLAND,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+GLAXO,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+GLENMARK,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,Pharma,True,True,True
+GLOBUSSPR,Consumer Defensive,27,1.0,Breweries & Distilleries,27,1.0,1,Sin Stocks,True,True,True
+GMDCLTD,Energy,23,1.0,Coal,23,1.0,1,Rare Earth,True,True,True
+GMMPFAUDLR,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+GMRAIRPORT,,0,0.0,,0,0.0,0,,False,False,False
+GOCOLORS,Consumer Cyclical,27,1.0,Other Apparels & Accessories,27,1.0,1,,True,True,False
+GODFRYPHLP,Consumer Defensive,27,1.0,Cigarettes-Tobacco Products,27,1.0,1,Sin Stocks,True,True,True
+GODIGIT,,0,0.0,,0,0.0,0,Insurance,False,False,True
+GODREJAGRO,Consumer Defensive,27,1.0,Other Agricultural Products,27,1.0,1,,True,True,False
+GODREJCP,Consumer Defensive,27,1.0,Personal Products,27,1.0,1,FMCG,True,True,True
+GODREJIND,Industrials,27,1.0,Diversified,27,1.0,1,,True,True,False
+GODREJPROP,Real Estate,27,1.0,Realty,27,1.0,1,Real Estate,True,True,True
+GOKEX,Consumer Cyclical,27,1.0,Textiles,27,1.0,1,,True,True,False
+GPIL,Basic Materials,17,1.0,Iron & Steel/Interm.Products,17,1.0,1,,True,True,False
+GPPL,Industrials,27,1.0,Marine Port & Services,27,1.0,1,,True,True,False
+GRANULES,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+GRAPHITE,Industrials,27,1.0,Other Industrial Goods,27,1.0,1,Electrodes,True,True,True
+GRASIM,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,,True,True,False
+GRAVITA,Industrials,15,1.0,Other Non-Ferrous Metals,15,1.0,1,Recyclers,True,True,True
+GREAVESCOT,Industrials,15,1.0,Auto Parts & Equipment,15,1.0,1,,True,True,False
+GREENLAM,Consumer Cyclical,27,1.0,Furniture-Furnishing-Paints,27,1.0,1,,True,True,False
+GREENPANEL,Basic Materials,27,0.9629629629629629,Forest Products,27,1.0,1,,True,True,False
+GREENPLY,Basic Materials,27,1.0,Forest Products,27,1.0,1,,True,True,False
+GRINDWELL,Industrials,27,1.0,Other Industrial Products,27,1.0,1,,True,True,False
+GRINFRA,Industrials,27,1.0,Roads & Highways,27,1.0,1,,True,True,False
+GROWW,,0,0.0,,0,0.0,0,,False,False,False
+GRSE,Industrials,23,1.0,Shipping,23,1.0,1,,True,True,False
+GRWRHITECH,Basic Materials,27,1.0,Containers & Packaging,27,1.0,1,,True,True,False
+GSPL,Utilities,27,1.0,Utilities:Non-Electrical,27,1.0,1,,True,True,False
+GUFICBIO,Healthcare,15,1.0,Pharmaceuticals,15,1.0,1,,True,True,False
+GUJGASLTD,Utilities,27,1.0,Utilities:Non-Electrical,27,1.0,1,,True,True,False
+GULFOILLUB,Basic Materials,27,1.0,Oil Marketing & Distribution,27,1.0,1,,True,True,False
+GVT&D,,0,0.0,,0,0.0,0,Power Equip,False,False,True
+HAL,Industrials,27,1.0,Defence,27,1.0,1,Defense (large),True,True,True
+HAPPSTMNDS,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+HAPPYFORGE,Industrials,9,1.0,Other Industrial Products,9,1.0,1,,True,True,False
+HATSUN,Consumer Defensive,27,1.0,Packaged Foods,27,1.0,1,,True,True,False
+HAVELLS,Industrials,27,1.0,Other Electrical Equipment/Products,27,1.0,1,,True,True,False
+HCG,Healthcare,27,1.0,Healthcare Facilities,27,1.0,1,Hospitals,True,True,True
+HCLTECH,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+HDBFS,,0,0.0,,0,0.0,0,,False,False,False
+HDFCAMC,Financial Services,27,1.0,Asset Management Cos.,27,1.0,1,,True,True,False
+HDFCBANK,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+HDFCLIFE,Financial Services,27,1.0,Life Insurance,27,1.0,1,Insurance,True,True,True
+HEG,Industrials,26,1.0,Other Industrial Goods,26,1.0,1,Electrodes,True,True,True
+HERITGFOOD,Consumer Defensive,27,1.0,Packaged Foods,27,1.0,1,,True,True,False
+HEROMOTOCO,Consumer Cyclical,27,1.0,2/3 Wheelers,27,1.0,1,2w,True,True,True
+HEXT,,0,0.0,,0,0.0,0,,False,False,False
+HGINFRA,Industrials,27,1.0,Construction & Engineering,27,1.0,1,,True,True,False
+HIKAL,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+HINDALCO,Basic Materials,27,1.0,Aluminium and Aluminium Products,27,1.0,1,Metal Mines,True,True,True
+HINDCOPPER,Basic Materials,27,1.0,Copper,27,1.0,1,Metal Mines,True,True,True
+HINDPETRO,Energy,27,1.0,Refineries/Petro-Products,27,1.0,1,,True,True,False
+HINDUNILVR,Consumer Defensive,27,1.0,Personal Products,27,1.0,1,,True,True,False
+HINDZINC,Basic Materials,4,1.0,Zinc,4,1.0,1,Metal Mines,True,True,True
+HITECH,Basic Materials,27,1.0,Iron & Steel Products,27,1.0,1,,True,True,False
+HOMEFIRST,Financial Services,27,1.0,Housing Finance,27,1.0,1,Housing Fin,True,True,True
+HONASA,Consumer Defensive,9,1.0,Personal Products,9,1.0,1,,True,True,False
+HONAUT,Industrials,27,1.0,Other Electrical Equipment/Products,27,1.0,1,,True,True,False
+HUDCO,Financial Services,15,1.0,Housing Finance,15,1.0,1,,True,True,False
+HYUNDAI,,0,0.0,,0,0.0,0,,False,False,False
+ICICIAMC,,0,0.0,,0,0.0,0,,False,False,False
+ICICIBANK,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+ICICIGI,Financial Services,27,1.0,General Insurance,27,1.0,1,Insurance,True,True,True
+ICICIPRULI,Financial Services,27,1.0,Life Insurance,27,1.0,1,Insurance,True,True,True
+ICIL,Consumer Cyclical,15,1.0,Textiles,15,1.0,1,,True,True,False
+ICRA,Financial Services,27,1.0,Other Financial Services,27,1.0,1,,True,True,False
+IDBI,Financial Services,2,1.0,Banks,2,1.0,1,,True,True,False
+IDEA,,0,0.0,,0,0.0,0,Telecom,False,False,True
+IDFCFIRSTB,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+IEX,Financial Services,27,1.0,Exchange,27,1.0,1,Exchanges,True,True,True
+IFBIND,Consumer Cyclical,27,1.0,Household Appliances,27,1.0,1,,True,True,False
+IGIL,,0,0.0,,0,0.0,0,,False,False,False
+IGL,Utilities,27,1.0,Utilities:Non-Electrical,27,1.0,1,,True,True,False
+IIFL,Financial Services,27,1.0,Other Financial Services,27,1.0,1,GOLD,True,True,True
+IIFLCAPS,,0,0.0,,0,0.0,0,,False,False,False
+IKS,,0,0.0,,0,0.0,0,,False,False,False
+IMFA,Basic Materials,15,1.0,Iron & Steel/Interm.Products,15,1.0,1,,True,True,False
+INDGN,,0,0.0,,0,0.0,0,,False,False,False
+INDHOTEL,Consumer Cyclical,27,1.0,Hotels,27,1.0,1,HOTELS,True,True,True
+INDIACEM,Basic Materials,10,1.0,Cement & Cement Products,10,1.0,1,,True,True,False
+INDIAGLYCO,Basic Materials,21,1.0,Commodity Chemicals,21,1.0,1,,True,True,False
+INDIAMART,Communication Services,27,1.0,Internet Software & Services,27,1.0,1,,True,True,False
+INDIANB,Financial Services,27,1.0,Banks,27,1.0,1,PSU Bank,True,True,True
+INDIASHLTR,Financial Services,9,1.0,Housing Finance,9,1.0,1,Housing Fin,True,True,True
+INDIGO,Industrials,27,1.0,Airlines,27,1.0,1,Travel,True,True,True
+INDIGOPNTS,Basic Materials,27,1.0,Furniture-Furnishing-Paints,27,1.0,1,,True,True,False
+INDIQUBE,,0,0.0,,0,0.0,0,,False,False,False
+INDUSINDBK,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+INDUSTOWER,Communication Services,24,1.0,Other Telecom Services,24,1.0,1,Telecom,True,True,True
+INFY,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+INGERRAND,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+INOXGREEN,Utilities,27,1.0,Electric Utilities,27,1.0,1,Wind,True,True,True
+INOXINDIA,Industrials,9,1.0,Other Industrial Products,9,1.0,1,,True,True,False
+INOXWIND,Industrials,21,1.0,Electric Utilities,21,1.0,1,Wind,True,True,True
+INTELLECT,,0,0.0,IT Software Products,27,1.0,1,,False,True,False
+INTERARCH,,0,0.0,,0,0.0,0,,False,False,False
+IOC,Energy,27,1.0,Oil Marketing & Distribution,27,1.0,1,,True,True,False
+IONEXCHANG,Industrials,27,1.0,Utilities:Non-Electrical,27,1.0,1,,True,True,False
+IPCALAB,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+IRB,Industrials,27,1.0,Roads & Highways,27,1.0,1,,True,True,False
+IRCTC,Industrials,27,1.0,Travel Support Services,27,1.0,1,Travel,True,True,True
+IRFC,Financial Services,23,1.0,Finance (including NBFCs),23,0.5652173913043478,2,,True,True,False
+ISGEC,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+ITC,Consumer Defensive,27,1.0,Cigarettes-Tobacco Products,27,1.0,1,FMCG,True,True,True
+ITCHOTELS,,0,0.0,,0,0.0,0,,False,False,False
+IXIGO,,0,0.0,,0,0.0,0,Travel,False,False,True
+J&KBANK,Financial Services,27,1.0,Banks,27,1.0,1,,True,True,False
+JAINREC,,0,0.0,,0,0.0,0,,False,False,False
+JAMNAAUTO,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+JBCHEPHARM,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,Pharma,True,True,True
+JINDALSAW,Basic Materials,23,1.0,Other Industrial Products,23,1.0,1,,True,True,False
+JINDALSTEL,Basic Materials,27,1.0,Iron & Steel/Interm.Products,27,1.0,1,Steel,True,True,True
+JIOFIN,Financial Services,10,1.0,Finance (including NBFCs),10,1.0,1,,True,True,False
+JKCEMENT,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,Cement,True,True,True
+JKLAKSHMI,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,Cement,True,True,True
+JKPAPER,Basic Materials,27,1.0,Paper & Paper Products,27,1.0,1,,True,True,False
+JKTYRE,Consumer Cyclical,15,1.0,Auto Tyres & Rubber Products,15,1.0,1,,True,True,False
+JLHL,Healthcare,9,1.0,Healthcare Facilities,9,1.0,1,,True,True,False
+JMFINANCIL,Financial Services,27,1.0,Holding Companies,27,1.0,1,Misc Financials,True,True,True
+JSL,Basic Materials,27,1.0,Iron & Steel/Interm.Products,27,1.0,1,,True,True,False
+JSWCEMENT,,0,0.0,,0,0.0,0,,False,False,False
+JSWENERGY,Utilities,27,1.0,Electric Utilities,27,1.0,1,,True,True,False
+JSWHL,,0,0.0,,0,0.0,0,,False,False,False
+JSWINFRA,Industrials,9,1.0,Marine Port & Services,9,1.0,1,,True,True,False
+JSWSTEEL,Basic Materials,27,1.0,Iron & Steel/Interm.Products,27,1.0,1,Steel,True,True,True
+JTEKTINDIA,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+JUBLFOOD,Consumer Cyclical,27,1.0,Restaurants,27,1.0,1,,True,True,False
+JUBLINGREA,Basic Materials,27,0.7777777777777778,Specialty Chemicals,27,1.0,1,Pharma,True,True,True
+JUBLPHARMA,Healthcare,13,1.0,Pharmaceuticals,13,1.0,1,Pharma,True,True,True
+JUNIPER,,0,0.0,,0,0.0,0,,False,False,False
+JUSTDIAL,Communication Services,27,1.0,Internet Software & Services,27,1.0,1,,True,True,False
+JYOTHYLAB,Consumer Defensive,27,1.0,Personal Products,27,1.0,1,,True,True,False
+JYOTICNC,Industrials,7,1.0,Industrial Machinery,7,1.0,1,Engineering,True,True,True
+KAJARIACER,Industrials,27,1.0,Furniture-Furnishing-Paints,27,1.0,1,,True,True,False
+KALYANKJIL,Consumer Cyclical,27,1.0,Gems & Jewellery,27,1.0,1,Jewellery,True,True,True
+KANSAINER,Basic Materials,27,1.0,Furniture-Furnishing-Paints,27,1.0,1,,True,True,False
+KARURVYSYA,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+KAYNES,Industrials,27,1.0,Other Electrical Equipment/Products,27,1.0,1,EMS,True,True,True
+KEC,Industrials,27,1.0,Heavy Electrical Equipment,27,1.0,1,,True,True,False
+KEI,Industrials,27,1.0,Other Electrical Equipment/Products,27,1.0,1,CABLES,True,True,True
+KENNAMET,Industrials,25,1.0,Other Industrial Products,25,1.0,1,,True,True,False
+KFINTECH,Technology,27,1.0,Other Financial Services,27,1.0,1,Exchanges,True,True,True
+KIMS,Healthcare,27,1.0,Healthcare Facilities,27,1.0,1,Hospitals,True,True,True
+KINGFA,,0,0.0,,0,0.0,0,,False,False,False
+KIRLFER,Industrials,25,1.0,Iron & Steel/Interm.Products,25,1.0,1,,True,True,False
+KIRLOSBROS,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+KIRLOSENG,Industrials,27,1.0,Heavy Electrical Equipment,27,0.9259259259259259,2,,True,True,False
+KIRLPNU,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+KKCL,Consumer Cyclical,27,1.0,Other Apparels & Accessories,27,1.0,1,,True,True,False
+KMEW,,0,0.0,,0,0.0,0,Dredging,False,False,True
+KNRCON,Industrials,27,1.0,Construction & Engineering,27,1.0,1,,True,True,False
+KOTAKBANK,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+KOVAI,Healthcare,25,1.0,Healthcare Services,25,1.0,1,,True,True,False
+KPIL,Industrials,25,1.0,Electric Utilities,25,0.64,2,,True,True,False
+KPITTECH,Technology,27,1.0,IT Consulting & Software,27,1.0,1,IT (mid),True,True,True
+KPRMILL,Consumer Cyclical,27,1.0,Textiles,27,1.0,1,Textile,True,True,True
+KRBL,,0,0.0,,0,0.0,0,,False,False,False
+KRN,,0,0.0,,0,0.0,0,,False,False,False
+KRSNAA,Healthcare,27,1.0,Healthcare Services,27,1.0,1,Diagnostics,True,True,True
+KSB,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+KSHINTL,,0,0.0,,0,0.0,0,,False,False,False
+KSL,Basic Materials,27,1.0,Iron & Steel/Interm.Products,27,1.0,1,,True,True,False
+KTKBANK,Financial Services,27,1.0,Banks,27,1.0,1,,True,True,False
+LALPATHLAB,Healthcare,27,1.0,Healthcare Services,27,1.0,1,Diagnostics,True,True,True
+LANDMARK,Consumer Cyclical,27,1.0,Specialty Retail,27,1.0,1,,True,True,False
+LAOPALA,Consumer Cyclical,27,1.0,Houseware,27,1.0,1,,True,True,False
+LAURUSLABS,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,Cdmo,True,True,True
+LAXMIDENTL,,0,0.0,,0,0.0,0,,False,False,False
+LEMONTREE,Consumer Cyclical,27,1.0,Hotels,27,1.0,1,HOTELS,True,True,True
+LENSKART,,0,0.0,,0,0.0,0,,False,False,False
+LGBBROSLTD,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+LGEINDIA,,0,0.0,,0,0.0,0,,False,False,False
+LICHSGFIN,Financial Services,27,1.0,Housing Finance,27,1.0,1,,True,True,False
+LICI,Financial Services,27,1.0,Life Insurance,27,1.0,1,,True,True,False
+LINDEINDIA,Basic Materials,27,1.0,Industrial Gases,27,1.0,1,,True,True,False
+LODHA,Real Estate,27,1.0,Realty,27,1.0,1,,True,True,False
+LOTUSDEV,,0,0.0,,0,0.0,0,,False,False,False
+LT,Industrials,27,1.0,Construction & Engineering,27,1.0,1,,True,True,False
+LTF,,0,0.0,,0,0.0,0,NBFC,False,False,True
+LTFOODS,Consumer Defensive,16,1.0,Other Agricultural Products,16,0.625,2,Agri,True,True,True
+LTIM,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+LTTS,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+LUMAXIND,Consumer Cyclical,25,1.0,Auto Parts & Equipment,25,1.0,1,,True,True,False
+LUMAXTECH,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,Auto Comp,True,True,True
+LUPIN,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,Pharma,True,True,True
+M&M,Consumer Cyclical,27,1.0,Cars & Utility Vehicles,27,1.0,1,4w,True,True,True
+M&MFIN,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,,True,True,False
+MAHABANK,Financial Services,23,1.0,Banks,23,1.0,1,PSU Bank,True,True,True
+MAHLIFE,Real Estate,27,1.0,Realty,27,1.0,1,,True,True,False
+MAHLOG,Industrials,27,1.0,Transportation - Logistics,27,1.0,1,,True,True,False
+MAHSCOOTER,Consumer Cyclical,27,1.0,Investment Companies,27,1.0,1,,True,True,False
+MAHSEAMLES,Basic Materials,26,1.0,Iron & Steel/Interm.Products,26,1.0,1,,True,True,False
+MANAPPURAM,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,GOLD,True,True,True
+MANKIND,Healthcare,20,1.0,Pharmaceuticals,20,1.0,1,,True,True,False
+MANORAMA,Consumer Defensive,16,1.0,Other Food Products,16,1.0,1,Agri,True,True,True
+MANYAVAR,Consumer Cyclical,32,1.0,Specialty Retail,32,1.0,1,,True,True,False
+MAPMYINDIA,Technology,27,1.0,Internet Software & Services,27,1.0,1,,True,True,False
+MARATHON,,0,0.0,,0,0.0,0,,False,False,False
+MARICO,Consumer Defensive,27,1.0,Personal Products,27,1.0,1,FMCG,True,True,True
+MARKSANS,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+MARUTI,Consumer Cyclical,27,1.0,Cars & Utility Vehicles,27,1.0,1,4w,True,True,True
+MASFIN,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,,True,True,False
+MASTEK,Technology,25,1.0,IT Consulting & Software,25,1.0,1,,True,True,False
+MAXESTATES,,0,0.0,,0,0.0,0,Real Estate,False,False,True
+MAXHEALTH,Healthcare,27,1.0,Healthcare Facilities,27,1.0,1,Hospitals,True,True,True
+MAYURUNIQ,Consumer Cyclical,27,1.0,Textiles,27,1.0,1,,True,True,False
+MAZDOCK,Industrials,25,1.0,Shipping,25,0.68,2,Defense (large),True,True,True
+MBEL,,0,0.0,,0,0.0,0,,False,False,False
+MCX,Financial Services,27,1.0,Exchange,27,1.0,1,Exchanges,True,True,True
+MEDANTA,Healthcare,27,1.0,Healthcare Facilities,27,1.0,1,,True,True,False
+MEDIASSIST,Healthcare,2,1.0,Healthcare Services,2,1.0,1,,True,True,False
+MEDPLUS,Healthcare,27,1.0,Healthcare Supplies,27,1.0,1,,True,True,False
+MEESHO,,0,0.0,,0,0.0,0,,False,False,False
+METROBRAND,Consumer Cyclical,27,1.0,Footwear,27,1.0,1,,True,True,False
+METROPOLIS,Healthcare,27,1.0,Healthcare Services,27,1.0,1,Diagnostics,True,True,True
+MFSL,Financial Services,27,1.0,Life Insurance,27,1.0,1,Insurance,True,True,True
+MGL,Utilities,27,1.0,Utilities:Non-Electrical,27,1.0,1,,True,True,False
+MHRIL,Consumer Cyclical,27,1.0,Hotels,27,1.0,1,,True,True,False
+MIDHANI,Basic Materials,27,1.0,Iron & Steel Products,27,0.6296296296296297,2,,True,True,False
+MIDWESTLTD,,0,0.0,,0,0.0,0,,False,False,False
+MINDACORP,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+MMFL,Industrials,27,1.0,Other Industrial Products,27,1.0,1,,True,True,False
+MOIL,Basic Materials,27,1.0,Mining,27,1.0,1,,True,True,False
+MOLDTKPAC,Consumer Cyclical,27,1.0,Containers & Packaging,27,1.0,1,,True,True,False
+MOTHERSON,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,Auto Comp,True,True,True
+MOTILALOFS,Financial Services,27,1.0,Other Financial Services,27,0.4444444444444444,3,Wealth Mgr,True,True,True
+MPHASIS,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+MPSLTD,Communication Services,2,1.0,Publishing,2,1.0,1,,True,True,False
+MRF,Consumer Cyclical,27,1.0,Auto Tyres & Rubber Products,27,1.0,1,,True,True,False
+MRPL,Energy,24,1.0,Refineries/Petro-Products,24,1.0,1,,True,True,False
+MSUMI,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,Auto Comp,True,True,True
+MTARTECH,Industrials,27,1.0,Defence,27,1.0,1,Data Centers,True,True,True
+MUTHOOTFIN,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,GOLD,True,True,True
+MUTHOOTMF,,0,0.0,,0,0.0,0,,False,False,False
+NAM-INDIA,Financial Services,27,1.0,Asset Management Cos.,27,1.0,1,,True,True,False
+NATCOPHARM,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+NATIONALUM,Basic Materials,27,1.0,Aluminium and Aluminium Products,27,1.0,1,Metal Mines,True,True,True
+NAUKRI,Communication Services,27,1.0,Internet Software & Services,27,1.0,1,,True,True,False
+NAVINFLUOR,Basic Materials,27,1.0,Commodity Chemicals,27,1.0,1,Chemicals,True,True,True
+NAZARA,Communication Services,27,1.0,Internet Software & Services,27,1.0,1,,True,True,False
+NBCC,Industrials,27,1.0,Construction & Engineering,27,1.0,1,,True,True,False
+NCC,Industrials,27,1.0,Construction & Engineering,27,1.0,1,,True,True,False
+NEOGEN,Basic Materials,25,1.0,Specialty Chemicals,25,1.0,1,,True,True,False
+NEPHROPLUS,,0,0.0,,0,0.0,0,,False,False,False
+NESCO,Industrials,27,1.0,Realty,27,1.0,1,,True,True,False
+NESTLEIND,Consumer Defensive,27,1.0,Packaged Foods,27,1.0,1,FMCG,True,True,True
+NETWEB,Technology,9,1.0,IT Consulting & Software,9,1.0,1,Data Centers,True,True,True
+NEULANDLAB,,0,0.0,Pharmaceuticals,27,1.0,1,,False,True,False
+NEWGEN,Technology,23,1.0,IT Consulting & Software,23,1.0,1,,True,True,False
+NH,Healthcare,27,1.0,Healthcare Facilities,27,1.0,1,Hospitals,True,True,True
+NHPC,Utilities,27,1.0,Electric Utilities,27,1.0,1,,True,True,False
+NIITMTS,Consumer Defensive,9,1.0,Education,9,1.0,1,,True,True,False
+NILKAMAL,Consumer Cyclical,27,1.0,Plastic Products,27,1.0,1,,True,True,False
+NITINSPIN,Consumer Cyclical,27,1.0,Textiles,27,1.0,1,,True,True,False
+NIVABUPA,,0,0.0,,0,0.0,0,,False,False,False
+NLCINDIA,Utilities,27,1.0,Electric Utilities,27,1.0,1,,True,True,False
+NMDC,Basic Materials,32,1.0,Mining,32,1.0,1,,True,True,False
+NORTHARC,,0,0.0,,0,0.0,0,,False,False,False
+NSLNISP,Basic Materials,20,1.0,Iron & Steel/Interm.Products,20,1.0,1,,True,True,False
+NTPC,Utilities,27,1.0,Electric Utilities,27,1.0,1,,True,True,False
+NTPCGREEN,,0,0.0,,0,0.0,0,,False,False,False
+NUVAMA,,0,0.0,,0,0.0,0,Wealth Mgr,False,False,True
+NUVOCO,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,,True,True,False
+NYKAA,Consumer Cyclical,27,1.0,Internet & Catalogue Retail,27,1.0,1,New Gen,True,True,True
+OBEROIRLTY,Real Estate,27,1.0,Realty,27,1.0,1,Real Estate,True,True,True
+OFSS,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+OIL,Energy,27,1.0,Exploration & Production,27,1.0,1,,True,True,False
+OLAELEC,,0,0.0,,0,0.0,0,,False,False,False
+ONESOURCE,,0,0.0,,0,0.0,0,Pharma,False,False,True
+ONGC,Energy,27,1.0,Exploration & Production,27,1.0,1,,True,True,False
+OPTIEMUS,Technology,15,1.0,Telecom Equipment,15,1.0,1,,True,True,False
+ORCHPHARMA,Healthcare,24,1.0,Pharmaceuticals,24,1.0,1,,True,True,False
+ORIENTELEC,Consumer Cyclical,27,1.0,Consumer Electronics,27,1.0,1,,True,True,False
+ORKLAINDIA,,0,0.0,,0,0.0,0,,False,False,False
+OSWALPUMPS,,0,0.0,,0,0.0,0,,False,False,False
+PACEDIGITK,,0,0.0,,0,0.0,0,,False,False,False
+PAGEIND,Consumer Cyclical,27,1.0,Other Apparels & Accessories,27,1.0,1,,True,True,False
+PARADEEP,Basic Materials,27,1.0,Fertilizers,27,1.0,1,Fertilizer,True,True,True
+PATELENG,,0,0.0,,0,0.0,0,,False,False,False
+PAYTM,Technology,27,1.0,Internet Software & Services,27,1.0,1,New Gen,True,True,True
+PENIND,,0,0.0,,0,0.0,0,,False,False,False
+PERSISTENT,Technology,27,1.0,IT Consulting & Software,27,1.0,1,IT (mid),True,True,True
+PETRONET,Energy,27,1.0,Oil Marketing & Distribution,27,1.0,1,Oil/gas,True,True,True
+PFC,Financial Services,27,1.0,Finance (including NBFCs),27,0.6296296296296297,2,,True,True,False
+PFIZER,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+PFOCUS,,0,0.0,,0,0.0,0,,False,False,False
+PFS,Financial Services,2,1.0,Finance (including NBFCs),2,1.0,1,,True,True,False
+PGEL,Technology,19,1.0,Consumer Electronics,19,1.0,1,EMS,True,True,True
+PGHH,Consumer Defensive,27,1.0,Personal Products,27,1.0,1,,True,True,False
+PGHL,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+PGIL,,0,0.0,,0,0.0,0,Textile,False,False,True
+PHOENIXLTD,Real Estate,27,1.0,Realty,27,1.0,1,Luxury Consumer,True,True,True
+PIDILITIND,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+PIIND,Basic Materials,27,1.0,Agrochemicals,27,1.0,1,Chemicals,True,True,True
+PINELABS,,0,0.0,,0,0.0,0,,False,False,False
+PIRAMALFIN,,0,0.0,,0,0.0,0,NBFC,False,False,True
+PITTIENG,Industrials,27,1.0,Other Electrical Equipment/Products,27,1.0,1,Engineering,True,True,True
+PNB,Financial Services,27,1.0,Banks,27,1.0,1,PSU Bank,True,True,True
+PNBHOUSING,Financial Services,27,1.0,Housing Finance,27,1.0,1,Housing Fin,True,True,True
+PNCINFRA,Industrials,27,1.0,Roads & Highways,27,1.0,1,,True,True,False
+PNGJL,,0,0.0,,0,0.0,0,Jewellery,False,False,True
+POCL,,0,0.0,,0,0.0,0,,False,False,False
+POLICYBZR,Financial Services,27,1.0,Internet Software & Services,27,1.0,1,New Gen,True,True,True
+POLYCAB,Industrials,27,1.0,Other Electrical Equipment/Products,27,1.0,1,CABLES,True,True,True
+POLYMED,Healthcare,27,1.0,Healthcare Supplies,27,1.0,1,Medical Devices,True,True,True
+POONAWALLA,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,GOLD,True,True,True
+POWERGRID,Utilities,27,1.0,Electric Utilities,27,1.0,1,,True,True,False
+POWERINDIA,Technology,27,1.0,Heavy Electrical Equipment,27,1.0,1,Power Equip,True,True,True
+POWERMECH,Industrials,27,1.0,Construction & Engineering,27,1.0,1,,True,True,False
+PPLPHARMA,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+PRAJIND,Industrials,27,1.0,Industrial Machinery,27,0.8148148148148148,2,,True,True,False
+PREMIERENE,,0,0.0,,0,0.0,0,Solar,False,False,True
+PRESTIGE,Real Estate,27,1.0,Realty,27,1.0,1,Real Estate,True,True,True
+PRICOLLTD,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+PRINCEPIPE,Industrials,27,0.7777777777777778,Plastic Products,27,1.0,1,,True,True,False
+PRIVISCL,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+PRUDENT,Financial Services,27,1.0,Other Financial Services,27,1.0,1,,True,True,False
+PSPPROJECT,Industrials,27,1.0,Construction & Engineering,27,1.0,1,,True,True,False
+PTC,Utilities,15,1.0,Electric Utilities,15,1.0,1,,True,True,False
+PTCIL,Industrials,24,1.0,Other Industrial Products,24,1.0,1,,True,True,False
+PVRINOX,Communication Services,26,1.0,Specialty Retail,26,0.6153846153846154,2,,True,True,False
+PWL,,0,0.0,,0,0.0,0,,False,False,False
+QPOWER,,0,0.0,,0,0.0,0,,False,False,False
+RADICO,Consumer Defensive,27,1.0,Breweries & Distilleries,27,1.0,1,Sin Stocks,True,True,True
+RAILTEL,Communication Services,23,1.0,Telecom Services,23,1.0,1,,True,True,False
+RAIN,Basic Materials,13,1.0,Petrochemicals,13,1.0,1,,True,True,False
+RAINBOW,Healthcare,27,1.0,Healthcare Facilities,27,1.0,1,,True,True,False
+RALLIS,Basic Materials,27,1.0,Agrochemicals,27,1.0,1,,True,True,False
+RAMCOCEM,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,,True,True,False
+RAMCOSYS,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+RANEHOLDIN,Consumer Cyclical,23,1.0,Holding Companies,23,0.8695652173913043,2,,True,True,False
+RATEGAIN,Technology,27,1.0,IT Software Products,27,1.0,1,IT (products),True,True,True
+RATNAMANI,Basic Materials,27,1.0,Iron & Steel/Interm.Products,27,1.0,1,,True,True,False
+RAYMONDLSL,,0,0.0,,0,0.0,0,,False,False,False
+RAYMONDREL,,0,0.0,,0,0.0,0,,False,False,False
+RBA,Consumer Cyclical,27,1.0,Restaurants,27,1.0,1,,True,True,False
+RBLBANK,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+RECLTD,Financial Services,27,1.0,Finance (including NBFCs),27,0.6296296296296297,2,,True,True,False
+REDINGTON,Technology,27,1.0,Commodity Trading & Distribution,27,1.0,1,,True,True,False
+REDTAPE,Consumer Cyclical,9,1.0,Footwear,9,1.0,1,,True,True,False
+RELIANCE,Energy,32,1.0,Refineries/Petro-Products,32,1.0,1,,True,True,False
+RELIGARE,Financial Services,27,1.0,Other Financial Services,27,1.0,1,,True,True,False
+REPCOHOME,Financial Services,27,1.0,Housing Finance,27,1.0,1,,True,True,False
+RHIM,Industrials,27,1.0,Other Industrial Goods,27,1.0,1,,True,True,False
+ROLEXRINGS,Industrials,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+ROUTE,Communication Services,27,1.0,Internet Software & Services,27,1.0,1,,True,True,False
+RPTECH,,0,0.0,,0,0.0,0,,False,False,False
+RRKABEL,Industrials,9,1.0,Other Electrical Equipment/Products,9,1.0,1,CABLES,True,True,True
+RUBICON,,0,0.0,,0,0.0,0,,False,False,False
+SAATVIKGL,,0,0.0,,0,0.0,0,,False,False,False
+SAFARI,Consumer Cyclical,27,1.0,Other Apparels & Accessories,27,1.0,1,,True,True,False
+SAGILITY,,0,0.0,,0,0.0,0,IT (mid),False,False,True
+SAIL,Basic Materials,27,1.0,Iron & Steel/Interm.Products,27,1.0,1,Steel,True,True,True
+SAILIFE,,0,0.0,,0,0.0,0,Cdmo,False,False,True
+SAMBHV,,0,0.0,,0,0.0,0,,False,False,False
+SAMHI,Consumer Cyclical,9,1.0,Hotels,9,1.0,1,HOTELS,True,True,True
+SANATHAN,,0,0.0,,0,0.0,0,,False,False,False
+SANDHAR,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+SANDUMA,Basic Materials,13,1.0,Mining,13,1.0,1,,True,True,False
+SANOFI,Healthcare,24,1.0,Pharmaceuticals,24,1.0,1,,True,True,False
+SANOFICONR,,0,0.0,,0,0.0,0,,False,False,False
+SANSERA,Industrials,27,1.0,Auto Parts & Equipment,27,1.0,1,Engineering,True,True,True
+SAPPHIRE,Consumer Cyclical,27,1.0,Restaurants,27,1.0,1,,True,True,False
+SARDAEN,Basic Materials,15,1.0,Iron & Steel/Interm.Products,15,1.0,1,Metals,True,True,True
+SAREGAMA,Communication Services,12,1.0,Movies & Entertainment,12,1.0,1,Music,True,True,True
+SBCL,Industrials,21,1.0,Other Industrial Goods,21,1.0,1,,True,True,False
+SBFC,Financial Services,10,1.0,Finance (including NBFCs),10,1.0,1,NBFC,True,True,True
+SBICARD,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,,True,True,False
+SBILIFE,Financial Services,27,1.0,Life Insurance,27,1.0,1,Insurance,True,True,True
+SBIN,Financial Services,27,1.0,Banks,27,1.0,1,PSU Bank,True,True,True
+SCHAEFFLER,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+SCHNEIDER,Industrials,27,1.0,Heavy Electrical Equipment,27,1.0,1,,True,True,False
+SENCO,Consumer Cyclical,9,1.0,Gems & Jewellery,9,1.0,1,,True,True,False
+SENORES,,0,0.0,,0,0.0,0,Cdmo,False,False,True
+SFL,Consumer Cyclical,27,1.0,Furniture-Furnishing-Paints,27,1.0,1,,True,True,False
+SHAILY,Basic Materials,27,1.0,Plastic Products,27,1.0,1,Medical Devices,True,True,True
+SHAKTIPUMP,,0,0.0,,0,0.0,0,,False,False,False
+SHARDACROP,Basic Materials,27,1.0,Agrochemicals,27,1.0,1,,True,True,False
+SHARDAMOTR,,0,0.0,,0,0.0,0,,False,False,False
+SHILPAMED,Healthcare,15,1.0,Pharmaceuticals,15,1.0,1,Pharma,True,True,True
+SHK,Basic Materials,16,0.625,Personal Products,16,1.0,1,,True,True,False
+SHOPERSTOP,Consumer Cyclical,27,1.0,Department Stores,27,1.0,1,,True,True,False
+SHREECEM,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,Cement,True,True,True
+SHRIPISTON,Consumer Cyclical,13,1.0,Industrial Machinery,13,1.0,1,Auto Comp,True,True,True
+SHRIRAMFIN,Financial Services,32,1.0,Finance (including NBFCs),32,1.0,1,NBFC,True,True,True
+SHRIRAMPPS,Real Estate,8,1.0,Realty,8,1.0,1,,True,True,False
+SHYAMMETL,Basic Materials,27,1.0,Iron & Steel/Interm.Products,27,1.0,1,Metals,True,True,True
+SIEMENS,Industrials,27,1.0,Heavy Electrical Equipment,27,1.0,1,,True,True,False
+SIGNATURE,Real Estate,9,1.0,Realty,9,1.0,1,Real Estate,True,True,True
+SIS,Industrials,27,1.0,Misc. Commercial Services,27,1.0,1,,True,True,False
+SJS,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,Auto Comp,True,True,True
+SKFINDIA,Industrials,27,1.0,Other Industrial Goods,27,1.0,1,,True,True,False
+SKFINDUS,,0,0.0,,0,0.0,0,,False,False,False
+SKIPPER,,0,0.0,,0,0.0,0,,False,False,False
+SKYGOLD,,0,0.0,,0,0.0,0,,False,False,False
+SMARTWORKS,,0,0.0,,0,0.0,0,,False,False,False
+SMSPHARMA,,0,0.0,,0,0.0,0,,False,False,False
+SOBHA,Real Estate,27,1.0,Realty,27,1.0,1,Real Estate,True,True,True
+SOLARINDS,Basic Materials,27,1.0,Other Industrial Products,27,1.0,1,,True,True,False
+SOMANYCERA,Industrials,25,1.0,Furniture-Furnishing-Paints,25,1.0,1,,True,True,False
+SONACOMS,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+SONATSOFTW,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+SOTL,,0,0.0,,0,0.0,0,,False,False,False
+SOUTHBANK,Financial Services,27,1.0,Banks,27,1.0,1,,True,True,False
+SPAL,Consumer Cyclical,27,1.0,Other Apparels & Accessories,27,1.0,1,,True,True,False
+SPANDANA,Financial Services,21,1.0,Finance (including NBFCs),21,1.0,1,,True,True,False
+SPARC,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+SPICEJET,,0,0.0,,0,0.0,0,,False,False,False
+SPLPETRO,Basic Materials,27,1.0,Petrochemicals,27,1.0,1,,True,True,False
+SRF,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,Chemicals,True,True,True
+SSWL,Consumer Cyclical,23,1.0,Auto Parts & Equipment,23,1.0,1,,True,True,False
+STAR,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,Pharma,True,True,True
+STARCEMENT,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,,True,True,False
+STARHEALTH,Financial Services,27,1.0,General Insurance,27,1.0,1,,True,True,False
+STLTECH,,0,0.0,,0,0.0,0,,False,False,False
+STOVEKRAFT,Consumer Cyclical,24,1.0,Houseware,24,1.0,1,,True,True,False
+STUDDS,,0,0.0,,0,0.0,0,,False,False,False
+STYL,,0,0.0,,0,0.0,0,,False,False,False
+STYLAMIND,Consumer Cyclical,27,1.0,Forest Products,27,1.0,1,,True,True,False
+STYRENIX,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,Plastics,True,True,True
+SUBROS,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+SUDARSCHEM,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,Chemicals,True,True,True
+SUDEEPPHRM,,0,0.0,,0,0.0,0,,False,False,False
+SULA,Consumer Defensive,27,1.0,Breweries & Distilleries,27,1.0,1,,True,True,False
+SUMICHEM,Basic Materials,27,1.0,Agrochemicals,27,1.0,1,,True,True,False
+SUNCLAY,Industrials,9,1.0,Auto Parts & Equipment,9,1.0,1,,True,True,False
+SUNDARMFIN,Financial Services,27,1.0,Finance (including NBFCs),27,1.0,1,,True,True,False
+SUNDRMFAST,,0,0.0,,0,0.0,0,,False,False,False
+SUNPHARMA,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+SUNTV,Communication Services,27,1.0,Broadcasting & Cable TV,27,1.0,1,,True,True,False
+SUPRAJIT,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+SUPREMEIND,Industrials,27,1.0,Plastic Products,27,1.0,1,Plastics,True,True,True
+SUPRIYA,Healthcare,25,1.0,Pharmaceuticals,25,1.0,1,,True,True,False
+SURAKSHA,,0,0.0,,0,0.0,0,,False,False,False
+SURYAROSNI,Basic Materials,15,1.0,Iron & Steel Products,15,1.0,1,,True,True,False
+SUZLON,Industrials,25,1.0,Heavy Electrical Equipment,25,1.0,1,Wind,True,True,True
+SWANCORP,,0,0.0,,0,0.0,0,,False,False,False
+SWIGGY,,0,0.0,,0,0.0,0,New Gen,False,False,True
+SYMPHONY,Consumer Cyclical,27,1.0,Consumer Electronics,27,1.0,1,,True,True,False
+SYNGENE,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+SYRMA,Technology,27,1.0,Other Electrical Equipment/Products,27,1.0,1,EMS,True,True,True
+TARC,,0,0.0,,0,0.0,0,,False,False,False
+TARIL,,0,0.0,,0,0.0,0,Power Equip,False,False,True
+TATACAP,,0,0.0,,0,0.0,0,,False,False,False
+TATACHEM,Basic Materials,27,1.0,Commodity Chemicals,27,1.0,1,,True,True,False
+TATACOMM,Communication Services,27,1.0,Other Telecom Services,27,1.0,1,Telecom,True,True,True
+TATACONSUM,Consumer Defensive,27,1.0,Packaged Foods,27,0.6296296296296297,2,,True,True,False
+TATAELXSI,Technology,27,1.0,IT Consulting & Software,27,1.0,1,IT (mid),True,True,True
+TATAPOWER,Utilities,27,1.0,Electric Utilities,27,1.0,1,,True,True,False
+TATASTEEL,Basic Materials,27,1.0,Iron & Steel/Interm.Products,27,1.0,1,Steel,True,True,True
+TATATECH,Technology,9,1.0,IT Software Products,9,1.0,1,,True,True,False
+TATVA,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+TBOTEK,,0,0.0,,0,0.0,0,Travel,False,False,True
+TCI,Industrials,27,1.0,Surface Transportation,27,1.0,1,,True,True,False
+TCPLPACK,Consumer Cyclical,27,1.0,Paper & Paper Products,27,0.6296296296296297,2,,True,True,False
+TCS,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+TDPOWERSYS,Industrials,27,1.0,Heavy Electrical Equipment,27,1.0,1,,True,True,False
+TEAMLEASE,Industrials,27,1.0,Misc. Commercial Services,27,1.0,1,,True,True,False
+TECHM,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+TECHNOE,Industrials,27,1.0,Electric Utilities,27,1.0,1,Data Centers,True,True,True
+TEGA,Industrials,27,1.0,Mining,27,1.0,1,Mine Supply,True,True,True
+TENNIND,,0,0.0,,0,0.0,0,,False,False,False
+TEXRAIL,Industrials,27,1.0,Construction & Engineering,27,1.0,1,Railway,True,True,True
+THANGAMAYL,Consumer Cyclical,27,1.0,Gems & Jewellery,27,1.0,1,Jewellery,True,True,True
+THELEELA,,0,0.0,,0,0.0,0,,False,False,False
+THERMAX,Industrials,27,1.0,Heavy Electrical Equipment,27,1.0,1,,True,True,False
+THOMASCOOK,Consumer Cyclical,27,1.0,Travel Support Services,27,1.0,1,,True,True,False
+THYROCARE,Healthcare,27,1.0,Healthcare Services,27,1.0,1,Diagnostics,True,True,True
+TI,Consumer Defensive,15,1.0,Breweries & Distilleries,15,1.0,1,Sin Stocks,True,True,True
+TIIL,Industrials,15,1.0,Iron & Steel Products,15,1.0,1,,True,True,False
+TIINDIA,Industrials,27,0.7777777777777778,Auto Parts & Equipment,27,1.0,1,,True,True,False
+TIMETECHNO,Consumer Cyclical,25,1.0,Plastic Products,25,1.0,1,Plastics,True,True,True
+TIMKEN,Industrials,27,1.0,Other Industrial Products,27,1.0,1,,True,True,False
+TIPSMUSIC,,0,0.0,,0,0.0,0,Music,False,False,True
+TIRUMALCHM,Basic Materials,15,1.0,Commodity Chemicals,15,1.0,1,,True,True,False
+TITAGARH,Industrials,25,1.0,Commercial Vehicles,25,1.0,1,Railway,True,True,True
+TITAN,Consumer Cyclical,27,1.0,Gems & Jewellery,27,1.0,1,Jewellery,True,True,True
+TMCV,,0,0.0,,0,0.0,0,,False,False,False
+TMPV,,0,0.0,,0,0.0,0,,False,False,False
+TORNTPHARM,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,Pharma,True,True,True
+TORNTPOWER,Utilities,27,1.0,Electric Utilities,27,1.0,1,,True,True,False
+TRANSRAILL,,0,0.0,,0,0.0,0,,False,False,False
+TRAVELFOOD,,0,0.0,,0,0.0,0,,False,False,False
+TRENT,Consumer Cyclical,27,1.0,Department Stores,27,1.0,1,Retail,True,True,True
+TRITURBINE,Industrials,27,1.0,Heavy Electrical Equipment,27,1.0,1,,True,True,False
+TRIVENI,Consumer Defensive,27,1.0,Sugar,27,1.0,1,,True,True,False
+TRUALT,,0,0.0,,0,0.0,0,,False,False,False
+TTKPRESTIG,Consumer Cyclical,27,1.0,Houseware,27,1.0,1,,True,True,False
+TVSHLTD,Consumer Cyclical,10,1.0,Auto Parts & Equipment,10,1.0,1,,True,True,False
+TVSMOTOR,Consumer Cyclical,27,1.0,2/3 Wheelers,27,1.0,1,2w,True,True,True
+UBL,Consumer Defensive,27,1.0,Breweries & Distilleries,27,1.0,1,Sin Stocks,True,True,True
+UJJIVANSFB,Financial Services,27,1.0,Banks,27,1.0,1,Pvt Banks,True,True,True
+ULTRACEMCO,Basic Materials,27,1.0,Cement & Cement Products,27,1.0,1,Cement,True,True,True
+UNIECOM,,0,0.0,,0,0.0,0,,False,False,False
+UNIMECH,,0,0.0,,0,0.0,0,,False,False,False
+UNIONBANK,Financial Services,27,1.0,Banks,27,1.0,1,PSU Bank,True,True,True
+UNITDSPR,Consumer Defensive,6,1.0,Breweries & Distilleries,6,1.0,1,Sin Stocks,True,True,True
+UNIVCABLES,Industrials,17,1.0,Other Electrical Equipment/Products,17,1.0,1,,True,True,False
+UNOMINDA,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+UPL,Basic Materials,27,1.0,Agrochemicals,27,1.0,1,Fertilizer,True,True,True
+URBANCO,,0,0.0,,0,0.0,0,,False,False,False
+USHAMART,Basic Materials,27,1.0,Iron & Steel Products,27,1.0,1,Metal Wires,True,True,True
+UTIAMC,Financial Services,27,1.0,Asset Management Cos.,27,1.0,1,,True,True,False
+V2RETAIL,Consumer Cyclical,2,1.0,Department Stores,2,1.0,1,Retail,True,True,True
+VARROC,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+VBL,Consumer Defensive,27,1.0,Non-alcoholic Beverages,27,1.0,1,,True,True,False
+VEDL,Basic Materials,18,1.0,Aluminium and Aluminium Products,18,1.0,1,Metal Mines,True,True,True
+VENTIVE,,0,0.0,,0,0.0,0,HOTELS,False,False,True
+VENUSPIPES,Basic Materials,27,1.0,Iron & Steel Products,27,1.0,1,,True,True,False
+VESUVIUS,Industrials,27,1.0,Other Industrial Goods,27,1.0,1,,True,True,False
+VGUARD,Industrials,27,1.0,Other Electrical Equipment/Products,27,1.0,1,,True,True,False
+VIJAYA,Healthcare,27,1.0,Healthcare Services,27,1.0,1,Diagnostics,True,True,True
+VIKRAMSOLR,,0,0.0,,0,0.0,0,Solar,False,False,True
+VINATIORGA,Basic Materials,27,1.0,Specialty Chemicals,27,1.0,1,,True,True,False
+VINCOFE,,0,0.0,,0,0.0,0,,False,False,False
+VIPIND,Consumer Cyclical,27,1.0,Other Apparels & Accessories,27,1.0,1,,True,True,False
+VISHNU,Basic Materials,23,1.0,Specialty Chemicals,23,1.0,1,,True,True,False
+VMART,Consumer Cyclical,27,1.0,Department Stores,27,1.0,1,Retail,True,True,True
+VMM,,0,0.0,,0,0.0,0,Retail,False,False,True
+VOLTAMP,Industrials,27,1.0,Heavy Electrical Equipment,27,1.0,1,,True,True,False
+VOLTAS,Industrials,27,1.0,Consumer Electronics,27,1.0,1,AIRCON,True,True,True
+VRLLOG,Industrials,27,1.0,Transportation - Logistics,27,1.0,1,,True,True,False
+VSTIND,Consumer Defensive,27,1.0,Cigarettes-Tobacco Products,27,1.0,1,,True,True,False
+VSTTILLERS,Industrials,27,1.0,Commercial Vehicles,27,1.0,1,,True,True,False
+VTL,Consumer Cyclical,27,1.0,Textiles,27,1.0,1,,True,True,False
+WAAREEENER,,0,0.0,,0,0.0,0,Solar,False,False,True
+WABAG,Industrials,19,1.0,Utilities:Non-Electrical,19,1.0,1,Water,True,True,True
+WAKEFIT,,0,0.0,,0,0.0,0,,False,False,False
+WELCORP,Basic Materials,27,1.0,Iron & Steel Products,27,0.8148148148148148,2,Water,True,True,True
+WENDT,Industrials,27,1.0,Industrial Machinery,27,1.0,1,,True,True,False
+WESTLIFE,Consumer Cyclical,27,1.0,Restaurants,27,1.0,1,,True,True,False
+WEWORK,,0,0.0,,0,0.0,0,,False,False,False
+WHEELS,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+WHIRLPOOL,Consumer Cyclical,27,1.0,Consumer Electronics,27,1.0,1,,True,True,False
+WINDLAS,Healthcare,9,1.0,Pharmaceuticals,9,1.0,1,,True,True,False
+WIPRO,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+WOCKPHARMA,Healthcare,15,1.0,Pharmaceuticals,15,1.0,1,Pharma,True,True,True
+WSTCSTPAPR,Basic Materials,27,1.0,Paper & Paper Products,27,1.0,1,,True,True,False
+XPROINDIA,,0,0.0,,0,0.0,0,,False,False,False
+YATHARTH,Healthcare,9,1.0,Healthcare Facilities,9,1.0,1,Hospitals,True,True,True
+YATRA,Consumer Cyclical,9,1.0,Travel Support Services,9,1.0,1,Travel,True,True,True
+YESBANK,Financial Services,6,1.0,Banks,6,1.0,1,Pvt Banks,True,True,True
+ZAGGLE,Technology,9,1.0,IT Software Products,9,1.0,1,New Gen,True,True,True
+ZEEL,Communication Services,27,1.0,Broadcasting & Cable TV,27,1.0,1,,True,True,False
+ZENSARTECH,Technology,27,1.0,IT Consulting & Software,27,1.0,1,,True,True,False
+ZENTEC,Industrials,15,1.0,Defence,15,1.0,1,,True,True,False
+ZFCVINDIA,Consumer Cyclical,27,1.0,Auto Parts & Equipment,27,1.0,1,,True,True,False
+ZOTA,,0,0.0,,0,0.0,0,,False,False,False
+ZYDUSLIFE,Healthcare,27,1.0,Pharmaceuticals,27,1.0,1,,True,True,False
+ZYDUSWELL,Consumer Defensive,27,1.0,Packaged Foods,27,1.0,1,,True,True,False

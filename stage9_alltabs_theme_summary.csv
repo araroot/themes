@@ -1,0 +1,105 @@
+theme_id,theme_name,size,cohesion_pairwise_corr,A_symbols,B_symbols,top_outliers,rank_coverage
+IND::Internet Software & Services,Internet Software & Services,15,0.0185,"AADHARHFC, NAUKRI, NAZARA","PAYTM, POLICYBZR, ZEEL","PAYTM, ZEEL, POLICYBZR",rank_available
+IND::Banks::B::B,Banks - Cluster B,14,0.3511,"CANBK, IDBI, UNIONBANK","CUB, IDEA, YESBANK","CUB, IDEA, YESBANK",rank_available
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,14,0.28,"RPTECH, SOTL, SURAKSHA","CARRARO, E2E, KINGFA","KINGFA, CARRARO, E2E",rank_available
+IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment - Cluster A,14,0.1576,"ENDURANCE, SANSERA, TVSHLTD","ASAHIINDIA, LUMAXTECH, ROLEXRINGS","ASAHIINDIA, ROLEXRINGS, LUMAXTECH",rank_available
+IND::Pharmaceuticals::B::B,Pharmaceuticals - Cluster B,14,0.1519,"ASTRAZEN, IPCALAB, MANKIND","ANUP, GLAND, SHILPAMED","GLAND, SHILPAMED, ANUP",rank_available
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,14,0.1158,"ATUL, FLUOROCHEM, VINATIORGA","AETHER, PRIVISCL, STYRENIX","STYRENIX, AETHER, PRIVISCL",rank_available
+IND::Healthcare Facilities,Healthcare Facilities,14,0.1095,"APOLLOHOSP, KIMS, MAXHEALTH","MEDANTA, MEDPLUS, POLYMED","MEDPLUS, POLYMED, MEDANTA",rank_available
+IND::Other Financial Services,Other Financial Services,14,0.0849,"CARERATING, EDELWEISS, NUVAMA","ANANDRATHI, BELRISE, IIFL","BELRISE, ANANDRATHI, IIFL",rank_available
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products,14,0.0602,"GPIL, JINDALSTEL, TATASTEEL","MAHSEAMLES, NSLNISP, SARDAEN","MAHSEAMLES, NSLNISP, SARDAEN",rank_available
+UNCLASSIFIED::B::A::B::NoRank::1,No-Rank Unclassified,14,,,,,no_rank_history
+UNCLASSIFIED::B::A::B::NoRank::2,No-Rank Unclassified,14,,,,,no_rank_history
+UNCLASSIFIED::B::A::B::NoRank::3,No-Rank Unclassified,14,,,,,no_rank_history
+UNCLASSIFIED::A::A,Unclassified - Cluster A,13,0.3213,"AGARWALEYE, AIIL, QPOWER","AFCONS, IKS, KRN","AFCONS, IKS, KRN",rank_available
+IND::Realty::B,Realty - Cluster B,13,0.2436,"GODREJPROP, OBEROIRLTY, SIGNATURE","ABREL, DLF, SHRIRAMPPS","SHRIRAMPPS, ABREL, DLF",rank_available
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,13,0.2369,"GRANULES, SUNPHARMA, TORNTPHARM","AUROPHARMA, ORCHPHARMA, PFIZER","PFIZER, AUROPHARMA, ORCHPHARMA",rank_available
+IND::Personal Products,Personal Products,13,0.1672,"GODREJCP, HINDUNILVR, VENTIVE","HONASA, JYOTHYLAB, SHK","SHK, HONASA, JYOTHYLAB",rank_available
+IND::Cement & Cement Products,Cement & Cement Products,13,0.1375,"GRASIM, JKLAKSHMI, STARCEMENT","ACC, AMBUJACEM, INDIACEM","INDIACEM, ACC, AMBUJACEM",rank_available
+IND::Breweries & Distilleries,Breweries & Distilleries,13,0.1297,"TI, UBL, UNITDSPR","CCL, SULA, VBL","VBL, SULA, CCL",rank_available
+IND::Banks::A,Banks - Cluster A,12,0.2964,"CSBBANK, DCBBANK, FEDERALBNK","EQUITASBNK, HDFCBANK, ICICIBANK","ICICIBANK, HDFCBANK, EQUITASBNK",rank_available
+IND::Electric Utilities::A,Electric Utilities - Cluster A,12,0.2545,"NHPC, POWERGRID, TATAPOWER","ADANIENSOL, ADANIGREEN, JSWENERGY","ADANIGREEN, ADANIENSOL, JSWENERGY",rank_available
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,12,0.165,"HAVELLS, POLYCAB, PREMIERENE","HONAUT, KAYNES, SYRMA","SYRMA, HONAUT, KAYNES",rank_available
+IND::Other Industrial Products,Other Industrial Products,12,0.1066,"BHARATFORG, KENNAMET, TIMKEN","JINDALSAW, PTCIL, TIPSMUSIC","PTCIL, TIPSMUSIC, JINDALSAW",rank_available
+IND::Consumer Electronics,Consumer Electronics,12,0.0877,"AMBER, CDSL, VOLTAS","EMIL, ORIENTELEC, SYMPHONY","EMIL, SYMPHONY, ORIENTELEC",rank_available
+UNCLASSIFIED::B::B::A::B::B,Unclassified - Cluster B,12,,"ANTHEM, EBGNG, INDIQUBE","ENRIN, MARATHON, RAYMONDREL","MARATHON, ENRIN, RAYMONDREL",rank_available
+IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment - Cluster A,11,0.1792,"CIEINDIA, LGBBROSLTD, MSUMI","MINDACORP, PRICOLLTD, SSWL","PRICOLLTD, MINDACORP, SSWL",rank_available
+IND::Agrochemicals,Agrochemicals,11,0.1254,"PIIND, RALLIS, SUMICHEM","ANURAS, EPIGRAL, UPL","UPL, ANURAS, EPIGRAL",rank_available
+IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,11,0.0439,"ASIANPAINT, INDIGOPNTS, KANSAINER","AGI, SFL, SOMANYCERA","AGI, SFL, SOMANYCERA",rank_available
+IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software - Cluster B,10,0.2803,"HCLTECH, LTIM, MPHASIS","ANGELONE, CIGNITITEC, MASTEK","ANGELONE, MASTEK, CIGNITITEC",rank_available
+IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals - Cluster A,10,0.198,"BLUEJET, DIVISLAB, FDC","AARTIDRUGS, HIKAL, MARKSANS","MARKSANS, HIKAL, AARTIDRUGS",rank_available
+IND::Housing Finance,Housing Finance,10,0.1615,"APTUS, CANFINHOME, HOMEFIRST","AAVAS, HUDCO, LTF","LTF, AAVAS, HUDCO",rank_available
+IND::Industrial Machinery::A,Industrial Machinery - Cluster A,10,0.0895,"GODREJIND, ISGEC, WENDT","DOMS, FLAIR, GMMPFAUDLR","FLAIR, GMMPFAUDLR, DOMS",rank_available
+IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software - Cluster A,9,0.2957,"INFY, TATAELXSI, TCS","BSOFT, CYIENT, SONATSOFTW","SONATSOFTW, CYIENT, BSOFT",rank_available
+UNCLASSIFIED::A::B,Unclassified - Cluster B,9,0.267,"AWL, SPICEJET, THELEELA","BAJAJHFL, GMRAIRPORT, NORTHARC","NORTHARC, BAJAJHFL, GMRAIRPORT",rank_available
+UNCLASSIFIED::B::B::B::A,Unclassified - Cluster A,9,0.2582,"EUREKAFORB, HEXT, INDGN","BHARTIHEXA, SANATHAN, SHAKTIPUMP","BHARTIHEXA, SANATHAN, SHAKTIPUMP",rank_available
+UNCLASSIFIED::B::B::A::A::B,Unclassified - Cluster B,9,0.2023,"FOSECOIND, IIFLCAPS, ITCHOTELS","EPACK, SMSPHARMA, TMPV","EPACK, TMPV, SMSPHARMA",rank_available
+UNCLASSIFIED::B::B::B::B,Unclassified - Cluster B,9,0.1752,"AJAXENGG, NIVABUPA, TRAVELFOOD","ACMESOLAR, ALIVUS, JSWHL","JSWHL, ALIVUS, ACMESOLAR",rank_available
+IND::Healthcare Services,Healthcare Services,9,0.1738,"ETERNAL, LALPATHLAB, METROPOLIS","KRSNAA, MEDIASSIST, THYROCARE","THYROCARE, MEDIASSIST, KRSNAA",rank_available
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,9,0.1732,"CRAFTSMAN, SCHAEFFLER, UNOMINDA","ARE&M, AUTOAXLES, DIVGIITTS","AUTOAXLES, DIVGIITTS, ARE&M",rank_available
+IND::Other Industrial Goods,Other Industrial Goods,9,0.1264,"ESABINDIA, HEG, SBCL","AIAENG, GRAPHITE, VESUVIUS","AIAENG, GRAPHITE, VESUVIUS",rank_available
+IND::Packaged Foods,Packaged Foods,9,0.0804,"NESTLEIND, TATACONSUM, ZYDUSWELL","BECTORFOOD, DODLA, HERITGFOOD","HERITGFOOD, BECTORFOOD, DODLA",rank_available
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,9,0.0739,"CUMMINSIND, ELECON, INGERRAND","JYOTICNC, KIRLPNU, PRAJIND","PRAJIND, JYOTICNC, KIRLPNU",rank_available
+IND::Construction & Engineering,Construction & Engineering,9,0.0627,"AHLUCONT, POWERMECH, TEXRAIL","KNRCON, LT, PSPPROJECT","PSPPROJECT, LT, KNRCON",rank_available
+IND::Iron & Steel Products,Iron & Steel Products,9,0.032,"MIDHANI, SURYAROSNI, TIIL","APLAPOLLO, HITECH, VENUSPIPES","VENUSPIPES, HITECH, APLAPOLLO",rank_available
+IND::Defence,Defence,8,0.299,"ASTRAMICRO, BDL","CONCOR, MTARTECH","MTARTECH, CONCOR, ZENTEC",rank_available
+IND::Finance (including NBFCs)::B::B,Finance (including NBFCs) - Cluster B,8,0.239,"BAJFINANCE, CHOLAFIN","FUSION, MANAPPURAM","FUSION, MANAPPURAM, CREDITACC",rank_available
+IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment - Cluster B,8,0.1399,"KEC, SCHNEIDER","AVALON, VOLTAMP","AVALON, VOLTAMP, THERMAX",rank_available
+IND::Textiles,Textiles,8,0.1395,"NITINSPIN, VTL","ARVIND, GARFIBRES","ARVIND, GARFIBRES, ICIL",rank_available
+IND::Forest Products,Forest Products,8,0.1326,"CENTURYPLY, TBOTEK","GREENPLY, IXIGO","IXIGO, GREENPLY, STYLAMIND",rank_available
+IND::Commodity Chemicals,Commodity Chemicals,8,0.1259,"ACI, TIRUMALCHM","INDIAGLYCO, NAVINFLUOR","NAVINFLUOR, INDIAGLYCO, DEEPAKFERT",rank_available
+IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment - Cluster A,8,0.1066,"CGPOWER, KIRLOSENG","SIEMENS, TDPOWERSYS","TDPOWERSYS, SIEMENS, POWERINDIA",rank_available
+IND::Finance (including NBFCs)::B::A,Finance (including NBFCs) - Cluster A,8,0.104,"POONAWALLA, SHRIRAMFIN","RECLTD, SPANDANA","SPANDANA, RECLTD, SBFC",rank_available
+IND::IT Software Products,IT Software Products,8,0.0776,"CENTUM, INTELLECT","OPTIEMUS, TATATECH","OPTIEMUS, TATATECH, CYIENTDLM",rank_available
+UNCLASSIFIED::B::B::A::A::A,Unclassified - Cluster A,8,0.0045,"IGIL, SWANCORP","ATHERENERG, CEMPRO","CEMPRO, ATHERENERG, LAXMIDENTL",rank_available
+IND::Specialty Retail,Specialty Retail,8,-0.0049,"AVL, ETHOSLTD","MANYAVAR, PVRINOX","MANYAVAR, PVRINOX, SAREGAMA",rank_available
+IND::Oil Marketing & Distribution,Oil Marketing & Distribution,7,0.2207,"CASTROLIND, GULFOILLUB","IOC, PETRONET","PETRONET, IOC, ONGC",rank_available
+IND::Refineries/Petro-Products,Refineries/Petro-Products,7,0.1839,"BPCL, GMDCLTD","COALINDIA, MRPL","MRPL, COALINDIA, CHENNPETRO",rank_available
+IND::Other Apparels & Accessories,Other Apparels & Accessories,7,0.0724,"ARVINDFASN, SPAL","PAGEIND, VIPIND","PAGEIND, VIPIND, GOCOLORS",rank_available
+IND::Utilities:Non-Electrical,Utilities:Non-Electrical,7,0.0458,"IGL, MGL","IONEXCHANG, WABAG","IONEXCHANG, WABAG, GAIL",rank_available
+IND::Plastic Products,Plastic Products,7,0.0321,"FINPIPE, SUPREMEIND","SHAILY, TIMETECHNO","SHAILY, TIMETECHNO, NILKAMAL",rank_available
+IND::Asset Management Cos.,Asset Management Cos.,6,0.3986,"GVT&D, NAM-INDIA","HDFCAMC, TARIL","TARIL, HDFCAMC, UTIAMC",rank_available
+UNCLASSIFIED::B::B::A::B::A,Unclassified - Cluster A,6,0.3351,"FILATEX, SAMBHV","DAMCAPITAL, NTPCGREEN","DAMCAPITAL, NTPCGREEN, EMCURE",rank_available
+IND::Hotels,Hotels,6,0.2859,"CHALET, LEMONTREE","INDHOTEL, MHRIL","MHRIL, INDHOTEL, SAMHI",rank_available
+IND::Pharmaceuticals::B::A::A,Pharmaceuticals - Cluster A,6,0.2162,"APLLTD, CIPLA","SPARC, WINDLAS","SPARC, WINDLAS, NATCOPHARM",rank_available
+IND::Finance (including NBFCs)::A,Finance (including NBFCs) - Cluster A,6,0.1629,"CGCL, MASFIN","FEDFINA, IRFC","IRFC, FEDFINA, PFS",rank_available
+IND::Specialty Chemicals::B,Specialty Chemicals - Cluster B,6,0.1109,"FINEORG, GALAXYSURF","NEOGEN, TATVA","TATVA, NEOGEN, CHEMPLASTS",rank_available
+IND::General Insurance,General Insurance,6,0.0964,"GICRE, ICICIGI","AWFIS, STARHEALTH","AWFIS, STARHEALTH, PGIL",rank_available
+IND::Department Stores,Department Stores,6,0.0721,"ABFRL, VMART","TRENT, V2RETAIL","V2RETAIL, TRENT, SHOPERSTOP",rank_available
+IND::Household Appliances,Household Appliances,6,0.0269,"IFBIND, NYKAA","BAJAJELEC, CARTRADE","BAJAJELEC, CARTRADE, CARYSIL",rank_available
+IND::Holding Companies,Holding Companies,6,0.0074,"BAJAJHLDNG, CHOLAHLDNG","ABCAPITAL, RANEHOLDIN","ABCAPITAL, RANEHOLDIN, JMFINANCIL",rank_available
+IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,5,0.4706,ONESOURCE,GODFRYPHLP,"GODFRYPHLP, VMM, VSTIND",rank_available
+IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products,5,0.4482,HINDALCO,VEDL,"VEDL, HINDCOPPER, NATIONALUM",rank_available
+IND::Life Insurance,Life Insurance,5,0.3513,HDFCLIFE,LICI,"LICI, MFSL, SBILIFE",rank_available
+IND::Restaurants,Restaurants,5,0.3245,DEVYANI,JUBLFOOD,"JUBLFOOD, WESTLIFE, SAPPHIRE",rank_available
+IND::Other Electrical Equipment/Products::A,Other Electrical Equipment/Products - Cluster A,5,0.2057,WAAREEENER,RRKABEL,"RRKABEL, APARINDS, INDIGO",rank_available
+IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,5,0.1708,MRF,JKTYRE,"JKTYRE, BALKRISIND, CEATLTD",rank_available
+IND::Commercial Vehicles,Commercial Vehicles,5,0.1649,ESCORTS,TITAGARH,"TITAGARH, BEML, ASHOKLEY",rank_available
+IND::Houseware,Houseware,5,0.156,PNGJL,LAOPALA,"LAOPALA, BORORENEW, TTKPRESTIG",rank_available
+IND::Transportation - Logistics,Transportation - Logistics,5,0.0039,DELHIVERY,VRLLOG,"VRLLOG, GATEWAY, MAHLOG",rank_available
+THEME::Cdmo,Cdmo,4,0.4623,SAILIFE,ACUTAAS,"ACUTAAS, GODIGIT, SENORES",rank_available
+IND::2/3 Wheelers,2/3 Wheelers,4,0.437,TVSMOTOR,EICHERMOT,"EICHERMOT, BAJAJ-AUTO, HEROMOTOCO",rank_available
+IND::Banks::B::A,Banks - Cluster A,4,0.388,AXISBANK,BANDHANBNK,"BANDHANBNK, KARURVYSYA, UJJIVANSFB",rank_available
+IND::Shipping,Shipping,4,0.3056,MAZDOCK,ENGINERSIN,"ENGINERSIN, GESHIP, GRSE",rank_available
+UNCLASSIFIED::B::A::A,Unclassified - Cluster A,4,0.3031,HYUNDAI,STLTECH,"STLTECH, UNIMECH, SANOFICONR",rank_available
+IND::Mining,Mining,4,0.276,MOIL,TEGA,"TEGA, NMDC, SANDUMA",rank_available
+IND::IT Consulting & Software::B::B::B,IT Consulting & Software - Cluster B,4,0.1887,OFSS,ECLERX,"ECLERX, NETWEB, NEWGEN",rank_available
+IND::Footwear,Footwear,4,0.1736,BATAINDIA,REDTAPE,"REDTAPE, METROBRAND, CAMPUS",rank_available
+IND::Gems & Jewellery,Gems & Jewellery,4,0.1689,THANGAMAYL,SENCO,"SENCO, KALYANKJIL, TITAN",rank_available
+IND::Electric Utilities::B,Electric Utilities - Cluster B,4,0.1401,KPIL,INOXGREEN,"INOXGREEN, INOXWIND, TECHNOE",rank_available
+IND::Pharmaceuticals::A,Pharmaceuticals - Cluster A,4,0.126,PGHL,NEULANDLAB,"NEULANDLAB, AMRUTANJAN, SUPRIYA",rank_available
+IND::Roads & Highways,Roads & Highways,4,0.1072,IRB,GRINFRA,"GRINFRA, ASHOKA, PNCINFRA",rank_available
+IND::Cars & Utility Vehicles,Cars & Utility Vehicles,3,0.378,M&M,MARUTI,"MARUTI, FORCEMOT, M&M",rank_available
+IND::IT Consulting & Software::A,IT Consulting & Software - Cluster A,3,0.3109,CAMS,RAMCOSYS,"RAMCOSYS, FSL, CAMS",rank_available
+IND::IT Consulting & Software::B::A,IT Consulting & Software - Cluster A,3,0.3069,ADANIENT,REDINGTON,"REDINGTON, HAPPSTMNDS, ADANIENT",rank_available
+IND::Marine Port & Services,Marine Port & Services,3,0.2623,ADANIPORTS,GPPL,"GPPL, JSWINFRA, ADANIPORTS",rank_available
+IND::Auto Parts & Equipment::A,Auto Parts & Equipment - Cluster A,3,0.2315,GREAVESCOT,SANDHAR,"SANDHAR, SUNCLAY, GREAVESCOT",rank_available
+IND::Realty::A,Realty - Cluster A,3,0.1278,NESCO,ARVSMART,"ARVSMART, MAHLIFE, NESCO",rank_available
+IND::Fertilizers,Fertilizers,3,0.0865,COROMANDEL,CHAMBLFERT,"CHAMBLFERT, PARADEEP, COROMANDEL",rank_available
+IND::Travel Support Services,Travel Support Services,3,0.0723,THOMASCOOK,YATRA,"YATRA, IRCTC, THOMASCOOK",rank_available
+IND::Paper & Paper Products,Paper & Paper Products,3,0.06,WSTCSTPAPR,TCPLPACK,"TCPLPACK, JKPAPER, WSTCSTPAPR",rank_available
+IND::Biotechnology,Biotechnology,3,-0.0003,CONCORDBIO,BIOCON,"BIOCON, ADVENZYMES, CONCORDBIO",rank_available
+IND::Containers & Packaging,Containers & Packaging,3,-0.0072,EPL,GRWRHITECH,"GRWRHITECH, MOLDTKPAC, EPL",rank_available
+IND::Exchange,Exchange,3,-0.0371,MCX,IEX,"IEX, BSE, MCX",rank_available
+IND::Other Food Products,Other Food Products,3,-0.0979,AVANTIFEED,MANORAMA,"MANORAMA, EIDPARRY, AVANTIFEED",rank_available
+UNCLASSIFIED::NoRank,No-Rank Unclassified,3,,,,,no_rank_history

@@ -5,11 +5,13 @@ import pandas as pd
 from app import (
     DATA_PATH_DEFAULT,
     build_theme_map,
+    build_theme_map_codex,
     build_theme_table,
     get_latest_prev_dates,
     normalize_theme_name,
     render_table,
     theme_medians,
+    portfolio_themes,
 )
 
 from mf_processor import (
@@ -99,7 +101,50 @@ def main():
         mf_html_body = "<p>MF data not available</p>"
         combined_html_body = "<p>MF data not available for combined view</p>"
 
+    # ========== CODEX COMBINED TAB DATA ==========
+    try:
+        th_codex = pd.read_excel(path, sheet_name="tpark_codex")
+        theme_map_codex = build_theme_map_codex(th_codex)
+
+        latest_codex, prev_codex = get_latest_prev_dates(pf, th_codex)
+        latest_median_codex = theme_medians(th_codex, latest_codex).sort_values()
+        all_themes_codex = latest_median_codex.index.tolist()
+        selected_codex = all_themes_codex
+
+        rows_codex = build_theme_table(
+            th_codex,
+            latest_codex,
+            prev_codex,
+            selected_codex,
+            pf_symbols,
+            latest_median_codex,
+            show_non_portfolio=True,
+        )
+
+        if latest_bb:
+            mf_rows_codex = build_mf_theme_table(
+                mf_df,
+                latest_bb,
+                prev_bb,
+                selected_codex,
+                theme_map_codex,
+                pf_symbols
+            )
+            combined_codex_rows = build_combined_theme_table(rows_codex, mf_rows_codex, selected_codex)
+            combined_codex_html_body = render_combined_table(combined_codex_rows, latest_date_str=f"{latest_codex:%Y-%m-%d}")
+        else:
+            combined_codex_html_body = "<p>No MF data available for codex combined view</p>"
+
+        has_codex = True
+    except Exception as e:
+        print(f"Warning: Could not load Codex data: {e}")
+        combined_codex_html_body = "<p>Codex data not available</p>"
+        has_codex = False
+
     # ========== GENERATE TABBED HTML ==========
+    codex_tab_button = '<button class="tab" onclick="switchTab(event, \'codex-combined\')">🎯 Combined (Codex)</button>' if has_codex else ''
+    codex_tab_content = f'<div id="codex-combined" class="tab-content">{combined_codex_html_body}</div>' if has_codex else ''
+
     full_html = f"""<!doctype html>
 <html>
   <head>
@@ -452,6 +497,7 @@ def main():
           <button class="tab active" onclick="switchTab(event, 'ranks')">📈 Ranks</button>
           <button class="tab" onclick="switchTab(event, 'mf-moves')">🏦 MF Moves</button>
           <button class="tab" onclick="switchTab(event, 'combined')">🔀 Combined</button>
+          {codex_tab_button}
         </div>
       </div>
 
@@ -469,6 +515,9 @@ def main():
       <div id="combined" class="tab-content">
         {combined_html_body}
       </div>
+
+      <!-- Codex Combined Tab Content -->
+      {codex_tab_content}
     </div>
 
     <script>

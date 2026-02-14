@@ -1,0 +1,819 @@
+Symbol,Theme,source,confidence,reason,sector_mode,industry_mode,debug_theme,industry_obs,industry_mode_share,sector_obs,sector_mode_share,locked,rank_move_corr,rank_resid,rank_obs_months,needs_review,review_reasons,review_priority
+BAJAJ-AUTO,2W / 3w Oems,industry_mode,0.93,industry_history,Consumer Cyclical,2/3 Wheelers,2w,27,1.0,27,1.0,False,0.8287386026701704,0.085,50,False,,7.0
+EICHERMOT,2W / 3w Oems,industry_mode,0.93,industry_history,Consumer Cyclical,2/3 Wheelers,2w,27,1.0,27,1.0,False,0.5113020217391125,0.2025,50,False,,7.0
+HEROMOTOCO,2W / 3w Oems,industry_mode,0.93,industry_history,Consumer Cyclical,2/3 Wheelers,2w,27,1.0,27,1.0,False,0.8275273486937258,0.06,50,False,,7.0
+TVSMOTOR,2W / 3w Oems,industry_mode,0.93,industry_history,Consumer Cyclical,2/3 Wheelers,2w,27,1.0,27,1.0,False,0.7603284878037919,0.085,50,False,,7.0
+ANURAS,Agrochemicals,industry_mode,0.78,industry_history,Basic Materials,Agrochemicals,,27,0.63,27,1.0,False,0.27631575633555727,0.2475,50,True,high_rank_residual,30.0
+BAYERCROP,Agrochemicals,industry_mode,0.93,industry_history,Basic Materials,Agrochemicals,,27,1.0,27,1.0,False,0.34797635778149794,0.195,50,False,,7.0
+DHANUKA,Agrochemicals,industry_mode,0.93,industry_history,Basic Materials,Agrochemicals,Agri,27,1.0,27,1.0,False,0.4182351717472166,0.175,50,False,,7.0
+PIIND,Agrochemicals,industry_mode,0.93,industry_history,Basic Materials,Agrochemicals,Chemicals,27,1.0,27,1.0,False,0.4072719790377631,0.095,50,False,,7.0
+RALLIS,Agrochemicals,industry_mode,0.93,industry_history,Basic Materials,Agrochemicals,,27,1.0,27,1.0,False,0.5864940349976804,0.0775,50,False,,7.0
+SHARDACROP,Agrochemicals,industry_mode,0.93,industry_history,Basic Materials,Agrochemicals,,27,1.0,27,1.0,False,0.5772655231012245,0.165,50,False,,7.0
+SUMICHEM,Agrochemicals,industry_mode,0.93,industry_history,Basic Materials,Agrochemicals,,27,1.0,27,1.0,False,0.449149613611707,0.095,50,False,,7.0
+UPL,Agrochemicals,industry_mode,0.93,industry_history,Basic Materials,Agrochemicals,Fertilizer,27,1.0,27,1.0,False,0.06164901326938114,0.1825,50,False,,7.0
+ABDL,Alcoholic Beverages,manual_lock,0.99,locked_override,,,Sin Stocks,0,0.0,0,0.0,True,0.4453330244006551,0.155,20,False,,1.0
+GLOBUSSPR,Alcoholic Beverages,industry_mode,0.93,industry_history,Consumer Defensive,Breweries & Distilleries,Sin Stocks,27,1.0,27,1.0,False,0.7565069662842656,0.1,50,False,,7.0
+RADICO,Alcoholic Beverages,manual_lock,0.99,locked_override,Consumer Defensive,Breweries & Distilleries,Sin Stocks,27,1.0,27,1.0,True,0.38553247435117255,0.1125,50,False,,1.0
+SULA,Alcoholic Beverages,industry_mode,0.93,industry_history,Consumer Defensive,Breweries & Distilleries,,27,1.0,27,1.0,False,0.4631060316229831,0.36,50,True,high_rank_residual,15.0
+TI,Alcoholic Beverages,manual_lock,0.99,locked_override,Consumer Defensive,Breweries & Distilleries,Sin Stocks,15,1.0,15,1.0,True,0.5408472611921115,0.08,38,False,,1.0
+UBL,Alcoholic Beverages,industry_mode,0.93,industry_history,Consumer Defensive,Breweries & Distilleries,Sin Stocks,27,1.0,27,1.0,False,0.43835413676238855,0.105,50,False,,7.0
+UNITDSPR,Alcoholic Beverages,industry_mode,0.78,industry_history,Consumer Defensive,Breweries & Distilleries,Sin Stocks,6,1.0,6,1.0,False,0.3430159869708891,0.16,29,False,,22.0
+HINDALCO,Aluminium And Aluminium Products,industry_mode,0.93,industry_history,Basic Materials,Aluminium and Aluminium Products,Metal Mines,27,1.0,27,1.0,False,0.7237478892756091,0.03,50,False,,7.0
+NATIONALUM,Aluminium And Aluminium Products,industry_mode,0.93,industry_history,Basic Materials,Aluminium and Aluminium Products,Metal Mines,27,1.0,27,1.0,False,0.712984067714284,0.06,50,False,,7.0
+VEDL,Aluminium And Aluminium Products,industry_mode,0.93,industry_history,Basic Materials,Aluminium and Aluminium Products,Metal Mines,18,1.0,18,1.0,False,0.5905947894966593,0.04,41,False,,7.0
+ABSLAMC,Asset Managers,industry_mode,0.93,industry_history,Financial Services,Asset Management Cos.,,27,1.0,27,1.0,False,0.6813864103295652,0.12,50,False,,7.0
+HDFCAMC,Asset Managers,industry_mode,0.93,industry_history,Financial Services,Asset Management Cos.,,27,1.0,27,1.0,False,0.49582187388367094,0.1375,50,False,,7.0
+NAM-INDIA,Asset Managers,industry_mode,0.93,industry_history,Financial Services,Asset Management Cos.,,27,1.0,27,1.0,False,0.8089359217572861,0.11,50,False,,7.0
+UTIAMC,Asset Managers,industry_mode,0.93,industry_history,Financial Services,Asset Management Cos.,,27,1.0,27,1.0,False,0.695210515717489,0.13,50,False,,7.0
+ARE&M,Auto Components,industry_mode,0.93,industry_history,Industrials,Auto Parts & Equipment,,16,1.0,16,1.0,False,0.41497279651842467,0.29,39,True,high_rank_residual,15.0
+ASAHIINDIA,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.2415829219548819,0.21,50,False,,7.0
+AUTOAXLES,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.15145925963399182,0.28,48,True,high_rank_residual,15.0
+BELRISE,Auto Components,debug_theme,0.74,debug_fallback,,,Auto Comp,0,0.0,0,0.0,False,,,4,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+BOSCHLTD,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.08016798461837563,0.1325,50,False,,7.0
+CIEINDIA,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,25,1.0,25,1.0,False,0.11833123369576165,0.185,48,False,,7.0
+CRAFTSMAN,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,Auto Comp,27,1.0,27,1.0,False,0.06893159056411763,0.1775,50,False,,7.0
+DIVGIITTS,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,20,1.0,20,1.0,False,0.36956820360482756,0.21,41,False,,7.0
+ENDURANCE,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,Auto Comp,27,1.0,27,1.0,False,0.18341224224585953,0.07,50,False,,7.0
+EXIDEIND,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.32911581332108625,0.27,50,True,high_rank_residual,15.0
+FIEMIND,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,Auto Comp,15,1.0,15,1.0,False,0.018405843006899267,0.185,38,False,,7.0
+GABRIEL,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.04642375227332048,0.25,50,True,high_rank_residual,15.0
+GREAVESCOT,Auto Components,industry_mode,0.93,industry_history,Industrials,Auto Parts & Equipment,,15,1.0,15,1.0,False,-0.3363979562226196,0.26,38,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+JAMNAAUTO,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.21812297810209563,0.235,50,True,high_rank_residual,15.0
+JTEKTINDIA,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.45314574171622823,0.17,50,False,,7.0
+LGBBROSLTD,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.2905020410113798,0.0725,50,False,,7.0
+LUMAXIND,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,25,1.0,25,1.0,False,0.4332623277875652,0.14,46,False,,7.0
+LUMAXTECH,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,Auto Comp,27,1.0,27,1.0,False,-0.00177639096331284,0.2175,50,True,rank_moves_diverge_from_theme,17.0
+MINDACORP,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.28721649615790584,0.1925,50,False,,7.0
+MOTHERSON,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,Auto Comp,27,1.0,27,1.0,False,0.4694474677014681,0.14,50,False,,7.0
+MSUMI,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,Auto Comp,27,1.0,27,1.0,False,0.42603323232094326,0.14,50,False,,7.0
+PRICOLLTD,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.15264573570657394,0.1875,50,False,,7.0
+ROLEXRINGS,Auto Components,industry_mode,0.93,industry_history,Industrials,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.1675909290751586,0.285,50,True,high_rank_residual,15.0
+SANDHAR,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.15987266223032262,0.07,48,False,,7.0
+SANSERA,Auto Components,industry_mode,0.93,industry_history,Industrials,Auto Parts & Equipment,Engineering,27,1.0,27,1.0,False,0.09907875555967188,0.0875,50,False,,7.0
+SCHAEFFLER,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.4360929383327338,0.1325,50,False,,7.0
+SJS,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,Auto Comp,27,1.0,27,1.0,False,0.12763375203041066,0.1975,50,False,,7.0
+SONACOMS,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.13295125268355715,0.185,50,False,,7.0
+SSWL,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,23,1.0,23,1.0,False,0.17583669592978418,0.185,46,False,,7.0
+SUBROS,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.06931495463581014,0.155,50,False,,7.0
+SUNCLAY,Auto Components,industry_mode,0.78,industry_history,Industrials,Auto Parts & Equipment,,9,1.0,9,1.0,False,-0.34544968179172053,0.29,30,True,rank_moves_diverge_from_theme;high_rank_residual,40.0
+SUPRAJIT,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.1682642745322871,0.095,50,False,,7.0
+TIINDIA,Auto Components,industry_mode,0.93,industry_history,Industrials,Auto Parts & Equipment,,27,1.0,27,0.778,False,0.3423463383878195,0.23,50,True,high_rank_residual,15.0
+TVSHLTD,Auto Components,industry_mode,0.86,industry_history,Consumer Cyclical,Auto Parts & Equipment,,10,1.0,10,1.0,False,0.547963922557462,0.14,33,False,,14.0
+UNOMINDA,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.33266223637581643,0.145,50,False,,7.0
+VARROC,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.08802918721739415,0.1575,50,False,,7.0
+WHEELS,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.3332018197854165,0.13,48,False,,7.0
+ZFCVINDIA,Auto Components,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Parts & Equipment,,27,1.0,27,1.0,False,0.19968253975850703,0.1675,50,False,,7.0
+AUBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.40432324760922117,0.125,50,False,,7.0
+AXISBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.46657676318683916,0.09,50,False,,7.0
+BANDHANBNK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,,27,1.0,27,1.0,False,0.4132030735873538,0.3225,50,True,high_rank_residual,15.0
+BANKBARODA,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,PSU Bank,27,1.0,27,1.0,False,0.5545962102226873,0.07,50,False,,7.0
+BANKINDIA,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,,27,1.0,27,1.0,False,0.6810536027964155,0.075,50,False,,7.0
+CANBK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,PSU Bank,27,1.0,27,1.0,False,0.641704811174269,0.1025,50,False,,7.0
+CSBBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,,27,1.0,27,1.0,False,0.3633330997479267,0.0725,50,False,,7.0
+CUB,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.37829285749324626,0.3,50,True,high_rank_residual,15.0
+DCBBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,,27,1.0,27,1.0,False,0.6864115331818357,0.12,50,False,,7.0
+EQUITASBNK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,,27,1.0,27,1.0,False,0.4180793349354379,0.1975,50,False,,7.0
+FEDERALBNK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.35771165261406346,0.1,50,False,,7.0
+HDFCBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.10957256509801112,0.215,50,False,,7.0
+ICICIBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.209726653477662,0.215,50,False,,7.0
+IDBI,Banks,industry_mode,0.68,industry_history,Financial Services,Banks,,2,1.0,2,1.0,False,0.7123572687043339,0.06,25,True,low_fundamental_confidence,32.0
+IDFCFIRSTB,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.5620270205319894,0.12,50,False,,7.0
+INDIANB,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,PSU Bank,27,1.0,27,1.0,False,0.3867880075214356,0.165,50,False,,7.0
+INDUSINDBK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.31041508901988835,0.145,50,False,,7.0
+J&KBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,,27,1.0,27,1.0,False,0.4166992030291611,0.13,50,False,,7.0
+KARURVYSYA,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.0057376767195533645,0.1625,50,False,,7.0
+KOTAKBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.24694860570722377,0.195,50,False,,7.0
+KTKBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,,27,1.0,27,1.0,False,0.3984493553356034,0.145,50,False,,7.0
+MAHABANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,PSU Bank,23,1.0,23,1.0,False,0.45734505385965235,0.0975,46,False,,7.0
+PNB,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,PSU Bank,27,1.0,27,1.0,False,0.6751041944577164,0.1375,50,False,,7.0
+RBLBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.5832543011605267,0.11,50,False,,7.0
+SBIN,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,PSU Bank,27,1.0,27,1.0,False,0.478790992808917,0.165,50,False,,7.0
+SOUTHBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,,27,1.0,27,1.0,False,0.5223807547017324,0.09,50,False,,7.0
+UJJIVANSFB,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,Pvt Banks,27,1.0,27,1.0,False,0.6145143726337676,0.0925,50,False,,7.0
+UNIONBANK,Banks,industry_mode,0.93,industry_history,Financial Services,Banks,PSU Bank,27,1.0,27,1.0,False,0.6399122762200045,0.065,50,False,,7.0
+YESBANK,Banks,industry_mode,0.78,industry_history,Financial Services,Banks,Pvt Banks,6,1.0,6,1.0,False,0.2928859872111868,0.16,29,False,,22.0
+HINDCOPPER,Basic Materials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Basic Materials,Copper,Metal Mines,27,1.0,27,1.0,False,0.447247538480691,0.1125,50,True,low_fundamental_confidence,35.0
+HINDZINC,Basic Materials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Basic Materials,Zinc,Metal Mines,4,1.0,4,1.0,False,-0.01856081037003403,0.18,27,True,low_fundamental_confidence;rank_moves_diverge_from_theme,45.0
+LINDEINDIA,Basic Materials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Basic Materials,Industrial Gases,,27,1.0,27,1.0,False,0.0972828995098348,0.095,50,True,low_fundamental_confidence,35.0
+RAIN,Basic Materials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Basic Materials,Petrochemicals,,13,1.0,13,1.0,False,0.40603533681755277,0.22,36,True,low_fundamental_confidence,35.0
+SPLPETRO,Basic Materials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Basic Materials,Petrochemicals,,27,1.0,27,1.0,False,0.5389890718389206,0.13,50,True,low_fundamental_confidence,35.0
+ADVENZYMES,Biotech,industry_mode,0.93,industry_history,Basic Materials,Biotechnology,,27,1.0,27,1.0,False,0.3841331389619563,0.0875,50,False,,7.0
+BIOCON,Biotech,industry_mode,0.93,industry_history,Healthcare,Biotechnology,Pharma,27,1.0,27,1.0,False,0.45050064328706935,0.1,50,False,,7.0
+CONCORDBIO,Biotech,industry_mode,0.78,industry_history,Healthcare,Biotechnology,,9,1.0,9,1.0,False,0.7481136024867507,0.01,32,False,,22.0
+ACUTAAS,CDMO,debug_theme,0.74,debug_fallback,,,Cdmo,0,0.0,0,0.0,False,0.5382383427471303,0.0525,12,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+ONESOURCE,CDMO,manual_lock,0.99,locked_override,,,Pharma,0,0.0,0,0.0,True,0.09609386438694899,0.3325,10,True,high_rank_residual,9.0
+SAILIFE,CDMO,debug_theme,0.74,debug_fallback,,,Cdmo,0,0.0,0,0.0,False,0.7218097667984683,0.045,11,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+SENORES,CDMO,debug_theme,0.74,debug_fallback,,,Cdmo,0,0.0,0,0.0,False,0.9113042892244634,0.06,11,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+CDSL,Capital Market Infrastructure,manual_lock,0.99,locked_override,Financial Services,Investment Companies,Exchanges,27,0.63,27,1.0,True,1.0,0.0,50,False,,1.0
+ACC,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,,27,1.0,27,1.0,False,0.23099710683574703,0.285,50,True,high_rank_residual,15.0
+AMBUJACEM,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,,27,1.0,27,1.0,False,0.3664209294046632,0.185,50,False,,7.0
+BIRLACORPN,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,,27,1.0,27,1.0,False,0.3823960427095236,0.14,50,False,,7.0
+DALBHARAT,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,Cement,27,1.0,27,1.0,False,0.5462801434973089,0.13,50,False,,7.0
+GRASIM,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,,27,1.0,27,1.0,False,0.3564892375688894,0.095,50,False,,7.0
+INDIACEM,Cement,industry_mode,0.86,industry_history,Basic Materials,Cement & Cement Products,,10,1.0,10,1.0,False,-0.10233287337305667,0.19,33,True,rank_moves_diverge_from_theme,24.0
+JKCEMENT,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,Cement,27,1.0,27,1.0,False,0.5428390366012292,0.155,50,False,,7.0
+JKLAKSHMI,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,Cement,27,1.0,27,1.0,False,0.4814359368351613,0.06,50,False,,7.0
+NUVOCO,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,,27,1.0,27,1.0,False,0.3867669561071803,0.125,50,False,,7.0
+RAMCOCEM,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,,27,1.0,27,1.0,False,0.3287845841521315,0.09,50,False,,7.0
+SHREECEM,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,Cement,27,1.0,27,1.0,False,0.4490406021074188,0.095,50,False,,7.0
+STARCEMENT,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,,27,1.0,27,1.0,False,0.4320621482924921,0.04,50,False,,7.0
+ULTRACEMCO,Cement,industry_mode,0.93,industry_history,Basic Materials,Cement & Cement Products,Cement,27,1.0,27,1.0,False,0.3433250313017336,0.135,50,False,,7.0
+ASHOKLEY,Commercial Vehicles,industry_mode,0.93,industry_history,Industrials,Commercial Vehicles,CV,27,1.0,27,1.0,False,0.43895321744994054,0.0925,50,False,,7.0
+BEML,Commercial Vehicles,industry_mode,0.93,industry_history,Industrials,Commercial Vehicles,,27,1.0,27,1.0,False,0.4151534408166705,0.1,50,False,,7.0
+ESCORTS,Commercial Vehicles,industry_mode,0.93,industry_history,Industrials,Commercial Vehicles,,27,1.0,27,1.0,False,0.598719303921502,0.0775,50,False,,7.0
+VSTTILLERS,Commercial Vehicles,industry_mode,0.93,industry_history,Industrials,Commercial Vehicles,,27,1.0,27,1.0,False,0.5070682776842083,0.0775,50,False,,7.0
+ACI,Commodity Chemicals,industry_mode,0.93,industry_history,Basic Materials,Commodity Chemicals,,27,1.0,27,1.0,False,0.5461724720679285,0.0575,50,False,,7.0
+DEEPAKFERT,Commodity Chemicals,industry_mode,0.93,industry_history,Basic Materials,Commodity Chemicals,Fertilizer,27,1.0,27,1.0,False,0.40969699449308805,0.1725,50,False,,7.0
+DEEPAKNTR,Commodity Chemicals,industry_mode,0.93,industry_history,Basic Materials,Commodity Chemicals,,27,1.0,27,1.0,False,0.46163527529713655,0.2275,50,True,high_rank_residual,15.0
+GHCL,Commodity Chemicals,industry_mode,0.93,industry_history,Basic Materials,Commodity Chemicals,,20,1.0,20,1.0,False,0.26792998111692656,0.08,43,False,,7.0
+INDIAGLYCO,Commodity Chemicals,industry_mode,0.93,industry_history,Basic Materials,Commodity Chemicals,,21,1.0,21,1.0,False,0.3745437534080178,0.2475,44,True,high_rank_residual,15.0
+NAVINFLUOR,Commodity Chemicals,industry_mode,0.93,industry_history,Basic Materials,Commodity Chemicals,Chemicals,27,1.0,27,1.0,False,0.2962672736729981,0.2175,50,False,,7.0
+TATACHEM,Commodity Chemicals,industry_mode,0.93,industry_history,Basic Materials,Commodity Chemicals,,27,1.0,27,1.0,False,0.1992164108358876,0.155,50,False,,7.0
+TIRUMALCHM,Commodity Chemicals,industry_mode,0.93,industry_history,Basic Materials,Commodity Chemicals,,15,1.0,15,1.0,False,0.4697722593523986,0.14,38,False,,7.0
+INDUSTOWER,Communication Services - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Communication Services,Other Telecom Services,Telecom,24,1.0,24,1.0,False,0.36571196096184716,0.205,47,True,low_fundamental_confidence,35.0
+MPSLTD,Communication Services - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Communication Services,Publishing,,2,1.0,2,1.0,False,0.5727769083725548,0.165,25,True,low_fundamental_confidence,35.0
+SAREGAMA,Communication Services - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Communication Services,Movies & Entertainment,Music,12,1.0,12,1.0,False,0.45069225034401,0.115,35,True,low_fundamental_confidence,35.0
+SUNTV,Communication Services - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Communication Services,Broadcasting & Cable TV,,27,1.0,27,1.0,False,0.6525542607440207,0.1025,50,True,low_fundamental_confidence,35.0
+TATACOMM,Communication Services - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Communication Services,Other Telecom Services,Telecom,27,1.0,27,1.0,False,0.113648002128657,0.18,50,True,low_fundamental_confidence,35.0
+ZEEL,Communication Services - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Communication Services,Broadcasting & Cable TV,,27,1.0,27,1.0,False,0.5505968894113932,0.2075,50,True,low_fundamental_confidence,35.0
+CARTRADE,Consumer Cyclical - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Cyclical,Internet & Catalogue Retail,New Gen,27,1.0,27,1.0,False,0.32918879619834734,0.105,50,True,low_fundamental_confidence,35.0
+CARYSIL,Consumer Cyclical - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Cyclical,Household Products,,25,1.0,25,1.0,False,0.46174493379301307,0.1,48,True,low_fundamental_confidence,35.0
+MAHSCOOTER,Consumer Cyclical - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Cyclical,Investment Companies,,27,1.0,27,1.0,False,0.22257585789585443,0.095,50,True,low_fundamental_confidence,35.0
+NYKAA,Consumer Cyclical - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Cyclical,Internet & Catalogue Retail,New Gen,27,1.0,27,1.0,False,0.6491616278894045,0.05,50,True,low_fundamental_confidence,35.0
+BALRAMCHIN,Consumer Defensive - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Defensive,Sugar,,27,1.0,27,1.0,False,0.7496650437743965,0.06,50,True,low_fundamental_confidence,35.0
+CCL,Consumer Defensive - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Defensive,Tea & Coffee,,27,1.0,27,1.0,False,0.298497355707743,0.165,50,True,low_fundamental_confidence,35.0
+GODREJAGRO,Consumer Defensive - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Defensive,Other Agricultural Products,,27,1.0,27,1.0,False,0.6193960231384141,0.175,50,True,low_fundamental_confidence,35.0
+LTFOODS,Consumer Defensive - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Defensive,Other Agricultural Products,Agri,16,0.625,16,1.0,False,0.5126064761624117,0.2,39,True,low_fundamental_confidence,35.0
+NIITMTS,Consumer Defensive - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Defensive,Education,,9,1.0,9,1.0,False,0.2175667591772139,0.265,32,True,low_fundamental_confidence;high_rank_residual,43.0
+TRIVENI,Consumer Defensive - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Defensive,Sugar,,27,1.0,27,1.0,False,0.600307351464859,0.04,50,True,low_fundamental_confidence,35.0
+VBL,Consumer Defensive - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Consumer Defensive,Non-alcoholic Beverages,,27,1.0,27,1.0,False,0.26814376844095533,0.315,50,True,low_fundamental_confidence;high_rank_residual,43.0
+AMBER,Consumer Durables & Electronics,industry_mode,0.93,industry_history,Consumer Cyclical,Consumer Electronics,EMS,27,1.0,27,1.0,False,0.4232141910438427,0.22,50,False,,7.0
+BLUESTARCO,Consumer Durables & Electronics,industry_mode,0.93,industry_history,Industrials,Consumer Electronics,AIRCON,27,1.0,27,1.0,False,0.4269525212946131,0.1675,50,False,,7.0
+DIXON,Consumer Durables & Electronics,industry_mode,0.93,industry_history,Technology,Consumer Electronics,EMS,27,1.0,27,1.0,False,0.15054264716257987,0.2125,50,False,,7.0
+EMIL,Consumer Durables & Electronics,industry_mode,0.78,industry_history,Consumer Cyclical,Consumer Electronics,,27,0.63,27,1.0,False,0.21810277684605583,0.24,50,True,high_rank_residual,30.0
+ORIENTELEC,Consumer Durables & Electronics,industry_mode,0.93,industry_history,Consumer Cyclical,Consumer Electronics,,27,1.0,27,1.0,False,0.22199751125038103,0.2225,50,True,high_rank_residual,15.0
+PGEL,Consumer Durables & Electronics,industry_mode,0.93,industry_history,Technology,Consumer Electronics,EMS,19,1.0,19,1.0,False,0.42706443985676606,0.16,42,False,,7.0
+SYMPHONY,Consumer Durables & Electronics,industry_mode,0.93,industry_history,Consumer Cyclical,Consumer Electronics,,27,1.0,27,1.0,False,0.2433527960398199,0.2025,50,False,,7.0
+VOLTAS,Consumer Durables & Electronics,industry_mode,0.93,industry_history,Industrials,Consumer Electronics,AIRCON,27,1.0,27,1.0,False,0.41253884855600403,0.105,50,False,,7.0
+WHIRLPOOL,Consumer Durables & Electronics,industry_mode,0.93,industry_history,Consumer Cyclical,Consumer Electronics,,27,1.0,27,1.0,False,0.4427798549042646,0.2,50,False,,7.0
+EPL,Containers & Packaging,industry_mode,0.93,industry_history,Consumer Cyclical,Containers & Packaging,,27,1.0,27,1.0,False,0.8545969380757942,0.0,50,False,,7.0
+GRWRHITECH,Containers & Packaging,industry_mode,0.93,industry_history,Basic Materials,Containers & Packaging,,27,1.0,27,1.0,False,0.11692256793171334,0.315,50,True,high_rank_residual,15.0
+MOLDTKPAC,Containers & Packaging,industry_mode,0.93,industry_history,Consumer Cyclical,Containers & Packaging,,27,1.0,27,1.0,False,0.19475641448097883,0.19,50,False,,7.0
+ASTRAMICRO,Defence,industry_mode,0.93,industry_history,Technology,Defence,,25,1.0,25,1.0,False,0.6184657695149117,0.025,48,False,,7.0
+BDL,Defence,industry_mode,0.93,industry_history,Industrials,Defence,Defense (large),27,1.0,27,1.0,False,0.6945568541837157,0.09,50,False,,7.0
+BEL,Defence,industry_mode,0.93,industry_history,Industrials,Defence,Defense (large),27,1.0,27,1.0,False,0.6441338489315341,0.125,50,False,,7.0
+DATAPATTNS,Defence,industry_mode,0.93,industry_history,Industrials,Defence,,27,1.0,27,1.0,False,0.4945609494403364,0.1775,50,False,,7.0
+HAL,Defence,industry_mode,0.93,industry_history,Industrials,Defence,Defense (large),27,1.0,27,1.0,False,0.6937934415746653,0.055,50,False,,7.0
+MTARTECH,Defence,industry_mode,0.93,industry_history,Industrials,Defence,Data Centers,27,1.0,27,1.0,False,0.16848821650920376,0.335,50,True,high_rank_residual,15.0
+ZENTEC,Defence,industry_mode,0.93,industry_history,Industrials,Defence,,15,1.0,15,1.0,False,0.3719251530477317,0.195,38,False,,7.0
+ABFRL,Department Stores,industry_mode,0.93,industry_history,Consumer Cyclical,Department Stores,,27,1.0,27,1.0,False,0.3676022579404957,0.0675,50,False,,7.0
+DMART,Department Stores,industry_mode,0.93,industry_history,Consumer Defensive,Department Stores,,27,1.0,27,1.0,False,0.23058840561420213,0.155,50,False,,7.0
+SHOPERSTOP,Department Stores,industry_mode,0.93,industry_history,Consumer Cyclical,Department Stores,,27,1.0,27,1.0,False,0.09663477463770144,0.2025,50,False,,7.0
+TRENT,Department Stores,industry_mode,0.93,industry_history,Consumer Cyclical,Department Stores,Retail,27,1.0,27,1.0,False,0.4219593737168514,0.2375,50,True,high_rank_residual,15.0
+V2RETAIL,Department Stores,industry_mode,0.68,industry_history,Consumer Cyclical,Department Stores,Retail,2,1.0,2,1.0,False,0.298865389961823,0.43,25,True,low_fundamental_confidence;high_rank_residual,40.0
+VMART,Department Stores,industry_mode,0.93,industry_history,Consumer Cyclical,Department Stores,Retail,27,1.0,27,1.0,False,0.6131668481454549,0.115,50,False,,7.0
+AFFLE,Digital Platforms,industry_mode,0.93,industry_history,Communication Services,Internet Software & Services,,27,1.0,27,1.0,False,0.26164479265799256,0.16,50,False,,7.0
+INDIAMART,Digital Platforms,industry_mode,0.93,industry_history,Communication Services,Internet Software & Services,,27,1.0,27,1.0,False,0.2027816989616826,0.19,50,False,,7.0
+JUSTDIAL,Digital Platforms,industry_mode,0.93,industry_history,Communication Services,Internet Software & Services,,27,1.0,27,1.0,False,-0.2665581191168394,0.21,50,True,rank_moves_diverge_from_theme,17.0
+MAPMYINDIA,Digital Platforms,industry_mode,0.93,industry_history,Technology,Internet Software & Services,,27,1.0,27,1.0,False,0.15972635839088098,0.205,50,False,,7.0
+NAUKRI,Digital Platforms,industry_mode,0.93,industry_history,Communication Services,Internet Software & Services,,27,1.0,27,1.0,False,0.35187451760713995,0.115,50,False,,7.0
+NAZARA,Digital Platforms,industry_mode,0.93,industry_history,Communication Services,Internet Software & Services,,27,1.0,27,1.0,False,0.3676460272064031,0.075,50,False,,7.0
+PAYTM,Digital Platforms,industry_mode,0.93,industry_history,Technology,Internet Software & Services,New Gen,27,1.0,27,1.0,False,0.27761139446972266,0.275,50,True,high_rank_residual,15.0
+POLICYBZR,Digital Platforms,industry_mode,0.93,industry_history,Financial Services,Internet Software & Services,New Gen,27,1.0,27,1.0,False,0.048822985409542115,0.2,50,False,,7.0
+ROUTE,Digital Platforms,industry_mode,0.93,industry_history,Communication Services,Internet Software & Services,,27,1.0,27,1.0,False,0.18511075976336197,0.27,50,True,high_rank_residual,15.0
+AHLUCONT,EPC & Construction,industry_mode,0.93,industry_history,Industrials,Construction & Engineering,,27,1.0,27,1.0,False,0.6046668506445297,0.07,50,False,,7.0
+HGINFRA,EPC & Construction,industry_mode,0.93,industry_history,Industrials,Construction & Engineering,,27,1.0,27,1.0,False,0.3648649026034388,0.16,50,False,,7.0
+KNRCON,EPC & Construction,industry_mode,0.93,industry_history,Industrials,Construction & Engineering,,27,1.0,27,1.0,False,0.1717162271226035,0.25,50,True,high_rank_residual,15.0
+LT,EPC & Construction,industry_mode,0.93,industry_history,Industrials,Construction & Engineering,,27,1.0,27,1.0,False,-0.19488036297959152,0.205,50,True,rank_moves_diverge_from_theme,17.0
+NBCC,EPC & Construction,industry_mode,0.93,industry_history,Industrials,Construction & Engineering,,27,1.0,27,1.0,False,0.18787323319289478,0.15,50,False,,7.0
+NCC,EPC & Construction,industry_mode,0.93,industry_history,Industrials,Construction & Engineering,,27,1.0,27,1.0,False,0.4108542325393287,0.195,50,False,,7.0
+POWERMECH,EPC & Construction,industry_mode,0.93,industry_history,Industrials,Construction & Engineering,,27,1.0,27,1.0,False,0.38283311053699676,0.1175,50,False,,7.0
+PSPPROJECT,EPC & Construction,industry_mode,0.93,industry_history,Industrials,Construction & Engineering,,27,1.0,27,1.0,False,-0.08829298888563779,0.35,49,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+TEXRAIL,EPC & Construction,industry_mode,0.93,industry_history,Industrials,Construction & Engineering,Railway,27,1.0,27,1.0,False,0.26096166324624703,0.125,50,False,,7.0
+APARINDS,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,CABLES,27,1.0,27,1.0,False,0.18052703740436868,0.145,50,False,,7.0
+BBL,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,,23,1.0,23,1.0,False,0.4580968940211611,0.19,46,False,,7.0
+FINCABLES,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,CABLES,27,1.0,27,1.0,False,0.44377051307052373,0.195,50,False,,7.0
+HAVELLS,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,,27,1.0,27,1.0,False,0.3549352967585026,0.19,50,False,,7.0
+HONAUT,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,,27,1.0,27,1.0,False,0.1448581259355096,0.245,50,True,high_rank_residual,15.0
+KAYNES,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,EMS,27,1.0,27,1.0,False,0.3175295872600426,0.2375,50,True,high_rank_residual,15.0
+KEI,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,CABLES,27,1.0,27,1.0,False,0.35248428824480693,0.0775,50,False,,7.0
+PITTIENG,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,Engineering,27,1.0,27,1.0,False,0.41119399439856297,0.2225,50,True,high_rank_residual,15.0
+POLYCAB,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,CABLES,27,1.0,27,1.0,False,0.6326548831618628,0.11,50,False,,7.0
+RRKABEL,Electrical Equipment,industry_mode,0.78,industry_history,Industrials,Other Electrical Equipment/Products,CABLES,9,1.0,9,1.0,False,0.44664369166797807,0.19,32,False,,22.0
+SYRMA,Electrical Equipment,industry_mode,0.93,industry_history,Technology,Other Electrical Equipment/Products,EMS,27,1.0,27,1.0,False,0.47252390674522654,0.265,50,True,high_rank_residual,15.0
+UNIVCABLES,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,,17,1.0,17,1.0,False,0.23943989931270884,0.155,38,False,,7.0
+VGUARD,Electrical Equipment,industry_mode,0.93,industry_history,Industrials,Other Electrical Equipment/Products,,27,1.0,27,1.0,False,0.2124214359138379,0.12,50,False,,7.0
+ADANIENT,Energy - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Energy,Commodity Trading & Distribution,Infra,8,1.0,8,1.0,False,0.007856189290102638,0.09,31,True,low_fundamental_confidence,35.0
+COALINDIA,Energy - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Energy,Coal,,27,1.0,27,1.0,False,0.7735939843421424,0.065,50,True,low_fundamental_confidence,35.0
+GMDCLTD,Energy - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Energy,Coal,Rare Earth,23,1.0,23,1.0,False,0.3791684799797297,0.1825,46,True,low_fundamental_confidence,35.0
+OIL,Energy - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Energy,Exploration & Production,,27,1.0,27,1.0,False,0.659111087910607,0.055,50,True,low_fundamental_confidence,35.0
+ONGC,Energy - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Energy,Exploration & Production,,27,1.0,27,1.0,False,0.8500294332218885,0.0425,50,True,low_fundamental_confidence,35.0
+BSE,Exchange,industry_mode,0.93,industry_history,Financial Services,Exchange,Exchanges,23,1.0,23,1.0,False,0.6689570663003809,0.01,46,False,,7.0
+IEX,Exchange,industry_mode,0.93,industry_history,Financial Services,Exchange,Exchanges,27,1.0,27,1.0,False,0.11770956120467657,0.385,50,True,high_rank_residual,15.0
+MCX,Exchange,industry_mode,0.93,industry_history,Financial Services,Exchange,Exchanges,27,1.0,27,1.0,False,0.5702330198608723,0.03,50,False,,7.0
+CHAMBLFERT,Fertilizers,industry_mode,0.93,industry_history,Basic Materials,Fertilizers,Fertilizer,27,1.0,27,1.0,False,0.3446464140663673,0.13,50,False,,7.0
+COROMANDEL,Fertilizers,industry_mode,0.93,industry_history,Basic Materials,Fertilizers,Fertilizer,27,1.0,27,1.0,False,0.6732892918867179,0.025,50,False,,7.0
+PARADEEP,Fertilizers,industry_mode,0.93,industry_history,Basic Materials,Fertilizers,Fertilizer,27,1.0,27,1.0,False,0.5118689466088338,0.045,50,False,,7.0
+360ONE,Financial Services,industry_mode,0.93,industry_history,Financial Services,Other Financial Services,Wealth Mgr,27,1.0,27,1.0,False,0.04538446127397034,0.1075,50,False,,7.0
+ANANDRATHI,Financial Services,industry_mode,0.78,industry_history,Financial Services,Other Financial Services,Wealth Mgr,27,0.63,27,1.0,False,0.3415336627352999,0.235,50,True,high_rank_residual,30.0
+CARERATING,Financial Services,industry_mode,0.93,industry_history,Financial Services,Other Financial Services,,27,1.0,27,1.0,False,0.4858595927694356,0.1,50,False,,7.0
+CMSINFO,Financial Services,industry_mode,0.93,industry_history,Industrials,Other Financial Services,,27,1.0,27,1.0,False,0.3050594617639469,0.1575,50,False,,7.0
+CRISIL,Financial Services,industry_mode,0.93,industry_history,Financial Services,Other Financial Services,,27,1.0,27,1.0,False,0.286926247882164,0.14,50,False,,7.0
+EDELWEISS,Financial Services,industry_mode,0.93,industry_history,Financial Services,Other Financial Services,,15,1.0,15,1.0,False,0.475745355092006,0.085,38,False,,7.0
+ICRA,Financial Services,industry_mode,0.93,industry_history,Financial Services,Other Financial Services,,27,1.0,27,1.0,False,0.43491026810970135,0.0975,50,False,,7.0
+IIFL,Financial Services,industry_mode,0.93,industry_history,Financial Services,Other Financial Services,GOLD,27,1.0,27,1.0,False,0.35268039369374676,0.1875,50,False,,7.0
+KFINTECH,Financial Services,industry_mode,0.93,industry_history,Technology,Other Financial Services,Exchanges,27,1.0,27,1.0,False,0.18823991293228137,0.15,50,False,,7.0
+MOTILALOFS,Financial Services,industry_mode,0.68,industry_history,Financial Services,Other Financial Services,Wealth Mgr,27,0.444,27,1.0,False,0.29770476320519274,0.1575,50,True,low_fundamental_confidence,32.0
+PRUDENT,Financial Services,industry_mode,0.93,industry_history,Financial Services,Other Financial Services,,27,1.0,27,1.0,False,0.36038691485297786,0.12,50,False,,7.0
+RELIGARE,Financial Services,industry_mode,0.93,industry_history,Financial Services,Other Financial Services,,27,1.0,27,1.0,False,0.14774174739429177,0.1375,50,False,,7.0
+ANGELONE,Financial Services - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Financial Services,Capital Markets,,27,1.0,27,1.0,False,1.0,0.0,50,True,low_fundamental_confidence,35.0
+BATAINDIA,Footwear,industry_mode,0.93,industry_history,Consumer Cyclical,Footwear,,27,1.0,27,1.0,False,0.6293642154518376,0.0775,50,False,,7.0
+CAMPUS,Footwear,industry_mode,0.93,industry_history,Consumer Cyclical,Footwear,,27,1.0,27,1.0,False,0.7076316922007443,0.1175,50,False,,7.0
+METROBRAND,Footwear,industry_mode,0.93,industry_history,Consumer Cyclical,Footwear,,27,1.0,27,1.0,False,0.5693823456529022,0.1925,50,False,,7.0
+REDTAPE,Footwear,industry_mode,0.78,industry_history,Consumer Cyclical,Footwear,,9,1.0,9,1.0,False,0.08768725044999535,0.1775,32,False,,22.0
+CENTURYPLY,Forest Products,industry_mode,0.93,industry_history,Basic Materials,Forest Products,,27,1.0,27,1.0,False,0.5916376938193746,0.0875,50,False,,7.0
+GREENPANEL,Forest Products,industry_mode,0.93,industry_history,Basic Materials,Forest Products,,27,1.0,27,0.963,False,0.3798408810859826,0.1675,50,False,,7.0
+GREENPLY,Forest Products,industry_mode,0.93,industry_history,Basic Materials,Forest Products,,27,1.0,27,1.0,False,0.15721817013019646,0.16,50,False,,7.0
+STYLAMIND,Forest Products,industry_mode,0.93,industry_history,Consumer Cyclical,Forest Products,,27,1.0,27,1.0,False,0.3117457146054292,0.1275,50,False,,7.0
+AGI,Furniture-Furnishing-Paints,industry_mode,0.78,industry_history,Consumer Cyclical,Furniture-Furnishing-Paints,,26,0.615,26,1.0,False,-0.0078197178728404,0.16,49,True,rank_moves_diverge_from_theme,32.0
+AKZOINDIA,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Basic Materials,Furniture-Furnishing-Paints,,27,1.0,27,1.0,False,0.23985486350463678,0.15,50,False,,7.0
+ASIANPAINT,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Basic Materials,Furniture-Furnishing-Paints,,27,1.0,27,1.0,False,0.4192833054960905,0.055,50,False,,7.0
+BERGEPAINT,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Basic Materials,Furniture-Furnishing-Paints,,27,1.0,27,1.0,False,0.24994713702317284,0.1,50,False,,7.0
+CERA,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Industrials,Furniture-Furnishing-Paints,,27,1.0,27,1.0,False,0.32718053222597754,0.16,50,False,,7.0
+GREENLAM,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Consumer Cyclical,Furniture-Furnishing-Paints,,27,1.0,27,1.0,False,0.24356367504419532,0.115,50,False,,7.0
+INDIGOPNTS,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Basic Materials,Furniture-Furnishing-Paints,,27,1.0,27,1.0,False,0.29463414069049043,0.115,50,False,,7.0
+KAJARIACER,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Industrials,Furniture-Furnishing-Paints,,27,1.0,27,1.0,False,0.23912405674882675,0.105,50,False,,7.0
+KANSAINER,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Basic Materials,Furniture-Furnishing-Paints,,27,1.0,27,1.0,False,0.2687244892911506,0.075,50,False,,7.0
+SFL,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Consumer Cyclical,Furniture-Furnishing-Paints,,27,1.0,27,1.0,False,0.18916272328650827,0.18,50,False,,7.0
+SOMANYCERA,Furniture-Furnishing-Paints,industry_mode,0.93,industry_history,Industrials,Furniture-Furnishing-Paints,,25,1.0,25,1.0,False,0.040906121240458726,0.07,48,False,,7.0
+KALYANKJIL,Gems & Jewellery,industry_mode,0.93,industry_history,Consumer Cyclical,Gems & Jewellery,Jewellery,27,1.0,27,1.0,False,0.4504836957022163,0.13,50,False,,7.0
+SENCO,Gems & Jewellery,industry_mode,0.78,industry_history,Consumer Cyclical,Gems & Jewellery,,9,1.0,9,1.0,False,0.6671344701641045,0.2075,32,False,,22.0
+THANGAMAYL,Gems & Jewellery,industry_mode,0.93,industry_history,Consumer Cyclical,Gems & Jewellery,Jewellery,27,1.0,27,1.0,False,0.7389239844948996,0.08,50,False,,7.0
+TITAN,Gems & Jewellery,industry_mode,0.93,industry_history,Consumer Cyclical,Gems & Jewellery,Jewellery,27,1.0,27,1.0,False,0.314018908358827,0.14,50,False,,7.0
+GICRE,General Insurance,industry_mode,0.93,industry_history,Financial Services,General Insurance,,26,1.0,26,1.0,False,0.19704284269965572,0.15,49,False,,7.0
+GODIGIT,General Insurance,manual_lock,0.99,locked_override,,,Insurance,0,0.0,0,0.0,True,0.6491951917579373,0.0625,20,False,,1.0
+ICICIGI,General Insurance,industry_mode,0.93,industry_history,Financial Services,General Insurance,Insurance,27,1.0,27,1.0,False,0.6145514007474533,0.0225,50,False,,7.0
+STARHEALTH,General Insurance,industry_mode,0.93,industry_history,Financial Services,General Insurance,,27,1.0,27,1.0,False,0.39351542104270487,0.215,50,False,,7.0
+MEDPLUS,Healthcare - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Healthcare,Healthcare Supplies,,27,1.0,27,1.0,False,0.7873197144477468,0.18,50,True,low_fundamental_confidence,35.0
+POLYMED,Healthcare - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Healthcare,Healthcare Supplies,Medical Devices,27,1.0,27,1.0,False,0.6019606336147229,0.18,50,True,low_fundamental_confidence,35.0
+KOVAI,Healthcare Services,industry_mode,0.93,industry_history,Healthcare,Healthcare Services,,25,1.0,25,1.0,False,0.19913785030555065,0.145,48,False,,7.0
+KRSNAA,Healthcare Services,industry_mode,0.93,industry_history,Healthcare,Healthcare Services,Diagnostics,27,1.0,27,1.0,False,0.3945808388479931,0.205,50,False,,7.0
+LALPATHLAB,Healthcare Services,industry_mode,0.93,industry_history,Healthcare,Healthcare Services,Diagnostics,27,1.0,27,1.0,False,0.4431511655458518,0.03,50,False,,7.0
+MEDIASSIST,Healthcare Services,industry_mode,0.68,industry_history,Healthcare,Healthcare Services,,2,1.0,2,1.0,False,0.039518421786695145,0.25,22,True,low_fundamental_confidence;high_rank_residual,40.0
+METROPOLIS,Healthcare Services,industry_mode,0.93,industry_history,Healthcare,Healthcare Services,Diagnostics,27,1.0,27,1.0,False,0.5648835616791867,0.09,50,False,,7.0
+THYROCARE,Healthcare Services,industry_mode,0.93,industry_history,Healthcare,Healthcare Services,Diagnostics,27,1.0,27,1.0,False,0.42928583393772174,0.2175,50,False,,7.0
+VIJAYA,Healthcare Services,industry_mode,0.93,industry_history,Healthcare,Healthcare Services,Diagnostics,27,1.0,27,1.0,False,0.47489063712959223,0.13,50,False,,7.0
+ABCAPITAL,Holding Companies,industry_mode,0.93,industry_history,Financial Services,Holding Companies,NBFC,27,1.0,27,1.0,False,0.01778843192912463,0.215,50,False,,7.0
+BAJAJFINSV,Holding Companies,industry_mode,0.93,industry_history,Financial Services,Holding Companies,Insurance,27,1.0,27,1.0,False,0.3184235888454093,0.1175,50,False,,7.0
+BAJAJHLDNG,Holding Companies,industry_mode,0.93,industry_history,Financial Services,Holding Companies,,27,1.0,27,1.0,False,0.4031607700165233,0.075,50,False,,7.0
+CHOLAHLDNG,Holding Companies,industry_mode,0.93,industry_history,Financial Services,Holding Companies,,27,1.0,27,1.0,False,0.4466449455282382,0.07,50,False,,7.0
+JMFINANCIL,Holding Companies,industry_mode,0.93,industry_history,Financial Services,Holding Companies,Misc Financials,27,1.0,27,1.0,False,0.24550441033719128,0.145,50,False,,7.0
+RANEHOLDIN,Holding Companies,industry_mode,0.93,industry_history,Consumer Cyclical,Holding Companies,,23,0.87,23,1.0,False,0.2340123051452581,0.215,46,False,,7.0
+APOLLOHOSP,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,Hospitals,27,1.0,27,1.0,False,0.24414770436845068,0.075,50,False,,7.0
+ARTEMISMED,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,,19,1.0,19,1.0,False,-0.10485594787523889,0.11,42,True,rank_moves_diverge_from_theme,17.0
+ASTERDM,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,Hospitals,27,1.0,27,1.0,False,0.6173373795083269,0.1225,50,False,,7.0
+FORTIS,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,Hospitals,27,1.0,27,1.0,False,0.2051227267877402,0.13,50,False,,7.0
+HCG,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,Hospitals,27,1.0,27,1.0,False,0.38381998563516795,0.14,50,False,,7.0
+JLHL,Hospitals,industry_mode,0.78,industry_history,Healthcare,Healthcare Facilities,,9,1.0,9,1.0,False,0.17519527479963115,0.09,32,False,,22.0
+KIMS,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,Hospitals,27,1.0,27,1.0,False,0.6077465772406451,0.09,50,False,,7.0
+MAXHEALTH,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,Hospitals,27,1.0,27,1.0,False,0.6263120786217313,0.07,50,False,,7.0
+MEDANTA,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,,27,1.0,27,1.0,False,0.2893190849891984,0.1475,50,False,,7.0
+NH,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,Hospitals,27,1.0,27,1.0,False,0.4374122225786981,0.1,50,False,,7.0
+RAINBOW,Hospitals,industry_mode,0.93,industry_history,Healthcare,Healthcare Facilities,,27,1.0,27,1.0,False,0.5481376212026579,0.105,50,False,,7.0
+YATHARTH,Hospitals,industry_mode,0.78,industry_history,Healthcare,Healthcare Facilities,Hospitals,9,1.0,9,1.0,False,0.3027647819379527,0.17,32,False,,22.0
+CHALET,Hotels,industry_mode,0.93,industry_history,Consumer Cyclical,Hotels,HOTELS,27,1.0,27,1.0,False,0.5255990217545292,0.065,50,False,,7.0
+EIHOTEL,Hotels,industry_mode,0.93,industry_history,Consumer Cyclical,Hotels,HOTELS,27,1.0,27,1.0,False,0.7155535411863614,0.06,50,False,,7.0
+INDHOTEL,Hotels,industry_mode,0.93,industry_history,Consumer Cyclical,Hotels,HOTELS,27,1.0,27,1.0,False,0.4726933684952618,0.12,50,False,,7.0
+LEMONTREE,Hotels,industry_mode,0.93,industry_history,Consumer Cyclical,Hotels,HOTELS,27,1.0,27,1.0,False,0.7881394389275449,0.0525,50,False,,7.0
+MHRIL,Hotels,industry_mode,0.93,industry_history,Consumer Cyclical,Hotels,,27,1.0,27,1.0,False,0.3955155564116573,0.2025,50,False,,7.0
+SAMHI,Hotels,industry_mode,0.78,industry_history,Consumer Cyclical,Hotels,HOTELS,9,1.0,9,1.0,False,0.391450554147039,0.07,32,False,,22.0
+VENTIVE,Hotels,debug_theme,0.74,debug_fallback,,,HOTELS,0,0.0,0,0.0,False,0.3800674807037918,0.05,11,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+BAJAJELEC,Household Appliances,industry_mode,0.93,industry_history,Consumer Cyclical,Household Appliances,,16,1.0,16,1.0,False,0.2129132641569462,0.25,39,True,high_rank_residual,15.0
+CROMPTON,Household Appliances,industry_mode,0.93,industry_history,Consumer Cyclical,Household Appliances,,27,1.0,27,1.0,False,0.5779707673744251,0.0225,50,False,,7.0
+IFBIND,Household Appliances,industry_mode,0.93,industry_history,Consumer Cyclical,Household Appliances,,27,1.0,27,1.0,False,0.45250991297623694,0.03,50,False,,7.0
+BORORENEW,Houseware,industry_mode,0.93,industry_history,Consumer Cyclical,Houseware,,17,1.0,17,1.0,False,0.5851280924835032,0.215,40,False,,7.0
+LAOPALA,Houseware,industry_mode,0.93,industry_history,Consumer Cyclical,Houseware,,27,1.0,27,1.0,False,0.2621583034031672,0.2075,50,False,,7.0
+STOVEKRAFT,Houseware,industry_mode,0.93,industry_history,Consumer Cyclical,Houseware,,24,1.0,24,1.0,False,0.541179029835066,0.095,47,False,,7.0
+TTKPRESTIG,Houseware,industry_mode,0.93,industry_history,Consumer Cyclical,Houseware,,27,1.0,27,1.0,False,0.29534162290581684,0.085,50,False,,7.0
+AADHARHFC,Housing Finance,debug_theme,0.74,debug_fallback,,,Housing Fin,0,0.0,0,0.0,False,0.5278615816346162,0.1675,20,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+AAVAS,Housing Finance,industry_mode,0.93,industry_history,Financial Services,Housing Finance,Housing Fin,27,1.0,27,1.0,False,0.41497641017537684,0.23,50,True,high_rank_residual,15.0
+APTUS,Housing Finance,industry_mode,0.93,industry_history,Financial Services,Housing Finance,Housing Fin,27,1.0,27,1.0,False,0.3728525450500787,0.17,50,False,,7.0
+CANFINHOME,Housing Finance,industry_mode,0.93,industry_history,Financial Services,Housing Finance,,27,1.0,27,1.0,False,0.46408216024580734,0.075,50,False,,7.0
+HOMEFIRST,Housing Finance,industry_mode,0.93,industry_history,Financial Services,Housing Finance,Housing Fin,27,1.0,27,1.0,False,0.5783876343394532,0.0625,50,False,,7.0
+HUDCO,Housing Finance,industry_mode,0.93,industry_history,Financial Services,Housing Finance,,15,1.0,15,1.0,False,0.21132173573564575,0.1575,38,False,,7.0
+INDIASHLTR,Housing Finance,industry_mode,0.78,industry_history,Financial Services,Housing Finance,Housing Fin,9,1.0,9,1.0,False,0.3557379775208718,0.1525,30,False,,22.0
+LICHSGFIN,Housing Finance,industry_mode,0.93,industry_history,Financial Services,Housing Finance,,27,1.0,27,1.0,False,0.2799881477795419,0.1225,50,False,,7.0
+PNBHOUSING,Housing Finance,industry_mode,0.93,industry_history,Financial Services,Housing Finance,Housing Fin,27,1.0,27,1.0,False,0.3494740801224038,0.1525,50,False,,7.0
+REPCOHOME,Housing Finance,industry_mode,0.93,industry_history,Financial Services,Housing Finance,,27,1.0,27,1.0,False,0.24723120350811378,0.1525,50,False,,7.0
+INTELLECT,IT Products,industry_mode,0.93,industry_history,,IT Software Products,,27,1.0,0,0.0,False,0.716071779632587,0.115,50,False,,7.0
+RATEGAIN,IT Products,industry_mode,0.93,industry_history,Technology,IT Software Products,IT (products),27,1.0,27,1.0,False,0.4606392763878372,0.11,50,False,,7.0
+TATATECH,IT Products,industry_mode,0.78,industry_history,Technology,IT Software Products,,9,1.0,9,1.0,False,0.3740151281809902,0.18,31,False,,22.0
+ZAGGLE,IT Products,industry_mode,0.78,industry_history,Technology,IT Software Products,New Gen,9,1.0,9,1.0,False,0.05162551102550827,0.2225,32,True,high_rank_residual,30.0
+BSOFT,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.453232768719447,0.2775,50,True,high_rank_residual,15.0
+CIGNITITEC,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,19,1.0,19,1.0,False,0.2851832681787892,0.3025,42,True,high_rank_residual,15.0
+COFORGE,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,IT (mid),27,1.0,27,1.0,False,0.37763428186677067,0.22,50,False,,7.0
+CYIENT,IT Services,industry_mode,0.93,industry_history,Industrials,IT Consulting & Software,,27,1.0,27,1.0,False,0.4020479643372531,0.285,50,True,high_rank_residual,15.0
+HAPPSTMNDS,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.05304054654824423,0.3675,50,True,high_rank_residual,15.0
+HCLTECH,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.5208166214387335,0.0775,50,False,,7.0
+INFY,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.5851749966535978,0.075,50,False,,7.0
+KPITTECH,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,IT (mid),27,1.0,27,1.0,False,0.3779924757040264,0.165,50,False,,7.0
+LTIM,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.759559304586225,0.1225,50,False,,7.0
+LTTS,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.6122477233253445,0.0875,50,False,,7.0
+MASTEK,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,25,1.0,25,1.0,False,0.4103880493147072,0.115,48,False,,7.0
+MPHASIS,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.6889529570562897,0.0875,50,False,,7.0
+NETWEB,IT Services,industry_mode,0.78,industry_history,Technology,IT Consulting & Software,Data Centers,9,1.0,9,1.0,False,-0.048158610909585925,0.31,32,True,rank_moves_diverge_from_theme;high_rank_residual,40.0
+NEWGEN,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,23,1.0,23,1.0,False,0.026200079932674848,0.22,46,False,,7.0
+OFSS,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.250872838272528,0.1625,50,False,,7.0
+PERSISTENT,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,IT (mid),27,1.0,27,1.0,False,0.5637223431043367,0.24,50,True,high_rank_residual,15.0
+RAMCOSYS,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.06141805077511361,0.2725,48,True,high_rank_residual,15.0
+SAGILITY,IT Services,debug_theme,0.74,debug_fallback,,,IT (mid),0,0.0,0,0.0,False,-0.05200981950595785,0.2875,14,True,low_fundamental_confidence;rank_moves_diverge_from_theme;high_rank_residual;debug_fallback_needs_validation,59.0
+SONATSOFTW,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.4300504886499161,0.285,50,True,high_rank_residual,15.0
+TATAELXSI,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,IT (mid),27,1.0,27,1.0,False,0.44782551661475833,0.195,50,False,,7.0
+TCS,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.6741756519346468,0.095,50,False,,7.0
+TECHM,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.5900290600459944,0.135,50,False,,7.0
+WIPRO,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.46816503281044186,0.135,50,False,,7.0
+ZENSARTECH,IT Services,industry_mode,0.93,industry_history,Technology,IT Consulting & Software,,27,1.0,27,1.0,False,0.4235940971509685,0.1925,50,False,,7.0
+ANUP,Industrial Engineering,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Engineering,0,0.0,0,0.0,False,1.0,0.0,23,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+3MINDIA,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,-0.007959044625885092,0.1625,50,True,rank_moves_diverge_from_theme,17.0
+AZAD,Industrial Machinery,industry_mode,0.78,industry_history,Industrials,Industrial Machinery,,9,1.0,9,1.0,False,0.2063662569262598,0.18,30,False,,22.0
+CUMMINSIND,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,0.1738950344458504,0.1525,50,False,,7.0
+ELECON,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,0.27933564117695053,0.145,50,False,,7.0
+GMMPFAUDLR,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,-0.3194809900998129,0.3675,50,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+INGERRAND,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,0.20770778964238462,0.1,50,False,,7.0
+ISGEC,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,0.3900620677325377,0.125,50,False,,7.0
+JYOTICNC,Industrial Machinery,industry_mode,0.78,industry_history,Industrials,Industrial Machinery,Engineering,7,1.0,7,1.0,False,0.03312598613530281,0.19,27,False,,22.0
+KIRLOSBROS,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,0.23481652343780365,0.1,50,False,,7.0
+KIRLPNU,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,0.17334198049964378,0.2025,50,False,,7.0
+KSB,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,0.3421139742526064,0.14,50,False,,7.0
+PRAJIND,Industrial Machinery,industry_mode,0.86,industry_history,Industrials,Industrial Machinery,,27,0.815,27,1.0,False,0.3887659531624662,0.24,50,True,high_rank_residual,22.0
+SHRIPISTON,Industrial Machinery,industry_mode,0.86,industry_history,Consumer Cyclical,Industrial Machinery,Auto Comp,13,1.0,13,1.0,False,-0.0002703889473613112,0.225,36,True,rank_moves_diverge_from_theme;high_rank_residual,32.0
+WENDT,Industrial Machinery,industry_mode,0.93,industry_history,Industrials,Industrial Machinery,,27,1.0,27,1.0,False,0.32931816010464815,0.1875,42,False,,7.0
+BHARATFORG,Industrial Products,industry_mode,0.93,industry_history,Consumer Cyclical,Other Industrial Products,,27,1.0,27,1.0,False,0.639524503587859,0.105,50,False,,7.0
+CARBORUNIV,Industrial Products,industry_mode,0.93,industry_history,Industrials,Other Industrial Products,,27,1.0,27,1.0,False,0.22940625900422695,0.11,50,False,,7.0
+GRINDWELL,Industrial Products,industry_mode,0.93,industry_history,Industrials,Other Industrial Products,,27,1.0,27,1.0,False,0.2595855944069287,0.19,50,False,,7.0
+HAPPYFORGE,Industrial Products,industry_mode,0.78,industry_history,Industrials,Other Industrial Products,,9,1.0,9,1.0,False,0.32684075581297256,0.055,30,False,,22.0
+INOXINDIA,Industrial Products,industry_mode,0.78,industry_history,Industrials,Other Industrial Products,,9,1.0,9,1.0,False,0.3856678385625003,0.125,30,False,,22.0
+JINDALSAW,Industrial Products,industry_mode,0.93,industry_history,Basic Materials,Other Industrial Products,,23,1.0,23,1.0,False,0.24076254505451886,0.21,46,False,,7.0
+KENNAMET,Industrial Products,industry_mode,0.93,industry_history,Industrials,Other Industrial Products,,25,1.0,25,1.0,False,0.2808934107092221,0.145,48,False,,7.0
+MMFL,Industrial Products,industry_mode,0.93,industry_history,Industrials,Other Industrial Products,,27,1.0,27,1.0,False,0.28528311362375514,0.22,50,False,,7.0
+PTCIL,Industrial Products,industry_mode,0.93,industry_history,Industrials,Other Industrial Products,,24,1.0,24,1.0,False,0.15951688339878503,0.31,47,True,high_rank_residual,15.0
+SOLARINDS,Industrial Products,industry_mode,0.93,industry_history,Basic Materials,Other Industrial Products,,27,1.0,27,1.0,False,0.23527632259295056,0.235,50,True,high_rank_residual,15.0
+TIMKEN,Industrial Products,industry_mode,0.93,industry_history,Industrials,Other Industrial Products,,27,1.0,27,1.0,False,0.5088861599867377,0.125,50,False,,7.0
+CONCOR,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Warehousing and Logistics,,27,1.0,27,1.0,False,-0.2918519402647337,0.2075,50,True,low_fundamental_confidence;rank_moves_diverge_from_theme,45.0
+DOMS,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Commodity Printing/Stationery,,9,1.0,9,1.0,False,0.2841237472526259,0.2625,30,True,low_fundamental_confidence;high_rank_residual,43.0
+ENGINERSIN,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Consulting Services,,27,1.0,27,1.0,False,0.04385383702224139,0.16,50,True,low_fundamental_confidence,35.0
+FLAIR,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Commodity Printing/Stationery,,9,1.0,9,1.0,False,0.6052270366109447,0.22,29,True,low_fundamental_confidence,35.0
+GODREJIND,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Diversified,,27,1.0,27,1.0,False,0.5503552546055124,0.165,50,True,low_fundamental_confidence,35.0
+GRAVITA,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Other Non-Ferrous Metals,Recyclers,15,1.0,15,1.0,False,0.008012550865994342,0.165,38,True,low_fundamental_confidence,35.0
+INDIGO,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Airlines,Travel,27,1.0,27,1.0,False,0.3399124015064271,0.24,50,True,low_fundamental_confidence;high_rank_residual,43.0
+SIS,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Misc. Commercial Services,,27,1.0,27,1.0,False,0.16976437572605055,0.2475,50,True,low_fundamental_confidence;high_rank_residual,43.0
+TCI,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Surface Transportation,,27,1.0,27,1.0,False,0.1859375998933744,0.105,50,True,low_fundamental_confidence,35.0
+TEAMLEASE,Industrials - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Industrials,Misc. Commercial Services,,27,1.0,27,1.0,False,0.34210645389319916,0.25,50,True,low_fundamental_confidence;high_rank_residual,43.0
+BLUESTONE,Jewellery,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Jewellery,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+PNGJL,Jewellery,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Jewellery,0,0.0,0,0.0,False,0.9999999999999998,0.0,17,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+HDFCLIFE,Life Insurance,industry_mode,0.93,industry_history,Financial Services,Life Insurance,Insurance,27,1.0,27,1.0,False,0.8783761180269397,0.035,50,False,,7.0
+ICICIPRULI,Life Insurance,industry_mode,0.93,industry_history,Financial Services,Life Insurance,Insurance,27,1.0,27,1.0,False,0.7502506435926524,0.135,50,False,,7.0
+LICI,Life Insurance,industry_mode,0.93,industry_history,Financial Services,Life Insurance,,27,1.0,27,1.0,False,0.06958595276401695,0.22,50,False,,7.0
+MFSL,Life Insurance,industry_mode,0.93,industry_history,Financial Services,Life Insurance,Insurance,27,1.0,27,1.0,False,0.6905298400822016,0.12,50,False,,7.0
+SBILIFE,Life Insurance,industry_mode,0.93,industry_history,Financial Services,Life Insurance,Insurance,27,1.0,27,1.0,False,0.6811068430920881,0.03,50,False,,7.0
+DREDGECORP,Marine Infra,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Dredging,0,0.0,0,0.0,False,0.1029341842829091,0.105,14,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+KMEW,Marine Infra,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Dredging,0,0.0,0,0.0,False,0.7428656876795243,0.06,21,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+ADANIPORTS,Marine Port & Services,industry_mode,0.93,industry_history,Industrials,Marine Port & Services,Infra,27,1.0,27,1.0,False,0.7549097793918929,0.0525,50,False,,7.0
+GPPL,Marine Port & Services,industry_mode,0.93,industry_history,Industrials,Marine Port & Services,,27,1.0,27,1.0,False,0.4496722789243126,0.075,50,False,,7.0
+JSWINFRA,Marine Port & Services,industry_mode,0.78,industry_history,Industrials,Marine Port & Services,,9,1.0,9,1.0,False,0.6464833226234141,0.155,32,False,,22.0
+TIPSMUSIC,Media & Music,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Music,0,0.0,0,0.0,False,1.0,0.0,23,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+MOIL,Mining,industry_mode,0.93,industry_history,Basic Materials,Mining,,27,1.0,27,1.0,False,0.6705519506558678,0.04,50,False,,7.0
+NMDC,Mining,industry_mode,0.93,industry_history,Basic Materials,Mining,,32,1.0,32,1.0,False,0.6970183952648509,0.06,50,False,,7.0
+SANDUMA,Mining,industry_mode,0.86,industry_history,Basic Materials,Mining,,13,1.0,13,1.0,False,0.7929240836615442,0.065,36,False,,14.0
+TEGA,Mining,industry_mode,0.93,industry_history,Industrials,Mining,Mine Supply,27,1.0,27,1.0,False,0.2922223412350287,0.0875,50,False,,7.0
+BAJFINANCE,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),NBFC,27,1.0,27,1.0,False,0.43568807651586594,0.1725,50,False,,7.0
+CGCL,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),,27,1.0,27,1.0,False,-0.11331708862121288,0.17,50,True,rank_moves_diverge_from_theme,17.0
+CHOLAFIN,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),NBFC,27,1.0,27,1.0,False,0.6529901054851972,0.14,50,False,,7.0
+CREDITACC,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),Micro Fin,27,1.0,27,1.0,False,0.314104419618343,0.155,50,False,,7.0
+FEDFINA,NBFC & Lending,industry_mode,0.78,industry_history,Financial Services,Finance (including NBFCs),GOLD,9,1.0,9,1.0,False,0.1465432265043639,0.21,31,False,,22.0
+FIVESTAR,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),NBFC,27,1.0,27,1.0,False,0.3672401613108213,0.15,50,False,,7.0
+FUSION,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),,27,1.0,27,1.0,False,0.14099174701907016,0.245,48,True,high_rank_residual,15.0
+IRFC,NBFC & Lending,industry_mode,0.78,industry_history,Financial Services,Finance (including NBFCs),,23,0.565,23,1.0,False,0.19863109202427878,0.295,46,True,high_rank_residual,30.0
+JIOFIN,NBFC & Lending,industry_mode,0.86,industry_history,Financial Services,Finance (including NBFCs),,10,1.0,10,1.0,False,0.11246538736968581,0.16,33,False,,14.0
+LTF,NBFC & Lending,debug_theme,0.74,debug_fallback,,,NBFC,0,0.0,0,0.0,False,0.05488057137364938,0.22,23,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+M&MFIN,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),,27,1.0,27,1.0,False,0.21084139681848119,0.1625,50,False,,7.0
+MANAPPURAM,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),GOLD,27,1.0,27,1.0,False,0.0709827875151515,0.205,50,False,,7.0
+MASFIN,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),,27,1.0,27,1.0,False,0.16513880203305842,0.135,50,False,,7.0
+MUTHOOTFIN,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),GOLD,27,1.0,27,1.0,False,0.5006849296341589,0.26,50,True,high_rank_residual,15.0
+PFC,NBFC & Lending,industry_mode,0.78,industry_history,Financial Services,Finance (including NBFCs),,27,0.63,27,1.0,False,0.3836971345371469,0.31,50,True,high_rank_residual,30.0
+PFS,NBFC & Lending,industry_mode,0.68,industry_history,Financial Services,Finance (including NBFCs),,2,1.0,2,1.0,False,0.05381266462285617,0.3,23,True,low_fundamental_confidence;high_rank_residual,40.0
+PIRAMALFIN,NBFC & Lending,debug_theme,0.74,debug_fallback,,,NBFC,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+POONAWALLA,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),GOLD,27,1.0,27,1.0,False,0.40624486631121315,0.08,50,False,,7.0
+RECLTD,NBFC & Lending,industry_mode,0.78,industry_history,Financial Services,Finance (including NBFCs),,27,0.63,27,1.0,False,0.3008874754165227,0.345,50,True,high_rank_residual,30.0
+SBFC,NBFC & Lending,industry_mode,0.86,industry_history,Financial Services,Finance (including NBFCs),NBFC,10,1.0,10,1.0,False,0.34967601318009683,0.11,33,False,,14.0
+SBICARD,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),,27,1.0,27,1.0,False,0.334736846714586,0.315,50,True,high_rank_residual,15.0
+SHRIRAMFIN,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),NBFC,32,1.0,32,1.0,False,0.218794480708758,0.2375,50,True,high_rank_residual,15.0
+SPANDANA,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),,21,1.0,21,1.0,False,0.37054804245820466,0.285,44,True,high_rank_residual,15.0
+SUNDARMFIN,NBFC & Lending,industry_mode,0.93,industry_history,Financial Services,Finance (including NBFCs),,27,1.0,27,1.0,False,0.2037880830972498,0.1625,50,False,,7.0
+ETERNAL,New-Age Digital,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,New Gen,0,0.0,0,0.0,False,0.7780730528966796,0.14,16,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+SWIGGY,New-Age Digital,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,New Gen,0,0.0,0,0.0,False,0.9102729223851816,0.1675,14,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+AEGISLOG,Oil Marketing & Distribution,industry_mode,0.78,industry_history,Energy,Oil Marketing & Distribution,Oil/gas,6,1.0,6,1.0,False,0.6060401340429191,0.02,29,False,,22.0
+CASTROLIND,Oil Marketing & Distribution,industry_mode,0.93,industry_history,Energy,Oil Marketing & Distribution,,27,1.0,27,1.0,False,0.5866664329407392,0.0525,50,False,,7.0
+GULFOILLUB,Oil Marketing & Distribution,industry_mode,0.93,industry_history,Basic Materials,Oil Marketing & Distribution,,27,1.0,27,1.0,False,0.46644793317323263,0.095,50,False,,7.0
+IOC,Oil Marketing & Distribution,industry_mode,0.93,industry_history,Energy,Oil Marketing & Distribution,,27,1.0,27,1.0,False,0.36952392164674797,0.155,50,False,,7.0
+PETRONET,Oil Marketing & Distribution,industry_mode,0.93,industry_history,Energy,Oil Marketing & Distribution,Oil/gas,27,1.0,27,1.0,False,0.5538633014824007,0.11,50,False,,7.0
+ARVINDFASN,Other Apparels & Accessories,industry_mode,0.93,industry_history,Consumer Cyclical,Other Apparels & Accessories,,27,1.0,27,1.0,False,0.4130057422767179,0.1,50,False,,7.0
+GOCOLORS,Other Apparels & Accessories,industry_mode,0.93,industry_history,Consumer Cyclical,Other Apparels & Accessories,,27,1.0,27,1.0,False,0.3731047681534345,0.215,50,False,,7.0
+KKCL,Other Apparels & Accessories,industry_mode,0.93,industry_history,Consumer Cyclical,Other Apparels & Accessories,,27,1.0,27,1.0,False,0.2244331139378577,0.085,50,False,,7.0
+PAGEIND,Other Apparels & Accessories,industry_mode,0.93,industry_history,Consumer Cyclical,Other Apparels & Accessories,,27,1.0,27,1.0,False,0.0968179970846379,0.235,50,True,high_rank_residual,15.0
+SAFARI,Other Apparels & Accessories,industry_mode,0.93,industry_history,Consumer Cyclical,Other Apparels & Accessories,,27,1.0,27,1.0,False,0.6119397379196768,0.22,50,False,,7.0
+SPAL,Other Apparels & Accessories,industry_mode,0.93,industry_history,Consumer Cyclical,Other Apparels & Accessories,,27,1.0,27,1.0,False,0.45378828370451124,0.105,48,False,,7.0
+VIPIND,Other Apparels & Accessories,industry_mode,0.93,industry_history,Consumer Cyclical,Other Apparels & Accessories,,27,1.0,27,1.0,False,0.3398860123907786,0.235,50,True,high_rank_residual,15.0
+AVANTIFEED,Other Food Products,industry_mode,0.93,industry_history,Consumer Defensive,Other Food Products,,27,1.0,27,1.0,False,0.4126689669359105,0.0275,50,False,,7.0
+EIDPARRY,Other Food Products,industry_mode,0.78,industry_history,Basic Materials,Other Food Products,,27,0.667,27,0.556,False,0.4028928088137474,0.0525,50,False,,22.0
+MANORAMA,Other Food Products,industry_mode,0.93,industry_history,Consumer Defensive,Other Food Products,Agri,16,1.0,16,1.0,False,0.3145253710729691,0.09,39,False,,7.0
+AIAENG,Other Industrial Goods,industry_mode,0.93,industry_history,Industrials,Other Industrial Goods,Mine Supply,27,1.0,27,1.0,False,0.23223818832326665,0.1175,50,False,,7.0
+ESABINDIA,Other Industrial Goods,industry_mode,0.93,industry_history,Industrials,Other Industrial Goods,,27,1.0,27,1.0,False,0.5014937261140585,0.06,50,False,,7.0
+GRAPHITE,Other Industrial Goods,industry_mode,0.93,industry_history,Industrials,Other Industrial Goods,Electrodes,27,1.0,27,1.0,False,0.2214037502465215,0.1225,50,False,,7.0
+HEG,Other Industrial Goods,industry_mode,0.93,industry_history,Industrials,Other Industrial Goods,Electrodes,26,1.0,26,1.0,False,0.4780523671268765,0.135,49,False,,7.0
+RHIM,Other Industrial Goods,industry_mode,0.93,industry_history,Industrials,Other Industrial Goods,,27,1.0,27,1.0,False,0.2467209412321735,0.18,50,False,,7.0
+SBCL,Other Industrial Goods,industry_mode,0.93,industry_history,Industrials,Other Industrial Goods,,21,1.0,21,1.0,False,0.22292763316314618,0.1325,44,False,,7.0
+SKFINDIA,Other Industrial Goods,industry_mode,0.93,industry_history,Industrials,Other Industrial Goods,,27,1.0,27,1.0,False,0.3508783748918097,0.1125,50,False,,7.0
+VESUVIUS,Other Industrial Goods,industry_mode,0.93,industry_history,Industrials,Other Industrial Goods,,27,1.0,27,1.0,False,0.4546134938244963,0.23,50,True,high_rank_residual,15.0
+BECTORFOOD,Packaged Foods,industry_mode,0.93,industry_history,Consumer Defensive,Packaged Foods,,27,1.0,27,1.0,False,0.3967736542681613,0.25,50,True,high_rank_residual,15.0
+BIKAJI,Packaged Foods,industry_mode,0.93,industry_history,Consumer Defensive,Packaged Foods,,27,1.0,27,1.0,False,0.32368080869088367,0.115,50,False,,7.0
+BRITANNIA,Packaged Foods,industry_mode,0.93,industry_history,Consumer Defensive,Packaged Foods,,27,1.0,27,1.0,False,0.3563296548833425,0.105,50,False,,7.0
+DODLA,Packaged Foods,industry_mode,0.93,industry_history,Consumer Defensive,Packaged Foods,,27,1.0,27,1.0,False,0.10158492074345754,0.13,50,False,,7.0
+HATSUN,Packaged Foods,industry_mode,0.93,industry_history,Consumer Defensive,Packaged Foods,,27,1.0,27,1.0,False,0.4927595488666313,0.185,50,False,,7.0
+HERITGFOOD,Packaged Foods,industry_mode,0.93,industry_history,Consumer Defensive,Packaged Foods,,27,1.0,27,1.0,False,0.33251234575365496,0.225,50,True,high_rank_residual,15.0
+NESTLEIND,Packaged Foods,industry_mode,0.93,industry_history,Consumer Defensive,Packaged Foods,FMCG,27,1.0,27,1.0,False,0.5077384178215942,0.105,50,False,,7.0
+TATACONSUM,Packaged Foods,industry_mode,0.78,industry_history,Consumer Defensive,Packaged Foods,,27,0.63,27,1.0,False,0.5038908674222592,0.06,50,False,,22.0
+ZYDUSWELL,Packaged Foods,industry_mode,0.93,industry_history,Consumer Defensive,Packaged Foods,,27,1.0,27,1.0,False,0.42588964808589513,0.085,50,False,,7.0
+JKPAPER,Paper & Paper Products,industry_mode,0.93,industry_history,Basic Materials,Paper & Paper Products,,27,1.0,27,1.0,False,0.7607626604751103,0.055,50,False,,7.0
+TCPLPACK,Paper & Paper Products,industry_mode,0.78,industry_history,Consumer Cyclical,Paper & Paper Products,,27,0.63,27,1.0,False,0.004164922250215173,0.285,50,True,high_rank_residual,30.0
+WSTCSTPAPR,Paper & Paper Products,industry_mode,0.93,industry_history,Basic Materials,Paper & Paper Products,,27,1.0,27,1.0,False,0.7526908490056236,0.01,50,False,,7.0
+FORCEMOT,Passenger Vehicles,industry_mode,0.93,industry_history,Consumer Cyclical,Cars & Utility Vehicles,CV,27,1.0,27,1.0,False,0.7015988093354322,0.01,50,False,,7.0
+M&M,Passenger Vehicles,industry_mode,0.93,industry_history,Consumer Cyclical,Cars & Utility Vehicles,4w,27,1.0,27,1.0,False,0.6874894169746608,0.03,50,False,,7.0
+MARUTI,Passenger Vehicles,industry_mode,0.93,industry_history,Consumer Cyclical,Cars & Utility Vehicles,4w,27,1.0,27,1.0,False,0.6361791625629128,0.04,50,False,,7.0
+BAJAJCON,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,,26,1.0,26,1.0,False,0.3380787134038503,0.155,49,False,,7.0
+COLPAL,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,,27,1.0,27,1.0,False,0.43973212778204435,0.225,50,True,high_rank_residual,15.0
+DABUR,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,FMCG,27,1.0,27,1.0,False,0.5420843160433684,0.0875,50,False,,7.0
+EMAMILTD,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,,27,1.0,27,1.0,False,0.46160541339858324,0.19,50,False,,7.0
+GILLETTE,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,,27,1.0,27,1.0,False,0.29444531199189755,0.18,50,False,,7.0
+GODREJCP,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,FMCG,27,1.0,27,1.0,False,0.5526399565455684,0.095,50,False,,7.0
+HINDUNILVR,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,,27,1.0,27,1.0,False,0.6406596996467631,0.095,50,False,,7.0
+HONASA,Personal Care,industry_mode,0.78,industry_history,Consumer Defensive,Personal Products,,9,1.0,9,1.0,False,0.2951401227182397,0.145,31,False,,22.0
+JYOTHYLAB,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,,27,1.0,27,1.0,False,0.4196834819464451,0.25,50,True,high_rank_residual,15.0
+MARICO,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,FMCG,27,1.0,27,1.0,False,0.3215554235401365,0.175,50,False,,7.0
+PGHH,Personal Care,industry_mode,0.93,industry_history,Consumer Defensive,Personal Products,,27,1.0,27,1.0,False,0.5031968300315243,0.11,50,False,,7.0
+SHK,Personal Care,industry_mode,0.93,industry_history,Basic Materials,Personal Products,,16,1.0,16,0.625,False,-0.11523968192105481,0.25,39,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+AARTIDRUGS,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.1463779527925469,0.325,50,True,high_rank_residual,15.0
+AARTIPHARM,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,20,1.0,20,1.0,False,0.1647624657297409,0.145,43,False,,7.0
+ABBOTINDIA,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.2872081545464754,0.12,50,False,,7.0
+AJANTPHARM,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.5848409916613927,0.11,50,False,,7.0
+ALKEM,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.536380092192441,0.2075,50,False,,7.0
+AMRUTANJAN,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,-0.08568991711107,0.215,50,True,rank_moves_diverge_from_theme,17.0
+APLLTD,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.03104495755008644,0.15,50,False,,7.0
+ASTRAZEN,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.005670993723465933,0.14,50,False,,7.0
+AUROPHARMA,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.4988577738838235,0.26,50,True,high_rank_residual,15.0
+BLUEJET,Pharmaceuticals,industry_mode,0.78,industry_history,Healthcare,Pharmaceuticals,,9,1.0,9,1.0,False,0.2863692862595844,0.225,32,True,high_rank_residual,30.0
+CAPLIPOINT,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,18,1.0,18,1.0,False,0.12505402598397083,0.1,41,False,,7.0
+CIPLA,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.2648457654468377,0.11,50,False,,7.0
+DIVISLAB,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.2649247566641967,0.14,50,False,,7.0
+DRREDDY,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.2642961273559262,0.08,50,False,,7.0
+ERIS,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.5260007123446493,0.1,50,False,,7.0
+FDC,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.28321029387671265,0.16,50,False,,7.0
+GLAND,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.20719969437650515,0.2475,50,True,high_rank_residual,15.0
+GLAXO,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,-0.012942787257450848,0.1725,50,True,rank_moves_diverge_from_theme,17.0
+GLENMARK,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,Pharma,27,1.0,27,1.0,False,0.23920752635602194,0.235,50,True,high_rank_residual,15.0
+GRANULES,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.29600322875228124,0.155,50,False,,7.0
+GUFICBIO,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,15,1.0,15,1.0,False,0.064103239428186,0.1375,38,False,,7.0
+HIKAL,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,-0.18291189839062522,0.4,50,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+IPCALAB,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.4127179646581493,0.0875,50,False,,7.0
+JBCHEPHARM,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,Pharma,27,1.0,27,1.0,False,0.06784102482373491,0.1475,50,False,,7.0
+JUBLPHARMA,Pharmaceuticals,industry_mode,0.86,industry_history,Healthcare,Pharmaceuticals,Pharma,13,1.0,13,1.0,False,0.35145117941313264,0.13,36,False,,14.0
+LAURUSLABS,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,Cdmo,27,1.0,27,1.0,False,0.21037699723291725,0.26,50,True,high_rank_residual,15.0
+LUPIN,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,Pharma,27,1.0,27,1.0,False,0.40818742699342064,0.185,50,False,,7.0
+MANKIND,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,20,1.0,20,1.0,False,0.20861914143078483,0.105,43,False,,7.0
+MARKSANS,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.39953999601265733,0.1825,50,False,,7.0
+NATCOPHARM,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.19912231477963857,0.17,50,False,,7.0
+NEULANDLAB,Pharmaceuticals,industry_mode,0.93,industry_history,,Pharmaceuticals,,27,1.0,0,0.0,False,0.01195770546937334,0.2125,50,False,,7.0
+ORCHPHARMA,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,24,1.0,24,1.0,False,0.33371566647019896,0.185,47,False,,7.0
+PFIZER,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.28885008226592945,0.2325,50,True,high_rank_residual,15.0
+PGHL,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.1647920849122379,0.23,50,True,high_rank_residual,15.0
+PPLPHARMA,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.268996158150357,0.17,50,False,,7.0
+SANOFI,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,24,1.0,24,1.0,False,0.09162913645908587,0.14,47,False,,7.0
+SHILPAMED,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,Pharma,15,1.0,15,1.0,False,0.2467699944911358,0.2325,38,True,high_rank_residual,15.0
+SPARC,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.17776303231920282,0.4025,50,True,high_rank_residual,15.0
+STAR,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,Pharma,27,1.0,27,1.0,False,0.14310478030459775,0.22,50,False,,7.0
+SUNPHARMA,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.45319442925494696,0.08,50,False,,7.0
+SUPRIYA,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,25,1.0,25,1.0,False,0.05444101610118,0.23,48,True,high_rank_residual,15.0
+SYNGENE,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.475538472505168,0.2775,50,True,high_rank_residual,15.0
+TORNTPHARM,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,Pharma,27,1.0,27,1.0,False,0.6088188496319319,0.115,50,False,,7.0
+WINDLAS,Pharmaceuticals,industry_mode,0.78,industry_history,Healthcare,Pharmaceuticals,,9,1.0,9,1.0,False,-0.04401920397485194,0.1125,30,True,rank_moves_diverge_from_theme,32.0
+WOCKPHARMA,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,Pharma,15,1.0,15,1.0,False,0.252834038143343,0.2375,38,True,high_rank_residual,15.0
+ZYDUSLIFE,Pharmaceuticals,industry_mode,0.93,industry_history,Healthcare,Pharmaceuticals,,27,1.0,27,1.0,False,0.15175024118895905,0.18,50,False,,7.0
+ASTRAL,Plastic Products,industry_mode,0.93,industry_history,Industrials,Plastic Products,,27,1.0,27,1.0,False,0.4451430575991454,0.125,50,False,,7.0
+FINPIPE,Plastic Products,industry_mode,0.93,industry_history,Industrials,Plastic Products,,27,1.0,27,1.0,False,0.3769648268832223,0.07,50,False,,7.0
+NILKAMAL,Plastic Products,industry_mode,0.93,industry_history,Consumer Cyclical,Plastic Products,,27,1.0,27,1.0,False,0.3258307286190879,0.18,49,False,,7.0
+PRINCEPIPE,Plastic Products,industry_mode,0.93,industry_history,Industrials,Plastic Products,,27,1.0,27,0.778,False,0.18970216477720858,0.165,50,False,,7.0
+SHAILY,Plastic Products,industry_mode,0.93,industry_history,Basic Materials,Plastic Products,Medical Devices,27,1.0,27,1.0,False,0.12603019560907316,0.5,50,True,high_rank_residual,15.0
+SUPREMEIND,Plastic Products,industry_mode,0.93,industry_history,Industrials,Plastic Products,Plastics,27,1.0,27,1.0,False,0.6654938076720047,0.045,50,False,,7.0
+TIMETECHNO,Plastic Products,industry_mode,0.93,industry_history,Consumer Cyclical,Plastic Products,Plastics,25,1.0,25,1.0,False,0.08011355105622714,0.35,48,True,high_rank_residual,15.0
+ABB,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,1.0,27,1.0,False,0.33184236719120974,0.125,50,False,,7.0
+AVALON,Power Equipment & Grid,industry_mode,0.93,industry_history,Technology,Heavy Electrical Equipment,EMS,20,1.0,20,1.0,False,-0.20769935967833072,0.39,43,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+BAJEL,Power Equipment & Grid,industry_mode,0.68,industry_history,Utilities,Heavy Electrical Equipment,,2,1.0,2,1.0,False,0.551150874625002,0.2,23,True,low_fundamental_confidence,32.0
+BHEL,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,1.0,27,1.0,False,0.08223422186919677,0.16,50,False,,7.0
+CGPOWER,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,Power Equip,32,1.0,32,1.0,False,0.41466157237415857,0.08,50,False,,7.0
+GVT&D,Power Equipment & Grid,manual_lock,0.99,locked_override,,,Power Equip,0,0.0,0,0.0,True,0.7431965719381141,0.455,22,True,high_rank_residual,9.0
+KEC,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,1.0,27,1.0,False,0.3614406786765486,0.1175,50,False,,7.0
+KIRLOSENG,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,0.926,27,1.0,False,0.2661398486881166,0.1725,50,False,,7.0
+POWERINDIA,Power Equipment & Grid,industry_mode,0.93,industry_history,Technology,Heavy Electrical Equipment,Power Equip,27,1.0,27,1.0,False,0.23506837994405083,0.17,50,False,,7.0
+SCHNEIDER,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,1.0,27,1.0,False,0.4937002749648504,0.08,50,False,,7.0
+SIEMENS,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,1.0,27,1.0,False,0.5521465096416702,0.09,50,False,,7.0
+SUZLON,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,Wind,25,1.0,25,1.0,False,0.025452709519994402,0.1575,48,False,,7.0
+TARIL,Power Equipment & Grid,manual_lock,0.99,locked_override,,,Power Equip,0,0.0,0,0.0,True,0.10712201660323578,0.32,23,True,high_rank_residual,9.0
+TDPOWERSYS,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,1.0,27,1.0,False,0.013629826117864969,0.145,50,False,,7.0
+THERMAX,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,1.0,27,1.0,False,0.2404088099352907,0.14,50,False,,7.0
+TRITURBINE,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,1.0,27,1.0,False,0.46696519002415915,0.125,50,False,,7.0
+VOLTAMP,Power Equipment & Grid,industry_mode,0.93,industry_history,Industrials,Heavy Electrical Equipment,,27,1.0,27,1.0,False,0.16027265281016725,0.14,50,False,,7.0
+ADANIENSOL,Power Utilities,industry_mode,0.68,industry_history,Utilities,Electric Utilities,,4,1.0,4,1.0,False,0.009261622397665792,0.195,27,True,low_fundamental_confidence,32.0
+ADANIGREEN,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,19,1.0,19,1.0,False,0.20364569350581171,0.3025,42,True,high_rank_residual,15.0
+ADANIPOWER,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,Infra,21,1.0,21,1.0,False,0.3956409474842494,0.1025,44,False,,7.0
+CESC,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,27,1.0,27,1.0,False,0.3355322639267991,0.0975,50,False,,7.0
+INOXGREEN,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,Wind,27,1.0,27,1.0,False,-0.006215901960869735,0.17,50,True,rank_moves_diverge_from_theme,17.0
+INOXWIND,Power Utilities,industry_mode,0.93,industry_history,Industrials,Electric Utilities,Wind,21,1.0,21,1.0,False,-0.08834682308219041,0.15,44,True,rank_moves_diverge_from_theme,17.0
+JSWENERGY,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,27,1.0,27,1.0,False,0.48205074470072107,0.14,50,False,,7.0
+KPIL,Power Utilities,industry_mode,0.78,industry_history,Industrials,Electric Utilities,,25,0.64,25,1.0,False,0.09727996043142456,0.1,48,False,,22.0
+NHPC,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,27,1.0,27,1.0,False,0.45987725978802785,0.0775,50,False,,7.0
+NLCINDIA,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,27,1.0,27,1.0,False,0.4078646874632514,0.1175,50,False,,7.0
+NTPC,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,27,1.0,27,1.0,False,0.5195522411676693,0.0975,50,False,,7.0
+POWERGRID,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,27,1.0,27,1.0,False,0.539994144979471,0.065,50,False,,7.0
+PTC,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,15,1.0,15,1.0,False,0.5068272491041453,0.11,38,False,,7.0
+TATAPOWER,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,27,1.0,27,1.0,False,0.5398393849682156,0.04,50,False,,7.0
+TECHNOE,Power Utilities,industry_mode,0.93,industry_history,Industrials,Electric Utilities,Data Centers,27,1.0,27,1.0,False,0.28701499701803734,0.1225,50,False,,7.0
+TORNTPOWER,Power Utilities,industry_mode,0.93,industry_history,Utilities,Electric Utilities,,27,1.0,27,1.0,False,0.5608061928078814,0.09,50,False,,7.0
+TITAGARH,Railways & Defence Manufacturing,manual_lock,0.99,locked_override,Industrials,Commercial Vehicles,Railway,25,1.0,25,1.0,True,1.0,0.0,48,False,,1.0
+ABREL,Real Estate,debug_theme,0.74,debug_fallback,,,Real Estate,0,0.0,0,0.0,False,0.5732479545483967,0.2,23,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+ANANTRAJ,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,Data Centers,17,1.0,17,1.0,False,0.12834449668028688,0.0725,40,False,,7.0
+ARVSMART,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,,27,1.0,27,1.0,False,0.21202856421913732,0.1425,50,False,,7.0
+BRIGADE,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,Real Estate,27,1.0,27,1.0,False,0.6552577518050482,0.09,50,False,,7.0
+DLF,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,Real Estate,27,1.0,27,1.0,False,0.5470130827520204,0.135,50,False,,7.0
+GODREJPROP,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,Real Estate,27,1.0,27,1.0,False,0.7968359715134727,0.0625,50,False,,7.0
+LODHA,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,,27,1.0,27,1.0,False,0.5222863953658667,0.1025,50,False,,7.0
+MAHLIFE,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,,27,1.0,27,1.0,False,0.09045040972736364,0.275,50,True,high_rank_residual,15.0
+MAXESTATES,Real Estate,debug_theme,0.74,debug_fallback,,,Real Estate,0,0.0,0,0.0,False,0.3657636807715176,0.085,23,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+NESCO,Real Estate,industry_mode,0.93,industry_history,Industrials,Realty,,27,1.0,27,1.0,False,-0.21605968784812415,0.2775,50,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+OBEROIRLTY,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,Real Estate,27,1.0,27,1.0,False,0.46777077029904984,0.08,50,False,,7.0
+PHOENIXLTD,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,Luxury Consumer,27,1.0,27,1.0,False,0.2587344247329003,0.0975,50,False,,7.0
+PRESTIGE,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,Real Estate,27,1.0,27,1.0,False,0.6437729235478858,0.1025,50,False,,7.0
+SHRIRAMPPS,Real Estate,industry_mode,0.78,industry_history,Real Estate,Realty,,8,1.0,8,1.0,False,-0.14141665854137833,0.195,31,True,rank_moves_diverge_from_theme,32.0
+SIGNATURE,Real Estate,industry_mode,0.78,industry_history,Real Estate,Realty,Real Estate,9,1.0,9,1.0,False,0.6203421643822421,0.0775,32,False,,22.0
+SOBHA,Real Estate,industry_mode,0.93,industry_history,Real Estate,Realty,Real Estate,27,1.0,27,1.0,False,0.5812122468964235,0.115,50,False,,7.0
+BPCL,Refineries / Petro-Products,industry_mode,0.93,industry_history,Energy,Refineries/Petro-Products,,27,1.0,27,1.0,False,0.6094193046588354,0.0425,50,False,,7.0
+CHENNPETRO,Refineries / Petro-Products,industry_mode,0.93,industry_history,Energy,Refineries/Petro-Products,,17,1.0,17,1.0,False,0.639508727535743,0.11,40,False,,7.0
+HINDPETRO,Refineries / Petro-Products,industry_mode,0.93,industry_history,Energy,Refineries/Petro-Products,,27,1.0,27,1.0,False,0.5072809387152799,0.09,50,False,,7.0
+MRPL,Refineries / Petro-Products,industry_mode,0.93,industry_history,Energy,Refineries/Petro-Products,,24,1.0,24,1.0,False,0.37735628106563274,0.13,47,False,,7.0
+RELIANCE,Refineries / Petro-Products,industry_mode,0.93,industry_history,Energy,Refineries/Petro-Products,,32,1.0,32,1.0,False,0.6255958761016769,0.0575,50,False,,7.0
+PREMIERENE,Renewables - Solar,debug_theme,0.74,debug_fallback,,,Solar,0,0.0,0,0.0,False,0.6540129650283574,0.16,18,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+VIKRAMSOLR,Renewables - Solar,debug_theme,0.74,debug_fallback,,,Solar,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+WAAREEENER,Renewables - Solar,debug_theme,0.74,debug_fallback,,,Solar,0,0.0,0,0.0,False,0.7484352798003845,0.175,15,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+DEVYANI,Restaurants,industry_mode,0.93,industry_history,Consumer Cyclical,Restaurants,,27,1.0,27,1.0,False,0.7911268219765126,0.04,50,False,,7.0
+JUBLFOOD,Restaurants,industry_mode,0.93,industry_history,Consumer Cyclical,Restaurants,,27,1.0,27,1.0,False,0.3681406008807399,0.2,50,False,,7.0
+RBA,Restaurants,industry_mode,0.93,industry_history,Consumer Cyclical,Restaurants,,27,1.0,27,1.0,False,0.5693777056982403,0.06,50,False,,7.0
+SAPPHIRE,Restaurants,industry_mode,0.93,industry_history,Consumer Cyclical,Restaurants,,27,1.0,27,1.0,False,0.7140889312350828,0.065,50,False,,7.0
+WESTLIFE,Restaurants,industry_mode,0.93,industry_history,Consumer Cyclical,Restaurants,,27,1.0,27,1.0,False,0.5132288982278249,0.105,50,False,,7.0
+VMM,Retail,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Retail,0,0.0,0,0.0,False,1.0,0.0,11,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+ASHOKA,Roads & Highways,industry_mode,0.93,industry_history,Industrials,Roads & Highways,,27,1.0,27,1.0,False,0.6546950914127867,0.1475,50,False,,7.0
+GRINFRA,Roads & Highways,industry_mode,0.93,industry_history,Industrials,Roads & Highways,,27,1.0,27,1.0,False,0.020431859923237507,0.0825,50,False,,7.0
+IRB,Roads & Highways,industry_mode,0.93,industry_history,Industrials,Roads & Highways,,27,1.0,27,1.0,False,0.7012385772268711,0.08,50,False,,7.0
+PNCINFRA,Roads & Highways,industry_mode,0.93,industry_history,Industrials,Roads & Highways,,27,1.0,27,1.0,False,0.6347259371778468,0.085,50,False,,7.0
+GESHIP,Shipping,industry_mode,0.93,industry_history,Industrials,Shipping,Shipping,27,1.0,27,1.0,False,0.5255980824928737,0.115,50,False,,7.0
+GRSE,Shipping,industry_mode,0.93,industry_history,Industrials,Shipping,,23,1.0,23,1.0,False,0.8390618732154127,0.01,46,False,,7.0
+MAZDOCK,Shipping,industry_mode,0.78,industry_history,Industrials,Shipping,Defense (large),25,0.68,25,1.0,False,0.7956885211169104,0.0425,48,False,,22.0
+AARTIIND,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,32,1.0,32,1.0,False,0.325581138985559,0.16,50,False,,7.0
+AETHER,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.005122920678573887,0.2,50,False,,7.0
+ATUL,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.44041214179614846,0.0825,50,False,,7.0
+BASF,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.3592331166099921,0.2275,50,True,high_rank_residual,15.0
+CHEMPLASTS,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.13745013339111314,0.175,50,False,,7.0
+CLEAN,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.3495277801468742,0.1025,50,False,,7.0
+DCMSHRIRAM,Specialty Chemicals,industry_mode,0.78,industry_history,Basic Materials,Specialty Chemicals,,27,0.63,27,1.0,False,-0.0034603526049932316,0.095,50,True,rank_moves_diverge_from_theme,32.0
+EPIGRAL,Specialty Chemicals,debug_theme,0.74,debug_fallback,,,Chemicals,0,0.0,0,0.0,False,0.47904814268235946,0.22,23,True,low_fundamental_confidence;debug_fallback_needs_validation,41.0
+FINEORG,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.2430817337161631,0.07,50,False,,7.0
+FLUOROCHEM,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,Chemicals,27,1.0,27,1.0,False,0.39863424465673714,0.09,50,False,,7.0
+GALAXYSURF,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.20383197416405274,0.13,50,False,,7.0
+JUBLINGREA,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,Pharma,27,1.0,27,0.778,False,0.46498814554668827,0.1225,50,False,,7.0
+NEOGEN,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,25,1.0,25,1.0,False,0.1724748079633643,0.245,48,True,high_rank_residual,15.0
+PIDILITIND,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.23029133250666492,0.12,50,False,,7.0
+PRIVISCL,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.16820066378866252,0.2,50,False,,7.0
+SRF,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,Chemicals,27,1.0,27,1.0,False,0.36765334656362947,0.165,50,False,,7.0
+STYRENIX,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,Plastics,27,1.0,27,1.0,False,-0.021397021139848715,0.31,50,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+SUDARSCHEM,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,Chemicals,27,1.0,27,1.0,False,0.148799167119631,0.225,50,True,high_rank_residual,15.0
+TATVA,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,-0.034051561430320995,0.2775,44,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+VINATIORGA,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,27,1.0,27,1.0,False,0.4743999397378704,0.08,50,False,,7.0
+VISHNU,Specialty Chemicals,industry_mode,0.93,industry_history,Basic Materials,Specialty Chemicals,,23,1.0,23,1.0,False,0.38056639795478286,0.175,45,False,,7.0
+AVL,Specialty Retail,industry_mode,0.93,industry_history,Consumer Cyclical,Specialty Retail,Retail,17,1.0,17,1.0,False,0.3138196931596681,0.33,39,True,high_rank_residual,15.0
+ETHOSLTD,Specialty Retail,industry_mode,0.93,industry_history,Consumer Cyclical,Specialty Retail,Luxury Consumer,27,1.0,27,1.0,False,0.2716964625962557,0.35,50,True,high_rank_residual,15.0
+LANDMARK,Specialty Retail,industry_mode,0.93,industry_history,Consumer Cyclical,Specialty Retail,,27,1.0,27,1.0,False,0.606244898638821,0.0275,50,False,,7.0
+MANYAVAR,Specialty Retail,industry_mode,0.93,industry_history,Consumer Cyclical,Specialty Retail,,32,1.0,32,1.0,False,0.22027010101710942,0.145,50,False,,7.0
+PVRINOX,Specialty Retail,industry_mode,0.78,industry_history,Communication Services,Specialty Retail,,26,0.615,26,1.0,False,0.4885201184835305,0.15,49,False,,22.0
+APLAPOLLO,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel Products,Metals,27,1.0,27,1.0,False,0.32356134117744,0.18,50,False,,7.0
+GPIL,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,,17,1.0,17,1.0,False,0.24336108552672198,0.1375,40,False,,7.0
+HITECH,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel Products,,27,1.0,27,1.0,False,-0.11008658706130227,0.3375,50,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+IMFA,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,,15,1.0,15,1.0,False,0.07541309210463731,0.2175,38,False,,7.0
+JINDALSTEL,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,Steel,27,1.0,27,1.0,False,0.5254199378175035,0.08,50,False,,7.0
+JSL,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,,27,1.0,27,1.0,False,0.37196410918426276,0.1675,50,False,,7.0
+JSWSTEEL,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,Steel,27,1.0,27,1.0,False,0.1991685750292063,0.16,50,False,,7.0
+KIRLFER,Steel & Ferrous,industry_mode,0.93,industry_history,Industrials,Iron & Steel/Interm.Products,,25,1.0,25,1.0,False,0.5338652299760823,0.175,48,False,,7.0
+KSL,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,,27,1.0,27,1.0,False,0.04982832469478069,0.18,50,False,,7.0
+MAHSEAMLES,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,,26,1.0,26,1.0,False,0.21962398145217746,0.21,49,False,,7.0
+MIDHANI,Steel & Ferrous,industry_mode,0.78,industry_history,Basic Materials,Iron & Steel Products,,27,0.63,27,1.0,False,0.4630615737625122,0.145,50,False,,22.0
+NSLNISP,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,,20,1.0,20,1.0,False,0.29528041814647216,0.28,43,True,high_rank_residual,15.0
+RATNAMANI,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,,27,1.0,27,1.0,False,0.2609561264492141,0.1875,50,False,,7.0
+SAIL,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,Steel,27,1.0,27,1.0,False,0.38090137710163785,0.1475,50,False,,7.0
+SARDAEN,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,Metals,15,1.0,15,1.0,False,0.11068550619103444,0.195,38,False,,7.0
+SHYAMMETL,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,Metals,27,1.0,27,1.0,False,-0.018825102722913774,0.13,50,True,rank_moves_diverge_from_theme,17.0
+SURYAROSNI,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel Products,,15,1.0,15,1.0,False,0.16155384856418017,0.18,38,False,,7.0
+TATASTEEL,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel/Interm.Products,Steel,27,1.0,27,1.0,False,0.38415218535217904,0.1225,50,False,,7.0
+TIIL,Steel & Ferrous,industry_mode,0.93,industry_history,Industrials,Iron & Steel Products,,15,1.0,15,1.0,False,0.5027865435494338,0.1775,38,False,,7.0
+USHAMART,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel Products,Metal Wires,27,1.0,27,1.0,False,0.329267676761453,0.1575,50,False,,7.0
+VENUSPIPES,Steel & Ferrous,industry_mode,0.93,industry_history,Basic Materials,Iron & Steel Products,,27,1.0,27,1.0,False,0.038285316718393324,0.2825,50,True,high_rank_residual,15.0
+WELCORP,Steel & Ferrous,industry_mode,0.86,industry_history,Basic Materials,Iron & Steel Products,Water,27,0.815,27,1.0,False,0.2917763702264734,0.2275,50,True,high_rank_residual,22.0
+CAMS,Technology - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Technology,Capital Markets,Exchanges,27,0.63,27,1.0,False,0.44729533333853916,0.1375,50,True,low_fundamental_confidence,35.0
+CENTUM,Technology - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Technology,Electronic Components,,27,1.0,27,1.0,False,0.08249594539140308,0.13,48,True,low_fundamental_confidence,35.0
+CYIENTDLM,Technology - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Technology,Electronic Components,,9,1.0,9,1.0,False,0.06589731825041116,0.43,32,True,low_fundamental_confidence;high_rank_residual,43.0
+ECLERX,Technology - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Technology,BPO/KPO,IT (mid),27,1.0,27,1.0,False,0.4762771593358859,0.125,50,True,low_fundamental_confidence,35.0
+FSL,Technology - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Technology,BPO/KPO,,27,1.0,27,1.0,False,0.3525375527304564,0.1625,50,True,low_fundamental_confidence,35.0
+OPTIEMUS,Technology - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Technology,Telecom Equipment,,15,1.0,15,1.0,False,0.24644402050092654,0.185,38,True,low_fundamental_confidence,35.0
+REDINGTON,Technology - Diversified,industry_mode|small_theme_merged_to_sector,0.65,industry_history,Technology,Commodity Trading & Distribution,,27,1.0,27,1.0,False,0.31324438438284036,0.17,50,True,low_fundamental_confidence,35.0
+BHARTIARTL,Telecom Services,industry_mode,0.93,industry_history,Communication Services,Telecom Services,Telecom,27,1.0,27,1.0,False,0.17482332883982488,0.1,50,False,,7.0
+IDEA,Telecom Services,manual_lock,0.99,locked_override,,,Telecom,0,0.0,0,0.0,True,0.5022262505027419,0.18,23,False,,1.0
+RAILTEL,Telecom Services,industry_mode,0.93,industry_history,Communication Services,Telecom Services,,23,1.0,23,1.0,False,0.6980678390175498,0.035,46,False,,7.0
+ARVIND,Textiles,industry_mode,0.93,industry_history,Consumer Cyclical,Textiles,Textile,27,1.0,27,1.0,False,0.3380147266247902,0.1675,50,False,,7.0
+GARFIBRES,Textiles,industry_mode,0.93,industry_history,Consumer Cyclical,Textiles,,27,1.0,27,1.0,False,0.1985252642207262,0.16,50,False,,7.0
+GOKEX,Textiles,industry_mode,0.93,industry_history,Consumer Cyclical,Textiles,,27,1.0,27,1.0,False,0.4130896736360863,0.1175,50,False,,7.0
+ICIL,Textiles,industry_mode,0.93,industry_history,Consumer Cyclical,Textiles,,15,1.0,15,1.0,False,0.28769881440876965,0.16,38,False,,7.0
+KPRMILL,Textiles,industry_mode,0.93,industry_history,Consumer Cyclical,Textiles,Textile,27,1.0,27,1.0,False,0.3869855961686948,0.1,50,False,,7.0
+MAYURUNIQ,Textiles,industry_mode,0.93,industry_history,Consumer Cyclical,Textiles,,27,1.0,27,1.0,False,0.29835386106699296,0.1,50,False,,7.0
+NITINSPIN,Textiles,industry_mode,0.93,industry_history,Consumer Cyclical,Textiles,,27,1.0,27,1.0,False,0.6182838112386538,0.085,49,False,,7.0
+PGIL,Textiles,debug_theme,0.74,debug_fallback,,,Textile,0,0.0,0,0.0,False,0.08579371172543764,0.36,23,True,low_fundamental_confidence;high_rank_residual;debug_fallback_needs_validation,49.0
+VTL,Textiles,industry_mode,0.93,industry_history,Consumer Cyclical,Textiles,,27,1.0,27,1.0,False,0.5797524302347764,0.095,50,False,,7.0
+GODFRYPHLP,Tobacco,industry_mode,0.93,industry_history,Consumer Defensive,Cigarettes-Tobacco Products,Sin Stocks,27,1.0,27,1.0,False,0.42968920503002467,0.29,50,True,high_rank_residual,15.0
+ITC,Tobacco,industry_mode,0.93,industry_history,Consumer Defensive,Cigarettes-Tobacco Products,FMCG,27,1.0,27,1.0,False,0.5821038352962675,0.0,50,False,,7.0
+VSTIND,Tobacco,industry_mode,0.93,industry_history,Consumer Defensive,Cigarettes-Tobacco Products,,27,1.0,27,1.0,False,0.6369966703823009,0.17,50,False,,7.0
+BLUEDART,Transportation - Logistics,industry_mode,0.93,industry_history,Industrials,Transportation - Logistics,,27,1.0,27,1.0,False,0.16338455690012912,0.15,50,False,,7.0
+DELHIVERY,Transportation - Logistics,industry_mode,0.93,industry_history,Industrials,Transportation - Logistics,New Gen,32,1.0,32,1.0,False,0.519085330285055,0.08,50,False,,7.0
+GATEWAY,Transportation - Logistics,industry_mode,0.93,industry_history,Industrials,Transportation - Logistics,,27,1.0,27,1.0,False,0.4390247277802171,0.195,50,False,,7.0
+MAHLOG,Transportation - Logistics,industry_mode,0.93,industry_history,Industrials,Transportation - Logistics,,27,1.0,27,1.0,False,0.536627019412755,0.13,50,False,,7.0
+VRLLOG,Transportation - Logistics,industry_mode,0.93,industry_history,Industrials,Transportation - Logistics,,27,1.0,27,1.0,False,-0.11347940893494714,0.175,50,True,rank_moves_diverge_from_theme,17.0
+IXIGO,Travel & Leisure,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Travel,0,0.0,0,0.0,False,0.6878781467882764,0.2075,20,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+TBOTEK,Travel & Leisure,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Travel,0,0.0,0,0.0,False,0.762064961405233,0.2075,20,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+IRCTC,Travel Support Services,industry_mode,0.93,industry_history,Industrials,Travel Support Services,Travel,27,1.0,27,1.0,False,0.27695254312909057,0.0725,50,False,,7.0
+THOMASCOOK,Travel Support Services,industry_mode,0.93,industry_history,Consumer Cyclical,Travel Support Services,,27,1.0,27,1.0,False,0.6516744630885494,0.095,50,False,,7.0
+YATRA,Travel Support Services,industry_mode,0.78,industry_history,Consumer Cyclical,Travel Support Services,Travel,9,1.0,9,1.0,False,0.5873652030551441,0.38,24,True,high_rank_residual,30.0
+APOLLOTYRE,Tyres & Rubber,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Tyres & Rubber Products,,27,1.0,27,1.0,False,0.6845195446920848,0.06,50,False,,7.0
+BALKRISIND,Tyres & Rubber,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Tyres & Rubber Products,,27,1.0,27,1.0,False,0.19203848278382082,0.22,50,False,,7.0
+CEATLTD,Tyres & Rubber,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Tyres & Rubber Products,,27,1.0,27,1.0,False,0.39780942785096907,0.0925,50,False,,7.0
+JKTYRE,Tyres & Rubber,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Tyres & Rubber Products,,15,1.0,15,1.0,False,0.6324074232468722,0.105,38,False,,7.0
+MRF,Tyres & Rubber,industry_mode,0.93,industry_history,Consumer Cyclical,Auto Tyres & Rubber Products,,27,1.0,27,1.0,False,0.5152350849527562,0.045,50,False,,7.0
+AWFIS,Unique Business Models,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Unique Biz Models,0,0.0,0,0.0,False,0.3783454833276146,0.0675,20,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+ENTERO,Unique Business Models,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Unique Biz Models,0,0.0,0,0.0,False,0.557787151102925,0.0675,20,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+ABLBL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,3,True,low_fundamental_confidence;unmapped,130.0
+ACMESOLAR,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.21845562201987528,0.135,14,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme,140.0
+AEGISVOPAK,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,3,True,low_fundamental_confidence;unmapped,130.0
+AEQUS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+AFCONS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.33544388537981407,0.315,14,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+AGARWALEYE,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.2853052410654393,0.34,9,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+AIIL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.127488596292784,0.395,23,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+AJAXENGG,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.2471458590980026,0.11,9,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme,140.0
+AKUMS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.41002183015167104,0.42,19,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+ALIVUS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.004305726213983315,0.1925,20,True,low_fundamental_confidence;unmapped,130.0
+AMAGI,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+ANTHEM,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,1,True,low_fundamental_confidence;unmapped,130.0
+ASHAPURMIN,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.44561017696998095,0.35,23,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+ATHERENERG,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,6,True,low_fundamental_confidence;unmapped,130.0
+ATLANTAELE,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+AWL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.4273074119714806,0.28,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+BAJAJHFL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.2689320067556862,0.32,17,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+BBOX,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.5247377432008514,0.12,23,True,low_fundamental_confidence;unmapped,130.0
+BHARATCOAL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+BHARTIHEXA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.0735833923248592,0.325,20,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+BLACKBUCK,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.1695753360680663,0.42,13,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+BRIGHOTEL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,1,True,low_fundamental_confidence;unmapped,130.0
+BUILDPRO,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+CANHLIFE,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+CAPILLARY,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+CARRARO,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.2263453918332692,0.27,11,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+CEIGALL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.10325759213016904,0.3075,18,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+CEMPRO,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.05386197293361644,0.305,8,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+COHANCE,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.12884393391013602,0.46,13,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+CORONA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+CPPLUS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+CRAMC,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+CRIZAC,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,1,True,low_fundamental_confidence;unmapped,130.0
+DAMCAPITAL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.2090600752106734,0.34,11,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+DYNAMATECH,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.0638078690777337,0.165,23,True,low_fundamental_confidence;unmapped,130.0
+E2E,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.18565743505966792,0.18,23,True,low_fundamental_confidence;unmapped,130.0
+EBGNG,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,1,True,low_fundamental_confidence;unmapped,130.0
+ELLEN,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,2,True,low_fundamental_confidence;unmapped,130.0
+EMCURE,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.2612551346350116,0.18,20,True,low_fundamental_confidence;unmapped,130.0
+EMMVEE,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+ENRIN,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,3,True,low_fundamental_confidence;unmapped,130.0
+EPACK,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.09674649672147564,0.3175,20,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+EPACKPEB,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+EUREKAFORB,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.26224599329565446,0.15,23,True,low_fundamental_confidence;unmapped,130.0
+EUROPRATIK,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+FILATEX,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.18386938667760433,0.1,22,True,low_fundamental_confidence;unmapped,130.0
+FIRSTCRY,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.08916733199633146,0.425,18,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+FOSECOIND,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.14004734263572619,0.21,21,True,low_fundamental_confidence;unmapped,130.0
+GALLANTT,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.08471879551298592,0.33,23,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+GMRAIRPORT,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.27182303547617537,0.265,21,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+GROWW,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+HDBFS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,2,True,low_fundamental_confidence;unmapped,130.0
+HEXT,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.2647890325805381,0.18,9,True,low_fundamental_confidence;unmapped,130.0
+HYUNDAI,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.38093839110332495,0.285,15,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+ICICIAMC,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+IGIL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.15106886143963352,0.34,11,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+IIFLCAPS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.03631300808099613,0.13,21,True,low_fundamental_confidence;unmapped,130.0
+IKS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.4419373939585843,0.15,11,True,low_fundamental_confidence;unmapped,130.0
+INDGN,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.06430935107978816,0.12,20,True,low_fundamental_confidence;unmapped,130.0
+INDIQUBE,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,1,True,low_fundamental_confidence;unmapped,130.0
+INTERARCH,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.33274208548814216,0.38,18,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+ITCHOTELS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.7003925093375807,0.025,10,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme,140.0
+JAINREC,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+JSWCEMENT,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+JSWHL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.024020739311143097,0.28,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+JUNIPER,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.06960987867623025,0.3275,20,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+KINGFA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.07310834435176215,0.31,21,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+KRBL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.09001263304511128,0.31,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+KRN,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.02769898114427183,0.135,16,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme,140.0
+KSHINTL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+LAXMIDENTL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.295432160984432,0.47,10,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+LENSKART,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+LGEINDIA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+LOTUSDEV,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+MARATHON,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.06323585498817398,0.1,21,True,low_fundamental_confidence;unmapped,130.0
+MBEL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+MEESHO,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+MIDWESTLTD,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+MUTHOOTMF,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.12597579152729693,0.36,21,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+NEPHROPLUS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+NIVABUPA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.30972600268868244,0.145,14,True,low_fundamental_confidence;unmapped,130.0
+NORTHARC,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.08507763749261593,0.28,17,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+NTPCGREEN,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.16305034142416572,0.29,13,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+OLAELEC,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.09748897318774173,0.4625,18,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+ORKLAINDIA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+OSWALPUMPS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,3,True,low_fundamental_confidence;unmapped,130.0
+PACEDIGITK,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+PATELENG,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.31247001146173564,0.43,23,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+PENIND,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.37699369219532375,0.23,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+PFOCUS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.15705305606774375,0.325,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+PINELABS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+POCL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.07335954028928414,0.26,23,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+PWL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+QPOWER,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.24169037937452256,0.4,9,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+RAYMONDLSL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.16767318997587746,0.35,17,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+RAYMONDREL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,2,True,low_fundamental_confidence;unmapped,130.0
+RPTECH,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.21176342683917268,0.23,20,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+RUBICON,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+SAATVIKGL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+SAMBHV,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,2,True,low_fundamental_confidence;unmapped,130.0
+SANATHAN,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.19268484966530555,0.2,11,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme,140.0
+SANOFICONR,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.11710757353992499,0.17,17,True,low_fundamental_confidence;unmapped,130.0
+SHAKTIPUMP,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.033737753616974994,0.29,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+SHARDAMOTR,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.23769069182390837,0.1,23,True,low_fundamental_confidence;unmapped,130.0
+SKFINDUS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+SKIPPER,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.13735382984627026,0.145,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme,140.0
+SKYGOLD,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.11952597556525554,0.22,23,True,low_fundamental_confidence;unmapped,130.0
+SMARTWORKS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,1,True,low_fundamental_confidence;unmapped,130.0
+SMSPHARMA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.32863434757793086,0.14,21,True,low_fundamental_confidence;unmapped,130.0
+SOTL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.40794727764624916,0.26,23,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+SPICEJET,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.1589797982267452,0.44,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+STLTECH,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.06894745015562319,0.38,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+STUDDS,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+STYL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+SUDEEPPHRM,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+SUNDRMFAST,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.08433707279182809,0.3,23,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+SURAKSHA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.044840729154681826,0.165,12,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme,140.0
+SWANCORP,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.7210837418016889,0.115,8,True,low_fundamental_confidence;unmapped,130.0
+TARC,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.18859588956340084,0.24,23,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+TATACAP,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+TENNIND,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+THELEELA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,3,True,low_fundamental_confidence;unmapped,130.0
+TMCV,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+TMPV,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,7,True,low_fundamental_confidence;unmapped,130.0
+TRANSRAILL,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.07060354660459162,0.2,11,True,low_fundamental_confidence;unmapped,130.0
+TRAVELFOOD,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,1,True,low_fundamental_confidence;unmapped,130.0
+TRUALT,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+UNIECOM,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.2807323109603404,0.335,18,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme;high_rank_residual,148.0
+UNIMECH,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,-0.16794805610072705,0.21,11,True,low_fundamental_confidence;unmapped;rank_moves_diverge_from_theme,140.0
+URBANCO,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+VINCOFE,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.3698055805550615,0.31,21,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+WAKEFIT,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+WEWORK,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,,,0,True,low_fundamental_confidence;unmapped,130.0
+XPROINDIA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.11099850182945345,0.16,23,True,low_fundamental_confidence;unmapped,130.0
+ZOTA,Unmapped - Review,unmapped,0.2,no_fundamental_metadata,,,,0,0.0,0,0.0,False,0.43779782967096287,0.44,21,True,low_fundamental_confidence;unmapped;high_rank_residual,138.0
+GAIL,Utilities (non-Power),industry_mode,0.93,industry_history,Utilities,Utilities:Non-Electrical,,27,1.0,27,1.0,False,0.546527112007611,0.14,50,False,,7.0
+GSPL,Utilities (non-Power),industry_mode,0.93,industry_history,Utilities,Utilities:Non-Electrical,,27,1.0,27,1.0,False,0.4598432758174676,0.0625,50,False,,7.0
+GUJGASLTD,Utilities (non-Power),industry_mode,0.93,industry_history,Utilities,Utilities:Non-Electrical,,27,1.0,27,1.0,False,0.5134584564654782,0.16,50,False,,7.0
+IGL,Utilities (non-Power),industry_mode,0.93,industry_history,Utilities,Utilities:Non-Electrical,,27,1.0,27,1.0,False,0.565022632584951,0.0825,50,False,,7.0
+IONEXCHANG,Utilities (non-Power),industry_mode,0.93,industry_history,Industrials,Utilities:Non-Electrical,,27,1.0,27,1.0,False,-0.21923956229653918,0.21,50,True,rank_moves_diverge_from_theme,17.0
+MGL,Utilities (non-Power),industry_mode,0.93,industry_history,Utilities,Utilities:Non-Electrical,,27,1.0,27,1.0,False,0.761223472649902,0.04,50,False,,7.0
+WABAG,Utilities (non-Power),industry_mode,0.93,industry_history,Industrials,Utilities:Non-Electrical,Water,19,1.0,19,1.0,False,-0.10493475870758467,0.25,42,True,rank_moves_diverge_from_theme;high_rank_residual,25.0
+NUVAMA,Wealth & Distribution,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Wealth Mgr,0,0.0,0,0.0,False,1.0,0.0,23,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0
+BANSALWIRE,Wires & Conductors,debug_theme|small_theme_merged_to_debug,0.62,debug_fallback,,,Metal Wires,0,0.0,0,0.0,False,0.9999999999999998,0.0,20,True,low_fundamental_confidence;debug_fallback_needs_validation,53.0

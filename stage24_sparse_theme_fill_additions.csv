@@ -1,0 +1,16 @@
+Symbol,Theme,membership_type,primary_theme,secondary_rationale
+TVSMOTOR,EV Mobility Stack - 2W OEMs,secondary,2W/3W OEMs,2W OEM with EV product exposure; natural bridge candidate.
+ESABINDIA,Electrodes,secondary,Other Industrial Goods,Welding/consumables adjacency to metal fabrication and electrode demand.
+GESHIP,Infra Buildout - Marine & Dredging,secondary,Shipping,Marine fleet activity ties to dredging/marine capex cycle.
+KRSNAA,Medical Devices,secondary,Diagnostics & Pathology Chains,Diagnostics/medtech adjacency used as rough medical-tech proxy.
+ELECON,Mine Supply,secondary,Industrial Machinery - Capital Goods,Mining conveyor/gearbox capex linkage to mine-supply cycle.
+JSWENERGY,Power Utilities - Trading / Mixed,secondary,Power Utilities - Generation & Renewables,Integrated power platform with mixed merchant dynamics.
+TATAPOWER,Power Utilities - Trading / Mixed,secondary,Power Utilities - Generation & Renewables,Integrated utility profile includes merchant/trading exposure.
+HINDCOPPER,Rare Earth,secondary,Base Metals & Mining,Critical minerals basket proxy alongside niche mineral names.
+MOIL,Rare Earth,secondary,Mining,Critical mineral mining proxy for strategic-minerals bucket.
+GPPL,Shipping,secondary,Infra Buildout - Ports & Maritime,Ports and coastal cargo throughput links to shipping cycle.
+JSWINFRA,Shipping,secondary,Infra Buildout - Ports & Maritime,Port operations are highly correlated with shipping throughput.
+JKPAPER,Stationery & Writing Instruments,secondary,Paper & Paper Products,Paper substrate demand is upstream-linked to stationery cycle.
+TORNTPOWER,Thermal Power,secondary,Power Utilities - Regulated / Transmission,Conventional thermal mix provides rough fit for thermal basket.
+KIRLOSBROS,Water & Environmental Utilities,secondary,Industrial Machinery - Capital Goods,Pump/process equipment is core to water infra projects.
+KSB,Water & Environmental Utilities,secondary,Industrial Machinery - Capital Goods,Water-pump and fluid handling exposure aligns with water utilities.

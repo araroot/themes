@@ -1,0 +1,173 @@
+theme_order,Theme,cat_order,sub_order
+1,Adani Ecosystem,5,0
+2,Capital Markets Ecosystem - Market Infrastructure,10,10
+3,Capital Markets Ecosystem - Asset Managers,10,20
+4,Capital Markets Ecosystem - Wealth & Broking,10,30
+5,Capital Markets Ecosystem - Digital Finance Platforms,10,40
+6,Financial Services,10,50
+7,Banks - Public Sector,10,60
+8,Banks - Private Universal (Large),10,61
+9,Banks - Private Universal (Mid),10,62
+10,Banks - Regional & SFB,10,63
+11,Banks - Regional & Niche,10,64
+12,Housing Finance,10,70
+13,NBFC - Consumer & Vehicle Finance,10,80
+14,NBFC - Diversified Credit,10,81
+15,NBFC - PSU / Project Finance,10,82
+16,Microfinance & Small-ticket Lenders,10,83
+17,General Insurance,10,90
+18,Insurance,10,90
+19,Gold Lending & Bullion Finance,10,95
+20,Digital Marketplace & Logistics Platforms,20,0
+21,IT Products,20,0
+22,IT Services - Engineering & ER&D,20,0
+23,IT Services - Enterprise / BFSI,20,0
+24,IT Services - Midcap,20,0
+25,IT Services - Tier 1,20,0
+26,India Digital Stack - Connectivity & Infra,20,0
+27,India Digital Stack - Consumer Internet,20,0
+28,India Digital Stack - Data Center & Compute,20,0
+29,India Digital Stack - Enterprise Platforms,20,0
+30,Media & Broadcasting Platforms,20,0
+31,Media & Music,20,0
+32,Pharma API & Intermediates,20,0
+33,Specialty Chem - Intermediates & Agro,20,0
+34,Telecom Operators & Tower Infra,20,0
+35,Consumer Durables & Electronics,30,0
+36,Consumer Staples Brands,30,0
+37,Dairy,30,0
+38,Footwear,30,0
+39,Hospitality Chains,30,0
+40,Household Appliances,30,0
+41,Houseware,30,0
+42,Jewellery,30,0
+43,Luxury Retail & Premium Consumption,30,0
+44,Niche Retail & Entertainment,30,0
+45,Organized Retail - Large Format,30,0
+46,Organized Retail - Value & Fashion,30,0
+47,Packaged Foods,30,0
+48,Personal Care,30,0
+49,Stationery & Writing Instruments,30,0
+50,Tourism Ecosystem - Discovery & Booking,30,0
+51,Tourism Ecosystem - Mobility & Hospitality,30,0
+52,Diagnostics & Pathology Chains,40,0
+53,Healthcare Services Platforms,40,0
+54,Hospitals - Large Cap,40,0
+55,Hospitals - Mid Cap,40,0
+56,Hospitals - Small Cap,40,0
+57,Industrial Machinery - Capital Goods,40,0
+58,Medical Devices,40,0
+59,Pharma - Domestic Formulations - Large Cap,40,0
+60,Pharma - Domestic Formulations - Mid Cap,40,0
+61,Pharma - Domestic Formulations - Small Cap,40,0
+62,Pharma - Export Generics - Large Cap,40,0
+63,Pharma - Export Generics - Mid Cap,40,0
+64,Pharma - Export Generics - Small Cap,40,0
+65,Pharma - Specialty / Emerging,40,0
+66,Pharma CDMO - Advanced Platforms,40,0
+67,Pharma CDMO - Core Contract Manufacturing,40,0
+68,Auto Components - Body / Thermal / Interior - Large Cap,50,0
+69,Auto Components - Body / Thermal / Interior - Mid Cap,50,0
+70,Auto Components - Body / Thermal / Interior - Small Cap,50,0
+71,Auto Components - Driveline / Chassis,50,0
+72,"Auto Components - Electrical, Interiors & Lighting",50,0
+73,"Auto Components - Precision, Systems & Harnesses",50,0
+74,"Defence, Aerospace & Strategic Manufacturing",50,0
+75,EV Mobility Stack - 2W OEMs,50,0
+76,EV Mobility Stack - Components & Systems,50,0
+77,Industrial Engineering,50,0
+78,Industrial Machinery - Process / Precision,50,0
+79,Industrial Products - Large Cap,50,0
+80,Industrial Products - Mid Cap,50,0
+81,Industrial Products - Small Cap,50,0
+82,Infra Buildout - EPC Contractors,50,0
+83,Infra Buildout - Logistics Networks,50,0
+84,Infra Buildout - Marine & Dredging,50,0
+85,Infra Buildout - Ports & Maritime,50,0
+86,Infra Buildout - Rail Mobility,50,0
+87,Infra Buildout - Roads & Expressways,50,0
+88,Other Industrial Goods,50,0
+89,Process Inputs & Industrial Chemicals,50,0
+90,Hydrocarbon Upstream & Gas Infrastructure,60,0
+91,Oil Marketing & Distribution,60,0
+92,Power Equip - Grid & T&D,60,0
+93,Power Equip - Turbomachinery / Thermal,60,0
+94,Power Equipment - Core OEMs,60,0
+95,Power Utilities - Generation & Renewables,60,0
+96,Power Utilities - Regulated / Transmission,60,0
+97,Power Utilities - Trading / Mixed,60,0
+98,Renewables & Energy Transition,60,0
+99,Renewables - Solar,60,0
+100,Renewables - Wind,60,0
+101,Thermal Power,60,0
+102,Utilities (non-Power),60,0
+103,Water & Environmental Utilities,60,0
+104,Agrochemicals,70,0
+105,Base Metals & Mining,70,0
+106,Cement - Large Integrated,70,0
+107,Cement - Regional / Midcap,70,0
+108,Commodity Chemicals,70,0
+109,"Electrical Cables, Wires & Conductors",70,0
+110,Electrodes,70,0
+111,Fertilizers,70,0
+112,Metals,70,0
+113,Mining,70,0
+114,Paper & Paper Products,70,0
+115,Plastic Products,70,0
+116,Plastics,70,0
+117,Refineries/Petro-Products,70,0
+118,Specialty Chem - Fluoro & Refrigerants,70,0
+119,Specialty Chem - Materials & Formulations,70,0
+120,Steel,70,0
+121,Steel - Pipes & Tubes,70,0
+122,Steel - Primary / Long Products,70,0
+123,Steel - Stainless / Specialty,70,0
+124,Sugar & Bioenergy,70,0
+125,Flexible Workspaces & Office Platforms,80,0
+126,Real Estate - Commercial / Leasing,80,0
+127,Real Estate - Residential Developers - Large Cap,80,0
+128,Real Estate - Residential Developers - Mid Cap,80,0
+129,Real Estate - Residential Developers - Small Cap,80,0
+130,2W/3W OEMs,90,0
+131,Agri Inputs & Farm Value Chain,90,0
+132,Alcoholic Beverages,90,0
+133,B2B Distribution Platforms,90,0
+134,Commercial Vehicles,90,0
+135,Containers & Packaging,90,0
+136,Cooling & Air-Conditioning,90,0
+137,Electrical Equipment,90,0
+138,Electronics Manufacturing Services,90,0
+139,Forest Products,90,0
+140,Furniture-Furnishing-Paints - Large Cap,90,0
+141,Furniture-Furnishing-Paints - Mid Cap,90,0
+142,Furniture-Furnishing-Paints - Small Cap,90,0
+143,Holding Companies,90,0
+144,Mine Supply,90,0
+145,Other Apparels & Accessories,90,0
+146,Passenger Vehicles,90,0
+147,Quick Service Restaurants,90,0
+148,Rare Earth,90,0
+149,Recyclers,90,0
+150,Shipping,90,0
+151,Textiles,90,0
+152,Tobacco & Nicotine,90,0
+153,Tyres & Rubber,90,0
+154,Workforce & Outsourced Services,90,0
+155,LO-Capital Markets & Wealth Platforms,95,0
+156,LO-Finance Platforms & Lending,95,0
+157,LO-Housing & Retail Credit,95,0
+158,LO-Insurance & Protection,95,0
+159,LO-Consumer Durables & Home Upgrades,99,0
+160,LO-Digital Platforms & Internet Commerce,99,0
+161,LO-Emerging Multi-Sector Platforms,99,0
+162,LO-Healthcare Services & MedTech,99,0
+163,LO-Industrial Products & Engineering,99,0
+164,LO-Materials & Resource Transition,99,0
+165,"LO-Mining, Metals & Circular Materials",99,0
+166,LO-Mobility Components & Commercial Platforms,99,0
+167,LO-Packaged Foods & Consumer Staples,99,0
+168,LO-Pharma & Life Sciences (Emerging),99,0
+169,LO-Real Estate & Urban Redevelopment,99,0
+170,LO-Specialty Materials & Chemical Chain,99,0
+171,"LO-Textiles, Consumer & Export Manufacturing",99,0
+172,LO-Urban Infra & EPC,99,0

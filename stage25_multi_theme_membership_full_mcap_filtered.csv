@@ -1,0 +1,863 @@
+Symbol,Theme,membership_type,primary_theme,secondary_rationale,mcap_cr
+BAJAJ-AUTO,2W/3W OEMs,primary,2W/3W OEMs,,120792.41
+EICHERMOT,2W/3W OEMs,primary,2W/3W OEMs,,99564.33
+TVSMOTOR,2W/3W OEMs,primary,2W/3W OEMs,,86912.28
+HEROMOTOCO,2W/3W OEMs,primary,2W/3W OEMs,,72310.49
+ATHERENERG,2W/3W OEMs,secondary,EV Mobility Stack - 2W OEMs,EV thesis + 2W OEM volume/mix cycle,14029.12
+OLAELEC,2W/3W OEMs,secondary,EV Mobility Stack - 2W OEMs,EV thesis + 2W OEM volume/mix cycle,9321.75
+ADANIPORTS,Adani Ecosystem,primary,Adani Ecosystem,,104752.11
+ADANIPOWER,Adani Ecosystem,primary,Adani Ecosystem,,65437.02
+ADANIENT,Adani Ecosystem,primary,Adani Ecosystem,,60706.28
+ADANIGREEN,Adani Ecosystem,primary,Adani Ecosystem,,52722.59
+ADANIENSOL,Adani Ecosystem,primary,Adani Ecosystem,,31012.2
+AWL,Adani Ecosystem,primary,Adani Ecosystem,,11973.5
+LTFOODS,Agri Inputs & Farm Value Chain,primary,Agri Inputs & Farm Value Chain,,6348.2
+AVANTIFEED,Agri Inputs & Farm Value Chain,primary,Agri Inputs & Farm Value Chain,,6165.3
+SHAKTIPUMP,Agri Inputs & Farm Value Chain,primary,Agri Inputs & Farm Value Chain,,3801.44
+MANORAMA,Agri Inputs & Farm Value Chain,primary,Agri Inputs & Farm Value Chain,,3680.54
+GODREJAGRO,Agri Inputs & Farm Value Chain,primary,Agri Inputs & Farm Value Chain,,3319.98
+DHANUKA,Agri Inputs & Farm Value Chain,primary,Agri Inputs & Farm Value Chain,,1526.95
+OSWALPUMPS,Agri Inputs & Farm Value Chain,primary,Agri Inputs & Farm Value Chain,,1097.99
+ANURAS,Agrochemicals,primary,Agrochemicals,,5810.28
+BAYERCROP,Agrochemicals,primary,Agrochemicals,,5730.25
+SUMICHEM,Agrochemicals,primary,Agrochemicals,,5109.99
+RALLIS,Agrochemicals,primary,Agrochemicals,,2397.9
+SHARDACROP,Agrochemicals,primary,Agrochemicals,,2347.23
+UNITDSPR,Alcoholic Beverages,primary,Alcoholic Beverages,,42927.72
+RADICO,Alcoholic Beverages,primary,Alcoholic Beverages,,22641.6
+UBL,Alcoholic Beverages,primary,Alcoholic Beverages,,11319.84
+TI,Alcoholic Beverages,primary,Alcoholic Beverages,,7291.87
+ABDL,Alcoholic Beverages,primary,Alcoholic Beverages,,2597.02
+GLOBUSSPR,Alcoholic Beverages,primary,Alcoholic Beverages,,1328.14
+SULA,Alcoholic Beverages,primary,Alcoholic Beverages,,1170.04
+ASAHIINDIA,Auto Components - Body / Thermal / Interior - Large Cap,primary,Auto Components - Body / Thermal / Interior - Large Cap,,12371.56
+ARE&M,Auto Components - Body / Thermal / Interior - Large Cap,primary,Auto Components - Body / Thermal / Interior - Large Cap,,10316.68
+GABRIEL,Auto Components - Body / Thermal / Interior - Large Cap,primary,Auto Components - Body / Thermal / Interior - Large Cap,,6028.04
+CIEINDIA,Auto Components - Body / Thermal / Interior - Large Cap,primary,Auto Components - Body / Thermal / Interior - Large Cap,,5441.67
+TENNIND,Auto Components - Body / Thermal / Interior - Mid Cap,primary,Auto Components - Body / Thermal / Interior - Mid Cap,,5312.29
+MINDACORP,Auto Components - Body / Thermal / Interior - Mid Cap,primary,Auto Components - Body / Thermal / Interior - Mid Cap,,4732.18
+PRICOLLTD,Auto Components - Body / Thermal / Interior - Mid Cap,primary,Auto Components - Body / Thermal / Interior - Mid Cap,,4121.36
+LGBBROSLTD,Auto Components - Body / Thermal / Interior - Mid Cap,primary,Auto Components - Body / Thermal / Interior - Mid Cap,,3553.56
+SUBROS,Auto Components - Body / Thermal / Interior - Mid Cap,primary,Auto Components - Body / Thermal / Interior - Mid Cap,,3341.27
+JAMNAAUTO,Auto Components - Body / Thermal / Interior - Mid Cap,primary,Auto Components - Body / Thermal / Interior - Mid Cap,,2487.83
+SHARDAMOTR,Auto Components - Body / Thermal / Interior - Mid Cap,primary,Auto Components - Body / Thermal / Interior - Mid Cap,,1746.18
+VARROC,Auto Components - Body / Thermal / Interior - Small Cap,primary,Auto Components - Body / Thermal / Interior - Small Cap,,2205.57
+LUMAXIND,Auto Components - Body / Thermal / Interior - Small Cap,primary,Auto Components - Body / Thermal / Interior - Small Cap,,1137.94
+TIINDIA,Auto Components - Driveline / Chassis,primary,Auto Components - Driveline / Chassis,,25282.9
+SONACOMS,Auto Components - Driveline / Chassis,secondary,EV Mobility Stack - Components & Systems,EV component thesis + drivetrain systems cycle,22199.02
+SCHAEFFLER,Auto Components - Driveline / Chassis,secondary,EV Mobility Stack - Components & Systems,EV component thesis + drivetrain/bearing content share,14620.93
+ZFCVINDIA,Auto Components - Driveline / Chassis,secondary,EV Mobility Stack - Components & Systems,EV component thesis + CV axle/driveline cycle,11370.21
+SUNDRMFAST,Auto Components - Driveline / Chassis,primary,Auto Components - Driveline / Chassis,,10621.97
+TVSHLTD,Auto Components - Driveline / Chassis,primary,Auto Components - Driveline / Chassis,,7781.83
+SUPRAJIT,Auto Components - Driveline / Chassis,primary,Auto Components - Driveline / Chassis,,3393.76
+GREAVESCOT,Auto Components - Driveline / Chassis,primary,Auto Components - Driveline / Chassis,,1678.5
+ROLEXRINGS,Auto Components - Driveline / Chassis,primary,Auto Components - Driveline / Chassis,,1537.87
+SSWL,Auto Components - Driveline / Chassis,primary,Auto Components - Driveline / Chassis,,1250.7
+SUNCLAY,Auto Components - Driveline / Chassis,primary,Auto Components - Driveline / Chassis,,1118.18
+UNOMINDA,"Auto Components - Electrical, Interiors & Lighting",secondary,EV Mobility Stack - Components & Systems,EV component thesis + cockpit/electrical systems cycle,21566.36
+EXIDEIND,"Auto Components - Electrical, Interiors & Lighting",secondary,EV Mobility Stack - Components & Systems,EV component thesis + battery/electrical systems cycle,14773.38
+ENDURANCE,"Auto Components - Electrical, Interiors & Lighting",primary,"Auto Components - Electrical, Interiors & Lighting",,8544.3
+SJS,"Auto Components - Electrical, Interiors & Lighting",primary,"Auto Components - Electrical, Interiors & Lighting",,4195.66
+LUMAXTECH,"Auto Components - Electrical, Interiors & Lighting",primary,"Auto Components - Electrical, Interiors & Lighting",,4042.11
+FIEMIND,"Auto Components - Electrical, Interiors & Lighting",primary,"Auto Components - Electrical, Interiors & Lighting",,2598.08
+MOTHERSON,"Auto Components - Precision, Systems & Harnesses",primary,"Auto Components - Precision, Systems & Harnesses",,61183.59
+BOSCHLTD,"Auto Components - Precision, Systems & Harnesses",secondary,EV Mobility Stack - Components & Systems,EV component thesis + auto systems engineering cycle,31713.42
+MSUMI,"Auto Components - Precision, Systems & Harnesses",primary,"Auto Components - Precision, Systems & Harnesses",,10956.33
+CRAFTSMAN,"Auto Components - Precision, Systems & Harnesses",primary,"Auto Components - Precision, Systems & Harnesses",,8965.57
+SHRIPISTON,"Auto Components - Precision, Systems & Harnesses",primary,"Auto Components - Precision, Systems & Harnesses",,6814.01
+BELRISE,"Auto Components - Precision, Systems & Harnesses",primary,"Auto Components - Precision, Systems & Harnesses",,5095.16
+REDINGTON,B2B Distribution Platforms,primary,B2B Distribution Platforms,,21225.3
+INDIAMART,B2B Distribution Platforms,secondary,India Digital Stack - Enterprise Platforms,Enterprise platform + B2B commerce network effects,6728.02
+ENTERO,B2B Distribution Platforms,primary,B2B Distribution Platforms,,2293.22
+BUILDPRO,B2B Distribution Platforms,primary,B2B Distribution Platforms,,1098.23
+HDFCBANK,Banks - Private Universal (Large),primary,Banks - Private Universal (Large),,1429595.23
+ICICIBANK,Banks - Private Universal (Large),primary,Banks - Private Universal (Large),,968809.56
+AXISBANK,Banks - Private Universal (Large),primary,Banks - Private Universal (Large),,390690.27
+KOTAKBANK,Banks - Private Universal (Large),primary,Banks - Private Universal (Large),,300838.31
+IDFCFIRSTB,Banks - Private Universal (Mid),primary,Banks - Private Universal (Mid),,71842.23
+FEDERALBNK,Banks - Private Universal (Mid),primary,Banks - Private Universal (Mid),,70830.51
+YESBANK,Banks - Private Universal (Mid),primary,Banks - Private Universal (Mid),,67150.87
+INDUSINDBK,Banks - Private Universal (Mid),primary,Banks - Private Universal (Mid),,59053.59
+AUBANK,Banks - Private Universal (Mid),primary,Banks - Private Universal (Mid),,56691.37
+SBIN,Banks - Public Sector,primary,Banks - Public Sector,,443159.4
+BANKBARODA,Banks - Public Sector,primary,Banks - Public Sector,,55776.24
+CANBK,Banks - Public Sector,primary,Banks - Public Sector,,49576.43
+PNB,Banks - Public Sector,primary,Banks - Public Sector,,43066.13
+UNIONBANK,Banks - Public Sector,primary,Banks - Public Sector,,34815.79
+INDIANB,Banks - Public Sector,primary,Banks - Public Sector,,32112.83
+MAHABANK,Banks - Public Sector,primary,Banks - Public Sector,,13251.52
+BANKINDIA,Banks - Regional & Niche,primary,Banks - Regional & Niche,,19894.85
+BANDHANBNK,Banks - Regional & Niche,primary,Banks - Regional & Niche,,15016.93
+SOUTHBANK,Banks - Regional & Niche,primary,Banks - Regional & Niche,,9833.04
+EQUITASBNK,Banks - Regional & Niche,primary,Banks - Regional & Niche,,8000.12
+KTKBANK,Banks - Regional & Niche,primary,Banks - Regional & Niche,,6884.51
+IDBI,Banks - Regional & Niche,primary,Banks - Regional & Niche,,5661.25
+DCBBANK,Banks - Regional & Niche,primary,Banks - Regional & Niche,,5394.74
+J&KBANK,Banks - Regional & Niche,primary,Banks - Regional & Niche,,4681.37
+CSBBANK,Banks - Regional & Niche,primary,Banks - Regional & Niche,,4561.82
+KARURVYSYA,Banks - Regional & SFB,primary,Banks - Regional & SFB,,28510.47
+CUB,Banks - Regional & SFB,primary,Banks - Regional & SFB,,22435.12
+RBLBANK,Banks - Regional & SFB,primary,Banks - Regional & SFB,,18456.24
+UJJIVANSFB,Banks - Regional & SFB,primary,Banks - Regional & SFB,,12687.18
+HINDALCO,Base Metals & Mining,primary,Base Metals & Mining,,141281.99
+VEDL,Base Metals & Mining,primary,Base Metals & Mining,,116290.69
+HINDZINC,Base Metals & Mining,primary,Base Metals & Mining,,101281.54
+NATIONALUM,Base Metals & Mining,primary,Base Metals & Mining,,34482.29
+HINDCOPPER,Base Metals & Mining,primary,Base Metals & Mining,,22483.87
+HDFCAMC,Capital Markets Ecosystem - Asset Managers,primary,Capital Markets Ecosystem - Asset Managers,,51335.57
+ICICIAMC,Capital Markets Ecosystem - Asset Managers,primary,Capital Markets Ecosystem - Asset Managers,,18237.87
+NAM-INDIA,Capital Markets Ecosystem - Asset Managers,primary,Capital Markets Ecosystem - Asset Managers,,15666.08
+UTIAMC,Capital Markets Ecosystem - Asset Managers,primary,Capital Markets Ecosystem - Asset Managers,,12495.07
+ABSLAMC,Capital Markets Ecosystem - Asset Managers,primary,Capital Markets Ecosystem - Asset Managers,,5517.24
+CRAMC,Capital Markets Ecosystem - Asset Managers,primary,Capital Markets Ecosystem - Asset Managers,,1243.2
+GROWW,Capital Markets Ecosystem - Digital Finance Platforms,primary,Capital Markets Ecosystem - Digital Finance Platforms,,78892.65
+POLICYBZR,Capital Markets Ecosystem - Digital Finance Platforms,primary,Capital Markets Ecosystem - Digital Finance Platforms,,76600.75
+PAYTM,Capital Markets Ecosystem - Digital Finance Platforms,primary,Capital Markets Ecosystem - Digital Finance Platforms,,72731.71
+PINELABS,Capital Markets Ecosystem - Digital Finance Platforms,primary,Capital Markets Ecosystem - Digital Finance Platforms,,26169.99
+ZAGGLE,Capital Markets Ecosystem - Digital Finance Platforms,primary,Capital Markets Ecosystem - Digital Finance Platforms,,2126.22
+BSE,Capital Markets Ecosystem - Market Infrastructure,primary,Capital Markets Ecosystem - Market Infrastructure,,113921.55
+MCX,Capital Markets Ecosystem - Market Infrastructure,primary,Capital Markets Ecosystem - Market Infrastructure,,64355.32
+CDSL,Capital Markets Ecosystem - Market Infrastructure,primary,Capital Markets Ecosystem - Market Infrastructure,,23453.35
+CAMS,Capital Markets Ecosystem - Market Infrastructure,primary,Capital Markets Ecosystem - Market Infrastructure,,17236.78
+KFINTECH,Capital Markets Ecosystem - Market Infrastructure,primary,Capital Markets Ecosystem - Market Infrastructure,,13492.89
+IEX,Capital Markets Ecosystem - Market Infrastructure,primary,Capital Markets Ecosystem - Market Infrastructure,,11312.87
+360ONE,Capital Markets Ecosystem - Wealth & Broking,primary,Capital Markets Ecosystem - Wealth & Broking,,43075.85
+ANGELONE,Capital Markets Ecosystem - Wealth & Broking,primary,Capital Markets Ecosystem - Wealth & Broking,,16424.18
+MOTILALOFS,Capital Markets Ecosystem - Wealth & Broking,primary,Capital Markets Ecosystem - Wealth & Broking,,14667.57
+ANANDRATHI,Capital Markets Ecosystem - Wealth & Broking,primary,Capital Markets Ecosystem - Wealth & Broking,,13643.65
+NUVAMA,Capital Markets Ecosystem - Wealth & Broking,primary,Capital Markets Ecosystem - Wealth & Broking,,11231.52
+IIFLCAPS,Capital Markets Ecosystem - Wealth & Broking,primary,Capital Markets Ecosystem - Wealth & Broking,,7111.99
+JMFINANCIL,Capital Markets Ecosystem - Wealth & Broking,primary,Capital Markets Ecosystem - Wealth & Broking,,5312.17
+ULTRACEMCO,Cement - Large Integrated,primary,Cement - Large Integrated,,152252.23
+GRASIM,Cement - Large Integrated,primary,Cement - Large Integrated,,108878.17
+AMBUJACEM,Cement - Large Integrated,primary,Cement - Large Integrated,,40759.35
+SHREECEM,Cement - Large Integrated,primary,Cement - Large Integrated,,36452.74
+DALBHARAT,Cement - Large Integrated,primary,Cement - Large Integrated,,17113.33
+ACC,Cement - Large Integrated,primary,Cement - Large Integrated,,13319.36
+JSWCEMENT,Cement - Large Integrated,primary,Cement - Large Integrated,,4312.56
+JKCEMENT,Cement - Regional / Midcap,primary,Cement - Regional / Midcap,,23202.51
+RAMCOCEM,Cement - Regional / Midcap,primary,Cement - Regional / Midcap,,15188.05
+JKLAKSHMI,Cement - Regional / Midcap,primary,Cement - Regional / Midcap,,5281.56
+STARCEMENT,Cement - Regional / Midcap,primary,Cement - Regional / Midcap,,3770.01
+CEMPRO,Cement - Regional / Midcap,primary,Cement - Regional / Midcap,,3582.13
+INDIACEM,Cement - Regional / Midcap,primary,Cement - Regional / Midcap,,3547.19
+NUVOCO,Cement - Regional / Midcap,primary,Cement - Regional / Midcap,,3469.71
+BIRLACORPN,Cement - Regional / Midcap,primary,Cement - Regional / Midcap,,3014.62
+BUILDPRO,Cement - Regional / Midcap,secondary,B2B Distribution Platforms,B2B distribution + building materials demand cycle,1098.23
+TMCV,Commercial Vehicles,primary,Commercial Vehicles,,96978.76
+ASHOKLEY,Commercial Vehicles,primary,Commercial Vehicles,,56209.63
+ESCORTS,Commercial Vehicles,primary,Commercial Vehicles,,12091.74
+FORCEMOT,Commercial Vehicles,primary,Commercial Vehicles,,9698.35
+BEML,Commercial Vehicles,primary,Commercial Vehicles,,6868.45
+VSTTILLERS,Commercial Vehicles,primary,Commercial Vehicles,,2100.77
+TATACHEM,Commodity Chemicals,primary,Commodity Chemicals,,11770.84
+DEEPAKNTR,Commodity Chemicals,primary,Commodity Chemicals,,11351.02
+GHCL,Commodity Chemicals,primary,Commodity Chemicals,,3914.77
+ACI,Commodity Chemicals,primary,Commodity Chemicals,,3252.46
+INDIAGLYCO,Commodity Chemicals,primary,Commodity Chemicals,,2381.66
+TIRUMALCHM,Commodity Chemicals,primary,Commodity Chemicals,,1446.95
+REDINGTON,Consumer Durables & Electronics,secondary,B2B Distribution Platforms,B2B distribution + IT/electronics channel cycle,21225.3
+LGEINDIA,Consumer Durables & Electronics,primary,Consumer Durables & Electronics,,14894.22
+WHIRLPOOL,Consumer Durables & Electronics,primary,Consumer Durables & Electronics,,5946.46
+CPPLUS,Consumer Durables & Electronics,primary,Consumer Durables & Electronics,,3753.45
+ORIENTELEC,Consumer Durables & Electronics,primary,Consumer Durables & Electronics,,2349.8
+SYMPHONY,Consumer Durables & Electronics,primary,Consumer Durables & Electronics,,1688.5
+EMIL,Consumer Durables & Electronics,primary,Consumer Durables & Electronics,,1219.8
+EPACK,Consumer Durables & Electronics,primary,Consumer Durables & Electronics,,1151.54
+NESTLEIND,Consumer Staples Brands,primary,Consumer Staples Brands,,95691.36
+VBL,Consumer Staples Brands,primary,Consumer Staples Brands,,64546.26
+GODREJCP,Consumer Staples Brands,primary,Consumer Staples Brands,,55439.71
+MARICO,Consumer Staples Brands,primary,Consumer Staples Brands,,38903.58
+DABUR,Consumer Staples Brands,primary,Consumer Staples Brands,,30454.45
+AWL,Consumer Staples Brands,secondary,Adani Ecosystem,Adani ownership + staples/FMCG cycle,11973.5
+SANOFICONR,Consumer Staples Brands,primary,Consumer Staples Brands,,2811.99
+EPL,Containers & Packaging,primary,Containers & Packaging,,4523.46
+GRWRHITECH,Containers & Packaging,primary,Containers & Packaging,,2754.58
+MOLDTKPAC,Containers & Packaging,primary,Containers & Packaging,,1216.29
+VOLTAS,Cooling & Air-Conditioning,primary,Cooling & Air-Conditioning,,30669.24
+BLUESTARCO,Cooling & Air-Conditioning,primary,Cooling & Air-Conditioning,,23743.29
+KRN,Cooling & Air-Conditioning,primary,Cooling & Air-Conditioning,,1157.85
+HATSUN,Dairy,primary,Dairy,,5260.42
+DODLA,Dairy,primary,Dairy,,2936.25
+HERITGFOOD,Dairy,primary,Dairy,,1955.52
+BEL,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,160362.95
+HAL,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,87593.67
+MAZDOCK,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,19499.85
+BDL,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,14134.71
+ASTRAMICRO,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,8724.13
+DATAPATTNS,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,8616.55
+GRSE,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,8081.0
+ZENTEC,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,6582.86
+MTARTECH,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,6260.32
+AEQUS,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,3717.46
+DYNAMATECH,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,3474.7
+CENTUM,"Defence, Aerospace & Strategic Manufacturing",primary,"Defence, Aerospace & Strategic Manufacturing",,1817.07
+LALPATHLAB,Diagnostics & Pathology Chains,primary,Diagnostics & Pathology Chains,,11052.06
+METROPOLIS,Diagnostics & Pathology Chains,primary,Diagnostics & Pathology Chains,,4967.2
+VIJAYA,Diagnostics & Pathology Chains,primary,Diagnostics & Pathology Chains,,4684.1
+THYROCARE,Diagnostics & Pathology Chains,primary,Diagnostics & Pathology Chains,,2611.13
+KRSNAA,Diagnostics & Pathology Chains,primary,Diagnostics & Pathology Chains,,1680.74
+ETERNAL,Digital Marketplace & Logistics Platforms,secondary,India Digital Stack - Consumer Internet,Consumer internet + on-demand commerce/logistics flywheel,264177.51
+SWIGGY,Digital Marketplace & Logistics Platforms,secondary,India Digital Stack - Consumer Internet,Consumer internet + logistics marketplace economics,85566.0
+DELHIVERY,Digital Marketplace & Logistics Platforms,primary,Digital Marketplace & Logistics Platforms,,31652.89
+URBANCO,Digital Marketplace & Logistics Platforms,secondary,India Digital Stack - Consumer Internet,Consumer internet + service marketplace matching,14496.49
+CARTRADE,Digital Marketplace & Logistics Platforms,primary,Digital Marketplace & Logistics Platforms,,12683.98
+BLACKBUCK,Digital Marketplace & Logistics Platforms,primary,Digital Marketplace & Logistics Platforms,,7632.28
+TVSMOTOR,EV Mobility Stack - 2W OEMs,secondary,2W/3W OEMs,2W OEM with EV product exposure; natural bridge candidate.,86912.28
+ATHERENERG,EV Mobility Stack - 2W OEMs,primary,EV Mobility Stack - 2W OEMs,,14029.12
+OLAELEC,EV Mobility Stack - 2W OEMs,primary,EV Mobility Stack - 2W OEMs,,9321.75
+BOSCHLTD,EV Mobility Stack - Components & Systems,primary,EV Mobility Stack - Components & Systems,,31713.42
+SONACOMS,EV Mobility Stack - Components & Systems,primary,EV Mobility Stack - Components & Systems,,22199.02
+UNOMINDA,EV Mobility Stack - Components & Systems,primary,EV Mobility Stack - Components & Systems,,21566.36
+EXIDEIND,EV Mobility Stack - Components & Systems,primary,EV Mobility Stack - Components & Systems,,14773.38
+SCHAEFFLER,EV Mobility Stack - Components & Systems,primary,EV Mobility Stack - Components & Systems,,14620.93
+ZFCVINDIA,EV Mobility Stack - Components & Systems,primary,EV Mobility Stack - Components & Systems,,11370.21
+POLYCAB,"Electrical Cables, Wires & Conductors",primary,"Electrical Cables, Wires & Conductors",,40675.91
+KEI,"Electrical Cables, Wires & Conductors",primary,"Electrical Cables, Wires & Conductors",,24976.36
+APARINDS,"Electrical Cables, Wires & Conductors",primary,"Electrical Cables, Wires & Conductors",,13575.37
+USHAMART,"Electrical Cables, Wires & Conductors",primary,"Electrical Cables, Wires & Conductors",,7449.99
+FINCABLES,"Electrical Cables, Wires & Conductors",primary,"Electrical Cables, Wires & Conductors",,7086.92
+RRKABEL,"Electrical Cables, Wires & Conductors",primary,"Electrical Cables, Wires & Conductors",,5949.31
+STLTECH,"Electrical Cables, Wires & Conductors",secondary,India Digital Stack - Connectivity & Infra,Digital infra + fiber cable capex cycle,2884.69
+HAVELLS,Electrical Equipment,primary,Electrical Equipment,,32752.31
+HONAUT,Electrical Equipment,primary,Electrical Equipment,,7392.42
+VGUARD,Electrical Equipment,primary,Electrical Equipment,,7170.88
+BBL,Electrical Equipment,primary,Electrical Equipment,,2105.18
+HEG,Electrodes,primary,Electrodes,,4588.13
+GRAPHITE,Electrodes,primary,Electrodes,,4177.05
+ESABINDIA,Electrodes,secondary,Other Industrial Goods,Welding/consumables adjacency to metal fabrication and electrode demand.,2250.36
+DIXON,Electronics Manufacturing Services,primary,Electronics Manufacturing Services,,45108.68
+AMBER,Electronics Manufacturing Services,primary,Electronics Manufacturing Services,,12426.83
+KAYNES,Electronics Manufacturing Services,primary,Electronics Manufacturing Services,,10841.25
+PGEL,Electronics Manufacturing Services,primary,Electronics Manufacturing Services,,8827.41
+SYRMA,Electronics Manufacturing Services,primary,Electronics Manufacturing Services,,8389.85
+AVALON,Electronics Manufacturing Services,primary,Electronics Manufacturing Services,,3182.55
+CYIENTDLM,Electronics Manufacturing Services,primary,Electronics Manufacturing Services,,1417.84
+UPL,Fertilizers,primary,Fertilizers,,39537.79
+COROMANDEL,Fertilizers,primary,Fertilizers,,29080.92
+DEEPAKFERT,Fertilizers,primary,Fertilizers,,7292.67
+CHAMBLFERT,Fertilizers,primary,Fertilizers,,6924.41
+PARADEEP,Fertilizers,primary,Fertilizers,,6102.05
+GROWW,Financial Services,secondary,Capital Markets Ecosystem - Digital Finance Platforms,Fintech platform + retail participation cycle,78892.65
+POLICYBZR,Financial Services,secondary,Capital Markets Ecosystem - Digital Finance Platforms,Fintech platform + insurance distribution cycle,76600.75
+PAYTM,Financial Services,secondary,Capital Markets Ecosystem - Digital Finance Platforms,Fintech platform + digital payments/financialization cycle,72731.71
+PINELABS,Financial Services,secondary,Capital Markets Ecosystem - Digital Finance Platforms,Fintech platform + merchant acquiring cycle,26169.99
+CRISIL,Financial Services,primary,Financial Services,,11388.44
+EDELWEISS,Financial Services,primary,Financial Services,,6805.89
+RELIGARE,Financial Services,primary,Financial Services,,5851.71
+CMSINFO,Financial Services,primary,Financial Services,,5190.72
+CARERATING,Financial Services,primary,Financial Services,,4810.24
+PRUDENT,Financial Services,primary,Financial Services,,4437.79
+ICRA,Financial Services,primary,Financial Services,,2921.77
+ZAGGLE,Financial Services,secondary,Capital Markets Ecosystem - Digital Finance Platforms,Fintech platform + corporate spends/payment rails cycle,2126.22
+WEWORK,Flexible Workspaces & Office Platforms,primary,Flexible Workspaces & Office Platforms,,3837.63
+AWFIS,Flexible Workspaces & Office Platforms,primary,Flexible Workspaces & Office Platforms,,2304.09
+SMARTWORKS,Flexible Workspaces & Office Platforms,primary,Flexible Workspaces & Office Platforms,,2219.72
+INDIQUBE,Flexible Workspaces & Office Platforms,primary,Flexible Workspaces & Office Platforms,,1489.99
+METROBRAND,Footwear,primary,Footwear,,8032.99
+BATAINDIA,Footwear,primary,Footwear,,5504.81
+CAMPUS,Footwear,primary,Footwear,,2154.11
+REDTAPE,Footwear,primary,Footwear,,1930.54
+CENTURYPLY,Forest Products,primary,Forest Products,,4878.18
+STYLAMIND,Forest Products,primary,Forest Products,,1798.01
+GREENPLY,Forest Products,primary,Forest Products,,1354.08
+GREENPANEL,Forest Products,primary,Forest Products,,1317.73
+ASIANPAINT,Furniture-Furnishing-Paints - Large Cap,primary,Furniture-Furnishing-Paints - Large Cap,,110303.2
+BERGEPAINT,Furniture-Furnishing-Paints - Large Cap,primary,Furniture-Furnishing-Paints - Large Cap,,13503.94
+KAJARIACER,Furniture-Furnishing-Paints - Large Cap,primary,Furniture-Furnishing-Paints - Large Cap,,7522.18
+AKZOINDIA,Furniture-Furnishing-Paints - Large Cap,primary,Furniture-Furnishing-Paints - Large Cap,,4952.74
+KANSAINER,Furniture-Furnishing-Paints - Mid Cap,primary,Furniture-Furnishing-Paints - Mid Cap,,4658.01
+WAKEFIT,Furniture-Furnishing-Paints - Mid Cap,primary,Furniture-Furnishing-Paints - Mid Cap,,3727.67
+GREENLAM,Furniture-Furnishing-Paints - Mid Cap,primary,Furniture-Furnishing-Paints - Mid Cap,,2998.78
+CERA,Furniture-Furnishing-Paints - Mid Cap,primary,Furniture-Furnishing-Paints - Mid Cap,,2942.1
+INDIGOPNTS,Furniture-Furnishing-Paints - Small Cap,primary,Furniture-Furnishing-Paints - Small Cap,,2297.65
+SFL,Furniture-Furnishing-Paints - Small Cap,primary,Furniture-Furnishing-Paints - Small Cap,,1935.79
+AGI,Furniture-Furnishing-Paints - Small Cap,primary,Furniture-Furnishing-Paints - Small Cap,,1607.35
+GICRE,General Insurance,primary,General Insurance,,11677.9
+STARHEALTH,General Insurance,primary,General Insurance,,11600.69
+GODIGIT,General Insurance,primary,General Insurance,,8099.19
+NIVABUPA,General Insurance,primary,General Insurance,,6504.37
+MUTHOOTFIN,Gold Lending & Bullion Finance,primary,Gold Lending & Bullion Finance,,40949.39
+IIFL,Gold Lending & Bullion Finance,primary,Gold Lending & Bullion Finance,,16898.16
+MANAPPURAM,Gold Lending & Bullion Finance,primary,Gold Lending & Bullion Finance,,15605.97
+FEDFINA,Gold Lending & Bullion Finance,primary,Gold Lending & Bullion Finance,,2236.9
+INDGN,Healthcare Services Platforms,primary,Healthcare Services Platforms,,11597.65
+IKS,Healthcare Services Platforms,primary,Healthcare Services Platforms,,9667.65
+AGARWALEYE,Healthcare Services Platforms,primary,Healthcare Services Platforms,,9286.83
+MEDPLUS,Healthcare Services Platforms,primary,Healthcare Services Platforms,,5715.59
+MEDIASSIST,Healthcare Services Platforms,primary,Healthcare Services Platforms,,2829.71
+ENTERO,Healthcare Services Platforms,secondary,B2B Distribution Platforms,B2B distribution + pharma supply chain execution,2293.22
+NEPHROPLUS,Healthcare Services Platforms,primary,Healthcare Services Platforms,,1911.89
+BAJAJHLDNG,Holding Companies,primary,Holding Companies,,58337.7
+CHOLAHLDNG,Holding Companies,primary,Holding Companies,,16643.27
+GODREJIND,Holding Companies,primary,Holding Companies,,8339.94
+MAHSCOOTER,Holding Companies,primary,Holding Companies,,7534.74
+JSWHL,Holding Companies,primary,Holding Companies,,6653.88
+INDHOTEL,Hospitality Chains,primary,Hospitality Chains,,59380.47
+ITCHOTELS,Hospitality Chains,secondary,Tourism Ecosystem - Mobility & Hospitality,Tourism ecosystem + hotel room cycle,22655.5
+EIHOTEL,Hospitality Chains,primary,Hospitality Chains,,13213.23
+LEMONTREE,Hospitality Chains,primary,Hospitality Chains,,7951.7
+CHALET,Hospitality Chains,primary,Hospitality Chains,,6230.72
+SAMHI,Hospitality Chains,primary,Hospitality Chains,,3747.02
+THELEELA,Hospitality Chains,secondary,Tourism Ecosystem - Mobility & Hospitality,Tourism ecosystem + hotel room cycle,3386.54
+MHRIL,Hospitality Chains,primary,Hospitality Chains,,1989.79
+VENTIVE,Hospitality Chains,primary,Hospitality Chains,,1920.7
+JUNIPER,Hospitality Chains,secondary,Tourism Ecosystem - Mobility & Hospitality,Tourism ecosystem + hotel room cycle,1134.28
+APOLLOHOSP,Hospitals - Large Cap,primary,Hospitals - Large Cap,,72020.52
+MAXHEALTH,Hospitals - Large Cap,primary,Hospitals - Large Cap,,71014.22
+FORTIS,Hospitals - Large Cap,primary,Hospitals - Large Cap,,44244.52
+MEDANTA,Hospitals - Large Cap,primary,Hospitals - Large Cap,,18967.66
+ASTERDM,Hospitals - Mid Cap,primary,Hospitals - Mid Cap,,17054.84
+KIMS,Hospitals - Mid Cap,primary,Hospitals - Mid Cap,,15981.14
+NH,Hospitals - Mid Cap,primary,Hospitals - Mid Cap,,13262.93
+AGARWALEYE,Hospitals - Mid Cap,secondary,Healthcare Services Platforms,Healthcare services + specialty care utilization cycle,9286.83
+RAINBOW,Hospitals - Mid Cap,primary,Hospitals - Mid Cap,,5807.28
+KOVAI,Hospitals - Mid Cap,primary,Hospitals - Mid Cap,,2581.21
+NEPHROPLUS,Hospitals - Mid Cap,secondary,Healthcare Services Platforms,Healthcare services + specialty care utilization cycle,1911.89
+JLHL,Hospitals - Small Cap,primary,Hospitals - Small Cap,,5252.16
+HCG,Hospitals - Small Cap,primary,Hospitals - Small Cap,,3025.92
+YATHARTH,Hospitals - Small Cap,primary,Hospitals - Small Cap,,2498.55
+ARTEMISMED,Hospitals - Small Cap,primary,Hospitals - Small Cap,,1632.93
+CROMPTON,Household Appliances,primary,Household Appliances,,14265.93
+EUREKAFORB,Household Appliances,primary,Household Appliances,,3948.05
+BAJAJELEC,Household Appliances,primary,Household Appliances,,1785.62
+IFBIND,Household Appliances,primary,Household Appliances,,1140.07
+BORORENEW,Houseware,primary,Houseware,,2856.71
+TTKPRESTIG,Houseware,primary,Houseware,,2385.35
+CARYSIL,Houseware,primary,Houseware,,1329.01
+LICHSGFIN,Housing Finance,primary,Housing Finance,,15855.95
+PNBHOUSING,Housing Finance,primary,Housing Finance,,15408.64
+HOMEFIRST,Housing Finance,primary,Housing Finance,,10754.88
+APTUS,Housing Finance,primary,Housing Finance,,10488.74
+BAJAJHFL,Housing Finance,primary,Housing Finance,,10068.07
+HUDCO,Housing Finance,primary,Housing Finance,,9599.6
+CANFINHOME,Housing Finance,primary,Housing Finance,,8694.82
+AAVAS,Housing Finance,primary,Housing Finance,,5907.35
+AADHARHFC,Housing Finance,primary,Housing Finance,,5283.15
+INDIASHLTR,Housing Finance,primary,Housing Finance,,4570.66
+REPCOHOME,Housing Finance,primary,Housing Finance,,1601.16
+ONGC,Hydrocarbon Upstream & Gas Infrastructure,primary,Hydrocarbon Upstream & Gas Infrastructure,,139170.21
+OIL,Hydrocarbon Upstream & Gas Infrastructure,primary,Hydrocarbon Upstream & Gas Infrastructure,,35960.58
+PETRONET,Hydrocarbon Upstream & Gas Infrastructure,primary,Hydrocarbon Upstream & Gas Infrastructure,,21745.94
+AEGISLOG,Hydrocarbon Upstream & Gas Infrastructure,primary,Hydrocarbon Upstream & Gas Infrastructure,,10730.31
+TATATECH,IT Products,primary,IT Products,,11744.12
+AFFLE,IT Products,secondary,India Digital Stack - Enterprise Platforms,Enterprise platform + ad-tech product model,9804.11
+INTELLECT,IT Products,primary,IT Products,,8961.12
+NETWEB,IT Products,secondary,India Digital Stack - Data Center & Compute,Data center thesis + server hardware exposure,5162.33
+RATEGAIN,IT Products,primary,IT Products,,3764.5
+MAPMYINDIA,IT Products,secondary,India Digital Stack - Enterprise Platforms,Enterprise platform + map/IP product economics,3515.39
+PERSISTENT,IT Services - Engineering & ER&D,primary,IT Services - Engineering & ER&D,,66386.18
+COFORGE,IT Services - Engineering & ER&D,primary,IT Services - Engineering & ER&D,,55564.82
+MPHASIS,IT Services - Engineering & ER&D,primary,IT Services - Engineering & ER&D,,36510.55
+TATAELXSI,IT Services - Engineering & ER&D,primary,IT Services - Engineering & ER&D,,18600.0
+KPITTECH,IT Services - Engineering & ER&D,primary,IT Services - Engineering & ER&D,,17313.46
+LTTS,IT Services - Engineering & ER&D,primary,IT Services - Engineering & ER&D,,10437.48
+CYIENT,IT Services - Engineering & ER&D,primary,IT Services - Engineering & ER&D,,9707.24
+OFSS,IT Services - Enterprise / BFSI,primary,IT Services - Enterprise / BFSI,,18607.85
+INDGN,IT Services - Enterprise / BFSI,secondary,Healthcare Services Platforms,Healthcare services + healthcare tech services,11597.65
+SAGILITY,IT Services - Enterprise / BFSI,primary,IT Services - Enterprise / BFSI,,11467.21
+FSL,IT Services - Enterprise / BFSI,primary,IT Services - Enterprise / BFSI,,10471.25
+ECLERX,IT Services - Enterprise / BFSI,primary,IT Services - Enterprise / BFSI,,10090.57
+IKS,IT Services - Enterprise / BFSI,secondary,Healthcare Services Platforms,Healthcare services + healthcare BPM/digital services,9667.65
+NEWGEN,IT Services - Enterprise / BFSI,primary,IT Services - Enterprise / BFSI,,3850.22
+BBOX,IT Services - Enterprise / BFSI,secondary,India Digital Stack - Connectivity & Infra,Digital infra + enterprise network services,2620.56
+CAPILLARY,IT Services - Enterprise / BFSI,secondary,India Digital Stack - Enterprise Platforms,Enterprise platform + enterprise SaaS implementation cycle,2370.48
+CIGNITITEC,IT Services - Enterprise / BFSI,primary,IT Services - Enterprise / BFSI,,2045.57
+MPSLTD,IT Services - Enterprise / BFSI,secondary,India Digital Stack - Enterprise Platforms,Enterprise platform + outsourced digital workflow services,1012.58
+HEXT,IT Services - Midcap,primary,IT Services - Midcap,,10941.9
+ZENSARTECH,IT Services - Midcap,primary,IT Services - Midcap,,7541.29
+BSOFT,IT Services - Midcap,primary,IT Services - Midcap,,6937.74
+SONATSOFTW,IT Services - Midcap,primary,IT Services - Midcap,,6388.32
+MASTEK,IT Services - Midcap,primary,IT Services - Midcap,,4087.81
+HAPPSTMNDS,IT Services - Midcap,primary,IT Services - Midcap,,3512.44
+INFY,IT Services - Tier 1,primary,IT Services - Tier 1,,569377.69
+TCS,IT Services - Tier 1,primary,IT Services - Tier 1,,318898.4
+HCLTECH,IT Services - Tier 1,primary,IT Services - Tier 1,,180371.72
+TECHM,IT Services - Tier 1,primary,IT Services - Tier 1,,111078.2
+WIPRO,IT Services - Tier 1,primary,IT Services - Tier 1,,67984.33
+LTIM,IT Services - Tier 1,primary,IT Services - Tier 1,,55776.34
+BHARTIARTL,India Digital Stack - Connectivity & Infra,primary,India Digital Stack - Connectivity & Infra,,605209.65
+IDEA,India Digital Stack - Connectivity & Infra,primary,India Digital Stack - Connectivity & Infra,,90074.57
+BHARTIHEXA,India Digital Stack - Connectivity & Infra,primary,India Digital Stack - Connectivity & Infra,,23168.29
+RAILTEL,India Digital Stack - Connectivity & Infra,primary,India Digital Stack - Connectivity & Infra,,3079.58
+STLTECH,India Digital Stack - Connectivity & Infra,primary,India Digital Stack - Connectivity & Infra,,2884.69
+BBOX,India Digital Stack - Connectivity & Infra,primary,India Digital Stack - Connectivity & Infra,,2620.56
+E2E,India Digital Stack - Connectivity & Infra,primary,India Digital Stack - Connectivity & Infra,,2549.81
+PACEDIGITK,India Digital Stack - Connectivity & Infra,primary,India Digital Stack - Connectivity & Infra,,1127.21
+ETERNAL,India Digital Stack - Consumer Internet,primary,India Digital Stack - Consumer Internet,,264177.51
+SWIGGY,India Digital Stack - Consumer Internet,primary,India Digital Stack - Consumer Internet,,85566.0
+MEESHO,India Digital Stack - Consumer Internet,primary,India Digital Stack - Consumer Internet,,65396.24
+NAUKRI,India Digital Stack - Consumer Internet,secondary,India Digital Stack - Enterprise Platforms,Enterprise HR platform + consumer job marketplace,50618.5
+NYKAA,India Digital Stack - Consumer Internet,primary,India Digital Stack - Consumer Internet,,32566.64
+URBANCO,India Digital Stack - Consumer Internet,primary,India Digital Stack - Consumer Internet,,14496.49
+FIRSTCRY,India Digital Stack - Consumer Internet,primary,India Digital Stack - Consumer Internet,,14430.86
+CARTRADE,India Digital Stack - Consumer Internet,secondary,Digital Marketplace & Logistics Platforms,Marketplace model + auto retail demand funnel,12683.98
+PWL,India Digital Stack - Consumer Internet,primary,India Digital Stack - Consumer Internet,,9451.18
+IXIGO,India Digital Stack - Consumer Internet,secondary,Tourism Ecosystem - Discovery & Booking,Travel discovery + consumer booking funnel,9060.1
+JUSTDIAL,India Digital Stack - Consumer Internet,secondary,India Digital Stack - Enterprise Platforms,Enterprise ad platform + consumer local search demand,1468.84
+ANANTRAJ,India Digital Stack - Data Center & Compute,primary,India Digital Stack - Data Center & Compute,,7731.06
+NETWEB,India Digital Stack - Data Center & Compute,primary,India Digital Stack - Data Center & Compute,,5162.33
+TECHNOE,India Digital Stack - Data Center & Compute,primary,India Digital Stack - Data Center & Compute,,4877.77
+E2E,India Digital Stack - Data Center & Compute,secondary,India Digital Stack - Connectivity & Infra,Connectivity infra + cloud/data-center exposure,2549.81
+NAUKRI,India Digital Stack - Enterprise Platforms,primary,India Digital Stack - Enterprise Platforms,,50618.5
+AFFLE,India Digital Stack - Enterprise Platforms,primary,India Digital Stack - Enterprise Platforms,,9804.11
+TBOTEK,India Digital Stack - Enterprise Platforms,secondary,Tourism Ecosystem - Discovery & Booking,Travel discovery + B2B travel distribution platform,8388.27
+NAZARA,India Digital Stack - Enterprise Platforms,primary,India Digital Stack - Enterprise Platforms,,6796.43
+AMAGI,India Digital Stack - Enterprise Platforms,primary,India Digital Stack - Enterprise Platforms,,6755.1
+INDIAMART,India Digital Stack - Enterprise Platforms,primary,India Digital Stack - Enterprise Platforms,,6728.02
+MAPMYINDIA,India Digital Stack - Enterprise Platforms,primary,India Digital Stack - Enterprise Platforms,,3515.39
+CAPILLARY,India Digital Stack - Enterprise Platforms,primary,India Digital Stack - Enterprise Platforms,,2370.48
+JUSTDIAL,India Digital Stack - Enterprise Platforms,primary,India Digital Stack - Enterprise Platforms,,1468.84
+MPSLTD,India Digital Stack - Enterprise Platforms,primary,India Digital Stack - Enterprise Platforms,,1012.58
+SANSERA,Industrial Engineering,primary,Industrial Engineering,,7527.25
+JYOTICNC,Industrial Engineering,primary,Industrial Engineering,,6870.37
+ANUP,Industrial Engineering,primary,Industrial Engineering,,2092.82
+PITTIENG,Industrial Engineering,primary,Industrial Engineering,,1351.46
+INTERARCH,Industrial Engineering,primary,Industrial Engineering,,1337.66
+CUMMINSIND,Industrial Machinery - Capital Goods,primary,Industrial Machinery - Capital Goods,,55939.46
+KIRLPNU,Industrial Machinery - Capital Goods,primary,Industrial Machinery - Capital Goods,,4534.39
+KIRLOSBROS,Industrial Machinery - Capital Goods,primary,Industrial Machinery - Capital Goods,,4234.8
+ELECON,Industrial Machinery - Capital Goods,primary,Industrial Machinery - Capital Goods,,3725.24
+KSB,Industrial Machinery - Capital Goods,primary,Industrial Machinery - Capital Goods,,3723.11
+INGERRAND,Industrial Machinery - Capital Goods,primary,Industrial Machinery - Capital Goods,,2639.15
+ISGEC,Industrial Machinery - Capital Goods,primary,Industrial Machinery - Capital Goods,,2084.44
+AJAXENGG,Industrial Machinery - Capital Goods,primary,Industrial Machinery - Capital Goods,,1186.39
+3MINDIA,Industrial Machinery - Process / Precision,primary,Industrial Machinery - Process / Precision,,9672.19
+AZAD,Industrial Machinery - Process / Precision,primary,Industrial Machinery - Process / Precision,,4202.57
+PRAJIND,Industrial Machinery - Process / Precision,primary,Industrial Machinery - Process / Precision,,3583.47
+GMMPFAUDLR,Industrial Machinery - Process / Precision,primary,Industrial Machinery - Process / Precision,,3277.89
+BHARATFORG,Industrial Products - Large Cap,primary,Industrial Products - Large Cap,,38520.88
+SOLARINDS,Industrial Products - Large Cap,primary,Industrial Products - Large Cap,,32757.57
+PTCIL,Industrial Products - Large Cap,primary,Industrial Products - Large Cap,,10891.91
+TIMKEN,Industrial Products - Large Cap,primary,Industrial Products - Large Cap,,10821.66
+CARBORUNIV,Industrial Products - Mid Cap,primary,Industrial Products - Mid Cap,,9174.65
+GRINDWELL,Industrial Products - Mid Cap,primary,Industrial Products - Mid Cap,,7176.09
+JINDALSAW,Industrial Products - Mid Cap,primary,Industrial Products - Mid Cap,,4131.87
+INOXINDIA,Industrial Products - Small Cap,primary,Industrial Products - Small Cap,,2531.04
+HAPPYFORGE,Industrial Products - Small Cap,primary,Industrial Products - Small Cap,,2154.3
+KENNAMET,Industrial Products - Small Cap,primary,Industrial Products - Small Cap,,1074.13
+LT,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,540993.62
+KPIL,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,12977.43
+NBCC,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,10214.91
+NCC,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,7140.09
+AFCONS,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,6092.64
+ENGINERSIN,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,4717.98
+POWERMECH,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,2735.26
+AHLUCONT,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,2584.6
+KNRCON,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,2135.51
+PATELENG,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,1939.51
+HGINFRA,Infra Buildout - EPC Contractors,primary,Infra Buildout - EPC Contractors,,1179.42
+GMRAIRPORT,Infra Buildout - Logistics Networks,secondary,Tourism Ecosystem - Mobility & Hospitality,Tourism ecosystem + airport infra throughput,33479.73
+DELHIVERY,Infra Buildout - Logistics Networks,secondary,Digital Marketplace & Logistics Platforms,Marketplace model + logistics network density,31652.89
+CONCOR,Infra Buildout - Logistics Networks,primary,Infra Buildout - Logistics Networks,,17288.29
+BLACKBUCK,Infra Buildout - Logistics Networks,secondary,Digital Marketplace & Logistics Platforms,Marketplace model + freight network utilization,7632.28
+AEGISVOPAK,Infra Buildout - Logistics Networks,primary,Infra Buildout - Logistics Networks,,3291.44
+BLUEDART,Infra Buildout - Logistics Networks,primary,Infra Buildout - Logistics Networks,,3264.89
+TCI,Infra Buildout - Logistics Networks,primary,Infra Buildout - Logistics Networks,,2554.69
+GATEWAY,Infra Buildout - Logistics Networks,primary,Infra Buildout - Logistics Networks,,1964.5
+VRLLOG,Infra Buildout - Logistics Networks,primary,Infra Buildout - Logistics Networks,,1880.44
+MAHLOG,Infra Buildout - Logistics Networks,primary,Infra Buildout - Logistics Networks,,1448.42
+GESHIP,Infra Buildout - Marine & Dredging,secondary,Shipping,Marine fleet activity ties to dredging/marine capex cycle.,12008.46
+KMEW,Infra Buildout - Marine & Dredging,primary,Infra Buildout - Marine & Dredging,,2022.05
+ADANIPORTS,Infra Buildout - Ports & Maritime,secondary,Adani Ecosystem,Adani ownership + ports throughput cycle,104752.11
+JSWINFRA,Infra Buildout - Ports & Maritime,primary,Infra Buildout - Ports & Maritime,,8893.6
+GPPL,Infra Buildout - Ports & Maritime,primary,Infra Buildout - Ports & Maritime,,4521.13
+IRCTC,Infra Buildout - Rail Mobility,secondary,Tourism Ecosystem - Discovery & Booking,Travel discovery + rail network operating leverage,18739.82
+TITAGARH,Infra Buildout - Rail Mobility,primary,Infra Buildout - Rail Mobility,,6620.37
+TEXRAIL,Infra Buildout - Rail Mobility,primary,Infra Buildout - Rail Mobility,,2684.7
+IRB,Infra Buildout - Roads & Expressways,primary,Infra Buildout - Roads & Expressways,,17459.04
+PNCINFRA,Infra Buildout - Roads & Expressways,primary,Infra Buildout - Roads & Expressways,,2459.65
+GRINFRA,Infra Buildout - Roads & Expressways,primary,Infra Buildout - Roads & Expressways,,2374.07
+ASHOKA,Infra Buildout - Roads & Expressways,primary,Infra Buildout - Roads & Expressways,,1903.75
+BAJAJFINSV,Insurance,primary,Insurance,,128524.77
+SBILIFE,Insurance,primary,Insurance,,89525.76
+HDFCLIFE,Insurance,primary,Insurance,,78507.02
+MFSL,Insurance,primary,Insurance,,54950.02
+ICICIGI,Insurance,primary,Insurance,,44010.34
+ICICIPRULI,Insurance,primary,Insurance,,25020.89
+LICI,Insurance,primary,Insurance,,18256.81
+CANHLIFE,Insurance,primary,Insurance,,5316.43
+MEDIASSIST,Insurance,secondary,Healthcare Services Platforms,Healthcare services + insurance claims processing linkage,2829.71
+TITAN,Jewellery,secondary,Luxury Retail & Premium Consumption,Premium consumption + jewelry demand cycle,166368.8
+KALYANKJIL,Jewellery,secondary,Luxury Retail & Premium Consumption,Premium consumption + jewelry demand cycle,13902.08
+BLUESTONE,Jewellery,primary,Jewellery,,5565.28
+THANGAMAYL,Jewellery,secondary,Luxury Retail & Premium Consumption,Premium consumption + jewelry demand cycle,3981.28
+IGIL,Jewellery,primary,Jewellery,,3150.22
+SKYGOLD,Jewellery,secondary,Luxury Retail & Premium Consumption,Premium consumption + jewelry demand cycle,2266.85
+SENCO,Jewellery,primary,Jewellery,,1791.25
+PNGJL,Jewellery,primary,Jewellery,,1263.85
+TITAN,Luxury Retail & Premium Consumption,primary,Luxury Retail & Premium Consumption,,166368.8
+LENSKART,Luxury Retail & Premium Consumption,primary,Luxury Retail & Premium Consumption,,65418.16
+PHOENIXLTD,Luxury Retail & Premium Consumption,primary,Luxury Retail & Premium Consumption,,31521.47
+KALYANKJIL,Luxury Retail & Premium Consumption,primary,Luxury Retail & Premium Consumption,,13902.08
+THANGAMAYL,Luxury Retail & Premium Consumption,primary,Luxury Retail & Premium Consumption,,3981.28
+ETHOSLTD,Luxury Retail & Premium Consumption,primary,Luxury Retail & Premium Consumption,,3371.05
+RAYMONDLSL,Luxury Retail & Premium Consumption,primary,Luxury Retail & Premium Consumption,,2663.84
+SKYGOLD,Luxury Retail & Premium Consumption,primary,Luxury Retail & Premium Consumption,,2266.85
+ZEEL,Media & Broadcasting Platforms,primary,Media & Broadcasting Platforms,,7741.97
+PFOCUS,Media & Broadcasting Platforms,primary,Media & Broadcasting Platforms,,6873.8
+AMAGI,Media & Broadcasting Platforms,secondary,India Digital Stack - Enterprise Platforms,Enterprise platform + media tech monetization,6755.1
+SUNTV,Media & Broadcasting Platforms,primary,Media & Broadcasting Platforms,,5478.87
+NAZARA,Media & Music,secondary,India Digital Stack - Enterprise Platforms,Enterprise platform + digital content/gaming monetization,6796.43
+SAREGAMA,Media & Music,primary,Media & Music,,2575.65
+TIPSMUSIC,Media & Music,primary,Media & Music,,2488.35
+POLYMED,Medical Devices,primary,Medical Devices,,5786.14
+SHAILY,Medical Devices,primary,Medical Devices,,4978.74
+KRSNAA,Medical Devices,secondary,Diagnostics & Pathology Chains,Diagnostics/medtech adjacency used as rough medical-tech proxy.,1680.74
+APLAPOLLO,Metals,primary,Metals,,40749.69
+SHYAMMETL,Metals,primary,Metals,,6071.42
+SARDAEN,Metals,primary,Metals,,4629.64
+CREDITACC,Microfinance & Small-ticket Lenders,primary,Microfinance & Small-ticket Lenders,,7162.97
+MASFIN,Microfinance & Small-ticket Lenders,primary,Microfinance & Small-ticket Lenders,,1969.72
+MUTHOOTMF,Microfinance & Small-ticket Lenders,primary,Microfinance & Small-ticket Lenders,,1352.67
+FUSION,Microfinance & Small-ticket Lenders,primary,Microfinance & Small-ticket Lenders,,1333.78
+SPANDANA,Microfinance & Small-ticket Lenders,primary,Microfinance & Small-ticket Lenders,,1034.42
+AIAENG,Mine Supply,primary,Mine Supply,,15425.82
+TEGA,Mine Supply,primary,Mine Supply,,4185.59
+ELECON,Mine Supply,secondary,Industrial Machinery - Capital Goods,Mining conveyor/gearbox capex linkage to mine-supply cycle.,3725.24
+NMDC,Mining,primary,Mining,,27962.24
+ASHAPURMIN,Mining,primary,Mining,,3258.95
+SANDUMA,Mining,primary,Mining,,2780.91
+MOIL,Mining,primary,Mining,,2629.75
+BHARATCOAL,Mining,primary,Mining,,1856.86
+MIDWESTLTD,Mining,primary,Mining,,1094.3
+BAJFINANCE,NBFC - Consumer & Vehicle Finance,primary,NBFC - Consumer & Vehicle Finance,,262132.69
+SHRIRAMFIN,NBFC - Consumer & Vehicle Finance,primary,NBFC - Consumer & Vehicle Finance,,143190.59
+CHOLAFIN,NBFC - Consumer & Vehicle Finance,primary,NBFC - Consumer & Vehicle Finance,,69194.35
+SUNDARMFIN,NBFC - Consumer & Vehicle Finance,primary,NBFC - Consumer & Vehicle Finance,,36872.31
+M&MFIN,NBFC - Consumer & Vehicle Finance,primary,NBFC - Consumer & Vehicle Finance,,24777.22
+LTF,NBFC - Consumer & Vehicle Finance,primary,NBFC - Consumer & Vehicle Finance,,24334.61
+SBICARD,NBFC - Consumer & Vehicle Finance,primary,NBFC - Consumer & Vehicle Finance,,22514.16
+JIOFIN,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,85517.12
+ABCAPITAL,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,27945.65
+PIRAMALFIN,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,21273.38
+TATACAP,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,21196.76
+HDBFS,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,15176.2
+AIIL,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,13461.55
+POONAWALLA,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,11701.99
+FIVESTAR,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,10953.23
+CGCL,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,6762.74
+SBFC,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,4418.4
+NORTHARC,NBFC - Diversified Credit,primary,NBFC - Diversified Credit,,4398.89
+PFC,NBFC - PSU / Project Finance,primary,NBFC - PSU / Project Finance,,55102.96
+RECLTD,NBFC - PSU / Project Finance,primary,NBFC - PSU / Project Finance,,45428.42
+IRFC,NBFC - PSU / Project Finance,primary,NBFC - PSU / Project Finance,,21410.14
+PVRINOX,Niche Retail & Entertainment,primary,Niche Retail & Entertainment,,6937.58
+ETHOSLTD,Niche Retail & Entertainment,secondary,Luxury Retail & Premium Consumption,Premium consumption + specialty retail demand,3371.05
+MANYAVAR,Niche Retail & Entertainment,primary,Niche Retail & Entertainment,,2967.34
+IOC,Oil Marketing & Distribution,primary,Oil Marketing & Distribution,,111792.97
+CASTROLIND,Oil Marketing & Distribution,primary,Oil Marketing & Distribution,,8926.16
+GULFOILLUB,Oil Marketing & Distribution,primary,Oil Marketing & Distribution,,1770.59
+TRENT,Organized Retail - Large Format,primary,Organized Retail - Large Format,,84782.13
+LENSKART,Organized Retail - Large Format,secondary,Luxury Retail & Premium Consumption,Premium consumption + organized retail unit economics,65418.16
+DMART,Organized Retail - Large Format,primary,Organized Retail - Large Format,,60888.86
+MEDPLUS,Organized Retail - Large Format,secondary,Healthcare Services Platforms,Healthcare services + pharmacy retail cycle,5715.59
+SHOPERSTOP,Organized Retail - Large Format,primary,Organized Retail - Large Format,,1374.19
+MEESHO,Organized Retail - Value & Fashion,secondary,India Digital Stack - Consumer Internet,Consumer internet + value retail demand cycle,65396.24
+NYKAA,Organized Retail - Value & Fashion,secondary,India Digital Stack - Consumer Internet,Consumer internet + beauty retail merchandising cycle,32566.64
+VMM,Organized Retail - Value & Fashion,primary,Organized Retail - Value & Fashion,,27014.35
+FIRSTCRY,Organized Retail - Value & Fashion,secondary,India Digital Stack - Consumer Internet,Consumer internet + omni retail inventory cycle,14430.86
+ABLBL,Organized Retail - Value & Fashion,primary,Organized Retail - Value & Fashion,,6846.67
+ABFRL,Organized Retail - Value & Fashion,primary,Organized Retail - Value & Fashion,,4323.4
+V2RETAIL,Organized Retail - Value & Fashion,primary,Organized Retail - Value & Fashion,,3538.75
+AVL,Organized Retail - Value & Fashion,primary,Organized Retail - Value & Fashion,,3406.16
+VMART,Organized Retail - Value & Fashion,primary,Organized Retail - Value & Fashion,,2804.85
+RAYMONDLSL,Organized Retail - Value & Fashion,secondary,Luxury Retail & Premium Consumption,Premium consumption + apparel retail cycle,2663.84
+PAGEIND,Other Apparels & Accessories,primary,Other Apparels & Accessories,,21026.98
+SAFARI,Other Apparels & Accessories,primary,Other Apparels & Accessories,,5500.59
+ARVINDFASN,Other Apparels & Accessories,primary,Other Apparels & Accessories,,4083.9
+VIPIND,Other Apparels & Accessories,primary,Other Apparels & Accessories,,3064.54
+SKFINDUS,Other Industrial Goods,primary,Other Industrial Goods,,6422.97
+VESUVIUS,Other Industrial Goods,primary,Other Industrial Goods,,4466.85
+RHIM,Other Industrial Goods,primary,Other Industrial Goods,,4034.35
+SKFINDIA,Other Industrial Goods,primary,Other Industrial Goods,,3965.98
+ESABINDIA,Other Industrial Goods,primary,Other Industrial Goods,,2250.36
+SBCL,Other Industrial Goods,primary,Other Industrial Goods,,1641.01
+TATACONSUM,Packaged Foods,primary,Packaged Foods,,74301.69
+BRITANNIA,Packaged Foods,primary,Packaged Foods,,69772.96
+CCL,Packaged Foods,primary,Packaged Foods,,6986.54
+ZYDUSWELL,Packaged Foods,primary,Packaged Foods,,4340.27
+BIKAJI,Packaged Foods,primary,Packaged Foods,,4299.68
+BECTORFOOD,Packaged Foods,primary,Packaged Foods,,3486.33
+KRBL,Packaged Foods,primary,Packaged Foods,,3118.23
+ORKLAINDIA,Packaged Foods,primary,Packaged Foods,,2013.91
+VINCOFE,Packaged Foods,primary,Packaged Foods,,1385.96
+JKPAPER,Paper & Paper Products,primary,Paper & Paper Products,,2788.93
+WSTCSTPAPR,Paper & Paper Products,primary,Paper & Paper Products,,1149.95
+TCPLPACK,Paper & Paper Products,primary,Paper & Paper Products,,1054.03
+M&M,Passenger Vehicles,primary,Passenger Vehicles,,347990.32
+MARUTI,Passenger Vehicles,primary,Passenger Vehicles,,191526.28
+TMPV,Passenger Vehicles,primary,Passenger Vehicles,,74029.64
+HYUNDAI,Passenger Vehicles,primary,Passenger Vehicles,,31228.8
+HINDUNILVR,Personal Care,primary,Personal Care,,212515.41
+COLPAL,Personal Care,primary,Personal Care,,28187.91
+PGHH,Personal Care,primary,Personal Care,,11204.55
+EMAMILTD,Personal Care,primary,Personal Care,,9536.83
+GILLETTE,Personal Care,primary,Personal Care,,7159.82
+HONASA,Personal Care,primary,Personal Care,,5782.13
+JYOTHYLAB,Personal Care,primary,Personal Care,,3391.89
+BAJAJCON,Personal Care,primary,Personal Care,,2524.34
+SUNPHARMA,Pharma - Domestic Formulations - Large Cap,primary,Pharma - Domestic Formulations - Large Cap,,174235.04
+CIPLA,Pharma - Domestic Formulations - Large Cap,primary,Pharma - Domestic Formulations - Large Cap,,75741.56
+TORNTPHARM,Pharma - Domestic Formulations - Large Cap,primary,Pharma - Domestic Formulations - Large Cap,,42542.07
+ALKEM,Pharma - Domestic Formulations - Large Cap,primary,Pharma - Domestic Formulations - Large Cap,,33149.55
+MANKIND,Pharma - Domestic Formulations - Large Cap,primary,Pharma - Domestic Formulations - Large Cap,,23956.26
+JBCHEPHARM,Pharma - Domestic Formulations - Mid Cap,primary,Pharma - Domestic Formulations - Mid Cap,,15742.16
+ABBOTINDIA,Pharma - Domestic Formulations - Mid Cap,primary,Pharma - Domestic Formulations - Mid Cap,,14652.6
+AJANTPHARM,Pharma - Domestic Formulations - Mid Cap,primary,Pharma - Domestic Formulations - Mid Cap,,11730.75
+GLAXO,Pharma - Domestic Formulations - Mid Cap,primary,Pharma - Domestic Formulations - Mid Cap,,10184.05
+EMCURE,Pharma - Domestic Formulations - Mid Cap,primary,Pharma - Domestic Formulations - Mid Cap,,6140.78
+CORONA,Pharma - Domestic Formulations - Mid Cap,primary,Pharma - Domestic Formulations - Mid Cap,,2797.74
+ERIS,Pharma - Domestic Formulations - Small Cap,primary,Pharma - Domestic Formulations - Small Cap,,8599.62
+PFIZER,Pharma - Domestic Formulations - Small Cap,primary,Pharma - Domestic Formulations - Small Cap,,7532.58
+PGHL,Pharma - Domestic Formulations - Small Cap,primary,Pharma - Domestic Formulations - Small Cap,,4247.03
+SANOFI,Pharma - Domestic Formulations - Small Cap,primary,Pharma - Domestic Formulations - Small Cap,,3668.87
+ZOTA,Pharma - Domestic Formulations - Small Cap,primary,Pharma - Domestic Formulations - Small Cap,,2107.99
+FDC,Pharma - Domestic Formulations - Small Cap,primary,Pharma - Domestic Formulations - Small Cap,,1866.47
+DRREDDY,Pharma - Export Generics - Large Cap,primary,Pharma - Export Generics - Large Cap,,74610.19
+LUPIN,Pharma - Export Generics - Large Cap,primary,Pharma - Export Generics - Large Cap,,52254.88
+AUROPHARMA,Pharma - Export Generics - Large Cap,primary,Pharma - Export Generics - Large Cap,,33796.56
+BIOCON,Pharma - Export Generics - Large Cap,primary,Pharma - Export Generics - Large Cap,,32735.78
+GLAND,Pharma - Export Generics - Large Cap,secondary,Pharma CDMO - Advanced Platforms,CDMO platform + injectables export cycle,14660.9
+GLENMARK,Pharma - Export Generics - Mid Cap,primary,Pharma - Export Generics - Mid Cap,,30332.64
+ZYDUSLIFE,Pharma - Export Generics - Mid Cap,primary,Pharma - Export Generics - Mid Cap,,22282.98
+WOCKPHARMA,Pharma - Export Generics - Mid Cap,primary,Pharma - Export Generics - Mid Cap,,11434.38
+GRANULES,Pharma - Export Generics - Mid Cap,primary,Pharma - Export Generics - Mid Cap,,8473.61
+NATCOPHARM,Pharma - Export Generics - Mid Cap,primary,Pharma - Export Generics - Mid Cap,,7560.96
+STAR,Pharma - Export Generics - Small Cap,primary,Pharma - Export Generics - Small Cap,,5836.44
+APLLTD,Pharma - Export Generics - Small Cap,primary,Pharma - Export Generics - Small Cap,,4653.59
+MARKSANS,Pharma - Export Generics - Small Cap,primary,Pharma - Export Generics - Small Cap,,4169.26
+CAPLIPOINT,Pharma - Export Generics - Small Cap,primary,Pharma - Export Generics - Small Cap,,3972.17
+IPCALAB,Pharma - Specialty / Emerging,primary,Pharma - Specialty / Emerging,,20594.23
+PPLPHARMA,Pharma - Specialty / Emerging,secondary,Pharma CDMO - Advanced Platforms,CDMO platform + niche portfolio cycle,13396.8
+JUBLPHARMA,Pharma - Specialty / Emerging,primary,Pharma - Specialty / Emerging,,8201.02
+JUBLINGREA,Pharma - Specialty / Emerging,primary,Pharma - Specialty / Emerging,,5558.85
+ASTRAZEN,Pharma - Specialty / Emerging,primary,Pharma - Specialty / Emerging,,5347.35
+SPARC,Pharma - Specialty / Emerging,primary,Pharma - Specialty / Emerging,,1408.35
+DIVISLAB,Pharma API & Intermediates,secondary,Pharma CDMO - Advanced Platforms,CDMO platform + API/intermediates scale economics,77331.51
+LAURUSLABS,Pharma API & Intermediates,secondary,Pharma CDMO - Advanced Platforms,CDMO platform + API/intermediates cycle,37841.02
+NEULANDLAB,Pharma API & Intermediates,primary,Pharma API & Intermediates,,11455.6
+CONCORDBIO,Pharma API & Intermediates,secondary,Pharma CDMO - Advanced Platforms,CDMO platform + API fermentation demand cycle,6861.56
+AARTIPHARM,Pharma API & Intermediates,primary,Pharma API & Intermediates,,3886.43
+SHILPAMED,Pharma API & Intermediates,primary,Pharma API & Intermediates,,3386.59
+ALIVUS,Pharma API & Intermediates,primary,Pharma API & Intermediates,,2945.25
+SUPRIYA,Pharma API & Intermediates,primary,Pharma API & Intermediates,,1722.51
+SUDEEPPHRM,Pharma API & Intermediates,primary,Pharma API & Intermediates,,1641.08
+AARTIDRUGS,Pharma API & Intermediates,primary,Pharma API & Intermediates,,1565.03
+BLUEJET,Pharma API & Intermediates,primary,Pharma API & Intermediates,,1461.85
+ORCHPHARMA,Pharma API & Intermediates,primary,Pharma API & Intermediates,,1072.59
+DIVISLAB,Pharma CDMO - Advanced Platforms,primary,Pharma CDMO - Advanced Platforms,,77331.51
+LAURUSLABS,Pharma CDMO - Advanced Platforms,primary,Pharma CDMO - Advanced Platforms,,37841.02
+GLAND,Pharma CDMO - Advanced Platforms,primary,Pharma CDMO - Advanced Platforms,,14660.9
+PPLPHARMA,Pharma CDMO - Advanced Platforms,primary,Pharma CDMO - Advanced Platforms,,13396.8
+ANTHEM,Pharma CDMO - Advanced Platforms,primary,Pharma CDMO - Advanced Platforms,,8493.59
+CONCORDBIO,Pharma CDMO - Advanced Platforms,primary,Pharma CDMO - Advanced Platforms,,6861.56
+RUBICON,Pharma CDMO - Advanced Platforms,primary,Pharma CDMO - Advanced Platforms,,4506.02
+SAILIFE,Pharma CDMO - Core Contract Manufacturing,primary,Pharma CDMO - Core Contract Manufacturing,,11517.46
+ACUTAAS,Pharma CDMO - Core Contract Manufacturing,primary,Pharma CDMO - Core Contract Manufacturing,,10533.65
+ONESOURCE,Pharma CDMO - Core Contract Manufacturing,primary,Pharma CDMO - Core Contract Manufacturing,,9615.64
+SYNGENE,Pharma CDMO - Core Contract Manufacturing,primary,Pharma CDMO - Core Contract Manufacturing,,9023.5
+ANTHEM,Pharma CDMO - Core Contract Manufacturing,secondary,Pharma CDMO - Advanced Platforms,Advanced CDMO + core contract manufacturing overlap,8493.59
+COHANCE,Pharma CDMO - Core Contract Manufacturing,primary,Pharma CDMO - Core Contract Manufacturing,,6219.96
+RUBICON,Pharma CDMO - Core Contract Manufacturing,secondary,Pharma CDMO - Advanced Platforms,Advanced CDMO + core contract manufacturing overlap,4506.02
+SENORES,Pharma CDMO - Core Contract Manufacturing,primary,Pharma CDMO - Core Contract Manufacturing,,1971.12
+AKUMS,Pharma CDMO - Core Contract Manufacturing,primary,Pharma CDMO - Core Contract Manufacturing,,1714.34
+ASTRAL,Plastic Products,primary,Plastic Products,,18166.63
+FINPIPE,Plastic Products,primary,Plastic Products,,5196.22
+KINGFA,Plastic Products,primary,Plastic Products,,1942.52
+XPROINDIA,Plastic Products,primary,Plastic Products,,1320.67
+PRINCEPIPE,Plastic Products,primary,Plastic Products,,1036.05
+SUPREMEIND,Plastics,primary,Plastics,,22778.96
+TIMETECHNO,Plastics,primary,Plastics,,4658.98
+STYRENIX,Plastics,primary,Plastics,,1811.48
+GVT&D,Power Equip - Grid & T&D,primary,Power Equip - Grid & T&D,,40461.53
+SIEMENS,Power Equip - Grid & T&D,primary,Power Equip - Grid & T&D,,27610.91
+ENRIN,Power Equip - Grid & T&D,secondary,Renewables & Energy Transition,Energy transition + grid equipment capex cycle,22075.08
+KEC,Power Equip - Grid & T&D,primary,Power Equip - Grid & T&D,,8860.63
+TDPOWERSYS,Power Equip - Grid & T&D,primary,Power Equip - Grid & T&D,,8341.19
+VOLTAMP,Power Equip - Grid & T&D,primary,Power Equip - Grid & T&D,,5215.97
+TECHNOE,Power Equip - Grid & T&D,secondary,India Digital Stack - Data Center & Compute,Data center thesis + power infra EPC exposure,4877.77
+SCHNEIDER,Power Equip - Grid & T&D,primary,Power Equip - Grid & T&D,,4141.21
+TARIL,Power Equip - Grid & T&D,primary,Power Equip - Grid & T&D,,2524.69
+TRANSRAILL,Power Equip - Grid & T&D,primary,Power Equip - Grid & T&D,,1930.93
+SKIPPER,Power Equip - Grid & T&D,primary,Power Equip - Grid & T&D,,1370.59
+QPOWER,Power Equip - Grid & T&D,secondary,Renewables & Energy Transition,Energy transition + electrical equipment order cycle,1349.5
+BHEL,Power Equip - Turbomachinery / Thermal,primary,Power Equip - Turbomachinery / Thermal,,33702.74
+THERMAX,Power Equip - Turbomachinery / Thermal,primary,Power Equip - Turbomachinery / Thermal,,13037.8
+KIRLOSENG,Power Equip - Turbomachinery / Thermal,primary,Power Equip - Turbomachinery / Thermal,,10049.02
+TRITURBINE,Power Equip - Turbomachinery / Thermal,primary,Power Equip - Turbomachinery / Thermal,,7053.42
+CGPOWER,Power Equipment - Core OEMs,primary,Power Equipment - Core OEMs,,40157.78
+ABB,Power Equipment - Core OEMs,primary,Power Equipment - Core OEMs,,29543.02
+POWERINDIA,Power Equipment - Core OEMs,primary,Power Equipment - Core OEMs,,24117.74
+ADANIPOWER,Power Utilities - Generation & Renewables,secondary,Adani Ecosystem,Adani ownership + power generation cycle,65437.02
+TATAPOWER,Power Utilities - Generation & Renewables,primary,Power Utilities - Generation & Renewables,,62206.35
+JSWENERGY,Power Utilities - Generation & Renewables,primary,Power Utilities - Generation & Renewables,,24848.88
+NTPCGREEN,Power Utilities - Generation & Renewables,secondary,Renewables & Energy Transition,Energy transition + renewable utility generation cycle,7983.26
+POWERGRID,Power Utilities - Regulated / Transmission,primary,Power Utilities - Regulated / Transmission,,116061.26
+TORNTPOWER,Power Utilities - Regulated / Transmission,primary,Power Utilities - Regulated / Transmission,,34207.41
+ADANIENSOL,Power Utilities - Regulated / Transmission,secondary,Adani Ecosystem,Adani ownership + power transmission utility cycle,31012.2
+NHPC,Power Utilities - Regulated / Transmission,primary,Power Utilities - Regulated / Transmission,,25617.72
+NLCINDIA,Power Utilities - Regulated / Transmission,primary,Power Utilities - Regulated / Transmission,,9976.59
+CESC,Power Utilities - Regulated / Transmission,primary,Power Utilities - Regulated / Transmission,,9521.29
+TATAPOWER,Power Utilities - Trading / Mixed,secondary,Power Utilities - Generation & Renewables,Integrated utility profile includes merchant/trading exposure.,62206.35
+JSWENERGY,Power Utilities - Trading / Mixed,secondary,Power Utilities - Generation & Renewables,Integrated power platform with mixed merchant dynamics.,24848.88
+PTC,Power Utilities - Trading / Mixed,primary,Power Utilities - Trading / Mixed,,4274.23
+LINDEINDIA,Process Inputs & Industrial Chemicals,primary,Process Inputs & Industrial Chemicals,,12786.58
+SPLPETRO,Process Inputs & Industrial Chemicals,primary,Process Inputs & Industrial Chemicals,,3836.16
+RAIN,Process Inputs & Industrial Chemicals,primary,Process Inputs & Industrial Chemicals,,3064.8
+ADVENZYMES,Process Inputs & Industrial Chemicals,primary,Process Inputs & Industrial Chemicals,,1890.3
+FOSECOIND,Process Inputs & Industrial Chemicals,primary,Process Inputs & Industrial Chemicals,,1221.11
+JUBLFOOD,Quick Service Restaurants,primary,Quick Service Restaurants,,19584.0
+DEVYANI,Quick Service Restaurants,primary,Quick Service Restaurants,,5537.09
+SAPPHIRE,Quick Service Restaurants,primary,Quick Service Restaurants,,4533.34
+WESTLIFE,Quick Service Restaurants,primary,Quick Service Restaurants,,3355.61
+RBA,Quick Service Restaurants,primary,Quick Service Restaurants,,3281.18
+TRAVELFOOD,Quick Service Restaurants,secondary,Tourism Ecosystem - Mobility & Hospitality,Tourism ecosystem + airport F&B throughput,1938.49
+HINDCOPPER,Rare Earth,secondary,Base Metals & Mining,Critical minerals basket proxy alongside niche mineral names.,22483.87
+GMDCLTD,Rare Earth,primary,Rare Earth,,4778.38
+MOIL,Rare Earth,secondary,Mining,Critical mineral mining proxy for strategic-minerals bucket.,2629.75
+PHOENIXLTD,Real Estate - Commercial / Leasing,secondary,Luxury Retail & Premium Consumption,Premium consumption + mall leasing/footfall cycle,31521.47
+ANANTRAJ,Real Estate - Commercial / Leasing,secondary,India Digital Stack - Data Center & Compute,Data center thesis + land/lease economics,7731.06
+SWANCORP,Real Estate - Commercial / Leasing,primary,Real Estate - Commercial / Leasing,,6077.86
+WEWORK,Real Estate - Commercial / Leasing,secondary,Flexible Workspaces & Office Platforms,Workspace model + office absorption cycle,3837.63
+MAHLIFE,Real Estate - Commercial / Leasing,primary,Real Estate - Commercial / Leasing,,3729.26
+MAXESTATES,Real Estate - Commercial / Leasing,primary,Real Estate - Commercial / Leasing,,3449.03
+NESCO,Real Estate - Commercial / Leasing,primary,Real Estate - Commercial / Leasing,,2522.78
+AWFIS,Real Estate - Commercial / Leasing,secondary,Flexible Workspaces & Office Platforms,Workspace model + office absorption cycle,2304.09
+SMARTWORKS,Real Estate - Commercial / Leasing,secondary,Flexible Workspaces & Office Platforms,Workspace model + office absorption cycle,2219.72
+INDIQUBE,Real Estate - Commercial / Leasing,secondary,Flexible Workspaces & Office Platforms,Workspace model + office absorption cycle,1489.99
+DLF,Real Estate - Residential Developers - Large Cap,primary,Real Estate - Residential Developers - Large Cap,,40805.75
+LODHA,Real Estate - Residential Developers - Large Cap,primary,Real Estate - Residential Developers - Large Cap,,27352.79
+GODREJPROP,Real Estate - Residential Developers - Large Cap,primary,Real Estate - Residential Developers - Large Cap,,25108.83
+PRESTIGE,Real Estate - Residential Developers - Large Cap,primary,Real Estate - Residential Developers - Large Cap,,24583.58
+OBEROIRLTY,Real Estate - Residential Developers - Mid Cap,primary,Real Estate - Residential Developers - Mid Cap,,17511.4
+BRIGADE,Real Estate - Residential Developers - Mid Cap,primary,Real Estate - Residential Developers - Mid Cap,,10846.42
+SOBHA,Real Estate - Residential Developers - Mid Cap,primary,Real Estate - Residential Developers - Mid Cap,,7310.2
+RAYMONDREL,Real Estate - Residential Developers - Mid Cap,primary,Real Estate - Residential Developers - Mid Cap,,1713.62
+TARC,Real Estate - Residential Developers - Mid Cap,primary,Real Estate - Residential Developers - Mid Cap,,1572.89
+MARATHON,Real Estate - Residential Developers - Mid Cap,primary,Real Estate - Residential Developers - Mid Cap,,1556.75
+LOTUSDEV,Real Estate - Residential Developers - Mid Cap,primary,Real Estate - Residential Developers - Mid Cap,,1327.76
+ABREL,Real Estate - Residential Developers - Small Cap,primary,Real Estate - Residential Developers - Small Cap,,7038.75
+SIGNATURE,Real Estate - Residential Developers - Small Cap,primary,Real Estate - Residential Developers - Small Cap,,3846.39
+ARVSMART,Real Estate - Residential Developers - Small Cap,primary,Real Estate - Residential Developers - Small Cap,,1231.04
+GRAVITA,Recyclers,primary,Recyclers,,5225.74
+JAINREC,Recyclers,primary,Recyclers,,3746.21
+POCL,Recyclers,primary,Recyclers,,2209.09
+RELIANCE,Refineries/Petro-Products,primary,Refineries/Petro-Products,,943361.16
+BPCL,Refineries/Petro-Products,primary,Refineries/Petro-Products,,74366.87
+HINDPETRO,Refineries/Petro-Products,primary,Refineries/Petro-Products,,40995.92
+CHENNPETRO,Refineries/Petro-Products,primary,Refineries/Petro-Products,,4219.64
+MRPL,Refineries/Petro-Products,primary,Refineries/Petro-Products,,3537.19
+SUZLON,Renewables & Energy Transition,primary,Renewables & Energy Transition,,57237.59
+ADANIGREEN,Renewables & Energy Transition,secondary,Adani Ecosystem,Adani ownership + renewable generation cycle,52722.59
+ENRIN,Renewables & Energy Transition,primary,Renewables & Energy Transition,,22075.08
+NTPCGREEN,Renewables & Energy Transition,primary,Renewables & Energy Transition,,7983.26
+EMMVEE,Renewables & Energy Transition,primary,Renewables & Energy Transition,,2650.89
+ACMESOLAR,Renewables & Energy Transition,primary,Renewables & Energy Transition,,2283.86
+QPOWER,Renewables & Energy Transition,primary,Renewables & Energy Transition,,1349.5
+SAATVIKGL,Renewables & Energy Transition,primary,Renewables & Energy Transition,,1198.88
+WAAREEENER,Renewables - Solar,primary,Renewables - Solar,,28694.11
+PREMIERENE,Renewables - Solar,primary,Renewables - Solar,,11758.73
+VIKRAMSOLR,Renewables - Solar,primary,Renewables - Solar,,2730.77
+EMMVEE,Renewables - Solar,secondary,Renewables & Energy Transition,Energy transition + solar module manufacturing cycle,2650.89
+ACMESOLAR,Renewables - Solar,secondary,Renewables & Energy Transition,Energy transition + utility solar execution cycle,2283.86
+SAATVIKGL,Renewables - Solar,secondary,Renewables & Energy Transition,Energy transition + solar module manufacturing cycle,1198.88
+SUZLON,Renewables - Wind,secondary,Renewables & Energy Transition,Energy transition + wind turbine order cycle,57237.59
+INOXWIND,Renewables - Wind,primary,Renewables - Wind,,10410.08
+INOXGREEN,Renewables - Wind,primary,Renewables - Wind,,3084.86
+GESHIP,Shipping,primary,Shipping,,12008.46
+JSWINFRA,Shipping,secondary,Infra Buildout - Ports & Maritime,Port operations are highly correlated with shipping throughput.,8893.6
+GPPL,Shipping,secondary,Infra Buildout - Ports & Maritime,Ports and coastal cargo throughput links to shipping cycle.,4521.13
+SRF,Specialty Chem - Fluoro & Refrigerants,primary,Specialty Chem - Fluoro & Refrigerants,,41546.85
+NAVINFLUOR,Specialty Chem - Fluoro & Refrigerants,primary,Specialty Chem - Fluoro & Refrigerants,,22779.81
+FLUOROCHEM,Specialty Chem - Fluoro & Refrigerants,primary,Specialty Chem - Fluoro & Refrigerants,,12913.47
+VINATIORGA,Specialty Chem - Fluoro & Refrigerants,primary,Specialty Chem - Fluoro & Refrigerants,,4068.76
+PIIND,Specialty Chem - Intermediates & Agro,primary,Specialty Chem - Intermediates & Agro,,26117.79
+ATUL,Specialty Chem - Intermediates & Agro,primary,Specialty Chem - Intermediates & Agro,,10047.98
+AARTIIND,Specialty Chem - Intermediates & Agro,primary,Specialty Chem - Intermediates & Agro,,7807.8
+DCMSHRIRAM,Specialty Chem - Intermediates & Agro,primary,Specialty Chem - Intermediates & Agro,,6137.86
+AETHER,Specialty Chem - Intermediates & Agro,primary,Specialty Chem - Intermediates & Agro,,3324.72
+EPIGRAL,Specialty Chem - Intermediates & Agro,primary,Specialty Chem - Intermediates & Agro,,1402.67
+VISHNU,Specialty Chem - Intermediates & Agro,primary,Specialty Chem - Intermediates & Agro,,1089.42
+PIDILITIND,Specialty Chem - Materials & Formulations,primary,Specialty Chem - Materials & Formulations,,44694.35
+SUDARSCHEM,Specialty Chem - Materials & Formulations,primary,Specialty Chem - Materials & Formulations,,6500.5
+CLEAN,Specialty Chem - Materials & Formulations,primary,Specialty Chem - Materials & Formulations,,4494.57
+PRIVISCL,Specialty Chem - Materials & Formulations,primary,Specialty Chem - Materials & Formulations,,4327.8
+BASF,Specialty Chem - Materials & Formulations,primary,Specialty Chem - Materials & Formulations,,4210.09
+FINEORG,Specialty Chem - Materials & Formulations,primary,Specialty Chem - Materials & Formulations,,3258.66
+GALAXYSURF,Specialty Chem - Materials & Formulations,primary,Specialty Chem - Materials & Formulations,,1875.78
+CHEMPLASTS,Specialty Chem - Materials & Formulations,primary,Specialty Chem - Materials & Formulations,,1851.36
+NEOGEN,Specialty Chem - Materials & Formulations,primary,Specialty Chem - Materials & Formulations,,1554.84
+DOMS,Stationery & Writing Instruments,primary,Stationery & Writing Instruments,,4273.83
+JKPAPER,Stationery & Writing Instruments,secondary,Paper & Paper Products,Paper substrate demand is upstream-linked to stationery cycle.,2788.93
+JSWSTEEL,Steel,primary,Steel,,162353.64
+TATASTEEL,Steel,primary,Steel,,161051.26
+JINDALSTEL,Steel,primary,Steel,,43247.44
+SAIL,Steel,primary,Steel,,21838.89
+WELCORP,Steel - Pipes & Tubes,primary,Steel - Pipes & Tubes,,9667.15
+RATNAMANI,Steel - Pipes & Tubes,primary,Steel - Pipes & Tubes,,6257.58
+SURYAROSNI,Steel - Pipes & Tubes,primary,Steel - Pipes & Tubes,,1995.31
+PENIND,Steel - Pipes & Tubes,primary,Steel - Pipes & Tubes,,1391.03
+SAMBHV,Steel - Pipes & Tubes,primary,Steel - Pipes & Tubes,,1171.45
+VENUSPIPES,Steel - Pipes & Tubes,primary,Steel - Pipes & Tubes,,1100.95
+GPIL,Steel - Primary / Long Products,primary,Steel - Primary / Long Products,,6077.53
+NSLNISP,Steel - Primary / Long Products,primary,Steel - Primary / Long Products,,4868.98
+GALLANTT,Steel - Primary / Long Products,primary,Steel - Primary / Long Products,,3787.5
+KIRLFER,Steel - Primary / Long Products,primary,Steel - Primary / Long Products,,3631.25
+IMFA,Steel - Primary / Long Products,primary,Steel - Primary / Long Products,,2598.6
+TIIL,Steel - Primary / Long Products,primary,Steel - Primary / Long Products,,1163.46
+KSL,Steel - Primary / Long Products,primary,Steel - Primary / Long Products,,1096.23
+JSL,Steel - Stainless / Specialty,primary,Steel - Stainless / Specialty,,26295.83
+MAHSEAMLES,Steel - Stainless / Specialty,primary,Steel - Stainless / Specialty,,2105.75
+MIDHANI,Steel - Stainless / Specialty,primary,Steel - Stainless / Specialty,,1827.78
+EIDPARRY,Sugar & Bioenergy,primary,Sugar & Bioenergy,,9632.29
+BALRAMCHIN,Sugar & Bioenergy,primary,Sugar & Bioenergy,,4855.61
+TRIVENI,Sugar & Bioenergy,primary,Sugar & Bioenergy,,3213.77
+BHARTIARTL,Telecom Operators & Tower Infra,secondary,India Digital Stack - Connectivity & Infra,Digital stack + telecom operator coverage,605209.65
+IDEA,Telecom Operators & Tower Infra,secondary,India Digital Stack - Connectivity & Infra,Digital stack + telecom operator coverage,90074.57
+INDUSTOWER,Telecom Operators & Tower Infra,primary,Telecom Operators & Tower Infra,,57405.99
+BHARTIHEXA,Telecom Operators & Tower Infra,secondary,India Digital Stack - Connectivity & Infra,Digital stack + telecom operator coverage,23168.29
+TATACOMM,Telecom Operators & Tower Infra,primary,Telecom Operators & Tower Infra,,18442.31
+RAILTEL,Telecom Operators & Tower Infra,secondary,India Digital Stack - Connectivity & Infra,Digital stack + telecom infra operator coverage,3079.58
+KPRMILL,Textiles,primary,Textiles,,9653.85
+ARVIND,Textiles,primary,Textiles,,4945.78
+VTL,Textiles,primary,Textiles,,4447.92
+GOKEX,Textiles,primary,Textiles,,3654.56
+GARFIBRES,Textiles,primary,Textiles,,3041.25
+PGIL,Textiles,primary,Textiles,,2782.01
+ICIL,Textiles,primary,Textiles,,1921.35
+NTPC,Thermal Power,primary,Thermal Power,,168827.02
+COALINDIA,Thermal Power,primary,Thermal Power,,100114.17
+TORNTPOWER,Thermal Power,secondary,Power Utilities - Regulated / Transmission,Conventional thermal mix provides rough fit for thermal basket.,34207.41
+ITC,Tobacco & Nicotine,primary,Tobacco & Nicotine,,403565.79
+GODFRYPHLP,Tobacco & Nicotine,primary,Tobacco & Nicotine,,8705.01
+VSTIND,Tobacco & Nicotine,primary,Tobacco & Nicotine,,2704.54
+IRCTC,Tourism Ecosystem - Discovery & Booking,primary,Tourism Ecosystem - Discovery & Booking,,18739.82
+IXIGO,Tourism Ecosystem - Discovery & Booking,primary,Tourism Ecosystem - Discovery & Booking,,9060.1
+TBOTEK,Tourism Ecosystem - Discovery & Booking,primary,Tourism Ecosystem - Discovery & Booking,,8388.27
+THOMASCOOK,Tourism Ecosystem - Discovery & Booking,primary,Tourism Ecosystem - Discovery & Booking,,2084.86
+INDIGO,Tourism Ecosystem - Mobility & Hospitality,primary,Tourism Ecosystem - Mobility & Hospitality,,103778.91
+GMRAIRPORT,Tourism Ecosystem - Mobility & Hospitality,primary,Tourism Ecosystem - Mobility & Hospitality,,33479.73
+ITCHOTELS,Tourism Ecosystem - Mobility & Hospitality,primary,Tourism Ecosystem - Mobility & Hospitality,,22655.5
+THELEELA,Tourism Ecosystem - Mobility & Hospitality,primary,Tourism Ecosystem - Mobility & Hospitality,,3386.54
+SPICEJET,Tourism Ecosystem - Mobility & Hospitality,primary,Tourism Ecosystem - Mobility & Hospitality,,2394.89
+THOMASCOOK,Tourism Ecosystem - Mobility & Hospitality,secondary,Tourism Ecosystem - Discovery & Booking,Travel booking + packaged travel operations,2084.86
+TRAVELFOOD,Tourism Ecosystem - Mobility & Hospitality,primary,Tourism Ecosystem - Mobility & Hospitality,,1938.49
+JUNIPER,Tourism Ecosystem - Mobility & Hospitality,primary,Tourism Ecosystem - Mobility & Hospitality,,1134.28
+MRF,Tyres & Rubber,primary,Tyres & Rubber,,40521.79
+APOLLOTYRE,Tyres & Rubber,primary,Tyres & Rubber,,19701.45
+BALKRISIND,Tyres & Rubber,primary,Tyres & Rubber,,18598.95
+CEATLTD,Tyres & Rubber,primary,Tyres & Rubber,,8026.85
+JKTYRE,Tyres & Rubber,primary,Tyres & Rubber,,7239.97
+GAIL,Utilities (non-Power),primary,Utilities (non-Power),,52954.83
+IGL,Utilities (non-Power),primary,Utilities (non-Power),,13703.62
+GUJGASLTD,Utilities (non-Power),primary,Utilities (non-Power),,11442.14
+GSPL,Utilities (non-Power),primary,Utilities (non-Power),,10725.86
+MGL,Utilities (non-Power),primary,Utilities (non-Power),,7017.56
+WABAG,Water & Environmental Utilities,primary,Water & Environmental Utilities,,5431.1
+KIRLOSBROS,Water & Environmental Utilities,secondary,Industrial Machinery - Capital Goods,Pump/process equipment is core to water infra projects.,4234.8
+IONEXCHANG,Water & Environmental Utilities,primary,Water & Environmental Utilities,,3863.37
+KSB,Water & Environmental Utilities,secondary,Industrial Machinery - Capital Goods,Water-pump and fluid handling exposure aligns with water utilities.,3723.11
+NIITMTS,Workforce & Outsourced Services,primary,Workforce & Outsourced Services,,3575.13
+TEAMLEASE,Workforce & Outsourced Services,primary,Workforce & Outsourced Services,,1598.3
+SIS,Workforce & Outsourced Services,primary,Workforce & Outsourced Services,,1330.9

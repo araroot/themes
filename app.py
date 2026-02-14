@@ -54,6 +54,13 @@ def load_data(path: str):
     return pf, th
 
 
+@st.cache_data
+def load_data_codex(path: str):
+    pf = pd.read_excel(path, sheet_name="PF_Ranks")
+    th_codex = pd.read_excel(path, sheet_name="tpark_codex")
+    return pf, th_codex
+
+
 def build_theme_map(th: pd.DataFrame) -> pd.DataFrame:
     th = th.rename(columns={"Symbol / Rank": "Symbol"})
     th["Symbol"] = th["Symbol"].astype(str).str.strip()
@@ -71,6 +78,15 @@ def build_theme_map(th: pd.DataFrame) -> pd.DataFrame:
         if sym and current_theme and sym.lower() != "nan":
             rows.append((sym, current_theme))
     return pd.DataFrame(rows, columns=["Symbol", "Theme"])
+
+
+def build_theme_map_codex(th_codex: pd.DataFrame) -> pd.DataFrame:
+    """Build theme map from tpark_codex format (Symbol, Theme columns directly)"""
+    df = th_codex[["Symbol", "Theme"]].copy()
+    df = df[df["Symbol"].notna() & df["Theme"].notna()]
+    df["Symbol"] = df["Symbol"].astype(str).str.strip()
+    df["Theme"] = df["Theme"].astype(str).str.strip()
+    return df
 
 
 def get_latest_prev_dates(pf: pd.DataFrame, th: pd.DataFrame):
@@ -344,8 +360,20 @@ def main():
     if show_non_portfolio and mode == "Portfolio themes":
         selected = all_themes
 
+    # Load codex data
+    try:
+        _, th_codex = load_data_codex(data_path)
+        theme_map_codex = build_theme_map_codex(th_codex)
+        has_codex = True
+    except Exception as e:
+        print(f"Could not load codex data: {e}")
+        has_codex = False
+
     # Create tabs
-    tab1, tab2, tab3 = st.tabs(["📈 Ranks", "🏦 MF Moves", "🔀 Combined"])
+    if has_codex:
+        tab1, tab2, tab3, tab4 = st.tabs(["📈 Ranks", "🏦 MF Moves", "🔀 Combined", "🎯 Combined (Codex)"])
+    else:
+        tab1, tab2, tab3 = st.tabs(["📈 Ranks", "🏦 MF Moves", "🔀 Combined"])
 
     # TAB 1: RANKS
     with tab1:
@@ -411,6 +439,66 @@ def main():
                 st.warning("No MF data available for combined view")
         else:
             st.warning("MF data not available for combined view")
+
+    # TAB 4: COMBINED (CODEX)
+    if has_codex:
+        with tab4:
+            if mf_df is not None:
+                latest_bb, prev_bb = get_latest_prev_bb_cols(mf_df)
+                if latest_bb:
+                    st.subheader("Combined View (Codex): Ranks + MF Moves")
+
+                    # Get codex latest median and selected themes
+                    latest_codex, prev_codex = get_latest_prev_dates(pf, th_codex)
+                    latest_median_codex = theme_medians(th_codex, latest_codex).sort_values()
+                    all_themes_codex = latest_median_codex.index.tolist()
+                    pf_themes_codex = portfolio_themes(pf, theme_map_codex)
+
+                    # Use same selection mode
+                    if mode == "Portfolio themes":
+                        selected_codex = pf_themes_codex
+                    elif mode == "All themes":
+                        selected_codex = all_themes_codex
+                    else:
+                        selected_codex = [t for t in selected if t in all_themes_codex]
+
+                    # Sort by median rank
+                    selected_series_codex = pd.Series(selected_codex).drop_duplicates()
+                    sort_key_codex = latest_median_codex.reindex(selected_series_codex).astype(float)
+                    selected_codex = (
+                        pd.DataFrame({"Theme": selected_series_codex, "Median": sort_key_codex.values})
+                        .sort_values(by="Median", ascending=True, na_position="last")
+                        ["Theme"]
+                        .tolist()
+                    )
+
+                    # Build tables using codex
+                    rows_codex = build_theme_table(
+                        th_codex,
+                        latest_codex,
+                        prev_codex,
+                        selected_codex,
+                        pf_symbols,
+                        latest_median_codex,
+                        show_non_portfolio,
+                    )
+
+                    mf_rows_codex = build_mf_theme_table(
+                        mf_df,
+                        latest_bb,
+                        prev_bb,
+                        selected_codex,
+                        theme_map_codex,
+                        pf_symbols
+                    )
+
+                    combined_rows_codex = build_combined_theme_table(rows_codex, mf_rows_codex, selected_codex)
+                    combined_html_codex = render_combined_table(combined_rows_codex, latest_date_str=f"{latest_codex:%Y-%m-%d}")
+                    st.markdown(combined_html_codex, unsafe_allow_html=True)
+                else:
+                    st.warning("No MF data available for codex combined view")
+            else:
+                st.warning("MF data not available for codex combined view")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,774 @@
+theme_id,theme_name,symbol,role,outlier_score,corr_with_theme_moves,med_abs_resid,rank_volatility,median_rank_norm,obs_months
+IND::Other Financial Services,Other Financial Services - Cluster s,NUVAMA,A,-1.0265,0.4013,0.1195,0.0991,0.2629,23
+IND::Other Financial Services,Other Financial Services - Cluster s,EDELWEISS,A,-0.9483,0.4744,0.0951,0.2063,0.4108,38
+IND::Other Financial Services,Other Financial Services - Cluster s,CARERATING,A,-0.8512,0.4921,0.115,0.196,0.3713,50
+IND::Other Financial Services,Other Financial Services - Cluster s,ICRA,Core,-0.8102,0.446,0.124,0.16,0.4638,50
+IND::Other Financial Services,Other Financial Services - Cluster s,PRUDENT,Core,-0.3941,0.3624,0.1323,0.1811,0.3679,50
+IND::Other Financial Services,Other Financial Services - Cluster s,CRISIL,Core,0.2362,0.3343,0.16,0.2386,0.3879,50
+IND::Other Financial Services,Other Financial Services - Cluster s,360ONE,Core,0.2481,0.0061,0.1,0.1749,0.3073,50
+IND::Other Financial Services,Other Financial Services - Cluster s,MOTILALOFS,Core,0.3183,0.2649,0.1696,0.1965,0.2122,50
+IND::Other Financial Services,Other Financial Services - Cluster s,RELIGARE,Core,0.3805,0.148,0.1594,0.1632,0.4822,50
+IND::Other Financial Services,Other Financial Services - Cluster s,KFINTECH,Core,0.407,0.2483,0.1545,0.2358,0.2434,50
+IND::Other Financial Services,Other Financial Services - Cluster s,CMSINFO,Core,0.646,0.2881,0.1858,0.2444,0.447,50
+IND::Other Financial Services,Other Financial Services - Cluster s,IIFL,B,0.711,0.377,0.1849,0.3103,0.4645,50
+IND::Other Financial Services,Other Financial Services - Cluster s,ANANDRATHI,B,1.3355,0.2579,0.2686,0.2017,0.1117,50
+IND::Other Financial Services,Other Financial Services - Cluster s,BELRISE,B,1.3868,,0.38,0.0308,0.0108,4
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,SIEMENS,A,-1.3232,0.5519,0.0757,0.2457,0.4825,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,CGPOWER,A,-1.0809,0.4476,0.1049,0.1585,0.2868,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,SCHNEIDER,A,-1.0477,0.4068,0.0944,0.1968,0.3362,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,KEC,Core,-0.7189,0.3367,0.105,0.2251,0.498,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,ABB,Core,-0.355,0.4657,0.1254,0.2966,0.401,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,TRITURBINE,Core,-0.3499,0.5196,0.1384,0.2645,0.4404,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,BAJEL,Core,-0.3177,0.5334,0.161,0.1852,0.7314,23
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,BANSALWIRE,Core,-0.2127,0.5998,0.167,0.2162,0.7768,20
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,THERMAX,Core,0.0464,0.3215,0.1393,0.3058,0.5193,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,VOLTAMP,Core,0.0679,0.2634,0.1348,0.3092,0.3585,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,TDPOWERSYS,Core,0.1286,0.0171,0.1606,0.1298,0.1184,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,POWERINDIA,Core,0.1584,0.2904,0.1859,0.1345,0.1557,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,KIRLOSENG,Core,0.4596,0.2022,0.1604,0.2974,0.1338,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,SUZLON,B,0.8097,-0.0436,0.1691,0.2751,0.2641,48
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,BHEL,B,1.0809,0.0665,0.203,0.2562,0.182,50
+IND::Heavy Electrical Equipment,Heavy Electrical Equipment - Cluster t,AVALON,B,4.8437,-0.0456,0.4483,0.3203,0.4251,43
+IND::Holding Companies,Holding Companies - Cluster s,CHOLAHLDNG,A,-0.8578,0.424,0.0707,0.1776,0.2729,50
+IND::Holding Companies,Holding Companies - Cluster s,BAJAJHLDNG,A,-0.5374,0.3672,0.0795,0.199,0.3323,50
+IND::Holding Companies,Holding Companies - Cluster s,BAJAJFINSV,Core,-0.1054,0.3314,0.1281,0.22,0.5035,50
+IND::Holding Companies,Holding Companies - Cluster s,JMFINANCIL,Core,0.3403,0.2643,0.1622,0.2391,0.5181,50
+IND::Holding Companies,Holding Companies - Cluster s,RANEHOLDIN,B,0.4599,0.2207,0.2399,0.1815,0.5834,46
+IND::Holding Companies,Holding Companies - Cluster s,ABCAPITAL,B,1.6948,-0.0082,0.241,0.2835,0.3814,50
+IND::Department Stores,Department Stores - Cluster s,ABFRL,A,-0.6936,0.3982,0.0722,0.2354,0.7834,50
+IND::Department Stores,Department Stores - Cluster s,VMART,A,-0.6163,0.6285,0.1145,0.3115,0.6745,50
+IND::Department Stores,Department Stores - Cluster s,DMART,Core,-0.1793,0.2338,0.166,0.1739,0.522,50
+IND::Department Stores,Department Stores - Cluster s,SHOPERSTOP,Core,0.2218,0.1173,0.2162,0.172,0.8307,50
+IND::Department Stores,Department Stores - Cluster s,TRENT,B,0.4673,0.3809,0.2423,0.3553,0.0885,50
+IND::Department Stores,Department Stores - Cluster s,V2RETAIL,B,1.452,0.0866,0.4303,0.2338,0.039,25
+IND::Asset Management Cos.,Asset Management Cos. - Cluster .,NAM-INDIA,A,-2.1458,0.7932,0.1272,0.1879,0.1681,50
+IND::Asset Management Cos.,Asset Management Cos. - Cluster .,GVT&D,A,-0.0935,0.634,0.1327,0.0853,0.0733,22
+IND::Asset Management Cos.,Asset Management Cos. - Cluster .,ABSLAMC,Core,-0.0718,0.6343,0.1263,0.2503,0.3791,50
+IND::Asset Management Cos.,Asset Management Cos. - Cluster .,UTIAMC,Core,1.9295,0.6473,0.1552,0.1748,0.5048,50
+IND::Asset Management Cos.,Asset Management Cos. - Cluster .,HDFCAMC,B,2.2074,0.4197,0.1263,0.1509,0.1819,50
+IND::Asset Management Cos.,Asset Management Cos. - Cluster .,TARIL,B,9.2937,0.6141,0.2304,0.3774,0.2026,23
+IND::Commodity Chemicals,Commodity Chemicals - Cluster s,ACI,A,-0.8399,0.5335,0.0569,0.1877,0.672,50
+IND::Commodity Chemicals,Commodity Chemicals - Cluster s,TIRUMALCHM,A,-0.2195,0.454,0.1522,0.2082,0.5443,38
+IND::Commodity Chemicals,Commodity Chemicals - Cluster s,GHCL,Core,0.0677,0.1989,0.0849,0.2266,0.6324,43
+IND::Commodity Chemicals,Commodity Chemicals - Cluster s,TATACHEM,Core,0.166,0.1629,0.1605,0.1056,0.7582,50
+IND::Commodity Chemicals,Commodity Chemicals - Cluster s,DEEPAKNTR,Core,0.2226,0.4526,0.2578,0.2041,0.6559,50
+IND::Commodity Chemicals,Commodity Chemicals - Cluster s,DEEPAKFERT,Core,0.3353,0.456,0.1808,0.3855,0.5537,50
+IND::Commodity Chemicals,Commodity Chemicals - Cluster s,INDIAGLYCO,B,0.7373,0.3413,0.2548,0.3246,0.204,44
+IND::Commodity Chemicals,Commodity Chemicals - Cluster s,NAVINFLUOR,B,0.9481,0.2507,0.2292,0.3783,0.6239,50
+THEME::Cdmo,Cdmo - Cluster o,SAILIFE,A,-1.6569,0.936,0.0412,0.0852,0.183,11
+THEME::Cdmo,Cdmo - Cluster o,SENORES,Core,-0.3183,0.9476,0.0591,0.0979,0.0518,11
+THEME::Cdmo,Cdmo - Cluster o,GODIGIT,Core,0.6404,0.9251,0.0607,0.1511,0.3288,20
+THEME::Cdmo,Cdmo - Cluster o,ACUTAAS,B,11.715,0.2923,0.0667,0.056,0.0688,12
+IND::Marine Port & Services,Marine Port & Services - Cluster s,ADANIPORTS,A,-0.5059,0.7544,0.0604,0.2565,0.368,50
+IND::Marine Port & Services,Marine Port & Services - Cluster s,JSWINFRA,Core,0.0323,0.6481,0.1714,0.1559,0.361,32
+IND::Marine Port & Services,Marine Port & Services - Cluster s,GPPL,B,0.4971,0.4755,0.0903,0.2779,0.307,50
+IND::Biotechnology,Biotechnology - Cluster y,CONCORDBIO,A,-4.2335,0.7232,0.0071,0.2505,0.4789,32
+IND::Biotechnology,Biotechnology - Cluster y,ADVENZYMES,Core,-0.686,0.3753,0.0978,0.1579,0.6547,50
+IND::Biotechnology,Biotechnology - Cluster y,BIOCON,B,0.4721,0.4254,0.1068,0.2681,0.4345,50
+IND::Oil Marketing & Distribution,Oil Marketing & Distribution - Cluster n,GULFOILLUB,A,-1.2432,0.6705,0.106,0.1674,0.3249,50
+IND::Oil Marketing & Distribution,Oil Marketing & Distribution - Cluster n,CASTROLIND,A,-0.8735,0.5215,0.0926,0.1828,0.5123,50
+IND::Oil Marketing & Distribution,Oil Marketing & Distribution - Cluster n,OIL,Core,-0.4586,0.4668,0.0839,0.2403,0.4039,50
+IND::Oil Marketing & Distribution,Oil Marketing & Distribution - Cluster n,AEGISLOG,Core,-0.0346,0.4194,0.1036,0.2062,0.3264,29
+IND::Oil Marketing & Distribution,Oil Marketing & Distribution - Cluster n,ONGC,Core,0.0459,0.4007,0.105,0.2024,0.3416,50
+IND::Oil Marketing & Distribution,Oil Marketing & Distribution - Cluster n,IOC,B,1.182,0.3679,0.1414,0.2184,0.4522,50
+IND::Oil Marketing & Distribution,Oil Marketing & Distribution - Cluster n,PETRONET,B,1.568,0.3185,0.1425,0.2411,0.5773,50
+IND::Construction & Engineering,Construction & Engineering - Cluster g,AHLUCONT,A,-1.1237,0.5703,0.0837,0.2112,0.376,50
+IND::Construction & Engineering,Construction & Engineering - Cluster g,POWERMECH,A,-0.3456,0.3432,0.1328,0.2182,0.3744,50
+IND::Construction & Engineering,Construction & Engineering - Cluster g,TEXRAIL,A,0.0232,0.2888,0.1295,0.2881,0.5274,50
+IND::Construction & Engineering,Construction & Engineering - Cluster g,NBCC,Core,0.0368,0.1812,0.1699,0.1781,0.2984,50
+IND::Construction & Engineering,Construction & Engineering - Cluster g,HGINFRA,Core,0.0922,0.3242,0.1627,0.2682,0.5987,50
+IND::Construction & Engineering,Construction & Engineering - Cluster g,NCC,Core,0.637,0.4263,0.2193,0.3568,0.292,50
+IND::Construction & Engineering,Construction & Engineering - Cluster g,KNRCON,B,0.8438,0.1824,0.2715,0.2128,0.7445,50
+IND::Construction & Engineering,Construction & Engineering - Cluster g,LT,B,1.0813,-0.2145,0.2162,0.1774,0.2373,50
+IND::Construction & Engineering,Construction & Engineering - Cluster g,PSPPROJECT,B,2.2801,-0.0583,0.384,0.2724,0.6345,49
+IND::Agrochemicals,Agrochemicals - Cluster s,SUMICHEM,A,-1.4342,0.5199,0.0902,0.2724,0.6834,50
+IND::Agrochemicals,Agrochemicals - Cluster s,PIIND,A,-1.3107,0.3491,0.0723,0.1719,0.6047,50
+IND::Agrochemicals,Agrochemicals - Cluster s,RALLIS,A,-1.277,0.4971,0.1094,0.2344,0.6138,50
+IND::Agrochemicals,Agrochemicals - Cluster s,SPLPETRO,Core,-0.5437,0.3555,0.1506,0.194,0.4528,50
+IND::Agrochemicals,Agrochemicals - Cluster s,BAYERCROP,Core,-0.3829,0.3156,0.1574,0.1823,0.6233,50
+IND::Agrochemicals,Agrochemicals - Cluster s,SHARDACROP,Core,-0.0492,0.4661,0.1972,0.3585,0.3983,50
+IND::Agrochemicals,Agrochemicals - Cluster s,DHANUKA,Core,0.2558,0.273,0.196,0.2399,0.4471,50
+IND::Agrochemicals,Agrochemicals - Cluster s,RAIN,Core,0.3356,0.2187,0.2067,0.1624,0.7736,36
+IND::Agrochemicals,Agrochemicals - Cluster s,EPIGRAL,B,0.3948,0.2516,0.183,0.3175,0.3678,23
+IND::Agrochemicals,Agrochemicals - Cluster s,ANURAS,B,1.25,0.3013,0.2778,0.3681,0.6569,50
+IND::Agrochemicals,Agrochemicals - Cluster s,UPL,B,1.9429,-0.0443,0.2349,0.3686,0.6775,50
+IND::Iron & Steel Products,Iron & Steel Products - Cluster s,SURYAROSNI,A,-0.9412,0.2716,0.0467,0.2016,0.613,38
+IND::Iron & Steel Products,Iron & Steel Products - Cluster s,TIIL,A,-0.8559,0.5598,0.1291,0.2298,0.5007,38
+IND::Iron & Steel Products,Iron & Steel Products - Cluster s,MIDHANI,A,-0.6635,0.5462,0.1256,0.2535,0.5093,50
+IND::Iron & Steel Products,Iron & Steel Products - Cluster s,LINDEINDIA,Core,-0.5059,0.3921,0.0998,0.2545,0.5016,50
+IND::Iron & Steel Products,Iron & Steel Products - Cluster s,WELCORP,Core,-0.2686,0.3316,0.2758,0.1759,0.1418,50
+IND::Iron & Steel Products,Iron & Steel Products - Cluster s,USHAMART,Core,0.1705,0.2538,0.1712,0.2726,0.3411,50
+IND::Iron & Steel Products,Iron & Steel Products - Cluster s,APLAPOLLO,B,0.3083,0.1756,0.1942,0.2609,0.3144,50
+IND::Iron & Steel Products,Iron & Steel Products - Cluster s,HITECH,B,1.3167,-0.1612,0.2704,0.2762,0.6672,50
+IND::Iron & Steel Products,Iron & Steel Products - Cluster s,VENUSPIPES,B,1.3972,-0.1879,0.2765,0.2775,0.6529,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,MAXHEALTH,A,-1.317,0.6784,0.0791,0.1699,0.2422,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,APOLLOHOSP,A,-1.275,0.2702,0.0511,0.1317,0.3356,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,KIMS,A,-0.7097,0.6172,0.1092,0.2151,0.2879,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,JLHL,Core,-0.6533,0.3249,0.0928,0.1859,0.5015,32
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,NH,Core,-0.3771,0.5324,0.1236,0.2314,0.2332,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,RAINBOW,Core,-0.3536,0.5617,0.1294,0.2317,0.3462,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,ASTERDM,Core,-0.0289,0.5867,0.1478,0.266,0.2011,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,FORTIS,Core,0.0523,0.0302,0.1527,0.1338,0.1704,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,HCG,Core,0.141,0.4366,0.1641,0.23,0.346,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,YATHARTH,Core,0.3152,0.3726,0.1842,0.2089,0.4239,32
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,ARTEMISMED,Core,0.5588,-0.0896,0.1428,0.2234,0.1998,42
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,MEDANTA,B,0.7014,0.4004,0.1971,0.2666,0.3071,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,POLYMED,B,0.7166,0.1238,0.17,0.254,0.3769,50
+IND::Healthcare Facilities,Healthcare Facilities - Cluster s,MEDPLUS,B,1.8843,0.2414,0.2853,0.2867,0.5806,50
+IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products - Cluster s,MRF,A,-0.9133,0.4756,0.0506,0.1995,0.4287,50
+IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products - Cluster s,APOLLOTYRE,Core,-0.5754,0.6822,0.0597,0.2142,0.4256,50
+IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products - Cluster s,CEATLTD,Core,0.2021,0.4485,0.0997,0.2194,0.3251,50
+IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products - Cluster s,BALKRISIND,Core,1.4501,0.145,0.2366,0.2147,0.5356,50
+IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products - Cluster s,JKTYRE,B,3.2065,0.6387,0.1121,0.3076,0.4991,38
+IND::Textiles,Textiles - Cluster s,VTL,A,-1.0075,0.5347,0.0856,0.133,0.5476,50
+IND::Textiles,Textiles - Cluster s,NITINSPIN,A,-0.9863,0.6376,0.0764,0.19,0.4822,49
+IND::Textiles,Textiles - Cluster s,MAYURUNIQ,Core,-0.4705,0.3693,0.1071,0.1344,0.5385,50
+IND::Textiles,Textiles - Cluster s,KPRMILL,Core,-0.1694,0.386,0.1133,0.1858,0.3839,50
+IND::Textiles,Textiles - Cluster s,GOKEX,Core,0.077,0.4335,0.1225,0.2348,0.4853,50
+IND::Textiles,Textiles - Cluster s,ICIL,Core,0.7535,0.3199,0.1729,0.2385,0.5698,38
+IND::Textiles,Textiles - Cluster s,GARFIBRES,B,0.9543,0.1738,0.1701,0.2226,0.6175,50
+IND::Textiles,Textiles - Cluster s,ARVIND,B,1.2412,0.2455,0.1988,0.2593,0.1958,50
+IND::Roads & Highways,Roads & Highways - Cluster s,IRB,A,-0.5843,0.6985,0.0843,0.276,0.6342,50
+IND::Roads & Highways,Roads & Highways - Cluster s,PNCINFRA,Core,-0.0245,0.6722,0.0942,0.225,0.6412,50
+IND::Roads & Highways,Roads & Highways - Cluster s,ASHOKA,Core,4.8446,0.6591,0.1663,0.2792,0.3428,50
+IND::Roads & Highways,Roads & Highways - Cluster s,GRINFRA,B,5.8304,0.0391,0.0876,0.1866,0.7622,50
+IND::Commercial Vehicles,Commercial Vehicles - Cluster s,ESCORTS,A,-3.0524,0.529,0.0457,0.2031,0.3984,50
+IND::Commercial Vehicles,Commercial Vehicles - Cluster s,VSTTILLERS,Core,-0.2119,0.5409,0.1154,0.229,0.3856,50
+IND::Commercial Vehicles,Commercial Vehicles - Cluster s,ASHOKLEY,Core,0.0923,0.4571,0.1272,0.1843,0.3134,50
+IND::Commercial Vehicles,Commercial Vehicles - Cluster s,BEML,Core,0.4629,0.2924,0.1192,0.2091,0.3923,50
+IND::Commercial Vehicles,Commercial Vehicles - Cluster s,TITAGARH,B,7.4794,0.4148,0.2822,0.3455,0.4366,48
+IND::Plastic Products,Plastic Products - Cluster s,SUPREMEIND,A,-0.3997,0.6272,0.0502,0.3081,0.5043,50
+IND::Plastic Products,Plastic Products - Cluster s,FINPIPE,A,-0.3548,0.384,0.0732,0.2512,0.6308,50
+IND::Plastic Products,Plastic Products - Cluster s,ASTRAL,Core,-0.1002,0.4054,0.133,0.2684,0.6143,50
+IND::Plastic Products,Plastic Products - Cluster s,PRINCEPIPE,Core,-0.0404,0.1162,0.1687,0.1968,0.813,50
+IND::Plastic Products,Plastic Products - Cluster s,NILKAMAL,Core,-0.0175,0.3363,0.1939,0.232,0.7097,49
+IND::Plastic Products,Plastic Products - Cluster s,TIMETECHNO,B,0.7068,0.0879,0.3602,0.218,0.2501,48
+IND::Plastic Products,Plastic Products - Cluster s,SHAILY,B,1.6322,0.1479,0.5549,0.2909,0.0646,50
+IND::Defence,Defence - Cluster e,BDL,A,-1.2044,0.6305,0.0961,0.2288,0.2921,50
+IND::Defence,Defence - Cluster e,ASTRAMICRO,A,-0.6947,0.516,0.0639,0.143,0.2459,48
+IND::Defence,Defence - Cluster e,HAL,Core,-0.6239,0.525,0.0799,0.1645,0.204,50
+IND::Defence,Defence - Cluster e,BEL,Core,-0.2488,0.5066,0.1754,0.0792,0.1334,50
+IND::Defence,Defence - Cluster e,DATAPATTNS,Core,0.0716,0.5062,0.134,0.2584,0.3809,50
+IND::Defence,Defence - Cluster e,ZENTEC,Core,0.5405,0.4747,0.1636,0.2816,0.3547,38
+IND::Defence,Defence - Cluster e,CONCOR,B,2.6641,0.3218,0.3966,0.1896,0.7206,50
+IND::Defence,Defence - Cluster e,MTARTECH,B,3.0909,0.2836,0.3343,0.3369,0.6372,50
+IND::Other Food Products,Other Food Products - Cluster s,AVANTIFEED,A,-0.5059,0.446,0.0304,0.269,0.4885,50
+IND::Other Food Products,Other Food Products - Cluster s,EIDPARRY,Core,0.1686,0.4106,0.0551,0.3024,0.3074,50
+IND::Other Food Products,Other Food Products - Cluster s,MANORAMA,B,1.1755,0.2264,0.0956,0.1947,0.1171,39
+IND::Specialty Retail,Specialty Retail - Cluster l,ETHOSLTD,A,-0.8018,0.4307,0.1626,0.175,0.2416,50
+IND::Specialty Retail,Specialty Retail - Cluster l,AVL,A,-0.7958,0.4913,0.1884,0.182,0.2336,39
+IND::Specialty Retail,Specialty Retail - Cluster l,RAILTEL,Core,-0.3504,0.255,0.1129,0.2486,0.4371,46
+IND::Specialty Retail,Specialty Retail - Cluster l,LANDMARK,Core,0.0146,0.3771,0.2716,0.2412,0.6352,50
+IND::Specialty Retail,Specialty Retail - Cluster l,BHARTIARTL,Core,0.1387,0.0474,0.2817,0.085,0.1933,50
+IND::Specialty Retail,Specialty Retail - Cluster l,SAREGAMA,Core,0.26,0.2922,0.2638,0.2667,0.5427,35
+IND::Specialty Retail,Specialty Retail - Cluster l,PVRINOX,B,0.2937,0.2103,0.3367,0.1546,0.8215,49
+IND::Specialty Retail,Specialty Retail - Cluster l,MANYAVAR,B,0.7381,0.1842,0.3986,0.1896,0.876,50
+IND::2/3 Wheelers,2/3 Wheelers - Cluster s,TVSMOTOR,A,-0.5551,0.7261,0.0953,0.1265,0.1076,50
+IND::2/3 Wheelers,2/3 Wheelers - Cluster s,HEROMOTOCO,Core,-0.5354,0.8193,0.0648,0.2642,0.3122,50
+IND::2/3 Wheelers,2/3 Wheelers - Cluster s,BAJAJ-AUTO,Core,-0.1391,0.8286,0.0906,0.253,0.2195,50
+IND::2/3 Wheelers,2/3 Wheelers - Cluster s,EICHERMOT,B,3.1985,0.5008,0.2059,0.2175,0.3149,50
+IND::Personal Products,Personal Products - Cluster s,VENTIVE,A,-1.9603,0.8023,0.0899,0.1225,0.4577,11
+IND::Personal Products,Personal Products - Cluster s,HINDUNILVR,A,-1.2609,0.6336,0.0985,0.1475,0.5922,50
+IND::Personal Products,Personal Products - Cluster s,GODREJCP,A,-0.8942,0.5451,0.1008,0.1643,0.4776,50
+IND::Personal Products,Personal Products - Cluster s,DABUR,Core,-0.8606,0.4816,0.0771,0.14,0.6295,50
+IND::Personal Products,Personal Products - Cluster s,PGHH,Core,-0.1339,0.4232,0.1628,0.1762,0.6338,50
+IND::Personal Products,Personal Products - Cluster s,MARICO,Core,0.0578,0.4201,0.1724,0.2222,0.4124,50
+IND::Personal Products,Personal Products - Cluster s,EMAMILTD,Core,0.2342,0.4486,0.218,0.2402,0.5864,50
+IND::Personal Products,Personal Products - Cluster s,BAJAJCON,Core,0.2634,0.3957,0.1613,0.2826,0.5585,49
+IND::Personal Products,Personal Products - Cluster s,GILLETTE,Core,0.6471,0.2772,0.1968,0.2137,0.4322,50
+IND::Personal Products,Personal Products - Cluster s,COLPAL,Core,0.7804,0.4054,0.2633,0.3002,0.5063,50
+IND::Personal Products,Personal Products - Cluster s,JYOTHYLAB,B,0.7928,0.4481,0.2797,0.3277,0.5768,50
+IND::Personal Products,Personal Products - Cluster s,HONASA,B,0.8401,0.1403,0.1285,0.2318,0.5942,31
+IND::Personal Products,Personal Products - Cluster s,SHK,B,2.1293,-0.03,0.2669,0.2392,0.6722,39
+IND::Household Appliances,Household Appliances - Cluster s,IFBIND,A,-0.7453,0.4939,0.0988,0.2727,0.5773,50
+IND::Household Appliances,Household Appliances - Cluster s,NYKAA,A,-0.6782,0.5056,0.0884,0.2901,0.4839,50
+IND::Household Appliances,Household Appliances - Cluster s,CROMPTON,Core,-0.1265,0.2506,0.1547,0.2556,0.7657,50
+IND::Household Appliances,Household Appliances - Cluster s,CARYSIL,Core,-0.0833,0.5533,0.1705,0.2862,0.6577,48
+IND::Household Appliances,Household Appliances - Cluster s,CARTRADE,B,1.0434,0.1324,0.1665,0.3495,0.3198,50
+IND::Household Appliances,Household Appliances - Cluster s,BAJAJELEC,B,1.6985,-0.1351,0.3988,0.1802,0.9091,39
+IND::Footwear,Footwear - Cluster r,BATAINDIA,A,-0.975,0.6306,0.0782,0.0959,0.7881,50
+IND::Footwear,Footwear - Cluster r,CAMPUS,Core,-0.4935,0.7068,0.1196,0.2088,0.6952,50
+IND::Footwear,Footwear - Cluster r,METROBRAND,Core,0.4368,0.5405,0.1958,0.1815,0.4604,50
+IND::Footwear,Footwear - Cluster r,REDTAPE,B,1.6713,0.1598,0.1797,0.3278,0.6628,32
+IND::Packaged Foods,Packaged Foods - Cluster s,TATACONSUM,A,-0.7911,0.4259,0.0638,0.1827,0.4278,50
+IND::Packaged Foods,Packaged Foods - Cluster s,NESTLEIND,A,-0.2536,0.4506,0.1154,0.2088,0.4122,50
+IND::Packaged Foods,Packaged Foods - Cluster s,ZYDUSWELL,A,-0.2044,0.3728,0.0926,0.2082,0.521,50
+IND::Packaged Foods,Packaged Foods - Cluster s,BRITANNIA,Core,-0.1189,0.3664,0.1121,0.1938,0.4484,50
+IND::Packaged Foods,Packaged Foods - Cluster s,BIKAJI,Core,-0.0074,0.3217,0.1286,0.1693,0.3577,50
+IND::Packaged Foods,Packaged Foods - Cluster s,HATSUN,Core,0.1905,0.4494,0.2036,0.1646,0.6695,50
+IND::Packaged Foods,Packaged Foods - Cluster s,DODLA,B,0.7633,0.0711,0.1499,0.1401,0.3499,50
+IND::Packaged Foods,Packaged Foods - Cluster s,BECTORFOOD,B,1.5159,0.4384,0.255,0.289,0.327,50
+IND::Packaged Foods,Packaged Foods - Cluster s,HERITGFOOD,B,1.5739,0.3087,0.2336,0.2641,0.5072,50
+IND::Other Industrial Products,Other Industrial Products - Cluster s,BHARATFORG,A,-0.7894,0.6789,0.1234,0.2407,0.3305,50
+IND::Other Industrial Products,Other Industrial Products - Cluster s,TIMKEN,A,-0.6324,0.5034,0.1562,0.1799,0.6532,50
+IND::Other Industrial Products,Other Industrial Products - Cluster s,KENNAMET,A,-0.5452,0.4362,0.1384,0.1904,0.7467,48
+IND::Other Industrial Products,Other Industrial Products - Cluster s,HAPPYFORGE,Core,-0.5443,0.3309,0.0801,0.2169,0.4989,30
+IND::Other Industrial Products,Other Industrial Products - Cluster s,INOXINDIA,Core,-0.2494,0.3144,0.1513,0.1853,0.3714,30
+IND::Other Industrial Products,Other Industrial Products - Cluster s,GRINDWELL,Core,0.03,0.2518,0.1804,0.1792,0.7236,50
+IND::Other Industrial Products,Other Industrial Products - Cluster s,MMFL,Core,0.2971,0.3086,0.2204,0.1958,0.8321,50
+IND::Other Industrial Products,Other Industrial Products - Cluster s,CARBORUNIV,Core,0.3948,0.2326,0.1274,0.2792,0.7001,50
+IND::Other Industrial Products,Other Industrial Products - Cluster s,SOLARINDS,Core,0.4017,0.2444,0.247,0.1661,0.2667,50
+IND::Other Industrial Products,Other Industrial Products - Cluster s,JINDALSAW,B,1.3126,0.1885,0.2139,0.3158,0.4386,46
+IND::Other Industrial Products,Other Industrial Products - Cluster s,TIPSMUSIC,B,1.5097,0.5177,0.3373,0.3201,0.4661,23
+IND::Other Industrial Products,Other Industrial Products - Cluster s,PTCIL,B,1.6484,0.1203,0.3483,0.2128,0.1802,47
+IND::Transportation - Logistics,Transportation - Logistics - Cluster s,DELHIVERY,A,-0.7693,0.4913,0.0803,0.278,0.7132,50
+IND::Transportation - Logistics,Transportation - Logistics - Cluster s,BLUEDART,Core,-0.4142,0.1536,0.1779,0.131,0.7184,50
+IND::Transportation - Logistics,Transportation - Logistics - Cluster s,MAHLOG,Core,-0.3763,0.4394,0.138,0.258,0.856,50
+IND::Transportation - Logistics,Transportation - Logistics - Cluster s,GATEWAY,Core,0.1707,0.3319,0.2225,0.2161,0.6828,50
+IND::Transportation - Logistics,Transportation - Logistics - Cluster s,VRLLOG,B,0.6756,-0.1853,0.1805,0.2465,0.603,50
+IND::Houseware,Houseware - Cluster e,PNGJL,A,-0.5254,0.5355,0.0576,0.209,0.6261,17
+IND::Houseware,Houseware - Cluster e,STOVEKRAFT,Core,0.2344,0.4812,0.1181,0.3069,0.7387,47
+IND::Houseware,Houseware - Cluster e,TTKPRESTIG,Core,0.5116,0.2413,0.0822,0.1383,0.7687,50
+IND::Houseware,Houseware - Cluster e,BORORENEW,Core,0.6237,0.4989,0.222,0.2816,0.5315,40
+IND::Houseware,Houseware - Cluster e,LAOPALA,B,1.4483,0.2345,0.2235,0.2166,0.8368,50
+IND::Exchange,Exchange - Cluster e,MCX,A,-0.3896,0.58,0.0354,0.1574,0.0778,50
+IND::Exchange,Exchange - Cluster e,BSE,Core,-0.3035,0.4855,0.0125,0.2172,0.0685,46
+IND::Exchange,Exchange - Cluster e,IEX,B,5.8542,0.0854,0.3997,0.2712,0.7053,50
+IND::Forest Products,Forest Products - Cluster s,CENTURYPLY,A,-1.273,0.7128,0.0715,0.1643,0.4656,50
+IND::Forest Products,Forest Products - Cluster s,TBOTEK,A,-0.3302,0.5969,0.117,0.2802,0.5653,20
+IND::Forest Products,Forest Products - Cluster s,DREDGECORP,Core,-0.3236,0.4949,0.0998,0.2941,0.6155,14
+IND::Forest Products,Forest Products - Cluster s,KMEW,Core,0.0195,0.6466,0.1771,0.2417,0.2039,21
+IND::Forest Products,Forest Products - Cluster s,GREENPANEL,Core,0.0618,0.3802,0.1818,0.1588,0.7686,50
+IND::Forest Products,Forest Products - Cluster s,STYLAMIND,Core,0.0909,0.1696,0.1396,0.2088,0.4563,50
+IND::Forest Products,Forest Products - Cluster s,GREENPLY,B,0.7581,-0.006,0.1846,0.2288,0.4933,50
+IND::Forest Products,Forest Products - Cluster s,IXIGO,B,1.3254,0.2993,0.3053,0.1775,0.1199,20
+IND::Hotels,Hotels - Cluster s,CHALET,A,-0.5763,0.5857,0.0603,0.1757,0.2648,50
+IND::Hotels,Hotels - Cluster s,LEMONTREE,A,-0.3597,0.7692,0.0656,0.1919,0.3257,50
+IND::Hotels,Hotels - Cluster s,EIHOTEL,Core,-0.0331,0.7497,0.07,0.202,0.4069,50
+IND::Hotels,Hotels - Cluster s,SAMHI,Core,0.424,0.383,0.072,0.2003,0.5279,32
+IND::Hotels,Hotels - Cluster s,INDHOTEL,B,2.4586,0.5442,0.1378,0.1816,0.2587,50
+IND::Hotels,Hotels - Cluster s,MHRIL,B,4.791,0.343,0.2068,0.1468,0.5881,50
+IND::Fertilizers,Fertilizers - Cluster s,COROMANDEL,A,-1.6111,0.6669,0.0248,0.2071,0.241,50
+IND::Fertilizers,Fertilizers - Cluster s,PARADEEP,Core,0.0,0.4968,0.0505,0.2647,0.4412,50
+IND::Fertilizers,Fertilizers - Cluster s,CHAMBLFERT,B,1.3246,0.3378,0.1313,0.2736,0.5413,50
+IND::Restaurants,Restaurants - Cluster s,DEVYANI,A,-0.6641,0.7871,0.0374,0.2073,0.7025,50
+IND::Restaurants,Restaurants - Cluster s,RBA,Core,-0.34,0.5655,0.0566,0.1348,0.8134,50
+IND::Restaurants,Restaurants - Cluster s,SAPPHIRE,Core,-0.3352,0.6898,0.0679,0.1649,0.6199,50
+IND::Restaurants,Restaurants - Cluster s,WESTLIFE,Core,0.6459,0.523,0.1058,0.2713,0.7629,50
+IND::Restaurants,Restaurants - Cluster s,JUBLFOOD,B,2.0203,0.3089,0.2122,0.2612,0.6487,50
+IND::Containers & Packaging,Containers & Packaging - Cluster g,EPL,A,-1.3337,0.8694,0.0,0.222,0.6047,50
+IND::Containers & Packaging,Containers & Packaging - Cluster g,MOLDTKPAC,Core,0.0,0.2509,0.2005,0.2433,0.8688,50
+IND::Containers & Packaging,Containers & Packaging - Cluster g,GRWRHITECH,B,0.7113,0.0832,0.3457,0.2693,0.1976,50
+IND::Cars & Utility Vehicles,Cars & Utility Vehicles - Cluster s,M&M,A,-5.383,0.6989,0.0342,0.1215,0.2177,50
+IND::Cars & Utility Vehicles,Cars & Utility Vehicles - Cluster s,FORCEMOT,Core,-0.6822,0.7355,0.0117,0.1856,0.1758,50
+IND::Cars & Utility Vehicles,Cars & Utility Vehicles - Cluster s,MARUTI,B,0.7412,0.6198,0.0447,0.1837,0.3185,50
+IND::Utilities:Non-Electrical,Utilities:Non-Electrical - Cluster l,MGL,A,-1.6766,0.7396,0.0445,0.2157,0.5745,50
+IND::Utilities:Non-Electrical,Utilities:Non-Electrical - Cluster l,IGL,A,-0.5148,0.5241,0.0896,0.2082,0.5798,50
+IND::Utilities:Non-Electrical,Utilities:Non-Electrical - Cluster l,GSPL,Core,-0.4888,0.4591,0.073,0.1811,0.6579,50
+IND::Utilities:Non-Electrical,Utilities:Non-Electrical - Cluster l,GUJGASLTD,Core,-0.25,0.4924,0.1681,0.179,0.724,50
+IND::Utilities:Non-Electrical,Utilities:Non-Electrical - Cluster l,GAIL,Core,0.0,0.4815,0.1546,0.212,0.4235,50
+IND::Utilities:Non-Electrical,Utilities:Non-Electrical - Cluster l,WABAG,B,3.5472,-0.1032,0.2926,0.2337,0.201,42
+IND::Utilities:Non-Electrical,Utilities:Non-Electrical - Cluster l,IONEXCHANG,B,4.0978,-0.2393,0.2245,0.2593,0.5392,50
+IND::Shipping,Shipping - Cluster g,MAZDOCK,A,-1.004,0.7151,0.086,0.1756,0.2379,48
+IND::Shipping,Shipping - Cluster g,GRSE,Core,-0.0349,0.6661,0.1315,0.1717,0.2917,46
+IND::Shipping,Shipping - Cluster g,GESHIP,Core,0.0386,0.5626,0.098,0.24,0.3189,50
+IND::Shipping,Shipping - Cluster g,ENGINERSIN,B,0.7208,0.5441,0.1303,0.2473,0.3898,50
+IND::General Insurance,General Insurance - Cluster e,GICRE,A,-0.8145,0.575,0.0778,0.1788,0.4034,49
+IND::General Insurance,General Insurance - Cluster e,ICICIGI,A,-0.7806,0.5108,0.0926,0.1282,0.3923,50
+IND::General Insurance,General Insurance - Cluster e,ENTERO,Core,-0.0894,0.4485,0.155,0.274,0.6128,20
+IND::General Insurance,General Insurance - Cluster e,PGIL,Core,0.3339,0.2434,0.2774,0.1151,0.1493,23
+IND::General Insurance,General Insurance - Cluster e,STARHEALTH,B,0.4797,0.2019,0.2452,0.2071,0.7692,50
+IND::General Insurance,General Insurance - Cluster e,AWFIS,B,0.5191,0.2106,0.2197,0.2733,0.6773,20
+IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products - Cluster s,ONESOURCE,A,-4.6289,0.831,0.0,0.2357,0.4474,10
+IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products - Cluster s,ITC,Core,-3.5869,0.3722,0.0,0.2022,0.5527,50
+IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products - Cluster s,VSTIND,Core,-0.7065,0.5897,0.2185,0.1323,0.758,50
+IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products - Cluster s,VMM,Core,-0.0646,0.4024,0.235,0.1048,0.2102,11
+IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products - Cluster s,GODFRYPHLP,B,0.0792,0.4489,0.2175,0.2179,0.2414,50
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,JINDALSTEL,A,-1.5418,0.7281,0.0895,0.1431,0.3123,50
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,GPIL,A,-0.821,0.2866,0.1012,0.1747,0.2777,40
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,TATASTEEL,A,-0.5482,0.3441,0.1154,0.2168,0.3963,50
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,JSWSTEEL,Core,-0.4833,0.5333,0.1769,0.1883,0.4007,50
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,SAIL,Core,-0.4762,0.499,0.1335,0.2364,0.5012,50
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,SHYAMMETL,Core,-0.3401,0.0448,0.167,0.1346,0.2768,50
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,JSL,Core,-0.1719,0.3994,0.1666,0.2316,0.1332,50
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,KIRLFER,Core,-0.131,0.5087,0.1846,0.2372,0.5555,48
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,IMFA,Core,0.2965,0.2692,0.1911,0.2607,0.3224,38
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,KSL,Core,0.546,-0.0116,0.2272,0.2083,0.5126,50
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,RATNAMANI,Core,0.6104,0.2728,0.2168,0.2858,0.6262,50
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,SARDAEN,B,0.7519,0.0722,0.2768,0.1999,0.2883,38
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,NSLNISP,B,0.803,0.2916,0.2831,0.2424,0.8299,43
+IND::Iron & Steel/Interm.Products,Iron & Steel/Interm.Products - Cluster s,MAHSEAMLES,B,0.9211,0.1128,0.2225,0.3044,0.4517,49
+IND::Life Insurance,Life Insurance - Cluster e,HDFCLIFE,A,-0.745,0.8834,0.0384,0.2265,0.4448,50
+IND::Life Insurance,Life Insurance - Cluster e,ICICIPRULI,Core,-0.3052,0.7719,0.1516,0.1748,0.5571,50
+IND::Life Insurance,Life Insurance - Cluster e,SBILIFE,Core,-0.2682,0.6782,0.0287,0.1938,0.3907,50
+IND::Life Insurance,Life Insurance - Cluster e,MFSL,Core,0.2037,0.7166,0.1222,0.2313,0.2454,50
+IND::Life Insurance,Life Insurance - Cluster e,LICI,B,2.9037,0.0423,0.2427,0.2034,0.5594,50
+IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products - Cluster s,HINDALCO,A,-0.7856,0.7318,0.0562,0.1924,0.3685,50
+IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products - Cluster s,HINDZINC,Core,-0.1772,0.7178,0.0822,0.2585,0.5829,27
+IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products - Cluster s,NATIONALUM,Core,-0.1042,0.6373,0.0778,0.2459,0.3502,50
+IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products - Cluster s,HINDCOPPER,Core,0.7303,0.5328,0.1089,0.304,0.3923,50
+IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products - Cluster s,VEDL,B,1.18,0.5453,0.1514,0.2992,0.3345,41
+IND::IT Software Products,IT Software Products - Cluster s,CENTUM,A,-0.9297,0.663,0.1448,0.2495,0.322,48
+IND::IT Software Products,IT Software Products - Cluster s,INTELLECT,A,-0.5684,0.4141,0.1513,0.2412,0.3264,50
+IND::IT Software Products,IT Software Products - Cluster s,RATEGAIN,Core,-0.0494,0.3742,0.2067,0.3363,0.3368,50
+IND::IT Software Products,IT Software Products - Cluster s,ZAGGLE,Core,-0.022,0.2266,0.2227,0.2408,0.4837,32
+IND::IT Software Products,IT Software Products - Cluster s,ABDL,Core,0.2172,0.2799,0.3689,0.1429,0.0629,20
+IND::IT Software Products,IT Software Products - Cluster s,CYIENTDLM,Core,0.2751,-0.0472,0.2535,0.1574,0.8101,32
+IND::IT Software Products,IT Software Products - Cluster s,TATATECH,B,0.4775,-0.0158,0.3073,0.1721,0.8212,31
+IND::IT Software Products,IT Software Products - Cluster s,OPTIEMUS,B,0.629,0.1893,0.3352,0.3025,0.4634,38
+IND::Travel Support Services,Travel Support Services - Cluster s,THOMASCOOK,A,-0.2023,0.5939,0.1032,0.2831,0.5363,50
+IND::Travel Support Services,Travel Support Services - Cluster s,IRCTC,Core,1.4875,0.256,0.0763,0.1884,0.7333,50
+IND::Travel Support Services,Travel Support Services - Cluster s,YATRA,B,3.4695,0.5623,0.3947,0.3903,0.7828,24
+IND::Paper & Paper Products,Paper & Paper Products - Cluster s,WSTCSTPAPR,A,-0.4721,0.7629,0.0134,0.1442,0.8128,50
+IND::Paper & Paper Products,Paper & Paper Products - Cluster s,JKPAPER,Core,-0.2023,0.766,0.0583,0.1743,0.7259,50
+IND::Paper & Paper Products,Paper & Paper Products - Cluster s,TCPLPACK,B,53.4194,-0.0205,0.3154,0.246,0.3875,50
+IND::Gems & Jewellery,Gems & Jewellery - Cluster y,THANGAMAYL,A,-1.0996,0.7456,0.0793,0.1789,0.2801,50
+IND::Gems & Jewellery,Gems & Jewellery - Cluster y,TITAN,Core,0.237,0.2994,0.1531,0.2173,0.2963,50
+IND::Gems & Jewellery,Gems & Jewellery - Cluster y,KALYANKJIL,Core,0.2731,0.433,0.1461,0.287,0.1873,50
+IND::Gems & Jewellery,Gems & Jewellery - Cluster y,SENCO,B,0.613,0.6935,0.2194,0.3053,0.6696,32
+IND::Mining,Mining - Cluster g,MOIL,A,-0.572,0.6779,0.0422,0.2197,0.4713,50
+IND::Mining,Mining - Cluster g,SANDUMA,Core,-0.3242,0.7867,0.0704,0.2196,0.3801,36
+IND::Mining,Mining - Cluster g,NMDC,Core,0.5718,0.6639,0.065,0.2728,0.4397,50
+IND::Mining,Mining - Cluster g,TEGA,B,1.57,0.2973,0.0991,0.1901,0.3526,50
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,HDBFS,A,-0.8437,,0.058,0.0098,0.5483,2
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,CRIZAC,A,-0.5997,,0.131,0.0,0.7574,1
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,INDIQUBE,A,-0.5749,,0.1378,0.0,0.7642,1
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,ANTHEM,Core,-0.5191,,0.153,0.0,0.7794,1
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,EBGNG,Core,-0.5036,,0.1572,0.0,0.7836,1
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,MARATHON,Core,-0.4995,0.3635,0.0624,0.1444,0.3828,21
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,ITCHOTELS,Core,-0.4986,0.4425,0.0522,0.1601,0.4684,10
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,IIFLCAPS,Core,-0.4398,0.0328,0.0965,0.1175,0.3093,21
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,ENRIN,Core,-0.4287,,0.0857,0.1384,0.7117,3
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,SAMBHV,Core,-0.399,,0.1036,0.1237,0.7098,2
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,SWANCORP,Core,-0.3522,,0.1734,0.0378,0.6128,8
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,SKIPPER,Core,-0.3305,-0.09,0.0804,0.1866,0.3594,23
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,BRIGHOTEL,Core,-0.144,,0.2553,0.0,0.8817,1
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,AEGISVOPAK,Core,-0.1383,,0.2341,0.0342,0.352,3
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,FILATEX,Core,-0.0867,0.3806,0.1514,0.1799,0.5321,22
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,ABLBL,Core,-0.0302,,0.2401,0.0696,0.8664,3
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,EMCURE,Core,-0.0233,0.6274,0.152,0.2049,0.3269,20
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,SMSPHARMA,Core,0.0167,-0.042,0.1682,0.1969,0.4481,21
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,TMPV,Core,0.0765,,0.2641,0.0772,0.7042,7
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,FOSECOIND,Core,0.1037,0.0902,0.2005,0.184,0.2802,21
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,SMARTWORKS,Core,0.1381,,0.3322,0.0,0.2942,1
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,RAYMONDREL,Core,0.1809,,0.2875,0.0848,0.8938,2
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,INTERARCH,Core,0.2371,0.2687,0.2988,0.0909,0.108,18
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,OSWALPUMPS,Core,0.2476,,0.3042,0.0871,0.8904,3
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,SKYGOLD,Core,0.2503,0.0754,0.2003,0.2444,0.2532,23
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,CEMPRO,Core,0.2555,,0.2829,0.1224,0.17,8
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,ELLEN,Core,0.3286,,0.3799,0.0064,0.9861,2
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,NTPCGREEN,Core,0.4069,0.4418,0.3416,0.0961,0.794,13
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,IGIL,Core,0.4379,0.6012,0.3776,0.0548,0.8252,11
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,BLACKBUCK,Core,0.47,0.7208,0.3512,0.1076,0.0528,13
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,KRBL,Core,0.5086,0.3584,0.2727,0.2415,0.2155,23
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,DAMCAPITAL,Core,0.5854,0.45,0.3702,0.1264,0.8619,11
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,ATHERENERG,B,0.7282,,0.4805,0.019,0.0161,6
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,EPACK,B,0.8501,0.7058,0.3018,0.3378,0.4785,20
+UNCLASSIFIED::B::B::A,Unclassified - Cluster A,LAXMIDENTL,B,0.9272,0.2116,0.5064,0.0617,0.9752,10
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,HEXT,A,-1.1106,0.8365,0.039,0.1438,0.6579,9
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,TRAVELFOOD,A,-0.9477,,0.0765,0.0,0.4091,1
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,AJAXENGG,A,-0.5933,0.6246,0.1047,0.1524,0.5506,9
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,NIVABUPA,Core,-0.5892,0.6445,0.0649,0.1911,0.4775,14
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,SHARDAMOTR,Core,-0.1713,0.3687,0.1638,0.1275,0.4673,23
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,ALIVUS,Core,-0.1316,0.6153,0.1194,0.2542,0.4835,20
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,INDGN,Core,-0.0979,0.278,0.0689,0.1901,0.5653,20
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,JUNIPER,Core,0.0493,0.3714,0.2783,0.0943,0.8072,20
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,ACMESOLAR,Core,0.088,0.229,0.1484,0.1585,0.3057,14
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,SANATHAN,Core,0.1055,0.6909,0.3784,0.1363,0.3035,11
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,EUREKAFORB,Core,0.1881,0.2013,0.2489,0.0958,0.3093,23
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,AKUMS,Core,0.2218,0.4769,0.3478,0.1186,0.9378,19
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,SUNDRMFAST,Core,0.4269,0.3451,0.3483,0.1261,0.728,23
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,TARC,Core,0.4342,0.1437,0.1484,0.2174,0.6702,23
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,COHANCE,Core,0.5754,0.4417,0.3002,0.2332,0.9893,13
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,JSWHL,B,0.628,0.2717,0.233,0.2426,0.1394,23
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,BHARTIHEXA,B,1.0502,-0.1602,0.3408,0.1212,0.1221,20
+UNCLASSIFIED::B::B::B,Unclassified - Cluster B,SHAKTIPUMP,B,1.1673,0.1374,0.2215,0.343,0.2,23
+IND::Pharmaceuticals::A,Pharmaceuticals - Cluster A,PGHL,A,-0.3729,0.5419,0.1269,0.2094,0.5152,50
+IND::Pharmaceuticals::A,Pharmaceuticals - Cluster A,SUPRIYA,Core,-0.2551,0.6293,0.1092,0.3098,0.3745,48
+IND::Pharmaceuticals::A,Pharmaceuticals - Cluster A,AMRUTANJAN,Core,0.3729,0.4414,0.2083,0.2169,0.5576,50
+IND::Pharmaceuticals::A,Pharmaceuticals - Cluster A,NEULANDLAB,B,0.6907,0.2725,0.2558,0.1352,0.1803,50
+IND::Auto Parts & Equipment::A,Auto Parts & Equipment - Cluster A,GREAVESCOT,A,-4.5208,0.8093,0.0539,0.283,0.5399,38
+IND::Auto Parts & Equipment::A,Auto Parts & Equipment - Cluster A,SUNCLAY,Core,-0.1349,0.5132,0.0,0.3152,0.4698,30
+IND::Auto Parts & Equipment::A,Auto Parts & Equipment - Cluster A,SANDHAR,B,0.2004,0.5,0.1313,0.1997,0.4003,48
+IND::IT Consulting & Software::A,IT Consulting & Software - Cluster A,CAMS,A,-3.0335,0.7703,0.0044,0.1834,0.4802,50
+IND::IT Consulting & Software::A,IT Consulting & Software - Cluster A,FSL,Core,0.2015,0.5331,0.1665,0.1655,0.1353,50
+IND::IT Consulting & Software::A,IT Consulting & Software - Cluster A,RAMCOSYS,B,1.1183,0.6865,0.1839,0.2697,0.4681,48
+IND::Pharmaceuticals::B::A::A,Pharmaceuticals - Cluster A,CIPLA,A,-0.5754,0.5171,0.0945,0.1173,0.396,50
+IND::Pharmaceuticals::B::A::A,Pharmaceuticals - Cluster A,APLLTD,A,-0.3585,0.5081,0.0724,0.186,0.4972,50
+IND::Pharmaceuticals::B::A::A,Pharmaceuticals - Cluster A,CAPLIPOINT,Core,0.035,0.446,0.0868,0.1772,0.3405,41
+IND::Pharmaceuticals::B::A::A,Pharmaceuticals - Cluster A,NATCOPHARM,Core,0.9684,0.5691,0.1701,0.2841,0.5668,50
+IND::Pharmaceuticals::B::A::A,Pharmaceuticals - Cluster A,WINDLAS,B,1.0817,0.3748,0.1222,0.2339,0.4268,30
+IND::Pharmaceuticals::B::A::A,Pharmaceuticals - Cluster A,SPARC,B,2.7969,0.5419,0.3864,0.186,0.8631,50
+IND::IT Consulting & Software::B::A,IT Consulting & Software - Cluster A,ADANIENT,A,-5.9301,0.8351,0.0,0.1548,0.7475,31
+IND::IT Consulting & Software::B::A,IT Consulting & Software - Cluster A,HAPPSTMNDS,Core,-0.1686,0.5413,0.1382,0.0773,0.8748,50
+IND::IT Consulting & Software::B::A,IT Consulting & Software - Cluster A,REDINGTON,B,0.7623,0.5291,0.1775,0.2727,0.4292,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,TORNTPHARM,A,-1.0756,0.4678,0.0689,0.1166,0.2434,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,SUNPHARMA,A,-0.8401,0.3865,0.0589,0.1452,0.3005,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,GRANULES,A,-0.5506,0.6438,0.1259,0.2337,0.3862,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,AJANTPHARM,Core,-0.4742,0.4278,0.0937,0.1774,0.298,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,ALKEM,Core,-0.2169,0.5207,0.1384,0.1926,0.4241,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,ZYDUSLIFE,Core,-0.1657,0.4243,0.1175,0.1907,0.4013,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,DRREDDY,Core,0.003,0.2317,0.1097,0.1083,0.4182,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,LUPIN,Core,0.1158,0.3976,0.1352,0.1957,0.1551,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,GLENMARK,Core,0.1555,0.3268,0.1549,0.0957,0.16,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,STAR,Core,0.5094,0.3054,0.1745,0.119,0.1163,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,ORCHPHARMA,B,0.5366,0.3931,0.1247,0.3354,0.3589,47
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,AUROPHARMA,B,0.9173,0.35,0.1755,0.2609,0.2457,50
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals - Cluster B,PFIZER,B,1.2688,0.5513,0.2767,0.226,0.5857,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,MPHASIS,A,-0.7486,0.6134,0.113,0.1599,0.4543,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,HCLTECH,A,-0.6532,0.5831,0.0833,0.186,0.3923,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,LTIM,A,-0.6158,0.7957,0.1312,0.2104,0.508,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,LTTS,Core,-0.5288,0.5855,0.0672,0.2142,0.5149,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,TCS,Core,-0.427,0.5428,0.1324,0.1677,0.5661,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,TECHM,Core,-0.4003,0.5913,0.1718,0.1546,0.4282,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,INFY,Core,-0.3297,0.4645,0.1201,0.1688,0.608,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,MASTEK,Core,-0.1694,0.3893,0.1207,0.169,0.66,48
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,WIPRO,Core,-0.0748,0.4848,0.1591,0.1773,0.6228,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,TATAELXSI,Core,0.0897,0.4545,0.2052,0.1561,0.7549,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,PERSISTENT,Core,0.1769,0.6353,0.2594,0.1738,0.1914,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,COFORGE,Core,0.2906,0.5573,0.1758,0.2298,0.2345,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,ANGELONE,Core,0.6441,0.5331,0.16,0.2797,0.5252,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,ZENSARTECH,Core,0.6628,0.2774,0.2299,0.1641,0.2362,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,CIGNITITEC,Core,1.3575,0.2538,0.325,0.1751,0.2684,42
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,KPITTECH,Core,1.5269,0.2272,0.1759,0.2998,0.5168,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,CYIENT,B,2.1771,0.4418,0.2622,0.3735,0.7794,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,BSOFT,B,2.3543,0.4474,0.2827,0.3821,0.6584,50
+IND::IT Consulting & Software::B::B::A,IT Consulting & Software - Cluster A,SONATSOFTW,B,2.5962,0.3594,0.2795,0.392,0.7818,50
+IND::IT Consulting & Software::B::B::B,IT Consulting & Software - Cluster B,OFSS,A,-0.5111,0.5448,0.1087,0.2749,0.507,50
+IND::IT Consulting & Software::B::B::B,IT Consulting & Software - Cluster B,NEWGEN,Core,-0.2863,0.5111,0.0791,0.315,0.2564,46
+IND::IT Consulting & Software::B::B::B,IT Consulting & Software - Cluster B,NETWEB,Core,-0.091,0.6976,0.199,0.3187,0.1684,32
+IND::IT Consulting & Software::B::B::B,IT Consulting & Software - Cluster B,ECLERX,B,0.0434,0.4268,0.1976,0.2168,0.2052,50
+IND::Finance (including NBFCs)::A,Finance (including NBFCs) - Cluster A,CGCL,A,-1.2292,0.6337,0.0231,0.1784,0.6851,50
+IND::Finance (including NBFCs)::A,Finance (including NBFCs) - Cluster A,MASFIN,A,-0.6314,0.6525,0.0652,0.242,0.6444,50
+IND::Finance (including NBFCs)::A,Finance (including NBFCs) - Cluster A,JIOFIN,Core,-0.3693,0.6419,0.1029,0.2247,0.5364,33
+IND::Finance (including NBFCs)::A,Finance (including NBFCs) - Cluster A,PFS,Core,-0.2744,0.5414,0.1373,0.1173,0.6936,23
+IND::Finance (including NBFCs)::A,Finance (including NBFCs) - Cluster A,FEDFINA,B,1.4313,0.3821,0.1387,0.3511,0.7573,31
+IND::Finance (including NBFCs)::A,Finance (including NBFCs) - Cluster A,IRFC,B,3.3187,0.126,0.3244,0.2467,0.5484,46
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,CHOLAFIN,A,-1.0121,0.6331,0.1014,0.2163,0.1876,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,SBFC,A,-0.9318,0.5266,0.0742,0.2384,0.3364,33
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,SUNDARMFIN,A,-0.5892,0.3377,0.1179,0.1808,0.254,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,MUTHOOTFIN,Core,-0.5437,0.5704,0.1971,0.1661,0.1711,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,SHRIRAMFIN,Core,-0.4963,0.4574,0.188,0.144,0.1538,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,FIVESTAR,Core,-0.4551,0.6626,0.2186,0.1985,0.6025,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,CREDITACC,Core,-0.3307,0.5198,0.1278,0.326,0.3455,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,BAJFINANCE,Core,-0.2025,0.5226,0.1795,0.2777,0.346,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,M&MFIN,Core,0.0415,0.3512,0.1805,0.2713,0.542,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,POONAWALLA,Core,0.0448,0.169,0.1331,0.2697,0.3854,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,MANAPPURAM,Core,0.1496,0.1009,0.164,0.2174,0.2397,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,SBICARD,Core,0.2776,0.4306,0.2277,0.2987,0.7068,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,FUSION,Core,0.9095,0.3184,0.313,0.293,0.7225,48
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,PFC,B,0.9982,0.2533,0.2956,0.3198,0.3295,50
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,SPANDANA,B,1.1724,0.273,0.3371,0.3108,0.9016,44
+IND::Finance (including NBFCs)::B,Finance (including NBFCs) - Cluster B,RECLTD,B,2.064,0.0484,0.3934,0.3819,0.2904,50
+UNCLASSIFIED::A::B,Unclassified - Cluster B,THELEELA,A,-1.1266,,0.0,0.0482,0.3102,3
+UNCLASSIFIED::A::B,Unclassified - Cluster B,AWL,A,-0.5102,0.4412,0.1021,0.1182,0.7428,23
+UNCLASSIFIED::A::B,Unclassified - Cluster B,SPICEJET,A,-0.4241,0.5894,0.1818,0.1557,0.9088,23
+UNCLASSIFIED::A::B,Unclassified - Cluster B,PATELENG,Core,0.0128,0.3491,0.1775,0.0796,0.9072,23
+UNCLASSIFIED::A::B,Unclassified - Cluster B,MUTHOOTMF,Core,0.0256,0.5272,0.1669,0.3183,0.8116,21
+UNCLASSIFIED::A::B,Unclassified - Cluster B,PFOCUS,Core,0.533,0.4852,0.2655,0.2807,0.3827,23
+UNCLASSIFIED::A::B,Unclassified - Cluster B,GMRAIRPORT,B,0.6948,0.4122,0.2836,0.2279,0.3234,21
+UNCLASSIFIED::A::B,Unclassified - Cluster B,BAJAJHFL,B,0.8505,0.2133,0.2439,0.1516,0.7988,17
+UNCLASSIFIED::A::B,Unclassified - Cluster B,NORTHARC,B,1.0561,0.1983,0.24,0.2353,0.2622,17
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,FLUOROCHEM,A,-1.0748,0.5764,0.0782,0.2143,0.629,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,VINATIORGA,A,-0.6389,0.4336,0.094,0.1804,0.6542,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,ATUL,A,-0.6138,0.4403,0.0702,0.2217,0.704,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,PIDILITIND,Core,-0.5786,0.3924,0.1207,0.1271,0.5104,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,CLEAN,Core,-0.5575,0.4619,0.122,0.191,0.7828,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,JUBLINGREA,Core,-0.4213,0.4483,0.0868,0.2567,0.5104,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,AARTIIND,Core,-0.1524,0.4667,0.2037,0.1966,0.8276,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,SRF,Core,0.2227,0.3745,0.1497,0.277,0.5381,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,VISHNU,Core,0.4577,0.3423,0.1553,0.3013,0.4155,45
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,BASF,Core,0.5782,0.4191,0.2705,0.2567,0.6285,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,SUDARSCHEM,Core,1.1281,0.1905,0.2013,0.2813,0.3137,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,PRIVISCL,B,1.2049,0.2917,0.2232,0.3616,0.4328,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,AETHER,B,1.6429,0.0278,0.2309,0.233,0.7835,50
+IND::Specialty Chemicals::A,Specialty Chemicals - Cluster A,STYRENIX,B,2.4364,-0.0811,0.2646,0.2964,0.3513,50
+IND::Specialty Chemicals::B,Specialty Chemicals - Cluster B,FINEORG,A,-0.7835,0.606,0.0739,0.1777,0.6571,50
+IND::Specialty Chemicals::B,Specialty Chemicals - Cluster B,GALAXYSURF,A,-0.2861,0.458,0.124,0.1159,0.7412,50
+IND::Specialty Chemicals::B,Specialty Chemicals - Cluster B,DCMSHRIRAM,Core,-0.2283,0.6148,0.1176,0.2302,0.5051,50
+IND::Specialty Chemicals::B,Specialty Chemicals - Cluster B,CHEMPLASTS,Core,0.2063,0.1569,0.1297,0.1483,0.7195,50
+IND::Specialty Chemicals::B,Specialty Chemicals - Cluster B,NEOGEN,B,1.1379,0.2296,0.1993,0.2752,0.747,48
+IND::Specialty Chemicals::B,Specialty Chemicals - Cluster B,TATVA,B,1.5606,0.4158,0.2375,0.3757,0.9722,44
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,SCHAEFFLER,A,-1.7364,0.7544,0.1016,0.2034,0.5213,50
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,UNOMINDA,A,-1.4434,0.5899,0.1178,0.1349,0.3102,50
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,CRAFTSMAN,A,0.0782,0.33,0.1822,0.2741,0.2197,50
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,SUBROS,Core,0.0797,0.0802,0.1121,0.2162,0.4221,50
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,GABRIEL,Core,0.0873,0.2795,0.2106,0.184,0.1262,50
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,EXIDEIND,Core,0.2136,0.4355,0.2484,0.2701,0.3557,50
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,ARE&M,B,0.3463,0.3672,0.2402,0.2734,0.5235,39
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,DIVGIITTS,B,0.558,0.3594,0.2589,0.2961,0.708,41
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment - Cluster B,AUTOAXLES,B,1.7796,-0.0156,0.3426,0.2189,0.7681,48
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,INGERRAND,A,-1.1236,0.5214,0.0629,0.1884,0.4803,50
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,CUMMINSIND,A,-0.5962,0.4761,0.1191,0.2285,0.2078,50
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,ELECON,A,-0.2981,0.3971,0.1489,0.2178,0.3181,50
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,AZAD,Core,-0.196,0.2579,0.1532,0.1483,0.3108,30
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,KSB,Core,-0.145,0.2458,0.1243,0.2188,0.3341,50
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,SIS,Core,0.4644,0.3621,0.2963,0.1582,0.7589,50
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,KIRLPNU,B,0.6031,0.2054,0.2075,0.2849,0.4962,50
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,JYOTICNC,B,0.7074,0.1635,0.2052,0.2981,0.2615,27
+IND::Industrial Machinery::B,Industrial Machinery - Cluster B,PRAJIND,B,1.4567,0.1324,0.3124,0.3207,0.5994,50
+UNCLASSIFIED::B::A::A,Unclassified - Cluster A,HYUNDAI,A,-0.7664,0.6826,0.1898,0.0768,0.2071,15
+UNCLASSIFIED::B::A::A,Unclassified - Cluster A,SANOFICONR,Core,-0.0386,0.5246,0.1888,0.2154,0.512,17
+UNCLASSIFIED::B::A::A,Unclassified - Cluster A,UNIMECH,Core,1.7937,0.6723,0.3631,0.1473,0.7097,11
+UNCLASSIFIED::B::A::A,Unclassified - Cluster A,STLTECH,B,1.9905,0.0994,0.2333,0.3522,0.708,23
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,SURAKSHA,A,-0.9747,0.7052,0.0748,0.0662,0.6642,12
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,SOTL,A,-0.7433,0.5623,0.0533,0.129,0.7176,23
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,RPTECH,A,-0.4849,0.6374,0.0956,0.1876,0.5462,20
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,FIRSTCRY,Core,-0.0994,0.5613,0.2051,0.048,0.9199,18
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,RAYMONDLSL,Core,-0.0615,0.5092,0.1642,0.1293,0.878,17
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,XPROINDIA,Core,-0.0028,0.7106,0.1907,0.2171,0.5812,23
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,UNIECOM,Core,0.0031,0.3107,0.126,0.1249,0.8314,18
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,CEIGALL,Core,0.0927,0.2734,0.1205,0.1537,0.8204,18
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,OLAELEC,Core,0.2527,0.4218,0.2272,0.0621,0.9605,18
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,DYNAMATECH,Core,0.654,0.197,0.1742,0.2228,0.4396,23
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,BBOX,Core,0.6781,0.5758,0.3102,0.1456,0.3497,23
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,E2E,B,0.6828,0.3115,0.1834,0.2845,0.5542,23
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,CARRARO,B,1.3832,0.566,0.4016,0.2291,0.2465,11
+UNCLASSIFIED::B::A::B,Unclassified - Cluster B,KINGFA,B,2.2946,0.2686,0.5669,0.0482,0.1387,21
+IND::Banks::B::A,Banks - Cluster A,AXISBANK,A,-0.4016,0.7377,0.0791,0.1925,0.3293,50
+IND::Banks::B::A,Banks - Cluster A,UJJIVANSFB,Core,0.2316,0.8201,0.0814,0.3046,0.3753,50
+IND::Banks::B::A,Banks - Cluster A,KARURVYSYA,Core,0.2729,0.6021,0.2059,0.1489,0.1959,50
+IND::Banks::B::A,Banks - Cluster A,BANDHANBNK,B,0.9136,0.6377,0.3153,0.1779,0.7939,50
+IND::Banks::B::B,Banks - Cluster B,IDBI,A,-0.9065,0.7534,0.0649,0.2088,0.335,25
+IND::Banks::B::B,Banks - Cluster B,CANBK,A,-0.6774,0.7543,0.0728,0.2339,0.2115,50
+IND::Banks::B::B,Banks - Cluster B,UNIONBANK,A,-0.6478,0.7974,0.0687,0.263,0.2881,50
+IND::Banks::B::B,Banks - Cluster B,BANKBARODA,Core,-0.5065,0.5897,0.0659,0.2285,0.3538,50
+IND::Banks::B::B,Banks - Cluster B,MAHABANK,Core,-0.5034,0.6276,0.0723,0.2266,0.2974,46
+IND::Banks::B::B,Banks - Cluster B,SBIN,Core,-0.4331,0.5403,0.0938,0.1612,0.3964,50
+IND::Banks::B::B,Banks - Cluster B,PNB,Core,-0.4081,0.7144,0.0765,0.2628,0.1806,50
+IND::Banks::B::B,Banks - Cluster B,INDIANB,Core,-0.2119,0.5962,0.1174,0.1655,0.2029,50
+IND::Banks::B::B,Banks - Cluster B,BANKINDIA,Core,-0.139,0.7364,0.0979,0.2704,0.4543,50
+IND::Banks::B::B,Banks - Cluster B,SOUTHBANK,Core,0.1062,0.5257,0.091,0.2642,0.2903,50
+IND::Banks::B::B,Banks - Cluster B,J&KBANK,Core,0.919,0.467,0.1435,0.2751,0.3754,50
+IND::Banks::B::B,Banks - Cluster B,YESBANK,B,1.3416,0.4801,0.179,0.2759,0.7304,29
+IND::Banks::B::B,Banks - Cluster B,IDEA,B,3.0061,0.5166,0.273,0.3807,0.8862,23
+IND::Banks::B::B,Banks - Cluster B,CUB,B,4.0828,0.2333,0.3415,0.3308,0.4014,50
+IND::Other Electrical Equipment/Products::A,Other Electrical Equipment/Products - Cluster A,WAAREEENER,A,-1.1556,0.6115,0.0893,0.1104,0.2465,15
+IND::Other Electrical Equipment/Products::A,Other Electrical Equipment/Products - Cluster A,UNIVCABLES,Core,-0.7223,0.7681,0.1143,0.235,0.4253,38
+IND::Other Electrical Equipment/Products::A,Other Electrical Equipment/Products - Cluster A,INDIGO,Core,-0.6648,0.555,0.0968,0.1455,0.2195,50
+IND::Other Electrical Equipment/Products::A,Other Electrical Equipment/Products - Cluster A,APARINDS,Core,0.5083,0.5281,0.1282,0.2633,0.1427,50
+IND::Other Electrical Equipment/Products::A,Other Electrical Equipment/Products - Cluster A,RRKABEL,B,1.3524,0.3854,0.157,0.2258,0.4941,32
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,PREMIERENE,A,-0.7273,0.6157,0.1217,0.1855,0.5605,18
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,HAVELLS,A,-0.6874,0.5501,0.1157,0.1656,0.6012,50
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,POLYCAB,A,-0.6341,0.6343,0.126,0.2253,0.1773,50
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,VGUARD,Core,-0.3429,0.2741,0.0856,0.1579,0.5223,50
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,KEI,Core,-0.0984,0.3363,0.1218,0.224,0.2445,50
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,BBL,Core,0.0341,0.4846,0.1666,0.292,0.5095,46
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,PITTIENG,Core,0.2525,0.492,0.1996,0.3158,0.2466,50
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,FINCABLES,Core,0.3713,0.4521,0.2124,0.3076,0.6746,50
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,GRAVITA,Core,0.5479,0.3308,0.2347,0.2454,0.351,38
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,KAYNES,B,0.6813,0.3831,0.2758,0.2533,0.1255,50
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,HONAUT,B,0.69,0.1296,0.2376,0.1511,0.7094,50
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment/Products - Cluster B,SYRMA,B,0.6903,0.4823,0.2789,0.3207,0.3071,50
+IND::Electric Utilities::B,Electric Utilities - Cluster B,KPIL,A,-1.0052,0.7041,0.0796,0.1768,0.2509,48
+IND::Electric Utilities::B,Electric Utilities - Cluster B,TECHNOE,Core,-0.423,0.6002,0.0832,0.2334,0.2444,50
+IND::Electric Utilities::B,Electric Utilities - Cluster B,INOXWIND,Core,0.721,0.5022,0.1041,0.324,0.3438,44
+IND::Electric Utilities::B,Electric Utilities - Cluster B,INOXGREEN,B,2.4089,0.4314,0.1774,0.255,0.3581,50
+IND::Realty::A,Realty - Cluster A,NESCO,A,-0.5241,0.4727,0.0468,0.1735,0.4305,50
+IND::Realty::A,Realty - Cluster A,MAHLIFE,Core,0.298,0.4069,0.0771,0.2377,0.5333,50
+IND::Realty::A,Realty - Cluster A,ARVSMART,B,1.1406,0.5174,0.1943,0.2868,0.3744,50
+IND::Internet Software & Services::A,Internet Software & Services - Cluster A,AADHARHFC,A,-0.6745,0.6355,0.102,0.0985,0.2247,20
+IND::Internet Software & Services::A,Internet Software & Services - Cluster A,NAZARA,Core,-0.1664,0.4715,0.085,0.2423,0.5056,50
+IND::Internet Software & Services::A,Internet Software & Services - Cluster A,PAYTM,Core,0.2829,0.7314,0.1411,0.3521,0.2568,50
+IND::Internet Software & Services::A,Internet Software & Services - Cluster A,POLICYBZR,Core,0.3919,0.2392,0.161,0.1376,0.2232,50
+IND::Internet Software & Services::A,Internet Software & Services - Cluster A,ROUTE,B,1.4926,0.4026,0.3222,0.1539,0.8221,50
+IND::Pharmaceuticals::B::B::A,Pharmaceuticals - Cluster A,ABBOTINDIA,A,-1.5003,0.5877,0.0366,0.177,0.4595,50
+IND::Pharmaceuticals::B::B::A,Pharmaceuticals - Cluster A,ASTRAZEN,Core,-1.1207,0.5953,0.1083,0.1653,0.3203,50
+IND::Pharmaceuticals::B::B::A,Pharmaceuticals - Cluster A,GLAXO,Core,-0.2094,0.6581,0.1096,0.2551,0.4784,50
+IND::Pharmaceuticals::B::B::A,Pharmaceuticals - Cluster A,SANOFI,Core,0.2691,0.6562,0.1491,0.2688,0.4539,47
+IND::Pharmaceuticals::B::B::A,Pharmaceuticals - Cluster A,GLAND,B,1.063,0.5347,0.2214,0.2554,0.6239,50
+IND::Auto Parts & Equipment::B::A::A,Auto Parts & Equipment - Cluster A,ENDURANCE,A,-1.0313,0.7677,0.075,0.1682,0.4319,50
+IND::Auto Parts & Equipment::B::A::A,Auto Parts & Equipment - Cluster A,ZFCVINDIA,A,-0.3012,0.7034,0.1249,0.2543,0.4369,50
+IND::Auto Parts & Equipment::B::A::A,Auto Parts & Equipment - Cluster A,TIINDIA,Core,0.0132,0.4353,0.1433,0.2056,0.6055,50
+IND::Auto Parts & Equipment::B::A::A,Auto Parts & Equipment - Cluster A,TVSHLTD,Core,0.1294,0.5389,0.2298,0.1673,0.1731,33
+IND::Auto Parts & Equipment::B::A::A,Auto Parts & Equipment - Cluster A,ROLEXRINGS,B,0.3066,0.7279,0.2424,0.2636,0.7379,50
+IND::Auto Parts & Equipment::B::A::A,Auto Parts & Equipment - Cluster A,SJS,B,1.069,0.2,0.2515,0.2338,0.2386,50
+IND::Auto Parts & Equipment::B::A::B,Auto Parts & Equipment - Cluster B,SANSERA,A,-0.8295,0.4698,0.0442,0.172,0.3949,50
+IND::Auto Parts & Equipment::B::A::B,Auto Parts & Equipment - Cluster B,FIEMIND,A,-0.3817,0.5512,0.1132,0.2105,0.2686,38
+IND::Auto Parts & Equipment::B::A::B,Auto Parts & Equipment - Cluster B,BOSCHLTD,Core,-0.2018,0.4785,0.1183,0.1652,0.3117,50
+IND::Auto Parts & Equipment::B::A::B,Auto Parts & Equipment - Cluster B,SUPRAJIT,Core,-0.0002,0.4658,0.1193,0.1776,0.4981,50
+IND::Auto Parts & Equipment::B::A::B,Auto Parts & Equipment - Cluster B,SONACOMS,Core,0.66,0.5222,0.2088,0.1961,0.609,50
+IND::Auto Parts & Equipment::B::A::B,Auto Parts & Equipment - Cluster B,LUMAXTECH,Core,0.7562,0.5342,0.1736,0.2602,0.2846,50
+IND::Auto Parts & Equipment::B::A::B,Auto Parts & Equipment - Cluster B,MOTHERSON,B,1.1008,0.3476,0.1335,0.1941,0.2969,50
+IND::Auto Parts & Equipment::B::A::B,Auto Parts & Equipment - Cluster B,ASAHIINDIA,B,1.125,0.5153,0.1761,0.2857,0.5062,50
+IND::Cement & Cement Products::B,Cement & Cement Products - Cluster B,STARCEMENT,A,-5.7882,0.6398,0.033,0.1617,0.4148,50
+IND::Cement & Cement Products::B,Cement & Cement Products - Cluster B,BIRLACORPN,Core,-0.3035,0.5303,0.1264,0.2187,0.5139,50
+IND::Cement & Cement Products::B,Cement & Cement Products - Cluster B,JKCEMENT,Core,-0.1709,0.5315,0.132,0.1715,0.2989,50
+IND::Cement & Cement Products::B,Cement & Cement Products - Cluster B,NUVOCO,Core,0.6141,0.3165,0.1352,0.2312,0.6829,50
+IND::Cement & Cement Products::B,Cement & Cement Products - Cluster B,INDIACEM,B,4.2031,0.3254,0.199,0.2688,0.3034,33
+IND::Breweries & Distilleries::A,Breweries & Distilleries - Cluster A,TRIVENI,A,-0.9957,0.6494,0.0422,0.2159,0.4442,50
+IND::Breweries & Distilleries::A,Breweries & Distilleries - Cluster A,BALRAMCHIN,Core,-0.9053,0.8173,0.0497,0.2631,0.5182,50
+IND::Breweries & Distilleries::A,Breweries & Distilleries - Cluster A,LTFOODS,Core,-0.0576,0.4707,0.2171,0.1977,0.1991,39
+IND::Breweries & Distilleries::A,Breweries & Distilleries - Cluster A,GODREJAGRO,Core,0.1686,0.5135,0.1499,0.289,0.5756,50
+IND::Breweries & Distilleries::A,Breweries & Distilleries - Cluster A,CCL,B,0.5077,0.2817,0.164,0.2782,0.4885,50
+IND::Breweries & Distilleries::B,Breweries & Distilleries - Cluster B,UNITDSPR,A,-1.2681,0.6626,0.1025,0.1956,0.3232,29
+IND::Breweries & Distilleries::B,Breweries & Distilleries - Cluster B,UBL,A,-0.7943,0.5136,0.0694,0.2077,0.6027,50
+IND::Breweries & Distilleries::B,Breweries & Distilleries - Cluster B,RADICO,Core,-0.0724,0.5576,0.2201,0.2235,0.1531,50
+IND::Breweries & Distilleries::B,Breweries & Distilleries - Cluster B,TI,Core,-0.0503,0.4708,0.1312,0.2355,0.4077,38
+IND::Breweries & Distilleries::B,Breweries & Distilleries - Cluster B,NIITMTS,Core,0.1832,0.3281,0.1498,0.2094,0.7394,32
+IND::Breweries & Distilleries::B,Breweries & Distilleries - Cluster B,SULA,Core,0.33,0.4945,0.2685,0.222,0.9432,50
+IND::Breweries & Distilleries::B,Breweries & Distilleries - Cluster B,GLOBUSSPR,B,1.3313,0.4318,0.2191,0.3083,0.6081,50
+IND::Breweries & Distilleries::B,Breweries & Distilleries - Cluster B,VBL,B,2.1,0.2007,0.2992,0.28,0.3423,50
+UNCLASSIFIED::A::A::B,Unclassified - Cluster B,VINCOFE,A,-1.1519,0.7307,0.0313,0.1126,0.0775,21
+UNCLASSIFIED::A::A::B,Unclassified - Cluster B,ZOTA,A,-0.5985,0.5454,0.0442,0.0427,0.0298,21
+UNCLASSIFIED::A::A::B,Unclassified - Cluster B,AIIL,Core,-0.5816,0.6983,0.0544,0.062,0.0622,23
+UNCLASSIFIED::A::A::B,Unclassified - Cluster B,POCL,Core,0.1565,0.6511,0.063,0.1282,0.1097,23
+UNCLASSIFIED::A::A::B,Unclassified - Cluster B,ASHAPURMIN,B,0.8765,0.6045,0.0631,0.2442,0.1423,23
+UNCLASSIFIED::A::A::B,Unclassified - Cluster B,GALLANTT,B,1.5623,0.547,0.1007,0.1118,0.1459,23
+IND::Realty::B::B,Realty - Cluster B,SHRIRAMPPS,A,-0.371,0.7388,0.0,0.1612,0.693,31
+IND::Realty::B::B,Realty - Cluster B,MAXESTATES,Core,0.0,0.7238,0.0372,0.172,0.5306,23
+IND::Realty::B::B,Realty - Cluster B,ANANTRAJ,B,1.4607,0.6891,0.0,0.2352,0.2132,40
+IND::Consumer Electronics::A,Consumer Electronics - Cluster A,AMBER,A,-1.2944,0.8487,0.0832,0.2216,0.2247,50
+IND::Consumer Electronics::A,Consumer Electronics - Cluster A,DIXON,Core,-0.408,0.5993,0.0928,0.2514,0.1314,50
+IND::Consumer Electronics::A,Consumer Electronics - Cluster A,MAHSCOOTER,Core,0.1949,0.4544,0.1647,0.1664,0.2875,50
+IND::Consumer Electronics::A,Consumer Electronics - Cluster A,EMIL,B,1.124,0.4564,0.1943,0.3465,0.6401,50
+IND::Consumer Electronics::B,Consumer Electronics - Cluster B,VOLTAS,A,-1.6562,0.4586,0.0958,0.2738,0.5319,50
+IND::Consumer Electronics::B,Consumer Electronics - Cluster B,ORIENTELEC,A,-0.1288,0.2975,0.1732,0.1882,0.7354,50
+IND::Consumer Electronics::B,Consumer Electronics - Cluster B,CDSL,Core,-0.1123,0.1776,0.1611,0.2105,0.3132,50
+IND::Consumer Electronics::B,Consumer Electronics - Cluster B,SYMPHONY,Core,-0.0469,0.3466,0.1571,0.2894,0.8629,50
+IND::Consumer Electronics::B,Consumer Electronics - Cluster B,WHIRLPOOL,Core,-0.035,0.3504,0.1723,0.2259,0.7591,50
+IND::Consumer Electronics::B,Consumer Electronics - Cluster B,PGEL,Core,0.4502,0.5319,0.1809,0.3359,0.2461,42
+IND::Consumer Electronics::B,Consumer Electronics - Cluster B,BLUESTARCO,B,1.4666,0.1059,0.2218,0.2346,0.192,50
+IND::Consumer Electronics::B,Consumer Electronics - Cluster B,SAGILITY,B,3.4544,0.5985,0.3493,0.2055,0.2319,14
+IND::Banks::A::B,Banks - Cluster B,KTKBANK,A,-0.3449,0.5468,0.0249,0.2703,0.5572,50
+IND::Banks::A::B,Banks - Cluster B,INDUSINDBK,Core,-0.2731,0.6396,0.0344,0.2962,0.6283,50
+IND::Banks::A::B,Banks - Cluster B,EQUITASBNK,Core,-0.007,0.7324,0.0698,0.3245,0.6214,50
+IND::Banks::A::B,Banks - Cluster B,ICICIBANK,Core,0.6184,0.3479,0.2501,0.1481,0.3848,50
+IND::Banks::A::B,Banks - Cluster B,DCBBANK,B,1.6142,0.4768,0.2864,0.2754,0.5824,50
+IND::Electric Utilities::A::A,Electric Utilities - Cluster A,TATAPOWER,A,-1.9841,0.835,0.03,0.191,0.4917,50
+IND::Electric Utilities::A::A,Electric Utilities - Cluster A,NHPC,A,-0.6838,0.6848,0.0642,0.2078,0.4265,50
+IND::Electric Utilities::A::A,Electric Utilities - Cluster A,CESC,Core,-0.0886,0.6736,0.0931,0.2037,0.3791,50
+IND::Electric Utilities::A::A,Electric Utilities - Cluster A,NLCINDIA,Core,0.2181,0.4627,0.089,0.1859,0.3355,50
+IND::Electric Utilities::A::A,Electric Utilities - Cluster A,PTC,B,0.3748,0.5365,0.0875,0.2237,0.4951,38
+IND::Electric Utilities::A::A,Electric Utilities - Cluster A,JSWENERGY,B,2.1511,0.5504,0.1455,0.2817,0.5603,50
+IND::Electric Utilities::A::B,Electric Utilities - Cluster B,POWERGRID,A,-1.1727,0.7602,0.0695,0.1842,0.3966,50
+IND::Electric Utilities::A::B,Electric Utilities - Cluster B,NTPC,A,-0.5778,0.7082,0.0609,0.2444,0.2199,50
+IND::Electric Utilities::A::B,Electric Utilities - Cluster B,ADANIPOWER,Core,-0.2482,0.6352,0.0706,0.2442,0.2677,44
+IND::Electric Utilities::A::B,Electric Utilities - Cluster B,TORNTPOWER,Core,0.2465,0.7043,0.1177,0.2694,0.3365,50
+IND::Electric Utilities::A::B,Electric Utilities - Cluster B,ADANIENSOL,B,2.3459,0.3734,0.2038,0.2877,0.5122,27
+IND::Electric Utilities::A::B,Electric Utilities - Cluster B,ADANIGREEN,B,2.7985,0.3382,0.2403,0.2831,0.7223,42
+IND::Furniture-Furnishing-Paints::A,Furniture-Furnishing-Paints - Cluster A,KANSAINER,A,-0.7165,0.4001,0.0482,0.1318,0.6625,50
+IND::Furniture-Furnishing-Paints::A,Furniture-Furnishing-Paints - Cluster A,SOMANYCERA,Core,-0.2023,0.4831,0.0786,0.1585,0.7849,48
+IND::Furniture-Furnishing-Paints::A,Furniture-Furnishing-Paints - Cluster A,CERA,Core,0.0787,0.6562,0.0872,0.2975,0.6981,50
+IND::Furniture-Furnishing-Paints::A,Furniture-Furnishing-Paints - Cluster A,KAJARIACER,Core,0.1651,0.4394,0.066,0.2329,0.6509,50
+IND::Furniture-Furnishing-Paints::A,Furniture-Furnishing-Paints - Cluster A,GREENLAM,B,1.3833,0.3703,0.1234,0.1564,0.527,50
+IND::Furniture-Furnishing-Paints::B,Furniture-Furnishing-Paints - Cluster B,INDIGOPNTS,A,-1.1744,0.608,0.0776,0.1528,0.7795,50
+IND::Furniture-Furnishing-Paints::B,Furniture-Furnishing-Paints - Cluster B,ASIANPAINT,A,-0.617,0.6402,0.0587,0.2204,0.7473,50
+IND::Furniture-Furnishing-Paints::B,Furniture-Furnishing-Paints - Cluster B,SFL,Core,-0.1117,0.1737,0.1637,0.0971,0.8815,50
+IND::Furniture-Furnishing-Paints::B,Furniture-Furnishing-Paints - Cluster B,BERGEPAINT,Core,0.1076,0.5117,0.0835,0.2401,0.6294,50
+IND::Furniture-Furnishing-Paints::B,Furniture-Furnishing-Paints - Cluster B,AKZOINDIA,B,0.1439,0.6426,0.1388,0.2367,0.5354,50
+IND::Furniture-Furnishing-Paints::B,Furniture-Furnishing-Paints - Cluster B,AGI,B,0.8379,0.384,0.1614,0.2269,0.5637,49
+IND::Auto Parts & Equipment::B::B::A::A,Auto Parts & Equipment - Cluster A,JTEKTINDIA,A,-0.7843,0.7645,0.0286,0.1794,0.6543,50
+IND::Auto Parts & Equipment::B::B::A::A,Auto Parts & Equipment - Cluster A,MSUMI,Core,-0.5788,0.7164,0.0116,0.2072,0.6303,50
+IND::Auto Parts & Equipment::B::B::A::A,Auto Parts & Equipment - Cluster A,PRICOLLTD,Core,0.2193,0.4579,0.2462,0.1616,0.2358,50
+IND::Auto Parts & Equipment::B::B::A::A,Auto Parts & Equipment - Cluster A,JAMNAAUTO,Core,0.4826,0.4331,0.1246,0.2519,0.7186,50
+IND::Auto Parts & Equipment::B::B::A::A,Auto Parts & Equipment - Cluster A,MINDACORP,B,0.5188,0.3401,0.3291,0.1409,0.224,50
+IND::Auto Parts & Equipment::B::B::A::B,Auto Parts & Equipment - Cluster B,LGBBROSLTD,A,-1.3029,0.6584,0.0906,0.1791,0.4896,50
+IND::Auto Parts & Equipment::B::B::A::B,Auto Parts & Equipment - Cluster B,CIEINDIA,A,-0.4663,0.6618,0.1323,0.1891,0.6367,48
+IND::Auto Parts & Equipment::B::B::A::B,Auto Parts & Equipment - Cluster B,WHEELS,Core,-0.1576,0.629,0.0962,0.2545,0.522,48
+IND::Auto Parts & Equipment::B::B::A::B,Auto Parts & Equipment - Cluster B,LUMAXIND,Core,0.2703,0.5739,0.1127,0.2507,0.4181,46
+IND::Auto Parts & Equipment::B::B::A::B,Auto Parts & Equipment - Cluster B,VARROC,B,0.6549,0.3722,0.1091,0.2308,0.4656,50
+IND::Auto Parts & Equipment::B::B::A::B,Auto Parts & Equipment - Cluster B,SSWL,B,1.3751,0.4025,0.1446,0.2476,0.6205,46
+IND::Housing Finance::A,Housing Finance - Cluster A,REPCOHOME,A,-0.9868,0.6887,0.0839,0.2066,0.5213,50
+IND::Housing Finance::A,Housing Finance - Cluster A,LICHSGFIN,A,-0.6344,0.6192,0.0921,0.217,0.5515,50
+IND::Housing Finance::A,Housing Finance - Cluster A,HUDCO,Core,-0.0893,0.4222,0.1439,0.2054,0.3617,38
+IND::Housing Finance::A,Housing Finance - Cluster A,PNBHOUSING,Core,-0.073,0.4621,0.131,0.2169,0.4682,50
+IND::Housing Finance::A,Housing Finance - Cluster A,AAVAS,B,2.3554,0.2342,0.3186,0.2694,0.7565,50
+IND::Housing Finance::A,Housing Finance - Cluster A,LTF,B,2.6753,0.4298,0.2951,0.3255,0.1216,23
+IND::Housing Finance::B,Housing Finance - Cluster B,HOMEFIRST,A,-4.37,0.9183,0.0346,0.2157,0.5254,50
+IND::Housing Finance::B,Housing Finance - Cluster B,INDIASHLTR,Core,-0.1053,0.4855,0.1411,0.1795,0.3135,30
+IND::Housing Finance::B,Housing Finance - Cluster B,CANFINHOME,Core,0.2888,0.375,0.1288,0.2171,0.4955,50
+IND::Housing Finance::B,Housing Finance - Cluster B,APTUS,B,0.3378,0.4218,0.1503,0.1741,0.6627,50
+IND::Pharmaceuticals::B::A::B::A::A,Pharmaceuticals - Cluster A,FDC,A,-1.0975,0.7185,0.0748,0.1138,0.5326,50
+IND::Pharmaceuticals::B::A::B::A::A,Pharmaceuticals - Cluster A,AARTIDRUGS,Core,0.127,0.6615,0.169,0.1969,0.7598,50
+IND::Pharmaceuticals::B::A::B::A::A,Pharmaceuticals - Cluster A,SYNGENE,Core,0.2103,0.6305,0.1224,0.2534,0.6755,50
+IND::Pharmaceuticals::B::A::B::A::A,Pharmaceuticals - Cluster A,ERIS,B,1.7,0.3924,0.236,0.1745,0.3281,50
+IND::Pharmaceuticals::B::A::B::A::B,Pharmaceuticals - Cluster B,DIVISLAB,A,-1.417,0.7957,0.0703,0.206,0.3621,50
+IND::Pharmaceuticals::B::A::B::A::B,Pharmaceuticals - Cluster B,BLUEJET,A,-0.6181,0.7158,0.0547,0.2984,0.4172,32
+IND::Pharmaceuticals::B::A::B::A::B,Pharmaceuticals - Cluster B,AARTIPHARM,Core,-0.1517,0.569,0.142,0.2538,0.3266,43
+IND::Pharmaceuticals::B::A::B::A::B,Pharmaceuticals - Cluster B,LAURUSLABS,Core,0.0858,0.6013,0.0939,0.3289,0.3894,50
+IND::Pharmaceuticals::B::A::B::A::B,Pharmaceuticals - Cluster B,MARKSANS,B,1.2453,0.535,0.3098,0.3067,0.2955,50
+IND::Pharmaceuticals::B::A::B::A::B,Pharmaceuticals - Cluster B,HIKAL,B,1.326,0.2667,0.2338,0.293,0.8217,50
+IND::Industrial Machinery::A::A,Industrial Machinery - Cluster A,WENDT,A,-0.6886,0.7264,0.1007,0.2423,0.5685,42
+IND::Industrial Machinery::A::A,Industrial Machinery - Cluster A,TEAMLEASE,A,0.148,0.5239,0.2503,0.1965,0.8463,50
+IND::Industrial Machinery::A::A,Industrial Machinery - Cluster A,ISGEC,Core,0.1927,0.5184,0.124,0.2598,0.498,50
+IND::Industrial Machinery::A::A,Industrial Machinery - Cluster A,KIRLOSBROS,Core,0.2915,0.3428,0.1665,0.219,0.2969,50
+IND::Industrial Machinery::A::A,Industrial Machinery - Cluster A,3MINDIA,B,0.4159,0.2212,0.145,0.2192,0.5139,50
+IND::Industrial Machinery::A::A,Industrial Machinery - Cluster A,DOMS,B,1.1819,0.3931,0.2999,0.2238,0.1471,30
+IND::Industrial Machinery::A::B,Industrial Machinery - Cluster B,FLAIR,A,-0.4921,0.6469,0.178,0.2879,0.5678,29
+IND::Industrial Machinery::A::B,Industrial Machinery - Cluster B,SHRIPISTON,Core,-0.1624,0.41,0.2041,0.1496,0.1776,36
+IND::Industrial Machinery::A::B,Industrial Machinery - Cluster B,GODREJIND,Core,-0.0055,0.5125,0.2194,0.1968,0.2966,50
+IND::Industrial Machinery::A::B,Industrial Machinery - Cluster B,GMMPFAUDLR,B,0.9729,0.4135,0.2701,0.1751,0.8355,50
+IND::Internet Software & Services::B::A,Internet Software & Services - Cluster A,SUNTV,A,-0.4762,0.5366,0.123,0.2253,0.5642,50
+IND::Internet Software & Services::B::A,Internet Software & Services - Cluster A,MAPMYINDIA,Core,-0.3035,0.4988,0.1004,0.2504,0.5866,50
+IND::Internet Software & Services::B::A,Internet Software & Services - Cluster A,ZEEL,Core,-0.0302,0.5564,0.1793,0.2065,0.8284,50
+IND::Internet Software & Services::B::A,Internet Software & Services - Cluster A,MPSLTD,Core,0.2474,0.4617,0.114,0.2658,0.4414,25
+IND::Internet Software & Services::B::A,Internet Software & Services - Cluster A,AFFLE,B,2.2737,0.4341,0.2595,0.2587,0.4049,50
+IND::Internet Software & Services::B::B,Internet Software & Services - Cluster B,JUSTDIAL,A,-2.6784,0.7005,0.0766,0.205,0.6533,50
+IND::Internet Software & Services::B::B,Internet Software & Services - Cluster B,NAUKRI,Core,-0.6745,0.4586,0.1364,0.2075,0.411,50
+IND::Internet Software & Services::B::B,Internet Software & Services - Cluster B,INDIAMART,Core,0.2866,0.4168,0.1806,0.2197,0.6922,50
+IND::Internet Software & Services::B::B,Internet Software & Services - Cluster B,INDUSTOWER,Core,1.3643,0.3852,0.2213,0.2473,0.2997,47
+IND::Internet Software & Services::B::B,Internet Software & Services - Cluster B,TATACOMM,B,1.3907,0.1424,0.1591,0.2242,0.5137,50
+IND::Realty::B::A::A,Realty - Cluster A,PHOENIXLTD,A,-2.9249,0.8303,0.0079,0.2309,0.2584,50
+IND::Realty::B::A::A,Realty - Cluster A,LODHA,Core,0.3035,0.7091,0.0731,0.2392,0.3695,50
+IND::Realty::B::A::A,Realty - Cluster A,SOBHA,B,1.1572,0.6884,0.0626,0.2861,0.3863,50
+IND::Other Industrial Goods::A,Other Industrial Goods - Cluster A,HEG,A,-0.2023,0.7675,0.0732,0.184,0.3141,49
+IND::Other Industrial Goods::A,Other Industrial Goods - Cluster A,GRAPHITE,Core,0.0161,0.7638,0.0,0.2384,0.3532,50
+IND::Other Industrial Goods::A,Other Industrial Goods - Cluster A,RHIM,B,20.0881,0.3973,0.2151,0.1552,0.7568,50
+IND::Other Industrial Goods::B,Other Industrial Goods - Cluster B,ESABINDIA,A,-2.805,0.6409,0.0645,0.1984,0.5532,50
+IND::Other Industrial Goods::B,Other Industrial Goods - Cluster B,SBCL,A,-1.0533,0.5065,0.1408,0.1327,0.7466,44
+IND::Other Industrial Goods::B,Other Industrial Goods - Cluster B,TCI,Core,-0.1147,0.4313,0.1475,0.1743,0.4664,50
+IND::Other Industrial Goods::B,Other Industrial Goods - Cluster B,SKFINDIA,Core,0.1877,0.373,0.1408,0.2007,0.7062,50
+IND::Other Industrial Goods::B,Other Industrial Goods - Cluster B,AIAENG,B,0.9229,0.3139,0.1267,0.2773,0.4655,50
+IND::Other Industrial Goods::B,Other Industrial Goods - Cluster B,VESUVIUS,B,2.5954,0.3445,0.2272,0.1862,0.2964,50
+IND::Healthcare Services::A,Healthcare Services - Cluster A,KOVAI,A,-0.4721,0.7184,0.1561,0.1526,0.2567,48
+IND::Healthcare Services::A,Healthcare Services - Cluster A,MEDIASSIST,Core,3.8117,0.3689,0.35,0.1576,0.6529,22
+IND::Healthcare Services::A,Healthcare Services - Cluster A,THYROCARE,B,6.6475,0.866,0.1723,0.3598,0.3717,50
+IND::Healthcare Services::B,Healthcare Services - Cluster B,ETERNAL,A,-1.6647,0.7251,0.166,0.1001,0.2534,16
+IND::Healthcare Services::B,Healthcare Services - Cluster B,VIJAYA,A,-0.734,0.7209,0.1401,0.2024,0.2758,50
+IND::Healthcare Services::B,Healthcare Services - Cluster B,LALPATHLAB,Core,-0.4048,0.4247,0.0685,0.1965,0.4531,50
+IND::Healthcare Services::B,Healthcare Services - Cluster B,METROPOLIS,Core,-0.1696,0.4983,0.0858,0.2275,0.4916,50
+IND::Healthcare Services::B,Healthcare Services - Cluster B,KRSNAA,B,0.3172,0.5101,0.1483,0.2322,0.427,50
+IND::Healthcare Services::B,Healthcare Services - Cluster B,SWIGGY,B,0.4988,0.5412,0.2051,0.2184,0.5602,14
+IND::Pharmaceuticals::B::B::B::A,Pharmaceuticals - Cluster A,JUBLPHARMA,A,-0.0577,0.676,0.0411,0.1518,0.1806,36
+IND::Pharmaceuticals::B::B::B::A,Pharmaceuticals - Cluster A,WOCKPHARMA,Core,0.2018,0.5365,0.0259,0.2086,0.0801,38
+IND::Pharmaceuticals::B::B::B::A,Pharmaceuticals - Cluster A,SHILPAMED,B,0.2313,0.6361,0.0334,0.2865,0.2342,38
+IND::Pharmaceuticals::B::B::B::B,Pharmaceuticals - Cluster B,IPCALAB,A,-0.7145,0.7727,0.0313,0.2134,0.3946,50
+IND::Pharmaceuticals::B::B::B::B,Pharmaceuticals - Cluster B,MANKIND,A,-0.4505,0.7171,0.0506,0.2338,0.3932,43
+IND::Pharmaceuticals::B::B::B::B,Pharmaceuticals - Cluster B,GUFICBIO,Core,-0.3096,0.6048,0.0751,0.1755,0.5392,38
+IND::Pharmaceuticals::B::B::B::B,Pharmaceuticals - Cluster B,PPLPHARMA,Core,0.6324,0.2797,0.0963,0.3007,0.5301,50
+IND::Pharmaceuticals::B::B::B::B,Pharmaceuticals - Cluster B,JBCHEPHARM,B,0.6403,0.4088,0.1848,0.1581,0.3303,50
+IND::Pharmaceuticals::B::B::B::B,Pharmaceuticals - Cluster B,ANUP,B,1.0386,0.46,0.1579,0.3764,0.4407,23
+IND::Cement & Cement Products::A::A,Cement & Cement Products - Cluster A,AMBUJACEM,A,-4.5485,0.9458,0.0,0.1901,0.5024,50
+IND::Cement & Cement Products::A::A,Cement & Cement Products - Cluster A,GRASIM,Core,-2.4028,0.417,0.1773,0.0917,0.3418,50
+IND::Cement & Cement Products::A::A,Cement & Cement Products - Cluster A,ACC,B,0.3035,0.6443,0.1894,0.1842,0.7822,50
+IND::Cement & Cement Products::A::B,Cement & Cement Products - Cluster B,SHREECEM,A,-0.3596,0.6999,0.0568,0.2286,0.5652,50
+IND::Cement & Cement Products::A::B,Cement & Cement Products - Cluster B,RAMCOCEM,Core,-0.1677,0.6443,0.0478,0.2627,0.3854,50
+IND::Cement & Cement Products::A::B,Cement & Cement Products - Cluster B,DALBHARAT,Core,0.0706,0.7187,0.0714,0.2837,0.46,50
+IND::Cement & Cement Products::A::B,Cement & Cement Products - Cluster B,JKLAKSHMI,Core,0.7884,0.4357,0.0927,0.2121,0.5572,50
+IND::Cement & Cement Products::A::B,Cement & Cement Products - Cluster B,ULTRACEMCO,B,0.9533,0.5153,0.1543,0.112,0.3178,50
+IND::Other Apparels & Accessories::A,Other Apparels & Accessories - Cluster A,KKCL,A,-0.885,0.7637,0.0,0.2368,0.5976,50
+IND::Other Apparels & Accessories::A,Other Apparels & Accessories - Cluster A,VIPIND,Core,-0.1686,0.3538,0.11,0.1951,0.8711,50
+IND::Other Apparels & Accessories::A,Other Apparels & Accessories - Cluster A,SAFARI,B,0.5208,0.2592,0.2253,0.2103,0.384,50
+IND::Other Apparels & Accessories::B,Other Apparels & Accessories - Cluster B,SPAL,A,-1.0896,0.6301,0.1238,0.1491,0.4758,48
+IND::Other Apparels & Accessories::B,Other Apparels & Accessories - Cluster B,ARVINDFASN,Core,-0.1553,0.5971,0.1372,0.1947,0.5001,50
+IND::Other Apparels & Accessories::B,Other Apparels & Accessories - Cluster B,GOCOLORS,Core,1.4407,0.6002,0.256,0.1858,0.8221,50
+IND::Other Apparels & Accessories::B,Other Apparels & Accessories - Cluster B,PAGEIND,B,4.0949,0.334,0.1662,0.2767,0.7559,50
+IND::Refineries/Petro-Products::A,Refineries/Petro-Products - Cluster A,CHENNPETRO,A,-0.3372,0.8547,0.0219,0.3243,0.3204,40
+IND::Refineries/Petro-Products::A,Refineries/Petro-Products - Cluster A,MRPL,Core,0.0,0.5844,0.0524,0.2938,0.3307,47
+IND::Refineries/Petro-Products::A,Refineries/Petro-Products - Cluster A,RELIANCE,B,0.8733,0.2136,0.1566,0.2137,0.5154,50
+IND::Refineries/Petro-Products::B,Refineries/Petro-Products - Cluster B,BPCL,A,-0.8121,0.7969,0.0316,0.2144,0.3325,50
+IND::Refineries/Petro-Products::B,Refineries/Petro-Products - Cluster B,HINDPETRO,Core,-0.7194,0.755,0.05,0.1927,0.2228,50
+IND::Refineries/Petro-Products::B,Refineries/Petro-Products - Cluster B,COALINDIA,Core,0.606,0.5868,0.1285,0.2774,0.4508,50
+IND::Refineries/Petro-Products::B,Refineries/Petro-Products - Cluster B,GMDCLTD,B,1.1892,0.313,0.137,0.2768,0.4655,46
+UNCLASSIFIED::A::A::A::A,Unclassified - Cluster A,AGARWALEYE,A,-0.8324,0.8922,0.1113,0.1448,0.1298,9
+UNCLASSIFIED::A::A::A::A,Unclassified - Cluster A,QPOWER,Core,0.0016,0.8437,0.145,0.155,0.0808,9
+UNCLASSIFIED::A::A::A::A,Unclassified - Cluster A,KRN,Core,0.3399,0.7048,0.1107,0.2087,0.3733,16
+UNCLASSIFIED::A::A::A::A,Unclassified - Cluster A,IKS,B,2.2596,0.69,0.237,0.176,0.4905,11
+UNCLASSIFIED::A::A::A::B,Unclassified - Cluster B,PENIND,A,0.0,0.6428,0.0,0.1482,0.1911,23
+UNCLASSIFIED::A::A::A::B,Unclassified - Cluster B,AFCONS,Core,0.0337,0.3921,0.4121,0.1224,0.8037,14
+UNCLASSIFIED::A::A::A::B,Unclassified - Cluster B,TRANSRAILL,B,0.1722,0.9192,0.0,0.2088,0.2712,11
+IND::Banks::A::A::A,Banks - Cluster A,CSBBANK,A,-1.4489,0.7896,0.0558,0.2852,0.248,50
+IND::Banks::A::A::A,Banks - Cluster A,IDFCFIRSTB,Core,-0.074,0.754,0.0614,0.3317,0.4235,50
+IND::Banks::A::A::A,Banks - Cluster A,RBLBANK,Core,0.624,0.6855,0.0708,0.3272,0.2821,50
+IND::Banks::A::A::A,Banks - Cluster A,AUBANK,B,1.4295,0.7214,0.1021,0.3149,0.4849,50
+IND::Banks::A::A::B,Banks - Cluster B,HDFCBANK,A,-0.3035,0.7715,0.0,0.2429,0.4111,50
+IND::Banks::A::A::B,Banks - Cluster B,KOTAKBANK,Core,-0.0337,0.8073,0.0598,0.2556,0.6219,50
+IND::Banks::A::A::B,Banks - Cluster B,FEDERALBNK,B,0.1693,0.5995,0.1563,0.1455,0.2786,50
+IND::Realty::B::A::B::A,Realty - Cluster A,PRESTIGE,A,-2.3646,0.8165,0.0372,0.1968,0.2628,50
+IND::Realty::B::A::B::A,Realty - Cluster A,SIGNATURE,Core,-0.759,0.876,0.0318,0.2735,0.61,32
+IND::Realty::B::A::B::A,Realty - Cluster A,BRIGADE,Core,0.5709,0.7346,0.0549,0.2745,0.4076,50
+IND::Realty::B::A::B::A,Realty - Cluster A,GODREJPROP,B,1.0522,0.7846,0.0707,0.2862,0.4157,50
+IND::Realty::B::A::B::B,Realty - Cluster B,OBEROIRLTY,A,-0.3551,0.8098,0.0876,0.1964,0.3509,50
+IND::Realty::B::A::B::B,Realty - Cluster B,ABREL,Core,-0.3372,0.8644,0.0736,0.2791,0.72,23
+IND::Realty::B::A::B::B,Realty - Cluster B,DLF,B,1.0719,0.6189,0.1044,0.2525,0.4389,50

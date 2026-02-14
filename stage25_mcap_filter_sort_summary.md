@@ -1,0 +1,65 @@
+# Stage25 MCap Filter + Theme Order Summary
+
+- MCap threshold applied: >= 1000 Cr
+- Input rows: 933
+- Output rows: 862
+- Input symbols: 818
+- Output symbols: 757
+- Symbols removed (<1000 Cr): 61
+- Themes before: 154
+- Themes after: 154
+- Themes dropped entirely: 0
+
+## Sorting Rule
+- Inside each theme, symbols are ordered by market cap descending (largest to smallest).
+
+## Themes That Shrank After Filter
+- Auto Components - Body / Thermal / Interior - Mid Cap: 8 -> 7
+- Auto Components - Body / Thermal / Interior - Small Cap: 4 -> 2
+- Auto Components - Driveline / Chassis: 15 -> 11
+- B2B Distribution Platforms: 7 -> 4
+- Capital Markets Ecosystem - Wealth & Broking: 8 -> 7
+- Consumer Durables & Electronics: 10 -> 8
+- Defence, Aerospace & Strategic Manufacturing: 13 -> 12
+- Diagnostics & Pathology Chains: 6 -> 5
+- EV Mobility Stack - Components & Systems: 7 -> 6
+- Electrical Cables, Wires & Conductors: 9 -> 7
+- Electrical Equipment: 6 -> 4
+- Furniture-Furnishing-Paints - Small Cap: 4 -> 3
+- Healthcare Services Platforms: 8 -> 7
+- Holding Companies: 6 -> 5
+- Hospitality Chains: 11 -> 10
+- Hospitals - Small Cap: 5 -> 4
+- Houseware: 6 -> 3
+- IT Products: 8 -> 6
+- IT Services - Enterprise / BFSI: 12 -> 11
+- India Digital Stack - Consumer Internet: 13 -> 11
+- India Digital Stack - Enterprise Platforms: 12 -> 10
+- Industrial Engineering: 7 -> 5
+- Industrial Machinery - Process / Precision: 5 -> 4
+- Industrial Products - Small Cap: 4 -> 3
+- Infra Buildout - EPC Contractors: 12 -> 11
+- Infra Buildout - Marine & Dredging: 3 -> 2
+- Infra Buildout - Roads & Expressways: 5 -> 4
+- Luxury Retail & Premium Consumption: 9 -> 8
+- NBFC - Diversified Credit: 12 -> 11
+- Niche Retail & Entertainment: 4 -> 3
+- Organized Retail - Value & Fashion: 11 -> 10
+- Other Apparels & Accessories: 7 -> 4
+- Personal Care: 9 -> 8
+- Pharma - Specialty / Emerging: 9 -> 6
+- Pharma API & Intermediates: 13 -> 12
+- Pharma CDMO - Core Contract Manufacturing: 10 -> 9
+- Plastic Products: 6 -> 5
+- Power Equip - Grid & T&D: 13 -> 12
+- Process Inputs & Industrial Chemicals: 6 -> 5
+- Real Estate - Residential Developers - Small Cap: 4 -> 3
+- Refineries/Petro-Products: 6 -> 5
+- Renewables & Energy Transition: 9 -> 8
+- Specialty Chem - Fluoro & Refrigerants: 5 -> 4
+- Stationery & Writing Instruments: 3 -> 2
+- Steel - Primary / Long Products: 8 -> 7
+- Sugar & Bioenergy: 4 -> 3
+- Textiles: 11 -> 7
+- Tourism Ecosystem - Discovery & Booking: 5 -> 4
+- Tourism Ecosystem - Mobility & Hospitality: 9 -> 8

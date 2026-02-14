@@ -1,0 +1,11 @@
+theme,size,A_count,Core_count,B_count,A_symbols,B_symbols
+Banking_NBFC_Core,13,4,5,4,"AXISBANK, CUB, FEDERALBNK, KARURVYSYA","IDFCFIRSTB, LTF, PNB, UJJIVANSFB"
+Auto_Mobility_Components,9,3,3,3,"FIEMIND, LUMAXTECH, SJS","AVL, CRAFTSMAN, MSUMI"
+Metals_Mining_Materials,8,2,4,2,"HINDALCO, TATASTEEL","GMDCLTD, HINDZINC"
+Industrial_Manufacturing_Exports,8,2,4,2,"APLAPOLLO, SHAILY","AIAENG, MTARTECH"
+Consumer_Premium_Retail,8,2,4,2,"IXIGO, RADICO","CARTRADE, ETHOSLTD"
+Alt_Finance_Insurance,7,2,3,2,"AADHARHFC, MANAPPURAM","ABCAPITAL, HDFCLIFE"
+Healthcare_Pharma_Diagnostics,7,2,3,2,"LAURUSLABS, TORNTPHARM","ACUTAAS, METROPOLIS"
+Power_Energy_Logistics,7,2,3,2,"ADANIPORTS, ADANIPOWER","GESHIP, POWERINDIA"
+Market_Infrastructure_Wealth,6,2,2,2,"BSE, MCX","IIFL, MFSL"
+Telecom_IT_Digital,6,2,2,2,"BHARTIARTL, COFORGE","IDEA, PAYTM"

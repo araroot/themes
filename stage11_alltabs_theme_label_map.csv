@@ -1,0 +1,105 @@
+theme_id,theme_label,theme_family,group_no
+IND::2/3 Wheelers,2 / 3 Wheelers,2 / 3 Wheelers,1
+IND::Agrochemicals,Agrochemicals,Agrochemicals,1
+IND::Aluminium and Aluminium Products,Aluminium And Aluminium Products,Aluminium And Aluminium Products,1
+IND::Asset Management Cos.,Asset Management Cos.,Asset Management Cos.,1
+IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,1
+IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,2
+IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,3
+IND::Auto Parts & Equipment::A,Auto Parts & Equipment · Group 4,Auto Parts & Equipment,4
+IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,1
+IND::Banks::B::B,Banks · Group 1,Banks,1
+IND::Banks::A,Banks · Group 2,Banks,2
+IND::Banks::B::A,Banks · Group 3,Banks,3
+IND::Biotechnology,Biotechnology,Biotechnology,1
+IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,1
+IND::Cars & Utility Vehicles,Cars & Utility Vehicles,Cars & Utility Vehicles,1
+THEME::Cdmo,CDMO,CDMO,1
+IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,1
+IND::Cigarettes-Tobacco Products,Cigarettes-tobacco Products,Cigarettes-tobacco Products,1
+IND::Commercial Vehicles,Commercial Vehicles,Commercial Vehicles,1
+IND::Commodity Chemicals,Commodity Chemicals,Commodity Chemicals,1
+IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,1
+IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,1
+IND::Containers & Packaging,Containers & Packaging,Containers & Packaging,1
+IND::Defence,Defence,Defence,1
+IND::Department Stores,Department Stores,Department Stores,1
+IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,1
+IND::Electric Utilities::B,Electric Utilities · Group 2,Electric Utilities,2
+IND::Exchange,Exchange,Exchange,1
+IND::Fertilizers,Fertilizers,Fertilizers,1
+IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),1
+IND::Finance (including NBFCs)::B::B,Finance (including Nbfcs) · Group 2,Finance (including Nbfcs),2
+IND::Finance (including NBFCs)::A,Finance (including Nbfcs) · Group 3,Finance (including Nbfcs),3
+IND::Footwear,Footwear,Footwear,1
+IND::Forest Products,Forest Products,Forest Products,1
+IND::Furniture-Furnishing-Paints,Furniture-furnishing-paints,Furniture-furnishing-paints,1
+IND::Gems & Jewellery,Gems & Jewellery,Gems & Jewellery,1
+IND::General Insurance,General Insurance,General Insurance,1
+IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,1
+IND::Healthcare Services,Healthcare Services,Healthcare Services,1
+IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment · Group 1,Heavy Electrical Equipment,1
+IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment · Group 2,Heavy Electrical Equipment,2
+IND::Holding Companies,Holding Companies,Holding Companies,1
+IND::Hotels,Hotels,Hotels,1
+IND::Household Appliances,Household Appliances,Household Appliances,1
+IND::Houseware,Houseware,Houseware,1
+IND::Housing Finance,Housing Finance,Housing Finance,1
+IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,1
+IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,2
+IND::IT Consulting & Software::B::B::B,IT Consulting & Software · Group 3,IT Consulting & Software,3
+IND::IT Consulting & Software::A,IT Consulting & Software · Group 4,IT Consulting & Software,4
+IND::IT Consulting & Software::B::A,IT Consulting & Software · Group 5,IT Consulting & Software,5
+IND::IT Software Products,IT Software Products,IT Software Products,1
+IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,1
+IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,2
+IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,1
+IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,1
+IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,1
+IND::Life Insurance,Life Insurance,Life Insurance,1
+IND::Marine Port & Services,Marine Port & Services,Marine Port & Services,1
+IND::Mining,Mining,Mining,1
+UNCLASSIFIED::B::A::B::NoRank::1,Cross-sector (no Rank) · Group 1,Cross-sector (no Rank),1
+UNCLASSIFIED::B::A::B::NoRank::2,Cross-sector (no Rank) · Group 2,Cross-sector (no Rank),2
+UNCLASSIFIED::B::A::B::NoRank::3,Cross-sector (no Rank) · Group 3,Cross-sector (no Rank),3
+UNCLASSIFIED::NoRank,Cross-sector (no Rank) · Group 4,Cross-sector (no Rank),4
+IND::Oil Marketing & Distribution,Oil Marketing & Distribution,Oil Marketing & Distribution,1
+IND::Other Apparels & Accessories,Other Apparels & Accessories,Other Apparels & Accessories,1
+IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,1
+IND::Other Electrical Equipment/Products::A,Other Electrical Equipment / Products · Group 2,Other Electrical Equipment / Products,2
+IND::Other Financial Services,Other Financial Services,Other Financial Services,1
+IND::Other Food Products,Other Food Products,Other Food Products,1
+IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,1
+IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,1
+IND::Packaged Foods,Packaged Foods,Packaged Foods,1
+IND::Paper & Paper Products,Paper & Paper Products,Paper & Paper Products,1
+IND::Personal Products,Personal Products,Personal Products,1
+IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,1
+IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,2
+IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,3
+IND::Pharmaceuticals::B::A::A,Pharmaceuticals · Group 4,Pharmaceuticals,4
+IND::Pharmaceuticals::A,Pharmaceuticals · Group 5,Pharmaceuticals,5
+IND::Plastic Products,Plastic Products,Plastic Products,1
+IND::Realty::B,Realty · Group 1,Realty,1
+IND::Realty::A,Realty · Group 2,Realty,2
+IND::Refineries/Petro-Products,Refineries / Petro-products,Refineries / Petro-products,1
+IND::Restaurants,Restaurants,Restaurants,1
+IND::Roads & Highways,Roads & Highways,Roads & Highways,1
+IND::Shipping,Shipping,Shipping,1
+IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,1
+IND::Specialty Chemicals::B,Specialty Chemicals · Group 2,Specialty Chemicals,2
+IND::Specialty Retail,Specialty Retail,Specialty Retail,1
+IND::Textiles,Textiles,Textiles,1
+IND::Transportation - Logistics,Transportation - Logistics,Transportation - Logistics,1
+IND::Travel Support Services,Travel Support Services,Travel Support Services,1
+UNCLASSIFIED::B::A::B,Cross-sector · Group 1,Cross-sector,1
+UNCLASSIFIED::A::A,Cross-sector · Group 2,Cross-sector,2
+UNCLASSIFIED::B::B::A::B::B,Cross-sector · Group 3,Cross-sector,3
+UNCLASSIFIED::A::B,Cross-sector · Group 4,Cross-sector,4
+UNCLASSIFIED::B::B::A::A::B,Cross-sector · Group 5,Cross-sector,5
+UNCLASSIFIED::B::B::B::A,Cross-sector · Group 6,Cross-sector,6
+UNCLASSIFIED::B::B::B::B,Cross-sector · Group 7,Cross-sector,7
+UNCLASSIFIED::B::B::A::A::A,Cross-sector · Group 8,Cross-sector,8
+UNCLASSIFIED::B::B::A::B::A,Cross-sector · Group 9,Cross-sector,9
+UNCLASSIFIED::B::A::A,Cross-sector · Group 10,Cross-sector,10
+IND::Utilities:Non-Electrical,Utilities:non-electrical,Utilities:non-electrical,1

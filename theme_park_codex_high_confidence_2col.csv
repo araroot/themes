@@ -1,0 +1,722 @@
+Symbol,Theme
+BAJAJ-AUTO,2W/3W OEMs
+EICHERMOT,2W/3W OEMs
+HEROMOTOCO,2W/3W OEMs
+TVSMOTOR,2W/3W OEMs
+ADANIENT,Adani Ecosystem
+ADANIPORTS,Adani Ecosystem
+ADANIPOWER,Adani Ecosystem
+AVANTIFEED,Agri Inputs & Farm Value Chain
+DHANUKA,Agri Inputs & Farm Value Chain
+GODREJAGRO,Agri Inputs & Farm Value Chain
+LTFOODS,Agri Inputs & Farm Value Chain
+MANORAMA,Agri Inputs & Farm Value Chain
+OSWALPUMPS,Agri Inputs & Farm Value Chain
+SHAKTIPUMP,Agri Inputs & Farm Value Chain
+BAYERCROP,Agrochemicals
+RALLIS,Agrochemicals
+SHARDACROP,Agrochemicals
+SUMICHEM,Agrochemicals
+ABDL,Alcoholic Beverages
+GLOBUSSPR,Alcoholic Beverages
+RADICO,Alcoholic Beverages
+TI,Alcoholic Beverages
+UBL,Alcoholic Beverages
+UNITDSPR,Alcoholic Beverages
+CIEINDIA,Auto Components - Body / Thermal / Interior - Large Cap
+LGBBROSLTD,Auto Components - Body / Thermal / Interior - Mid Cap
+MINDACORP,Auto Components - Body / Thermal / Interior - Mid Cap
+PRICOLLTD,Auto Components - Body / Thermal / Interior - Mid Cap
+SHARDAMOTR,Auto Components - Body / Thermal / Interior - Mid Cap
+STUDDS,Auto Components - Body / Thermal / Interior - Mid Cap
+SUBROS,Auto Components - Body / Thermal / Interior - Mid Cap
+TENNIND,Auto Components - Body / Thermal / Interior - Mid Cap
+DIVGIITTS,Auto Components - Body / Thermal / Interior - Small Cap
+LUMAXIND,Auto Components - Body / Thermal / Interior - Small Cap
+SANDHAR,Auto Components - Body / Thermal / Interior - Small Cap
+VARROC,Auto Components - Body / Thermal / Interior - Small Cap
+CARRARO,Auto Components - Driveline / Chassis
+SSWL,Auto Components - Driveline / Chassis
+SUNDRMFAST,Auto Components - Driveline / Chassis
+SUPRAJIT,Auto Components - Driveline / Chassis
+TIINDIA,Auto Components - Driveline / Chassis
+TVSHLTD,Auto Components - Driveline / Chassis
+WHEELS,Auto Components - Driveline / Chassis
+ENDURANCE,"Auto Components - Electrical, Interiors & Lighting"
+FIEMIND,"Auto Components - Electrical, Interiors & Lighting"
+LUMAXTECH,"Auto Components - Electrical, Interiors & Lighting"
+SJS,"Auto Components - Electrical, Interiors & Lighting"
+BELRISE,"Auto Components - Precision, Systems & Harnesses"
+CRAFTSMAN,"Auto Components - Precision, Systems & Harnesses"
+MOTHERSON,"Auto Components - Precision, Systems & Harnesses"
+MSUMI,"Auto Components - Precision, Systems & Harnesses"
+SHRIPISTON,"Auto Components - Precision, Systems & Harnesses"
+BUILDPRO,B2B Distribution Platforms
+ENTERO,B2B Distribution Platforms
+OPTIEMUS,B2B Distribution Platforms
+REDINGTON,B2B Distribution Platforms
+RPTECH,B2B Distribution Platforms
+AXISBANK,Banks - Private Universal (Large)
+HDFCBANK,Banks - Private Universal (Large)
+ICICIBANK,Banks - Private Universal (Large)
+KOTAKBANK,Banks - Private Universal (Large)
+AUBANK,Banks - Private Universal (Mid)
+FEDERALBNK,Banks - Private Universal (Mid)
+IDFCFIRSTB,Banks - Private Universal (Mid)
+INDUSINDBK,Banks - Private Universal (Mid)
+BANKBARODA,Banks - Public Sector
+CANBK,Banks - Public Sector
+INDIANB,Banks - Public Sector
+MAHABANK,Banks - Public Sector
+PNB,Banks - Public Sector
+SBIN,Banks - Public Sector
+UNIONBANK,Banks - Public Sector
+BANKINDIA,Banks - Regional & Niche
+CSBBANK,Banks - Regional & Niche
+DCBBANK,Banks - Regional & Niche
+EQUITASBNK,Banks - Regional & Niche
+J&KBANK,Banks - Regional & Niche
+KTKBANK,Banks - Regional & Niche
+SOUTHBANK,Banks - Regional & Niche
+CUB,Banks - Regional & SFB
+KARURVYSYA,Banks - Regional & SFB
+RBLBANK,Banks - Regional & SFB
+UJJIVANSFB,Banks - Regional & SFB
+HINDALCO,Base Metals & Mining
+HINDCOPPER,Base Metals & Mining
+HINDZINC,Base Metals & Mining
+NATIONALUM,Base Metals & Mining
+VEDL,Base Metals & Mining
+ABSLAMC,Capital Markets Ecosystem - Asset Managers
+CRAMC,Capital Markets Ecosystem - Asset Managers
+HDFCAMC,Capital Markets Ecosystem - Asset Managers
+ICICIAMC,Capital Markets Ecosystem - Asset Managers
+NAM-INDIA,Capital Markets Ecosystem - Asset Managers
+UTIAMC,Capital Markets Ecosystem - Asset Managers
+GROWW,Capital Markets Ecosystem - Digital Finance Platforms
+PAYTM,Capital Markets Ecosystem - Digital Finance Platforms
+PINELABS,Capital Markets Ecosystem - Digital Finance Platforms
+POLICYBZR,Capital Markets Ecosystem - Digital Finance Platforms
+ZAGGLE,Capital Markets Ecosystem - Digital Finance Platforms
+BSE,Capital Markets Ecosystem - Market Infrastructure
+CAMS,Capital Markets Ecosystem - Market Infrastructure
+CDSL,Capital Markets Ecosystem - Market Infrastructure
+IEX,Capital Markets Ecosystem - Market Infrastructure
+KFINTECH,Capital Markets Ecosystem - Market Infrastructure
+MCX,Capital Markets Ecosystem - Market Infrastructure
+360ONE,Capital Markets Ecosystem - Wealth & Broking
+ANANDRATHI,Capital Markets Ecosystem - Wealth & Broking
+ANGELONE,Capital Markets Ecosystem - Wealth & Broking
+DAMCAPITAL,Capital Markets Ecosystem - Wealth & Broking
+IIFLCAPS,Capital Markets Ecosystem - Wealth & Broking
+JMFINANCIL,Capital Markets Ecosystem - Wealth & Broking
+MOTILALOFS,Capital Markets Ecosystem - Wealth & Broking
+NUVAMA,Capital Markets Ecosystem - Wealth & Broking
+AMBUJACEM,Cement - Large Integrated
+DALBHARAT,Cement - Large Integrated
+GRASIM,Cement - Large Integrated
+JSWCEMENT,Cement - Large Integrated
+SHREECEM,Cement - Large Integrated
+ULTRACEMCO,Cement - Large Integrated
+BIRLACORPN,Cement - Regional / Midcap
+CEMPRO,Cement - Regional / Midcap
+JKCEMENT,Cement - Regional / Midcap
+JKLAKSHMI,Cement - Regional / Midcap
+NUVOCO,Cement - Regional / Midcap
+RAMCOCEM,Cement - Regional / Midcap
+STARCEMENT,Cement - Regional / Midcap
+ASHOKLEY,Commercial Vehicles
+BEML,Commercial Vehicles
+ESCORTS,Commercial Vehicles
+FORCEMOT,Commercial Vehicles
+TMCV,Commercial Vehicles
+VSTTILLERS,Commercial Vehicles
+ACI,Commodity Chemicals
+DEEPAKNTR,Commodity Chemicals
+GHCL,Commodity Chemicals
+TATACHEM,Commodity Chemicals
+TIRUMALCHM,Commodity Chemicals
+CPPLUS,Consumer Durables & Electronics
+EBGNG,Consumer Durables & Electronics
+EPACK,Consumer Durables & Electronics
+LGEINDIA,Consumer Durables & Electronics
+ORIENTELEC,Consumer Durables & Electronics
+SYMPHONY,Consumer Durables & Electronics
+WHIRLPOOL,Consumer Durables & Electronics
+DABUR,Consumer Staples Brands
+GODREJCP,Consumer Staples Brands
+MARICO,Consumer Staples Brands
+NESTLEIND,Consumer Staples Brands
+SANOFICONR,Consumer Staples Brands
+VBL,Consumer Staples Brands
+EPL,Containers & Packaging
+MOLDTKPAC,Containers & Packaging
+BLUESTARCO,Cooling & Air-Conditioning
+KRN,Cooling & Air-Conditioning
+VOLTAS,Cooling & Air-Conditioning
+DODLA,Dairy
+HATSUN,Dairy
+HERITGFOOD,Dairy
+AEQUS,"Defence, Aerospace & Strategic Manufacturing"
+ASTRAMICRO,"Defence, Aerospace & Strategic Manufacturing"
+BDL,"Defence, Aerospace & Strategic Manufacturing"
+BEL,"Defence, Aerospace & Strategic Manufacturing"
+CENTUM,"Defence, Aerospace & Strategic Manufacturing"
+DATAPATTNS,"Defence, Aerospace & Strategic Manufacturing"
+DYNAMATECH,"Defence, Aerospace & Strategic Manufacturing"
+GRSE,"Defence, Aerospace & Strategic Manufacturing"
+HAL,"Defence, Aerospace & Strategic Manufacturing"
+MAZDOCK,"Defence, Aerospace & Strategic Manufacturing"
+MTARTECH,"Defence, Aerospace & Strategic Manufacturing"
+UNIMECH,"Defence, Aerospace & Strategic Manufacturing"
+ZENTEC,"Defence, Aerospace & Strategic Manufacturing"
+KRSNAA,Diagnostics & Pathology Chains
+LALPATHLAB,Diagnostics & Pathology Chains
+METROPOLIS,Diagnostics & Pathology Chains
+SURAKSHA,Diagnostics & Pathology Chains
+THYROCARE,Diagnostics & Pathology Chains
+VIJAYA,Diagnostics & Pathology Chains
+ATHERENERG,EV Mobility Stack - 2W OEMs
+OLAELEC,EV Mobility Stack - 2W OEMs
+BOSCHLTD,EV Mobility Stack - Components & Systems
+EXIDEIND,EV Mobility Stack - Components & Systems
+JTEKTINDIA,EV Mobility Stack - Components & Systems
+SCHAEFFLER,EV Mobility Stack - Components & Systems
+SONACOMS,EV Mobility Stack - Components & Systems
+UNOMINDA,EV Mobility Stack - Components & Systems
+ZFCVINDIA,EV Mobility Stack - Components & Systems
+APARINDS,"Electrical Cables, Wires & Conductors"
+BANSALWIRE,"Electrical Cables, Wires & Conductors"
+FINCABLES,"Electrical Cables, Wires & Conductors"
+KEI,"Electrical Cables, Wires & Conductors"
+POLYCAB,"Electrical Cables, Wires & Conductors"
+RRKABEL,"Electrical Cables, Wires & Conductors"
+USHAMART,"Electrical Cables, Wires & Conductors"
+ATLANTAELE,Electrical Equipment
+BBL,Electrical Equipment
+HAVELLS,Electrical Equipment
+HONAUT,Electrical Equipment
+UNIVCABLES,Electrical Equipment
+VGUARD,Electrical Equipment
+GRAPHITE,Electrodes
+HEG,Electrodes
+AMBER,Electronics Manufacturing Services
+AVALON,Electronics Manufacturing Services
+CYIENTDLM,Electronics Manufacturing Services
+DIXON,Electronics Manufacturing Services
+KAYNES,Electronics Manufacturing Services
+PGEL,Electronics Manufacturing Services
+SYRMA,Electronics Manufacturing Services
+CHAMBLFERT,Fertilizers
+COROMANDEL,Fertilizers
+DEEPAKFERT,Fertilizers
+PARADEEP,Fertilizers
+UPL,Fertilizers
+CARERATING,Financial Services
+CMSINFO,Financial Services
+CRISIL,Financial Services
+EDELWEISS,Financial Services
+ICRA,Financial Services
+PRUDENT,Financial Services
+RELIGARE,Financial Services
+AWFIS,Flexible Workspaces & Office Platforms
+INDIQUBE,Flexible Workspaces & Office Platforms
+SMARTWORKS,Flexible Workspaces & Office Platforms
+BATAINDIA,Footwear
+CAMPUS,Footwear
+METROBRAND,Footwear
+REDTAPE,Footwear
+CENTURYPLY,Forest Products
+GREENPANEL,Forest Products
+GREENPLY,Forest Products
+STYLAMIND,Forest Products
+AKZOINDIA,Furniture-Furnishing-Paints - Large Cap
+ASIANPAINT,Furniture-Furnishing-Paints - Large Cap
+BERGEPAINT,Furniture-Furnishing-Paints - Large Cap
+KAJARIACER,Furniture-Furnishing-Paints - Large Cap
+CERA,Furniture-Furnishing-Paints - Mid Cap
+GREENLAM,Furniture-Furnishing-Paints - Mid Cap
+KANSAINER,Furniture-Furnishing-Paints - Mid Cap
+WAKEFIT,Furniture-Furnishing-Paints - Mid Cap
+INDIGOPNTS,Furniture-Furnishing-Paints - Small Cap
+SFL,Furniture-Furnishing-Paints - Small Cap
+SOMANYCERA,Furniture-Furnishing-Paints - Small Cap
+GICRE,General Insurance
+GODIGIT,General Insurance
+NIVABUPA,General Insurance
+STARHEALTH,General Insurance
+FEDFINA,Gold Lending & Bullion Finance
+IIFL,Gold Lending & Bullion Finance
+MANAPPURAM,Gold Lending & Bullion Finance
+MUTHOOTFIN,Gold Lending & Bullion Finance
+AGARWALEYE,Healthcare Services Platforms
+IKS,Healthcare Services Platforms
+INDGN,Healthcare Services Platforms
+LAXMIDENTL,Healthcare Services Platforms
+MEDIASSIST,Healthcare Services Platforms
+MEDPLUS,Healthcare Services Platforms
+BAJAJHLDNG,Holding Companies
+CHOLAHLDNG,Holding Companies
+GODREJIND,Holding Companies
+JSWHL,Holding Companies
+MAHSCOOTER,Holding Companies
+RANEHOLDIN,Holding Companies
+CHALET,Hospitality Chains
+EIHOTEL,Hospitality Chains
+INDHOTEL,Hospitality Chains
+LEMONTREE,Hospitality Chains
+MHRIL,Hospitality Chains
+SAMHI,Hospitality Chains
+VENTIVE,Hospitality Chains
+APOLLOHOSP,Hospitals - Large Cap
+FORTIS,Hospitals - Large Cap
+MAXHEALTH,Hospitals - Large Cap
+MEDANTA,Hospitals - Large Cap
+ASTERDM,Hospitals - Mid Cap
+KIMS,Hospitals - Mid Cap
+KOVAI,Hospitals - Mid Cap
+NH,Hospitals - Mid Cap
+RAINBOW,Hospitals - Mid Cap
+HCG,Hospitals - Small Cap
+JLHL,Hospitals - Small Cap
+YATHARTH,Hospitals - Small Cap
+CROMPTON,Household Appliances
+EUREKAFORB,Household Appliances
+IFBIND,Household Appliances
+BORORENEW,Houseware
+CARYSIL,Houseware
+EUROPRATIK,Houseware
+LAOPALA,Houseware
+STOVEKRAFT,Houseware
+TTKPRESTIG,Houseware
+AADHARHFC,Housing Finance
+APTUS,Housing Finance
+BAJAJHFL,Housing Finance
+CANFINHOME,Housing Finance
+HOMEFIRST,Housing Finance
+HUDCO,Housing Finance
+INDIASHLTR,Housing Finance
+LICHSGFIN,Housing Finance
+PNBHOUSING,Housing Finance
+REPCOHOME,Housing Finance
+AEGISLOG,Hydrocarbon Upstream & Gas Infrastructure
+OIL,Hydrocarbon Upstream & Gas Infrastructure
+ONGC,Hydrocarbon Upstream & Gas Infrastructure
+PETRONET,Hydrocarbon Upstream & Gas Infrastructure
+INTELLECT,IT Products
+RATEGAIN,IT Products
+TATATECH,IT Products
+COFORGE,IT Services - Engineering & ER&D
+KPITTECH,IT Services - Engineering & ER&D
+LTTS,IT Services - Engineering & ER&D
+MPHASIS,IT Services - Engineering & ER&D
+TATAELXSI,IT Services - Engineering & ER&D
+ECLERX,IT Services - Enterprise / BFSI
+FSL,IT Services - Enterprise / BFSI
+NEWGEN,IT Services - Enterprise / BFSI
+OFSS,IT Services - Enterprise / BFSI
+HEXT,IT Services - Midcap
+MASTEK,IT Services - Midcap
+ZENSARTECH,IT Services - Midcap
+HCLTECH,IT Services - Tier 1
+INFY,IT Services - Tier 1
+LTIM,IT Services - Tier 1
+TCS,IT Services - Tier 1
+TECHM,IT Services - Tier 1
+WIPRO,IT Services - Tier 1
+BBOX,India Digital Stack - Connectivity & Infra
+BHARTIARTL,India Digital Stack - Connectivity & Infra
+BHARTIHEXA,India Digital Stack - Connectivity & Infra
+E2E,India Digital Stack - Connectivity & Infra
+IDEA,India Digital Stack - Connectivity & Infra
+PACEDIGITK,India Digital Stack - Connectivity & Infra
+RAILTEL,India Digital Stack - Connectivity & Infra
+STLTECH,India Digital Stack - Connectivity & Infra
+CRIZAC,India Digital Stack - Consumer Internet
+ETERNAL,India Digital Stack - Consumer Internet
+FIRSTCRY,India Digital Stack - Consumer Internet
+MEESHO,India Digital Stack - Consumer Internet
+NYKAA,India Digital Stack - Consumer Internet
+PWL,India Digital Stack - Consumer Internet
+SWIGGY,India Digital Stack - Consumer Internet
+URBANCO,India Digital Stack - Consumer Internet
+ANANTRAJ,India Digital Stack - Data Center & Compute
+NETWEB,India Digital Stack - Data Center & Compute
+TECHNOE,India Digital Stack - Data Center & Compute
+AFFLE,India Digital Stack - Enterprise Platforms
+AMAGI,India Digital Stack - Enterprise Platforms
+CAPILLARY,India Digital Stack - Enterprise Platforms
+INDIAMART,India Digital Stack - Enterprise Platforms
+JUSTDIAL,India Digital Stack - Enterprise Platforms
+MAPMYINDIA,India Digital Stack - Enterprise Platforms
+MPSLTD,India Digital Stack - Enterprise Platforms
+NAUKRI,India Digital Stack - Enterprise Platforms
+NAZARA,India Digital Stack - Enterprise Platforms
+ROUTE,India Digital Stack - Enterprise Platforms
+UNIECOM,India Digital Stack - Enterprise Platforms
+ANUP,Industrial Engineering
+EPACKPEB,Industrial Engineering
+INTERARCH,Industrial Engineering
+JYOTICNC,Industrial Engineering
+MBEL,Industrial Engineering
+PITTIENG,Industrial Engineering
+SANSERA,Industrial Engineering
+AJAXENGG,Industrial Machinery - Capital Goods
+CUMMINSIND,Industrial Machinery - Capital Goods
+ELECON,Industrial Machinery - Capital Goods
+INGERRAND,Industrial Machinery - Capital Goods
+ISGEC,Industrial Machinery - Capital Goods
+KIRLOSBROS,Industrial Machinery - Capital Goods
+KIRLPNU,Industrial Machinery - Capital Goods
+KSB,Industrial Machinery - Capital Goods
+AZAD,Industrial Machinery - Process / Precision
+WENDT,Industrial Machinery - Process / Precision
+BHARATFORG,Industrial Products - Large Cap
+TIMKEN,Industrial Products - Large Cap
+CARBORUNIV,Industrial Products - Mid Cap
+GRINDWELL,Industrial Products - Mid Cap
+JINDALSAW,Industrial Products - Mid Cap
+HAPPYFORGE,Industrial Products - Small Cap
+INOXINDIA,Industrial Products - Small Cap
+KENNAMET,Industrial Products - Small Cap
+MMFL,Industrial Products - Small Cap
+AFCONS,Infra Buildout - EPC Contractors
+AHLUCONT,Infra Buildout - EPC Contractors
+ENGINERSIN,Infra Buildout - EPC Contractors
+HGINFRA,Infra Buildout - EPC Contractors
+KNRCON,Infra Buildout - EPC Contractors
+KPIL,Infra Buildout - EPC Contractors
+LT,Infra Buildout - EPC Contractors
+NBCC,Infra Buildout - EPC Contractors
+NCC,Infra Buildout - EPC Contractors
+PATELENG,Infra Buildout - EPC Contractors
+POWERMECH,Infra Buildout - EPC Contractors
+PSPPROJECT,Infra Buildout - EPC Contractors
+AEGISVOPAK,Infra Buildout - Logistics Networks
+BLUEDART,Infra Buildout - Logistics Networks
+CONCOR,Infra Buildout - Logistics Networks
+GATEWAY,Infra Buildout - Logistics Networks
+MAHLOG,Infra Buildout - Logistics Networks
+TCI,Infra Buildout - Logistics Networks
+VRLLOG,Infra Buildout - Logistics Networks
+DREDGECORP,Infra Buildout - Marine & Dredging
+KMEW,Infra Buildout - Marine & Dredging
+GPPL,Infra Buildout - Ports & Maritime
+JSWINFRA,Infra Buildout - Ports & Maritime
+TEXRAIL,Infra Buildout - Rail Mobility
+TITAGARH,Infra Buildout - Rail Mobility
+ASHOKA,Infra Buildout - Roads & Expressways
+CEIGALL,Infra Buildout - Roads & Expressways
+GRINFRA,Infra Buildout - Roads & Expressways
+IRB,Infra Buildout - Roads & Expressways
+PNCINFRA,Infra Buildout - Roads & Expressways
+BAJAJFINSV,Insurance
+CANHLIFE,Insurance
+HDFCLIFE,Insurance
+ICICIGI,Insurance
+ICICIPRULI,Insurance
+LICI,Insurance
+MFSL,Insurance
+SBILIFE,Insurance
+BLUESTONE,Jewellery
+IGIL,Jewellery
+PNGJL,Jewellery
+SENCO,Jewellery
+ETHOSLTD,Luxury Retail & Premium Consumption
+KALYANKJIL,Luxury Retail & Premium Consumption
+PHOENIXLTD,Luxury Retail & Premium Consumption
+THANGAMAYL,Luxury Retail & Premium Consumption
+TITAN,Luxury Retail & Premium Consumption
+PFOCUS,Media & Broadcasting Platforms
+SAREGAMA,Media & Music
+TIPSMUSIC,Media & Music
+POLYMED,Medical Devices
+SHAILY,Medical Devices
+APLAPOLLO,Metals
+SARDAEN,Metals
+SHYAMMETL,Metals
+CREDITACC,Microfinance & Small-ticket Lenders
+FUSION,Microfinance & Small-ticket Lenders
+MASFIN,Microfinance & Small-ticket Lenders
+MUTHOOTMF,Microfinance & Small-ticket Lenders
+SPANDANA,Microfinance & Small-ticket Lenders
+AIAENG,Mine Supply
+TEGA,Mine Supply
+ASHAPURMIN,Mining
+BHARATCOAL,Mining
+MIDWESTLTD,Mining
+MOIL,Mining
+NMDC,Mining
+SANDUMA,Mining
+BAJFINANCE,NBFC - Consumer & Vehicle Finance
+CHOLAFIN,NBFC - Consumer & Vehicle Finance
+M&MFIN,NBFC - Consumer & Vehicle Finance
+SUNDARMFIN,NBFC - Consumer & Vehicle Finance
+ABCAPITAL,NBFC - Diversified Credit
+AIIL,NBFC - Diversified Credit
+CGCL,NBFC - Diversified Credit
+FIVESTAR,NBFC - Diversified Credit
+HDBFS,NBFC - Diversified Credit
+JIOFIN,NBFC - Diversified Credit
+NORTHARC,NBFC - Diversified Credit
+PIRAMALFIN,NBFC - Diversified Credit
+POONAWALLA,NBFC - Diversified Credit
+SBFC,NBFC - Diversified Credit
+TATACAP,NBFC - Diversified Credit
+LANDMARK,Niche Retail & Entertainment
+MANYAVAR,Niche Retail & Entertainment
+PVRINOX,Niche Retail & Entertainment
+CASTROLIND,Oil Marketing & Distribution
+GULFOILLUB,Oil Marketing & Distribution
+IOC,Oil Marketing & Distribution
+DMART,Organized Retail - Large Format
+SHOPERSTOP,Organized Retail - Large Format
+TRENT,Organized Retail - Large Format
+ABFRL,Organized Retail - Value & Fashion
+ABLBL,Organized Retail - Value & Fashion
+AVL,Organized Retail - Value & Fashion
+V2RETAIL,Organized Retail - Value & Fashion
+VMART,Organized Retail - Value & Fashion
+VMM,Organized Retail - Value & Fashion
+ARVINDFASN,Other Apparels & Accessories
+GOCOLORS,Other Apparels & Accessories
+KKCL,Other Apparels & Accessories
+SAFARI,Other Apparels & Accessories
+SPAL,Other Apparels & Accessories
+ESABINDIA,Other Industrial Goods
+RHIM,Other Industrial Goods
+SBCL,Other Industrial Goods
+SKFINDIA,Other Industrial Goods
+SKFINDUS,Other Industrial Goods
+BIKAJI,Packaged Foods
+BRITANNIA,Packaged Foods
+CCL,Packaged Foods
+KRBL,Packaged Foods
+ORKLAINDIA,Packaged Foods
+TATACONSUM,Packaged Foods
+VINCOFE,Packaged Foods
+ZYDUSWELL,Packaged Foods
+JKPAPER,Paper & Paper Products
+WSTCSTPAPR,Paper & Paper Products
+HYUNDAI,Passenger Vehicles
+M&M,Passenger Vehicles
+MARUTI,Passenger Vehicles
+TMPV,Passenger Vehicles
+BAJAJCON,Personal Care
+COLPAL,Personal Care
+EMAMILTD,Personal Care
+GILLETTE,Personal Care
+HINDUNILVR,Personal Care
+HONASA,Personal Care
+JYOTHYLAB,Personal Care
+PGHH,Personal Care
+ALKEM,Pharma - Domestic Formulations - Large Cap
+CIPLA,Pharma - Domestic Formulations - Large Cap
+MANKIND,Pharma - Domestic Formulations - Large Cap
+SUNPHARMA,Pharma - Domestic Formulations - Large Cap
+TORNTPHARM,Pharma - Domestic Formulations - Large Cap
+ABBOTINDIA,Pharma - Domestic Formulations - Mid Cap
+AJANTPHARM,Pharma - Domestic Formulations - Mid Cap
+CORONA,Pharma - Domestic Formulations - Mid Cap
+EMCURE,Pharma - Domestic Formulations - Mid Cap
+GLAXO,Pharma - Domestic Formulations - Mid Cap
+JBCHEPHARM,Pharma - Domestic Formulations - Mid Cap
+ERIS,Pharma - Domestic Formulations - Small Cap
+FDC,Pharma - Domestic Formulations - Small Cap
+SANOFI,Pharma - Domestic Formulations - Small Cap
+ZOTA,Pharma - Domestic Formulations - Small Cap
+BIOCON,Pharma - Export Generics - Large Cap
+DRREDDY,Pharma - Export Generics - Large Cap
+LUPIN,Pharma - Export Generics - Large Cap
+GRANULES,Pharma - Export Generics - Mid Cap
+NATCOPHARM,Pharma - Export Generics - Mid Cap
+ZYDUSLIFE,Pharma - Export Generics - Mid Cap
+APLLTD,Pharma - Export Generics - Small Cap
+CAPLIPOINT,Pharma - Export Generics - Small Cap
+MARKSANS,Pharma - Export Generics - Small Cap
+STAR,Pharma - Export Generics - Small Cap
+ASTRAZEN,Pharma - Specialty / Emerging
+GUFICBIO,Pharma - Specialty / Emerging
+IPCALAB,Pharma - Specialty / Emerging
+JUBLINGREA,Pharma - Specialty / Emerging
+JUBLPHARMA,Pharma - Specialty / Emerging
+AARTIDRUGS,Pharma API & Intermediates
+AARTIPHARM,Pharma API & Intermediates
+ALIVUS,Pharma API & Intermediates
+BLUEJET,Pharma API & Intermediates
+NEULANDLAB,Pharma API & Intermediates
+ORCHPHARMA,Pharma API & Intermediates
+SHILPAMED,Pharma API & Intermediates
+SUDEEPPHRM,Pharma API & Intermediates
+SUPRIYA,Pharma API & Intermediates
+ANTHEM,Pharma CDMO - Advanced Platforms
+CONCORDBIO,Pharma CDMO - Advanced Platforms
+DIVISLAB,Pharma CDMO - Advanced Platforms
+GLAND,Pharma CDMO - Advanced Platforms
+LAURUSLABS,Pharma CDMO - Advanced Platforms
+PPLPHARMA,Pharma CDMO - Advanced Platforms
+RUBICON,Pharma CDMO - Advanced Platforms
+ACUTAAS,Pharma CDMO - Core Contract Manufacturing
+AKUMS,Pharma CDMO - Core Contract Manufacturing
+COHANCE,Pharma CDMO - Core Contract Manufacturing
+ONESOURCE,Pharma CDMO - Core Contract Manufacturing
+SAILIFE,Pharma CDMO - Core Contract Manufacturing
+SENORES,Pharma CDMO - Core Contract Manufacturing
+SYNGENE,Pharma CDMO - Core Contract Manufacturing
+WINDLAS,Pharma CDMO - Core Contract Manufacturing
+ASTRAL,Plastic Products
+FINPIPE,Plastic Products
+KINGFA,Plastic Products
+NILKAMAL,Plastic Products
+PRINCEPIPE,Plastic Products
+XPROINDIA,Plastic Products
+STYRENIX,Plastics
+SUPREMEIND,Plastics
+TIMETECHNO,Plastics
+KEC,Power Equip - Grid & T&D
+SCHNEIDER,Power Equip - Grid & T&D
+SIEMENS,Power Equip - Grid & T&D
+SKIPPER,Power Equip - Grid & T&D
+TDPOWERSYS,Power Equip - Grid & T&D
+TRANSRAILL,Power Equip - Grid & T&D
+VOLTAMP,Power Equip - Grid & T&D
+KIRLOSENG,Power Equip - Turbomachinery / Thermal
+THERMAX,Power Equip - Turbomachinery / Thermal
+TRITURBINE,Power Equip - Turbomachinery / Thermal
+ABB,Power Equipment - Core OEMs
+CGPOWER,Power Equipment - Core OEMs
+POWERINDIA,Power Equipment - Core OEMs
+JSWENERGY,Power Utilities - Generation & Renewables
+TATAPOWER,Power Utilities - Generation & Renewables
+CESC,Power Utilities - Regulated / Transmission
+NHPC,Power Utilities - Regulated / Transmission
+NLCINDIA,Power Utilities - Regulated / Transmission
+POWERGRID,Power Utilities - Regulated / Transmission
+TORNTPOWER,Power Utilities - Regulated / Transmission
+PTC,Power Utilities - Trading / Mixed
+ADVENZYMES,Process Inputs & Industrial Chemicals
+ELLEN,Process Inputs & Industrial Chemicals
+FOSECOIND,Process Inputs & Industrial Chemicals
+LINDEINDIA,Process Inputs & Industrial Chemicals
+RAIN,Process Inputs & Industrial Chemicals
+SPLPETRO,Process Inputs & Industrial Chemicals
+DEVYANI,Quick Service Restaurants
+JUBLFOOD,Quick Service Restaurants
+RBA,Quick Service Restaurants
+SAPPHIRE,Quick Service Restaurants
+WESTLIFE,Quick Service Restaurants
+GMDCLTD,Rare Earth
+MAXESTATES,Real Estate - Commercial / Leasing
+DLF,Real Estate - Residential Developers - Large Cap
+GODREJPROP,Real Estate - Residential Developers - Large Cap
+LODHA,Real Estate - Residential Developers - Large Cap
+PRESTIGE,Real Estate - Residential Developers - Large Cap
+BRIGADE,Real Estate - Residential Developers - Mid Cap
+LOTUSDEV,Real Estate - Residential Developers - Mid Cap
+MARATHON,Real Estate - Residential Developers - Mid Cap
+OBEROIRLTY,Real Estate - Residential Developers - Mid Cap
+RAYMONDREL,Real Estate - Residential Developers - Mid Cap
+SOBHA,Real Estate - Residential Developers - Mid Cap
+TARC,Real Estate - Residential Developers - Mid Cap
+ABREL,Real Estate - Residential Developers - Small Cap
+ARVSMART,Real Estate - Residential Developers - Small Cap
+SIGNATURE,Real Estate - Residential Developers - Small Cap
+GRAVITA,Recyclers
+JAINREC,Recyclers
+POCL,Recyclers
+BPCL,Refineries/Petro-Products
+CHENNPETRO,Refineries/Petro-Products
+HINDPETRO,Refineries/Petro-Products
+MRPL,Refineries/Petro-Products
+RELIANCE,Refineries/Petro-Products
+SOTL,Refineries/Petro-Products
+SUZLON,Renewables & Energy Transition
+PREMIERENE,Renewables - Solar
+VIKRAMSOLR,Renewables - Solar
+WAAREEENER,Renewables - Solar
+INOXGREEN,Renewables - Wind
+INOXWIND,Renewables - Wind
+GESHIP,Shipping
+FLUOROCHEM,Specialty Chem - Fluoro & Refrigerants
+SRF,Specialty Chem - Fluoro & Refrigerants
+VINATIORGA,Specialty Chem - Fluoro & Refrigerants
+AARTIIND,Specialty Chem - Intermediates & Agro
+AETHER,Specialty Chem - Intermediates & Agro
+ATUL,Specialty Chem - Intermediates & Agro
+DCMSHRIRAM,Specialty Chem - Intermediates & Agro
+PIIND,Specialty Chem - Intermediates & Agro
+VISHNU,Specialty Chem - Intermediates & Agro
+CHEMPLASTS,Specialty Chem - Materials & Formulations
+CLEAN,Specialty Chem - Materials & Formulations
+FINEORG,Specialty Chem - Materials & Formulations
+GALAXYSURF,Specialty Chem - Materials & Formulations
+PIDILITIND,Specialty Chem - Materials & Formulations
+DOMS,Stationery & Writing Instruments
+FLAIR,Stationery & Writing Instruments
+JINDALSTEL,Steel
+JSWSTEEL,Steel
+SAIL,Steel
+TATASTEEL,Steel
+PENIND,Steel - Pipes & Tubes
+RATNAMANI,Steel - Pipes & Tubes
+SAMBHV,Steel - Pipes & Tubes
+SURYAROSNI,Steel - Pipes & Tubes
+VENUSPIPES,Steel - Pipes & Tubes
+WELCORP,Steel - Pipes & Tubes
+GALLANTT,Steel - Primary / Long Products
+GPIL,Steel - Primary / Long Products
+HITECH,Steel - Primary / Long Products
+KIRLFER,Steel - Primary / Long Products
+KSL,Steel - Primary / Long Products
+TIIL,Steel - Primary / Long Products
+JSL,Steel - Stainless / Specialty
+MAHSEAMLES,Steel - Stainless / Specialty
+MIDHANI,Steel - Stainless / Specialty
+BALRAMCHIN,Sugar & Bioenergy
+EIDPARRY,Sugar & Bioenergy
+TRIVENI,Sugar & Bioenergy
+INDUSTOWER,Telecom Operators & Tower Infra
+TATACOMM,Telecom Operators & Tower Infra
+ARVIND,Textiles
+FILATEX,Textiles
+GARFIBRES,Textiles
+GOKEX,Textiles
+ICIL,Textiles
+KPRMILL,Textiles
+MAYURUNIQ,Textiles
+NITINSPIN,Textiles
+SANATHAN,Textiles
+VTL,Textiles
+COALINDIA,Thermal Power
+NTPC,Thermal Power
+GODFRYPHLP,Tobacco & Nicotine
+ITC,Tobacco & Nicotine
+VSTIND,Tobacco & Nicotine
+IRCTC,Tourism Ecosystem - Discovery & Booking
+IXIGO,Tourism Ecosystem - Discovery & Booking
+TBOTEK,Tourism Ecosystem - Discovery & Booking
+THOMASCOOK,Tourism Ecosystem - Discovery & Booking
+YATRA,Tourism Ecosystem - Discovery & Booking
+BRIGHOTEL,Tourism Ecosystem - Mobility & Hospitality
+GMRAIRPORT,Tourism Ecosystem - Mobility & Hospitality
+INDIGO,Tourism Ecosystem - Mobility & Hospitality
+ITCHOTELS,Tourism Ecosystem - Mobility & Hospitality
+JUNIPER,Tourism Ecosystem - Mobility & Hospitality
+SPICEJET,Tourism Ecosystem - Mobility & Hospitality
+THELEELA,Tourism Ecosystem - Mobility & Hospitality
+TRAVELFOOD,Tourism Ecosystem - Mobility & Hospitality
+APOLLOTYRE,Tyres & Rubber
+BALKRISIND,Tyres & Rubber
+CEATLTD,Tyres & Rubber
+JKTYRE,Tyres & Rubber
+MRF,Tyres & Rubber
+GAIL,Utilities (non-Power)
+GSPL,Utilities (non-Power)
+GUJGASLTD,Utilities (non-Power)
+IGL,Utilities (non-Power)
+MGL,Utilities (non-Power)
+IONEXCHANG,Water & Environmental Utilities
+WABAG,Water & Environmental Utilities
+NIITMTS,Workforce & Outsourced Services
+SIS,Workforce & Outsourced Services
+TEAMLEASE,Workforce & Outsourced Services

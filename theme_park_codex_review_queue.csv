@@ -1,0 +1,98 @@
+Symbol,Theme,source,confidence,sector_mode,industry_mode,debug_theme,locked,rank_move_corr,rank_resid,rank_obs,needs_review,review_reasons,review_priority,ff_mcap_med_x,ff_mcap_med_y
+SMSPHARMA,Pharma API & Intermediates,legacy_fallback|first_principles_lo|cdmo_deep_review,0.76,,,,False,-0.0023039298405729,0.21,21,True,rank_divergence_flag;api_pureplay_validation,83.0,946.57,946.57
+BLACKBUCK,Digital Marketplace & Logistics Platforms,legacy_fallback|first_principles_lo|first_principles_rethink,0.84,,,,False,0.5756458914997671,0.35,13,True,low_fundamental_confidence;legacy_fallback_needs_validation;rank_residual_flag;lo_theme_needs_validation,81.0,7632.28,7632.28
+NTPCGREEN,Renewables & Energy Transition,legacy_fallback|first_principles_high,0.88,,,,False,0.0777384484807583,0.31,13,True,low_fundamental_confidence;legacy_fallback_needs_validation;rank_residual_flag,81.0,7983.26,7983.26
+SKYGOLD,Luxury Retail & Premium Consumption,legacy_fallback|first_principles_high,0.88,,,,False,0.2679317461979205,0.25,23,True,low_fundamental_confidence;legacy_fallback_needs_validation;rank_residual_flag,81.0,2266.85,2266.85
+ACMESOLAR,Renewables & Energy Transition,legacy_fallback|first_principles_high,0.88,,,,False,0.2519677941604525,0.1425,14,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,2283.86,2283.86
+AWL,Adani Ecosystem,legacy_fallback|first_principles_high,0.88,,,,False,0.4208125774382301,0.1,23,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,11973.5,11973.5
+EMMVEE,Renewables & Energy Transition,legacy_fallback|first_principles_high,0.88,,,,False,,,0,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,2650.89,2650.89
+ENRIN,Renewables & Energy Transition,legacy_fallback|first_principles_high,0.88,,,,False,,,3,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,22075.08,22075.08
+KSHINTL,"Electrical Cables, Wires & Conductors",legacy_fallback|first_principles_lo|reports_overlay,0.82,General Industrials,Other,,False,,,0,True,reports_overlay_low_confidence,75.0,596.02,596.02
+LENSKART,Luxury Retail & Premium Consumption,legacy_fallback|first_principles_high,0.88,,,,False,,,0,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,65418.16,65418.16
+NEPHROPLUS,Healthcare Services Platforms,legacy_fallback|first_principles_lo|first_principles_stage20,0.72,,,,False,,,0,True,low_fundamental_confidence;legacy_fallback_needs_validation;lo_theme_needs_validation,75.0,1911.89,1911.89
+QPOWER,Renewables & Energy Transition,legacy_fallback|first_principles_high,0.88,,,,False,0.93733940429502,0.06,9,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,1349.5,1349.5
+RAYMONDLSL,Luxury Retail & Premium Consumption,legacy_fallback|first_principles_high,0.88,,,,False,0.2832490076253718,0.19,17,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,2663.84,2663.84
+SAATVIKGL,Renewables & Energy Transition,legacy_fallback|first_principles_high,0.88,,,,False,,,0,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,1198.88,1198.88
+STYL,Luxury Retail & Premium Consumption,legacy_fallback|first_principles_high,0.88,,,,False,,,0,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,736.23,736.23
+SWANCORP,Real Estate - Commercial / Leasing,legacy_fallback|first_principles_lo|reports_overlay,0.82,Commercial Services & Supplies,Commodity,,False,0.2125651700656304,0.0,8,True,reports_overlay_low_confidence,75.0,6077.86,6077.86
+TRUALT,Renewables & Energy Transition,legacy_fallback|first_principles_high,0.88,,,,False,,,0,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,964.84,964.84
+WEWORK,Flexible Workspaces & Office Platforms,legacy_fallback|first_principles_lo|first_principles_bizmodel,0.72,,,,False,,,0,True,low_fundamental_confidence;legacy_fallback_needs_validation,75.0,3837.63,3837.63
+PFS,NBFC - Diversified Credit,industry_mode|granular_split,0.68,Financial Services,Finance (including NBFCs),,False,0.1001118066315412,0.25,23,True,low_fundamental_confidence;rank_residual_flag,38.0,737.78,737.78
+SUNCLAY,Auto Components - Driveline / Chassis,industry_mode|granular_split,0.78,Industrials,Auto Parts & Equipment,,False,-0.2497023543423608,0.3,30,True,rank_divergence_flag;rank_residual_flag,36.0,1118.18,1118.18
+SUNTV,Media & Broadcasting Platforms,industry_mode|tiny_to_sector,0.65,Communication Services,Broadcasting & Cable TV,,False,0.5563994182172753,0.0375,50,True,low_fundamental_confidence,35.0,5478.87,5478.87
+ZEEL,Media & Broadcasting Platforms,industry_mode|tiny_to_sector,0.65,Communication Services,Broadcasting & Cable TV,,False,0.6200204991226249,0.215,50,True,low_fundamental_confidence,35.0,7741.97,7741.97
+ADANIENSOL,Adani Ecosystem,industry_mode|granular_split|first_principles_high,0.88,Utilities,Electric Utilities,,False,0.0831322736935499,0.17,27,True,low_fundamental_confidence,32.0,31012.2,31012.2
+BAJEL,Power Equip - Grid & T&D,industry_mode|granular_split,0.68,Utilities,Heavy Electrical Equipment,,False,0.5489354104871214,0.095,23,True,low_fundamental_confidence,32.0,670.5,670.5
+IDBI,Banks - Regional & Niche,industry_mode,0.68,Financial Services,Banks,,False,0.6413215698932277,0.07,25,True,low_fundamental_confidence,32.0,5661.25,5661.25
+AGI,Furniture-Furnishing-Paints - Small Cap,industry_mode,0.78,Consumer Cyclical,Furniture-Furnishing-Paints,,False,-0.0078197178728404,0.16,49,True,rank_divergence_flag,30.0,1607.35,1607.35
+SHRIRAMPPS,Real Estate - Residential Developers - Small Cap,industry_mode|granular_split,0.78,Real Estate,Realty,,False,-0.0681785699845526,0.195,31,True,rank_divergence_flag,30.0,912.96,912.96
+ANURAS,Agrochemicals,industry_mode,0.78,Basic Materials,Agrochemicals,,False,0.2753802634244547,0.25,50,True,rank_residual_flag,28.0,5810.28,5810.28
+EMIL,Consumer Durables & Electronics,industry_mode,0.78,Consumer Cyclical,Consumer Electronics,,False,0.3558692621580778,0.225,50,True,rank_residual_flag,28.0,1219.8,1219.8
+IRFC,NBFC - PSU / Project Finance,industry_mode|granular_split,0.78,Financial Services,Finance (including NBFCs),,False,0.1658071495218501,0.25,46,True,rank_residual_flag,28.0,21410.14,21410.14
+PFC,NBFC - PSU / Project Finance,industry_mode|granular_split,0.78,Financial Services,Finance (including NBFCs),,False,0.3342325793133915,0.26,50,True,rank_residual_flag,28.0,55102.96,55102.96
+RECLTD,NBFC - PSU / Project Finance,industry_mode|granular_split,0.78,Financial Services,Finance (including NBFCs),,False,0.240854903143794,0.335,50,True,rank_residual_flag,28.0,45428.42,45428.42
+TCPLPACK,Paper & Paper Products,industry_mode,0.78,Consumer Cyclical,Paper & Paper Products,,False,0.0041649222502151,0.285,50,True,rank_residual_flag,28.0,1054.03,1054.03
+GMMPFAUDLR,Industrial Machinery - Process / Precision,industry_mode|granular_split,0.92,Industrials,Industrial Machinery,,False,-0.3669827220009574,0.34,50,True,rank_divergence_flag;rank_residual_flag,22.0,3277.89,3277.89
+GREAVESCOT,Auto Components - Driveline / Chassis,industry_mode|granular_split,0.92,Industrials,Auto Parts & Equipment,,False,-0.2083899890661593,0.26,38,True,rank_divergence_flag;rank_residual_flag,22.0,1678.5,1678.5
+HIKAL,Pharma - Specialty / Emerging,industry_mode|granular_split,0.92,Healthcare,Pharmaceuticals,,False,-0.1177511532594371,0.395,50,True,rank_divergence_flag;rank_residual_flag,22.0,738.58,738.58
+INDIACEM,Cement - Regional / Midcap,industry_mode|granular_split,0.86,Basic Materials,Cement & Cement Products,,False,-0.1023328733730566,0.19,33,True,rank_divergence_flag,22.0,3547.19,3547.19
+NESCO,Real Estate - Commercial / Leasing,industry_mode|granular_split,0.92,Industrials,Realty,,False,-0.201712470965877,0.27,50,True,rank_divergence_flag;rank_residual_flag,22.0,2522.78,2522.78
+TATVA,Specialty Chem - Fluoro & Refrigerants,industry_mode|granular_split,0.92,Basic Materials,Specialty Chemicals,,False,-0.0190255465308362,0.2475,44,True,rank_divergence_flag;rank_residual_flag,22.0,754.96,754.96
+PRAJIND,Industrial Machinery - Process / Precision,industry_mode|granular_split,0.86,Industrials,Industrial Machinery,,False,0.3755041460517149,0.24,50,True,rank_residual_flag,20.0,3583.47,3583.47
+SAGILITY,IT Services - Enterprise / BFSI,theme_park_manual|granular_split,0.94,,,IT (mid),False,-0.0983609923617983,0.2825,14,True,rank_divergence_flag;rank_residual_flag,20.0,11467.21,11467.21
+3MINDIA,Industrial Machinery - Process / Precision,industry_mode|granular_split,0.92,Industrials,Industrial Machinery,,False,-0.0414512183394244,0.1575,50,True,rank_divergence_flag,16.0,9672.19,9672.19
+AMRUTANJAN,Pharma - Specialty / Emerging,industry_mode|granular_split,0.92,Healthcare,Pharmaceuticals,,False,-0.123908185341158,0.2175,50,True,rank_divergence_flag,16.0,905.36,905.36
+ARTEMISMED,Hospitals - Small Cap,industry_mode,0.92,Healthcare,Healthcare Facilities,,False,-0.1048559478752388,0.11,42,True,rank_divergence_flag,16.0,1632.93,1632.93
+BHEL,Power Equip - Turbomachinery / Thermal,industry_mode|granular_split,0.92,Industrials,Heavy Electrical Equipment,,False,-0.0213897828489883,0.18,50,True,rank_divergence_flag,16.0,33702.74,33702.74
+IMFA,Steel - Primary / Long Products,industry_mode|granular_split,0.92,Basic Materials,Iron & Steel/Interm.Products,,False,-0.0143283209643715,0.22,38,True,rank_divergence_flag,16.0,2598.6,2598.6
+ACC,Cement - Large Integrated,industry_mode|granular_split,0.92,Basic Materials,Cement & Cement Products,,False,0.230997106835747,0.285,50,True,rank_residual_flag,14.0,13319.36,13319.36
+ADANIGREEN,Adani Ecosystem,industry_mode|granular_split|first_principles_high,0.92,Utilities,Electric Utilities,,False,0.2710313337887355,0.24,42,True,rank_residual_flag,14.0,52722.59,52722.59
+ARE&M,Auto Components - Body / Thermal / Interior - Large Cap,industry_mode|granular_split,0.92,Industrials,Auto Parts & Equipment,,False,0.3129035077559731,0.28,39,True,rank_residual_flag,14.0,10316.68,10316.68
+ASAHIINDIA,Auto Components - Body / Thermal / Interior - Large Cap,industry_mode|granular_split,0.92,Consumer Cyclical,Auto Parts & Equipment,,False,0.2585416964411021,0.225,50,True,rank_residual_flag,14.0,12371.56,12371.56
+AUROPHARMA,Pharma - Export Generics - Large Cap,industry_mode|granular_split,0.92,Healthcare,Pharmaceuticals,,False,0.4655258744796603,0.2675,50,True,rank_residual_flag,14.0,33796.56,33796.56
+AUTOAXLES,Auto Components - Driveline / Chassis,industry_mode|granular_split,0.92,Consumer Cyclical,Auto Parts & Equipment,,False,0.3725340134643365,0.25,48,True,rank_residual_flag,14.0,823.56,823.56
+BAJAJELEC,Household Appliances,industry_mode,0.92,Consumer Cyclical,Household Appliances,,False,0.2129132641569462,0.25,39,True,rank_residual_flag,14.0,1785.62,1785.62
+BANDHANBNK,Banks - Regional & Niche,industry_mode,0.92,Financial Services,Banks,,False,0.2292563645215164,0.2675,50,True,rank_residual_flag,14.0,15016.93,15016.93
+BASF,Specialty Chem - Materials & Formulations,industry_mode|granular_split,0.92,Basic Materials,Specialty Chemicals,,False,0.3180153331420627,0.2575,50,True,rank_residual_flag,14.0,4210.09,4210.09
+BECTORFOOD,Packaged Foods,industry_mode,0.92,Consumer Defensive,Packaged Foods,,False,0.3186745552587722,0.25,50,True,rank_residual_flag,14.0,3486.33,3486.33
+BSOFT,IT Services - Midcap,industry_mode|granular_split,0.92,Technology,IT Consulting & Software,,False,0.4609750850739974,0.265,50,True,rank_residual_flag,14.0,6937.74,6937.74
+CIGNITITEC,IT Services - Enterprise / BFSI,industry_mode|granular_split,0.92,Technology,IT Consulting & Software,,False,0.3181549641491891,0.28,42,True,rank_residual_flag,14.0,2045.57,2045.57
+CYIENT,IT Services - Engineering & ER&D,industry_mode|granular_split,0.92,Industrials,IT Consulting & Software,,False,0.3643382716616121,0.29,50,True,rank_residual_flag,14.0,9707.24,9707.24
+GABRIEL,Auto Components - Body / Thermal / Interior - Large Cap,industry_mode|granular_split,0.92,Consumer Cyclical,Auto Parts & Equipment,,False,0.0255498149373241,0.28,50,True,rank_residual_flag,14.0,6028.04,6028.04
+GRWRHITECH,Containers & Packaging,industry_mode,0.92,Basic Materials,Containers & Packaging,,False,0.1169225679317133,0.315,50,True,rank_residual_flag,14.0,2754.58,2754.58
+HAPPSTMNDS,IT Services - Midcap,industry_mode|granular_split,0.92,Technology,IT Consulting & Software,,False,0.0421378243198446,0.365,50,True,rank_residual_flag,14.0,3512.44,3512.44
+INDIAGLYCO,Commodity Chemicals,industry_mode,0.92,Basic Materials,Commodity Chemicals,,False,0.5239893526031156,0.3025,44,True,rank_residual_flag,14.0,2381.66,2381.66
+JAMNAAUTO,Auto Components - Body / Thermal / Interior - Mid Cap,industry_mode|granular_split,0.92,Consumer Cyclical,Auto Parts & Equipment,,False,0.2720937946788688,0.23,50,True,rank_residual_flag,14.0,2487.83,2487.83
+MAHLIFE,Real Estate - Commercial / Leasing,industry_mode|granular_split,0.92,Real Estate,Realty,,False,0.1220400345409426,0.29,50,True,rank_residual_flag,14.0,3729.26,3729.26
+NEOGEN,Specialty Chem - Materials & Formulations,industry_mode|granular_split,0.92,Basic Materials,Specialty Chemicals,,False,0.0520530830562032,0.265,48,True,rank_residual_flag,14.0,1554.84,1554.84
+NSLNISP,Steel - Primary / Long Products,industry_mode|granular_split,0.92,Basic Materials,Iron & Steel/Interm.Products,,False,0.1581215585957944,0.27,43,True,rank_residual_flag,14.0,4868.98,4868.98
+PAGEIND,Other Apparels & Accessories,industry_mode,0.92,Consumer Cyclical,Other Apparels & Accessories,,False,0.0968179970846379,0.235,50,True,rank_residual_flag,14.0,21026.98,21026.98
+PFIZER,Pharma - Domestic Formulations - Small Cap,industry_mode|granular_split,0.92,Healthcare,Pharmaceuticals,,False,0.2726615546794513,0.23,50,True,rank_residual_flag,14.0,7532.58,7532.58
+PGHL,Pharma - Domestic Formulations - Small Cap,industry_mode|granular_split,0.92,Healthcare,Pharmaceuticals,,False,0.1584690671255834,0.23,50,True,rank_residual_flag,14.0,4247.03,4247.03
+PRIVISCL,Specialty Chem - Materials & Formulations,industry_mode|granular_split,0.92,Basic Materials,Specialty Chemicals,,False,0.1474651288514051,0.25,50,True,rank_residual_flag,14.0,4327.8,4327.8
+PTCIL,Industrial Products - Large Cap,industry_mode,0.92,Industrials,Other Industrial Products,,False,0.159516883398785,0.31,47,True,rank_residual_flag,14.0,10891.91,10891.91
+RAMCOSYS,IT Services - Enterprise / BFSI,industry_mode|granular_split,0.92,Technology,IT Consulting & Software,,False,0.1160953551913983,0.2775,48,True,rank_residual_flag,14.0,811.44,811.44
+ROLEXRINGS,Auto Components - Driveline / Chassis,industry_mode|granular_split,0.92,Industrials,Auto Parts & Equipment,,False,0.1664162792547301,0.27,50,True,rank_residual_flag,14.0,1537.87,1537.87
+SBICARD,NBFC - Consumer & Vehicle Finance,industry_mode|granular_split,0.92,Financial Services,Finance (including NBFCs),,False,0.2456600241469603,0.305,50,True,rank_residual_flag,14.0,22514.16,22514.16
+SHK,Personal Care,industry_mode,0.92,Basic Materials,Personal Products,,False,0.0883867439940354,0.23,39,True,rank_residual_flag,14.0,907.1,907.1
+SOLARINDS,Industrial Products - Large Cap,industry_mode,0.92,Basic Materials,Other Industrial Products,,False,0.2352763225929505,0.235,50,True,rank_residual_flag,14.0,32757.57,32757.57
+SONATSOFTW,IT Services - Midcap,industry_mode|granular_split,0.92,Technology,IT Consulting & Software,,False,0.4330437468879752,0.275,50,True,rank_residual_flag,14.0,6388.32,6388.32
+SPARC,Pharma - Specialty / Emerging,industry_mode|granular_split,0.92,Healthcare,Pharmaceuticals,,False,0.1580598109970057,0.3975,50,True,rank_residual_flag,14.0,1408.35,1408.35
+SULA,Alcoholic Beverages,industry_mode,0.92,Consumer Defensive,Breweries & Distilleries,,False,0.5174114874622836,0.4,50,True,rank_residual_flag,14.0,1170.04,1170.04
+VESUVIUS,Other Industrial Goods,industry_mode,0.92,Industrials,Other Industrial Goods,,False,0.1860395679824488,0.285,50,True,rank_residual_flag,14.0,4466.85,4466.85
+VIPIND,Other Apparels & Accessories,industry_mode,0.92,Consumer Cyclical,Other Apparels & Accessories,,False,0.3398860123907786,0.235,50,True,rank_residual_flag,14.0,3064.54,3064.54
+AAVAS,Housing Finance,theme_park_manual,0.94,Financial Services,Housing Finance,Housing Fin,False,0.4149764101753768,0.23,50,True,rank_residual_flag,12.0,5907.35,5907.35
+EPIGRAL,Specialty Chem - Intermediates & Agro,theme_park_manual|granular_split,0.94,,,Chemicals,False,0.1945329066863605,0.245,23,True,rank_residual_flag,12.0,1402.67,1402.67
+GLENMARK,Pharma - Export Generics - Mid Cap,theme_park_manual|granular_split,0.94,Healthcare,Pharmaceuticals,Pharma,False,0.2746292651568233,0.2275,50,True,rank_residual_flag,12.0,30332.64,30332.64
+LTF,NBFC - Consumer & Vehicle Finance,theme_park_manual|granular_split,0.94,,,NBFC,False,0.1672551287901194,0.29,23,True,rank_residual_flag,12.0,24334.61,24334.61
+NAVINFLUOR,Specialty Chem - Fluoro & Refrigerants,theme_park_manual|granular_split,0.94,Basic Materials,Commodity Chemicals,Chemicals,False,0.5141617098414597,0.28,50,True,rank_residual_flag,12.0,22779.81,22779.81
+PERSISTENT,IT Services - Engineering & ER&D,theme_park_manual|granular_split,0.94,Technology,IT Consulting & Software,IT (mid),False,0.5518614027649545,0.23,50,True,rank_residual_flag,12.0,66386.18,66386.18
+PGIL,Textiles,theme_park_manual,0.94,,,Textile,False,0.0857937117254376,0.36,23,True,rank_residual_flag,12.0,2782.01,2782.01
+SHRIRAMFIN,NBFC - Consumer & Vehicle Finance,theme_park_manual|granular_split,0.94,Financial Services,Finance (including NBFCs),NBFC,False,0.4898681393635714,0.245,50,True,rank_residual_flag,12.0,143190.59,143190.59
+SUDARSCHEM,Specialty Chem - Materials & Formulations,theme_park_manual|granular_split,0.94,Basic Materials,Specialty Chemicals,Chemicals,False,0.1846904900450364,0.2425,50,True,rank_residual_flag,12.0,6500.5,6500.5
+WOCKPHARMA,Pharma - Export Generics - Mid Cap,theme_park_manual|granular_split,0.94,Healthcare,Pharmaceuticals,Pharma,False,0.2007800928794382,0.23,38,True,rank_residual_flag,12.0,11434.38,11434.38
+YESBANK,Banks - Private Universal (Mid),theme_park_manual,0.94,Financial Services,Banks,Pvt Banks,False,0.1496348120294089,0.25,29,True,rank_residual_flag,12.0,67150.87,67150.87
+GVT&D,Power Equip - Grid & T&D,manual_lock|granular_split,0.99,,,Power Equip,True,0.4956630664222039,0.5,22,True,rank_residual_flag,7.0,40461.53,40461.53
+TARIL,Power Equip - Grid & T&D,manual_lock|granular_split,0.99,,,Power Equip,True,0.2408135281679741,0.345,23,True,rank_residual_flag,7.0,2524.69,2524.69
+CARTRADE,Digital Marketplace & Logistics Platforms,theme_park_manual|first_principles_rethink,0.84,Consumer Cyclical,Internet & Catalogue Retail,New Gen,False,0.6040531010220161,0.1375,50,True,low_fundamental_confidence,6.0,12683.98,12683.98
+DELHIVERY,Digital Marketplace & Logistics Platforms,theme_park_manual|first_principles_rethink,0.84,Industrials,Transportation - Logistics,New Gen,False,0.3529807153064241,0.06,50,True,low_fundamental_confidence,6.0,31652.89,31652.89

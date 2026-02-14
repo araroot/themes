@@ -1,0 +1,824 @@
+symbol,theme_id,theme_label,theme_family,membership_type,assignment_order,fit_score,corr_with_theme_moves,med_abs_resid,fit_overlap_months,sector_mode,industry_mode,primary_theme_id
+360ONE,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+3MINDIA,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::A
+AADHARHFC,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,,,IND::Internet Software & Services
+AARTIDRUGS,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+AARTIIND,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+AARTIPHARM,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+AAVAS,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,Financial Services,Housing Finance,IND::Housing Finance
+ABB,IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment · Group 1,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::A
+ABBOTINDIA,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+ABCAPITAL,IND::Holding Companies,Holding Companies,Holding Companies,primary,1,1.0,,,,Financial Services,Holding Companies,IND::Holding Companies
+ABDL,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,,,IND::Breweries & Distilleries
+ABFRL,IND::Department Stores,Department Stores,Department Stores,primary,1,1.0,,,,Consumer Cyclical,Department Stores,IND::Department Stores
+ABLBL,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+ABREL,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,,,IND::Realty::B
+ABSLAMC,IND::Asset Management Cos.,Asset Management Cos.,Asset Management Cos.,primary,1,1.0,,,,Financial Services,Asset Management Cos.,IND::Asset Management Cos.
+ACC,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+ACI,IND::Commodity Chemicals,Commodity Chemicals,Commodity Chemicals,primary,1,1.0,,,,Basic Materials,Commodity Chemicals,IND::Commodity Chemicals
+ACMESOLAR,UNCLASSIFIED::B::B::B::B,Cross-Sector · Group 7,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::B
+ACUTAAS,THEME::Cdmo,CDMO,CDMO,primary,1,1.0,,,,,,THEME::Cdmo
+ADANIENSOL,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+ADANIENT,IND::IT Consulting & Software::B::A,IT Consulting & Software · Group 5,IT Consulting & Software,primary,1,1.0,,,,Energy,Commodity Trading & Distribution,IND::IT Consulting & Software::B::A
+ADANIGREEN,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+ADANIPORTS,IND::Marine Port & Services,Marine Port & Services,Marine Port & Services,primary,1,1.0,,,,Industrials,Marine Port & Services,IND::Marine Port & Services
+ADANIPOWER,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+ADVENZYMES,IND::Biotechnology,Biotechnology,Biotechnology,primary,1,1.0,,,,Basic Materials,Biotechnology,IND::Biotechnology
+AEGISLOG,IND::Oil Marketing & Distribution,Oil Marketing & Distribution,Oil Marketing & Distribution,primary,1,1.0,,,,Energy,Oil Marketing & Distribution,IND::Oil Marketing & Distribution
+AEGISVOPAK,UNCLASSIFIED::B::B::A::A::A,Cross-Sector · Group 8,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::A
+AEQUS,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+AETHER,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+AFCONS,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+AFCONS,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,secondary,2,0.4335,0.6055,0.0825,14.0,,,UNCLASSIFIED::A::A
+AFFLE,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Internet Software & Services,IND::Internet Software & Services
+AGARWALEYE,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+AGI,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Consumer Cyclical,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+AHLUCONT,IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,primary,1,1.0,,,,Industrials,Construction & Engineering,IND::Construction & Engineering
+AIAENG,IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,primary,1,1.0,,,,Industrials,Other Industrial Goods,IND::Other Industrial Goods
+AIIL,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+AJANTPHARM,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+AJAXENGG,UNCLASSIFIED::B::B::B::B,Cross-Sector · Group 7,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::B
+AKUMS,UNCLASSIFIED::B::B::B::A,Cross-Sector · Group 6,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::A
+AKZOINDIA,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Basic Materials,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+ALIVUS,UNCLASSIFIED::B::B::B::B,Cross-Sector · Group 7,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::B
+ALKEM,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+AMAGI,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+AMBER,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Consumer Cyclical,Consumer Electronics,IND::Consumer Electronics
+AMBUJACEM,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+AMRUTANJAN,IND::Pharmaceuticals::A,Pharmaceuticals · Group 5,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::A
+ANANDRATHI,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+ANANTRAJ,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+ANGELONE,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Financial Services,Capital Markets,IND::IT Consulting & Software::B::B::A::B
+ANTHEM,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+ANUP,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,,,IND::Pharmaceuticals::B::B
+ANURAS,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Agrochemicals,IND::Agrochemicals
+APARINDS,IND::Other Electrical Equipment/Products::A,Other Electrical Equipment / Products · Group 2,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::A
+APLAPOLLO,IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,primary,1,1.0,,,,Basic Materials,Iron & Steel Products,IND::Iron & Steel Products
+APLLTD,IND::Pharmaceuticals::B::A::A,Pharmaceuticals · Group 4,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::A
+APOLLOHOSP,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+APOLLOTYRE,IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,primary,1,1.0,,,,Consumer Cyclical,Auto Tyres & Rubber Products,IND::Auto Tyres & Rubber Products
+APTUS,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,Financial Services,Housing Finance,IND::Housing Finance
+ARE&M,IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,primary,1,1.0,,,,Industrials,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::B
+ARTEMISMED,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+ARVIND,IND::Textiles,Textiles,Textiles,primary,1,1.0,,,,Consumer Cyclical,Textiles,IND::Textiles
+ARVINDFASN,IND::Other Apparels & Accessories,Other Apparels & Accessories,Other Apparels & Accessories,primary,1,1.0,,,,Consumer Cyclical,Other Apparels & Accessories,IND::Other Apparels & Accessories
+ARVSMART,IND::Realty::A,Realty · Group 2,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::A
+ASAHIINDIA,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+ASHAPURMIN,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+ASHOKA,IND::Roads & Highways,Roads & Highways,Roads & Highways,primary,1,1.0,,,,Industrials,Roads & Highways,IND::Roads & Highways
+ASHOKLEY,IND::Commercial Vehicles,Commercial Vehicles,Commercial Vehicles,primary,1,1.0,,,,Industrials,Commercial Vehicles,IND::Commercial Vehicles
+ASIANPAINT,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Basic Materials,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+ASTERDM,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+ASTRAL,IND::Plastic Products,Plastic Products,Plastic Products,primary,1,1.0,,,,Industrials,Plastic Products,IND::Plastic Products
+ASTRAMICRO,IND::Defence,Defence,Defence,primary,1,1.0,,,,Technology,Defence,IND::Defence
+ASTRAZEN,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+ATHERENERG,UNCLASSIFIED::B::B::A::A::A,Cross-Sector · Group 8,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::A
+ATLANTAELE,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+ATUL,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+AUBANK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+AUROPHARMA,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+AUTOAXLES,IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::B
+AVALON,IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment · Group 2,Heavy Electrical Equipment,primary,1,1.0,,,,Technology,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::B
+AVANTIFEED,IND::Other Food Products,Other Food Products,Other Food Products,primary,1,1.0,,,,Consumer Defensive,Other Food Products,IND::Other Food Products
+AVL,IND::Specialty Retail,Specialty Retail,Specialty Retail,primary,1,1.0,,,,Consumer Cyclical,Specialty Retail,IND::Specialty Retail
+AWFIS,IND::General Insurance,General Insurance,General Insurance,primary,1,1.0,,,,,,IND::General Insurance
+AWL,UNCLASSIFIED::A::B,Cross-Sector · Group 4,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::B
+AXISBANK,IND::Banks::B::A,Banks · Group 3,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::A
+AZAD,IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::B
+BAJAJ-AUTO,IND::2/3 Wheelers,2 / 3 Wheelers,2 / 3 Wheelers,primary,1,1.0,,,,Consumer Cyclical,2/3 Wheelers,IND::2/3 Wheelers
+BAJAJCON,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+BAJAJELEC,IND::Household Appliances,Household Appliances,Household Appliances,primary,1,1.0,,,,Consumer Cyclical,Household Appliances,IND::Household Appliances
+BAJAJFINSV,IND::Holding Companies,Holding Companies,Holding Companies,primary,1,1.0,,,,Financial Services,Holding Companies,IND::Holding Companies
+BAJAJHFL,UNCLASSIFIED::A::B,Cross-Sector · Group 4,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::B
+BAJAJHLDNG,IND::Holding Companies,Holding Companies,Holding Companies,primary,1,1.0,,,,Financial Services,Holding Companies,IND::Holding Companies
+BAJEL,IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment · Group 1,Heavy Electrical Equipment,primary,1,1.0,,,,Utilities,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::A
+BAJFINANCE,IND::Finance (including NBFCs)::B::B,Finance (including Nbfcs) · Group 2,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::B
+BALKRISIND,IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,primary,1,1.0,,,,Consumer Cyclical,Auto Tyres & Rubber Products,IND::Auto Tyres & Rubber Products
+BALRAMCHIN,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Sugar,IND::Breweries & Distilleries
+BANDHANBNK,IND::Banks::B::A,Banks · Group 3,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::A
+BANKBARODA,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+BANKINDIA,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+BANSALWIRE,IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment · Group 2,Heavy Electrical Equipment,primary,1,1.0,,,,,,IND::Heavy Electrical Equipment::B
+BASF,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+BATAINDIA,IND::Footwear,Footwear,Footwear,primary,1,1.0,,,,Consumer Cyclical,Footwear,IND::Footwear
+BAYERCROP,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Agrochemicals,IND::Agrochemicals
+BBL,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+BBOX,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+BDL,IND::Defence,Defence,Defence,primary,1,1.0,,,,Industrials,Defence,IND::Defence
+BECTORFOOD,IND::Packaged Foods,Packaged Foods,Packaged Foods,primary,1,1.0,,,,Consumer Defensive,Packaged Foods,IND::Packaged Foods
+BEL,IND::Defence,Defence,Defence,primary,1,1.0,,,,Industrials,Defence,IND::Defence
+BELRISE,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,,,IND::Other Financial Services
+BEML,IND::Commercial Vehicles,Commercial Vehicles,Commercial Vehicles,primary,1,1.0,,,,Industrials,Commercial Vehicles,IND::Commercial Vehicles
+BERGEPAINT,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Basic Materials,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+BHARATCOAL,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+BHARATFORG,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Consumer Cyclical,Other Industrial Products,IND::Other Industrial Products
+BHARTIARTL,IND::Specialty Retail,Specialty Retail,Specialty Retail,primary,1,1.0,,,,Communication Services,Telecom Services,IND::Specialty Retail
+BHARTIHEXA,UNCLASSIFIED::B::B::B::A,Cross-Sector · Group 6,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::A
+BHEL,IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment · Group 1,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::A
+BIKAJI,IND::Packaged Foods,Packaged Foods,Packaged Foods,primary,1,1.0,,,,Consumer Defensive,Packaged Foods,IND::Packaged Foods
+BIOCON,IND::Biotechnology,Biotechnology,Biotechnology,primary,1,1.0,,,,Healthcare,Biotechnology,IND::Biotechnology
+BIRLACORPN,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+BLACKBUCK,UNCLASSIFIED::B::B::A::B::A,Cross-Sector · Group 9,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::A
+BLUEDART,IND::Transportation - Logistics,Transportation - Logistics,Transportation - Logistics,primary,1,1.0,,,,Industrials,Transportation - Logistics,IND::Transportation - Logistics
+BLUEJET,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+BLUESTARCO,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Industrials,Consumer Electronics,IND::Consumer Electronics
+BLUESTONE,UNCLASSIFIED::NoRank,Cross-Sector (no Rank) · Group 4,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::NoRank
+BORORENEW,IND::Houseware,Houseware,Houseware,primary,1,1.0,,,,Consumer Cyclical,Houseware,IND::Houseware
+BOSCHLTD,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+BPCL,IND::Refineries/Petro-Products,Refineries / Petro-Products,Refineries / Petro-Products,primary,1,1.0,,,,Energy,Refineries/Petro-Products,IND::Refineries/Petro-Products
+BRIGADE,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+BRIGHOTEL,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+BRITANNIA,IND::Packaged Foods,Packaged Foods,Packaged Foods,primary,1,1.0,,,,Consumer Defensive,Packaged Foods,IND::Packaged Foods
+BSE,IND::Exchange,Exchange,Exchange,primary,1,1.0,,,,Financial Services,Exchange,IND::Exchange
+BSOFT,IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::A
+BUILDPRO,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+CAMPUS,IND::Footwear,Footwear,Footwear,primary,1,1.0,,,,Consumer Cyclical,Footwear,IND::Footwear
+CAMS,IND::IT Consulting & Software::A,IT Consulting & Software · Group 4,IT Consulting & Software,primary,1,1.0,,,,Technology,Capital Markets,IND::IT Consulting & Software::A
+CANBK,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+CANFINHOME,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,Financial Services,Housing Finance,IND::Housing Finance
+CANHLIFE,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+CAPILLARY,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+CAPLIPOINT,IND::Pharmaceuticals::B::A::A,Pharmaceuticals · Group 4,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::A
+CARBORUNIV,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Industrials,Other Industrial Products,IND::Other Industrial Products
+CARERATING,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+CARRARO,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+CARTRADE,IND::Household Appliances,Household Appliances,Household Appliances,primary,1,1.0,,,,Consumer Cyclical,Internet & Catalogue Retail,IND::Household Appliances
+CARYSIL,IND::Household Appliances,Household Appliances,Household Appliances,primary,1,1.0,,,,Consumer Cyclical,Household Products,IND::Household Appliances
+CASTROLIND,IND::Oil Marketing & Distribution,Oil Marketing & Distribution,Oil Marketing & Distribution,primary,1,1.0,,,,Energy,Oil Marketing & Distribution,IND::Oil Marketing & Distribution
+CCL,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Tea & Coffee,IND::Breweries & Distilleries
+CDSL,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Financial Services,Investment Companies,IND::Consumer Electronics
+CEATLTD,IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,primary,1,1.0,,,,Consumer Cyclical,Auto Tyres & Rubber Products,IND::Auto Tyres & Rubber Products
+CEIGALL,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+CEMPRO,UNCLASSIFIED::B::B::A::A::A,Cross-Sector · Group 8,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::A
+CENTUM,IND::IT Software Products,IT Software Products,IT Software Products,primary,1,1.0,,,,Technology,Electronic Components,IND::IT Software Products
+CENTURYPLY,IND::Forest Products,Forest Products,Forest Products,primary,1,1.0,,,,Basic Materials,Forest Products,IND::Forest Products
+CERA,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Industrials,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+CESC,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+CGCL,IND::Finance (including NBFCs)::A,Finance (including Nbfcs) · Group 3,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::A
+CGPOWER,IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment · Group 1,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::A
+CHALET,IND::Hotels,Hotels,Hotels,primary,1,1.0,,,,Consumer Cyclical,Hotels,IND::Hotels
+CHAMBLFERT,IND::Fertilizers,Fertilizers,Fertilizers,primary,1,1.0,,,,Basic Materials,Fertilizers,IND::Fertilizers
+CHEMPLASTS,IND::Specialty Chemicals::B,Specialty Chemicals · Group 2,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::B
+CHENNPETRO,IND::Refineries/Petro-Products,Refineries / Petro-Products,Refineries / Petro-Products,primary,1,1.0,,,,Energy,Refineries/Petro-Products,IND::Refineries/Petro-Products
+CHOLAFIN,IND::Finance (including NBFCs)::B::B,Finance (including Nbfcs) · Group 2,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::B
+CHOLAFIN,IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),secondary,2,0.3674,0.5231,0.1,50.0,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::B
+CHOLAHLDNG,IND::Holding Companies,Holding Companies,Holding Companies,primary,1,1.0,,,,Financial Services,Holding Companies,IND::Holding Companies
+CIEINDIA,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+CIGNITITEC,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::B
+CIPLA,IND::Pharmaceuticals::B::A::A,Pharmaceuticals · Group 4,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::A
+CLEAN,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+CMSINFO,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Industrials,Other Financial Services,IND::Other Financial Services
+COALINDIA,IND::Refineries/Petro-Products,Refineries / Petro-Products,Refineries / Petro-Products,primary,1,1.0,,,,Energy,Coal,IND::Refineries/Petro-Products
+COFORGE,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::B
+COHANCE,UNCLASSIFIED::B::B::B::A,Cross-Sector · Group 6,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::A
+COLPAL,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+CONCOR,IND::Defence,Defence,Defence,primary,1,1.0,,,,Industrials,Warehousing and Logistics,IND::Defence
+CONCORDBIO,IND::Biotechnology,Biotechnology,Biotechnology,primary,1,1.0,,,,Healthcare,Biotechnology,IND::Biotechnology
+COROMANDEL,IND::Fertilizers,Fertilizers,Fertilizers,primary,1,1.0,,,,Basic Materials,Fertilizers,IND::Fertilizers
+CORONA,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+CPPLUS,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+CRAFTSMAN,IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::B
+CRAMC,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+CREDITACC,IND::Finance (including NBFCs)::B::B,Finance (including Nbfcs) · Group 2,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::B
+CRISIL,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+CRIZAC,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+CROMPTON,IND::Household Appliances,Household Appliances,Household Appliances,primary,1,1.0,,,,Consumer Cyclical,Household Appliances,IND::Household Appliances
+CSBBANK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+CUB,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+CUMMINSIND,IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::B
+CYIENT,IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,primary,1,1.0,,,,Industrials,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::A
+CYIENTDLM,IND::IT Software Products,IT Software Products,IT Software Products,primary,1,1.0,,,,Technology,Electronic Components,IND::IT Software Products
+DABUR,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+DALBHARAT,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+DAMCAPITAL,UNCLASSIFIED::B::B::A::B::A,Cross-Sector · Group 9,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::A
+DATAPATTNS,IND::Defence,Defence,Defence,primary,1,1.0,,,,Industrials,Defence,IND::Defence
+DCBBANK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+DCMSHRIRAM,IND::Specialty Chemicals::B,Specialty Chemicals · Group 2,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::B
+DEEPAKFERT,IND::Commodity Chemicals,Commodity Chemicals,Commodity Chemicals,primary,1,1.0,,,,Basic Materials,Commodity Chemicals,IND::Commodity Chemicals
+DEEPAKNTR,IND::Commodity Chemicals,Commodity Chemicals,Commodity Chemicals,primary,1,1.0,,,,Basic Materials,Commodity Chemicals,IND::Commodity Chemicals
+DELHIVERY,IND::Transportation - Logistics,Transportation - Logistics,Transportation - Logistics,primary,1,1.0,,,,Industrials,Transportation - Logistics,IND::Transportation - Logistics
+DEVYANI,IND::Restaurants,Restaurants,Restaurants,primary,1,1.0,,,,Consumer Cyclical,Restaurants,IND::Restaurants
+DHANUKA,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Agrochemicals,IND::Agrochemicals
+DIVGIITTS,IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::B
+DIVISLAB,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+DIXON,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Technology,Consumer Electronics,IND::Consumer Electronics
+DLF,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+DMART,IND::Department Stores,Department Stores,Department Stores,primary,1,1.0,,,,Consumer Defensive,Department Stores,IND::Department Stores
+DODLA,IND::Packaged Foods,Packaged Foods,Packaged Foods,primary,1,1.0,,,,Consumer Defensive,Packaged Foods,IND::Packaged Foods
+DOMS,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Industrials,Commodity Printing/Stationery,IND::Industrial Machinery::A
+DREDGECORP,IND::Forest Products,Forest Products,Forest Products,primary,1,1.0,,,,,,IND::Forest Products
+DRREDDY,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+DYNAMATECH,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+E2E,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+EBGNG,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+ECLERX,IND::IT Consulting & Software::B::B::B,IT Consulting & Software · Group 3,IT Consulting & Software,primary,1,1.0,,,,Technology,BPO/KPO,IND::IT Consulting & Software::B::B::B
+EDELWEISS,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+EICHERMOT,IND::2/3 Wheelers,2 / 3 Wheelers,2 / 3 Wheelers,primary,1,1.0,,,,Consumer Cyclical,2/3 Wheelers,IND::2/3 Wheelers
+EIDPARRY,IND::Other Food Products,Other Food Products,Other Food Products,primary,1,1.0,,,,Basic Materials,Other Food Products,IND::Other Food Products
+EIHOTEL,IND::Hotels,Hotels,Hotels,primary,1,1.0,,,,Consumer Cyclical,Hotels,IND::Hotels
+ELECON,IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::B
+ELLEN,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+EMAMILTD,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+EMCURE,UNCLASSIFIED::B::B::A::B::A,Cross-Sector · Group 9,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::A
+EMIL,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Consumer Cyclical,Consumer Electronics,IND::Consumer Electronics
+EMMVEE,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+ENDURANCE,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+ENGINERSIN,IND::Shipping,Shipping,Shipping,primary,1,1.0,,,,Industrials,Consulting Services,IND::Shipping
+ENRIN,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+ENTERO,IND::General Insurance,General Insurance,General Insurance,primary,1,1.0,,,,,,IND::General Insurance
+EPACK,UNCLASSIFIED::B::B::A::A::B,Cross-Sector · Group 5,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::B
+EPACKPEB,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+EPIGRAL,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,,,IND::Agrochemicals
+EPL,IND::Containers & Packaging,Containers & Packaging,Containers & Packaging,primary,1,1.0,,,,Consumer Cyclical,Containers & Packaging,IND::Containers & Packaging
+EQUITASBNK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+ERIS,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+ESABINDIA,IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,primary,1,1.0,,,,Industrials,Other Industrial Goods,IND::Other Industrial Goods
+ESCORTS,IND::Commercial Vehicles,Commercial Vehicles,Commercial Vehicles,primary,1,1.0,,,,Industrials,Commercial Vehicles,IND::Commercial Vehicles
+ETERNAL,IND::Healthcare Services,Healthcare Services,Healthcare Services,primary,1,1.0,,,,,,IND::Healthcare Services
+ETHOSLTD,IND::Specialty Retail,Specialty Retail,Specialty Retail,primary,1,1.0,,,,Consumer Cyclical,Specialty Retail,IND::Specialty Retail
+EUREKAFORB,UNCLASSIFIED::B::B::B::A,Cross-Sector · Group 6,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::A
+EUROPRATIK,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+EXIDEIND,IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::B
+FDC,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+FEDERALBNK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+FEDFINA,IND::Finance (including NBFCs)::A,Finance (including Nbfcs) · Group 3,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::A
+FIEMIND,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+FILATEX,UNCLASSIFIED::B::B::A::B::A,Cross-Sector · Group 9,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::A
+FINCABLES,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+FINEORG,IND::Specialty Chemicals::B,Specialty Chemicals · Group 2,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::B
+FINPIPE,IND::Plastic Products,Plastic Products,Plastic Products,primary,1,1.0,,,,Industrials,Plastic Products,IND::Plastic Products
+FIRSTCRY,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+FIVESTAR,IND::Finance (including NBFCs)::B::B,Finance (including Nbfcs) · Group 2,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::B
+FLAIR,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Industrials,Commodity Printing/Stationery,IND::Industrial Machinery::A
+FLUOROCHEM,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+FORCEMOT,IND::Cars & Utility Vehicles,Cars & Utility Vehicles,Cars & Utility Vehicles,primary,1,1.0,,,,Consumer Cyclical,Cars & Utility Vehicles,IND::Cars & Utility Vehicles
+FORTIS,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+FOSECOIND,UNCLASSIFIED::B::B::A::A::B,Cross-Sector · Group 5,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::B
+FSL,IND::IT Consulting & Software::A,IT Consulting & Software · Group 4,IT Consulting & Software,primary,1,1.0,,,,Technology,BPO/KPO,IND::IT Consulting & Software::A
+FUSION,IND::Finance (including NBFCs)::B::B,Finance (including Nbfcs) · Group 2,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::B
+GABRIEL,IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::B
+GAIL,IND::Utilities:Non-Electrical,Utilities:non-Electrical,Utilities:non-Electrical,primary,1,1.0,,,,Utilities,Utilities:Non-Electrical,IND::Utilities:Non-Electrical
+GALAXYSURF,IND::Specialty Chemicals::B,Specialty Chemicals · Group 2,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::B
+GALLANTT,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+GARFIBRES,IND::Textiles,Textiles,Textiles,primary,1,1.0,,,,Consumer Cyclical,Textiles,IND::Textiles
+GATEWAY,IND::Transportation - Logistics,Transportation - Logistics,Transportation - Logistics,primary,1,1.0,,,,Industrials,Transportation - Logistics,IND::Transportation - Logistics
+GESHIP,IND::Shipping,Shipping,Shipping,primary,1,1.0,,,,Industrials,Shipping,IND::Shipping
+GHCL,IND::Commodity Chemicals,Commodity Chemicals,Commodity Chemicals,primary,1,1.0,,,,Basic Materials,Commodity Chemicals,IND::Commodity Chemicals
+GICRE,IND::General Insurance,General Insurance,General Insurance,primary,1,1.0,,,,Financial Services,General Insurance,IND::General Insurance
+GILLETTE,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+GLAND,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+GLAXO,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+GLENMARK,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+GLOBUSSPR,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Breweries & Distilleries,IND::Breweries & Distilleries
+GMDCLTD,IND::Refineries/Petro-Products,Refineries / Petro-Products,Refineries / Petro-Products,primary,1,1.0,,,,Energy,Coal,IND::Refineries/Petro-Products
+GMMPFAUDLR,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::A
+GMRAIRPORT,UNCLASSIFIED::A::B,Cross-Sector · Group 4,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::B
+GOCOLORS,IND::Other Apparels & Accessories,Other Apparels & Accessories,Other Apparels & Accessories,primary,1,1.0,,,,Consumer Cyclical,Other Apparels & Accessories,IND::Other Apparels & Accessories
+GODFRYPHLP,IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,primary,1,1.0,,,,Consumer Defensive,Cigarettes-Tobacco Products,IND::Cigarettes-Tobacco Products
+GODIGIT,THEME::Cdmo,CDMO,CDMO,primary,1,1.0,,,,,,THEME::Cdmo
+GODREJAGRO,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Other Agricultural Products,IND::Breweries & Distilleries
+GODREJCP,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+GODREJIND,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Industrials,Diversified,IND::Industrial Machinery::A
+GODREJPROP,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+GOKEX,IND::Textiles,Textiles,Textiles,primary,1,1.0,,,,Consumer Cyclical,Textiles,IND::Textiles
+GPIL,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+GPPL,IND::Marine Port & Services,Marine Port & Services,Marine Port & Services,primary,1,1.0,,,,Industrials,Marine Port & Services,IND::Marine Port & Services
+GRANULES,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+GRAPHITE,IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,primary,1,1.0,,,,Industrials,Other Industrial Goods,IND::Other Industrial Goods
+GRASIM,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+GRAVITA,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Non-Ferrous Metals,IND::Other Electrical Equipment/Products::B
+GREAVESCOT,IND::Auto Parts & Equipment::A,Auto Parts & Equipment · Group 4,Auto Parts & Equipment,primary,1,1.0,,,,Industrials,Auto Parts & Equipment,IND::Auto Parts & Equipment::A
+GREENLAM,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Consumer Cyclical,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+GREENPANEL,IND::Forest Products,Forest Products,Forest Products,primary,1,1.0,,,,Basic Materials,Forest Products,IND::Forest Products
+GREENPLY,IND::Forest Products,Forest Products,Forest Products,primary,1,1.0,,,,Basic Materials,Forest Products,IND::Forest Products
+GRINDWELL,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Industrials,Other Industrial Products,IND::Other Industrial Products
+GRINFRA,IND::Roads & Highways,Roads & Highways,Roads & Highways,primary,1,1.0,,,,Industrials,Roads & Highways,IND::Roads & Highways
+GROWW,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+GRSE,IND::Shipping,Shipping,Shipping,primary,1,1.0,,,,Industrials,Shipping,IND::Shipping
+GRWRHITECH,IND::Containers & Packaging,Containers & Packaging,Containers & Packaging,primary,1,1.0,,,,Basic Materials,Containers & Packaging,IND::Containers & Packaging
+GSPL,IND::Utilities:Non-Electrical,Utilities:non-Electrical,Utilities:non-Electrical,primary,1,1.0,,,,Utilities,Utilities:Non-Electrical,IND::Utilities:Non-Electrical
+GUFICBIO,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+GUJGASLTD,IND::Utilities:Non-Electrical,Utilities:non-Electrical,Utilities:non-Electrical,primary,1,1.0,,,,Utilities,Utilities:Non-Electrical,IND::Utilities:Non-Electrical
+GULFOILLUB,IND::Oil Marketing & Distribution,Oil Marketing & Distribution,Oil Marketing & Distribution,primary,1,1.0,,,,Basic Materials,Oil Marketing & Distribution,IND::Oil Marketing & Distribution
+GVT&D,IND::Asset Management Cos.,Asset Management Cos.,Asset Management Cos.,primary,1,1.0,,,,,,IND::Asset Management Cos.
+HAL,IND::Defence,Defence,Defence,primary,1,1.0,,,,Industrials,Defence,IND::Defence
+HAPPSTMNDS,IND::IT Consulting & Software::B::A,IT Consulting & Software · Group 5,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::A
+HAPPYFORGE,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Industrials,Other Industrial Products,IND::Other Industrial Products
+HATSUN,IND::Packaged Foods,Packaged Foods,Packaged Foods,primary,1,1.0,,,,Consumer Defensive,Packaged Foods,IND::Packaged Foods
+HAVELLS,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+HCG,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+HCLTECH,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::B
+HDBFS,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+HDFCAMC,IND::Asset Management Cos.,Asset Management Cos.,Asset Management Cos.,primary,1,1.0,,,,Financial Services,Asset Management Cos.,IND::Asset Management Cos.
+HDFCBANK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+HDFCLIFE,IND::Life Insurance,Life Insurance,Life Insurance,primary,1,1.0,,,,Financial Services,Life Insurance,IND::Life Insurance
+HEG,IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,primary,1,1.0,,,,Industrials,Other Industrial Goods,IND::Other Industrial Goods
+HERITGFOOD,IND::Packaged Foods,Packaged Foods,Packaged Foods,primary,1,1.0,,,,Consumer Defensive,Packaged Foods,IND::Packaged Foods
+HEROMOTOCO,IND::2/3 Wheelers,2 / 3 Wheelers,2 / 3 Wheelers,primary,1,1.0,,,,Consumer Cyclical,2/3 Wheelers,IND::2/3 Wheelers
+HEXT,UNCLASSIFIED::B::B::B::A,Cross-Sector · Group 6,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::A
+HGINFRA,IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,primary,1,1.0,,,,Industrials,Construction & Engineering,IND::Construction & Engineering
+HIKAL,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+HINDALCO,IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products,Aluminium and Aluminium Products,primary,1,1.0,,,,Basic Materials,Aluminium and Aluminium Products,IND::Aluminium and Aluminium Products
+HINDCOPPER,IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products,Aluminium and Aluminium Products,primary,1,1.0,,,,Basic Materials,Copper,IND::Aluminium and Aluminium Products
+HINDPETRO,IND::Refineries/Petro-Products,Refineries / Petro-Products,Refineries / Petro-Products,primary,1,1.0,,,,Energy,Refineries/Petro-Products,IND::Refineries/Petro-Products
+HINDUNILVR,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+HINDZINC,IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products,Aluminium and Aluminium Products,primary,1,1.0,,,,Basic Materials,Zinc,IND::Aluminium and Aluminium Products
+HITECH,IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,primary,1,1.0,,,,Basic Materials,Iron & Steel Products,IND::Iron & Steel Products
+HOMEFIRST,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,Financial Services,Housing Finance,IND::Housing Finance
+HONASA,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+HONAUT,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+HUDCO,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,Financial Services,Housing Finance,IND::Housing Finance
+HYUNDAI,UNCLASSIFIED::B::A::A,Cross-Sector · Group 10,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::A
+ICICIAMC,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+ICICIBANK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+ICICIGI,IND::General Insurance,General Insurance,General Insurance,primary,1,1.0,,,,Financial Services,General Insurance,IND::General Insurance
+ICICIPRULI,IND::Life Insurance,Life Insurance,Life Insurance,primary,1,1.0,,,,Financial Services,Life Insurance,IND::Life Insurance
+ICIL,IND::Textiles,Textiles,Textiles,primary,1,1.0,,,,Consumer Cyclical,Textiles,IND::Textiles
+ICRA,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+IDBI,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+IDEA,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,,,IND::Banks::B::B
+IDFCFIRSTB,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+IDFCFIRSTB,IND::Banks::B::A,Banks · Group 3,Banks,secondary,2,0.3556,0.5091,0.105,50.0,Financial Services,Banks,IND::Banks::A
+IEX,IND::Exchange,Exchange,Exchange,primary,1,1.0,,,,Financial Services,Exchange,IND::Exchange
+IFBIND,IND::Household Appliances,Household Appliances,Household Appliances,primary,1,1.0,,,,Consumer Cyclical,Household Appliances,IND::Household Appliances
+IGIL,UNCLASSIFIED::B::B::A::A::A,Cross-Sector · Group 8,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::A
+IGL,IND::Utilities:Non-Electrical,Utilities:non-Electrical,Utilities:non-Electrical,primary,1,1.0,,,,Utilities,Utilities:Non-Electrical,IND::Utilities:Non-Electrical
+IIFL,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+IIFLCAPS,UNCLASSIFIED::B::B::A::A::B,Cross-Sector · Group 5,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::B
+IKS,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+IKS,UNCLASSIFIED::B::B::A::A::A,Cross-Sector · Group 8,Cross-Sector,secondary,2,0.4016,0.5654,0.09,11.0,,,UNCLASSIFIED::A::A
+IMFA,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+INDGN,UNCLASSIFIED::B::B::B::A,Cross-Sector · Group 6,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::A
+INDHOTEL,IND::Hotels,Hotels,Hotels,primary,1,1.0,,,,Consumer Cyclical,Hotels,IND::Hotels
+INDIACEM,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+INDIAGLYCO,IND::Commodity Chemicals,Commodity Chemicals,Commodity Chemicals,primary,1,1.0,,,,Basic Materials,Commodity Chemicals,IND::Commodity Chemicals
+INDIAMART,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Internet Software & Services,IND::Internet Software & Services
+INDIANB,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+INDIASHLTR,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,Financial Services,Housing Finance,IND::Housing Finance
+INDIGO,IND::Other Electrical Equipment/Products::A,Other Electrical Equipment / Products · Group 2,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Airlines,IND::Other Electrical Equipment/Products::A
+INDIGOPNTS,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Basic Materials,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+INDIQUBE,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+INDUSINDBK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+INDUSTOWER,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Other Telecom Services,IND::Internet Software & Services
+INFY,IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::A
+INGERRAND,IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::B
+INOXGREEN,IND::Electric Utilities::B,Electric Utilities · Group 2,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::B
+INOXINDIA,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Industrials,Other Industrial Products,IND::Other Industrial Products
+INOXWIND,IND::Electric Utilities::B,Electric Utilities · Group 2,Electric Utilities,primary,1,1.0,,,,Industrials,Electric Utilities,IND::Electric Utilities::B
+INTELLECT,IND::IT Software Products,IT Software Products,IT Software Products,primary,1,1.0,,,,,IT Software Products,IND::IT Software Products
+INTERARCH,UNCLASSIFIED::B::B::A::A::B,Cross-Sector · Group 5,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::B
+IOC,IND::Oil Marketing & Distribution,Oil Marketing & Distribution,Oil Marketing & Distribution,primary,1,1.0,,,,Energy,Oil Marketing & Distribution,IND::Oil Marketing & Distribution
+IONEXCHANG,IND::Utilities:Non-Electrical,Utilities:non-Electrical,Utilities:non-Electrical,primary,1,1.0,,,,Industrials,Utilities:Non-Electrical,IND::Utilities:Non-Electrical
+IPCALAB,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+IRB,IND::Roads & Highways,Roads & Highways,Roads & Highways,primary,1,1.0,,,,Industrials,Roads & Highways,IND::Roads & Highways
+IRCTC,IND::Travel Support Services,Travel Support Services,Travel Support Services,primary,1,1.0,,,,Industrials,Travel Support Services,IND::Travel Support Services
+IRFC,IND::Finance (including NBFCs)::A,Finance (including Nbfcs) · Group 3,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::A
+ISGEC,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::A
+ITC,IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,primary,1,1.0,,,,Consumer Defensive,Cigarettes-Tobacco Products,IND::Cigarettes-Tobacco Products
+ITCHOTELS,UNCLASSIFIED::B::B::A::A::B,Cross-Sector · Group 5,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::B
+IXIGO,IND::Forest Products,Forest Products,Forest Products,primary,1,1.0,,,,,,IND::Forest Products
+J&KBANK,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+JAINREC,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+JAMNAAUTO,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+JBCHEPHARM,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+JINDALSAW,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Basic Materials,Other Industrial Products,IND::Other Industrial Products
+JINDALSTEL,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+JIOFIN,IND::Finance (including NBFCs)::A,Finance (including Nbfcs) · Group 3,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::A
+JKCEMENT,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+JKLAKSHMI,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+JKPAPER,IND::Paper & Paper Products,Paper & Paper Products,Paper & Paper Products,primary,1,1.0,,,,Basic Materials,Paper & Paper Products,IND::Paper & Paper Products
+JKTYRE,IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,primary,1,1.0,,,,Consumer Cyclical,Auto Tyres & Rubber Products,IND::Auto Tyres & Rubber Products
+JLHL,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+JMFINANCIL,IND::Holding Companies,Holding Companies,Holding Companies,primary,1,1.0,,,,Financial Services,Holding Companies,IND::Holding Companies
+JSL,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+JSWCEMENT,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+JSWENERGY,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+JSWHL,UNCLASSIFIED::B::B::B::B,Cross-Sector · Group 7,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::B
+JSWINFRA,IND::Marine Port & Services,Marine Port & Services,Marine Port & Services,primary,1,1.0,,,,Industrials,Marine Port & Services,IND::Marine Port & Services
+JSWSTEEL,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+JTEKTINDIA,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+JUBLFOOD,IND::Restaurants,Restaurants,Restaurants,primary,1,1.0,,,,Consumer Cyclical,Restaurants,IND::Restaurants
+JUBLINGREA,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+JUBLPHARMA,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+JUNIPER,UNCLASSIFIED::B::B::B::A,Cross-Sector · Group 6,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::A
+JUSTDIAL,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Internet Software & Services,IND::Internet Software & Services
+JYOTHYLAB,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+JYOTICNC,IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::B
+KAJARIACER,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Industrials,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+KALYANKJIL,IND::Gems & Jewellery,Gems & Jewellery,Gems & Jewellery,primary,1,1.0,,,,Consumer Cyclical,Gems & Jewellery,IND::Gems & Jewellery
+KANSAINER,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Basic Materials,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+KARURVYSYA,IND::Banks::B::A,Banks · Group 3,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::A
+KAYNES,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+KEC,IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment · Group 2,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::B
+KEI,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+KEI,IND::Other Electrical Equipment/Products::A,Other Electrical Equipment / Products · Group 2,Other Electrical Equipment / Products,secondary,2,0.3244,0.4575,0.075,50.0,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+KENNAMET,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Industrials,Other Industrial Products,IND::Other Industrial Products
+KFINTECH,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Technology,Other Financial Services,IND::Other Financial Services
+KIMS,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+KINGFA,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+KIRLFER,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Industrials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+KIRLOSBROS,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::A
+KIRLOSENG,IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment · Group 1,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::A
+KIRLPNU,IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::B
+KKCL,IND::Other Apparels & Accessories,Other Apparels & Accessories,Other Apparels & Accessories,primary,1,1.0,,,,Consumer Cyclical,Other Apparels & Accessories,IND::Other Apparels & Accessories
+KMEW,IND::Forest Products,Forest Products,Forest Products,primary,1,1.0,,,,,,IND::Forest Products
+KNRCON,IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,primary,1,1.0,,,,Industrials,Construction & Engineering,IND::Construction & Engineering
+KOTAKBANK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+KOVAI,IND::Healthcare Services,Healthcare Services,Healthcare Services,primary,1,1.0,,,,Healthcare,Healthcare Services,IND::Healthcare Services
+KPIL,IND::Electric Utilities::B,Electric Utilities · Group 2,Electric Utilities,primary,1,1.0,,,,Industrials,Electric Utilities,IND::Electric Utilities::B
+KPITTECH,IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::A
+KPRMILL,IND::Textiles,Textiles,Textiles,primary,1,1.0,,,,Consumer Cyclical,Textiles,IND::Textiles
+KRBL,UNCLASSIFIED::B::B::A::A::B,Cross-Sector · Group 5,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::B
+KRN,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+KRSNAA,IND::Healthcare Services,Healthcare Services,Healthcare Services,primary,1,1.0,,,,Healthcare,Healthcare Services,IND::Healthcare Services
+KSB,IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::B
+KSHINTL,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+KSL,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+KTKBANK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+LALPATHLAB,IND::Healthcare Services,Healthcare Services,Healthcare Services,primary,1,1.0,,,,Healthcare,Healthcare Services,IND::Healthcare Services
+LANDMARK,IND::Specialty Retail,Specialty Retail,Specialty Retail,primary,1,1.0,,,,Consumer Cyclical,Specialty Retail,IND::Specialty Retail
+LAOPALA,IND::Houseware,Houseware,Houseware,primary,1,1.0,,,,Consumer Cyclical,Houseware,IND::Houseware
+LAURUSLABS,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+LAXMIDENTL,UNCLASSIFIED::B::B::A::A::A,Cross-Sector · Group 8,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::A
+LEMONTREE,IND::Hotels,Hotels,Hotels,primary,1,1.0,,,,Consumer Cyclical,Hotels,IND::Hotels
+LENSKART,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+LGBBROSLTD,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+LGEINDIA,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+LICHSGFIN,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,Financial Services,Housing Finance,IND::Housing Finance
+LICI,IND::Life Insurance,Life Insurance,Life Insurance,primary,1,1.0,,,,Financial Services,Life Insurance,IND::Life Insurance
+LINDEINDIA,IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,primary,1,1.0,,,,Basic Materials,Industrial Gases,IND::Iron & Steel Products
+LODHA,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+LOTUSDEV,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+LT,IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,primary,1,1.0,,,,Industrials,Construction & Engineering,IND::Construction & Engineering
+LTF,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,,,IND::Housing Finance
+LTFOODS,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Other Agricultural Products,IND::Breweries & Distilleries
+LTIM,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::B
+LTTS,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::B
+LUMAXIND,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+LUMAXTECH,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+LUPIN,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+M&M,IND::Cars & Utility Vehicles,Cars & Utility Vehicles,Cars & Utility Vehicles,primary,1,1.0,,,,Consumer Cyclical,Cars & Utility Vehicles,IND::Cars & Utility Vehicles
+M&MFIN,IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::A
+MAHABANK,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+MAHLIFE,IND::Realty::A,Realty · Group 2,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::A
+MAHLOG,IND::Transportation - Logistics,Transportation - Logistics,Transportation - Logistics,primary,1,1.0,,,,Industrials,Transportation - Logistics,IND::Transportation - Logistics
+MAHSCOOTER,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Consumer Cyclical,Investment Companies,IND::Consumer Electronics
+MAHSEAMLES,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+MANAPPURAM,IND::Finance (including NBFCs)::B::B,Finance (including Nbfcs) · Group 2,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::B
+MANKIND,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+MANORAMA,IND::Other Food Products,Other Food Products,Other Food Products,primary,1,1.0,,,,Consumer Defensive,Other Food Products,IND::Other Food Products
+MANYAVAR,IND::Specialty Retail,Specialty Retail,Specialty Retail,primary,1,1.0,,,,Consumer Cyclical,Specialty Retail,IND::Specialty Retail
+MAPMYINDIA,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Technology,Internet Software & Services,IND::Internet Software & Services
+MARATHON,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+MARICO,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+MARKSANS,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+MARUTI,IND::Cars & Utility Vehicles,Cars & Utility Vehicles,Cars & Utility Vehicles,primary,1,1.0,,,,Consumer Cyclical,Cars & Utility Vehicles,IND::Cars & Utility Vehicles
+MASFIN,IND::Finance (including NBFCs)::A,Finance (including Nbfcs) · Group 3,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::A
+MASTEK,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::B
+MAXESTATES,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,,,IND::Realty::B
+MAXHEALTH,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+MAYURUNIQ,IND::Textiles,Textiles,Textiles,primary,1,1.0,,,,Consumer Cyclical,Textiles,IND::Textiles
+MAZDOCK,IND::Shipping,Shipping,Shipping,primary,1,1.0,,,,Industrials,Shipping,IND::Shipping
+MBEL,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+MCX,IND::Exchange,Exchange,Exchange,primary,1,1.0,,,,Financial Services,Exchange,IND::Exchange
+MEDANTA,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+MEDIASSIST,IND::Healthcare Services,Healthcare Services,Healthcare Services,primary,1,1.0,,,,Healthcare,Healthcare Services,IND::Healthcare Services
+MEDPLUS,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Supplies,IND::Healthcare Facilities
+MEESHO,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+METROBRAND,IND::Footwear,Footwear,Footwear,primary,1,1.0,,,,Consumer Cyclical,Footwear,IND::Footwear
+METROPOLIS,IND::Healthcare Services,Healthcare Services,Healthcare Services,primary,1,1.0,,,,Healthcare,Healthcare Services,IND::Healthcare Services
+MFSL,IND::Life Insurance,Life Insurance,Life Insurance,primary,1,1.0,,,,Financial Services,Life Insurance,IND::Life Insurance
+MGL,IND::Utilities:Non-Electrical,Utilities:non-Electrical,Utilities:non-Electrical,primary,1,1.0,,,,Utilities,Utilities:Non-Electrical,IND::Utilities:Non-Electrical
+MHRIL,IND::Hotels,Hotels,Hotels,primary,1,1.0,,,,Consumer Cyclical,Hotels,IND::Hotels
+MIDHANI,IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,primary,1,1.0,,,,Basic Materials,Iron & Steel Products,IND::Iron & Steel Products
+MIDWESTLTD,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+MINDACORP,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+MMFL,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Industrials,Other Industrial Products,IND::Other Industrial Products
+MOIL,IND::Mining,Mining,Mining,primary,1,1.0,,,,Basic Materials,Mining,IND::Mining
+MOLDTKPAC,IND::Containers & Packaging,Containers & Packaging,Containers & Packaging,primary,1,1.0,,,,Consumer Cyclical,Containers & Packaging,IND::Containers & Packaging
+MOTHERSON,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+MOTILALOFS,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+MPHASIS,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::B
+MPSLTD,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Publishing,IND::Internet Software & Services
+MRF,IND::Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,Auto Tyres & Rubber Products,primary,1,1.0,,,,Consumer Cyclical,Auto Tyres & Rubber Products,IND::Auto Tyres & Rubber Products
+MRPL,IND::Refineries/Petro-Products,Refineries / Petro-Products,Refineries / Petro-Products,primary,1,1.0,,,,Energy,Refineries/Petro-Products,IND::Refineries/Petro-Products
+MSUMI,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+MTARTECH,IND::Defence,Defence,Defence,primary,1,1.0,,,,Industrials,Defence,IND::Defence
+MUTHOOTFIN,IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::A
+MUTHOOTMF,UNCLASSIFIED::A::B,Cross-Sector · Group 4,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::B
+NAM-INDIA,IND::Asset Management Cos.,Asset Management Cos.,Asset Management Cos.,primary,1,1.0,,,,Financial Services,Asset Management Cos.,IND::Asset Management Cos.
+NATCOPHARM,IND::Pharmaceuticals::B::A::A,Pharmaceuticals · Group 4,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::A
+NATIONALUM,IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products,Aluminium and Aluminium Products,primary,1,1.0,,,,Basic Materials,Aluminium and Aluminium Products,IND::Aluminium and Aluminium Products
+NAUKRI,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Internet Software & Services,IND::Internet Software & Services
+NAVINFLUOR,IND::Commodity Chemicals,Commodity Chemicals,Commodity Chemicals,primary,1,1.0,,,,Basic Materials,Commodity Chemicals,IND::Commodity Chemicals
+NAZARA,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Internet Software & Services,IND::Internet Software & Services
+NBCC,IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,primary,1,1.0,,,,Industrials,Construction & Engineering,IND::Construction & Engineering
+NCC,IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,primary,1,1.0,,,,Industrials,Construction & Engineering,IND::Construction & Engineering
+NEOGEN,IND::Specialty Chemicals::B,Specialty Chemicals · Group 2,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::B
+NEPHROPLUS,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+NESCO,IND::Realty::A,Realty · Group 2,Realty,primary,1,1.0,,,,Industrials,Realty,IND::Realty::A
+NESTLEIND,IND::Packaged Foods,Packaged Foods,Packaged Foods,primary,1,1.0,,,,Consumer Defensive,Packaged Foods,IND::Packaged Foods
+NETWEB,IND::IT Consulting & Software::B::B::B,IT Consulting & Software · Group 3,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::B
+NEULANDLAB,IND::Pharmaceuticals::A,Pharmaceuticals · Group 5,Pharmaceuticals,primary,1,1.0,,,,,Pharmaceuticals,IND::Pharmaceuticals::A
+NEWGEN,IND::IT Consulting & Software::B::B::B,IT Consulting & Software · Group 3,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::B
+NH,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+NHPC,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+NIITMTS,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Education,IND::Breweries & Distilleries
+NILKAMAL,IND::Plastic Products,Plastic Products,Plastic Products,primary,1,1.0,,,,Consumer Cyclical,Plastic Products,IND::Plastic Products
+NITINSPIN,IND::Textiles,Textiles,Textiles,primary,1,1.0,,,,Consumer Cyclical,Textiles,IND::Textiles
+NIVABUPA,UNCLASSIFIED::B::B::B::B,Cross-Sector · Group 7,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::B
+NLCINDIA,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+NMDC,IND::Mining,Mining,Mining,primary,1,1.0,,,,Basic Materials,Mining,IND::Mining
+NORTHARC,UNCLASSIFIED::A::B,Cross-Sector · Group 4,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::B
+NSLNISP,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+NTPC,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+NTPCGREEN,UNCLASSIFIED::B::B::A::B::A,Cross-Sector · Group 9,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::A
+NUVAMA,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,,,IND::Other Financial Services
+NUVOCO,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+NYKAA,IND::Household Appliances,Household Appliances,Household Appliances,primary,1,1.0,,,,Consumer Cyclical,Internet & Catalogue Retail,IND::Household Appliances
+OBEROIRLTY,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+OFSS,IND::IT Consulting & Software::B::B::B,IT Consulting & Software · Group 3,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::B
+OIL,IND::Oil Marketing & Distribution,Oil Marketing & Distribution,Oil Marketing & Distribution,primary,1,1.0,,,,Energy,Exploration & Production,IND::Oil Marketing & Distribution
+OLAELEC,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+ONESOURCE,IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,primary,1,1.0,,,,,,IND::Cigarettes-Tobacco Products
+ONGC,IND::Oil Marketing & Distribution,Oil Marketing & Distribution,Oil Marketing & Distribution,primary,1,1.0,,,,Energy,Exploration & Production,IND::Oil Marketing & Distribution
+OPTIEMUS,IND::IT Software Products,IT Software Products,IT Software Products,primary,1,1.0,,,,Technology,Telecom Equipment,IND::IT Software Products
+ORCHPHARMA,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+ORIENTELEC,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Consumer Cyclical,Consumer Electronics,IND::Consumer Electronics
+ORKLAINDIA,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+OSWALPUMPS,UNCLASSIFIED::B::B::A::A::A,Cross-Sector · Group 8,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::A
+PACEDIGITK,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+PAGEIND,IND::Other Apparels & Accessories,Other Apparels & Accessories,Other Apparels & Accessories,primary,1,1.0,,,,Consumer Cyclical,Other Apparels & Accessories,IND::Other Apparels & Accessories
+PARADEEP,IND::Fertilizers,Fertilizers,Fertilizers,primary,1,1.0,,,,Basic Materials,Fertilizers,IND::Fertilizers
+PATELENG,UNCLASSIFIED::A::B,Cross-Sector · Group 4,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::B
+PAYTM,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Technology,Internet Software & Services,IND::Internet Software & Services
+PENIND,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+PERSISTENT,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::B
+PETRONET,IND::Oil Marketing & Distribution,Oil Marketing & Distribution,Oil Marketing & Distribution,primary,1,1.0,,,,Energy,Oil Marketing & Distribution,IND::Oil Marketing & Distribution
+PFC,IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::A
+PFIZER,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+PFOCUS,UNCLASSIFIED::A::B,Cross-Sector · Group 4,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::B
+PFS,IND::Finance (including NBFCs)::A,Finance (including Nbfcs) · Group 3,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::A
+PGEL,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Technology,Consumer Electronics,IND::Consumer Electronics
+PGHH,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Consumer Defensive,Personal Products,IND::Personal Products
+PGHL,IND::Pharmaceuticals::A,Pharmaceuticals · Group 5,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::A
+PGIL,IND::General Insurance,General Insurance,General Insurance,primary,1,1.0,,,,,,IND::General Insurance
+PHOENIXLTD,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+PIDILITIND,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+PIIND,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Agrochemicals,IND::Agrochemicals
+PINELABS,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+PIRAMALFIN,UNCLASSIFIED::NoRank,Cross-Sector (no Rank) · Group 4,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::NoRank
+PITTIENG,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+PNB,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+PNBHOUSING,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,Financial Services,Housing Finance,IND::Housing Finance
+PNCINFRA,IND::Roads & Highways,Roads & Highways,Roads & Highways,primary,1,1.0,,,,Industrials,Roads & Highways,IND::Roads & Highways
+PNGJL,IND::Houseware,Houseware,Houseware,primary,1,1.0,,,,,,IND::Houseware
+POCL,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+POLICYBZR,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Financial Services,Internet Software & Services,IND::Internet Software & Services
+POLYCAB,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+POLYMED,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Supplies,IND::Healthcare Facilities
+POONAWALLA,IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::A
+POWERGRID,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+POWERINDIA,IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment · Group 1,Heavy Electrical Equipment,primary,1,1.0,,,,Technology,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::A
+POWERMECH,IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,primary,1,1.0,,,,Industrials,Construction & Engineering,IND::Construction & Engineering
+PPLPHARMA,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+PRAJIND,IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::B
+PREMIERENE,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,,,IND::Other Electrical Equipment/Products::B
+PRESTIGE,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+PRICOLLTD,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+PRINCEPIPE,IND::Plastic Products,Plastic Products,Plastic Products,primary,1,1.0,,,,Industrials,Plastic Products,IND::Plastic Products
+PRIVISCL,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+PRUDENT,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+PSPPROJECT,IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,primary,1,1.0,,,,Industrials,Construction & Engineering,IND::Construction & Engineering
+PTC,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+PTCIL,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Industrials,Other Industrial Products,IND::Other Industrial Products
+PVRINOX,IND::Specialty Retail,Specialty Retail,Specialty Retail,primary,1,1.0,,,,Communication Services,Specialty Retail,IND::Specialty Retail
+PWL,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+QPOWER,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+RADICO,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Breweries & Distilleries,IND::Breweries & Distilleries
+RAILTEL,IND::Specialty Retail,Specialty Retail,Specialty Retail,primary,1,1.0,,,,Communication Services,Telecom Services,IND::Specialty Retail
+RAIN,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Petrochemicals,IND::Agrochemicals
+RAINBOW,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+RALLIS,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Agrochemicals,IND::Agrochemicals
+RAMCOCEM,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+RAMCOSYS,IND::IT Consulting & Software::A,IT Consulting & Software · Group 4,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::A
+RANEHOLDIN,IND::Holding Companies,Holding Companies,Holding Companies,primary,1,1.0,,,,Consumer Cyclical,Holding Companies,IND::Holding Companies
+RATEGAIN,IND::IT Software Products,IT Software Products,IT Software Products,primary,1,1.0,,,,Technology,IT Software Products,IND::IT Software Products
+RATNAMANI,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+RAYMONDLSL,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+RAYMONDREL,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+RBA,IND::Restaurants,Restaurants,Restaurants,primary,1,1.0,,,,Consumer Cyclical,Restaurants,IND::Restaurants
+RBLBANK,IND::Banks::A,Banks · Group 2,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::A
+RECLTD,IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::A
+REDINGTON,IND::IT Consulting & Software::B::A,IT Consulting & Software · Group 5,IT Consulting & Software,primary,1,1.0,,,,Technology,Commodity Trading & Distribution,IND::IT Consulting & Software::B::A
+REDTAPE,IND::Footwear,Footwear,Footwear,primary,1,1.0,,,,Consumer Cyclical,Footwear,IND::Footwear
+RELIANCE,IND::Refineries/Petro-Products,Refineries / Petro-Products,Refineries / Petro-Products,primary,1,1.0,,,,Energy,Refineries/Petro-Products,IND::Refineries/Petro-Products
+RELIGARE,IND::Other Financial Services,Other Financial Services,Other Financial Services,primary,1,1.0,,,,Financial Services,Other Financial Services,IND::Other Financial Services
+REPCOHOME,IND::Housing Finance,Housing Finance,Housing Finance,primary,1,1.0,,,,Financial Services,Housing Finance,IND::Housing Finance
+RHIM,IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,primary,1,1.0,,,,Industrials,Other Industrial Goods,IND::Other Industrial Goods
+ROLEXRINGS,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Industrials,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+ROUTE,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Internet Software & Services,IND::Internet Software & Services
+RPTECH,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+RRKABEL,IND::Other Electrical Equipment/Products::A,Other Electrical Equipment / Products · Group 2,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::A
+RUBICON,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+SAATVIKGL,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+SAFARI,IND::Other Apparels & Accessories,Other Apparels & Accessories,Other Apparels & Accessories,primary,1,1.0,,,,Consumer Cyclical,Other Apparels & Accessories,IND::Other Apparels & Accessories
+SAGILITY,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,,,IND::Consumer Electronics
+SAIL,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+SAILIFE,THEME::Cdmo,CDMO,CDMO,primary,1,1.0,,,,,,THEME::Cdmo
+SAMBHV,UNCLASSIFIED::B::B::A::B::A,Cross-Sector · Group 9,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::A
+SAMHI,IND::Hotels,Hotels,Hotels,primary,1,1.0,,,,Consumer Cyclical,Hotels,IND::Hotels
+SANATHAN,UNCLASSIFIED::B::B::B::A,Cross-Sector · Group 6,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::A
+SANDHAR,IND::Auto Parts & Equipment::A,Auto Parts & Equipment · Group 4,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::A
+SANDUMA,IND::Mining,Mining,Mining,primary,1,1.0,,,,Basic Materials,Mining,IND::Mining
+SANOFI,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+SANOFICONR,UNCLASSIFIED::B::A::A,Cross-Sector · Group 10,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::A
+SANSERA,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Industrials,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+SAPPHIRE,IND::Restaurants,Restaurants,Restaurants,primary,1,1.0,,,,Consumer Cyclical,Restaurants,IND::Restaurants
+SARDAEN,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+SAREGAMA,IND::Specialty Retail,Specialty Retail,Specialty Retail,primary,1,1.0,,,,Communication Services,Movies & Entertainment,IND::Specialty Retail
+SBCL,IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,primary,1,1.0,,,,Industrials,Other Industrial Goods,IND::Other Industrial Goods
+SBFC,IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::A
+SBICARD,IND::Finance (including NBFCs)::B::B,Finance (including Nbfcs) · Group 2,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::B
+SBILIFE,IND::Life Insurance,Life Insurance,Life Insurance,primary,1,1.0,,,,Financial Services,Life Insurance,IND::Life Insurance
+SBIN,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+SCHAEFFLER,IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::B
+SCHNEIDER,IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment · Group 2,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::B
+SENCO,IND::Gems & Jewellery,Gems & Jewellery,Gems & Jewellery,primary,1,1.0,,,,Consumer Cyclical,Gems & Jewellery,IND::Gems & Jewellery
+SENORES,THEME::Cdmo,CDMO,CDMO,primary,1,1.0,,,,,,THEME::Cdmo
+SFL,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Consumer Cyclical,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+SHAILY,IND::Plastic Products,Plastic Products,Plastic Products,primary,1,1.0,,,,Basic Materials,Plastic Products,IND::Plastic Products
+SHAKTIPUMP,UNCLASSIFIED::B::B::B::A,Cross-Sector · Group 6,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::A
+SHARDACROP,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Agrochemicals,IND::Agrochemicals
+SHARDAMOTR,UNCLASSIFIED::B::B::B::B,Cross-Sector · Group 7,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::B
+SHILPAMED,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+SHK,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,Basic Materials,Personal Products,IND::Personal Products
+SHOPERSTOP,IND::Department Stores,Department Stores,Department Stores,primary,1,1.0,,,,Consumer Cyclical,Department Stores,IND::Department Stores
+SHREECEM,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+SHRIPISTON,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Consumer Cyclical,Industrial Machinery,IND::Industrial Machinery::A
+SHRIRAMFIN,IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::A
+SHRIRAMPPS,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+SHYAMMETL,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+SIEMENS,IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment · Group 1,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::A
+SIGNATURE,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+SIS,IND::Industrial Machinery::B,Industrial Machinery · Group 2,Industrial Machinery,primary,1,1.0,,,,Industrials,Misc. Commercial Services,IND::Industrial Machinery::B
+SJS,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+SKFINDIA,IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,primary,1,1.0,,,,Industrials,Other Industrial Goods,IND::Other Industrial Goods
+SKFINDUS,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+SKIPPER,UNCLASSIFIED::B::B::A::A::A,Cross-Sector · Group 8,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::A
+SKYGOLD,UNCLASSIFIED::B::B::A::A::B,Cross-Sector · Group 5,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::B
+SMARTWORKS,UNCLASSIFIED::B::B::A::B::B,Cross-Sector · Group 3,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::B::B
+SMSPHARMA,UNCLASSIFIED::B::B::A::A::B,Cross-Sector · Group 5,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::B
+SOBHA,IND::Realty::B,Realty · Group 1,Realty,primary,1,1.0,,,,Real Estate,Realty,IND::Realty::B
+SOLARINDS,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Basic Materials,Other Industrial Products,IND::Other Industrial Products
+SOMANYCERA,IND::Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,Furniture-Furnishing-Paints,primary,1,1.0,,,,Industrials,Furniture-Furnishing-Paints,IND::Furniture-Furnishing-Paints
+SONACOMS,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+SONATSOFTW,IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::A
+SOTL,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+SOUTHBANK,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+SPAL,IND::Other Apparels & Accessories,Other Apparels & Accessories,Other Apparels & Accessories,primary,1,1.0,,,,Consumer Cyclical,Other Apparels & Accessories,IND::Other Apparels & Accessories
+SPANDANA,IND::Finance (including NBFCs)::B::A,Finance (including Nbfcs) · Group 1,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::A
+SPARC,IND::Pharmaceuticals::B::A::A,Pharmaceuticals · Group 4,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::A
+SPICEJET,UNCLASSIFIED::A::B,Cross-Sector · Group 4,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::B
+SPLPETRO,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Petrochemicals,IND::Agrochemicals
+SRF,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+SSWL,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+STAR,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+STARCEMENT,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+STARHEALTH,IND::General Insurance,General Insurance,General Insurance,primary,1,1.0,,,,Financial Services,General Insurance,IND::General Insurance
+STLTECH,UNCLASSIFIED::B::A::A,Cross-Sector · Group 10,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::A
+STOVEKRAFT,IND::Houseware,Houseware,Houseware,primary,1,1.0,,,,Consumer Cyclical,Houseware,IND::Houseware
+STUDDS,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+STYL,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+STYLAMIND,IND::Forest Products,Forest Products,Forest Products,primary,1,1.0,,,,Consumer Cyclical,Forest Products,IND::Forest Products
+STYRENIX,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+SUBROS,IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::B
+SUDARSCHEM,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+SUDEEPPHRM,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+SULA,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Breweries & Distilleries,IND::Breweries & Distilleries
+SUMICHEM,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Agrochemicals,IND::Agrochemicals
+SUNCLAY,IND::Auto Parts & Equipment::A,Auto Parts & Equipment · Group 4,Auto Parts & Equipment,primary,1,1.0,,,,Industrials,Auto Parts & Equipment,IND::Auto Parts & Equipment::A
+SUNDARMFIN,IND::Finance (including NBFCs)::B::B,Finance (including Nbfcs) · Group 2,Finance (including Nbfcs),primary,1,1.0,,,,Financial Services,Finance (including NBFCs),IND::Finance (including NBFCs)::B::B
+SUNDRMFAST,UNCLASSIFIED::B::B::B::B,Cross-Sector · Group 7,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::B
+SUNPHARMA,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+SUNTV,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Broadcasting & Cable TV,IND::Internet Software & Services
+SUPRAJIT,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+SUPREMEIND,IND::Plastic Products,Plastic Products,Plastic Products,primary,1,1.0,,,,Industrials,Plastic Products,IND::Plastic Products
+SUPRIYA,IND::Pharmaceuticals::A,Pharmaceuticals · Group 5,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::A
+SURAKSHA,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+SURYAROSNI,IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,primary,1,1.0,,,,Basic Materials,Iron & Steel Products,IND::Iron & Steel Products
+SUZLON,IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment · Group 2,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::B
+SWANCORP,UNCLASSIFIED::B::B::A::A::A,Cross-Sector · Group 8,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::A
+SWIGGY,IND::Healthcare Services,Healthcare Services,Healthcare Services,primary,1,1.0,,,,,,IND::Healthcare Services
+SYMPHONY,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Consumer Cyclical,Consumer Electronics,IND::Consumer Electronics
+SYNGENE,IND::Pharmaceuticals::B::A::B::A,Pharmaceuticals · Group 3,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::A
+SYRMA,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Technology,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+TARC,UNCLASSIFIED::B::B::B::B,Cross-Sector · Group 7,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::B
+TARIL,IND::Asset Management Cos.,Asset Management Cos.,Asset Management Cos.,primary,1,1.0,,,,,,IND::Asset Management Cos.
+TATACAP,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+TATACHEM,IND::Commodity Chemicals,Commodity Chemicals,Commodity Chemicals,primary,1,1.0,,,,Basic Materials,Commodity Chemicals,IND::Commodity Chemicals
+TATACOMM,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Other Telecom Services,IND::Internet Software & Services
+TATACONSUM,IND::Packaged Foods,Packaged Foods,Packaged Foods,primary,1,1.0,,,,Consumer Defensive,Packaged Foods,IND::Packaged Foods
+TATAELXSI,IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::A
+TATAPOWER,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+TATASTEEL,IND::Iron & Steel/Interm.Products,Iron & Steel / Interm.products,Iron & Steel / Interm.products,primary,1,1.0,,,,Basic Materials,Iron & Steel/Interm.Products,IND::Iron & Steel/Interm.Products
+TATATECH,IND::IT Software Products,IT Software Products,IT Software Products,primary,1,1.0,,,,Technology,IT Software Products,IND::IT Software Products
+TATVA,IND::Specialty Chemicals::B,Specialty Chemicals · Group 2,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::B
+TBOTEK,IND::Forest Products,Forest Products,Forest Products,primary,1,1.0,,,,,,IND::Forest Products
+TCI,IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,primary,1,1.0,,,,Industrials,Surface Transportation,IND::Other Industrial Goods
+TCPLPACK,IND::Paper & Paper Products,Paper & Paper Products,Paper & Paper Products,primary,1,1.0,,,,Consumer Cyclical,Paper & Paper Products,IND::Paper & Paper Products
+TCS,IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::A
+TDPOWERSYS,IND::Heavy Electrical Equipment::A,Heavy Electrical Equipment · Group 1,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::A
+TEAMLEASE,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Industrials,Misc. Commercial Services,IND::Industrial Machinery::A
+TECHM,IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::A
+TECHNOE,IND::Electric Utilities::B,Electric Utilities · Group 2,Electric Utilities,primary,1,1.0,,,,Industrials,Electric Utilities,IND::Electric Utilities::B
+TEGA,IND::Mining,Mining,Mining,primary,1,1.0,,,,Industrials,Mining,IND::Mining
+TENNIND,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+TEXRAIL,IND::Construction & Engineering,Construction & Engineering,Construction & Engineering,primary,1,1.0,,,,Industrials,Construction & Engineering,IND::Construction & Engineering
+THANGAMAYL,IND::Gems & Jewellery,Gems & Jewellery,Gems & Jewellery,primary,1,1.0,,,,Consumer Cyclical,Gems & Jewellery,IND::Gems & Jewellery
+THELEELA,UNCLASSIFIED::A::B,Cross-Sector · Group 4,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::B
+THERMAX,IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment · Group 2,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::B
+THOMASCOOK,IND::Travel Support Services,Travel Support Services,Travel Support Services,primary,1,1.0,,,,Consumer Cyclical,Travel Support Services,IND::Travel Support Services
+THYROCARE,IND::Healthcare Services,Healthcare Services,Healthcare Services,primary,1,1.0,,,,Healthcare,Healthcare Services,IND::Healthcare Services
+TI,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Breweries & Distilleries,IND::Breweries & Distilleries
+TIIL,IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,primary,1,1.0,,,,Industrials,Iron & Steel Products,IND::Iron & Steel Products
+TIINDIA,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Industrials,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+TIMETECHNO,IND::Plastic Products,Plastic Products,Plastic Products,primary,1,1.0,,,,Consumer Cyclical,Plastic Products,IND::Plastic Products
+TIMKEN,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,Industrials,Other Industrial Products,IND::Other Industrial Products
+TIPSMUSIC,IND::Other Industrial Products,Other Industrial Products,Other Industrial Products,primary,1,1.0,,,,,,IND::Other Industrial Products
+TIRUMALCHM,IND::Commodity Chemicals,Commodity Chemicals,Commodity Chemicals,primary,1,1.0,,,,Basic Materials,Commodity Chemicals,IND::Commodity Chemicals
+TITAGARH,IND::Commercial Vehicles,Commercial Vehicles,Commercial Vehicles,primary,1,1.0,,,,Industrials,Commercial Vehicles,IND::Commercial Vehicles
+TITAN,IND::Gems & Jewellery,Gems & Jewellery,Gems & Jewellery,primary,1,1.0,,,,Consumer Cyclical,Gems & Jewellery,IND::Gems & Jewellery
+TMCV,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+TMPV,UNCLASSIFIED::B::B::A::A::B,Cross-Sector · Group 5,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::A::A::B
+TORNTPHARM,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+TORNTPOWER,IND::Electric Utilities::A,Electric Utilities · Group 1,Electric Utilities,primary,1,1.0,,,,Utilities,Electric Utilities,IND::Electric Utilities::A
+TRANSRAILL,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+TRAVELFOOD,UNCLASSIFIED::B::B::B::B,Cross-Sector · Group 7,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::B::B::B
+TRENT,IND::Department Stores,Department Stores,Department Stores,primary,1,1.0,,,,Consumer Cyclical,Department Stores,IND::Department Stores
+TRITURBINE,IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment · Group 2,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::B
+TRIVENI,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Sugar,IND::Breweries & Distilleries
+TRUALT,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+TTKPRESTIG,IND::Houseware,Houseware,Houseware,primary,1,1.0,,,,Consumer Cyclical,Houseware,IND::Houseware
+TVSHLTD,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+TVSMOTOR,IND::2/3 Wheelers,2 / 3 Wheelers,2 / 3 Wheelers,primary,1,1.0,,,,Consumer Cyclical,2/3 Wheelers,IND::2/3 Wheelers
+UBL,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Breweries & Distilleries,IND::Breweries & Distilleries
+UJJIVANSFB,IND::Banks::B::A,Banks · Group 3,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::A
+ULTRACEMCO,IND::Cement & Cement Products,Cement & Cement Products,Cement & Cement Products,primary,1,1.0,,,,Basic Materials,Cement & Cement Products,IND::Cement & Cement Products
+UNIECOM,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+UNIMECH,UNCLASSIFIED::B::A::A,Cross-Sector · Group 10,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::A
+UNIONBANK,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+UNITDSPR,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Breweries & Distilleries,IND::Breweries & Distilleries
+UNIVCABLES,IND::Other Electrical Equipment/Products::A,Other Electrical Equipment / Products · Group 2,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::A
+UNOMINDA,IND::Auto Parts & Equipment::B::B::B,Auto Parts & Equipment · Group 3,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::B
+UPL,IND::Agrochemicals,Agrochemicals,Agrochemicals,primary,1,1.0,,,,Basic Materials,Agrochemicals,IND::Agrochemicals
+URBANCO,UNCLASSIFIED::B::A::B::NoRank::1,Cross-Sector (no Rank) · Group 1,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::1
+USHAMART,IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,primary,1,1.0,,,,Basic Materials,Iron & Steel Products,IND::Iron & Steel Products
+UTIAMC,IND::Asset Management Cos.,Asset Management Cos.,Asset Management Cos.,primary,1,1.0,,,,Financial Services,Asset Management Cos.,IND::Asset Management Cos.
+V2RETAIL,IND::Department Stores,Department Stores,Department Stores,primary,1,1.0,,,,Consumer Cyclical,Department Stores,IND::Department Stores
+VARROC,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+VBL,IND::Breweries & Distilleries,Breweries & Distilleries,Breweries & Distilleries,primary,1,1.0,,,,Consumer Defensive,Non-alcoholic Beverages,IND::Breweries & Distilleries
+VEDL,IND::Aluminium and Aluminium Products,Aluminium and Aluminium Products,Aluminium and Aluminium Products,primary,1,1.0,,,,Basic Materials,Aluminium and Aluminium Products,IND::Aluminium and Aluminium Products
+VENTIVE,IND::Personal Products,Personal Products,Personal Products,primary,1,1.0,,,,,,IND::Personal Products
+VENUSPIPES,IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,primary,1,1.0,,,,Basic Materials,Iron & Steel Products,IND::Iron & Steel Products
+VESUVIUS,IND::Other Industrial Goods,Other Industrial Goods,Other Industrial Goods,primary,1,1.0,,,,Industrials,Other Industrial Goods,IND::Other Industrial Goods
+VGUARD,IND::Other Electrical Equipment/Products::B,Other Electrical Equipment / Products · Group 1,Other Electrical Equipment / Products,primary,1,1.0,,,,Industrials,Other Electrical Equipment/Products,IND::Other Electrical Equipment/Products::B
+VIJAYA,IND::Healthcare Services,Healthcare Services,Healthcare Services,primary,1,1.0,,,,Healthcare,Healthcare Services,IND::Healthcare Services
+VIKRAMSOLR,UNCLASSIFIED::NoRank,Cross-Sector (no Rank) · Group 4,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::NoRank
+VINATIORGA,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+VINCOFE,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+VIPIND,IND::Other Apparels & Accessories,Other Apparels & Accessories,Other Apparels & Accessories,primary,1,1.0,,,,Consumer Cyclical,Other Apparels & Accessories,IND::Other Apparels & Accessories
+VISHNU,IND::Specialty Chemicals::A,Specialty Chemicals · Group 1,Specialty Chemicals,primary,1,1.0,,,,Basic Materials,Specialty Chemicals,IND::Specialty Chemicals::A
+VMART,IND::Department Stores,Department Stores,Department Stores,primary,1,1.0,,,,Consumer Cyclical,Department Stores,IND::Department Stores
+VMM,IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,primary,1,1.0,,,,,,IND::Cigarettes-Tobacco Products
+VOLTAMP,IND::Heavy Electrical Equipment::B,Heavy Electrical Equipment · Group 2,Heavy Electrical Equipment,primary,1,1.0,,,,Industrials,Heavy Electrical Equipment,IND::Heavy Electrical Equipment::B
+VOLTAS,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Industrials,Consumer Electronics,IND::Consumer Electronics
+VRLLOG,IND::Transportation - Logistics,Transportation - Logistics,Transportation - Logistics,primary,1,1.0,,,,Industrials,Transportation - Logistics,IND::Transportation - Logistics
+VSTIND,IND::Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,Cigarettes-Tobacco Products,primary,1,1.0,,,,Consumer Defensive,Cigarettes-Tobacco Products,IND::Cigarettes-Tobacco Products
+VSTTILLERS,IND::Commercial Vehicles,Commercial Vehicles,Commercial Vehicles,primary,1,1.0,,,,Industrials,Commercial Vehicles,IND::Commercial Vehicles
+VTL,IND::Textiles,Textiles,Textiles,primary,1,1.0,,,,Consumer Cyclical,Textiles,IND::Textiles
+WAAREEENER,IND::Other Electrical Equipment/Products::A,Other Electrical Equipment / Products · Group 2,Other Electrical Equipment / Products,primary,1,1.0,,,,,,IND::Other Electrical Equipment/Products::A
+WABAG,IND::Utilities:Non-Electrical,Utilities:non-Electrical,Utilities:non-Electrical,primary,1,1.0,,,,Industrials,Utilities:Non-Electrical,IND::Utilities:Non-Electrical
+WAKEFIT,UNCLASSIFIED::B::A::B::NoRank::2,Cross-Sector (no Rank) · Group 2,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::2
+WELCORP,IND::Iron & Steel Products,Iron & Steel Products,Iron & Steel Products,primary,1,1.0,,,,Basic Materials,Iron & Steel Products,IND::Iron & Steel Products
+WENDT,IND::Industrial Machinery::A,Industrial Machinery · Group 1,Industrial Machinery,primary,1,1.0,,,,Industrials,Industrial Machinery,IND::Industrial Machinery::A
+WESTLIFE,IND::Restaurants,Restaurants,Restaurants,primary,1,1.0,,,,Consumer Cyclical,Restaurants,IND::Restaurants
+WEWORK,UNCLASSIFIED::B::A::B::NoRank::3,Cross-Sector (no Rank) · Group 3,Cross-Sector (no Rank),primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B::NoRank::3
+WHEELS,IND::Auto Parts & Equipment::B::B::A,Auto Parts & Equipment · Group 2,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::B::A
+WHIRLPOOL,IND::Consumer Electronics,Consumer Electronics,Consumer Electronics,primary,1,1.0,,,,Consumer Cyclical,Consumer Electronics,IND::Consumer Electronics
+WINDLAS,IND::Pharmaceuticals::B::A::A,Pharmaceuticals · Group 4,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::A
+WIPRO,IND::IT Consulting & Software::B::B::A::A,IT Consulting & Software · Group 2,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::A
+WOCKPHARMA,IND::Pharmaceuticals::B::B,Pharmaceuticals · Group 1,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::B
+WSTCSTPAPR,IND::Paper & Paper Products,Paper & Paper Products,Paper & Paper Products,primary,1,1.0,,,,Basic Materials,Paper & Paper Products,IND::Paper & Paper Products
+XPROINDIA,UNCLASSIFIED::B::A::B,Cross-Sector · Group 1,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::B::A::B
+YATHARTH,IND::Healthcare Facilities,Healthcare Facilities,Healthcare Facilities,primary,1,1.0,,,,Healthcare,Healthcare Facilities,IND::Healthcare Facilities
+YATRA,IND::Travel Support Services,Travel Support Services,Travel Support Services,primary,1,1.0,,,,Consumer Cyclical,Travel Support Services,IND::Travel Support Services
+YESBANK,IND::Banks::B::B,Banks · Group 1,Banks,primary,1,1.0,,,,Financial Services,Banks,IND::Banks::B::B
+ZAGGLE,IND::IT Software Products,IT Software Products,IT Software Products,primary,1,1.0,,,,Technology,IT Software Products,IND::IT Software Products
+ZEEL,IND::Internet Software & Services,Internet Software & Services,Internet Software & Services,primary,1,1.0,,,,Communication Services,Broadcasting & Cable TV,IND::Internet Software & Services
+ZENSARTECH,IND::IT Consulting & Software::B::B::A::B,IT Consulting & Software · Group 1,IT Consulting & Software,primary,1,1.0,,,,Technology,IT Consulting & Software,IND::IT Consulting & Software::B::B::A::B
+ZENTEC,IND::Defence,Defence,Defence,primary,1,1.0,,,,Industrials,Defence,IND::Defence
+ZFCVINDIA,IND::Auto Parts & Equipment::B::A,Auto Parts & Equipment · Group 1,Auto Parts & Equipment,primary,1,1.0,,,,Consumer Cyclical,Auto Parts & Equipment,IND::Auto Parts & Equipment::B::A
+ZOTA,UNCLASSIFIED::A::A,Cross-Sector · Group 2,Cross-Sector,primary,1,1.0,,,,,,UNCLASSIFIED::A::A
+ZYDUSLIFE,IND::Pharmaceuticals::B::A::B::B,Pharmaceuticals · Group 2,Pharmaceuticals,primary,1,1.0,,,,Healthcare,Pharmaceuticals,IND::Pharmaceuticals::B::A::B::B
+ZYDUSWELL,IND::Packaged Foods,Packaged Foods,Packaged Foods,primary,1,1.0,,,,Consumer Defensive,Packaged Foods,IND::Packaged Foods
