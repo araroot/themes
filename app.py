@@ -16,7 +16,9 @@ from combined_processor import (
     render_combined_table,
 )
 
-DATA_PATH_DEFAULT = Path("/Users/raviaranke/Desktop/themes/PF_Ranks.xlsx")
+DATA_PATH_DEFAULT = Path("/Users/raviaranke/Downloads/PF_Ranks.xlsx")
+if not DATA_PATH_DEFAULT.exists():
+    DATA_PATH_DEFAULT = Path("/Users/raviaranke/Desktop/themes/PF_Ranks.xlsx")
 
 
 def normalize_theme_name(value) -> str:
