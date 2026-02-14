@@ -85,7 +85,7 @@ def build_theme_map_codex(th_codex: pd.DataFrame) -> pd.DataFrame:
     df = th_codex[["Symbol", "Theme"]].copy()
     df = df[df["Symbol"].notna() & df["Theme"].notna()]
     df["Symbol"] = df["Symbol"].astype(str).str.strip()
-    df["Theme"] = df["Theme"].astype(str).str.strip()
+    df["Theme"] = df["Theme"].apply(lambda v: normalize_theme_name(v) if pd.notna(v) else v)
     return df
 
 
