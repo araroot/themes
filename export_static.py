@@ -79,9 +79,25 @@ def main():
 
     # ========== MF MOVES TAB DATA ==========
     mf_pivot_date = None
+    mf_pivot_date_formatted = None
     try:
         mf_df, mf_pivot_date = load_mf_data()
         latest_bb, prev_bb = get_latest_prev_bb_cols(mf_df)
+
+        # Convert pivot date from "Jan26" to "2026-01" format
+        if mf_pivot_date:
+            import re
+            match = re.match(r'([A-Za-z]+)(\d+)', mf_pivot_date)
+            if match:
+                month_str = match.group(1)
+                year = '20' + match.group(2)
+                month_map = {
+                    'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04',
+                    'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
+                    'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+                }
+                month_num = month_map.get(month_str[:3], '01')
+                mf_pivot_date_formatted = f"{year}-{month_num}"
 
         if latest_bb:
             # Use same theme structure as Ranks tab
@@ -160,7 +176,7 @@ def main():
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Investment Dashboard</title>
+    <title>Theme Park</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><defs><linearGradient id=%22rainbow%22 x1=%220%25%22 y1=%220%25%22 x2=%22100%25%22 y2=%220%25%22><stop offset=%220%25%22 style=%22stop-color:rgb(255,0,0)%22/><stop offset=%2216.67%25%22 style=%22stop-color:rgb(255,127,0)%22/><stop offset=%2233.33%25%22 style=%22stop-color:rgb(255,255,0)%22/><stop offset=%2250%25%22 style=%22stop-color:rgb(0,255,0)%22/><stop offset=%2266.67%25%22 style=%22stop-color:rgb(0,0,255)%22/><stop offset=%2283.33%25%22 style=%22stop-color:rgb(75,0,130)%22/><stop offset=%22100%25%22 style=%22stop-color:rgb(148,0,211)%22/></linearGradient></defs><path d=%22M10,80 Q30,60 50,70 T90,60%22 fill=%22none%22 stroke=%22url(%23rainbow)%22 stroke-width=%228%22/><ellipse cx=%2265%22 cy=%2245%22 rx=%2212%22 ry=%2210%22 fill=%22%23FF6B6B%22/><circle cx=%2260%22 cy=%2243%22 r=%222%22 fill=%22%23000%22/><circle cx=%2270%22 cy=%2243%22 r=%222%22 fill=%22%23000%22/><path d=%22M55,48 Q65,50 75,48%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221%22/><path d=%22M50,40 L45,35 M50,42 L43,40 M71,40 L76,35 M71,42 L78,40%22 stroke=%22%23000%22 stroke-width=%221.5%22/><ellipse cx=%2265%22 cy=%2255%22 rx=%2210%22 ry=%228%22 fill=%22%23FF6B6B%22/><path d=%22M75,52 Q85,45 88,50%22 fill=%22none%22 stroke=%22%23FF6B6B%22 stroke-width=%223%22/></svg>">
     <style>
       * {{
@@ -447,9 +463,9 @@ def main():
       <div class="header">
         <div class="header-content">
           <div class="header-left">
-            <h1>📊 Investment Dashboard</h1>
-            <span class="date-badge">📅 As of {latest:%Y-%m-%d}</span>
-            {f'<span class="date-badge">📊 Pivot File: {mf_pivot_date}</span>' if mf_pivot_date else ''}
+            <h1>🐱 Theme Park</h1>
+            <span class="date-badge">PF Rank: {latest:%Y-%m-%d}</span>
+            {f'<span class="date-badge">Pivot File: {mf_pivot_date_formatted}</span>' if mf_pivot_date_formatted else ''}
           </div>
         </div>
 
