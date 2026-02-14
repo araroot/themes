@@ -147,8 +147,13 @@ def main():
         has_codex = False
 
     # ========== GENERATE TABBED HTML ==========
-    codex_tab_button = '<button class="tab" onclick="switchTab(event, \'codex-combined\')">🎯 Combined (Codex)</button>' if has_codex else ''
-    codex_tab_content = f'<div id="codex-combined" class="tab-content">{combined_codex_html_body}</div>' if has_codex else ''
+    # Make Codex Combined the default active tab if available
+    codex_tab_button = '<button class="tab active" onclick="switchTab(event, \'codex-combined\')">🎯 Combined (Codex)</button>' if has_codex else ''
+    codex_tab_content = f'<div id="codex-combined" class="tab-content active">{combined_codex_html_body}</div>' if has_codex else ''
+
+    # Adjust other tabs to not be active by default when codex is available
+    ranks_tab_class = '' if has_codex else 'active'
+    ranks_content_class = '' if has_codex else 'active'
 
     full_html = f"""<!doctype html>
 <html>
@@ -156,6 +161,7 @@ def main():
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Investment Dashboard</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
     <style>
       * {{
         box-sizing: border-box;
@@ -449,15 +455,18 @@ def main():
 
         <!-- Tabs -->
         <div class="tabs">
-          <button class="tab active" onclick="switchTab(event, 'ranks')">📈 Ranks</button>
+          {codex_tab_button}
+          <button class="tab {ranks_tab_class}" onclick="switchTab(event, 'ranks')">📈 Ranks</button>
           <button class="tab" onclick="switchTab(event, 'mf-moves')">🏦 MF Moves</button>
           <button class="tab" onclick="switchTab(event, 'combined')">🔀 Combined</button>
-          {codex_tab_button}
         </div>
       </div>
 
+      <!-- Codex Combined Tab Content (shown first) -->
+      {codex_tab_content}
+
       <!-- Ranks Tab Content -->
-      <div id="ranks" class="tab-content active">
+      <div id="ranks" class="tab-content {ranks_content_class}">
         {ranks_html_body}
       </div>
 
@@ -470,9 +479,6 @@ def main():
       <div id="combined" class="tab-content">
         {combined_html_body}
       </div>
-
-      <!-- Codex Combined Tab Content -->
-      {codex_tab_content}
     </div>
 
     <script>
