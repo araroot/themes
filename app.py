@@ -76,7 +76,7 @@ def build_theme_map(th: pd.DataFrame) -> pd.DataFrame:
         if pd.notna(theme_cell):
             current_theme = normalize_theme_name(str(theme_cell).strip())
         if sym and current_theme and sym.lower() != "nan":
-            rows.append((sym, current_theme))
+            rows.append((sym.upper(), current_theme))
     return pd.DataFrame(rows, columns=["Symbol", "Theme"])
 
 
@@ -84,7 +84,7 @@ def build_theme_map_codex(th_codex: pd.DataFrame) -> pd.DataFrame:
     """Build theme map from tpark_codex format (Symbol, Theme columns directly)"""
     df = th_codex[["Symbol", "Theme"]].copy()
     df = df[df["Symbol"].notna() & df["Theme"].notna()]
-    df["Symbol"] = df["Symbol"].astype(str).str.strip()
+    df["Symbol"] = df["Symbol"].astype(str).str.strip().str.upper()
     df["Theme"] = df["Theme"].apply(lambda v: normalize_theme_name(v) if pd.notna(v) else v)
     return df
 
