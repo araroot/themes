@@ -53,15 +53,34 @@ def main():
         print(f"✗ PF_Ranks.xlsx not found in Downloads")
         return
 
-    # 2. Find and copy latest pivot file
+    # 2. Find and copy latest pivot file (check Downloads first, then themes_dir)
+    pivot_dst = None
     try:
         pivot_src = find_latest_pivot_in_downloads()
         pivot_dst = themes_dir / pivot_src.name
         shutil.copy2(pivot_src, pivot_dst)
         print(f"✓ Copied {pivot_src.name} from Downloads")
-    except FileNotFoundError as e:
-        print(f"✗ {e}")
-        return
+    except FileNotFoundError:
+        # Check if pivot file already exists in themes_dir
+        pivot_files = list(themes_dir.glob("*_pivot_features.xlsx"))
+        if pivot_files:
+            month_map = {
+                'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6,
+                'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12
+            }
+            def parse_date(filepath):
+                match = re.match(r'([A-Za-z]+)(\d+)_pivot_features\.xlsx', filepath.name)
+                if match:
+                    month_str = match.group(1)
+                    year = int('20' + match.group(2))
+                    month = month_map.get(month_str[:3], 0)
+                    return (year, month)
+                return (0, 0)
+            pivot_dst = max(pivot_files, key=parse_date)
+            print(f"⚠ No pivot file in Downloads, using existing: {pivot_dst.name}")
+        else:
+            print(f"✗ No pivot_features.xlsx files found in Downloads or themes directory")
+            return
 
     print("\n" + "=" * 60)
     print("FILES BEING USED:")
@@ -100,11 +119,11 @@ def main():
     subprocess.run(["git", "add", "-A"], cwd=themes_dir)
 
     # Git commit
-    commit_msg = f"""Update dashboard data: {pivot_src.stem}
+    commit_msg = f"""Update dashboard data: {pivot_dst.stem}
 
 Files updated:
 - PF_Ranks.xlsx
-- {pivot_src.name}
+- {pivot_dst.name}
 - Regenerated static HTML
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
