@@ -147,13 +147,13 @@ def main():
         has_codex = False
 
     # ========== GENERATE TABBED HTML ==========
-    # Make Codex Combined the default active tab if available
-    codex_tab_button = '<button class="tab active" onclick="switchTab(event, \'codex-combined\')">🎯 Combined (Codex)</button>' if has_codex else ''
+    # Make Codex tab the default active tab if available
+    codex_tab_button = '<button class="tab active" onclick="switchTab(event, \'codex-combined\')">🎯 Theme (Codex)</button>' if has_codex else ''
     codex_tab_content = f'<div id="codex-combined" class="tab-content active">{combined_codex_html_body}</div>' if has_codex else ''
 
-    # Adjust other tabs to not be active by default when codex is available
-    ranks_tab_class = '' if has_codex else 'active'
-    ranks_content_class = '' if has_codex else 'active'
+    # Adjust combined tab to not be active by default when codex is available
+    combined_tab_class = '' if has_codex else 'active'
+    combined_content_class = '' if has_codex else 'active'
 
     full_html = f"""<!doctype html>
 <html>
@@ -161,7 +161,7 @@ def main():
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Investment Dashboard</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><defs><linearGradient id=%22rainbow%22 x1=%220%25%22 y1=%220%25%22 x2=%22100%25%22 y2=%220%25%22><stop offset=%220%25%22 style=%22stop-color:rgb(255,0,0)%22/><stop offset=%2216.67%25%22 style=%22stop-color:rgb(255,127,0)%22/><stop offset=%2233.33%25%22 style=%22stop-color:rgb(255,255,0)%22/><stop offset=%2250%25%22 style=%22stop-color:rgb(0,255,0)%22/><stop offset=%2266.67%25%22 style=%22stop-color:rgb(0,0,255)%22/><stop offset=%2283.33%25%22 style=%22stop-color:rgb(75,0,130)%22/><stop offset=%22100%25%22 style=%22stop-color:rgb(148,0,211)%22/></linearGradient></defs><path d=%22M10,80 Q30,60 50,70 T90,60%22 fill=%22none%22 stroke=%22url(%23rainbow)%22 stroke-width=%228%22/><ellipse cx=%2265%22 cy=%2245%22 rx=%2212%22 ry=%2210%22 fill=%22%23FF6B6B%22/><circle cx=%2260%22 cy=%2243%22 r=%222%22 fill=%22%23000%22/><circle cx=%2270%22 cy=%2243%22 r=%222%22 fill=%22%23000%22/><path d=%22M55,48 Q65,50 75,48%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221%22/><path d=%22M50,40 L45,35 M50,42 L43,40 M71,40 L76,35 M71,42 L78,40%22 stroke=%22%23000%22 stroke-width=%221.5%22/><ellipse cx=%2265%22 cy=%2255%22 rx=%2210%22 ry=%228%22 fill=%22%23FF6B6B%22/><path d=%22M75,52 Q85,45 88,50%22 fill=%22none%22 stroke=%22%23FF6B6B%22 stroke-width=%223%22/></svg>">
     <style>
       * {{
         box-sizing: border-box;
@@ -456,27 +456,15 @@ def main():
         <!-- Tabs -->
         <div class="tabs">
           {codex_tab_button}
-          <button class="tab {ranks_tab_class}" onclick="switchTab(event, 'ranks')">📈 Ranks</button>
-          <button class="tab" onclick="switchTab(event, 'mf-moves')">🏦 MF Moves</button>
-          <button class="tab" onclick="switchTab(event, 'combined')">🔀 Combined</button>
+          <button class="tab {combined_tab_class}" onclick="switchTab(event, 'combined')">🎨 Theme (Handmade)</button>
         </div>
       </div>
 
-      <!-- Codex Combined Tab Content (shown first) -->
+      <!-- Codex Tab Content (shown first) -->
       {codex_tab_content}
 
-      <!-- Ranks Tab Content -->
-      <div id="ranks" class="tab-content {ranks_content_class}">
-        {ranks_html_body}
-      </div>
-
-      <!-- MF Moves Tab Content -->
-      <div id="mf-moves" class="tab-content">
-        {mf_html_body}
-      </div>
-
-      <!-- Combined Tab Content -->
-      <div id="combined" class="tab-content">
+      <!-- Handmade Combined Tab Content -->
+      <div id="combined" class="tab-content {combined_content_class}">
         {combined_html_body}
       </div>
     </div>

@@ -54,6 +54,8 @@ PNB,Banks - Public Sector
 UNIONBANK,Banks - Public Sector
 INDIANB,Banks - Public Sector
 MAHABANK,Banks - Public Sector
+IOB,Banks - Public Sector
+UCOBANK,Banks - Public Sector
 ,
 HDFCBANK,Banks - Private Universal (Large)
 ICICIBANK,Banks - Private Universal (Large)
@@ -155,6 +157,7 @@ AFFLE,IT Products
 INTELLECT,IT Products
 NETWEB,IT Products
 RATEGAIN,IT Products
+AURIONPRO,IT Products
 MAPMYINDIA,IT Products
 ,
 PERSISTENT,IT Services - Engineering & ER&D
@@ -211,6 +214,7 @@ CARTRADE,India Digital Stack - Consumer Internet
 PWL,India Digital Stack - Consumer Internet
 IXIGO,India Digital Stack - Consumer Internet
 JUSTDIAL,India Digital Stack - Consumer Internet
+YATRA,India Digital Stack - Consumer Internet
 ,
 ANANTRAJ,India Digital Stack - Data Center & Compute
 NETWEB,India Digital Stack - Data Center & Compute
@@ -279,6 +283,7 @@ VBL,Consumer Staples Brands
 GODREJCP,Consumer Staples Brands
 MARICO,Consumer Staples Brands
 DABUR,Consumer Staples Brands
+PATANJALI,Consumer Staples Brands
 AWL,Consumer Staples Brands
 SANOFICONR,Consumer Staples Brands
 ,
@@ -349,6 +354,7 @@ V2RETAIL,Organized Retail - Value & Fashion
 AVL,Organized Retail - Value & Fashion
 VMART,Organized Retail - Value & Fashion
 RAYMONDLSL,Organized Retail - Value & Fashion
+CANTABIL,Organized Retail - Value & Fashion
 ,
 TATACONSUM,Packaged Foods
 BRITANNIA,Packaged Foods
@@ -376,6 +382,8 @@ IRCTC,Tourism Ecosystem - Discovery & Booking
 IXIGO,Tourism Ecosystem - Discovery & Booking
 TBOTEK,Tourism Ecosystem - Discovery & Booking
 THOMASCOOK,Tourism Ecosystem - Discovery & Booking
+EASEMYTRIP,Tourism Ecosystem - Discovery & Booking
+YATRA,Tourism Ecosystem - Discovery & Booking
 ,
 INDIGO,Tourism Ecosystem - Mobility & Hospitality
 GMRAIRPORT,Tourism Ecosystem - Mobility & Hospitality
@@ -462,6 +470,7 @@ ZYDUSLIFE,Pharma - Export Generics - Mid Cap
 WOCKPHARMA,Pharma - Export Generics - Mid Cap
 GRANULES,Pharma - Export Generics - Mid Cap
 NATCOPHARM,Pharma - Export Generics - Mid Cap
+SOLARA,Pharma - Export Generics - Mid Cap
 ,
 STAR,Pharma - Export Generics - Small Cap
 APLLTD,Pharma - Export Generics - Small Cap
@@ -608,6 +617,7 @@ MAHLOG,Infra Buildout - Logistics Networks
 ,
 GESHIP,Infra Buildout - Marine & Dredging
 KMEW,Infra Buildout - Marine & Dredging
+DREDGECORP,Infra Buildout - Marine & Dredging
 ,
 ADANIPORTS,Infra Buildout - Ports & Maritime
 JSWINFRA,Infra Buildout - Ports & Maritime
@@ -615,6 +625,7 @@ GPPL,Infra Buildout - Ports & Maritime
 ,
 IRCTC,Infra Buildout - Rail Mobility
 TITAGARH,Infra Buildout - Rail Mobility
+JWL,Infra Buildout - Rail Mobility
 TEXRAIL,Infra Buildout - Rail Mobility
 ,
 IRB,Infra Buildout - Roads & Expressways
@@ -639,6 +650,7 @@ ONGC,Hydrocarbon Upstream & Gas Infrastructure
 OIL,Hydrocarbon Upstream & Gas Infrastructure
 PETRONET,Hydrocarbon Upstream & Gas Infrastructure
 AEGISLOG,Hydrocarbon Upstream & Gas Infrastructure
+DEEPINDS,Hydrocarbon Upstream & Gas Infrastructure
 ,
 IOC,Oil Marketing & Distribution
 CASTROLIND,Oil Marketing & Distribution
@@ -746,9 +758,11 @@ INDIACEM,Cement - Regional / Midcap
 NUVOCO,Cement - Regional / Midcap
 BIRLACORPN,Cement - Regional / Midcap
 BUILDPRO,Cement - Regional / Midcap
+ORIENTCEM,Cement - Regional / Midcap
 ,
 TATACHEM,Commodity Chemicals
 DEEPAKNTR,Commodity Chemicals
+PCBL,Commodity Chemicals
 GHCL,Commodity Chemicals
 ACI,Commodity Chemicals
 INDIAGLYCO,Commodity Chemicals
@@ -761,6 +775,7 @@ USHAMART,"Electrical Cables, Wires & Conductors"
 FINCABLES,"Electrical Cables, Wires & Conductors"
 RRKABEL,"Electrical Cables, Wires & Conductors"
 STLTECH,"Electrical Cables, Wires & Conductors"
+BANSALWIRE,"Electrical Cables, Wires & Conductors"
 ,
 HEG,Electrodes
 GRAPHITE,Electrodes
@@ -809,6 +824,7 @@ FLUOROCHEM,Specialty Chem - Fluoro & Refrigerants
 VINATIORGA,Specialty Chem - Fluoro & Refrigerants
 ,
 PIDILITIND,Specialty Chem - Materials & Formulations
+HSCL,Specialty Chem - Materials & Formulations
 SUDARSCHEM,Specialty Chem - Materials & Formulations
 CLEAN,Specialty Chem - Materials & Formulations
 PRIVISCL,Specialty Chem - Materials & Formulations
@@ -826,10 +842,12 @@ SAIL,Steel
 WELCORP,Steel - Pipes & Tubes
 RATNAMANI,Steel - Pipes & Tubes
 SURYAROSNI,Steel - Pipes & Tubes
+GOODLUCK,Steel - Pipes & Tubes
 PENIND,Steel - Pipes & Tubes
 SAMBHV,Steel - Pipes & Tubes
 VENUSPIPES,Steel - Pipes & Tubes
 ,
+LLOYDSME,Steel - Primary / Long Products
 GPIL,Steel - Primary / Long Products
 NSLNISP,Steel - Primary / Long Products
 GALLANTT,Steel - Primary / Long Products
@@ -861,6 +879,9 @@ NESCO,Real Estate - Commercial / Leasing
 AWFIS,Real Estate - Commercial / Leasing
 SMARTWORKS,Real Estate - Commercial / Leasing
 INDIQUBE,Real Estate - Commercial / Leasing
+BIRET,Real Estate - Commercial / Leasing
+EMBASSY,Real Estate - Commercial / Leasing
+MINDSPACE,Real Estate - Commercial / Leasing
 ,
 DLF,Real Estate - Residential Developers - Large Cap
 LODHA,Real Estate - Residential Developers - Large Cap
@@ -891,6 +912,7 @@ AVANTIFEED,Agri Inputs & Farm Value Chain
 SHAKTIPUMP,Agri Inputs & Farm Value Chain
 MANORAMA,Agri Inputs & Farm Value Chain
 GODREJAGRO,Agri Inputs & Farm Value Chain
+KSCL,Agri Inputs & Farm Value Chain
 DHANUKA,Agri Inputs & Farm Value Chain
 OSWALPUMPS,Agri Inputs & Farm Value Chain
 ,
@@ -913,6 +935,7 @@ ESCORTS,Commercial Vehicles
 FORCEMOT,Commercial Vehicles
 BEML,Commercial Vehicles
 VSTTILLERS,Commercial Vehicles
+SMLMAH,Commercial Vehicles
 ,
 EPL,Containers & Packaging
 GRWRHITECH,Containers & Packaging
@@ -988,6 +1011,7 @@ MOIL,Rare Earth
 GRAVITA,Recyclers
 JAINREC,Recyclers
 POCL,Recyclers
+AWHCL,Recyclers
 ,
 GESHIP,Shipping
 JSWINFRA,Shipping
@@ -1012,6 +1036,7 @@ CEATLTD,Tyres & Rubber
 JKTYRE,Tyres & Rubber
 ,
 NIITMTS,Workforce & Outsourced Services
+BLS,Workforce & Outsourced Services
 TEAMLEASE,Workforce & Outsourced Services
 SIS,Workforce & Outsourced Services
 ,
