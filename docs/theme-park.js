@@ -323,11 +323,17 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
             }
         }
 
-        // Build symbol lists
-        themeSymbols.forEach(symbol => {
-            const currRank = rankCurrent.get(symbol);
-            if (currRank === undefined || currRank === null || isNaN(currRank)) return;
+        // Build symbol lists sorted by current rank (lowest/best first)
+        const symbolData = themeSymbols
+            .map(symbol => {
+                const currRank = rankCurrent.get(symbol);
+                if (currRank === undefined || currRank === null || isNaN(currRank)) return null;
+                return { symbol, currRank };
+            })
+            .filter(item => item !== null)
+            .sort((a, b) => a.currRank - b.currRank);
 
+        symbolData.forEach(({ symbol, currRank }) => {
             const prevRank = rankPrev.get(symbol);
 
             let rankStr = `${symbol} ${Math.round(currRank)}`;
