@@ -93,7 +93,7 @@ def main():
     manifest = {
         "rank_files": rank_files,
         "pivot_files": pivot_files,
-        "pf_ranks_path": "data/PF_Ranks.xlsx",
+        "pf_ranks_path": "data/PF_Ranks_lite.xlsx",
         "defaults": {
             "current_rank": rank_files[0] if rank_files else None,
             "prev_rank": rank_files[1] if len(rank_files) > 1 else rank_files[0] if rank_files else None

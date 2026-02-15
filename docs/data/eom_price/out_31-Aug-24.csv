@@ -1,0 +1,970 @@
+symbol,srank_t,ptile,Sector,Industry,Fund,Position,cmp,ret6m,ret1y,dist52,b6_t,b12_t,b52_t,bpos,match_name,ff_mcap
+SHAILY,1,1,Basic Materials,Plastic Products,Bandhan_Small_Cap_Dir_Gr,7,1054.55,97.26,208.55,0.65,3,3,2,27,shailyengineeringplastics,2717.89
+GODFRYPHLP,2,1,Consumer Defensive,Cigarettes-Tobacco Products,LIC_MF_Flexi_Cap_Dir_Gr,19,6508.4,132.29,200.46,0.94,1,4,4,50,godfreyphillips,9278.85
+SUNDARMHLD,3,1,Industrials,Investment Companies,Nippon_India_Small_Cap_Dir_Gr,95,404.7,95.18,238.52,0.97,3,2,4,92,sundaramfinanceholding,4047.54
+INDUSTOWER,4,1,Communication Services,Other Telecom Services,Mahindra_Manulife_Mid_Cap_Dir_Gr,5,458.5,87.41,162.07,0.4,4,7,1,19,industowers,59297.82
+STAR,5,1,Healthcare,Pharmaceuticals,Quant_Value_Dir_Gr,13,1340.05,71.24,207.35,0.59,8,4,2,41,stridespharmascience,9136.17
+LTFOODS,6,1,Consumer Defensive,Other Agricultural Products,DSP_Small_Cap_Dir_Gr,24,379.4,114.05,128.07,0.14,2,13,1,56,ltfoods,6455.64
+NEULANDLAB,7,1,,Pharmaceuticals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,19,12502.2,76.03,227.76,1.64,6,3,7,51,neulandlaboratories,10791.84
+TRENT,8,1,Consumer Cyclical,Department Stores,LIC_MF_Midcap_Fund_Dir_Gr,1,7158.75,82.4,249.33,2.27,5,2,10,6,trent,160299.9
+GLENMARK,9,1,Healthcare,Pharmaceuticals,JM_Midcap_Dir_Gr,9,1731.75,90.05,128.9,1.04,3,12,4,32,glenmarkpharmaceutical,26071.05
+OIL,10,1,Energy,Exploration & Production,ICICI_Pru_Multicap_Dir_Gr,6,741,95.98,300.69,3.5,3,1,15,22,oil,52238.41
+TIMETECHNO,11,2,Consumer Cyclical,Plastic Products,Tata_Small_Cap_Fund_Dir_Gr,24,400.5,85.33,164.44,1.75,4,7,8,56,timetechnoplast,4402.47
+WOCKPHARMA,12,2,Healthcare,Pharmaceuticals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,67,1050.6,80.36,345.08,3.61,5,1,15,85,wockhardt,7737.87
+DIXON,13,2,Technology,Consumer Electronics,Edelweiss_Mid_Cap_Dir_Gr,6,13170.95,101.31,167.86,3.44,2,6,14,21,dixontechnologies,52613.88
+IWEL,14,2,Industrials,Electric Utilities,Aditya_BSL_Mid_Cap_Dir_Gr,32,12016.7,73.32,352.51,3.08,8,1,13,63,inoxwindenergy,4414.11
+NETWEB,15,2,Technology,IT Consulting & Software,Tata_Small_Cap_Fund_Dir_Gr,8,2721.45,62.54,221.21,1.82,11,3,8,29,netwebtechnologies,3828.85
+CHOICEIN,16,2,Financial Services,Capital Markets,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,106,450.95,61.26,146.8,0.82,11,9,3,93,choiceinternational,3757.34
+GRANULES,17,2,Healthcare,Pharmaceuticals,Aditya_BSL_Pure_Value_Dir_Gr,16,718.1,56.11,138.06,0.4,13,10,1,46,granules,10639.37
+ARTEMISMED,18,2,Healthcare,Healthcare Facilities,LIC_MF_Focused_30_Equity_Dir_Gr,19,286.05,63.27,133.13,1.16,10,11,5,50,artemismedicareservices,1278.84
+DOMS,19,2,Industrials,Commodity Printing/Stationery,360_ONE_Flexicap_Dir_Gr,7,2607.25,67.23,230.03,4,9,2,17,25,domsindustries,3962
+RVNL,20,2,Industrials,Construction & Engineering,Shriram_Flexi_Cap_Dir_Gr,9,607.4,134.52,375.46,6.12,1,1,27,33,railvikasnigam,34396.54
+KALYANKJIL,21,3,Consumer Cyclical,Gems & Jewellery,Franklin_India_Smaller_Comp_Dir_Gr,5,615.2,62.54,170,2.9,11,6,13,19,kalyanjewellers,25002.26
+MCX,22,3,Financial Services,Exchange,Canara_Robeco_Small_Cap_Dir_Gr,1,5182.8,41.6,222.26,0.99,23,3,4,4,multicommodityexchange,26431.45
+PCBL,23,3,Basic Materials,Carbon Black,Bank_of_India_Small_Cap_Dir_Gr,5,488.9,70.65,187.25,4.02,8,5,17,20,pcbl,8966.87
+BBL,24,3,Industrials,Other Electrical Equipment/Products,LIC_MF_Small_Cap_Fund_Dir_Gr,11,5384.2,87.61,184.7,5.37,4,5,23,36,bharatbijlee,4035.5
+MARKSANS,25,3,Healthcare,Pharmaceuticals,Quant_Small_Cap_Dir_Gr,26,239.52,56.86,115.88,1.31,13,15,6,58,marksanspharma,6092.45
+PTCIL,26,3,Industrials,Other Industrial Products,Mahindra_Manulife_Multi_Cap_Dir_Gr,21,14874.5,82.9,153.24,4.96,5,8,22,53,ptcindustries,7973.42
+SHILPAMED,27,3,Healthcare,Pharmaceuticals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,150,767.4,86.87,110.82,3.82,4,16,16,96,shilpamedicare,4173.24
+UNOMINDA,28,3,Consumer Cyclical,Auto Parts & Equipment,LIC_MF_Midcap_Fund_Dir_Gr,2,1173.9,78.98,93.59,2.77,5,21,12,11,unominda,21062.84
+AUROPHARMA,29,3,Healthcare,Pharmaceuticals,Tata_Mid_Cap_Growth_Dir_Gr,1,1569.4,52.58,89.36,0.71,15,22,2,1,aurobindopharma,44323.37
+RANEHOLDIN,30,3,Consumer Cyclical,Holding Companies,Bandhan_Small_Cap_Dir_Gr,139,1995.4,82.98,102.01,3.84,4,19,16,95,raneholding,1522.22
+VOLTAMP,31,4,Industrials,Heavy Electrical Equipment,Nippon_India_Small_Cap_Dir_Gr,3,14104.45,64.4,152.71,4.7,10,8,21,15,voltamptransformers,8847.16
+WELENT,32,4,Industrials,Iron & Steel/Interm.Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,118,587.7,90.63,117.55,5.06,3,14,22,94,welspunenterprises,3699.6
+INDIAGLYCO,33,4,Basic Materials,Commodity Chemicals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,201,1387.6,62.84,79.88,0.81,11,26,3,98,indiaglycols,1675.1
+MANGLMCEM,34,4,Basic Materials,Cement & Cement Products,Quant_Large_and_Mid_Cap_Dir_Gr,15,1020.1,44.17,196.71,3.5,21,4,15,45,mangalamcement,1768.83
+SURAJEST,35,4,Real Estate,Realty,ITI_Flexi_Cap_Dir_Gr,35,797.6,136.89,121.56,5.83,1,14,26,66,surajestatedevelopers,886.33
+SUVENPHAR,36,4,Healthcare,Pharmaceuticals,Sundaram_Small_Cap_Dir_Gr,6,1073.55,67.06,111.52,3.72,9,16,16,23,suvenpharmaceutical,13637.08
+ANANTRAJ,37,4,Real Estate,Realty,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,35,595.9,75.45,172.1,6.43,7,6,29,65,anantraj,8149.31
+BAJAJ-AUTO,38,4,Consumer Cyclical,2/3 Wheelers,NJ_Flexi_Cap_Dir_Gr,2,10891.55,33.01,133.5,0.27,31,10,1,7,bajajauto,136687.2
+GRWRHITECH,39,4,Basic Materials,Containers & Packaging,LIC_MF_Small_Cap_Fund_Dir_Gr,1,3297.4,73.68,189.18,7.06,7,4,31,2,garwarehitechfilms,3009.1
+ITDCEM,40,4,Industrials,Construction & Engineering,ITI_Flexi_Cap_Dir_Gr,20,554.45,65.63,165.03,6.02,9,6,27,52,itdcementation,5082.41
+MOTILALOFS,41,5,Financial Services,Capital Markets,Bandhan_Small_Cap_Dir_Gr,8,720.1,77.29,227.48,7.44,6,3,33,29,motilaloswalfinancialservices,13340.89
+TECHNOE,42,5,Industrials,Electric Utilities,UTI_Small_Cap_Dir_Gr,6,1635.25,128.34,227.87,8.99,1,2,39,24,technoelectricengineering,8192.91
+JUBLPHARMA,43,5,Healthcare,Pharmaceuticals,Quant_Flexi_Cap_Dir_Gr,15,919.5,64.21,98.79,3.26,10,19,14,45,jubilantpharmova,7223.36
+CENTURYTEX,44,5,Basic Materials,Paper & Paper Products,Invesco_India_Smallcap_Dir_Gr,4,2389.25,64.74,131.99,5.38,10,11,23,16,centurytextilesindustries,13287.41
+GET&D,45,5,Industrials,Industrial Machinery,SBI_Small_Cap_Fund_Dir_Gr,10,1713.6,95.91,420.53,9.33,3,1,40,34,get&d,10969.03
+HSCL,46,5,Basic Materials,Specialty Chemicals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,1,523.25,45.35,131.89,3.07,20,11,13,3,himadrispecialitychemical,12859.94
+INDIGO,47,5,Industrials,Airlines,SBI_Multicap_Dir_Gr,4,4830,54.52,94.33,2.3,14,20,10,17,interglobeaviation,83406.77
+NAVA,48,5,Industrials,Electric Utilities,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,52,952.45,89.71,134.13,6.53,4,10,30,77,nava,7068.98
+OFSS,49,5,Technology,IT Consulting & Software,Kotak_Multicap_Dir_Gr,4,10988.7,43.66,174.41,3.98,22,5,17,17,oraclefinancialservicessoftware,26009.48
+PITTIENG,50,5,Industrials,Other Electrical Equipment/Products,LIC_MF_Multi_Cap_Dir_Gr,23,1366.3,76.51,118.35,5.58,6,14,24,55,pittiengineering,2249.31
+POLICYBZR,51,6,Financial Services,Internet Software & Services,Baroda_BNP_P_Mid_Cap_Dir_Gr,6,1772.25,52.56,132.59,4.2,15,11,18,22,pbfintech,80820.66
+ERIS,52,6,Healthcare,Pharmaceuticals,Bank_of_India_Small_Cap_Dir_Gr,9,1388.2,59.13,72.16,0.77,12,30,3,31,erislifesciences,8523.54
+GABRIEL,53,6,Consumer Cyclical,Auto Parts & Equipment,Union_Small_Cap_Dir_Gr,13,548.35,58.62,70.67,0.3,12,32,1,41,gabriel,3544.52
+HFCL,54,6,Technology,Telecom Cables,Quant_Small_Cap_Dir_Gr,7,149.62,42.7,109.55,1.57,22,16,7,26,hfcl,13462.73
+ASALCBR,55,6,Consumer Defensive,Breweries & Distilleries,Taurus_Discovery__Midcap__Dir_Gr,38,897.1,66.1,110.27,4.76,9,16,21,67,associatedalcoholsbreweries,660.27
+BBTC,56,6,Consumer Defensive,Packaged Foods,ITI_Value_Dir_Gr,66,2491.85,49.21,154.73,4.96,17,7,22,83,bombayburmahtrading,4511.7
+DHANUKA,57,6,Basic Materials,Agrochemicals,JM_Value_Dir_Gr,15,1825.9,61.12,132.6,5.19,12,11,23,44,dhanukaagritech,2481.66
+NEWGEN,58,6,Technology,IT Consulting & Software,JM_Flexicap_Dir_Gr,15,1114.5,41.26,158.18,3.67,24,7,15,45,newgensoftwaretechnologies,7145.43
+POKARNA,59,6,Industrials,Construction Materials,Kotak_Multicap_Dir_Gr,54,933.3,88.56,104,5.54,4,18,24,78,pokarna,1254.09
+SUDARSCHEM,60,6,Basic Materials,Specialty Chemicals,ICICI_Pru_Smallcap_Dir_Gr,31,1033.05,75.32,100.61,4.52,7,19,20,62,sudarshanchemicalindustries,4966.73
+TIPSINDLTD,61,7,Communication Services,Movies & Entertainment,Motilal_Oswal_Midcap_Dir_Gr,17,752.8,48.54,130.28,4.1,17,12,17,49,tipsindustries,3448.94
+LUPIN,62,7,Healthcare,Pharmaceuticals,Mirae_Asset_Midcap_Dir_Gr,2,2240.2,38.6,104.08,0.73,26,18,3,10,lupin,54177.9
+OPTIEMUS,63,7,Technology,Telecom Equipment,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,247,586.2,97.27,80.81,4.5,3,26,19,100,optiemusinfracom,1263.77
+VOLTAS,64,7,Industrials,Consumer Electronics,JM_Midcap_Dir_Gr,6,1743.65,56.99,105.4,4.1,13,17,18,24,voltas,40213.21
+COLPAL,65,7,Consumer Defensive,Personal Products,NJ_Flexi_Cap_Dir_Gr,6,3640.35,45.82,85.85,1.48,19,24,6,21,colgatepalmolive,48516.02
+GRAVITA,66,7,Industrials,Other Non-Ferrous Metals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,119,2277.15,140.78,203.78,10.49,1,4,44,94,gravita,5758.59
+NAUKRI,67,7,Communication Services,Internet Software & Services,Axis_Focused_25_Dir_Gr,6,7678.8,44.48,80.2,0.6,21,26,2,22,infoedge,61717.13
+TVSMOTOR,68,7,Consumer Cyclical,2/3 Wheelers,SBI_Multicap_Dir_Gr,1,2813.3,34.32,103.77,0.38,30,18,1,6,tvsmotor,66467.26
+ARVIND,69,7,Consumer Cyclical,Textiles,Bandhan_Small_Cap_Dir_Gr,2,402.4,44.23,134.64,4.49,21,10,19,7,arvind,6360.3
+GENUSPOWER,70,7,Industrials,Other Electrical Equipment/Products,Bajaj_Finserv_Flexi_Cap_Dir_Gr,38,456.3,90.2,75.97,4.25,3,29,18,67,genuspowerinfrastructures,7947.51
+HITECH,71,8,Basic Materials,Iron & Steel Products,ITI_Small_Cap_Dir_Gr,8,193.91,29.4,153.64,1.57,35,8,7,29,hitechpipes,1681.19
+INOXWIND,72,8,Industrials,Electric Utilities,ITI_Small_Cap_Dir_Gr,9,221.11,46.49,332.02,6.7,19,1,30,32,inoxwind,14912.82
+STOVEKRAFT,73,8,Consumer Cyclical,Houseware,Bandhan_Small_Cap_Dir_Gr,59,840.95,72.15,60.78,1.06,8,37,5,81,stovekraft,1226.31
+TVSHLTD,74,8,Consumer Cyclical,Auto Parts & Equipment,Bandhan_Small_Cap_Dir_Gr,12,13949,54.52,176.77,6.94,14,5,31,40,tvsholding,7210.66
+GULFOILLUB,75,8,Basic Materials,Oil Marketing & Distribution,JM_Value_Dir_Gr,38,1415.7,37.96,141.18,3.63,27,9,15,68,gulfoillubricants,1968.62
+RECLTD,76,8,Financial Services,Financial Institutions,Mahindra_Manulife_Small_Cap_Dir_Gr,1,619.75,45.28,153.63,5.24,20,8,23,5,rec,77305.02
+STYRENIX,77,8,Basic Materials,Specialty Chemicals,Nippon_India_Small_Cap_Dir_Gr,142,2643.05,80.35,134.04,8.23,5,10,36,95,styrenixperformancematerials,2498.74
+TCPLPACK,78,8,Consumer Cyclical,Containers & Packaging,DSP_Small_Cap_Dir_Gr,55,3320.3,49.94,83.63,2.3,17,24,10,79,tcplpackaging,1337.3
+BEPL,79,8,Basic Materials,Specialty Chemicals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,207,165.46,71.46,86.01,4.85,8,23,21,98,bhansaliengineeringpolymers,1751.22
+CROMPTON,80,8,Consumer Cyclical,Household Appliances,Samco_Flexi_Cap_Dir_Gr,13,477.05,63.51,57.78,0.82,10,39,3,40,cromptongreavesconsumerelectricals,30698.09
+PPLPHARMA,81,9,Healthcare,Pharmaceuticals,LIC_MF_Flexi_Cap_Dir_Gr,10,188.98,45.15,89.83,2.34,20,22,10,35,piramalpharma,16297.62
+BHARTIARTL,82,9,Communication Services,Telecom Services,SBI_Multicap_Dir_Gr,3,1589.05,40.78,85.81,1.2,24,24,5,12,bhartiairtel,430942.9
+COROMANDEL,83,9,Basic Materials,Fertilizers,DSP_Midcap_Dir_Gr,6,1758.25,67.72,62.25,1.72,9,36,8,21,coromandelinternational,22105.12
+INDIANHUME,84,9,,Cement & Cement Products,Quant_Small_Cap_Dir_Gr,86,537.25,82.61,93.64,6.08,5,21,27,91,indianhumepipe,782.87
+SEAMECLTD,85,9,Industrials,Shipping,Nippon_India_Small_Cap_Dir_Gr,146,1587.25,42.28,150.63,4.95,23,8,22,96,seamec,1117.45
+SUPRIYA,86,9,Healthcare,Pharmaceuticals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,234,545.75,60,103.41,5.25,12,18,23,100,supriyalifescience,1392.37
+PGEL,87,9,Technology,Consumer Electronics,Nippon_India_Value_Dir_Gr,54,525.15,190.01,168.66,11.29,1,6,47,78,pgelectroplast,6380.73
+SOLARA,88,9,Healthcare,Pharmaceuticals,Aditya_BSL_Flexi_Cap_Dir_Gr,73,706.05,75.29,108.21,6.76,7,17,30,88,solaraactivepharmasciences,1780.69
+SUZLON,89,9,Industrials,Heavy Electrical Equipment,Edelweiss_Large___Mid_Dir_Gr,8,75.84,75.56,207.67,10.02,7,4,43,30,suzlonenergy,89748.76
+PFC,90,9,Financial Services,Financial Institutions,Sundaram_Mid_Cap_Dir_Gr,1,549.55,41.09,154.42,5.25,24,8,23,5,powerfinance,79815.26
+TIDEWATER,91,10,Basic Materials,Oil Marketing & Distribution,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,197,2609.4,60.99,125.29,6.81,12,13,30,98,tidewateroil,1629.96
+AJANTPHARM,92,10,Healthcare,Pharmaceuticals,Edelweiss_Small_Cap_Dir_Gr,5,3243.55,55.55,88.07,4.32,14,23,19,18,ajantapharma,13666
+LUXIND,93,10,Consumer Cyclical,Other Apparels & Accessories,Kotak_Emerging_Equity_Dir_Gr,78,2376.6,101.37,66.35,4.67,2,34,20,89,luxindustries,1844.6
+NATCOPHARM,94,10,Healthcare,Pharmaceuticals,Mahindra_Manulife_Lrg_Cap_Dir_Gr,32,1537.55,56.33,71.79,2.99,13,30,13,63,natcopharma,13849.38
+ABSLAMC,95,10,Financial Services,Asset Management Cos.,Quantum_L_T_Equity_Value_Dir_Gr,29,748.1,43.91,94.08,3.47,22,21,14,60,adityabirlasunlifeamc,5390.73
+HINDPETRO,96,10,Energy,Refineries/Petro-Products,ICICI_Pru_MidCap_Dir_Gr,1,419.05,23.93,138.19,1.46,41,10,6,3,hindustanpetroleum,40214.05
+INOXGREEN,97,10,Utilities,Electric Utilities,ICICI_Pru_Multicap_Dir_Gr,98,199.71,44.19,188.39,7.45,21,4,33,93,inoxgreenenergyservices,3175.36
+JINDALSAW,98,10,Basic Materials,Other Industrial Products,HSBC_Value_Dir_Gr,54,680.65,39.25,116.29,4.13,26,14,18,78,jindalsaw,7991.76
+TORNTPOWER,99,10,Utilities,Electric Utilities,Axis_Growth_Opportunities_Dir_Gr,1,1743.5,55.99,161.89,8.62,13,7,38,6,torrentpower,38906.27
+KIRLOSENG,100,10,Industrials,Heavy Electrical Equipment,ITI_Small_Cap_Dir_Gr,5,1334.35,46.55,187.02,7.98,19,5,35,20,kirloskaroilengines,11386.99
+MOTHERSON,101,11,Consumer Cyclical,Auto Parts & Equipment,Motilal_Oswal_Focused_Dir_Gr,2,195.28,64.72,102.47,6.51,10,19,30,11,samvardhanamothersoninternational,52455.59
+QUESS,102,11,Industrials,BPO/KPO,Tata_Small_Cap_Fund_Dir_Gr,2,782.35,49.96,83.16,3.86,17,25,17,10,quess,5041.78
+CESC,103,11,Utilities,Electric Utilities,JM_Flexicap_Dir_Gr,13,194.04,50.19,133.5,7.6,16,10,34,40,cesc,12317.96
+DEEPAKFERT,104,11,Basic Materials,Commodity Chemicals,Axis_Small_Cap_Fund_Dir_Gr,59,1046.1,103.13,79.05,6.93,2,27,31,80,deepakfertiliserspetrochemicals,7179.96
+VEDL,105,11,Basic Materials,Aluminium and Aluminium Products,Tata_Large_Cap_Dir_Gr,38,468.45,78.15,97.66,7.56,6,20,34,68,vedanta,79910.15
+WABAG,106,11,Industrials,Utilities:Non-Electrical,Quant_Value_Dir_Gr,6,1272.55,68.37,164.51,10.38,9,7,44,24,vatechwabag,6400.08
+WINDLAS,107,11,Healthcare,Pharmaceuticals,ICICI_Pru_Smallcap_Dir_Gr,60,819.8,64.97,129.6,8.9,9,12,39,81,windlasbiotech,642.36
+ASKAUTOLTD,108,11,Consumer Cyclical,Auto Parts & Equipment,Tata_Small_Cap_Fund_Dir_Gr,39,461.6,55.89,63.69,2.78,14,35,12,68,askautomotive,1365.02
+GREENPLY,109,11,Basic Materials,Forest Products,Bandhan_Multi_Cap_Dir_Gr,14,383.9,45.36,133.02,6.81,20,11,30,43,greenplyindustries,2279.83
+INSECTICID,110,11,Basic Materials,Agrochemicals,HDFC_Small_Cap_Dir_Gr,55,994.45,82.57,92.41,8.28,5,21,36,79,insecticides,819.43
+JYOTICNC,111,12,Industrials,Industrial Machinery,ITI_Small_Cap_Dir_Gr,23,1242.15,105.5,275.27,14.33,2,2,58,55,jyoticncautomation,10579.39
+LALPATHLAB,112,12,Healthcare,Healthcare Services,UTI_Flexi_Cap_Dir_Gr,15,3417.4,47.74,57.38,1.21,18,39,5,44,drlalpathlabs,12966.55
+SARDAEN,113,12,Basic Materials,Iron & Steel/Interm.Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,98,351.65,69.51,66.58,4.68,9,33,20,93,sardaenergyminerals,3390.31
+SHRIPISTON,114,12,Consumer Cyclical,Industrial Machinery,Taurus_Discovery__Midcap__Dir_Gr,42,2149.1,33.01,98.25,2.58,31,20,11,71,shrirampistonsrings,5041.04
+SWARAJENG,115,12,Consumer Cyclical,Auto Parts & Equipment,DSP_Small_Cap_Dir_Gr,32,3405,43.53,69.24,1.87,22,32,8,63,swarajengines,1980.39
+VMART,116,12,Consumer Cyclical,Department Stores,ICICI_Pru_Smallcap_Dir_Gr,11,3601,87.49,67.93,5.73,4,33,25,38,vmartretail,3966.63
+ELECTCAST,117,12,Basic Materials,Iron & Steel/Interm.Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,14,214.2,29.39,212.47,5.56,36,3,24,42,electrosteelcastings,7122.61
+VIJAYA,118,12,Healthcare,Healthcare Services,ICICI_Pru_Smallcap_Dir_Gr,6,912.6,39.01,82.96,2.81,26,25,12,24,vijayadiagnosticcentre,4314.6
+ORCHPHARMA,119,12,Healthcare,Pharmaceuticals,Quant_Value_Dir_Gr,8,1520.95,25.2,178.64,4.34,40,5,19,30,orchidpharma,2326.58
+ZOMATO,120,12,Consumer Cyclical,Internet Software & Services,Baroda_BNP_P_Focused_Dir_Gr,1,250.53,57.22,164.55,10.81,13,6,45,7,zomato,221230.6
+BECTORFOOD,121,13,Consumer Defensive,Packaged Foods,Invesco_India_Smallcap_Dir_Gr,6,1608.5,48.22,53.15,1.44,17,42,6,22,mrsbectorsfoodspecialities,4618.76
+GAIL,122,13,Utilities,Utilities:Non-Electrical,Quant_Large_Cap_Dir_Gr,6,237.69,32.53,102.81,3.5,32,18,15,21,gail,75141.13
+KIRLPNU,123,13,Industrials,Industrial Machinery,Tata_Small_Cap_Fund_Dir_Gr,15,1302.3,83.75,105.67,10.27,4,17,44,45,kirloskarpneumatic,5156.89
+MUTHOOTFIN,124,13,Financial Services,Finance (including NBFCs),SBI_Focused_Equity_Fund_Dir_Gr,3,1965.85,54.22,51.34,1.79,14,43,8,14,muthootfinance,21032.65
+POLYMED,125,13,Healthcare,Healthcare Supplies,Bank_of_India_Small_Cap_Dir_Gr,26,2338.25,47.31,63.87,2.82,18,35,12,58,polymedicure,8401.67
+SUBROS,126,13,Consumer Cyclical,Auto Parts & Equipment,UTI_Small_Cap_Dir_Gr,20,792.65,33.79,109.17,4.2,30,17,18,52,subros,3268.54
+APARINDS,127,13,Industrials,Other Electrical Equipment/Products,HSBC_Small_Cap_Fund_Dir_Gr,1,9163.5,47.07,82.16,5.14,19,25,22,1,aparindustries,15544.11
+EDELWEISS,128,13,Financial Services,Other Financial Services,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,42,109.36,42.95,101.21,5.72,22,19,25,70,edelweissfinancialservices,6941.34
+VENUSPIPES,129,13,Basic Materials,Iron & Steel Products,Nippon_India_Small_Cap_Dir_Gr,162,2429.9,39.99,59.87,0.83,25,37,4,97,venuspipestubes,2539.83
+GODREJIND,130,13,Industrials,Diversified,Mahindra_Manulife_Small_Cap_Dir_Gr,2,1013.65,25.9,93.56,1.59,39,21,7,9,godrejindustries,11209.84
+KAYNES,131,14,Industrials,Other Electrical Equipment/Products,Canara_Robeco_Small_Cap_Dir_Gr,3,4753.8,63.96,139.06,11.64,10,9,48,13,kaynestechnology,12832.1
+WELCORP,132,14,Basic Materials,Iron & Steel Products,Aditya_BSL_Pure_Value_Dir_Gr,3,708.4,34.04,122.63,5.55,30,13,24,15,welspun,9286.84
+ALICON,133,14,Industrials,Auto Parts & Equipment,LIC_MF_Flexi_Cap_Dir_Gr,40,1423.25,55.33,67.79,4.8,14,33,21,69,aliconcastalloy,1036.88
+IEX,134,14,Financial Services,Exchange,Parag_Parikh_Flexi_Cap_Dir_Gr,21,203.63,44.52,62.19,2.46,21,36,11,52,indianenergyexchange,18157.54
+PRUDENT,135,14,Financial Services,Other Financial Services,DSP_Small_Cap_Dir_Gr,22,2435.65,79.68,107.49,11.03,5,17,46,54,prudentcorporateadvisoryservices,4192.43
+SANSERA,136,14,Industrials,Auto Parts & Equipment,Kotak_Small_Cap_Dir_Gr,15,1503.35,48.68,58.79,3.01,17,38,13,45,sanseraengineering,5294.45
+SHRIRAMFIN,137,14,Financial Services,Finance (including NBFCs),Union_Midcap_Dir_Gr,1,3204.5,36.43,71.16,1.97,28,31,9,6,shriramfinance,89863.62
+TRIVENI,138,14,Consumer Defensive,Sugar,DSP_Small_Cap_Dir_Gr,6,476.85,41.44,57.22,1.48,23,39,6,24,triveniengineeringindustries,4072.97
+CAPACITE,139,14,Industrials,Construction & Engineering,ITI_Value_Dir_Gr,33,379.7,47.28,86.36,6.22,18,23,28,64,capacit'einfraprojects,2194.4
+EMAMILTD,140,14,Consumer Defensive,Personal Products,DSP_Midcap_Dir_Gr,7,813.2,74.32,56.72,4.96,7,40,22,26,emami,16030.07
+KPIL,141,15,Industrials,Construction & Engineering,SBI_Small_Cap_Fund_Dir_Gr,4,1347.55,37.35,108.42,5.62,27,17,25,17,kalpataruprojectsinternational,14176.25
+ORIENTHOT,142,15,Consumer Cyclical,Hotels,Quant_Value_Dir_Gr,11,162.59,24.16,88.29,1.46,41,22,6,37,orientalhotels,942.3
+PERSISTENT,143,15,Technology,IT Consulting & Software,Motilal_Oswal_Midcap_Dir_Gr,1,5170.85,22.99,102.53,1.79,43,18,8,5,persistentsystems,55090.03
+JSWENERGY,144,15,Utilities,Electric Utilities,Edelweiss_Mid_Cap_Dir_Gr,14,711.15,40.1,94.2,5.43,25,21,24,43,jswenergy,38132.96
+TORNTPHARM,145,15,Healthcare,Pharmaceuticals,WhiteOak_Capital_Flexi_Cap_Dir_Gr,14,3485.15,33.37,77.92,2.49,31,28,11,44,torrentpharmaceutical,33911.57
+BALRAMCHIN,146,15,Consumer Defensive,Sugar,Quant_Small_Cap_Dir_Gr,31,598.65,61.27,54.13,4.22,11,42,18,62,balrampurchinimills,6896.38
+POWERINDIA,147,15,Technology,Heavy Electrical Equipment,Aditya_BSL_Small_Cap_Dir_Gr,2,12095.05,104.52,166.06,15.9,2,6,63,9,hitachienergy,12815.22
+ARE&M,148,15,Industrials,Auto Parts & Equipment,Kotak_Small_Cap_Dir_Gr,11,1521.25,82.38,142.86,14.34,5,9,58,36,amararajaenergymobility,18693.61
+CIGNITITEC,149,15,Technology,IT Consulting & Software,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,143,1379.85,32.23,74.61,2.48,32,29,11,95,cignititechnologies,2915.28
+NBCC,150,15,Industrials,Construction & Engineering,Mahindra_Manulife_Lrg___Md_cap_Dir_Gr,9,186.37,40.98,264.72,11.15,24,2,46,33,nbcc,12831.57
+PFIZER,151,16,Healthcare,Pharmaceuticals,Nippon_India_Small_Cap_Dir_Gr,24,6065.05,32.98,57.98,0.57,31,39,2,56,pfizer,10010.83
+THANGAMAYL,152,16,Consumer Cyclical,Gems & Jewellery,DSP_Small_Cap_Dir_Gr,33,2035.9,56.66,61.85,5.23,13,36,23,65,thangamayiljewellery,1825.62
+COALINDIA,153,16,Energy,Coal,Mahindra_Manulife_Multi_Cap_Dir_Gr,1,524.95,20.9,128.29,3.42,47,12,14,2,coal,119279
+DIVISLAB,154,16,Healthcare,Pharmaceuticals,Axis_Focused_25_Dir_Gr,7,5093.9,44.78,39.29,0.75,20,50,3,25,divi'slaboratories,65044.21
+PRESTIGE,155,16,Real Estate,Realty,Motilal_Oswal_Large___Midcap_Dir_Gr,1,1813.15,47.52,216.49,12.61,18,3,52,5,prestigeestatesprojects,25089.91
+SENCO,156,16,Consumer Cyclical,Gems & Jewellery,Bank_of_India_Small_Cap_Dir_Gr,14,1089.1,30.37,169.21,7.47,34,6,33,43,sencogold,2670.63
+UFLEX,157,16,Consumer Cyclical,Containers & Packaging,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,208,762.55,77.77,97.5,11.31,6,20,47,99,uflex,3051.7
+METROPOLIS,158,16,Healthcare,Healthcare Services,Templeton_India_Value_Dir_Gr,19,2139.8,33.29,60.18,1.38,31,37,6,51,metropolishealthcare,5524
+NTPC,159,16,Utilities,Electric Utilities,HSBC_Value_Dir_Gr,1,416.2,24.87,88.24,2.37,40,23,11,5,ntpc,197348.3
+ZENTEC,160,16,Industrials,Defence,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,91,1696.65,103.67,112.87,13.88,2,15,57,92,zentechnologies,6950.02
+BASF,161,17,Basic Materials,Specialty Chemicals,Tata_Small_Cap_Fund_Dir_Gr,3,6592.6,99.44,156.49,17.07,2,7,66,12,basf,7610.68
+KESORAMIND,162,17,Basic Materials,Cement & Cement Products,Union_Flexi_Cap_Dir_Gr,12,208.85,25.81,146,5.98,39,9,27,39,kesoramindustries,3676.22
+M&M,163,17,Consumer Cyclical,Cars & Utility Vehicles,Franklin_India_Eq_Advantage_Dir_Gr,5,2805.4,47.52,79.74,6.91,18,26,31,20,mahindramahindra,284111.2
+CAPLIPOINT,164,17,Healthcare,Pharmaceuticals,UTI_Large___Mid_Cap_Dir_Gr,54,1905,31.18,79.95,4.03,33,26,17,77,caplinpointlaboratories,4262.98
+ICICIPRULI,165,17,Financial Services,Life Insurance,ICICI_Pru_Bluechip_Dir_Gr,18,753.15,43.92,34.96,0.21,22,53,1,49,iciciprudentiallifeinsurance,29161.92
+KFINTECH,166,17,Technology,Other Financial Services,Union_Small_Cap_Dir_Gr,3,1038.6,53.6,147.61,12.65,15,9,52,13,kfintechnologies,11913.09
+VESUVIUS,167,17,Industrials,Other Industrial Goods,Nippon_India_Multi_Cap_Dir_Gr,11,5414.3,64.6,54.84,5.73,10,41,25,38,vesuvius,4882.38
+WHIRLPOOL,168,17,Consumer Cyclical,Consumer Electronics,Kotak_Emerging_Equity_Dir_Gr,24,2183.5,69.92,33.6,2.87,8,55,13,56,whirlpool,13574.2
+AARTIPHARM,169,17,Healthcare,Pharmaceuticals,Aditya_BSL_Flexi_Cap_Dir_Gr,66,688.55,39.51,69.87,4.59,25,32,20,83,aartipharmalabs,3340.92
+ALKEM,170,17,Healthcare,Pharmaceuticals,DSP_Midcap_Dir_Gr,2,6170.35,23.65,66.67,0.48,42,33,2,7,alkemlaboratories,32181
+FORTIS,171,18,Healthcare,Healthcare Facilities,Nippon_India_Growth_Dir_Gr,4,551.8,30.91,64.96,1.99,34,34,9,16,fortishealthcare,28673.61
+HINDALCO,172,18,Basic Materials,Aluminium and Aluminium Products,SBI_Multicap_Dir_Gr,6,701.35,39.05,53.79,1.94,26,42,9,22,hindalcoindustries,103012.9
+PNBHOUSING,173,18,Financial Services,Housing Finance,Tata_Flexi_Cap_Dir_Gr,11,977.45,39.29,52.12,1.76,26,43,8,37,pnbhousingfinance,18248.03
+SUNDARMFIN,174,18,Financial Services,Finance (including NBFCs),HSBC_Midcap_Dir_Gr,3,5050.6,20.96,94.45,2.23,47,20,10,14,sundaramfinance,34869.32
+BIKAJI,175,18,Consumer Defensive,Packaged Foods,Quant_Small_Cap_Dir_Gr,8,825.1,58.95,71.7,7.81,12,31,35,28,bikajifoodsinternational,5144.1
+IFCI,176,18,Financial Services,Financial Institutions,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,49,74.93,70.68,422.16,18.02,8,1,69,75,ifci,5538.25
+PRAJIND,177,18,Industrials,Industrial Machinery,Bank_of_India_Small_Cap_Dir_Gr,23,766.9,52.25,59.39,5.66,15,38,25,55,prajindustries,9471.52
+BPCL,178,18,Energy,Refineries/Petro-Products,Tata_Equity_P_E_Dir_Gr,2,357.65,17.4,100.48,2.15,51,19,9,8,bharatpetroleum,72959.36
+KSCL,179,18,Basic Materials,Other Agricultural Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,154,1050.6,60.26,92.81,10.97,12,21,46,96,kaveriseed,2134.66
+TDPOWERSYS,180,18,Industrials,Heavy Electrical Equipment,Aditya_BSL_Small_Cap_Dir_Gr,7,426.7,45.28,62.99,5.39,20,35,24,27,tdpowersystems,4380.48
+CHAMBLFERT,181,19,Basic Materials,Fertilizers,Quant_Flexi_Cap_Dir_Gr,24,520.2,50.85,86.49,9.43,16,23,41,55,chambalfertiliserschemicals,8190.88
+GILLETTE,182,19,Consumer Defensive,Personal Products,Samco_Flexi_Cap_Dir_Gr,16,8885.5,37.09,60.88,3.82,27,37,16,46,gillette,7238.39
+IFBIND,183,19,Consumer Cyclical,Household Appliances,DSP_Small_Cap_Dir_Gr,28,1969.2,40.09,113.45,9.34,25,15,40,60,ifbindustries,1997.93
+NIITLTD,184,19,Consumer Defensive,IT Training Services,Nippon_India_Small_Cap_Dir_Gr,118,168.1,36.61,109.6,8.14,28,16,36,94,niit,1486.38
+SCILAL,185,19,Industrials,Realty,Quant_Small_Cap_Dir_Gr,10,85.94,217.71,217.71,20.83,1,3,76,36,shipping,1451.12
+SYMPHONY,186,19,Consumer Cyclical,Consumer Electronics,UTI_Value_fund_Dir_Gr,50,1562,74.04,77.44,10.68,7,28,45,76,symphony,2866.19
+360ONE,187,19,Financial Services,Other Financial Services,Invesco_India_Smallcap_Dir_Gr,5,1073,49.8,111.62,11.69,17,16,48,18,360onewam,32896.99
+ASHOKLEY,188,19,Industrials,Commercial Vehicles,Bank_of_India_Large___Mid_Cp_Eq_Dir_Gr,9,256.45,51.48,36.34,3.1,16,52,13,31,ashokleyland,36507.71
+JSWINFRA,189,19,Industrials,Marine Port & Services,Tata_Mid_Cap_Growth_Dir_Gr,15,324.6,31.47,172.77,10.07,33,5,43,45,jswinfrastructure,9809.09
+ONGC,190,19,Energy,Exploration & Production,Templeton_India_Value_Dir_Gr,5,330.75,24.46,88.25,4.13,41,22,18,20,oilnaturalgas,174495.2
+SIGNATURE,191,20,Real Estate,Realty,Bandhan_Flexi_Cap_Dir_Gr,26,1503.95,12.43,290.64,4.51,59,2,20,58,signatureglobal,6417.82
+CDSL,192,20,Financial Services,Other Financial Services,PGIM_India_Small_Cap_Dir_Gr,7,1434.9,48.61,154.05,13.79,17,8,57,25,centraldepositoryservices,25491
+DBL,193,20,Industrials,Roads & Highways,HDFC_Capital_Builder_Value_Dir_Gr,59,561.25,28.58,82.31,4.55,37,25,20,80,dilipbuildcon,2449.59
+PETRONET,194,20,Energy,Oil Marketing & Distribution,SBI_Flexicap_Dir_Gr,16,367.3,34.2,66.99,4.4,30,33,19,47,petronetlng,27547.5
+UNITDSPR,195,20,Consumer Defensive,Breweries & Distilleries,Invesco_India_largecap_Dir_Gr,9,1474.35,29.6,46.93,0.67,35,45,2,33,unitedspirits,46465.78
+AFFLE,196,20,Communication Services,Internet Software & Services,ICICI_Pru_MidCap_Dir_Gr,9,1631.6,47.73,49.98,4.86,18,44,21,30,affle,10268.33
+BEL,197,20,Industrials,Defence,Kotak_Flexicap_Dir_Gr,2,299.3,45.54,122.45,12.1,20,13,50,7,bharatelectronics,106896.7
+EIDPARRY,198,20,Basic Materials,Other Food Products,LIC_MF_Small_Cap_Fund_Dir_Gr,24,829.4,33.26,75.05,5.21,31,29,23,56,eidparry,8507.31
+PHOENIXLTD,199,20,Real Estate,Realty,PGIM_India_Midcap_Opps_Fund_Dir_Gr,1,3769.4,35.39,114.64,8.89,29,15,39,5,phoenixmills,35527.22
+TIIL,200,20,Industrials,Iron & Steel Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,173,3476.8,78.65,75.96,11.6,6,29,48,97,technocraftindustries,2026.97
+CUMMINSIND,201,21,Industrials,Industrial Machinery,Bandhan_Midcap_Dir_Gr,2,3744.7,37.95,116.45,10.24,27,14,43,8,cummins,50863.51
+GANECOS,202,21,Consumer Cyclical,Textiles,DSP_Flexi_Cap_Fund_Dir_Gr,42,1814.8,73.81,73.36,11.45,7,30,47,70,ganeshaecosphere,2923.74
+GSPL,203,21,Utilities,Utilities:Non-Electrical,Mirae_Asset_Multicap_Dir_Gr,7,442.6,22.59,61.56,0.98,44,36,4,26,gujaratstatepetronet,15575.03
+CASTROLIND,204,21,Energy,Oil Marketing & Distribution,Bank_of_India_Flexi_Cap_Fund_Dir_Gr,11,264.75,34.32,84.95,6.91,30,24,31,37,castrol,12831.64
+ICICIGI,205,21,Financial Services,General Insurance,Samco_Flexi_Cap_Dir_Gr,10,2141.75,24.2,62.11,1.89,41,36,8,34,icicilombardgeneralinsurance,51000.15
+ISGEC,206,21,Industrials,Industrial Machinery,UTI_Small_Cap_Dir_Gr,46,1378.95,64.01,96.74,13.34,10,20,55,73,isgecheavyengineering,3809.35
+RALLIS,207,21,Basic Materials,Agrochemicals,Bandhan_Multi_Cap_Dir_Gr,34,352.4,46.59,50.92,5.57,19,43,24,65,rallis,3078.41
+BLUESTARCO,208,21,Industrials,Consumer Electronics,SBI_Small_Cap_Fund_Dir_Gr,1,1703.9,31.88,131.74,10.22,33,11,43,1,bluestar,20835.31
+TATAMTRDVR,209,21,Consumer Cyclical,Commercial Vehicles,JM_Focused_Dir_Growth_Option,3,768.65,21.61,90.45,4.43,46,22,19,15,tatamotors,
+ASTRAMICRO,210,21,Technology,Defence,360_ONE_Focused_Equity_Dir_Gr,23,904.6,45.9,135.14,14.58,19,10,59,54,astramicrowaveproduct,8027.02
+CHOLAHLDNG,211,22,Financial Services,Holding Companies,Nippon_India_Growth_Dir_Gr,2,1602,51.7,66.31,8.94,15,34,39,8,cholamandalamfinancialholding,15847.17
+ETHOSLTD,212,22,Consumer Cyclical,Specialty Retail,Union_Small_Cap_Dir_Gr,10,3273.5,23.34,105.25,6.07,43,18,27,34,ethos,3629.39
+CGPOWER,213,22,Industrials,Heavy Electrical Equipment,WhiteOak_Capital_Mid_Cap_Dir_Gr,1,696.1,62.28,71.12,11.18,11,31,47,2,cgpowerindustrialsolutions,44590.87
+DODLA,214,22,Consumer Defensive,Packaged Foods,DSP_Small_Cap_Dir_Gr,8,1276.45,29.32,72.69,5.17,36,30,23,29,dodladairy,3039.4
+ECLERX,215,22,Technology,BPO/KPO,DSP_Small_Cap_Dir_Gr,2,2903.8,16.67,77.99,1.93,53,27,9,8,eclerxservices,6575.61
+EICHERMOT,216,22,Consumer Cyclical,2/3 Wheelers,Quantum_L_T_Equity_Value_Dir_Gr,4,4960.5,28.39,47.84,1.95,37,44,9,16,eichermotors,69182.63
+FSL,217,22,Technology,BPO/KPO,HDFC_Small_Cap_Dir_Gr,2,303.25,47.89,88,11.82,18,23,49,9,firstsourcesolutions,9794.54
+IREDA,218,22,Financial Services,Financial Institutions,Baroda_BNP_P_Lrg___Mid_Cap_Dir_Gr,3,241.5,61.81,654.69,22.1,11,1,78,13,indianrenewableenergydevelopmentagency,16227.38
+KEI,219,22,Industrials,Other Electrical Equipment/Products,Canara_Robeco_Small_Cap_Dir_Gr,2,4609.8,41.06,76.02,8.53,24,29,37,9,keiindustries,26174.39
+UTIAMC,220,22,Financial Services,Asset Management Cos.,Tata_Small_Cap_Fund_Dir_Gr,7,1146.85,28.6,52.57,2.85,36,42,12,28,utiassetmanagement,14612.65
+SUNPHARMA,221,23,Healthcare,Pharmaceuticals,ICICI_Pru_Focused_Equity_Dir_Gr,2,1821.65,15.74,63.88,0.36,55,35,1,11,sunpharmaceuticalindustries,198956.5
+CHOLAFIN,222,23,Financial Services,Finance (including NBFCs),Axis_Growth_Opportunities_Dir_Gr,2,1455.6,36.08,32.44,1.58,28,57,7,8,cholamandalaminvestmentfinance,60760.79
+HAL,223,23,Industrials,Defence,NJ_Flexi_Cap_Dir_Gr,1,4679.95,51.69,140.16,17.53,15,9,68,3,hindustanaeronautics,88762.08
+JKIL,224,23,Industrials,Construction & Engineering,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,90,850.8,29.06,110.65,9.18,36,16,40,92,jkumarinfraprojects,3434.47
+JUBLFOOD,225,23,Consumer Cyclical,Restaurants,Samco_Flexi_Cap_Dir_Gr,9,650.3,38.45,34.01,2.6,26,55,11,32,jubilantfoodworks,24913.39
+LLOYDSENGG,226,23,Industrials,Industrial Machinery,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,113,80.63,51.42,95.28,13.67,16,20,56,93,lloydsengineeringworks,3945.46
+NAM-INDIA,227,23,Financial Services,Asset Management Cos.,ICICI_Pru_Smallcap_Dir_Gr,1,673.05,27.48,112.22,8.98,38,15,39,5,nipponlifeindiaassetmanagement,11646.23
+RKFORGE,228,23,Industrials,Other Industrial Products,Aditya_BSL_Pure_Value_Dir_Gr,2,967.95,29.52,48.1,3.05,35,44,13,11,ramkrishnaforgings,9944.25
+KARURVYSYA,229,23,Financial Services,Banks,UTI_Small_Cap_Dir_Gr,1,222.22,19.57,83.65,4.52,49,24,20,4,karurvysyabank,17496.99
+KEC,230,23,Industrials,Heavy Electrical Equipment,Canara_Robeco_Small_Cap_Dir_Gr,11,947.35,30.3,40.25,2.23,34,49,10,37,kecinternational,11719.76
+TEJASNET,231,24,Technology,Other Telecom Services,Nippon_India_Small_Cap_Dir_Gr,17,1318.15,75.67,59.06,11.83,6,38,49,48,tejasnetworks,10042.46
+HDFCAMC,232,24,Financial Services,Asset Management Cos.,Taurus_Discovery__Midcap__Dir_Gr,4,4420.5,15.21,78.49,2.37,56,27,11,16,hdfcassetmanagement,44833.75
+ORISSAMINE,233,24,Basic Materials,Mining,Quant_Small_Cap_Dir_Gr,52,8176.7,25.41,73.95,5.66,40,29,25,77,orissamineralsdevelopment,2452.52
+RADICO,234,24,Consumer Defensive,Breweries & Distilleries,Bank_of_India_Small_Cap_Dir_Gr,2,1942.05,21.43,55.34,1.71,46,41,7,10,radicokhaitan,15518.91
+RTNPOWER,235,24,Utilities,Electric Utilities,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,70,16.2,67.88,172.27,23.22,9,5,81,86,rattanindiapower,4866.54
+THOMASCOOK,236,24,Consumer Cyclical,Travel Support Services,Nippon_India_Focused_Equity_Dir_Gr,14,230.1,42.39,98.79,12.84,23,19,53,44,thomascook,3914.84
+GODREJAGRO,237,24,Consumer Defensive,Other Agricultural Products,LIC_MF_Flexi_Cap_Dir_Gr,28,783.7,52.81,62.93,10.61,15,36,45,59,godrejagrovet,3913.02
+HUDCO,238,24,Financial Services,Housing Finance,Quant_Flexi_Cap_Dir_Gr,3,280.65,46.63,278.74,20.65,19,2,75,12,housingurbandevelopment,14045.83
+MAHSCOOTER,239,24,Consumer Cyclical,Investment Companies,Parag_Parikh_Flexi_Cap_Dir_Gr,33,9741.55,30.06,42.86,3.43,35,47,14,64,maharashtrascooters,5455.28
+SHYAMMETL,240,24,Basic Materials,Iron & Steel/Interm.Products,Shriram_Flexi_Cap_Dir_Gr,27,797.35,27.11,66.88,5.58,38,33,25,59,shyammetalicsenergy,5655.4
+VPRPL,241,25,Industrials,Construction & Engineering,Quant_Small_Cap_Dir_Gr,46,247.05,42.02,149.55,16.82,23,8,65,73,vishnuprakashrpunglia,991.24
+FDC,242,25,Healthcare,Pharmaceuticals,ICICI_Pru_Smallcap_Dir_Gr,45,543.15,21.96,43.88,1.25,45,47,5,72,fdc,2682.98
+GLS,243,25,Healthcare,Pharmaceuticals,Union_Value_Fund_Dir_Gr,10,1052.65,20.06,70.32,3.87,48,32,17,34,glenmarklifesciences,2212
+RPGLIFE,244,25,Healthcare,Pharmaceuticals,Mirae_Asset_Multicap_Dir_Gr,26,2105.55,36.6,69.58,8.29,28,32,37,58,rpglifesciences,946.86
+TECHM,245,25,Technology,IT Consulting & Software,Tata_Focused_Equity_Dir_Gr,1,1636.5,27.27,36.6,1.71,38,52,7,6,techmahindra,103974.9
+ABB,246,25,Industrials,Heavy Electrical Equipment,Motilal_Oswal_Focused_Dir_Gr,7,7936.05,46.19,83.75,13.27,19,24,55,24,abb,42042.89
+HOMEFIRST,247,25,Financial Services,Housing Finance,Invesco_India_Multicap_Dir_Gr,15,1153,29.81,41.2,3.51,35,48,15,45,homefirstfinance,7860.92
+TCNSBRANDS,248,25,Consumer Cyclical,Other Apparels & Accessories,Axis_Small_Cap_Fund_Dir_Gr,88,571.15,48.1,42.4,7.72,17,47,34,91,tcnsclothing,1735.39
+TRITURBINE,249,25,Industrials,Heavy Electrical Equipment,PGIM_India_Small_Cap_Dir_Gr,9,720.15,54.51,84.72,14.67,14,24,60,33,triveniturbine,10109.07
+BAJAJHIND,250,25,Consumer Defensive,Sugar,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,87,42.65,25.44,80.72,7.48,39,26,34,91,bajajhindusthansugar,4088.68
+COCHINSHIP,251,26,Industrials,Marine Port & Services,Shriram_Flexi_Cap_Dir_Gr,55,1886.65,120.87,346.39,36.68,1,1,97,78,cochinshipyard,13470.71
+GLOBUSSPR,252,26,Consumer Defensive,Breweries & Distilleries,Taurus_Flexi_Cap_Dir_Gr,36,1072.2,36.87,18.9,0.73,27,69,3,66,globusspirits,1519.81
+HEROMOTOCO,253,26,Consumer Cyclical,2/3 Wheelers,Kotak_Multicap_Dir_Gr,1,5455.4,24.69,82.57,7.45,41,25,33,3,heromotocorp,71174.98
+MANKIND,254,26,Healthcare,Pharmaceuticals,Invesco_India_Mid_Cap_Dir_Gr,10,2487.75,21.15,39.55,0.73,46,50,3,35,mankindpharma,25047.13
+SCHNEIDER,255,26,Industrials,Heavy Electrical Equipment,Nippon_India_Multi_Cap_Dir_Gr,61,829.65,34.66,139.47,15.34,29,9,61,82,schneiderelectricinfrastructure,4959.32
+SEQUENT,256,26,Healthcare,Pharmaceuticals,Quant_Small_Cap_Dir_Gr,33,163.63,23.63,77.28,6.5,42,28,29,64,sequentscientific,1928.42
+SIEMENS,257,26,Industrials,Heavy Electrical Equipment,ICICI_Pru_Focused_Equity_Dir_Gr,7,6893.1,50.61,78.33,13.5,16,27,56,27,siemens,61369.32
+BHEL,258,26,Industrials,Heavy Electrical Equipment,Taurus_Discovery__Midcap__Dir_Gr,2,290.55,29.31,153.42,13.36,36,8,56,8,bharatheavyelectricals,37261.41
+CMSINFO,259,26,Industrials,Other Financial Services,SBI_Small_Cap_Fund_Dir_Gr,9,549.55,44.66,53.38,8.7,20,42,38,31,cmsinfosystems,8944.6
+HERITGFOOD,260,26,Consumer Defensive,Packaged Foods,DSP_Small_Cap_Dir_Gr,36,563.95,69.66,124.73,22.47,8,13,79,66,heritagefoods,3071.91
+HONDAPOWER,261,27,,Industrial Machinery,Tata_Small_Cap_Fund_Dir_Gr,22,3845.9,52.86,48.46,9.4,15,44,41,54,hondaindiapowerproduct,1300.18
+SBILIFE,262,27,Financial Services,Life Insurance,Navi_Flexi_Cap_Dir_Gr,6,1850.3,20.13,42.64,1.04,48,47,5,23,sbilifeinsurance,82652.45
+SOLARINDS,263,27,Basic Materials,Other Industrial Products,ITI_Mid_Cap_Dir_Gr,2,10729,58.4,119.23,19.32,13,14,73,11,solarindustries,26067.81
+JSL,264,27,Basic Materials,Iron & Steel/Interm.Products,ITI_Small_Cap_Dir_Gr,1,793.4,20.19,83.36,6.44,48,24,29,4,jindalstainless,25812.4
+MGL,265,27,Utilities,Utilities:Non-Electrical,Baroda_BNP_Paribas_Small_Cap_Dir_Gr,18,1792.1,22.24,74.57,6.28,44,29,28,49,mahanagargas,11948.83
+PRICOLLTD,266,27,Consumer Cyclical,Auto Parts & Equipment,Aditya_BSL_Pure_Value_Dir_Gr,21,517,23.77,59.2,4.7,42,38,21,53,pricol,3874.65
+ARVSMART,267,27,Real Estate,Realty,Quant_Value_Dir_Gr,5,742.6,22.23,115.72,10.1,44,15,43,18,arvindsmartspaces,1682.3
+ASHOKA,268,27,Industrials,Roads & Highways,Kotak_Multicap_Dir_Gr,15,233.5,32.37,130.28,14.12,32,12,58,44,ashokabuildcon,2983.78
+BHARATRAS,269,27,Basic Materials,Agrochemicals,PGIM_India_Small_Cap_Dir_Gr,31,12855.45,41.5,38.63,6.32,23,51,28,62,bharatrasayan,1335.99
+CENTENKA,270,27,Consumer Cyclical,Textiles,Quant_Active_Dir_Gr,38,734.65,62.97,71.59,15.06,11,31,60,67,centuryenka,1206.19
+JUSTDIAL,271,28,Communication Services,Internet Software & Services,Quant_Small_Cap_Dir_Gr,21,1252.05,35.47,68.02,9.53,29,32,41,53,justdial,2749.18
+POWERMECH,272,28,Industrials,Construction & Engineering,HDFC_Small_Cap_Dir_Gr,6,6778.8,33.84,66.87,9.01,30,33,39,23,powermechprojects,4469.64
+SAFARI,273,28,Consumer Cyclical,Other Apparels & Accessories,Sundaram_Small_Cap_Dir_Gr,9,2476.2,27.83,33.48,1.89,38,56,8,33,safariindustries,6566.07
+TEGA,274,28,Industrials,Mining,Aditya_BSL_Small_Cap_Dir_Gr,14,1707.05,46.01,78.85,13.36,19,27,56,43,tegaindustries,2863.34
+BIOCON,275,28,Healthcare,Biotechnology,Quant_Large_Cap_Dir_Gr,9,359.1,32.48,38.57,4.7,32,51,20,31,biocon,16969.49
+MAZDOCK,276,28,Industrials,Defence,ITI_Small_Cap_Dir_Gr,37,4241.45,100.65,133.25,27.62,2,11,90,67,mazagondockshipbuilders,12977.3
+OAL,277,28,Basic Materials,Specialty Chemicals,PGIM_India_Small_Cap_Dir_Gr,50,527.4,47.71,33.81,6.62,18,55,30,75,orientalaromatics,458.45
+AKZOINDIA,278,28,Basic Materials,Furniture-Furnishing-Paints,Tata_Small_Cap_Fund_Dir_Gr,35,3465.15,35.13,26.89,3.18,29,61,14,65,akzonobel,3982.97
+BSE,279,28,Financial Services,Exchange,Bank_of_India_Small_Cap_Dir_Gr,1,2832.65,21.19,211.3,13.23,46,3,55,1,bse,38347.4
+HGINFRA,280,28,Industrials,Construction & Engineering,HSBC_Small_Cap_Fund_Dir_Gr,38,1562.35,76.22,68.08,16.89,6,32,66,68,hginfraengineering,2593.36
+TATAMOTORS,281,29,Consumer Cyclical,Cars & Utility Vehicles,JM_Focused_Dir_Growth_Option,3,1111.35,16,83.04,5.74,54,25,25,15,tatamotors,198192.3
+ZENSARTECH,282,29,Technology,IT Consulting & Software,HSBC_Focused_Dir_Gr,12,767.9,41.09,52.13,8.53,24,43,37,40,zensartechnologies,8849.34
+ZYDUSWELL,283,29,Consumer Defensive,Packaged Foods,Nippon_India_Small_Cap_Dir_Gr,37,2295.25,45.79,39.74,7.6,20,50,34,67,zyduswellness,4437.05
+AEGISLOG,284,29,Energy,Oil Marketing & Distribution,Quant_Small_Cap_Dir_Gr,14,752.6,69.7,103.49,22.41,8,18,79,42,aegislogistics,11068.41
+CUB,285,29,Financial Services,Banks,SBI_Small_Cap_Fund_Dir_Gr,7,170.69,27.67,36.72,3.47,38,52,15,25,cityunionbank,12642.53
+GLAXO,286,29,Healthcare,Pharmaceuticals,Quant_Large_and_Mid_Cap_Dir_Gr,11,2745.1,27.43,94.21,11.1,38,21,46,37,glaxosmithklinepharmaceutical,11625.91
+GODREJCP,287,29,Consumer Defensive,Personal Products,UTI_Focused_Dir_Gr,7,1481.2,20.03,46.17,2.87,48,45,12,26,godrejconsumerproduct,56043.99
+INFY,288,29,Technology,IT Consulting & Software,UTI_Large_cap_Dir_Gr,1,1943.7,16.3,37.11,0.37,53,51,1,4,infosys,689137.1
+NCC,289,29,Industrials,Construction & Engineering,ITI_Small_Cap_Dir_Gr,2,319.05,28.49,109.01,12.47,37,17,51,10,ncc,15624.53
+POLYCAB,290,29,Industrials,Other Electrical Equipment/Products,DSP_Focus_Dir_Gr,7,6813.4,44.66,35.71,7.07,21,53,31,27,polycab,35836.38
+POWERGRID,291,30,Utilities,Electric Utilities,Parag_Parikh_Flexi_Cap_Dir_Gr,3,337.4,20.69,79.13,6.92,47,27,31,14,powergrid,152696.2
+TIRUMALCHM,292,30,Basic Materials,Commodity Chemicals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,168,336.65,37.24,44.89,7.22,27,46,32,97,thirumalaichemicals,2000.92
+FIEMIND,293,30,Consumer Cyclical,Auto Parts & Equipment,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,204,1523.3,26.5,55.06,5.91,39,41,26,98,fiemindustries,1645.41
+IGL,294,30,Utilities,Utilities:Non-Electrical,PGIM_India_Flexi_Cap_Dir_Gr,13,552.8,32.93,19.49,1.42,31,69,6,41,indraprasthagas,21282.82
+NLCINDIA,295,30,Utilities,Electric Utilities,Baroda_BNP_Paribas_Small_Cap_Dir_Gr,2,275.1,23.72,111.53,11.77,42,16,48,10,nlc,10604.69
+CAMS,296,30,Technology,Data Processing Services,Samco_Flexi_Cap_Dir_Gr,4,4261.25,38.23,79.95,13.21,26,26,55,16,computeragemanagementservices,20974.13
+INDHOTEL,297,30,Consumer Cyclical,Hotels,HDFC_Mid_Cap_Opportunities_Dir_Gr,1,647.5,13.42,64.65,3.6,58,34,15,3,indianhotels,57033.08
+IPCALAB,298,30,Healthcare,Pharmaceuticals,DSP_Midcap_Dir_Gr,4,1384.65,16.52,55.86,3.17,53,40,14,17,ipcalaboratories,18864.35
+EMUDHRA,299,30,Technology,Misc. Commercial Services,Nippon_India_Small_Cap_Dir_Gr,75,814.25,41.65,65.89,12.23,23,34,51,88,emudhra,3074.78
+OBEROIRLTY,300,30,Real Estate,Realty,Kotak_Emerging_Equity_Dir_Gr,6,1772.35,32.98,61.14,9.25,31,37,40,22,oberoirealty,20815.1
+GESHIP,301,31,Industrials,Shipping,HDFC_Small_Cap_Dir_Gr,7,1331.95,39.66,77.09,13.72,25,28,56,26,greateasternshipping,13297.8
+GUFICBIO,302,31,Healthcare,Pharmaceuticals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,231,402.35,30.02,32.11,3.95,35,57,17,99,guficbiosciences,1109.13
+HAVELLS,303,31,Industrials,Other Electrical Equipment/Products,UTI_Focused_Dir_Gr,16,1899.35,23.79,41.86,4.33,42,48,19,46,havells,48332.09
+JCHAC,304,31,Consumer Cyclical,Consumer Electronics,HSBC_Midcap_Dir_Gr,68,1925.85,73.7,54.56,15.13,7,41,61,85,johnsoncontrolshitachiairconditioning,1348.41
+SPLPETRO,305,31,Basic Materials,Petrochemicals,HSBC_Small_Cap_Fund_Dir_Gr,28,859.7,17.54,79.7,7.22,51,26,32,60,supremepetrochem,5780.93
+VSTTILLERS,306,31,Industrials,Commercial Vehicles,Kotak_Small_Cap_Dir_Gr,48,4273.65,32.55,22.47,2.69,32,65,12,74,vsttillerstractors,1638.24
+GRSE,307,31,Industrials,Shipping,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,80,1811,124.72,128.16,36.09,1,12,97,90,gardenreachshipbuildersengineers,5290.07
+HBLPOWER,308,31,Industrials,Other Electrical Equipment/Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,11,624.8,23.94,124.67,13.7,41,13,56,37,hblpowersystems,7081.8
+PARAS,309,31,Industrials,Defence,Nippon_India_Small_Cap_Dir_Gr,190,1272.35,76.02,73.34,20.11,6,30,74,98,parasdefencespacetechnologies,2037.47
+ARVINDFASN,310,31,Consumer Cyclical,Other Apparels & Accessories,ICICI_Pru_Smallcap_Dir_Gr,15,532.35,15.7,66.36,4.9,55,34,22,44,arvindfashions,4595.36
+EXIDEIND,311,32,Consumer Cyclical,Auto Parts & Equipment,Baroda_BNP_Paribas_Small_Cap_Dir_Gr,6,492.9,54.95,89.29,20.54,14,22,75,21,exideindustries,22628.3
+LUMAXIND,312,32,Consumer Cyclical,Auto Parts & Equipment,Navi_Large___Mid_Cap_Dir_Gr,45,2922.3,25.21,33.72,3.68,40,55,16,72,lumaxindustries,682.92
+NFL,313,32,Basic Materials,Fertilizers,Taurus_Discovery__Midcap__Dir_Gr,32,138.75,43.71,101.09,18.36,22,19,70,63,nationalfertilizers,1721.43
+NYKAA,314,32,Consumer Cyclical,Internet & Catalogue Retail,Motilal_Oswal_Focused_Dir_Gr,3,207.7,35.22,55.7,9.62,29,40,42,12,fsnecommerceventures,28366.18
+IGPL,315,32,Basic Materials,Petrochemicals,Aditya_BSL_Pure_Value_Dir_Gr,64,674.3,44.61,30.48,7.25,21,58,33,83,igpetrochemicals,649.11
+MANAPPURAM,316,32,Financial Services,Finance (including NBFCs),Bandhan_Small_Cap_Dir_Gr,6,215.95,25.15,48.01,6.27,40,44,28,22,manappuramfinance,11837.32
+MINDACORP,317,32,Consumer Cyclical,Auto Parts & Equipment,Axis_Value_Dir_Gr,7,567.95,34.24,75.62,12.89,30,29,53,26,minda,4774.21
+THYROCARE,318,32,Healthcare,Healthcare Services,Nippon_India_Small_Cap_Dir_Gr,143,861.8,26.55,55.95,7.47,39,40,33,96,thyrocaretechnologies,1318.38
+BLUEJET,319,32,Healthcare,Pharmaceuticals,Bandhan_Midcap_Dir_Gr,61,488.85,39.69,41.29,9.22,25,48,40,81,bluejethealthcare,1187.18
+HINDOILEXP,320,32,Energy,Exploration & Production,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,134,262.15,36.86,54.52,10.7,27,41,45,95,hindustanoilexploration,3466.76
+JBCHEPHARM,321,33,Healthcare,Pharmaceuticals,Edelweiss_Small_Cap_Dir_Gr,2,1953.8,22.1,37.1,3.75,45,52,16,9,jbchemicalspharmaceutical,14026.84
+MPHASIS,322,33,Technology,IT Consulting & Software,Aditya_BSL_Mid_Cap_Dir_Gr,7,3104.95,17,34.36,1.52,52,54,7,27,mphasis,34972.72
+TATAPOWER,323,33,Utilities,Electric Utilities,Mahindra_Manulife_Multi_Cap_Dir_Gr,6,434.65,18.84,76.04,7.72,50,29,34,23,tatapower,73803.72
+FEDERALBNK,324,33,Financial Services,Banks,Mirae_Asset_Midcap_Dir_Gr,1,194.7,29.54,34.79,5.76,35,53,26,2,federalbank,47706.56
+GRASIM,325,33,Basic Materials,Cement & Cement Products,Mahindra_Manulife_Focused_Dir_Gr,5,2698.85,23.46,50.38,6.22,43,43,28,19,grasimindustries,102873.6
+MATRIMONY,326,33,Communication Services,Internet Software & Services,ICICI_Pru_Smallcap_Dir_Gr,81,752.1,39.78,17.09,4.31,25,71,18,90,matrimonycom,810.49
+AMRUTANJAN,327,33,Healthcare,Pharmaceuticals,Sundaram_Small_Cap_Dir_Gr,46,818.9,26.21,34.51,5.07,39,54,22,73,amrutanjanhealthcare,1169.78
+HCLTECH,328,33,Technology,IT Consulting & Software,Taurus_Largecap_Equity_Dir_Gr,2,1753.25,6.14,51.46,0.74,69,43,3,9,hcltechnologies,186455.6
+HDFCLIFE,329,33,Financial Services,Life Insurance,Franklin_India_Focused_Equity_Dir_Gr,22,738.7,27.23,16.35,1.31,38,71,6,54,hdfclifeinsurance,78877.13
+KIRLOSBROS,330,33,Industrials,Industrial Machinery,Nippon_India_Small_Cap_Dir_Gr,27,1805.6,97.41,105.85,32.73,3,17,95,59,kirloskarbrothers,4882.11
+SJS,331,34,Consumer Cyclical,Auto Parts & Equipment,Union_Small_Cap_Dir_Gr,18,977.55,56.47,47.53,14.08,13,45,57,50,sjsenterprises,2372.67
+CIPLA,332,34,Healthcare,Pharmaceuticals,HDFC_Focused_30_Dir_Gr,3,1654.9,12.04,34.57,0.53,60,54,2,12,cipla,92334.01
+DMART,333,34,Consumer Defensive,Department Stores,Axis_Focused_25_Dir_Gr,3,4927.45,27.99,34.47,5.59,37,54,25,11,avenuesupermarts,81283.63
+FORCEMOT,334,34,Consumer Cyclical,Cars & Utility Vehicles,Sundaram_Small_Cap_Dir_Gr,62,8315.3,29.49,146.86,19.05,35,9,72,82,forcemotors,4204
+APOLLOHOSP,335,34,Healthcare,Healthcare Facilities,HDFC_Focused_30_Dir_Gr,7,6927.5,8.88,42,0.89,65,48,4,25,apollohospitalsenterprise,70392.16
+GHCL,336,34,Basic Materials,Commodity Chemicals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,31,698.15,35.88,17.04,3.94,29,71,17,62,ghcl,5412.27
+HONASA,337,34,Consumer Defensive,Personal Products,Invesco_India_Mid_Cap_Dir_Gr,15,505.4,19.21,55.99,6.04,50,40,27,45,honasaconsumer,10640.28
+WELSPUNLIV,338,34,Consumer Cyclical,Textiles,HSBC_Small_Cap_Fund_Dir_Gr,35,192.99,27.94,57.41,9.37,37,39,41,66,welspunliving,5532.71
+ATUL,339,34,Basic Materials,Specialty Chemicals,DSP_Midcap_Dir_Gr,9,7967.45,31.01,10.68,2.06,33,76,9,31,atul,12861.81
+PIIND,340,34,Basic Materials,Agrochemicals,Tata_Large___Mid_Cap_Dir_Gr,7,4495.45,23.7,21.4,2.27,42,66,10,27,piindustries,36768.84
+BRITANNIA,341,35,Consumer Defensive,Packaged Foods,Quant_Large_Cap_Dir_Gr,3,5855.25,19.79,29.23,2.49,49,59,11,12,britanniaindustries,69741.52
+DHANI,342,35,Financial Services,Other Financial Services,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,164,57.41,47.21,25.76,8.87,18,63,38,97,dhaniservices,2490.61
+TCS,343,35,Technology,IT Consulting & Software,Samco_Flexi_Cap_Dir_Gr,2,4553.75,10.56,34.88,0.84,62,53,4,11,tataconsultancyservices,465113.7
+ABFRL,344,35,Consumer Cyclical,Department Stores,Tata_Large___Mid_Cap_Dir_Gr,13,311.7,34.99,44.84,10.66,29,46,45,40,adityabirlafashionretail,15196.88
+ICIL,345,35,Consumer Cyclical,Textiles,UTI_Large___Mid_Cap_Dir_Gr,55,408.9,21.26,65.88,9.26,46,34,40,79,indocountindustries,3341.42
+NATIONALUM,346,35,Basic Materials,Aluminium and Aluminium Products,Quant_Flexi_Cap_Dir_Gr,6,182.6,19.93,96.87,12.63,48,20,52,22,nationalaluminium,16339.18
+ADANIPORTS,347,35,Industrials,Marine Port & Services,Helios_Flexi_Cap_Dir_Gr,5,1481.9,14.04,79.94,8.6,58,26,37,18,adaniportsspecialeconomiczone,109189.9
+BAJAJHLDNG,348,35,Financial Services,Holding Companies,Parag_Parikh_Flexi_Cap_Dir_Gr,2,10057.7,15.54,36.47,3.37,55,52,14,7,bajajholdinginvestment,54333.57
+BHARATFORG,349,35,Consumer Cyclical,Other Industrial Products,UTI_Mid_Cap_Dir_Gr,2,1587,37.73,48.3,12.05,27,44,50,8,bharatforge,40454.18
+HINDCOPPER,350,35,Basic Materials,Copper,Quant_Small_Cap_Dir_Gr,5,332.55,30.95,119.14,20.02,33,14,74,19,hindustancopper,10888.83
+KPITTECH,351,36,Technology,IT Consulting & Software,ITI_Small_Cap_Dir_Gr,3,1815.15,15.45,57.07,5.89,55,40,26,13,kpittechnologies,30120.46
+RATNAMANI,352,36,Basic Materials,Iron & Steel/Interm.Products,HSBC_Midcap_Dir_Gr,1,3688.25,22.21,42.92,6.36,45,47,29,5,ratnamanimetalstubes,10400.13
+DEEPAKNTR,353,36,Basic Materials,Commodity Chemicals,Franklin_India_Smaller_Comp_Dir_Gr,4,2911.05,32.89,34.14,8.14,32,55,35,16,deepaknitrite,20154.1
+HAPPYFORGE,354,36,Industrials,Other Industrial Products,Motilal_Oswal_Midcap_Dir_Gr,25,1190.05,28.89,40.01,8.45,36,49,37,57,happyforgings,2399.12
+ICICIBANK,355,36,Financial Services,Banks,WhiteOak_Capital_Multi_Cap_Dir_Gr,1,1229.2,17.49,27.02,2.27,51,61,10,3,icicibank,865705.3
+RAMCOSYS,356,36,Technology,IT Consulting & Software,HDFC_Flexi_Cap_Dir_Gr,39,406.3,32.17,43.39,9.67,33,47,42,68,ramcosystems,698.15
+SHARDACROP,357,36,Basic Materials,Agrochemicals,DSP_Small_Cap_Dir_Gr,44,562.6,59.42,26.4,11.66,12,62,48,71,shardacropchem,1278.09
+TITAGARH,358,36,Industrials,Commercial Vehicles,Canara_Robeco_Small_Cap_Dir_Gr,5,1423.8,50.26,94.67,24.94,16,20,86,21,titagarhrailsystems,11416.71
+BDL,359,36,Industrials,Defence,ITI_Small_Cap_Dir_Gr,10,1302.9,42.59,132.37,27.4,22,11,90,34,bharatdynamics,11973.29
+EPL,360,36,Consumer Cyclical,Containers & Packaging,ICICI_Pru_Smallcap_Dir_Gr,29,249.09,32.49,26.12,6.5,32,62,29,60,epl,3846.58
+CONCORDBIO,361,37,Healthcare,Biotechnology,Baroda_BNP_P_Lrg___Mid_Cap_Dir_Gr,8,1665.9,13.21,72.12,8.21,58,30,36,28,concordbiotech,9745.74
+ITC,362,37,Consumer Defensive,Cigarettes-Tobacco Products,ITI_Value_Dir_Gr,2,501.9,22.92,14.04,1.71,44,73,7,9,itc,627650.3
+JWL,363,37,Industrials,Commercial Vehicles,Bandhan_Focused_Equity_Dir_Gr,16,575.65,61.95,67.17,23.05,11,33,80,46,jupiterwagons,7792.71
+SYNGENE,364,37,Healthcare,Pharmaceuticals,Mirae_Asset_Focused_Dir_Gr,10,868.75,22.55,13.04,1.17,44,75,5,36,syngeneinternational,15834.6
+TI,365,37,Consumer Defensive,Breweries & Distilleries,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,100,274.35,24.82,30.33,5.85,40,58,26,93,tilaknagarindustries,3167.26
+UBL,366,37,Consumer Defensive,Breweries & Distilleries,SBI_Multicap_Dir_Gr,8,2050.45,23.43,34.31,6.05,43,54,27,30,unitedbreweries,15814.5
+ANANDRATHI,367,37,Financial Services,Capital Markets,Invesco_India_Multicap_Dir_Gr,7,3813.8,4.03,168.79,11.31,72,6,47,24,anandrathiwealth,8217.97
+FINCABLES,368,37,Industrials,Other Electrical Equipment/Products,Nippon_India_Flexi_Cap_Dir_Gr,18,1452.25,53.61,36.09,14.57,14,52,59,49,finolexcables,14245.89
+IGARASHI,369,37,Consumer Cyclical,Auto Parts & Equipment,Taurus_Discovery__Midcap__Dir_Gr,11,711.35,51.08,21.69,10.2,16,66,43,37,igarashimotors,559.74
+PAGEIND,370,37,Consumer Cyclical,Other Apparels & Accessories,SBI_Bluechip_Dir_Gr,9,42520.55,23.42,7.56,0.94,43,78,4,33,pageindustries,26065.88
+AZAD,371,38,Industrials,Industrial Machinery,ICICI_Pru_Flexicap_Dir_Gr,36,1542.95,30.68,194.46,25.82,34,4,88,66,azadengineering,3110.21
+FINOPB,372,38,Financial Services,Banks,Motilal_Oswal_Focused_Dir_Gr,19,417.3,38.25,13.66,5.8,26,74,26,50,finopaymentsbank,868.13
+IRFC,373,38,Financial Services,Financial Institutions,Shriram_Flexi_Cap_Dir_Gr,56,178.62,21.18,260.85,22,46,2,78,79,indianrailwayfinance,31839.8
+MMTC,374,38,Industrials,Commodity Trading & Distribution,Quant_Small_Cap_Dir_Gr,61,100.94,30.25,138.07,23.41,34,10,82,82,mmtc,1524.7
+CRAFTSMAN,375,38,Consumer Cyclical,Auto Parts & Equipment,ITI_Flexi_Cap_Dir_Gr,14,6038.9,41.97,24.66,9.59,23,63,41,42,craftsmanautomation,7390.36
+GEPIL,376,38,Industrials,Heavy Electrical Equipment,Nippon_India_Multi_Cap_Dir_Gr,98,422.15,40.46,155.77,34.65,24,7,96,93,gepower,891.7
+HUHTAMAKI,377,38,Consumer Cyclical,Containers & Packaging,LIC_MF_Small_Cap_Fund_Dir_Gr,19,407.25,19.62,62.15,9.87,49,36,42,50,huhtamaki,992.51
+SUNTV,378,38,Communication Services,Broadcasting & Cable TV,Quant_Mid_Cap_Dir_Gr,16,821.9,35.34,36.03,10.76,29,53,45,47,suntvnetwork,8097.45
+AMBER,379,38,Consumer Cyclical,Consumer Electronics,Edelweiss_Multi_Cap_Dir_Gr,5,4467.3,19.58,53.55,8.61,49,42,37,18,amberenterprises,9066.93
+AVANTIFEED,380,38,Consumer Defensive,Other Food Products,Bandhan_Multi_Cap_Dir_Gr,9,678.3,32.36,58.24,14.46,32,38,58,31,avantifeeds,5246.42
+BLS,381,39,Industrials,Travel Support Services,Quant_Small_Cap_Dir_Gr,39,421.65,14.94,49.36,6.15,56,44,28,68,blsinternationalservices,4944.43
+BOMDYEING,382,39,Consumer Cyclical,Textiles,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,132,215.69,23.29,59.48,11.31,43,38,47,95,bombaydyeingmanufacturing,2067.9
+DCMSHRIRAM,383,39,Basic Materials,Diversified,DSP_Value_Dir_Gr,46,1152.65,17.97,25.88,3.84,50,62,16,73,dcmshriram,6017.93
+JUBLINGREA,384,39,Basic Materials,Specialty Chemicals,DSP_Small_Cap_Dir_Gr,10,657.2,36.76,28.72,9.48,28,59,41,35,jubilantingrevia,5080.1
+RELIGARE,385,39,Financial Services,Other Financial Services,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,7,275.1,19.66,18.35,1.96,49,70,9,27,religareenterprises,9086.42
+ZAGGLE,386,39,Technology,IT Software Products,PGIM_India_Small_Cap_Dir_Gr,53,353.6,6.15,115.61,10.36,69,15,44,77,zaggleprepaidoceanservices,2430.85
+GODREJPROP,387,39,Real Estate,Realty,HSBC_Midcap_Dir_Gr,5,2909.25,23.61,76.91,14.5,42,28,59,19,godrejproperties,33587.08
+STERTOOLS,388,39,Industrials,Auto Parts & Equipment,HSBC_Small_Cap_Fund_Dir_Gr,76,507.35,39.61,39.75,13.27,25,49,55,89,sterlingtools,625.62
+FINPIPE,389,39,Industrials,Plastic Products,SBI_Small_Cap_Fund_Dir_Gr,3,311.85,43.61,32.17,12.38,22,57,51,12,finolexindustries,9196.85
+JSWSTEEL,390,39,Basic Materials,Iron & Steel/Interm.Products,DSP_Value_Dir_Gr,25,941.1,17.84,20.25,2.87,51,67,12,57,jswsteel,127015.2
+BAJAJFINSV,391,40,Financial Services,Holding Companies,Axis_Focused_25_Dir_Gr,10,1783.05,12.53,18.6,0.58,59,70,2,34,bajajfinserv,112055.1
+SANDUMA,392,40,Basic Materials,Mining,Quant_Small_Cap_Dir_Gr,59,507.15,22.22,128.82,20.28,45,12,74,81,sandurmanganeseironores,2118.5
+YATHARTH,393,40,Healthcare,Healthcare Facilities,Groww_Value_Dir_Gr,31,523.9,8.47,40.89,3.69,66,49,16,62,yatharthhospitaltraumacareservices,1504.93
+BAJEL,394,40,Utilities,Heavy Electrical Equipment,Baroda_BNP_Paribas_Flexi_Cap_Dir_Gr,52,268.85,22.23,105.31,18.53,44,18,70,76,bajelprojects,1156.02
+BRIGADE,395,40,Real Estate,Realty,Franklin_India_Smaller_Comp_Dir_Gr,1,1204.55,21.06,101.94,17.1,47,19,66,1,brigadeenterprises,15672.23
+ELECON,396,40,Industrials,Industrial Machinery,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,27,621.45,32.39,46.52,13.3,32,45,55,59,eleconengineering,5679.93
+GPPL,397,40,Industrials,Marine Port & Services,Tata_Small_Cap_Fund_Dir_Gr,6,225.51,11.36,76.25,10.04,61,28,43,21,gujaratpipavavport,6104.06
+INNOVACAP,398,40,Healthcare,Pharmaceuticals,Kotak_Multicap_Dir_Gr,41,657.9,20.74,46.85,9.26,47,45,40,70,innovacaptab,1848.53
+JINDALSTEL,399,40,Basic Materials,Iron & Steel/Interm.Products,ICICI_Pru_MidCap_Dir_Gr,4,970.4,28.49,43.49,11.54,37,47,48,17,jindalsteelpower,38417.77
+KSB,400,40,Industrials,Industrial Machinery,Sundaram_Small_Cap_Dir_Gr,1,928.5,18.22,71.63,12.41,50,31,51,4,ksb,4880.18
+STYLAMIND,401,41,Consumer Cyclical,Forest Products,Invesco_India_Smallcap_Dir_Gr,28,1976.85,27.04,18.86,5.41,38,70,24,60,stylamindustries,1520.74
+UNIVCABLES,402,41,Industrials,Other Electrical Equipment/Products,ICICI_Pru_Smallcap_Dir_Gr,85,714.15,58.52,60.47,23.86,12,37,83,91,universalcables,944.28
+DALMIASUG,403,41,Consumer Defensive,Sugar,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,237,468.05,22.08,27.9,6.2,45,60,28,100,dalmiabharatsugarindustries,950.5
+INDIASHLTR,404,41,Financial Services,Housing Finance,Quant_Large_and_Mid_Cap_Dir_Gr,17,735.15,14.83,49.12,7.3,56,44,33,48,indiashelterfinance,4082.78
+JYOTHYLAB,405,41,Consumer Defensive,Personal Products,Franklin_India_Smaller_Comp_Dir_Gr,10,539.8,15.11,58.72,9.04,56,38,39,35,jyothylabs,7355.91
+KIMS,406,41,Healthcare,Healthcare Facilities,Axis_Small_Cap_Fund_Dir_Gr,6,2531,10.53,29.22,2.54,63,59,11,22,krishnainstituteofmedicalsciences,12392.03
+TEXRAIL,407,41,Industrials,Construction & Engineering,LIC_MF_Small_Cap_Fund_Dir_Gr,3,243,30.86,72.71,18.04,34,30,69,15,texmacorailengineering,5034.08
+ABBOTINDIA,408,41,Healthcare,Pharmaceuticals,Canara_Robeco_Mid_Cap_Dir_Gr,5,30195.85,5.54,28.96,1.07,70,59,5,18,abbott,16047.43
+IOC,409,41,Energy,Oil Marketing & Distribution,Franklin_India_Flexi_Cap_Dir_Gr,25,176.97,5.72,92.57,10.08,70,21,43,57,indianoil,121203.2
+LAURUSLABS,410,41,Healthcare,Pharmaceuticals,ITI_Value_Dir_Gr,16,470.15,16.07,20.23,2.92,54,67,13,46,lauruslabs,18458.83
+ZYDUSLIFE,411,42,Healthcare,Pharmaceuticals,ICICI_Pru_Focused_Equity_Dir_Gr,12,1127.9,20.94,78.48,14.83,47,27,60,40,zyduslifesciences,28395.98
+BALMLAWRIE,412,42,Industrials,Diversified,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,127,279.7,14.47,81.27,12.72,57,25,53,94,balmerlawrie,4782.98
+BOSCHLTD,413,42,Consumer Cyclical,Auto Parts & Equipment,Bandhan_Multi_Cap_Dir_Gr,7,32389.6,14.34,73.87,11.69,57,30,48,25,bosch,28142.72
+CIEINDIA,414,42,Consumer Cyclical,Auto Parts & Equipment,Tata_Small_Cap_Fund_Dir_Gr,14,584.25,28.79,15.29,6.13,36,72,27,42,cieautomotive,7602.34
+DRREDDY,415,42,Healthcare,Pharmaceuticals,DSP_Value_Dir_Gr,14,7031.35,9.39,22.84,1.07,65,65,5,42,drreddy'slaboratories,86057.71
+HCC,416,42,Industrials,Construction & Engineering,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,17,47.19,26.68,76.21,17.93,39,28,69,48,hindustanconstruction,6453.66
+ORIENTCEM,417,42,Basic Materials,Cement & Cement Products,Quant_Value_Dir_Gr,4,305.3,34.02,57.37,17.4,30,39,67,17,orientcement,3884.13
+TATACONSUM,418,42,Consumer Defensive,Tea & Coffee,Union_Focused_Dir_Gr,6,1200.15,4.03,44.95,4.25,72,46,18,23,tataconsumerproduct,78911.18
+ULTRACEMCO,419,42,Basic Materials,Cement & Cement Products,Kotak_Flexicap_Dir_Gr,4,11301.9,15.27,37.83,6.43,56,51,29,18,ultratechcement,130545.8
+VSTIND,420,42,Consumer Defensive,Cigarettes-Tobacco Products,SBI_Small_Cap_Fund_Dir_Gr,22,4567.6,23.6,25.89,7.16,42,62,32,54,vstindustries,4784.92
+BLUEDART,421,43,Industrials,Transportation - Logistics,Kotak_Small_Cap_Dir_Gr,13,8041.45,31.83,28.31,10.45,33,60,44,40,bluedartexpress,4770.17
+DABUR,422,43,Consumer Defensive,Personal Products,Samco_Flexi_Cap_Dir_Gr,12,637.15,18.82,15.81,3.8,50,72,16,38,dabur,38122.74
+MEDIASSIST,423,43,Healthcare,Healthcare Services,Canara_Robeco_Focused_Equity_Dir_Gr,29,590.05,14.83,41.16,7.66,56,48,34,61,mediassisthealthcareservices,2537.08
+MOIL,424,43,Basic Materials,Mining,Quant_Active_Dir_Gr,26,400.6,51.28,78.4,31.87,16,27,95,58,moil,2879.15
+TCI,425,43,Industrials,Surface Transportation,HDFC_Small_Cap_Dir_Gr,25,1085.9,30.13,35.11,12.29,34,53,51,57,transport,2626.61
+CCL,426,43,Consumer Defensive,Tea & Coffee,Axis_Small_Cap_Fund_Dir_Gr,7,720.3,12.16,17.83,2.33,60,70,10,25,cclproduct,5185.07
+GMRINFRA,427,43,Industrials,Construction & Engineering,Baroda_BNP_Paribas_Flexi_Cap_Dir_Gr,32,94.48,11.94,54.76,8.93,60,41,39,63,gmrairportsinfrastructure,33848.98
+KPIGREEN,428,43,Utilities,Electric Utilities,JM_Flexicap_Dir_Gr,26,906.55,9.4,199.26,18.91,65,4,71,58,kpigreenenergy,6096.07
+LGBBROSLTD,429,43,Consumer Cyclical,Auto Parts & Equipment,HDFC_Small_Cap_Dir_Gr,33,1378.1,19.73,40.59,9.73,49,49,42,64,lgbalakrishnanbros,2865.67
+SUMICHEM,430,43,Basic Materials,Agrochemicals,360_ONE_Focused_Equity_Dir_Gr,16,511.35,36.58,18.27,9.87,28,70,42,47,sumitomochemical,6380.95
+ESCORTS,431,44,Industrials,Commercial Vehicles,Quant_Active_Dir_Gr,11,3853.9,36.41,26.55,12.6,28,61,52,37,escortskubota,13780.49
+POLYPLEX,432,44,Basic Materials,Containers & Packaging,Nippon_India_Small_Cap_Dir_Gr,174,1243.3,40.41,10.7,9.58,24,76,41,97,polyplex,2861.31
+RPOWER,433,44,Utilities,Electric Utilities,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,3,30.56,30.32,67.45,19.81,34,33,74,14,reliancepower,9422.95
+TVSSRICHAK,434,44,Consumer Cyclical,Auto Tyres & Rubber Products,Quant_Value_Dir_Gr,10,4628.15,7.4,64.84,9.2,67,34,40,36,tvssrichakra,1924.27
+ENDURANCE,435,44,Consumer Cyclical,Auto Parts & Equipment,Franklin_India_Eq_Advantage_Dir_Gr,4,2474.05,36.81,52.26,19.18,28,42,72,16,endurancetechnologies,8700.17
+HINDUNILVR,436,44,Consumer Defensive,Personal Products,LIC_MF_Flexi_Cap_Dir_Gr,4,2778,14.72,9.97,2.01,57,76,9,16,hindustanunilever,248685
+JKCEMENT,437,44,Basic Materials,Cement & Cement Products,Canara_Robeco_Mid_Cap_Dir_Gr,1,4453.9,0.16,39.44,3.18,78,50,14,4,jkcement,18687.09
+SOBHA,438,44,Real Estate,Realty,JM_Value_Dir_Gr,5,1689.75,11.76,185.11,21.8,60,5,77,20,sobha,8052.5
+ADVENZYMES,439,44,Basic Materials,Biotechnology,HDFC_Small_Cap_Dir_Gr,67,446.05,16.02,35.74,8.22,54,53,36,84,advancedenzymetechnologies,2842.11
+ASTRAZEN,440,44,Healthcare,Pharmaceuticals,Nippon_India_Small_Cap_Dir_Gr,22,6586.65,19.49,57.03,13.02,49,40,54,53,astrazenecapharma,4116.66
+CARBORUNIV,441,45,Industrials,Other Industrial Products,Kotak_Small_Cap_Dir_Gr,4,1524.8,44.43,34.21,17.18,21,55,67,16,carborundumuniversal,17072.48
+PIDILITIND,442,45,Basic Materials,Specialty Chemicals,Axis_Focused_25_Dir_Gr,4,3123.3,15.6,20.97,4.75,55,67,21,17,pidiliteindustries,48053.71
+SPAL,443,45,Consumer Cyclical,Other Apparels & Accessories,LIC_MF_Long_Term_Value_Dir_Gr,39,872.5,44.56,52.88,23,21,42,80,69,spapparels,833.48
+LT,444,45,Industrials,Construction & Engineering,Baroda_BNP_Paribas_Flexi_Cap_Dir_Gr,1,3704.65,6.76,36.25,5.49,68,52,24,4,larsentoubro,520922
+NESCO,445,45,Industrials,Realty,Franklin_India_Smaller_Comp_Dir_Gr,47,945.1,11.63,31.54,5.77,61,57,26,73,nes,2094.98
+REPCOHOME,446,45,Financial Services,Housing Finance,Aditya_BSL_Small_Cap_Dir_Gr,50,523.1,19.81,34.52,9.9,48,54,42,75,repcohomefinance,2057.48
+VSSL,447,45,Basic Materials,Iron & Steel Products,Tata_Small_Cap_Fund_Dir_Gr,47,285.95,40.9,34.06,16.58,24,55,65,74,vardhmanspecialsteels,918.48
+GHCLTEXTIL,448,45,Consumer Cyclical,Textiles,UTI_Large___Mid_Cap_Dir_Gr,59,108.07,23.09,36.97,12.14,43,52,50,80,ghcltextiles,835.07
+LTIM,449,45,Technology,IT Consulting & Software,UTI_Flexi_Cap_Dir_Gr,3,6156.05,13.79,19.84,4.44,58,68,19,14,ltimindtree,57250.25
+LTTS,450,45,Technology,IT Consulting & Software,Motilal_Oswal_Focused_Dir_Gr,4,5716.1,7.55,31.42,4.73,67,57,21,17,l&ttechnologyservices,15916.96
+MARICO,451,46,Consumer Defensive,Personal Products,Franklin_India_Flexi_Cap_Dir_Gr,22,647.15,23.66,15.05,6.59,42,73,30,54,mari,34117.61
+SUNCLAY,452,46,Industrials,Auto Parts & Equipment,LIC_MF_Flexi_Cap_Dir_Gr,49,1744.1,16.69,70.77,15.22,53,31,61,75,sundaramclayton,1148.59
+TTKPRESTIG,453,46,Consumer Cyclical,Houseware,SBI_Small_Cap_Fund_Dir_Gr,17,938.35,26.88,18.99,8.45,39,69,37,49,ttkprestige,3848.73
+CARTRADE,454,46,Consumer Cyclical,Internet & Catalogue Retail,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,153,848.2,13.75,63.35,12.88,58,35,53,96,cartradetech,4011.99
+GICRE,455,46,Financial Services,General Insurance,Bandhan_Focused_Equity_Dir_Gr,15,408.8,5.33,86.11,12.61,71,23,52,44,generalinsurance,10198.57
+JMFINANCIL,456,46,Financial Services,Holding Companies,Quant_Small_Cap_Dir_Gr,34,106.59,10.06,38.79,7.19,63,51,32,65,jmfinancial,4438.64
+UNICHEMLAB,457,46,Healthcare,Pharmaceuticals,HDFC_Small_Cap_Dir_Gr,43,579.15,12.05,39.09,8.22,60,50,36,71,unichemlaboratories,1214.29
+VGUARD,458,46,Industrials,Other Electrical Equipment/Products,SBI_Small_Cap_Fund_Dir_Gr,14,458.55,38.93,46.48,20.59,26,45,75,44,vguardindustries,9092.76
+JAICORPLTD,459,46,Basic Materials,Plastic Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,136,370.2,18.88,61.24,15.54,50,36,62,95,jai,1731.48
+RAILTEL,460,46,Communication Services,Telecom Services,Quant_Small_Cap_Dir_Gr,15,490.8,8,154.7,20.56,66,7,75,45,railtel,4278.15
+ROSSELLIND,461,47,Industrials,Defence,Quant_Active_Dir_Gr,40,567.2,29.78,34.3,14.63,35,54,59,69,rossell,538.81
+SANDHAR,462,47,Consumer Cyclical,Auto Parts & Equipment,DSP_Small_Cap_Dir_Gr,56,608.25,14.32,59.33,12.8,57,38,53,80,sandhartechnologies,1084.42
+VBL,463,47,Consumer Defensive,Non-alcoholic Beverages,Tata_Large___Mid_Cap_Dir_Gr,2,1500.9,7.37,68.84,11.86,67,32,49,11,varunbeverages,72825.77
+NITINSPIN,464,47,Consumer Cyclical,Textiles,Bandhan_Small_Cap_Dir_Gr,10,421.85,19.56,34.33,11,49,54,46,35,nitinspinners,1032.38
+RUPA,465,47,Consumer Cyclical,Other Apparels & Accessories,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,249,330.25,20.16,25.64,8.77,48,63,38,100,rupa,701.75
+SJVN,466,47,Utilities,Electric Utilities,ITI_Mid_Cap_Dir_Gr,3,133.35,13.15,117.18,21.79,58,14,77,14,sjvn,9511.29
+VIMTALABS,467,47,Healthcare,Healthcare Services,Quant_Small_Cap_Dir_Gr,90,625.3,24.77,8.31,7.21,40,78,32,92,vimtalabs,874.91
+GPIL,468,47,Basic Materials,Iron & Steel/Interm.Products,Bandhan_Small_Cap_Dir_Gr,52,949.65,28,64.21,22.41,37,35,79,76,godawaripowerispat,4743.14
+IRCON,469,47,Industrials,Construction & Engineering,Mahindra_Manulife_Multi_Cap_Dir_Gr,9,261.1,16.82,131.37,25.74,52,12,87,32,irconinternational,8553.16
+SAREGAMA,470,47,Communication Services,Movies & Entertainment,360_ONE_Flexicap_Dir_Gr,26,508.45,23.43,33.38,12.55,43,56,52,58,saregama,3997.83
+SWSOLAR,471,48,Technology,Construction & Engineering,ITI_Focused_Equity_Dir_Gr,5,673.2,16.76,76.67,18.7,52,28,71,20,sterlingwilsonrenewableenergy,7397.92
+AMIORG,472,48,Basic Materials,Pharmaceuticals,Union_Small_Cap_Dir_Gr,46,1381.05,22.48,4.84,5.99,44,81,27,72,amiorganics,3618.6
+GULPOLY,473,48,Basic Materials,Commodity Chemicals,Aditya_BSL_Pure_Value_Dir_Gr,73,231.41,17.68,2.71,4.49,51,82,19,87,gulshanpolyols,480.91
+HARSHA,474,48,Industrials,Iron & Steel Products,Nippon_India_Flexi_Cap_Dir_Gr,52,539.2,32.04,19.17,12.16,33,69,50,76,harshaengineersinternational,1246.42
+HONAUT,475,48,Industrials,Other Electrical Equipment/Products,LIC_MF_Large___Mid_Cap_Dir_Gr,9,50968.95,34.26,26.07,15.04,30,62,60,32,honeywellautomation,11266.05
+IONEXCHANG,476,48,Industrials,Utilities:Non-Electrical,Nippon_India_Small_Cap_Dir_Gr,36,648.95,34.82,27.11,15.55,29,61,62,66,ionexchange,7024.23
+M&MFIN,477,48,Financial Services,Finance (including NBFCs),Franklin_India_Eq_Advantage_Dir_Gr,9,314.35,11.69,7.23,2.75,61,79,12,32,mahindramahindrafinancialservices,18580.52
+ORIENTELEC,478,48,Consumer Cyclical,Consumer Electronics,Mirae_Asset_Focused_Dir_Gr,18,268.3,28.37,14.95,9.69,37,73,42,50,orientelectric,3531.51
+EVEREADY,479,48,Industrials,Non-Durable Household Prod.,Tata_Small_Cap_Fund_Dir_Gr,40,456.5,31.18,6.92,9.6,33,79,41,69,evereadyindustries,1885.06
+HEIDELBERG,480,48,Basic Materials,Cement & Cement Products,Axis_Small_Cap_Fund_Dir_Gr,49,231.01,12.03,23.93,6.47,60,64,29,74,heidelbergcement,1602.43
+STARCEMENT,481,49,Basic Materials,Cement & Cement Products,SBI_Small_Cap_Fund_Dir_Gr,39,228.24,10.61,44.18,10.84,62,46,45,69,starcement,3091.3
+UPL,482,49,Basic Materials,Agrochemicals,Navi_Flexi_Cap_Dir_Gr,7,598.35,25.73,0.13,6.37,39,85,29,27,upl,30307.03
+NAZARA,483,49,Communication Services,Internet Software & Services,SBI_Multicap_Dir_Gr,29,928.7,22.79,22.35,10.26,44,66,44,61,nazaratechnologies,6394.02
+JINDALPOLY,484,49,Basic Materials,Containers & Packaging,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,245,801.4,42.36,26.21,18.47,23,62,70,100,jindalpolyfilms,893.05
+MFSL,485,49,Financial Services,Life Insurance,HDFC_Mid_Cap_Opportunities_Dir_Gr,8,1074.85,11.46,15.58,5.09,61,72,22,29,maxfinancialservices,34676.09
+SUNTECK,486,49,Real Estate,Realty,Bandhan_Small_Cap_Dir_Gr,31,569.35,22.2,57.45,18.55,45,39,71,62,sunteckrealty,3065.86
+AEROFLEX,487,49,Industrials,Iron & Steel Products,Invesco_India_Smallcap_Dir_Gr,59,167.68,14.77,55.26,14.6,56,41,59,80,aeroflexindustries,715.8
+MAHLOG,488,49,Industrials,Transportation - Logistics,Tata_Mid_Cap_Growth_Dir_Gr,49,498.1,16.79,27.34,10.2,52,61,43,75,mahindralogistics,1506.23
+SBIN,489,49,Financial Services,Banks,LIC_MF_Long_Term_Value_Dir_Gr,1,815.6,9.85,41.88,10.57,64,48,44,6,statebankofindia,309062.7
+INDIANB,490,49,Financial Services,Banks,Canara_Robeco_Mid_Cap_Dir_Gr,3,567.3,7.14,44.81,10.34,67,46,44,13,indianbank,19989.71
+ABCAPITAL,491,50,Financial Services,Holding Companies,Samco_Flexi_Cap_Dir_Gr,8,220.11,21.11,22.01,10.85,46,66,46,28,adityabirlacapital,17835.61
+LUMAXTECH,492,50,Consumer Cyclical,Auto Parts & Equipment,DSP_Small_Cap_Dir_Gr,34,526.25,17.09,39.92,13.72,52,49,57,65,lumaxautotechnologies,1578.91
+NHPC,493,50,Utilities,Electric Utilities,JM_Midcap_Dir_Gr,1,96.12,9.17,88.29,18.82,65,22,71,4,nhpc,31476.24
+SWANENERGY,494,50,Consumer Cyclical,Realty,Quant_Flexi_Cap_Dir_Gr,19,677.4,-6.11,116.08,13.4,87,15,56,51,swanenergy,9775.94
+FINEORG,495,50,Basic Materials,Specialty Chemicals,Axis_Small_Cap_Fund_Dir_Gr,17,5344.45,25.1,11.07,10.31,40,75,44,48,fineorganicindustries,4096.52
+HATSUN,496,50,Consumer Defensive,Packaged Foods,SBI_Focused_Equity_Fund_Dir_Gr,15,1311.6,17.07,7.07,6.31,52,79,28,45,hatsunagroproduct,7838.58
+LICI,497,50,Financial Services,Life Insurance,Quant_Large_Cap_Dir_Gr,2,1064.25,5.69,63.25,12.91,70,35,54,10,lifeinsurance,23559.83
+METROBRAND,498,50,Consumer Cyclical,Footwear,WhiteOak_Capital_Mid_Cap_Dir_Gr,17,1306.05,16.02,24.54,9.38,54,64,41,48,metrobrands,9181.17
+RUSTOMJEE,499,50,Real Estate,Realty,Tata_Small_Cap_Fund_Dir_Gr,5,734.3,8.56,27.29,7.09,66,61,32,19,keystonerealtors,2002.35
+SCI,500,50,Industrials,Shipping,Quant_Small_Cap_Dir_Gr,10,269.2,18.2,109.82,29.93,50,16,93,36,shipping,4545.5
+AHLUCONT,501,51,Industrials,Construction & Engineering,Franklin_India_Smaller_Comp_Dir_Gr,14,1285.4,9.6,71.5,16.67,64,31,65,42,ahluwaliacontracts,3847.21
+INGERRAND,502,51,Industrials,Industrial Machinery,ITI_Small_Cap_Dir_Gr,26,4220.3,23.92,30.89,15.59,41,57,62,58,ingersollrand,3330.66
+MARUTI,503,51,Consumer Cyclical,Cars & Utility Vehicles,Kotak_Multicap_Dir_Gr,2,12403,11.21,28.91,9.33,61,59,40,10,marutisuzuki,163039.6
+RAMCOIND,504,51,Industrials,Construction Materials,Tata_Small_Cap_Fund_Dir_Gr,43,244.64,10.55,37.48,10.88,63,51,46,71,ramcoindustries,959.7
+COSMOFIRST,505,51,Consumer Cyclical,Containers & Packaging,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,230,780.35,51.35,20.28,21.85,16,67,78,99,cosmofirst,1125.8
+GALAXYSURF,506,51,Basic Materials,Specialty Chemicals,Kotak_Small_Cap_Dir_Gr,7,2939.35,19.82,10.42,8.38,48,76,37,26,galaxysurfactants,3031.59
+ISEC,507,51,Financial Services,Capital Markets,Baroda_BNP_Paribas_Small_Cap_Dir_Gr,1,823.65,2.04,32.76,6.71,75,56,30,3,icicisecurities,6763.95
+RRKABEL,508,51,Industrials,Other Electrical Equipment/Products,Aditya_BSL_Small_Cap_Dir_Gr,12,1614,12.01,55.94,15.14,60,40,61,39,rrkabel,6955.88
+WIPRO,509,51,Technology,IT Consulting & Software,Quantum_L_T_Equity_Value_Dir_Gr,7,538.4,4,31.93,7.16,72,57,32,28,wipro,76548.8
+CHENNPETRO,510,51,Energy,Refineries/Petro-Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,39,975.4,6.6,131.03,23.5,68,12,82,68,chennaipetroleum,4751.07
+ELGIEQUIP,511,52,Industrials,Industrial Machinery,SBI_Small_Cap_Fund_Dir_Gr,8,694.4,10,47.76,13.09,63,45,54,29,elgiequipments,15142.44
+KRSNAA,512,52,Healthcare,Healthcare Services,Tata_Small_Cap_Fund_Dir_Gr,10,722.3,9.02,16.39,5.94,65,71,26,35,krsnaadiagnostics,1698.61
+WHEELS,513,52,Consumer Cyclical,Auto Parts & Equipment,Taurus_Flexi_Cap_Dir_Gr,43,802.55,28.59,11.85,12.28,36,75,51,71,wheels,817.49
+DBCORP,514,52,Communication Services,Publishing,Mahindra_Manulife_Small_Cap_Dir_Gr,41,335.35,17.42,44.33,16.97,51,46,66,70,db,1651.36
+HCG,515,52,Healthcare,Healthcare Facilities,Tata_Small_Cap_Fund_Dir_Gr,23,387.2,6.34,13.07,4.63,69,74,20,55,healthcareglobalenterprises,1551.22
+MASTEK,516,52,Technology,IT Consulting & Software,JM_Midcap_Dir_Gr,48,2940.8,1.18,30.61,6.49,76,58,29,74,mastek,5784.98
+PTC,517,52,Utilities,Electric Utilities,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,16,213,12.49,57.31,16.34,59,39,65,47,ptc,5282.31
+RELIANCE,518,52,Energy,Refineries/Petro-Products,Union_Value_Fund_Dir_Gr,1,3019.25,3.71,24.74,6.16,72,63,28,5,relianceindustries,1014674
+SCHAEFFLER,519,52,Consumer Cyclical,Auto Parts & Equipment,SBI_Magnum_Midcap_Dir_Gr,5,3941.65,36.46,27.99,20.39,28,60,75,20,schaeffler,15938.36
+VISHNU,520,52,Basic Materials,Specialty Chemicals,ITI_Value_Dir_Gr,57,402.25,33.7,21.49,16.89,31,66,66,80,vishnuchemicals,833.98
+CANBK,521,53,Financial Services,Banks,Mahindra_Manulife_Multi_Cap_Dir_Gr,2,111.53,1.31,70.74,13.48,76,32,56,8,canarabank,37501.86
+IRB,522,53,Industrials,Roads & Highways,Quant_Small_Cap_Dir_Gr,2,63.35,-0.78,125.04,18.94,79,13,72,9,irbinfrastructuredevelopers,26619.27
+MAHABANK,523,53,Financial Services,Banks,JM_Midcap_Dir_Gr,2,62.57,7.97,60.03,14.87,67,37,60,7,bankofmaharashtra,5999.32
+TIINDIA,524,53,Industrials,Auto Parts & Equipment,UTI_Mid_Cap_Dir_Gr,1,4030.8,14.07,40.7,13.9,58,49,57,6,tubeinvestments,42848.71
+CHALET,525,53,Consumer Cyclical,Hotels,SBI_Small_Cap_Fund_Dir_Gr,2,835.15,1.88,59.49,12.82,75,37,53,8,chalethotels,5919.25
+PRIVISCL,526,53,Basic Materials,Specialty Chemicals,SBI_Large___Midcap_Dir_Gr,61,1470,20.79,29.44,14.53,47,59,59,82,privispecialitychemicals,1595.05
+SAPPHIRE,527,53,Consumer Cyclical,Restaurants,Mirae_Asset_Focused_Dir_Gr,7,1667.65,11.12,20.39,8.23,62,67,36,27,sapphirefoods,7359.58
+SRF,528,53,Basic Materials,Specialty Chemicals,Kotak_Flexicap_Dir_Gr,8,2564.6,8.17,8.01,4.8,66,78,21,30,srf,37812.9
+CANFINHOME,529,53,Financial Services,Housing Finance,Sundaram_Small_Cap_Dir_Gr,4,863.55,12.49,15.26,7.94,59,72,35,15,canfinhomes,8050.12
+EMIL,530,53,Consumer Cyclical,Specialty Retail,Union_Small_Cap_Dir_Gr,1,224.27,10.13,47.16,14.4,63,45,58,2,electronicsmart,2332.35
+TIMKEN,531,54,Industrials,Other Industrial Products,PGIM_India_Midcap_Opps_Fund_Dir_Gr,8,3846.35,39.97,20.61,20.17,25,67,74,30,timken,14162.09
+GUJGASLTD,532,54,Utilities,Utilities:Non-Electrical,ICICI_Pru_Large___Mid_Cap_Dir_Gr,10,606.95,10.7,32.28,11.69,62,57,48,34,gujaratgas,16340.88
+MAXHEALTH,533,54,Healthcare,Healthcare Facilities,Invesco_India_Mid_Cap_Dir_Gr,1,862.45,1.28,53.43,11.99,76,42,49,4,maxhealthcareinstitute,63924
+ROSSARI,534,54,Basic Materials,Specialty Chemicals,SBI_Small_Cap_Fund_Dir_Gr,48,880.95,17.91,8.24,8.8,51,78,38,74,rossaribiotech,1543.04
+CELLO,535,54,Consumer Cyclical,Household Products,LIC_MF_Multi_Cap_Dir_Gr,31,903.25,5.75,39.39,11.88,69,50,49,62,celloworld,4987.86
+JASH,536,54,Industrials,Iron & Steel Products,Quant_Small_Cap_Dir_Gr,54,2082.95,22.21,43.65,21.1,45,47,76,77,jashengineering,1468.65
+MMFL,537,54,Industrials,Other Industrial Products,Navi_Flexi_Cap_Dir_Gr,34,596.55,25.18,29.65,18.26,40,59,69,65,mmforgings,1257.51
+PDSL,538,54,Industrials,Textiles,Navi_Flexi_Cap_Dir_Gr,43,546.95,6.26,71.4,17.88,69,31,68,71,pds,2765.8
+SHANTIGEAR,539,54,Industrials,Auto Parts & Equipment,Bank_of_India_Small_Cap_Dir_Gr,45,601.7,16,33.41,14.41,54,56,58,72,shanthigears,1363.1
+ADANIGREEN,540,54,Utilities,Electric Utilities,Quant_Large_Cap_Dir_Gr,10,1838.15,-4.17,88.62,15.45,85,22,62,34,adanigreenenergy,123688.6
+AGI,541,55,Consumer Cyclical,Containers & Packaging,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,120,945.85,15.57,28.35,13.15,55,60,54,94,agigreenpac,2433.07
+CENTURYPLY,542,55,Basic Materials,Forest Products,Kotak_Small_Cap_Dir_Gr,2,786.75,10.01,14.85,7.39,63,73,33,8,centuryplyboards,4791.12
+MOL,543,55,Basic Materials,Agrochemicals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,196,100.75,5.55,19.87,7.06,70,68,31,98,meghmaniorganics,1298.53
+AARTIDRUGS,544,55,Healthcare,Pharmaceuticals,DSP_Small_Cap_Dir_Gr,26,582.8,16.4,5.31,8.22,53,81,36,58,aartidrugs,2375.19
+ADANIPOWER,545,55,Utilities,Electric Utilities,Quant_Flexi_Cap_Dir_Gr,2,632.05,15,89.98,29.45,56,22,92,7,adanipower,66526.97
+BALKRISIND,546,55,Consumer Cyclical,Auto Tyres & Rubber Products,Motilal_Oswal_Midcap_Dir_Gr,8,2829.75,26.94,19.74,16.16,38,68,64,28,balkrishnaindustries,22817.01
+DATAMATICS,547,55,Technology,IT Consulting & Software,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,177,692.55,15.31,23.81,12.5,55,64,51,97,datamaticsglobalservices,1372.01
+DLF,548,55,Real Estate,Realty,HSBC_Focused_Dir_Gr,5,845.1,-6,71.07,12.66,87,31,52,19,dlf,54221.68
+LXCHEM,549,55,Basic Materials,Specialty Chemicals,Kotak_Small_Cap_Dir_Gr,58,297.8,15.9,0.83,7.21,54,84,32,80,laxmiorganicindustries,2495.54
+REDTAPE,550,55,Consumer Cyclical,Footwear,ICICI_Pru_Flexicap_Dir_Gr,13,678.3,11.31,46.23,16.26,61,45,65,41,redtape,2644.47
+THERMAX,551,56,Industrials,Heavy Electrical Equipment,Tata_Mid_Cap_Growth_Dir_Gr,2,4372.8,22.07,55.87,25.12,45,40,86,11,rmax,19810.19
+BAYERCROP,552,56,Basic Materials,Agrochemicals,Mirae_Asset_Midcap_Dir_Gr,17,6289.05,9.8,32.55,12.61,64,56,52,47,bayercropscience,8075.11
+JPPOWER,553,56,Utilities,Electric Utilities,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,2,17.92,3.29,124,25.33,73,13,86,9,jaiprakashpowerventures,9333.86
+LODHA,554,56,Real Estate,Realty,Baroda_BNP_P_Focused_Dir_Gr,11,1253.9,8.88,86.38,24,65,23,84,37,macrotechdevelopers,34778.92
+MAYURUNIQ,555,56,Consumer Cyclical,Textiles,Taurus_Discovery__Midcap__Dir_Gr,24,615.35,21.6,10.69,12.09,46,76,50,56,mayuruniquoters,1121.88
+ROLEXRINGS,556,56,Industrials,Auto Parts & Equipment,ICICI_Pru_Smallcap_Dir_Gr,3,2464.35,17.23,13.92,10.94,52,74,46,14,rolexrings,3003.28
+SUPRAJIT,557,56,Consumer Cyclical,Auto Parts & Equipment,DSP_Small_Cap_Dir_Gr,4,524.15,22.17,30.11,18.05,45,58,69,18,suprajitengineering,4023.04
+TVTODAY,558,56,Communication Services,Broadcasting & Cable TV,HDFC_Small_Cap_Dir_Gr,66,271.7,12.97,24.55,11.79,59,64,49,84,tvtodaynetwork,673.61
+AMBUJACEM,559,56,Basic Materials,Cement & Cement Products,DSP_Value_Dir_Gr,4,617.05,4.72,39.86,12.72,71,49,53,15,ambujacement,45094.55
+GREAVESCOT,560,56,Industrials,Auto Parts & Equipment,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,145,167.96,10.1,15.75,8.84,63,72,38,96,greavescotton,1722.78
+IMFA,561,57,Basic Materials,Iron & Steel/Interm.Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,212,668.9,11.15,76.21,23.99,61,28,84,99,indianmetalsferroalloys,1490.87
+TATATECH,562,57,Technology,IT Software Products,Bandhan_Midcap_Dir_Gr,3,1065.6,1.88,113.12,23.89,75,15,83,15,tatatechnologies,19284.03
+HDFCBANK,563,57,Financial Services,Banks,UTI_Value_fund_Dir_Gr,1,1636.9,16.14,2.93,8.76,54,82,38,3,hdfcbank,1247216
+HNDFDS,564,57,Consumer Defensive,Packaged Foods,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,158,580.15,13.3,4.44,7.91,58,82,35,96,hindustanfoods,2405.54
+SAMHI,565,57,Consumer Cyclical,Hotels,JM_Flexicap_Dir_Gr,16,206.63,-4.98,63.99,13.13,86,35,54,47,samhihotels,4546.95
+SURYAROSNI,566,57,Basic Materials,Iron & Steel Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,65,675.85,12.91,51.51,19.7,59,43,73,83,suryaroshni,2724.09
+SUPREMEIND,567,57,Industrials,Plastic Products,Kotak_Emerging_Equity_Dir_Gr,1,5284.75,28.32,18.6,18.19,37,70,69,6,supremeindustries,34337.27
+TATACOMM,568,57,Communication Services,Other Telecom Services,HDFC_Mid_Cap_Opportunities_Dir_Gr,5,1961.85,2.56,9.72,5.89,74,76,26,21,tatacommunications,23002.5
+BAJAJCON,569,57,Consumer Defensive,Personal Products,LIC_MF_Focused_30_Equity_Dir_Gr,22,264.05,11.74,4.97,7.96,61,81,35,53,bajajconsumercare,2288.68
+JISLJALEQS,570,57,Industrials,Plastic Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,96,70.73,28.6,8.73,15.99,36,77,64,93,jainirrigationsystems,3588.63
+PEL,571,58,Financial Services,Finance (including NBFCs),LIC_MF_Focused_30_Equity_Dir_Gr,13,1043.45,16.13,-1.57,8.47,54,86,37,41,piramalenterprises,12697.78
+GARFIBRES,572,58,Consumer Cyclical,Textiles,Kotak_Small_Cap_Dir_Gr,9,3833.35,9.66,18.88,10.62,64,69,45,32,garwaretechnicalfibres,3576.9
+GRINFRA,573,58,Industrials,Roads & Highways,SBI_Small_Cap_Fund_Dir_Gr,34,1529.65,24.55,18.93,17.76,41,69,68,65,grinfraprojects,3735.96
+LICHSGFIN,574,58,Financial Services,Housing Finance,Franklin_India_Eq_Advantage_Dir_Gr,3,674.4,5.68,59.32,18.43,70,38,70,13,lichousingfinance,20313.91
+PNB,575,58,Financial Services,Banks,Quant_Mid_Cap_Dir_Gr,5,116.57,-3.46,85.18,18.43,84,24,70,20,punjabnationalbank,34463.43
+STARHEALTH,576,58,Financial Services,General Insurance,Motilal_Oswal_Focused_Dir_Gr,1,628.65,10.62,0.35,6.87,62,85,31,6,starhealthalliedinsurance,15495.27
+ASAHIINDIA,577,58,Consumer Cyclical,Auto Parts & Equipment,UTI_Small_Cap_Dir_Gr,57,634.3,18.51,6.65,12.15,50,79,50,80,asahiindiaglass,7057.36
+FAZE3Q,578,58,Consumer Cyclical,Textiles,Taurus_Discovery__Midcap__Dir_Gr,7,491,14.47,27.45,15.44,57,60,62,26,fazethree,523.48
+HIKAL,579,58,Healthcare,Pharmaceuticals,Tata_Small_Cap_Fund_Dir_Gr,30,329.3,17.5,11.23,12.87,51,75,53,62,hikal,1264.78
+AIAENG,580,58,Industrials,Other Industrial Goods,HSBC_Midcap_Dir_Gr,4,4295.25,15.99,16.87,13.23,54,71,55,15,aiaengineering,16825.04
+COFORGE,581,59,Technology,IT Consulting & Software,Samco_Flexi_Cap_Dir_Gr,1,6344.05,-1.87,21.4,7.35,81,66,33,2,coforge,42310.88
+UDS,582,59,Industrials,Misc. Commercial Services,Bandhan_Multi_Cap_Dir_Gr,23,354.15,1.78,18.05,7.99,75,70,35,55,updaterservices,974.71
+3MINDIA,583,59,Industrials,Industrial Machinery,Nippon_India_Focused_Equity_Dir_Gr,8,35663.65,16.28,12.93,12.71,53,75,53,28,3m,10043.86
+CEATLTD,584,59,Consumer Cyclical,Auto Tyres & Rubber Products,Mirae_Asset_Midcap_Dir_Gr,27,2756.3,-2.23,22.72,8.08,81,65,35,59,ceat,5885.69
+NMDC,585,59,Basic Materials,Mining,Quant_Large_and_Mid_Cap_Dir_Gr,2,222.66,-0.17,81.32,22.24,78,25,79,10,nmdc,25585.65
+AXISBANK,586,59,Financial Services,Banks,Taurus_Flexi_Cap_Dir_Gr,3,1175.25,9.41,19.84,12.27,64,68,51,11,axisbank,333216.1
+GANESHHOUC,587,59,Real Estate,Realty,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,141,845.6,0.74,87.91,23.82,77,23,83,95,ganeshhousing,1899.6
+INDIAMART,588,59,Communication Services,Internet Software & Services,PGIM_India_Small_Cap_Dir_Gr,18,3000.05,12.63,-0.65,8.87,59,86,38,49,indiamartintermesh,9139.17
+PIXTRANS,589,59,Industrials,Auto Tyres & Rubber Products,Quant_Small_Cap_Dir_Gr,69,1501.55,8.49,26.15,13.25,66,62,55,86,pixtransmission,781.12
+VTL,590,59,Consumer Cyclical,Textiles,HDFC_Small_Cap_Dir_Gr,22,495.25,15.48,24.65,16.34,55,63,65,54,vardhmantextiles,5128.49
+ESABINDIA,591,60,Industrials,Other Industrial Goods,SBI_Small_Cap_Fund_Dir_Gr,15,6038.8,18.77,8.01,13.72,50,78,56,44,esab,2442.86
+TEAMLEASE,592,60,Industrials,Misc. Commercial Services,Aditya_BSL_Small_Cap_Dir_Gr,6,3147.95,5.44,34.7,14.92,70,54,60,24,teamleaseservices,3610.15
+AAVAS,593,60,Financial Services,Housing Finance,Tata_Mid_Cap_Growth_Dir_Gr,12,1720.75,16.7,7.47,13.05,52,79,54,38,aavasfinanciers,10013.53
+HEMIPROP,594,60,Real Estate,Realty,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,122,207.12,0.81,72.89,21.83,77,30,78,94,hemisphereproperties,2885.35
+KIRIINDUS,595,60,Basic Materials,Specialty Chemicals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,155,386.55,-0.12,41.54,14.57,78,48,59,96,kiriindustries,1468.28
+PGHL,596,60,Healthcare,Pharmaceuticals,Sundaram_Small_Cap_Dir_Gr,32,5217.7,2.52,9.19,7.53,74,77,34,63,proctergamblehealth,4172.9
+ACE,597,60,Industrials,Construction & Engineering,Edelweiss_Small_Cap_Dir_Gr,29,1290.95,6.31,66.55,23.84,69,34,83,60,actionconstructionequipment,5317.54
+ASIANPAINT,598,60,Basic Materials,Furniture-Furnishing-Paints,Sundaram_Focused_Dir_Gr,9,3126.8,11.9,-4.84,8.65,60,88,38,31,asianpaints,142073
+BEML,599,60,Industrials,Commercial Vehicles,Baroda_BNP_Paribas_Small_Cap_Dir_Gr,4,3798.3,17.32,54.31,30.79,51,41,94,15,beml,7271.46
+GOKEX,600,60,Consumer Cyclical,Textiles,SBI_Magnum_Midcap_Dir_Gr,14,939.8,11.52,27.8,16.68,61,60,65,43,gokaldasexports,6078.76
+VINATIORGA,601,61,Basic Materials,Specialty Chemicals,Mahindra_Manulife_Flexi_Cap_Dir_Gr,32,1969.95,21.47,8.33,15.45,46,78,62,63,vinatiorganics,5252.44
+BOROLTD,602,61,Consumer Cyclical,Houseware,DSP_Small_Cap_Dir_Gr,67,415.9,9.62,-4.17,7.97,64,88,35,84,borosil,1618.05
+JIOFIN,603,61,Financial Services,Finance (including NBFCs),Motilal_Oswal_Flexicap_Dir_Gr,1,321.7,4.35,46.06,18.5,71,46,70,4,jiofinancialservices,108078.9
+JLHL,604,61,Healthcare,Healthcare Facilities,SBI_Magnum_Midcap_Dir_Gr,29,1337.85,-8.81,82.02,19.11,90,25,72,61,jupiterlifelinehospitals,5183.23
+KNRCON,605,61,Industrials,Construction & Engineering,Franklin_India_Smaller_Comp_Dir_Gr,31,330.95,20.19,23.47,20.33,48,65,74,62,knrconstructions,4764.49
+SHOPERSTOP,606,61,Consumer Cyclical,Department Stores,Kotak_Small_Cap_Dir_Gr,14,810.15,10.24,12.77,11.94,63,75,49,43,shoppersstop,3066.78
+SONACOMS,607,61,Consumer Cyclical,Auto Parts & Equipment,Axis_Growth_Opportunities_Dir_Gr,6,683.35,3.41,17.83,10.61,72,70,45,23,sonablwprecisionforgings,28169.84
+TITAN,608,61,Consumer Cyclical,Gems & Jewellery,WhiteOak_Capital_Multi_Cap_Dir_Gr,4,3565.15,-0.82,15.77,8.28,79,72,36,18,titan,149075.8
+VARROC,609,61,Consumer Cyclical,Auto Parts & Equipment,Nippon_India_Focused_Equity_Dir_Gr,13,568.85,14.36,33.31,20.65,57,56,75,42,varrocengineering,2172.81
+INOXINDIA,610,61,Industrials,Other Industrial Products,Canara_Robeco_Focused_Equity_Dir_Gr,23,1176.15,-3.41,78.2,21.95,84,27,78,55,inox,2668.79
+KOTAKBANK,611,62,Financial Services,Banks,SBI_Flexicap_Dir_Gr,2,1780.8,5.77,-0.13,7.56,69,86,34,9,kotakmahindrabank,262382.3
+SAIL,612,62,Basic Materials,Iron & Steel/Interm.Products,Quant_Flexi_Cap_Dir_Gr,9,133.69,9.81,51.15,23.76,64,43,82,33,steelauthority,19327.35
+GREENLAM,613,62,Consumer Cyclical,Furniture-Furnishing-Paints,DSP_Small_Cap_Dir_Gr,40,561.4,6.66,26.66,15.2,68,61,61,69,greenlamindustries,3510.81
+ASTEC,614,62,,Agrochemicals,ITI_Value_Dir_Gr,68,1204.6,37.09,-14.58,18.3,27,94,70,85,asteclifesciences,785.45
+ICRA,615,62,Financial Services,Other Financial Services,Sundaram_Focused_Dir_Gr,19,5991.3,2.53,0.04,7.11,74,85,32,50,icra,2783.03
+JKPAPER,616,62,Basic Materials,Paper & Paper Products,Navi_Flexi_Cap_Dir_Gr,28,458.95,24.65,27.36,28.15,41,60,90,60,jkpaper,3916.13
+LINDEINDIA,617,62,Basic Materials,Industrial Gases,Quant_Mid_Cap_Dir_Gr,3,7225.3,30.49,19.73,27.27,34,68,89,13,linde,15405.1
+MANYAVAR,618,62,Consumer Cyclical,Specialty Retail,360_ONE_Flexicap_Dir_Gr,19,1250.4,22.5,1.17,15.96,44,84,63,51,vedantfashions,7602.12
+APLLTD,619,62,Healthcare,Pharmaceuticals,Kotak_Small_Cap_Dir_Gr,6,1059.1,2.96,38.07,17.58,73,51,68,21,alembicpharmaceutical,6326.59
+CERA,620,62,Industrials,Furniture-Furnishing-Paints,UTI_Small_Cap_Dir_Gr,5,9216.6,20.34,-0.28,14.58,47,86,59,19,cerasanitaryware,5456.49
+CONCOR,621,63,Industrials,Warehousing and Logistics,Sundaram_large_and_Mid_Cap_Dir_Gr,12,965.1,0.82,44.06,18.21,77,46,69,38,container,26578.95
+NOCIL,622,63,Basic Materials,Specialty Chemicals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,72,282.65,8.71,23.59,15.88,65,64,63,87,nocil,3120.93
+PARADEEP,623,63,Basic Materials,Fertilizers,SBI_Multicap_Dir_Gr,19,83.29,9.52,20.54,15.31,64,67,61,51,paradeepphosphates,2980.54
+TATASTEEL,624,63,Basic Materials,Iron & Steel/Interm.Products,JM_Large_Cap_Dir_Gr,8,152.76,8.53,27.78,17.25,66,60,67,30,tatasteel,127405.6
+ANDHRAPAP,625,63,Basic Materials,Paper & Paper Products,ICICI_Pru_Smallcap_Dir_Gr,56,565.4,7.8,25.19,16.22,67,63,64,79,andhrapaper,622.64
+ZFCVINDIA,626,63,Consumer Cyclical,Auto Parts & Equipment,Motilal_Oswal_Focused_Dir_Gr,10,15567.85,6.81,20.56,14.7,68,67,60,36,zfcommercialvehiclecontrolsystems,9599.71
+EXPLEOSOL,627,63,Technology,IT Consulting & Software,Invesco_India_Multicap_Dir_Gr,68,1383.9,3.45,0.52,9.17,72,85,39,85,expleosolutions,621.78
+GREENPANEL,628,63,Basic Materials,Forest Products,Sundaram_Small_Cap_Dir_Gr,12,395.4,5.96,8.49,12.11,69,77,50,39,greenpanelindustries,2272.58
+MRPL,629,63,Energy,Refineries/Petro-Products,Baroda_BNP_Paribas_Small_Cap_Dir_Gr,3,207.37,-9.9,118.98,28.31,91,14,91,14,mangalorerefinerypetrochemicals,4150.44
+AUBANK,630,63,Financial Services,Banks,Aditya_BSL_Mid_Cap_Dir_Gr,8,688.7,20.58,-5.84,15.33,47,89,61,28,ausmallfinancebank,39456.5
+IRCTC,631,64,Industrials,Travel Support Services,LIC_MF_Midcap_Fund_Dir_Gr,23,932.8,0.95,38.71,18.1,77,51,69,55,indianrailwaycateringtourism,28058.62
+MSUMI,632,64,Consumer Cyclical,Auto Parts & Equipment,360_ONE_Focused_Equity_Dir_Gr,7,70.43,-0.87,19.07,11.96,79,69,49,26,mothersonsumiwiring,11916.46
+NAVNETEDUL,633,64,Communication Services,Publishing,Kotak_Multicap_Dir_Gr,29,158.72,7.39,1.84,11.37,67,83,47,61,navneeteducation,1317.34
+ASHIANA,634,64,Real Estate,Realty,WhiteOak_Capital_Multi_Cap_Dir_Gr,92,332.2,7.21,57.55,29.17,67,39,92,92,ashianahousing,1298.71
+BAJFINANCE,635,64,Financial Services,Finance (including NBFCs),DSP_Focus_Dir_Gr,1,7200.15,10.79,-1.28,12.11,62,86,50,1,bajajfinance,201896
+NESTLEIND,636,64,Consumer Defensive,Packaged Foods,WhiteOak_Capital_Multi_Cap_Dir_Gr,3,2500.75,-2.73,13.35,9.7,82,74,42,14,nestle,89789.96
+PNCINFRA,637,64,Industrials,Roads & Highways,Union_Small_Cap_Dir_Gr,4,449.65,4.41,38.89,21.77,71,50,77,18,pncinfratech,5067.45
+REDINGTON,638,64,Technology,Commodity Trading & Distribution,Tata_Small_Cap_Fund_Dir_Gr,11,201.85,-0.71,29.72,15.03,79,59,60,38,redington,15780.12
+APOLLOTYRE,639,64,Consumer Cyclical,Auto Tyres & Rubber Products,HDFC_Mid_Cap_Opportunities_Dir_Gr,2,492.9,-2.88,26.5,13.23,82,62,55,7,apollotyres,19608.9
+CLEAN,640,64,Basic Materials,Specialty Chemicals,Axis_Growth_Opportunities_Dir_Gr,30,1493.5,5.2,6.49,11.63,71,80,48,62,cleansciencetechnology,3970.71
+EIHOTEL,641,65,Consumer Cyclical,Hotels,Nippon_India_Multi_Cap_Dir_Gr,4,382.6,-2.88,64.56,23.82,82,35,82,16,eih,16066.6
+MRF,642,65,Consumer Cyclical,Auto Tyres & Rubber Products,Shriram_Flexi_Cap_Dir_Gr,13,134833.5,-7.67,23.91,10.97,89,64,46,41,mrf,41298.44
+RAMKY,643,65,Industrials,Construction & Engineering,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,124,711.5,19.32,29.72,29.49,49,58,92,94,ramkyinfrastructure,1486.38
+ACI,644,65,Basic Materials,Commodity Chemicals,SBI_Multicap_Dir_Gr,28,742.85,-1.28,14.5,11.32,80,73,47,59,archeanchemicalindustries,4267.03
+JTEKTINDIA,645,65,Consumer Cyclical,Auto Parts & Equipment,Baroda_BNP_Paribas_Small_Cap_Dir_Gr,10,170.77,17.13,23.57,24.34,52,64,84,35,jtekt,1086.46
+MSTCLTD,646,65,Industrials,Commodity Trading & Distribution,Taurus_Flexi_Cap_Dir_Gr,46,818.7,-9.13,108.93,29.73,90,17,93,73,mstc,2031.69
+NIITMTS,647,65,Consumer Defensive,Education,Nippon_India_Small_Cap_Dir_Gr,9,494.35,-4.98,33.5,14.31,86,56,58,33,niitlearningsystems,4390.89
+WENDT,648,65,Industrials,Industrial Machinery,LIC_MF_Flexi_Cap_Dir_Gr,44,14256,12.92,9.53,16.14,59,77,64,71,wendt,712.8
+BLAL,649,65,Industrials,Realty,HDFC_Flexi_Cap_Dir_Gr,41,281.65,3.19,55.69,25.38,73,41,87,69,bemllandassets,539.19
+CAMPUS,650,65,Consumer Cyclical,Footwear,Aditya_BSL_Small_Cap_Dir_Gr,25,278.4,14.5,-7.89,13.11,57,90,54,57,campusactivewear,2221.82
+GRINDWELL,651,66,Industrials,Other Industrial Products,LIC_MF_Small_Cap_Fund_Dir_Gr,8,2440.5,15.18,9.03,17.55,56,77,68,29,grindwellnorton,11340.8
+MAITHANALL,652,66,Basic Materials,Iron & Steel/Interm.Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,233,1150.85,8.2,13.62,15.32,66,74,61,99,maithanalloys,837.91
+FIVESTAR,653,66,Financial Services,Finance (including NBFCs),Bandhan_Focused_Equity_Dir_Gr,20,758.85,6.98,0.62,12.04,68,85,49,52,fivestarbusinessfinance,16310.27
+INDOCO,654,66,Healthcare,Pharmaceuticals,Quant_Small_Cap_Dir_Gr,36,361.45,2.95,12.36,12.9,73,75,54,66,indocoremedies,1374.42
+INTELLECT,655,66,,IT Software Products,WhiteOak_Capital_Multi_Cap_Dir_Gr,21,993,-6.45,43.27,17.18,88,47,67,52,intellectdesignarena,9563.05
+KPRMILL,656,66,Consumer Cyclical,Textiles,Aditya_BSL_Mid_Cap_Dir_Gr,3,846.8,10.28,12.94,16.1,63,75,64,13,kprmill,7595.12
+LEMONTREE,657,66,Consumer Cyclical,Hotels,SBI_Small_Cap_Fund_Dir_Gr,5,134.47,-3.74,29.99,14.89,84,58,60,20,lemontreehotels,8224.38
+NH,658,66,Healthcare,Healthcare Facilities,Axis_Small_Cap_Fund_Dir_Gr,2,1268.95,-6.99,23.18,12.18,88,65,50,10,narayanahrudayalaya,9374.55
+NUCLEUS,659,66,Technology,IT Consulting & Software,WhiteOak_Capital_Multi_Cap_Dir_Gr,49,1400.15,2.2,41.62,23.19,74,48,81,75,nucleussoftwareexports,1002.02
+TATAELXSI,660,66,Technology,IT Consulting & Software,Axis_Growth_Opportunities_Dir_Gr,10,8000.7,5.36,8.36,13.04,71,78,54,36,tataelxsi,27942.13
+INDIGOPNTS,661,67,Basic Materials,Furniture-Furnishing-Paints,Mirae_Asset_Multicap_Dir_Gr,29,1450.5,3.36,-6.61,9.63,73,89,42,61,indigopaints,3181.56
+MAPMYINDIA,662,67,Technology,Internet Software & Services,PGIM_India_Small_Cap_Dir_Gr,8,2092.4,16.26,20.09,23.85,53,68,83,28,ceinfosystems,5432.99
+ATULAUTO,663,67,Consumer Cyclical,2/3 Wheelers,Taurus_Flexi_Cap_Dir_Gr,24,634.05,16.16,22.07,24.91,53,66,86,55,atulauto,1007.71
+HEG,664,67,Industrials,Other Industrial Goods,JM_Flexicap_Dir_Gr,12,1998.45,23.33,13.58,27.14,43,74,89,39,heg,3410.74
+APTUS,665,67,Financial Services,Housing Finance,SBI_Multicap_Dir_Gr,16,327.95,-0.5,23.78,16.34,78,64,65,46,aptusvaluehousingfinance,7516.6
+BANKBARODA,666,67,Financial Services,Banks,JM_Large_Cap_Dir_Gr,1,250.1,-4.45,30.84,16.55,85,57,65,1,bankofbaroda,46599.68
+DATAPATTNS,667,67,Industrials,Defence,Bandhan_Midcap_Dir_Gr,38,2804.35,12.59,20.95,23.27,59,67,81,67,datapatterns,9041.56
+PAISALO,668,67,Financial Services,Finance (including NBFCs),Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,41,63.82,-19.64,125.51,35.94,97,13,97,70,paisalodigital,2770.52
+GNFC,669,67,Basic Materials,Fertilizers,ICICI_Pru_Smallcap_Dir_Gr,28,683.5,5.54,13.32,16.12,70,74,64,59,gujaratnarmadavalleyfertilizerschemicals,5895.47
+CYIENTDLM,670,67,Technology,Electronic Components,Aditya_BSL_Small_Cap_Dir_Gr,92,747.15,-10.76,34.21,15.46,92,55,62,92,cyientdlm,1975.51
+HIL,671,68,Industrials,Cement & Cement Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,188,2851.75,1.8,-2.56,11.33,75,87,47,97,hil,1278.03
+KAJARIACER,672,68,Industrials,Furniture-Furnishing-Paints,Tata_Mid_Cap_Growth_Dir_Gr,8,1350.85,6.39,-6.31,12.57,68,89,52,29,kajariaceramics,11296.69
+PRSMJOHNSN,673,68,Basic Materials,Cement & Cement Products,SBI_Magnum_Midcap_Dir_Gr,59,164.81,-3.14,28.86,17.18,83,59,67,81,prismjohnson,2084.74
+SURYODAY,674,68,Financial Services,Banks,Axis_Flexi_Cap_Dir_Gr,54,190.88,-0.12,5.99,12.32,78,80,51,78,suryodaysmallfinancebank,1573.97
+ENGINERSIN,675,68,Industrials,Consulting Services,DSP_Small_Cap_Dir_Gr,20,217.5,5.81,39.24,28.43,69,50,91,52,engineers,5950.85
+IOLCP,676,68,Healthcare,Pharmaceuticals,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,206,441.1,10.72,6,17.69,62,80,68,98,iolchemicalspharmaceutical,1341.62
+AARTIIND,677,68,Basic Materials,Specialty Chemicals,Quant_Large_and_Mid_Cap_Dir_Gr,20,627.05,-3.31,30.28,18.49,83,58,70,51,aartiindustries,12902.48
+IFGLEXPOR,678,68,Basic Materials,Other Industrial Goods,HDFC_Small_Cap_Dir_Gr,45,639.95,14.14,27.53,31.56,57,60,94,72,ifglrefractories,635.86
+PGHH,679,68,Consumer Defensive,Personal Products,SBI_Focused_Equity_Fund_Dir_Gr,6,16516.25,4.85,3.94,14.2,71,82,58,23,proctergamblehygienehealthcare,15740.75
+GLAND,680,68,Healthcare,Pharmaceuticals,Mirae_Asset_Multicap_Dir_Gr,8,1838.55,2.04,16.8,17.22,74,71,67,29,glandpharma,14590.9
+LAXMIMACH,681,69,Industrials,Industrial Machinery,Mahindra_Manulife_Small_Cap_Dir_Gr,52,14990,3.4,8.62,15.76,72,77,63,77,lakshmimachineworks,11028.72
+NRBBEARING,682,69,Consumer Cyclical,Other Industrial Products,Mirae_Asset_Multicap_Dir_Gr,38,323,2.18,22.39,19.56,74,65,73,68,nrbbearings,1543.7
+PAYTM,683,69,Technology,Internet Software & Services,Motilal_Oswal_Large___Midcap_Dir_Gr,8,621.9,53.1,-27.08,37.7,15,99,98,29,one97communications,39576.75
+TAJGVK,684,69,Consumer Cyclical,Hotels,ITI_Small_Cap_Dir_Gr,46,331.65,-6.93,42.1,21.53,88,48,77,73,tajgvkhotelsresorts,520.08
+TATACHEM,685,69,Basic Materials,Commodity Chemicals,Taurus_Discovery__Midcap__Dir_Gr,25,1082.65,14.68,1.48,19.74,57,84,73,57,tatachemicals,17105.85
+CARYSIL,686,69,Consumer Cyclical,Household Products,LIC_MF_Small_Cap_Fund_Dir_Gr,33,899.1,-5.46,39.26,21.88,87,50,78,64,carysil,1497.91
+JAMNAAUTO,687,69,Consumer Cyclical,Auto Parts & Equipment,Bank_of_India_Flexi_Cap_Fund_Dir_Gr,27,125.71,2.12,8.93,16,74,77,64,59,jamnaautoindustries,2510.59
+JTLIND,688,69,Basic Materials,Iron & Steel Products,Bandhan_Small_Cap_Dir_Gr,135,239.47,-9.99,19.74,13.86,91,68,57,95,jtlindustries,2284.94
+MANINFRA,689,69,,Construction & Engineering,Quant_Value_Dir_Gr,21,197.2,-4.13,33.06,20.9,85,56,76,53,maninfraconstruction,2393.25
+NUVOCO,690,69,Basic Materials,Cement & Cement Products,SBI_Flexicap_Dir_Gr,10,339.8,2.35,-0.04,14.62,74,85,59,35,nuvocovista,3395.7
+AVALON,691,70,Technology,Heavy Electrical Equipment,LIC_MF_Small_Cap_Fund_Dir_Gr,13,521.15,-0.15,8.18,15.94,78,78,63,40,avalontechnologies,1685.92
+KSL,692,70,Basic Materials,Iron & Steel/Interm.Products,DSP_Small_Cap_Dir_Gr,17,775.45,-10.14,60.6,28.4,91,37,91,48,kalyanisteels,1194.93
+CYIENT,693,70,Industrials,IT Consulting & Software,Kotak_Small_Cap_Dir_Gr,1,1977.25,-2.51,23.34,19.59,82,65,73,2,cyient,16852.01
+GMDCLTD,694,70,Energy,Coal,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,47,369.05,-5.71,49.44,27.07,87,44,89,73,gujaratmineraldevelopment,3051.31
+LATENTVIEW,695,70,Industrials,Data Processing Services,Bank_of_India_Small_Cap_Dir_Gr,12,483.45,-4.48,15.45,15.92,85,72,63,39,latentviewanalytics,3446.8
+MEDANTA,696,70,Healthcare,Healthcare Facilities,PGIM_India_Small_Cap_Dir_Gr,1,1134.7,-21.32,62.39,25.05,98,36,86,2,globalhealth,20404.1
+TREL,697,70,Real Estate,Realty,Tata_Small_Cap_Fund_Dir_Gr,50,48.7,-6.49,27.15,19.37,88,61,73,76,transindiarealestate,369.37
+AUTOAXLES,698,70,Consumer Cyclical,Auto Parts & Equipment,Tata_Small_Cap_Fund_Dir_Gr,49,2036.65,6.65,-4.72,17.21,68,88,67,74,automotiveaxles,891.33
+CRISIL,699,70,Financial Services,Other Financial Services,SBI_Magnum_Midcap_Dir_Gr,1,4461.75,-8.39,15.11,15.31,89,73,61,2,crisil,10884.9
+GATEWAY,700,71,Industrials,Transportation - Logistics,ICICI_Pru_Smallcap_Dir_Gr,13,99.96,-3.14,15.9,17.76,83,72,68,41,gatewaydistriparks,3380.24
+BSOFT,701,71,Technology,IT Consulting & Software,Edelweiss_Small_Cap_Dir_Gr,1,670.55,-12.63,35.82,22.2,93,53,78,1,birlasoft,10949.66
+DOLLAR,702,71,Consumer Cyclical,Other Apparels & Accessories,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,242,506.25,1.73,19.92,23.29,75,68,81,100,dollarindustries,797.92
+GOCOLORS,703,71,Consumer Cyclical,Other Apparels & Accessories,Aditya_BSL_Small_Cap_Dir_Gr,10,1186,3.98,-7.07,15.57,72,90,62,34,gofashion,3024.02
+RITES,704,71,Industrials,Construction & Engineering,Nippon_India_Small_Cap_Dir_Gr,25,649.4,-14.73,36.01,21.38,95,53,76,57,rites,4338.25
+SBFC,705,71,Financial Services,Finance (including NBFCs),SBI_Small_Cap_Fund_Dir_Gr,6,84.38,-2.39,-2,13.9,81,86,57,23,sbfcfinance,4070.65
+SHREECEM,706,71,Basic Materials,Cement & Cement Products,Axis_Focused_25_Dir_Gr,12,25482,-0.49,5.6,17.1,78,80,66,39,shreecement,34431.84
+SUNFLAG,707,71,Basic Materials,Iron & Steel/Interm.Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,152,215.25,8.41,5.51,21.71,66,81,77,96,sunflagironsteel,1894.61
+HGS,708,71,Industrials,BPO/KPO,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,162,912.05,1.04,-9.7,14.36,76,91,58,97,hindujaglobalsolutions,1358.15
+SBCL,709,72,Industrials,Other Industrial Goods,WhiteOak_Capital_Flexi_Cap_Dir_Gr,68,568.05,5.7,-2.09,17.91,70,87,68,85,shivalikbimetalcontrols,1598.8
+ACCELYA,710,72,Technology,IT Consulting & Software,Parag_Parikh_Flexi_Cap_Dir_Gr,41,1756.7,-4.59,14.89,17.43,86,73,67,69,accelyasolutions,664.44
+SKFINDIA,711,72,Industrials,Other Industrial Goods,Mirae_Asset_Focused_Dir_Gr,11,5279.2,16.56,3.67,28.17,53,82,91,38,skf,12376.29
+WONDERLA,712,72,Consumer Cyclical,Other Leisure Facilities,ITI_Value_Dir_Gr,13,846.6,-8.63,34.03,23.45,89,55,82,42,wonderlaholidays,1446.91
+BERGEPAINT,713,72,Basic Materials,Furniture-Furnishing-Paints,LIC_MF_Focused_30_Equity_Dir_Gr,16,571.05,1.21,-4.89,15.99,76,88,63,46,bergerpaints,16648.58
+DEVYANI,714,72,Consumer Cyclical,Restaurants,Nippon_India_Flexi_Cap_Dir_Gr,24,175.91,13.97,-8,22.68,58,90,79,56,devyaniinternational,7908.33
+FCL,715,72,Basic Materials,Specialty Chemicals,Nippon_India_Small_Cap_Dir_Gr,119,370.6,-8.43,21.69,19.23,89,66,72,94,fineotexchemical,1575.83
+INDUSINDBK,716,72,Financial Services,Banks,Motilal_Oswal_Large___Midcap_Dir_Gr,3,1425.25,-1.65,1.79,15.89,81,83,63,13,indusindbank,92820.34
+PVRINOX,717,72,Communication Services,Movies & Entertainment,Tata_Focused_Equity_Dir_Gr,13,1514.55,10.96,-13.46,19.24,62,93,72,41,pvrinox,10725.24
+DEN,718,73,Communication Services,Broadcasting & Cable TV,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,239,53.07,-3.07,25.17,23.53,83,63,82,100,dennetworks,635.69
+MAHLIFE,719,73,Real Estate,Realty,HSBC_Small_Cap_Fund_Dir_Gr,13,568.8,-3.5,5.91,16.21,84,80,64,41,mahindralifespacedevelopers,4307.15
+WESTLIFE,720,73,Consumer Cyclical,Restaurants,Edelweiss_Small_Cap_Dir_Gr,6,822.7,9.73,-8.7,19.73,64,91,73,24,westlifefoodworld,5612.63
+RATEGAIN,721,73,Technology,IT Software Products,Bank_of_India_Small_Cap_Dir_Gr,7,737.65,-10.33,23.68,19.97,91,64,74,27,rategaintraveltechnologies,4500.97
+VINDHYATEL,722,73,Industrials,Telecom Cables,Nippon_India_Small_Cap_Dir_Gr,68,2483.4,1.54,14.22,23.11,76,73,80,86,vindhyatelelinks,1661.65
+ACC,723,73,Basic Materials,Cement & Cement Products,Tata_Flexi_Cap_Dir_Gr,7,2329.15,-9.49,17.53,18.1,90,71,69,24,acc,18943.14
+BORORENEW,724,73,Consumer Cyclical,Houseware,UTI_Small_Cap_Dir_Gr,77,513.5,-1.57,19.47,23.28,80,69,81,89,borosilrenewables,2574
+CHEMPLASTS,725,73,Basic Materials,Specialty Chemicals,SBI_Small_Cap_Fund_Dir_Gr,12,502.3,7.08,-4.58,20.76,67,88,75,38,chemplastsanmar,3574.62
+JKTYRE,726,73,Consumer Cyclical,Auto Tyres & Rubber Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,10,400.3,-19.85,51.54,27.74,97,43,90,34,jktyreindustries,4891.71
+BANKINDIA,727,74,Financial Services,Banks,Taurus_Discovery__Midcap__Dir_Gr,1,117.74,-11.21,36.35,25.46,92,52,87,1,bankofindia,14269.15
+AETHER,728,74,Basic Materials,Specialty Chemicals,SBI_Magnum_Midcap_Dir_Gr,20,890.25,1.54,-14.78,15.8,75,94,63,51,aetherindustries,2148.83
+BATAINDIA,729,74,Consumer Cyclical,Footwear,Mirae_Asset_Midcap_Dir_Gr,25,1452.65,3.29,-14.07,16.94,73,93,66,57,bata,9305.4
+ANGELONE,730,74,Financial Services,Capital Markets,Nippon_India_Value_Dir_Gr,6,2586.35,-9.8,45.69,33.62,91,46,96,21,angelone,15002.11
+HATHWAY,731,74,Communication Services,Broadcasting & Cable TV,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,203,21.11,-6.18,26.79,24.47,87,61,85,98,hathwaycabledatacom,934.17
+KANSAINER,732,74,Basic Materials,Furniture-Furnishing-Paints,LIC_MF_Large___Mid_Cap_Dir_Gr,20,296.5,1.54,-10.06,17.02,76,91,66,52,kansainerolacpaints,5994.52
+ROUTE,733,74,Communication Services,Internet Software & Services,UTI_Small_Cap_Dir_Gr,33,1581,-1.18,3.24,18.61,80,82,71,64,routemobile,1676.65
+SBICARD,734,74,Financial Services,Finance (including NBFCs),ICICI_Pru_Large___Mid_Cap_Dir_Gr,6,723.2,-0.86,-12.29,15.69,79,92,62,23,sbicardspaymentservices,21586.01
+DELHIVERY,735,74,Industrials,Transportation - Logistics,Mirae_Asset_Midcap_Dir_Gr,3,419.3,-11.29,-0.13,14.08,92,85,57,12,delhivery,31003.98
+JINDWORLD,736,75,Consumer Cyclical,Textiles,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,240,376.55,-9.05,-2.3,13.82,90,87,57,100,jindalworldwide,2996.83
+AXISCADES,737,75,Industrials,BPO/KPO,Bank_of_India_Large___Mid_Cp_Eq_Dir_Gr,45,644.7,-1.06,17.29,24.15,80,71,84,72,axiscadestechnologies,1074.46
+SHREDIGCEM,738,75,Basic Materials,Cement & Cement Products,Union_Value_Fund_Dir_Gr,24,100.37,-3.44,6.72,18.99,84,79,72,56,shreedigvijaycement,668.3
+JKLAKSHMI,739,75,Basic Materials,Cement & Cement Products,Axis_Small_Cap_Fund_Dir_Gr,9,787.85,-13.11,21.15,21.21,94,66,76,32,jklakshmicement,4974.62
+UNIONBANK,740,75,Financial Services,Banks,ITI_Value_Dir_Gr,11,121.54,-13.71,40.92,29.54,94,49,93,38,unionbankofindia,23417.38
+APCOTEXIND,741,75,Basic Materials,Auto Tyres & Rubber Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,205,464.7,0.6,-12.39,17.51,77,93,67,98,apcotexindustries,1006.34
+BARBEQUE,742,75,Consumer Cyclical,Restaurants,Tata_Multicap_Dir_Gr,43,626.6,5.63,-10.31,20.85,70,91,76,71,barbequenationhospitality,1622.98
+KTKBANK,743,75,Financial Services,Banks,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,4,227.49,-1.05,1.88,20.61,79,83,75,17,karnatakabank,8590.49
+GANDHAR,744,75,Energy,Refineries/Petro-Products,WhiteOak_Capital_Large_Cap_Dir_Gr,64,224.49,-5.06,32.83,34.75,86,56,96,83,gandharoilrefinery,777.11
+RAINBOW,745,76,Healthcare,Healthcare Facilities,PGIM_India_Small_Cap_Dir_Gr,2,1267.5,-11.31,22.85,23.14,92,65,81,10,rainbowchildrensmedicare,6451.29
+SONATSOFTW,746,76,Technology,IT Consulting & Software,HDFC_Small_Cap_Dir_Gr,1,665.75,-20.82,30.67,23.48,98,58,82,6,sonatasoftware,13410.14
+JINDRILL,747,76,Energy,Exploration & Production,Bandhan_Core_Equity_Dir_Gr,86,651,-2.52,22.35,28.85,82,65,92,91,jindaldrillingindustries,674.48
+MHRIL,748,76,Consumer Cyclical,Hotels,UTI_Large___Mid_Cap_Dir_Gr,53,407.65,-2.85,1.1,19.28,82,84,73,77,mahindraholidaysresorts,2736.58
+NETWORK18,749,76,Communication Services,Broadcasting & Cable TV,Quant_Small_Cap_Dir_Gr,77,95.16,-15.49,37.12,29.87,95,51,93,89,network18mediainvestments,2490.69
+RBA,750,76,Consumer Cyclical,Restaurants,Nippon_India_Focused_Equity_Dir_Gr,16,109.94,2.84,-10.62,20.16,73,92,74,47,restaurantbrandsasia,4636.16
+USHAMART,751,76,Basic Materials,Iron & Steel Products,Quant_Small_Cap_Dir_Gr,16,331.35,5.17,-4.96,22.55,71,89,79,47,ushamartin,5542.59
+APLAPOLLO,752,76,Basic Materials,Iron & Steel Products,Edelweiss_Small_Cap_Dir_Gr,11,1462.1,-0.05,-10.03,18.77,78,91,71,36,aplapollotubes,29081.44
+HAPPSTMNDS,753,76,Technology,IT Consulting & Software,PGIM_India_Small_Cap_Dir_Gr,16,812.3,-4.33,-9.98,16.26,85,91,64,46,happiestmindstechnologies,6899.59
+IDFC,754,77,Financial Services,Finance (including NBFCs),Tata_Small_Cap_Fund_Dir_Gr,1,111.94,-3.04,-6.87,18.29,83,89,70,3,idfc,17910.23
+TVSSCS,755,77,Industrials,Transport Related Services,Franklin_India_Flexi_Cap_Dir_Gr,48,192.43,6.67,-3.78,25.41,68,87,87,74,tvssupplychainsolutions,4820.35
+DREAMFOLKS,756,77,Industrials,Travel Support Services,Motilal_Oswal_Focused_Dir_Gr,9,479.4,-5.65,-3.94,17.63,87,88,68,31,dreamfolksservices,864.59
+RAYMOND,757,77,Consumer Cyclical,Textiles,UTI_Small_Cap_Dir_Gr,18,1985.5,11.83,0.74,43.21,60,84,99,50,raymond,6739.96
+FLAIR,758,77,Industrials,Commodity Printing/Stationery,Mirae_Asset_Multicap_Dir_Gr,68,307.7,10.78,1.22,40.18,62,84,98,85,flairwritingindustries,694.33
+MIDHANI,759,77,Basic Materials,Defence,HDFC_Capital_Builder_Value_Dir_Gr,51,414.75,0.9,1.97,24.25,77,83,84,76,mishradhatunigam,2020.18
+PSPPROJECT,760,77,Industrials,Construction & Engineering,LIC_MF_Multi_Cap_Dir_Gr,65,683.05,-0.95,-14.55,18.59,79,94,71,83,pspprojects,1079.3
+RAIN,761,77,Basic Materials,Petrochemicals,ICICI_Pru_Multicap_Dir_Gr,54,169.75,-4.04,5.83,22.7,84,80,80,78,rainindustries,3360.59
+CARERATING,762,77,Financial Services,Other Financial Services,Mirae_Asset_Multicap_Dir_Gr,17,972,-17.92,19.04,23.1,96,69,80,48,careratings,2906.25
+CENTUM,763,78,Technology,Electronic Components,HDFC_Multi_Cap_Dir_Gr,42,1704.9,-11.72,4.94,18.78,93,81,71,70,centumelectronics,906.99
+ORIENTPPR,764,78,Basic Materials,Paper & Paper Products,HSBC_Small_Cap_Fund_Dir_Gr,88,48.11,-2.61,0.75,22.65,82,84,79,91,orientpaperindustries,625.36
+RAMCOCEM,765,78,Basic Materials,Cement & Cement Products,HSBC_Midcap_Dir_Gr,12,831.25,-1.12,-4.42,21.45,80,88,77,39,ramcocement,11335.29
+SAKSOFT,766,78,Technology,IT Consulting & Software,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,226,292,8.98,-8.39,27.4,65,90,90,99,saksoft,1032.96
+RELAXO,767,78,Consumer Cyclical,Footwear,SBI_Focused_Equity_Fund_Dir_Gr,19,796.85,-4.82,-14.27,16.91,86,94,66,51,relaxofootwears,5699.08
+ASTERDM,768,78,Healthcare,Healthcare Facilities,HDFC_Small_Cap_Dir_Gr,5,406.7,-16.12,25.06,27.11,95,63,89,19,asterdmhealthcare,11807.19
+FLUOROCHEM,769,78,Basic Materials,Specialty Chemicals,Aditya_BSL_Mid_Cap_Dir_Gr,1,3175.35,-14.44,5.09,19,94,81,72,3,gujaratfluorochemicals,13052.55
+J&KBANK,770,78,Financial Services,Banks,Mahindra_Manulife_Lrg___Md_cap_Dir_Gr,7,109.89,-20.11,26.53,27.94,97,62,90,26,jammukashmirbank,4912.96
+RELINFRA,771,78,Utilities,Electric Utilities,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,12,209.21,-1.36,13.39,32.07,80,74,95,39,relianceinfrastructure,6920.03
+SAGCEM,772,79,Basic Materials,Cement & Cement Products,ICICI_Pru_Smallcap_Dir_Gr,41,231.27,-3.44,4.53,24.17,84,81,84,70,sagarcement,1562.52
+RHIM,773,79,Industrials,Other Industrial Goods,Aditya_BSL_Small_Cap_Dir_Gr,18,613.4,6.67,-15.87,25.56,68,95,87,50,rhimagnesita,5564.52
+BUTTERFLY,774,79,Consumer Cyclical,Household Appliances,Sundaram_Flexi_Cap_Dir_Gr,56,964.55,8.57,-20.4,26.28,66,97,88,79,butterflygandhimathiappliances,431.14
+DCBBANK,775,79,Financial Services,Banks,ITI_Value_Dir_Gr,7,122.95,-4.58,5.22,24.78,85,81,85,25,dcbbank,3285.35
+FEDFINA,776,79,Financial Services,Finance (including NBFCs),Bandhan_Small_Cap_Dir_Gr,44,119.97,-0.77,-14.31,21.89,79,94,78,71,fedbankfinancialservices,1723.92
+TARSONS,777,79,Healthcare,Medical Equipment,Aditya_BSL_Small_Cap_Dir_Gr,100,452.3,-3.32,-11.78,21.26,83,92,76,93,tarsonsproduct,1268
+ASTRAL,778,79,Industrials,Plastic Products,Bandhan_Midcap_Dir_Gr,9,1919.35,-6.48,-2.19,21.79,88,87,77,31,astral,23665.55
+ADORWELD,779,79,Industrials,Other Industrial Goods,LIC_MF_Small_Cap_Fund_Dir_Gr,49,1313.95,-9.02,10.68,25.77,90,76,87,74,adorwelding,769.39
+BANDHANBNK,780,79,Financial Services,Banks,Tata_Mid_Cap_Growth_Dir_Gr,18,200.3,1.86,-15.06,23.87,75,95,83,49,bandhanbank,19367.1
+SIYSIL,781,80,Consumer Cyclical,Textiles,DSP_Small_Cap_Dir_Gr,71,487.3,-2.86,-7.47,23.26,82,90,81,87,siyaramsilkmills,719.86
+TMB,782,80,Financial Services,Banks,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,15,470.8,-1.11,-12.71,22.99,80,93,80,46,tamilnadmercantilebank,7455.19
+BESTAGRO,783,80,Basic Materials,Agrochemicals,Quant_Small_Cap_Dir_Gr,71,674.6,15.71,-43.36,47.5,55,100,100,87,bestagrolife,795.94
+GMMPFAUDLR,784,80,Industrials,Industrial Machinery,Aditya_BSL_Mid_Cap_Dir_Gr,28,1370.85,2.89,-11.24,27.77,73,92,90,59,gmmpfaudler,4611.12
+MAHSEAMLES,785,80,Basic Materials,Iron & Steel/Interm.Products,HSBC_Small_Cap_Fund_Dir_Gr,10,671.9,-26.72,30.4,38.75,99,58,98,35,maharashtraseamless,2881.09
+WSTCSTPAPR,786,80,Basic Materials,Paper & Paper Products,HSBC_Multi_Cap_Dir_Gr,59,609.75,-3.18,-0.14,25.18,83,86,86,81,westcoastpapermills,1750.68
+ALKYLAMINE,787,80,Basic Materials,Specialty Chemicals,HSBC_Small_Cap_Fund_Dir_Gr,63,2104.85,-2.26,-16.33,23.04,81,95,80,82,alkylamineschemicals,3016.68
+BAJAJELEC,788,80,Consumer Cyclical,Household Appliances,HDFC_Small_Cap_Dir_Gr,8,959.65,-4.46,-14.82,21.6,85,94,77,28,bajajelectricals,4115.91
+BIRLACORPN,789,80,Basic Materials,Cement & Cement Products,Baroda_BNP_Paribas_Value_Dir_Gr,14,1330.8,-22.19,17.95,26.15,98,70,88,42,birla,3801.96
+DALBHARAT,790,81,Basic Materials,Cement & Cement Products,Baroda_BNP_P_Lrg___Mid_Cap_Dir_Gr,7,1891.05,-6.24,-7.98,22.2,87,90,79,25,dalmiabharat,15661.87
+KOLTEPATIL,791,81,Real Estate,Realty,Bandhan_Small_Cap_Dir_Gr,36,439.9,-7.24,1.5,24.8,88,83,85,66,koltepatildevelopers,1021.42
+PRINCEPIPE,792,81,Industrials,Plastic Products,Aditya_BSL_Small_Cap_Dir_Gr,9,587.05,0.96,-14.96,24.35,77,94,85,33,princepipesfittings,2535.19
+CSBBANK,793,81,Financial Services,Banks,PGIM_India_Small_Cap_Dir_Gr,17,323.65,-7.79,-1.39,23.35,89,86,82,48,csbbank,3368.92
+GNA,794,81,Consumer Cyclical,Auto Parts & Equipment,Tata_Multicap_Dir_Gr,33,430.3,0.96,-13.57,26.22,76,93,88,64,gnaaxles,588.18
+NAVINFLUOR,795,81,Basic Materials,Commodity Chemicals,Bandhan_Midcap_Dir_Gr,14,3298.4,9.3,-28.68,30.18,65,99,93,43,navinfluorineinternational,11643.41
+RESPONIND,796,81,Basic Materials,Furniture-Furnishing-Paints,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,227,265.9,-10.67,9.92,27.14,92,76,89,99,responsiveindustries,2936.31
+ATFL,797,81,Consumer Defensive,Edible Oils,Tata_Small_Cap_Fund_Dir_Gr,21,836.3,-13.26,1.94,23.28,94,83,81,52,agrotechfoods,982.93
+MASFIN,798,81,Financial Services,Finance (including NBFCs),Bandhan_Sterling_Value_Dir_Gr,45,290.25,-10.51,6.33,25.18,92,80,86,72,masfinancialservices,1757.49
+SATIN,799,82,Financial Services,Finance (including NBFCs),Bandhan_Small_Cap_Dir_Gr,50,214,-7.52,0.82,24.53,89,84,85,76,satincreditcarenetwork,1508.99
+SOUTHBANK,800,82,Financial Services,Banks,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,8,25.63,-17.98,19.77,30.5,96,68,94,30,southindianbank,6705.23
+YATRA,801,82,Consumer Cyclical,Travel Support Services,Tata_Multicap_Dir_Gr,8,147.69,-11.85,4.01,23.87,93,82,83,30,yatraonline,823.64
+GRAPHITE,802,82,Industrials,Other Industrial Goods,ITI_Focused_Equity_Dir_Gr,14,517.1,-12.42,8.82,27.11,93,77,89,43,graphite,3501.66
+SANGHVIMOV,803,82,Industrials,Transport Related Services,ITI_Flexi_Cap_Dir_Gr,38,897.85,-21.32,25.77,39.94,98,63,98,68,sanghvimovers,2050.19
+UTKARSHBNK,804,82,Financial Services,Banks,Bank_of_India_Small_Cap_Dir_Gr,35,49,-4.2,1.55,28.26,85,83,91,66,utkarshsmallfinancebank,1671.62
+VALIANTORG,805,82,Basic Materials,Agrochemicals,Navi_Large___Mid_Cap_Dir_Gr,25,410.4,-4.76,-17.59,22.7,86,95,80,58,valiantorganics,704.24
+TV18BRDCST,806,82,Communication Services,Broadcasting & Cable TV,Quant_Small_Cap_Dir_Gr,13,51.23,-18.23,5.74,25.43,96,80,87,42,tv18broadcast,3477.94
+IKIO,807,82,Technology,Consumer Electronics,Quant_Active_Dir_Gr,29,287.1,0.58,-24.7,27.15,77,98,89,61,ikiolighting,610.15
+MEDPLUS,808,83,Healthcare,Healthcare Supplies,SBI_Focused_Equity_Fund_Dir_Gr,22,679.4,-2.35,-23.63,24.51,81,98,85,54,medplushealthservices,4841.55
+MOLDTKPAC,809,83,Consumer Cyclical,Containers & Packaging,ICICI_Pru_Smallcap_Dir_Gr,24,782.15,-9.49,-20,20.97,91,97,76,56,moldtekpackaging,1747.57
+MUKANDLTD,810,83,Basic Materials,Iron & Steel/Interm.Products,JM_Midcap_Dir_Gr,50,155.41,-4.86,-8.56,26.97,86,90,88,75,mukand,568.14
+NSLNISP,811,83,Basic Materials,Iron & Steel/Interm.Products,ICICI_Pru_MidCap_Dir_Gr,21,53.64,-9.24,-0.11,27.22,90,85,89,53,nmdcsteel,6163.72
+RBLBANK,812,83,Financial Services,Banks,Baroda_BNP_Paribas_Small_Cap_Dir_Gr,5,227.45,-11.08,-2.59,24.36,92,87,85,20,rblbank,13808.94
+ALLCARGO,813,83,Industrials,Transportation - Logistics,Tata_Small_Cap_Fund_Dir_Gr,18,70.02,-12.69,2.82,28.55,93,82,91,49,allcargologistics,2500.72
+SIS,814,83,Industrials,Misc. Commercial Services,Aditya_BSL_Pure_Value_Dir_Gr,67,404.95,-3.32,-11.69,28.27,83,92,91,85,sis,1652.6
+TCIEXP,815,83,Industrials,Transportation - Logistics,LIC_MF_Flexi_Cap_Dir_Gr,27,1129.7,-1.07,-19.26,27.35,80,96,90,59,tciexpress,1317.56
+SSWL,816,83,Consumer Cyclical,Auto Parts & Equipment,Groww_Value_Dir_Gr,23,227.21,-11.32,-7.22,24.01,93,90,84,55,steelstripswheels,1391.29
+SULA,817,84,Consumer Defensive,Breweries & Distilleries,Quant_Small_Cap_Dir_Gr,17,499.35,-6.37,-2.46,28.56,88,87,92,48,sulavineyards,3141.06
+DWARKESH,818,84,Consumer Defensive,Sugar,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,219,76.54,-1.81,-14.81,30.29,81,94,94,99,dwarikeshsugarindustries,821.34
+SHAREINDIA,819,84,Financial Services,Capital Markets,ITI_Multi_Cap_Dir_Gr,59,289.95,-23.97,6.59,28.46,99,79,91,81,shareindiasecurities,2958.51
+CGCL,820,84,Financial Services,Finance (including NBFCs),Quant_Flexi_Cap_Dir_Gr,20,205.52,-15.38,2.48,28.95,95,83,92,51,capriglobalcapital,5104.9
+CONFIPET,821,84,Energy,Oil Marketing & Distribution,Quant_Value_Dir_Gr,22,90.31,-17.34,-6.61,24.74,96,89,85,53,confidencepetroleum,1323.51
+LAOPALA,822,84,Consumer Cyclical,Houseware,DSP_Small_Cap_Dir_Gr,18,331.7,-1.62,-21.69,28.93,81,97,92,49,laopalarg,1265.09
+NILKAMAL,823,84,Consumer Cyclical,Plastic Products,DSP_Small_Cap_Dir_Gr,11,1866.5,-4.99,-20.51,25.94,86,97,88,37,nilkamal,987.66
+POONAWALLA,824,84,Financial Services,Finance (including NBFCs),Samco_Flexi_Cap_Dir_Gr,6,387.3,-15.07,-5.67,25.48,95,89,87,23,poonawallafincorp,11411.93
+APOLLOPIPE,825,84,Industrials,Plastic Products,Bank_of_India_Small_Cap_Dir_Gr,32,605.1,-15.74,-12.51,24.23,95,93,84,63,apollopipes,1353.73
+IDFCFIRSTB,826,85,Financial Services,Banks,Tata_Mid_Cap_Growth_Dir_Gr,6,73.84,-8.33,-18.23,26.67,89,96,88,22,idfcfirstbank,35687.19
+GAEL,827,85,Consumer Defensive,Other Agricultural Products,DSP_Value_Dir_Gr,37,143.05,-26.97,7.09,32.08,100,79,95,67,gujaratambujaexports,2372.56
+KKCL,828,85,Consumer Cyclical,Other Apparels & Accessories,Union_Small_Cap_Dir_Gr,56,621.25,-17.11,-11.37,24.92,96,92,86,79,kewalkiranclothing,985.45
+UNIPARTS,829,85,Industrials,Heavy Electrical Equipment,Taurus_Flexi_Cap_Dir_Gr,28,490.95,-15.95,-19.11,23.89,95,96,83,60,uniparts,760.92
+DELTACORP,830,85,Consumer Cyclical,Other Leisure Facilities,HDFC_Multi_Cap_Dir_Gr,61,133.49,-3.96,-26,30.04,84,98,93,82,delta,2385.61
+JAGRAN,831,85,Communication Services,Publishing,JM_Value_Dir_Gr,52,96.05,-18.46,-9.94,25.83,97,91,88,76,jagranprakashan,648.08
+EQUITASBNK,832,85,Financial Services,Banks,Invesco_India_Smallcap_Dir_Gr,1,81.31,-18.32,-6.38,30.21,96,89,93,2,equitassmallfinancebank,9251.97
+RAJRATAN,833,85,Basic Materials,Auto Parts & Equipment,SBI_Small_Cap_Fund_Dir_Gr,40,597.7,-7.18,-19.3,30.42,88,96,94,69,rajratanglobalwire,1057.86
+SFL,834,85,Consumer Cyclical,Furniture-Furnishing-Paints,SBI_Magnum_Midcap_Dir_Gr,8,926.25,-10.64,-15.99,28.59,92,95,92,30,sheelafoam,3475.5
+MTARTECH,835,86,Industrials,Defence,Navi_Flexi_Cap_Dir_Gr,14,1826.3,-5.6,-18.05,37.46,87,96,97,43,mtartechnologies,3571.69
+UJJIVANSFB,836,86,Financial Services,Banks,Franklin_India_Smaller_Comp_Dir_Gr,53,43.91,-14.15,-10.57,30.3,94,92,94,77,ujjivansmallfinancebank,8492.15
+TNPL,837,86,Basic Materials,Paper & Paper Products,ICICI_Pru_Smallcap_Dir_Gr,35,228.7,-15.37,-12.33,30.91,95,92,94,66,tamilnadunewsprintpapers,1023.79
+SANOFI,838,86,Healthcare,Pharmaceuticals,Aditya_BSL_Small_Cap_Dir_Gr,3,6809,-23.02,-4.8,35.31,98,88,97,14,sanofi,6209.89
+VRLLOG,839,86,Industrials,Transportation - Logistics,Bandhan_Sterling_Value_Dir_Gr,21,529.45,-8.52,-23.65,33.74,89,98,96,53,vrllogistics,1841.29
+CREDITACC,840,86,Financial Services,Finance (including NBFCs),Invesco_India_Smallcap_Dir_Gr,3,1221.05,-16.97,-12.35,32.01,96,93,95,12,creditaccessgrameen,6508.92
+IDEAFORGE,841,86,Technology,Defence,Navi_Flexi_Cap_Dir_Gr,32,720.05,-10.04,-28.15,31.55,91,99,94,63,ideaforgetechnology,2189.36
+MUFTI,842,86,Consumer Cyclical,Specialty Retail,ITI_Large_Cap_Dir_Gr,45,207.86,-9.01,-25.76,36,90,98,97,72,credobrandsmarketing,605.1
+SUBEXLTD,843,86,Technology,IT Software Products,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,117,30.16,-14.68,-15.28,34.15,94,95,96,94,subex,1695
+VIPIND,844,87,Consumer Cyclical,Other Apparels & Accessories,Aditya_BSL_Small_Cap_Dir_Gr,33,486.75,-12.12,-26.8,32.66,93,98,95,65,vipindustries,3334.35
+ANURAS,845,87,Basic Materials,Specialty Chemicals,Quant_Small_Cap_Dir_Gr,25,778.8,-18.39,-22.48,29.6,97,97,93,57,anupamrasayan,3316.36
+DIAMONDYD,846,87,Consumer Defensive,Packaged Foods,Bandhan_Focused_Equity_Dir_Gr,12,856.9,-22.91,-8.6,40.9,98,91,98,39,prataapsnacks,732.36
+SPARC,847,87,Healthcare,Pharmaceuticals,Quant_Small_Cap_Dir_Gr,79,221.36,-37.57,-3.78,53.18,100,87,100,89,sunpharmaadvancedresearch,2466.13
+HINDWAREAP,848,87,Consumer Cyclical,Household Appliances,Taurus_Discovery__Midcap__Dir_Gr,3,369.8,-8.67,-34.76,39.87,90,100,98,12,hindwarehomeinnovation,1301.47
+ACLGATI,849,87,Industrials,Transportation - Logistics,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,243,103.65,-9.63,-29.39,41.65,91,99,99,100,allcargogati,809.16
+IIFL,850,87,Financial Services,Other Financial Services,WhiteOak_Capital_Mid_Cap_Dir_Gr,5,456.3,-19.18,-20.1,33.22,97,97,95,19,iiflfinance,14536.05
+SYRMA,851,87,Technology,Other Electrical Equipment/Products,Union_Small_Cap_Dir_Gr,16,438.35,-14.26,-20.85,37.84,94,97,98,47,syrmasgstechnology,4134.32
+HLEGLAS,852,87,Industrials,Industrial Machinery,DSP_Small_Cap_Dir_Gr,50,409.5,-18.23,-28.73,32.41,96,99,95,75,hleglascoat,931.17
+IRMENERGY,853,88,Utilities,Utilities:Non-Electrical,Quant_Active_Dir_Gr,33,423.4,-23.46,-16.16,33.95,99,95,96,64,irmenergy,868.02
+LANDMARK,854,88,Consumer Cyclical,Specialty Retail,Bandhan_Focused_Equity_Dir_Gr,19,580.4,-18.73,-17.73,35.87,97,96,97,51,landmarkcars,1162.24
+CAMLINFINE,855,88,Basic Materials,Specialty Chemicals,ICICI_Pru_Smallcap_Dir_Gr,55,103.08,-12.27,-36.82,44.68,93,100,99,78,camlinfinesciences,897.46
+SHANKARA,856,88,Consumer Cyclical,Iron & Steel Products,Franklin_India_Smaller_Comp_Dir_Gr,54,598.6,-19.42,-31.17,34.93,97,99,96,78,shankarabuildingproduct,737.1
+ARMANFIN,857,88,Financial Services,Finance (including NBFCs),Sundaram_Focused_Dir_Gr,30,1751.25,-20.41,-26.83,34.65,98,99,96,61,armanfinancialservices,1429.71
+IPL,858,88,Basic Materials,Agrochemicals,Quant_Active_Dir_Gr,47,223.48,-39.78,-12.69,48.24,100,93,100,73,indiapesticides,936.56
+RAMASTEEL,859,88,Basic Materials,Iron & Steel Products,Quant_Value_Dir_Gr,18,10.37,-23.47,-17.83,38.38,99,96,98,50,ramasteeltubes,703.85
+RISHABH,860,88,Technology,Other Electrical Equipment/Products,Groww_Value_Dir_Gr,34,371.6,-25.09,-15.74,41.52,99,95,99,65,rishabhinstruments,423.79
+ZEEL,861,88,Communication Services,Broadcasting & Cable TV,Nippon_India_Focused_Equity_Dir_Gr,28,140.78,-13.1,-46.87,53.03,94,100,100,60,zeeentertainmententerprises,12982.66
+DISHTV,862,89,Communication Services,Broadcasting & Cable TV,Aditya_BSL_Flexi_Cap_Dir_Gr,64,14.75,-30.59,-22.37,43.38,100,97,99,83,dishtv,2606.13
+JPASSOCIAT,863,89,Industrials,Construction & Engineering,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,58,8.3,-60.38,-19.81,69.43,100,96,100,80,jaiprakashassociates,1421.43
+NACLIND,864,89,Basic Materials,Agrochemicals,Quant_Small_Cap_Dir_Gr,92,55.21,-23.05,-32.67,35.05,99,100,97,92,naclindustries,400.14
+KALAMANDIR,865,89,Consumer Cyclical,Other Apparels & Accessories,SBI_Multicap_Dir_Gr,33,170.59,-27.73,-23.16,45.32,100,98,99,64,saisilkskalamandir,1025.58
+TATVA,866,89,Basic Materials,Specialty Chemicals,PGIM_India_Small_Cap_Dir_Gr,45,959.85,-21.47,-45.45,45.84,98,100,99,72,tatvachintanpharmachem,628.23
+VAIBHAVGBL,867,89,Consumer Cyclical,Other Apparels & Accessories,Motilal_Oswal_Flexicap_Dir_Gr,14,317.35,-24.5,-28.21,41.49,99,99,99,44,vaibhavglobal,2257.31
+SPANDANA,868,89,Financial Services,Finance (including NBFCs),JM_Value_Dir_Gr,10,628.9,-32.86,-23.64,49.41,100,98,100,36,spandanasphoortyfinancial,1935.01
+DIVGIITTS,869,89,Consumer Cyclical,Auto Parts & Equipment,LIC_MF_Small_Cap_Fund_Dir_Gr,37,612.7,-26.93,-32.17,46.72,99,100,100,67,divgitorqtransfersystems,740.53
+FUSION,870,89,Financial Services,Finance (including NBFCs),Mirae_Asset_Flexi_Cap_Dir_Gr,20,320.6,-40.37,-49.74,52.49,100,100,100,52,fusionmicrofinance,1369.7
+,871,90,,,Aditya_BSL_Frontline_Equity_Dir_Gr,75,,,,,,,,88,adityabslniftynext50etf,
+,872,90,Consumer Cyclical,,HDFC_Small_Cap_Dir_Gr,42,,,,,,,,70,adityavision,
+,873,90,Technology,,Axis_Growth_Opportunities_Dir_Gr,63,,,,,,,,82,adobeinc,
+,874,90,Financial Services,,Axis_Growth_Opportunities_Dir_Gr,89,,,,,,,,91,aiagroup,
+,875,90,Healthcare,,Axis_Growth_Opportunities_Dir_Gr,84,,,,,,,,90,alconinc,
+,876,90,Communication Services,,SBI_Focused_Equity_Fund_Dir_Gr,2,,,,,,,,7,alphabetincclassa,
+,877,90,Communication Services,,Samco_Flexi_Cap_Dir_Gr,23,,,,,,,,54,alphabetincclassc,
+,878,90,Consumer Cyclical,,Parag_Parikh_Flexi_Cap_Dir_Gr,13,,,,,,,,40,amazoncominc,
+,879,90,Technology,,Axis_Growth_Opportunities_Dir_Gr,61,,,,,,,,81,aristanetworksinc,
+,880,91,Healthcare,,Axis_Growth_Opportunities_Dir_Gr,78,,,,,,,,89,astrazenecaplc,
+,881,91,Consumer Cyclical,,Axis_Growth_Opportunities_Dir_Gr,80,,,,,,,,90,autozoneinc,
+,882,91,,,Axis_Bluechip_Fund_Dir_Gr,32,,,,,,,,63,axisnifty50etf,
+,883,91,Financial Services,,DSP_Value_Dir_Gr,1,,,,,,,,1,berkshirehathawayincclassb,
+,884,91,Consumer Cyclical,,Axis_Growth_Opportunities_Dir_Gr,64,,,,,,,,83,bookingholdinginc,
+,885,91,Consumer Defensive,,ICICI_Pru_Value_Discovery_Dir_Gr,29,,,,,,,,60,britishamericantobaccoplcadr,
+,886,91,Consumer Defensive,,Axis_Growth_Opportunities_Dir_Gr,74,,,,,,,,88,bunzlplc,
+,887,91,,,Sundaram_Multi_Cap_Dir_Gr,66,,,,,,,,84,chennaisuperkings,
+,888,91,Communication Services,,DSP_Equity_Opportunities_Fund_Dir_Gr,75,,,,,,,,88,cityonlineservices,
+,889,92,Consumer Defensive,,Axis_Growth_Opportunities_Dir_Gr,72,,,,,,,,87,cocacolaco,
+,890,92,Technology,,SBI_Flexicap_Dir_Gr,7,,,,,,,,25,cognizanttechnologysolutions,
+,891,92,,,Aditya_BSL_Flexi_Cap_Dir_Gr,38,,,,,,,,67,cpseetf,
+,892,92,,,Sundaram_Multi_Cap_Dir_Gr,67,,,,,,,,84,crescentfinstock,
+,893,92,Real Estate,,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,112,,,,,,,,93,dbrealty,
+,894,92,Industrials,,Bandhan_Focused_Equity_Dir_Gr,22,,,,,,,,54,dcxsystem,
+,895,92,Consumer Cyclical,,Union_Small_Cap_Dir_Gr,69,,,,,,,,86,digidrivedistributors,
+,896,92,Industrials,,LIC_MF_Flexi_Cap_Dir_Gr,50,,,,,,,,75,disa,
+,897,92,Healthcare,,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,185,,,,,,,,97,dishmancarbogenamics,
+,898,93,Basic Materials,,Tata_Small_Cap_Fund_Dir_Gr,9,,,,,,,,31,elantasbeck,
+,899,93,Healthcare,,Axis_Growth_Opportunities_Dir_Gr,82,,,,,,,,90,elevancehealthinc,
+,900,93,Healthcare,,Axis_Growth_Opportunities_Dir_Gr,56,,,,,,,,79,elilillyco,
+,901,93,Basic Materials,,HSBC_Small_Cap_Fund_Dir_Gr,95,,,,,,,,92,emamipapermills,
+,902,93,Technology,,SBI_Large___Midcap_Dir_Gr,18,,,,,,,,49,epamsystemsinc,
+,903,93,Technology,,Bandhan_Focused_Equity_Dir_Gr,17,,,,,,,,48,eurekaforbes,
+,904,93,Technology,,Franklin_India_Bluechip_Dir_Gr,38,,,,,,,,67,freshworksinc,
+,905,93,Basic Materials,,SBI_Large___Midcap_Dir_Gr,76,,,,,,,,89,gayatribioorganics,
+,906,93,Communication Services,,Aditya_BSL_Mid_Cap_Dir_Gr,72,,,,,,,,87,gfl,
+,907,94,Consumer Cyclical,,HDFC_Small_Cap_Dir_Gr,61,,,,,,,,82,goodyear,
+,908,94,,,JM_Large_Cap_Dir_Gr,33,,,,,,,,64,grasiminds,
+,909,94,Basic Materials,,Mahindra_Manulife_Small_Cap_Dir_Gr,9,,,,,,,,32,gujaratstatefertilizerschemicals,
+,910,94,Consumer Cyclical,,SBI_Small_Cap_Fund_Dir_Gr,38,,,,,,,,68,hawkinscookers,
+,911,94,,,HDFC_Large_and_Mid_Cap_Dir_Gr,130,,,,,,,,95,hdfcs&pbsesensexetf,
+,912,94,Basic Materials,,Quant_Small_Cap_Dir_Gr,70,,,,,,,,86,hpadhesives,
+,913,94,Real Estate,,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,29,,,,,,,,61,indiabullsrealestate,
+,914,94,,,Axis_Growth_Opportunities_Dir_Gr,71,,,,,,,,87,isharescores&p500etfusdacc,
+,915,94,,,Axis_Growth_Opportunities_Dir_Gr,60,,,,,,,,81,isharesnasdaq100etfusdacc,
+,916,95,Industrials,,LIC_MF_Small_Cap_Fund_Dir_Gr,4,,,,,,,,17,kennametal,
+,917,95,Industrials,,Bandhan_Small_Cap_Dir_Gr,9,,,,,,,,32,kirloskarferrousindustries,
+,918,95,,,DSP_Small_Cap_Dir_Gr,73,,,,,,,,88,klasspack,
+,919,95,Healthcare,,Sundaram_Small_Cap_Dir_Gr,42,,,,,,,,70,kovaimedicalcenterhospital,
+,920,95,Financial Services,,Invesco_India_Mid_Cap_Dir_Gr,3,,,,,,,,13,l&tfinanceholding,
+,921,95,Healthcare,,SBI_Focused_Equity_Fund_Dir_Gr,16,,,,,,,,47,lonzagroup,
+,922,95,Consumer Cyclical,,Axis_Growth_Opportunities_Dir_Gr,70,,,,,,,,86,lowe'scompaniesinc,
+,923,95,Financial Services,,Samco_Flexi_Cap_Dir_Gr,24,,,,,,,,56,mastercardincclassa,
+,924,95,Healthcare,,Axis_Growth_Opportunities_Dir_Gr,73,,,,,,,,88,medtronicplc,
+,925,96,Healthcare,,Axis_Growth_Opportunities_Dir_Gr,62,,,,,,,,82,merckcoinc,
+,926,96,Communication Services,,Parag_Parikh_Flexi_Cap_Dir_Gr,12,,,,,,,,39,metaplatformsincclassa,
+,927,96,Technology,,Parag_Parikh_Flexi_Cap_Dir_Gr,10,,,,,,,,35,microsoftcorp,
+,928,96,,,Franklin_India_Smaller_Comp_Dir_Gr,81,,,,,,,,90,musicbroadcast,
+,929,96,Basic Materials,,Aditya_BSL_Pure_Value_Dir_Gr,68,,,,,,,,85,nathbiogenes,
+,930,96,Basic Materials,,Union_Small_Cap_Dir_Gr,20,,,,,,,,52,neogenchemicals,
+,931,96,Communication Services,,Axis_Growth_Opportunities_Dir_Gr,52,,,,,,,,77,netflixinc,
+,932,96,,,Edelweiss_Large_Cap_Dir_Gr,14,,,,,,,,43,nifty29/02/2024,
+,933,96,,,Axis_Small_Cap_Fund_Dir_Gr,13,,,,,,,,41,nifty50indexfebruary2024future,
+,934,97,,,Edelweiss_Large_Cap_Dir_Gr,74,,,,,,,,88,niftybank29/02/2024,
+,935,97,,,Nippon_India_Value_Dir_Gr,69,,,,,,,,86,nipponindiaetfnifty50value20,
+,936,97,,,Bank_of_India_Flexi_Cap_Fund_Dir_Gr,1,,,,,,,,5,nipponindiaetfniftypsubankbees,
+,937,97,Healthcare,,Samco_Flexi_Cap_Dir_Gr,21,,,,,,,,53,novonordiska/sadr,
+,938,97,Technology,,Axis_Growth_Opportunities_Dir_Gr,29,,,,,,,,61,nvidiacorp,
+,939,97,Technology,,WhiteOak_Capital_Flexi_Cap_Dir_Gr,67,,,,,,,,84,onwardtechnologies,
+,940,97,Technology,,Axis_Growth_Opportunities_Dir_Gr,81,,,,,,,,90,oraclecorp,
+,941,97,Basic Materials,,HDFC_Small_Cap_Dir_Gr,72,,,,,,,,87,orientalcarbonchemicals,
+,942,97,Consumer Defensive,,Taurus_Discovery__Midcap__Dir_Gr,40,,,,,,,,69,paragmilkfood,
+,943,98,Industrials,,Axis_Growth_Opportunities_Dir_Gr,76,,,,,,,,89,parkerhannifincorp,
+,944,98,,,Tata_Small_Cap_Fund_Dir_Gr,51,,,,,,,,76,powergridinfrastructureinvestmenttrustunits,
+,945,98,Basic Materials,,Quant_Small_Cap_Dir_Gr,84,,,,,,,,91,primochemicals,
+,946,98,Technology,,Baroda_BNP_Paribas_Small_Cap_Dir_Gr,29,,,,,,,,61,proteanegovtechnologies,
+,947,98,Industrials,,WhiteOak_Capital_Flexi_Cap_Dir_Gr,80,,,,,,,,90,radiantcashmanagementservices,
+,948,98,Consumer Defensive,,Axis_Growth_Opportunities_Dir_Gr,86,,,,,,,,91,reckittbenckisergroupplc,
+,949,98,Industrials,,HDFC_Small_Cap_Dir_Gr,74,,,,,,,,88,sadbhavengineering,
+,950,98,Industrials,,HDFC_Capital_Builder_Value_Dir_Gr,71,,,,,,,,87,sadbhavinfrastructureprojects,
+,951,98,Healthcare,,Axis_Growth_Opportunities_Dir_Gr,77,,,,,,,,89,sanofisaadr,
+,952,99,Industrials,,Shriram_Flexi_Cap_Dir_Gr,66,,,,,,,,84,shilchartechnologies,
+,953,99,,,SBI_Small_Cap_Fund_Dir_Gr,54,,,,,,,,78,shreno,
+,954,99,Industrials,,Axis_Growth_Opportunities_Dir_Gr,67,,,,,,,,85,siemensagadr,
+,955,99,Industrials,,Kotak_Small_Cap_Dir_Gr,25,,,,,,,,57,somanyceramics,
+,956,99,Technology,,Axis_Growth_Opportunities_Dir_Gr,66,,,,,,,,84,sonygroup,
+,957,99,Consumer Cyclical,,Tata_Large___Mid_Cap_Dir_Gr,11,,,,,,,,38,sundaramfasteners,
+,958,99,Technology,,Axis_Growth_Opportunities_Dir_Gr,69,,,,,,,,86,taiwansemiconductormanufacturing,
+,959,99,Basic Materials,,HDFC_Small_Cap_Dir_Gr,47,,,,,,,,74,tatametaliks,
+,960,99,Technology,,Franklin_India_Smaller_Comp_Dir_Gr,80,,,,,,,,90,tracxntechnologies,
+,961,100,,,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,9,,,,,,,,33,ujjivanfinancialservices,
+,962,100,Healthcare,,Axis_Growth_Opportunities_Dir_Gr,68,,,,,,,,86,unitedhealthgroupinc,
+,963,100,Consumer Defensive,,Motilal_Oswal_Nifty_Mcrcp_250_Idx_Dir_Gr,222,,,,,,,,99,venkys,
+,964,100,Healthcare,,ICICI_Pru_Value_Discovery_Dir_Gr,12,,,,,,,,40,viatrisinc,
+,965,100,Financial Services,,Axis_Growth_Opportunities_Dir_Gr,55,,,,,,,,79,visaincclassa,
+,966,100,Communication Services,,ICICI_Pru_Value_Discovery_Dir_Gr,15,,,,,,,,46,vodafonegroupplcadr,
+,967,100,Consumer Cyclical,,HSBC_Small_Cap_Fund_Dir_Gr,92,,,,,,,,92,wimplast,
+,968,100,,,Kotak_Small_Cap_Dir_Gr,64,,,,,,,,83,wpil,
+,969,100,Basic Materials,,HSBC_Value_Dir_Gr,66,,,,,,,,84,zuariagrochemicals,

@@ -339,7 +339,7 @@
       "display": "2024-12"
     }
   ],
-  "pf_ranks_path": "data/PF_Ranks.xlsx",
+  "pf_ranks_path": "data/PF_Ranks_lite.xlsx",
   "defaults": {
     "current_rank": {
       "filename": "out_13-Feb-26.csv",
