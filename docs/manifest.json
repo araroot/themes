@@ -1,0 +1,365 @@
+{
+  "rank_files": [
+    {
+      "filename": "out_13-Feb-26.csv",
+      "path": "data/eom_price/out_13-Feb-26.csv",
+      "date": {
+        "year": 2026,
+        "month": 2,
+        "day": 13
+      },
+      "display": "2026-02-13"
+    },
+    {
+      "filename": "out_30-Jan-26.csv",
+      "path": "data/eom_price/out_30-Jan-26.csv",
+      "date": {
+        "year": 2026,
+        "month": 1,
+        "day": 30
+      },
+      "display": "2026-01-30"
+    },
+    {
+      "filename": "out_31-Dec-25.csv",
+      "path": "data/eom_price/out_31-Dec-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 31
+      },
+      "display": "2025-12-31"
+    },
+    {
+      "filename": "out_30-Nov-25.csv",
+      "path": "data/eom_price/out_30-Nov-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 30
+      },
+      "display": "2025-11-30"
+    },
+    {
+      "filename": "out_31-Oct-25.csv",
+      "path": "data/eom_price/out_31-Oct-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 10,
+        "day": 31
+      },
+      "display": "2025-10-31"
+    },
+    {
+      "filename": "out_30-Sep-25.csv",
+      "path": "data/eom_price/out_30-Sep-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 9,
+        "day": 30
+      },
+      "display": "2025-09-30"
+    },
+    {
+      "filename": "out_31-Aug-25.csv",
+      "path": "data/eom_price/out_31-Aug-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 8,
+        "day": 31
+      },
+      "display": "2025-08-31"
+    },
+    {
+      "filename": "out_31-Jul-25.csv",
+      "path": "data/eom_price/out_31-Jul-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 7,
+        "day": 31
+      },
+      "display": "2025-07-31"
+    },
+    {
+      "filename": "out_30-Jun-25.csv",
+      "path": "data/eom_price/out_30-Jun-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 6,
+        "day": 30
+      },
+      "display": "2025-06-30"
+    },
+    {
+      "filename": "out_31-May-25.csv",
+      "path": "data/eom_price/out_31-May-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 5,
+        "day": 31
+      },
+      "display": "2025-05-31"
+    },
+    {
+      "filename": "out_30-Apr-25.csv",
+      "path": "data/eom_price/out_30-Apr-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 4,
+        "day": 30
+      },
+      "display": "2025-04-30"
+    },
+    {
+      "filename": "out_31-Mar-25.csv",
+      "path": "data/eom_price/out_31-Mar-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 3,
+        "day": 31
+      },
+      "display": "2025-03-31"
+    },
+    {
+      "filename": "out_28-Feb-25.csv",
+      "path": "data/eom_price/out_28-Feb-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 2,
+        "day": 28
+      },
+      "display": "2025-02-28"
+    },
+    {
+      "filename": "out_31-Jan-25.csv",
+      "path": "data/eom_price/out_31-Jan-25.csv",
+      "date": {
+        "year": 2025,
+        "month": 1,
+        "day": 31
+      },
+      "display": "2025-01-31"
+    },
+    {
+      "filename": "out_31-Dec-24.csv",
+      "path": "data/eom_price/out_31-Dec-24.csv",
+      "date": {
+        "year": 2024,
+        "month": 12,
+        "day": 31
+      },
+      "display": "2024-12-31"
+    },
+    {
+      "filename": "out_30-Nov-24.csv",
+      "path": "data/eom_price/out_30-Nov-24.csv",
+      "date": {
+        "year": 2024,
+        "month": 11,
+        "day": 30
+      },
+      "display": "2024-11-30"
+    },
+    {
+      "filename": "out_31-Oct-24.csv",
+      "path": "data/eom_price/out_31-Oct-24.csv",
+      "date": {
+        "year": 2024,
+        "month": 10,
+        "day": 31
+      },
+      "display": "2024-10-31"
+    },
+    {
+      "filename": "out_30-Sep-24.csv",
+      "path": "data/eom_price/out_30-Sep-24.csv",
+      "date": {
+        "year": 2024,
+        "month": 9,
+        "day": 30
+      },
+      "display": "2024-09-30"
+    },
+    {
+      "filename": "out_31-Aug-24.csv",
+      "path": "data/eom_price/out_31-Aug-24.csv",
+      "date": {
+        "year": 2024,
+        "month": 8,
+        "day": 31
+      },
+      "display": "2024-08-31"
+    },
+    {
+      "filename": "out_31-Jul-24.csv",
+      "path": "data/eom_price/out_31-Jul-24.csv",
+      "date": {
+        "year": 2024,
+        "month": 7,
+        "day": 31
+      },
+      "display": "2024-07-31"
+    },
+    {
+      "filename": "out_30-Jun-24.csv",
+      "path": "data/eom_price/out_30-Jun-24.csv",
+      "date": {
+        "year": 2024,
+        "month": 6,
+        "day": 30
+      },
+      "display": "2024-06-30"
+    }
+  ],
+  "pivot_files": [
+    {
+      "filename": "Jan26_pivot_features.xlsx",
+      "path": "data/final/Jan26_pivot_features.xlsx",
+      "date": {
+        "year": 2026,
+        "month": 1
+      },
+      "display": "2026-01"
+    },
+    {
+      "filename": "Dec25_pivot_features.xlsx",
+      "path": "data/final/Dec25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 12
+      },
+      "display": "2025-12"
+    },
+    {
+      "filename": "Nov25_pivot_features.xlsx",
+      "path": "data/final/Nov25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 11
+      },
+      "display": "2025-11"
+    },
+    {
+      "filename": "Oct25_pivot_features.xlsx",
+      "path": "data/final/Oct25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 10
+      },
+      "display": "2025-10"
+    },
+    {
+      "filename": "Sep25_pivot_features.xlsx",
+      "path": "data/final/Sep25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 9
+      },
+      "display": "2025-09"
+    },
+    {
+      "filename": "Aug25_pivot_features.xlsx",
+      "path": "data/final/Aug25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 8
+      },
+      "display": "2025-08"
+    },
+    {
+      "filename": "Jul25_pivot_features.xlsx",
+      "path": "data/final/Jul25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 7
+      },
+      "display": "2025-07"
+    },
+    {
+      "filename": "Jun25_pivot_features.xlsx",
+      "path": "data/final/Jun25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 6
+      },
+      "display": "2025-06"
+    },
+    {
+      "filename": "May25_pivot_features.xlsx",
+      "path": "data/final/May25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 5
+      },
+      "display": "2025-05"
+    },
+    {
+      "filename": "Apr25_pivot_features.xlsx",
+      "path": "data/final/Apr25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 4
+      },
+      "display": "2025-04"
+    },
+    {
+      "filename": "Mar25_pivot_features.xlsx",
+      "path": "data/final/Mar25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 3
+      },
+      "display": "2025-03"
+    },
+    {
+      "filename": "Feb25_pivot_features.xlsx",
+      "path": "data/final/Feb25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 2
+      },
+      "display": "2025-02"
+    },
+    {
+      "filename": "Jan25_pivot_features.xlsx",
+      "path": "data/final/Jan25_pivot_features.xlsx",
+      "date": {
+        "year": 2025,
+        "month": 1
+      },
+      "display": "2025-01"
+    },
+    {
+      "filename": "Dec24_pivot_features.xlsx",
+      "path": "data/final/Dec24_pivot_features.xlsx",
+      "date": {
+        "year": 2024,
+        "month": 12
+      },
+      "display": "2024-12"
+    }
+  ],
+  "pf_ranks_path": "data/PF_Ranks.xlsx",
+  "defaults": {
+    "current_rank": {
+      "filename": "out_13-Feb-26.csv",
+      "path": "data/eom_price/out_13-Feb-26.csv",
+      "date": {
+        "year": 2026,
+        "month": 2,
+        "day": 13
+      },
+      "display": "2026-02-13"
+    },
+    "prev_rank": {
+      "filename": "out_30-Jan-26.csv",
+      "path": "data/eom_price/out_30-Jan-26.csv",
+      "date": {
+        "year": 2026,
+        "month": 1,
+        "day": 30
+      },
+      "display": "2026-01-30"
+    }
+  }
+}
