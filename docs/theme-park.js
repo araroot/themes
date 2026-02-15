@@ -515,6 +515,9 @@ async function loadAndRenderData() {
         const mfRows = buildMFThemeTable(bbData);
         const combinedRows = buildCombinedTable(rankRows, mfRows);
 
+        // IMPORTANT CHECK: Verify all portfolio symbols are in the dashboard
+        checkMissingPortfolioSymbols(combinedRows, rankCurrent);
+
         // Render
         const html = renderCombinedTable(combinedRows, currentRankFile.display);
         container.innerHTML = html;
@@ -522,6 +525,41 @@ async function loadAndRenderData() {
     } catch (error) {
         showError('Failed to load data: ' + error.message);
         console.error(error);
+    }
+}
+
+// Check if any portfolio symbols are missing from dashboard
+function checkMissingPortfolioSymbols(combinedRows, rankCurrent) {
+    // Get all symbols shown in dashboard
+    const displayedSymbols = new Set();
+
+    themeMap.forEach((symbols, theme) => {
+        symbols.forEach(symbol => {
+            // Only count symbols that have current rank data (actually displayed)
+            if (rankCurrent.has(symbol) && !isNaN(rankCurrent.get(symbol))) {
+                displayedSymbols.add(symbol);
+            }
+        });
+    });
+
+    // Find missing portfolio symbols
+    const missingSymbols = Array.from(portfolioSymbols).filter(symbol => {
+        // Symbol is missing if it's NOT displayed AND has rank data available
+        return !displayedSymbols.has(symbol) && rankCurrent.has(symbol);
+    });
+
+    const alertDiv = document.getElementById('missingSymbolsAlert');
+    const listDiv = document.getElementById('missingSymbolsList');
+
+    if (missingSymbols.length > 0) {
+        // Show warning
+        alertDiv.style.display = 'block';
+        listDiv.innerHTML = missingSymbols.sort().map(s => `<span style="display:inline-block;margin:0 8px 4px 0;">${s}</span>`).join('');
+        console.error(`⚠️ MISSING PORTFOLIO SYMBOLS (${missingSymbols.length}):`, missingSymbols);
+    } else {
+        // Hide warning
+        alertDiv.style.display = 'none';
+        console.log('✓ All portfolio symbols accounted for in dashboard');
     }
 }
 
