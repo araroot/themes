@@ -244,9 +244,29 @@ async function loadPivotFile(path) {
     const sheet = workbook.Sheets['Summary Data'];
     const data = XLSX.utils.sheet_to_json(sheet);
 
-    // Parse BB columns
+    // Parse BB columns and sort chronologically (not alphabetically!)
     const bbData = new Map();
-    const bbCols = Object.keys(data[0] || {}).filter(col => col.startsWith('bb_') && col !== 'bb_').sort();
+    const bbColsRaw = Object.keys(data[0] || {}).filter(col => col.startsWith('bb_') && col !== 'bb_');
+
+    // Sort BB columns chronologically
+    const monthMap = {
+        'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6,
+        'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12
+    };
+
+    const parseBBDate = (colName) => {
+        // Extract month and year from column name like "bb_Dec25"
+        const match = colName.match(/bb_([A-Za-z]+)(\d+)/);
+        if (match) {
+            const monthStr = match[1];
+            const year = parseInt('20' + match[2]);
+            const month = monthMap[monthStr.substring(0, 3)] || 0;
+            return year * 12 + month; // Convert to sortable number
+        }
+        return 0;
+    };
+
+    const bbCols = bbColsRaw.sort((a, b) => parseBBDate(a) - parseBBDate(b));
 
     data.forEach(row => {
         const symbol = String(row.Symbol || '').trim().toUpperCase();
