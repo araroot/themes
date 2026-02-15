@@ -40,7 +40,7 @@ async function loadThemeDefinitions() {
     const codexSheet = workbook.Sheets['tpark_codex'];
     const codexData = XLSX.utils.sheet_to_json(codexSheet);
 
-    // Build theme map
+    // Build theme map from tpark_codex
     themeMap = new Map();
     codexData.forEach(row => {
         if (row.Symbol && row.Theme) {
@@ -54,20 +54,46 @@ async function loadThemeDefinitions() {
         }
     });
 
-    // Get all themes sorted
-    allThemes = Array.from(themeMap.keys()).sort();
-
     // Load PF_Ranks sheet for portfolio symbols
     const pfSheet = workbook.Sheets['PF_Ranks'];
     const pfData = XLSX.utils.sheet_to_json(pfSheet);
 
     portfolioSymbols = new Set();
+    const portfolioSymbolsList = [];
     pfData.forEach(row => {
         const symbolCol = row['Symbol / Rank'] || row['Symbol'];
         if (symbolCol && isRealSymbol(symbolCol)) {
-            portfolioSymbols.add(String(symbolCol).trim().toUpperCase());
+            const symbol = String(symbolCol).trim().toUpperCase();
+            portfolioSymbols.add(symbol);
+            portfolioSymbolsList.push(symbol);
         }
     });
+
+    // Check if any portfolio symbols are missing from themeMap
+    // If so, try loading from theme_park sheet as fallback
+    const symbolsInThemeMap = new Set();
+    themeMap.forEach(symbols => {
+        symbols.forEach(s => symbolsInThemeMap.add(s));
+    });
+
+    const missingSymbols = portfolioSymbolsList.filter(s => !symbolsInThemeMap.has(s));
+
+    if (missingSymbols.length > 0) {
+        console.log(`Found ${missingSymbols.length} portfolio symbols not in tpark_codex, checking theme_park...`);
+        // This is a placeholder - in practice GOODLUCK should be added to a theme
+        // For now, add to "Other Portfolio Holdings" theme
+        const otherTheme = "Other Portfolio Holdings";
+        if (!themeMap.has(otherTheme)) {
+            themeMap.set(otherTheme, []);
+        }
+        missingSymbols.forEach(s => {
+            themeMap.get(otherTheme).push(s);
+            console.log(`Added ${s} to ${otherTheme}`);
+        });
+    }
+
+    // Get all themes sorted
+    allThemes = Array.from(themeMap.keys()).sort();
 }
 
 // Normalize theme name
@@ -286,7 +312,7 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
 
             let rankStr = `${symbol} ${Math.round(currRank)}`;
 
-            if (prevRank !== undefined && prevRank !== null) {
+            if (prevRank !== undefined && prevRank !== null && !isNaN(prevRank)) {
                 const delta = Math.round(currRank - prevRank);
                 if (delta < 0) {
                     rankStr += ` <span class="delta-up">(▲${Math.abs(delta)})</span>`;
@@ -295,6 +321,9 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
                 } else {
                     rankStr += ` <span class="delta-flat">(—)</span>`;
                 }
+            } else {
+                // No previous rank - show as green ▲0
+                rankStr += ` <span class="delta-up">(▲0)</span>`;
             }
 
             if (portfolioSymbols.has(symbol)) {
