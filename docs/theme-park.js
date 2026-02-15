@@ -375,7 +375,7 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
 }
 
 // Build MF theme table
-function buildMFThemeTable(bbData) {
+function buildMFThemeTable(bbData, rankCurrent) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -384,10 +384,19 @@ function buildMFThemeTable(bbData) {
         let portfolioCells = [];
         let otherCells = [];
 
-        themeSymbols.forEach(symbol => {
-            const bbValues = bbData.get(symbol);
-            if (!bbValues || bbValues.length === 0) return;
+        // Sort stocks by current rank (same order as rank table)
+        const symbolData = themeSymbols
+            .map(symbol => {
+                const currRank = rankCurrent.get(symbol);
+                const bbValues = bbData.get(symbol);
+                if (!bbValues || bbValues.length === 0) return null;
+                return { symbol, currRank: currRank || 999 };
+            })
+            .filter(item => item !== null)
+            .sort((a, b) => a.currRank - b.currRank);
 
+        symbolData.forEach(({ symbol }) => {
+            const bbValues = bbData.get(symbol);
             const bbText = `${symbol} (${bbValues.join(', ')})`;
 
             if (portfolioSymbols.has(symbol)) {
@@ -538,7 +547,7 @@ async function loadAndRenderData() {
 
         // Build tables
         const rankRows = buildThemeRankTable(rankCurrent, rankPrev);
-        const mfRows = buildMFThemeTable(bbData);
+        const mfRows = buildMFThemeTable(bbData, rankCurrent);
         const combinedRows = buildCombinedTable(rankRows, mfRows);
 
         // IMPORTANT CHECK: Verify all portfolio symbols are in the dashboard
