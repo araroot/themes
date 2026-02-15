@@ -249,14 +249,14 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
         let portfolioCells = [];
         let otherCells = [];
 
-        // Calculate median
+        // Calculate median (filter out NaN, null, undefined)
         const currentRanks = themeSymbols
             .map(s => rankCurrent.get(s))
-            .filter(r => r !== undefined && r !== null);
+            .filter(r => r !== undefined && r !== null && !isNaN(r));
 
         const prevRanks = themeSymbols
             .map(s => rankPrev.get(s))
-            .filter(r => r !== undefined && r !== null);
+            .filter(r => r !== undefined && r !== null && !isNaN(r));
 
         const medianCurrent = currentRanks.length > 0 ? median(currentRanks) : null;
         const medianPrev = prevRanks.length > 0 ? median(prevRanks) : null;
@@ -280,7 +280,7 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
         // Build symbol lists
         themeSymbols.forEach(symbol => {
             const currRank = rankCurrent.get(symbol);
-            if (currRank === undefined || currRank === null) return;
+            if (currRank === undefined || currRank === null || isNaN(currRank)) return;
 
             const prevRank = rankPrev.get(symbol);
 
