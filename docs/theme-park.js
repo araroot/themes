@@ -318,7 +318,7 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
                 } else if (delta > 0) {
                     medianStr += ` <span class="delta-down">(▼${delta})</span>`;
                 } else {
-                    medianStr += ` <span class="delta-flat">(—)</span>`;
+                    medianStr += ` <span class="delta-flat">(0)</span>`;
                 }
             }
         }
@@ -339,7 +339,7 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
                 } else if (delta > 0) {
                     rankStr += ` <span class="delta-down">(▼${delta})</span>`;
                 } else {
-                    rankStr += ` <span class="delta-flat">(—)</span>`;
+                    rankStr += ` <span class="delta-flat">(0)</span>`;
                 }
             } else {
                 // No previous rank - show as green ▲0
