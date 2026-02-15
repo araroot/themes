@@ -11,8 +11,10 @@ ENV/
 # macOS
 .DS_Store
 
-# Data files
+# Data files (exclude docs/data - needed for GitHub Pages)
 *.xlsx
+!docs/data/**/*.xlsx
+!docs/data/*.xlsx
 
 # IDE
 .vscode/
