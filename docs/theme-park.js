@@ -307,10 +307,14 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
         rows.push({
             theme,
             median: medianStr,
+            medianValue: medianCurrent !== null ? Math.round(medianCurrent) : 999, // For sorting
             portfolio: portfolioCells.join('<br/>'),
             others: otherCells.join('<br/>')
         });
     });
+
+    // Sort by median rank (ascending - lower rank is better)
+    rows.sort((a, b) => a.medianValue - b.medianValue);
 
     return rows;
 }
@@ -352,12 +356,18 @@ function buildMFThemeTable(bbData) {
 function buildCombinedTable(rankRows, mfRows) {
     const combined = [];
 
-    allThemes.forEach((theme, i) => {
-        const rankRow = rankRows[i];
-        const mfRow = mfRows[i];
+    // Create a map of MF rows by theme for quick lookup
+    const mfRowsByTheme = new Map();
+    mfRows.forEach(row => {
+        mfRowsByTheme.set(row.theme, row);
+    });
+
+    // Iterate over rankRows (already sorted by median)
+    rankRows.forEach(rankRow => {
+        const mfRow = mfRowsByTheme.get(rankRow.theme) || { portfolio: '', others: '' };
 
         combined.push({
-            theme: theme,
+            theme: rankRow.theme,
             median: rankRow.median,
             portfolioRank: rankRow.portfolio,
             portfolioBB: mfRow.portfolio,
