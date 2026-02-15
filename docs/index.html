@@ -232,6 +232,27 @@
             color: #856404;
         }
 
+        .alert-warning {
+            background: #fff3cd;
+            border: 2px solid #ff9800;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 0 0 20px 0;
+            color: #856404;
+            font-size: 14px;
+        }
+
+        .alert-warning strong {
+            color: #ff6b00;
+            font-size: 15px;
+        }
+
+        #missingSymbolsList {
+            color: #d32f2f;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+
         @media (max-width: 768px) {
             body {
                 padding: 12px;
@@ -299,6 +320,10 @@
         </div>
 
         <div class="content">
+            <div id="missingSymbolsAlert" style="display:none;" class="alert-warning">
+                <strong>⚠️ Warning:</strong> The following portfolio symbols are missing from the dashboard:
+                <div id="missingSymbolsList" style="margin-top: 8px; font-family: monospace;"></div>
+            </div>
             <div id="tableContainer" class="loading">Loading data</div>
         </div>
     </div>
