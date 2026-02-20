@@ -156,10 +156,10 @@ function populateDropdowns() {
 
     // Set defaults
     currentSelect.value = 0;
-    prevSelect.value = manifest.rank_files.length > 1 ? 1 : 0;
 
-    // Auto-match pivot to current rank
+    // Auto-match pivot and previous rank to current rank
     updatePivotSelection();
+    updatePrevRankSelection();
 }
 
 // Auto-match pivot file to current rank date
@@ -209,10 +209,50 @@ function updatePivotSelection() {
     document.getElementById('pivotSelect').value = matchedIndex;
 }
 
+// Auto-populate previous rank to ~1 month before current rank
+function updatePrevRankSelection() {
+    const currentRankIndex = parseInt(document.getElementById('currentRankSelect').value);
+    const currentRank = manifest.rank_files[currentRankIndex];
+    if (!currentRank) return;
+
+    const { year, month, day } = currentRank.date;
+
+    // Calculate target date (1 month before)
+    let targetYear = year;
+    let targetMonth = month - 1;
+    let targetDay = day;
+
+    if (targetMonth < 1) {
+        targetMonth = 12;
+        targetYear -= 1;
+    }
+
+    // Find closest rank file to target date
+    let bestIndex = currentRankIndex + 1; // Default to next in list (older)
+    let minDiff = Infinity;
+
+    for (let i = 0; i < manifest.rank_files.length; i++) {
+        if (i === currentRankIndex) continue; // Skip current
+
+        const rank = manifest.rank_files[i];
+        const rankDate = new Date(rank.date.year, rank.date.month - 1, rank.date.day);
+        const targetDate = new Date(targetYear, targetMonth - 1, targetDay);
+        const diff = Math.abs(rankDate - targetDate);
+
+        if (diff < minDiff) {
+            minDiff = diff;
+            bestIndex = i;
+        }
+    }
+
+    document.getElementById('prevRankSelect').value = bestIndex;
+}
+
 // Setup event listeners
 function setupEventListeners() {
     document.getElementById('currentRankSelect').addEventListener('change', () => {
         updatePivotSelection();
+        updatePrevRankSelection();
         loadAndRenderData();
     });
 
