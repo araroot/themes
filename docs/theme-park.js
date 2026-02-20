@@ -218,6 +218,7 @@ function setupEventListeners() {
 
     document.getElementById('prevRankSelect').addEventListener('change', loadAndRenderData);
     document.getElementById('pivotSelect').addEventListener('change', loadAndRenderData);
+    document.getElementById('separatePortfolioToggle').addEventListener('change', loadAndRenderData);
 }
 
 // Load CSV file
@@ -286,7 +287,7 @@ async function loadPivotFile(path) {
 }
 
 // Build theme rank table
-function buildThemeRankTable(rankCurrent, rankPrev) {
+function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -294,6 +295,7 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
 
         let portfolioCells = [];
         let otherCells = [];
+        let allCells = [];
 
         // Calculate median (filter out NaN, null, undefined)
         const currentRanks = themeSymbols
@@ -352,20 +354,31 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
                 rankStr += ` <span class="delta-up">(▲0)</span>`;
             }
 
-            if (portfolioSymbols.has(symbol)) {
-                portfolioCells.push(rankStr);
+            if (separatePortfolio) {
+                if (portfolioSymbols.has(symbol)) {
+                    portfolioCells.push(rankStr);
+                } else {
+                    otherCells.push(rankStr);
+                }
             } else {
-                otherCells.push(rankStr);
+                allCells.push(rankStr);
             }
         });
 
-        rows.push({
+        const rowData = {
             theme,
             median: medianStr,
             medianValue: medianCurrent !== null ? Math.round(medianCurrent) : 999, // For sorting
-            portfolio: portfolioCells.join('<br/>'),
-            others: otherCells.join('<br/>')
-        });
+        };
+
+        if (separatePortfolio) {
+            rowData.portfolio = portfolioCells.join('<br/>');
+            rowData.others = otherCells.join('<br/>');
+        } else {
+            rowData.all = allCells.join('<br/>');
+        }
+
+        rows.push(rowData);
     });
 
     // Sort by median rank (ascending - lower rank is better)
@@ -375,7 +388,7 @@ function buildThemeRankTable(rankCurrent, rankPrev) {
 }
 
 // Build MF theme table
-function buildMFThemeTable(bbData, rankCurrent) {
+function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -383,6 +396,7 @@ function buildMFThemeTable(bbData, rankCurrent) {
 
         let portfolioCells = [];
         let otherCells = [];
+        let allCells = [];
 
         // Sort stocks by current rank (same order as rank table)
         const symbolData = themeSymbols
@@ -399,25 +413,34 @@ function buildMFThemeTable(bbData, rankCurrent) {
             const bbValues = bbData.get(symbol);
             const bbText = `${symbol} (${bbValues.join(', ')})`;
 
-            if (portfolioSymbols.has(symbol)) {
-                portfolioCells.push(bbText);
+            if (separatePortfolio) {
+                if (portfolioSymbols.has(symbol)) {
+                    portfolioCells.push(bbText);
+                } else {
+                    otherCells.push(bbText);
+                }
             } else {
-                otherCells.push(bbText);
+                allCells.push(bbText);
             }
         });
 
-        rows.push({
-            theme,
-            portfolio: portfolioCells.join('<br/>'),
-            others: otherCells.join('<br/>')
-        });
+        const rowData = { theme };
+
+        if (separatePortfolio) {
+            rowData.portfolio = portfolioCells.join('<br/>');
+            rowData.others = otherCells.join('<br/>');
+        } else {
+            rowData.all = allCells.join('<br/>');
+        }
+
+        rows.push(rowData);
     });
 
     return rows;
 }
 
 // Build combined table
-function buildCombinedTable(rankRows, mfRows) {
+function buildCombinedTable(rankRows, mfRows, separatePortfolio = true) {
     const combined = [];
 
     // Create a map of MF rows by theme for quick lookup
@@ -428,16 +451,25 @@ function buildCombinedTable(rankRows, mfRows) {
 
     // Iterate over rankRows (already sorted by median)
     rankRows.forEach(rankRow => {
-        const mfRow = mfRowsByTheme.get(rankRow.theme) || { portfolio: '', others: '' };
-
-        combined.push({
+        const combinedRow = {
             theme: rankRow.theme,
             median: rankRow.median,
-            portfolioRank: rankRow.portfolio,
-            portfolioBB: mfRow.portfolio,
-            othersRank: rankRow.others,
-            othersBB: mfRow.others
-        });
+            separatePortfolio: separatePortfolio
+        };
+
+        if (separatePortfolio) {
+            const mfRow = mfRowsByTheme.get(rankRow.theme) || { portfolio: '', others: '' };
+            combinedRow.portfolioRank = rankRow.portfolio;
+            combinedRow.portfolioBB = mfRow.portfolio;
+            combinedRow.othersRank = rankRow.others;
+            combinedRow.othersBB = mfRow.others;
+        } else {
+            const mfRow = mfRowsByTheme.get(rankRow.theme) || { all: '' };
+            combinedRow.allRank = rankRow.all;
+            combinedRow.allBB = mfRow.all;
+        }
+
+        combined.push(combinedRow);
     });
 
     return combined;
@@ -445,11 +477,19 @@ function buildCombinedTable(rankRows, mfRows) {
 
 // Render combined table as HTML
 function renderCombinedTable(rows, dateStr) {
+    if (rows.length === 0) return '<div>No data</div>';
+
+    const separatePortfolio = rows[0].separatePortfolio;
+
     let html = `
         <div style="margin:4px 0 8px 0;color:#666;font-size:12px;">
             Combined View: Ranks + MF BB Signals - As of ${dateStr}
         </div>
         <table class="tp-table">
+    `;
+
+    if (separatePortfolio) {
+        html += `
             <colgroup>
                 <col style="width:10%">
                 <col style="width:6%">
@@ -473,20 +513,53 @@ function renderCombinedTable(rows, dateStr) {
                 </tr>
             </thead>
             <tbody>
-    `;
-
-    rows.forEach(row => {
-        html += `
-            <tr>
-                <td class="col-theme">${row.theme}</td>
-                <td class="col-median">${row.median}</td>
-                <td class="col-list">${row.portfolioRank}</td>
-                <td class="col-bb">${row.portfolioBB}</td>
-                <td class="col-list">${row.othersRank}</td>
-                <td class="col-bb">${row.othersBB}</td>
-            </tr>
         `;
-    });
+
+        rows.forEach(row => {
+            html += `
+                <tr>
+                    <td class="col-theme">${row.theme}</td>
+                    <td class="col-median">${row.median}</td>
+                    <td class="col-list">${row.portfolioRank}</td>
+                    <td class="col-bb">${row.portfolioBB}</td>
+                    <td class="col-list">${row.othersRank}</td>
+                    <td class="col-bb">${row.othersBB}</td>
+                </tr>
+            `;
+        });
+    } else {
+        html += `
+            <colgroup>
+                <col style="width:16%">
+                <col style="width:8%">
+                <col style="width:38%">
+                <col style="width:38%">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th rowspan="2">Theme</th>
+                    <th rowspan="2">Median<br/>(Rank Δ)</th>
+                    <th colspan="2">All Stocks</th>
+                </tr>
+                <tr>
+                    <th class="sub-header">Rank</th>
+                    <th class="sub-header">BB</th>
+                </tr>
+            </thead>
+            <tbody>
+        `;
+
+        rows.forEach(row => {
+            html += `
+                <tr>
+                    <td class="col-theme">${row.theme}</td>
+                    <td class="col-median">${row.median}</td>
+                    <td class="col-list">${row.allRank}</td>
+                    <td class="col-bb">${row.allBB}</td>
+                </tr>
+            `;
+        });
+    }
 
     html += `
             </tbody>
@@ -545,10 +618,13 @@ async function loadAndRenderData() {
             }
         });
 
+        // Get separate portfolio flag from checkbox
+        const separatePortfolio = document.getElementById('separatePortfolioToggle').checked;
+
         // Build tables
-        const rankRows = buildThemeRankTable(rankCurrent, rankPrev);
-        const mfRows = buildMFThemeTable(bbData, rankCurrent);
-        const combinedRows = buildCombinedTable(rankRows, mfRows);
+        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio);
+        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio);
+        const combinedRows = buildCombinedTable(rankRows, mfRows, separatePortfolio);
 
         // IMPORTANT CHECK: Verify all portfolio symbols are in the dashboard
         checkMissingPortfolioSymbols(combinedRows, rankCurrent);
