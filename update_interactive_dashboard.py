@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """
 Update interactive dashboard with new data files and deploy to GitHub
+Only keeps the latest file from each month (Option B)
 """
 
 import shutil
 from pathlib import Path
 import subprocess
+import re
+from collections import defaultdict
 
 # Source directories
 RANK_SRC = Path("/Users/raviaranke/Desktop/code2026/data/r_outputs/eom_price")
@@ -16,13 +19,51 @@ PF_RANKS_SRC = Path("/Users/raviaranke/Downloads/PF_Ranks.xlsx")
 THEMES_DIR = Path("/Users/raviaranke/Desktop/themes")
 DATA_DIR = THEMES_DIR / "docs" / "data"
 
+
+def parse_rank_filename(filename):
+    """Parse rank filename: out_20-Feb-26.csv -> (2026, 2, 20)"""
+    match = re.match(r'out_(\d+)-([A-Za-z]+)-(\d+)\.csv', filename)
+    if match:
+        day = int(match.group(1))
+        month_str = match.group(2)
+        year = int('20' + match.group(3))
+
+        month_map = {
+            'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6,
+            'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12
+        }
+        month = month_map.get(month_str, 0)
+        return (year, month, day)
+    return None
+
+
+def select_latest_per_month(files):
+    """Keep only the latest file (highest day) from each month"""
+    # Group files by (year, month)
+    by_month = defaultdict(list)
+
+    for f in files:
+        parsed = parse_rank_filename(f.name)
+        if parsed:
+            year, month, day = parsed
+            by_month[(year, month)].append((day, f))
+
+    # For each month, keep only the file with max day
+    selected = []
+    for (year, month), file_list in by_month.items():
+        max_day_file = max(file_list, key=lambda x: x[0])[1]
+        selected.append(max_day_file)
+
+    return selected
+
+
 def main():
     print("=" * 60)
     print("UPDATING INTERACTIVE DASHBOARD")
     print("=" * 60)
 
-    # 1. Copy data files
-    print("\n1. Copying data files to themes/data...")
+    # 1. Copy data files (with smart selection)
+    print("\n1. Smart-copying data files to themes/data...")
 
     rank_dest = DATA_DIR / "eom_price"
     pivot_dest = DATA_DIR / "final"
@@ -30,11 +71,23 @@ def main():
     rank_dest.mkdir(parents=True, exist_ok=True)
     pivot_dest.mkdir(parents=True, exist_ok=True)
 
-    # Copy rank files
-    rank_files = list(RANK_SRC.glob("out_*.csv"))
-    for f in rank_files:
+    # Select only latest file per month from rank files
+    all_rank_files = list(RANK_SRC.glob("out_*.csv"))
+    selected_rank_files = select_latest_per_month(all_rank_files)
+
+    # Get list of files that should exist in destination
+    selected_names = {f.name for f in selected_rank_files}
+
+    # Remove old files from destination that are not in selected set
+    for existing_file in rank_dest.glob("out_*.csv"):
+        if existing_file.name not in selected_names:
+            existing_file.unlink()
+            print(f"   🗑️  Removed outdated: {existing_file.name}")
+
+    # Copy selected files
+    for f in selected_rank_files:
         shutil.copy2(f, rank_dest / f.name)
-    print(f"   ✓ Copied {len(rank_files)} rank files")
+    print(f"   ✓ Copied {len(selected_rank_files)} rank files (latest per month)")
 
     # Copy pivot files
     pivot_files = [f for f in PIVOT_SRC.glob("*_pivot_features.xlsx") if not f.name.startswith("~$")]
@@ -71,10 +124,10 @@ def main():
     subprocess.run(["git", "add", "docs/data/", "docs/manifest.json"], cwd=THEMES_DIR)
 
     # Git commit
-    commit_msg = """Update interactive dashboard data
+    commit_msg = """Update interactive dashboard data (auto-cleaned)
 
 Updated data files:
-- Rank files (eom_price)
+- Rank files (latest per month only)
 - Pivot files (final)
 - PF_Ranks.xlsx
 - manifest.json
