@@ -288,6 +288,7 @@ async function loadPivotFile(path) {
     // Parse BB columns and sort chronologically (not alphabetically!)
     const bbData = new Map();
     const impactData = new Map();
+    const fundQualityData = new Map();
     const bbColsRaw = Object.keys(data[0] || {}).filter(col => col.startsWith('bb_') && col !== 'bb_');
 
     // Sort BB columns chronologically
@@ -329,9 +330,16 @@ async function loadPivotFile(path) {
             const currentImpact = impactData.get(symbol) || 0;
             impactData.set(symbol, Math.max(currentImpact, parseInt(impact)));
         }
+
+        // Store fund quality value (keep highest FundQuality for the symbol)
+        const fundQuality = row.FundQuality;
+        if (fundQuality !== null && fundQuality !== undefined && !isNaN(fundQuality)) {
+            const currentFQ = fundQualityData.get(symbol) || 0;
+            fundQualityData.set(symbol, Math.max(currentFQ, parseInt(fundQuality)));
+        }
     });
 
-    return { bbData, impactData };
+    return { bbData, impactData, fundQualityData };
 }
 
 // Build theme rank table
@@ -442,7 +450,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
 }
 
 // Build MF theme table
-function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, impactData = new Map()) {
+function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQualityData = new Map()) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -465,12 +473,12 @@ function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, impact
 
         symbolData.forEach(({ symbol }) => {
             const bbValues = bbData.get(symbol);
-            const impact = impactData.get(symbol) || 0;
+            const fundQuality = fundQualityData.get(symbol) || 0;
             let bbText = `${symbol} (${bbValues.join(', ')})`;
 
-            // Highlight if impact=2
-            if (impact === 2) {
-                bbText = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${bbText}</span>`;
+            // Highlight if FundQuality=2 (using light cyan color to differentiate from Impact highlighting)
+            if (fundQuality === 2) {
+                bbText = `<span style="background-color:#87CEEB;padding:2px 4px;border-radius:3px;font-weight:700;">${bbText}</span>`;
             }
 
             if (separatePortfolio) {
@@ -543,7 +551,7 @@ function renderCombinedTable(rows, dateStr) {
 
     let html = `
         <div style="margin:4px 0 8px 0;color:#666;font-size:12px;">
-            Combined View: Ranks + MF BB Signals - As of ${dateStr}
+            Combined View: Ranks + MF Fund Signals - As of ${dateStr}
         </div>
         <table class="tp-table">
     `;
@@ -567,9 +575,9 @@ function renderCombinedTable(rows, dateStr) {
                 </tr>
                 <tr>
                     <th class="sub-header">Rank</th>
-                    <th class="sub-header">BB</th>
+                    <th class="sub-header">Funds</th>
                     <th class="sub-header">Rank</th>
-                    <th class="sub-header">BB</th>
+                    <th class="sub-header">Funds</th>
                 </tr>
             </thead>
             <tbody>
@@ -603,7 +611,7 @@ function renderCombinedTable(rows, dateStr) {
                 </tr>
                 <tr>
                     <th class="sub-header">Rank</th>
-                    <th class="sub-header">BB</th>
+                    <th class="sub-header">Funds</th>
                 </tr>
             </thead>
             <tbody>
@@ -662,7 +670,7 @@ async function loadAndRenderData() {
             loadPivotFile(pivotFile.path)
         ]);
 
-        const { bbData, impactData } = pivotData;
+        const { bbData, impactData, fundQualityData } = pivotData;
 
         // Convert to maps
         const rankCurrent = new Map();
@@ -685,7 +693,7 @@ async function loadAndRenderData() {
 
         // Build tables
         const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio, impactData);
-        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, impactData);
+        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, fundQualityData);
         const combinedRows = buildCombinedTable(rankRows, mfRows, separatePortfolio);
 
         // IMPORTANT CHECK: Verify all portfolio symbols are in the dashboard
