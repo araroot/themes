@@ -14,7 +14,7 @@ PF_RANKS_SRC = Path("/Users/raviaranke/Downloads/PF_Ranks.xlsx")
 
 # Destination directory
 THEMES_DIR = Path("/Users/raviaranke/Desktop/themes")
-DATA_DIR = THEMES_DIR / "data"
+DATA_DIR = THEMES_DIR / "docs" / "data"
 
 def main():
     print("=" * 60)
@@ -68,7 +68,7 @@ def main():
     print("\n3. Committing and pushing to GitHub...")
 
     # Git add
-    subprocess.run(["git", "add", "data/", "docs/manifest.json"], cwd=THEMES_DIR)
+    subprocess.run(["git", "add", "docs/data/", "docs/manifest.json"], cwd=THEMES_DIR)
 
     # Git commit
     commit_msg = """Update interactive dashboard data
