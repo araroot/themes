@@ -343,7 +343,7 @@ async function loadPivotFile(path) {
 }
 
 // Build theme rank table
-function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, impactData = new Map()) {
+function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, impactData = new Map(), fundQualityData = new Map()) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -394,6 +394,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
         symbolData.forEach(({ symbol, currRank }) => {
             const prevRank = rankPrev.get(symbol);
             const impact = impactData.get(symbol) || 0;
+            const fundQuality = fundQualityData.get(symbol) || 0;
 
             let rankStr = `${symbol} ${Math.round(currRank)}`;
 
@@ -411,8 +412,8 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
                 rankStr += ` <span class="delta-up">(▲0)</span>`;
             }
 
-            // Highlight if impact=2
-            if (impact === 2) {
+            // Highlight if BOTH impact=2 AND fundQuality=2
+            if (impact === 2 && fundQuality === 2) {
                 rankStr = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${rankStr}</span>`;
             }
 
@@ -450,7 +451,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
 }
 
 // Build MF theme table
-function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQualityData = new Map()) {
+function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQualityData = new Map(), impactData = new Map()) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -474,11 +475,12 @@ function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQu
         symbolData.forEach(({ symbol }) => {
             const bbValues = bbData.get(symbol);
             const fundQuality = fundQualityData.get(symbol) || 0;
+            const impact = impactData.get(symbol) || 0;
             let bbText = `${symbol} (${bbValues.join(', ')})`;
 
-            // Highlight if FundQuality=2 (using light cyan color to differentiate from Impact highlighting)
-            if (fundQuality === 2) {
-                bbText = `<span style="background-color:#87CEEB;padding:2px 4px;border-radius:3px;font-weight:700;">${bbText}</span>`;
+            // Highlight if BOTH impact=2 AND fundQuality=2
+            if (impact === 2 && fundQuality === 2) {
+                bbText = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${bbText}</span>`;
             }
 
             if (separatePortfolio) {
@@ -692,8 +694,8 @@ async function loadAndRenderData() {
         const separatePortfolio = document.getElementById('separatePortfolioToggle').checked;
 
         // Build tables
-        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio, impactData);
-        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, fundQualityData);
+        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio, impactData, fundQualityData);
+        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, fundQualityData, impactData);
         const combinedRows = buildCombinedTable(rankRows, mfRows, separatePortfolio);
 
         // IMPORTANT CHECK: Verify all portfolio symbols are in the dashboard
