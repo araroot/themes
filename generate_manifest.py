@@ -8,7 +8,7 @@ import json
 import re
 
 # Data directories
-DATA_DIR = Path("/Users/raviaranke/Desktop/themes/data")
+DATA_DIR = Path("/Users/raviaranke/Desktop/themes/docs/data")
 RANK_DIR = DATA_DIR / "eom_price"
 PIVOT_DIR = DATA_DIR / "final"
 OUTPUT_DIR = Path("/Users/raviaranke/Desktop/themes/docs")
