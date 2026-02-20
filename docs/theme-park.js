@@ -234,7 +234,7 @@ async function loadCSV(path) {
     });
 }
 
-// Load Excel file and return BB data
+// Load Excel file and return BB data and Impact data
 async function loadPivotFile(path) {
     const response = await fetch(path);
     if (!response.ok) throw new Error('Failed to load pivot file');
@@ -247,6 +247,7 @@ async function loadPivotFile(path) {
 
     // Parse BB columns and sort chronologically (not alphabetically!)
     const bbData = new Map();
+    const impactData = new Map();
     const bbColsRaw = Object.keys(data[0] || {}).filter(col => col.startsWith('bb_') && col !== 'bb_');
 
     // Sort BB columns chronologically
@@ -281,13 +282,20 @@ async function loadPivotFile(path) {
         if (last3.length > 0) {
             bbData.set(symbol, last3);
         }
+
+        // Store impact value (keep highest impact for the symbol)
+        const impact = row.Impact;
+        if (impact !== null && impact !== undefined && !isNaN(impact)) {
+            const currentImpact = impactData.get(symbol) || 0;
+            impactData.set(symbol, Math.max(currentImpact, parseInt(impact)));
+        }
     });
 
-    return bbData;
+    return { bbData, impactData };
 }
 
 // Build theme rank table
-function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true) {
+function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, impactData = new Map()) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -337,6 +345,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true) {
 
         symbolData.forEach(({ symbol, currRank }) => {
             const prevRank = rankPrev.get(symbol);
+            const impact = impactData.get(symbol) || 0;
 
             let rankStr = `${symbol} ${Math.round(currRank)}`;
 
@@ -352,6 +361,11 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true) {
             } else {
                 // No previous rank - show as green ▲0
                 rankStr += ` <span class="delta-up">(▲0)</span>`;
+            }
+
+            // Highlight if impact=2
+            if (impact === 2) {
+                rankStr = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${rankStr}</span>`;
             }
 
             if (separatePortfolio) {
@@ -388,7 +402,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true) {
 }
 
 // Build MF theme table
-function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true) {
+function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, impactData = new Map()) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -411,7 +425,13 @@ function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true) {
 
         symbolData.forEach(({ symbol }) => {
             const bbValues = bbData.get(symbol);
-            const bbText = `${symbol} (${bbValues.join(', ')})`;
+            const impact = impactData.get(symbol) || 0;
+            let bbText = `${symbol} (${bbValues.join(', ')})`;
+
+            // Highlight if impact=2
+            if (impact === 2) {
+                bbText = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${bbText}</span>`;
+            }
 
             if (separatePortfolio) {
                 if (portfolioSymbols.has(symbol)) {
@@ -596,11 +616,13 @@ async function loadAndRenderData() {
         document.getElementById('pivotDisplay').textContent = pivotFile.display;
 
         // Load data files
-        const [currentRankData, prevRankData, bbData] = await Promise.all([
+        const [currentRankData, prevRankData, pivotData] = await Promise.all([
             loadCSV(currentRankFile.path),
             loadCSV(prevRankFile.path),
             loadPivotFile(pivotFile.path)
         ]);
+
+        const { bbData, impactData } = pivotData;
 
         // Convert to maps
         const rankCurrent = new Map();
@@ -622,8 +644,8 @@ async function loadAndRenderData() {
         const separatePortfolio = document.getElementById('separatePortfolioToggle').checked;
 
         // Build tables
-        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio);
-        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio);
+        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio, impactData);
+        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, impactData);
         const combinedRows = buildCombinedTable(rankRows, mfRows, separatePortfolio);
 
         // IMPORTANT CHECK: Verify all portfolio symbols are in the dashboard
