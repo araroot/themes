@@ -413,8 +413,8 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
                 rankStr += ` <span class="delta-up">(▲0)</span>`;
             }
 
-            // Highlight if BOTH impact=2 AND fundQuality=2 (and highlighting is enabled)
-            if (enableHighlight && impact === 2 && fundQuality === 2) {
+            // Highlight if BOTH impact=2 AND fundQuality=2 AND rank <= 40 (and highlighting is enabled)
+            if (enableHighlight && impact === 2 && fundQuality === 2 && currRank <= 40) {
                 rankStr = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${rankStr}</span>`;
             }
 
@@ -473,14 +473,14 @@ function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQu
             .filter(item => item !== null)
             .sort((a, b) => a.currRank - b.currRank);
 
-        symbolData.forEach(({ symbol }) => {
+        symbolData.forEach(({ symbol, currRank }) => {
             const bbValues = bbData.get(symbol);
             const fundQuality = fundQualityData.get(symbol) || 0;
             const impact = impactData.get(symbol) || 0;
             let bbText = `${symbol} (${bbValues.join(', ')})`;
 
-            // Highlight if BOTH impact=2 AND fundQuality=2 (and highlighting is enabled)
-            if (enableHighlight && impact === 2 && fundQuality === 2) {
+            // Highlight if BOTH impact=2 AND fundQuality=2 AND rank <= 40 (and highlighting is enabled)
+            if (enableHighlight && impact === 2 && fundQuality === 2 && currRank <= 40) {
                 bbText = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${bbText}</span>`;
             }
 
