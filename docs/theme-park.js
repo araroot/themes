@@ -260,6 +260,12 @@ function setupEventListeners() {
     document.getElementById('pivotSelect').addEventListener('change', loadAndRenderData);
     document.getElementById('separatePortfolioToggle').addEventListener('change', loadAndRenderData);
     document.getElementById('highlightToggle').addEventListener('change', loadAndRenderData);
+
+    // Highlighting threshold controls
+    document.getElementById('impactThreshold').addEventListener('change', loadAndRenderData);
+    document.getElementById('fundQualityThreshold').addEventListener('change', loadAndRenderData);
+    document.getElementById('rankThreshold').addEventListener('change', loadAndRenderData);
+    document.getElementById('rankProgressionThreshold').addEventListener('change', loadAndRenderData);
 }
 
 // Load CSV file
@@ -352,7 +358,7 @@ async function loadPivotFile(path) {
 }
 
 // Build theme rank table
-function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, impactData = new Map(), fundQualityData = new Map(), enableHighlight = true, rankProgressionData = new Map()) {
+function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, impactData = new Map(), fundQualityData = new Map(), enableHighlight = true, rankProgressionData = new Map(), highlightCriteria = {}) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -422,8 +428,12 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
                 rankStr += ` <span class="delta-up">(▲0)</span>`;
             }
 
-            // Highlight if ALL conditions met: impact=2 AND fundQuality=2 AND rank<=40 AND rankProgression in [1,2]
-            if (enableHighlight && impact === 2 && fundQuality === 2 && currRank <= 40 && (rankProgression === 1 || rankProgression === 2)) {
+            // Highlight if ALL customizable conditions met
+            if (enableHighlight &&
+                impact >= highlightCriteria.impactMin &&
+                fundQuality >= highlightCriteria.fundQualityMin &&
+                currRank <= highlightCriteria.rankMax &&
+                rankProgression >= highlightCriteria.rankProgressionMin) {
                 rankStr = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${rankStr}</span>`;
             }
 
@@ -461,7 +471,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
 }
 
 // Build MF theme table
-function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQualityData = new Map(), impactData = new Map(), enableHighlight = true, rankProgressionData = new Map()) {
+function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQualityData = new Map(), impactData = new Map(), enableHighlight = true, rankProgressionData = new Map(), highlightCriteria = {}) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -489,8 +499,12 @@ function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQu
             const rankProgression = rankProgressionData.get(symbol) || -999;
             let bbText = `${symbol} (${bbValues.join(', ')})`;
 
-            // Highlight if ALL conditions met: impact=2 AND fundQuality=2 AND rank<=40 AND rankProgression in [1,2]
-            if (enableHighlight && impact === 2 && fundQuality === 2 && currRank <= 40 && (rankProgression === 1 || rankProgression === 2)) {
+            // Highlight if ALL customizable conditions met
+            if (enableHighlight &&
+                impact >= highlightCriteria.impactMin &&
+                fundQuality >= highlightCriteria.fundQualityMin &&
+                currRank <= highlightCriteria.rankMax &&
+                rankProgression >= highlightCriteria.rankProgressionMin) {
                 bbText = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${bbText}</span>`;
             }
 
@@ -705,9 +719,17 @@ async function loadAndRenderData() {
         const separatePortfolio = document.getElementById('separatePortfolioToggle').checked;
         const enableHighlight = document.getElementById('highlightToggle').checked;
 
+        // Get highlighting thresholds
+        const highlightCriteria = {
+            impactMin: parseInt(document.getElementById('impactThreshold').value),
+            fundQualityMin: parseInt(document.getElementById('fundQualityThreshold').value),
+            rankMax: parseInt(document.getElementById('rankThreshold').value),
+            rankProgressionMin: parseInt(document.getElementById('rankProgressionThreshold').value)
+        };
+
         // Build tables
-        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio, impactData, fundQualityData, enableHighlight, rankProgressionData);
-        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, fundQualityData, impactData, enableHighlight, rankProgressionData);
+        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio, impactData, fundQualityData, enableHighlight, rankProgressionData, highlightCriteria);
+        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, fundQualityData, impactData, enableHighlight, rankProgressionData, highlightCriteria);
         const combinedRows = buildCombinedTable(rankRows, mfRows, separatePortfolio);
 
         // IMPORTANT CHECK: Verify all portfolio symbols are in the dashboard
