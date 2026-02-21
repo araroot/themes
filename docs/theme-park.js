@@ -290,6 +290,7 @@ async function loadPivotFile(path) {
     const bbData = new Map();
     const impactData = new Map();
     const fundQualityData = new Map();
+    const rankProgressionData = new Map();
     const bbColsRaw = Object.keys(data[0] || {}).filter(col => col.startsWith('bb_') && col !== 'bb_');
 
     // Sort BB columns chronologically
@@ -338,13 +339,20 @@ async function loadPivotFile(path) {
             const currentFQ = fundQualityData.get(symbol) || 0;
             fundQualityData.set(symbol, Math.max(currentFQ, parseInt(fundQuality)));
         }
+
+        // Store rank progression value (keep highest RankProgression for the symbol)
+        const rankProgression = row.RankProgression;
+        if (rankProgression !== null && rankProgression !== undefined && !isNaN(rankProgression)) {
+            const currentRP = rankProgressionData.get(symbol) || -999;
+            rankProgressionData.set(symbol, Math.max(currentRP, parseInt(rankProgression)));
+        }
     });
 
-    return { bbData, impactData, fundQualityData };
+    return { bbData, impactData, fundQualityData, rankProgressionData };
 }
 
 // Build theme rank table
-function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, impactData = new Map(), fundQualityData = new Map(), enableHighlight = true) {
+function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, impactData = new Map(), fundQualityData = new Map(), enableHighlight = true, rankProgressionData = new Map()) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -396,6 +404,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
             const prevRank = rankPrev.get(symbol);
             const impact = impactData.get(symbol) || 0;
             const fundQuality = fundQualityData.get(symbol) || 0;
+            const rankProgression = rankProgressionData.get(symbol) || -999;
 
             let rankStr = `${symbol} ${Math.round(currRank)}`;
 
@@ -413,8 +422,8 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
                 rankStr += ` <span class="delta-up">(▲0)</span>`;
             }
 
-            // Highlight if BOTH impact=2 AND fundQuality=2 AND rank <= 40 (and highlighting is enabled)
-            if (enableHighlight && impact === 2 && fundQuality === 2 && currRank <= 40) {
+            // Highlight if ALL conditions met: impact=2 AND fundQuality=2 AND rank<=40 AND rankProgression in [1,2]
+            if (enableHighlight && impact === 2 && fundQuality === 2 && currRank <= 40 && (rankProgression === 1 || rankProgression === 2)) {
                 rankStr = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${rankStr}</span>`;
             }
 
@@ -452,7 +461,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
 }
 
 // Build MF theme table
-function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQualityData = new Map(), impactData = new Map(), enableHighlight = true) {
+function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQualityData = new Map(), impactData = new Map(), enableHighlight = true, rankProgressionData = new Map()) {
     const rows = [];
 
     allThemes.forEach(theme => {
@@ -477,10 +486,11 @@ function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQu
             const bbValues = bbData.get(symbol);
             const fundQuality = fundQualityData.get(symbol) || 0;
             const impact = impactData.get(symbol) || 0;
+            const rankProgression = rankProgressionData.get(symbol) || -999;
             let bbText = `${symbol} (${bbValues.join(', ')})`;
 
-            // Highlight if BOTH impact=2 AND fundQuality=2 AND rank <= 40 (and highlighting is enabled)
-            if (enableHighlight && impact === 2 && fundQuality === 2 && currRank <= 40) {
+            // Highlight if ALL conditions met: impact=2 AND fundQuality=2 AND rank<=40 AND rankProgression in [1,2]
+            if (enableHighlight && impact === 2 && fundQuality === 2 && currRank <= 40 && (rankProgression === 1 || rankProgression === 2)) {
                 bbText = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${bbText}</span>`;
             }
 
@@ -673,7 +683,7 @@ async function loadAndRenderData() {
             loadPivotFile(pivotFile.path)
         ]);
 
-        const { bbData, impactData, fundQualityData } = pivotData;
+        const { bbData, impactData, fundQualityData, rankProgressionData } = pivotData;
 
         // Convert to maps
         const rankCurrent = new Map();
@@ -696,8 +706,8 @@ async function loadAndRenderData() {
         const enableHighlight = document.getElementById('highlightToggle').checked;
 
         // Build tables
-        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio, impactData, fundQualityData, enableHighlight);
-        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, fundQualityData, impactData, enableHighlight);
+        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio, impactData, fundQualityData, enableHighlight, rankProgressionData);
+        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, fundQualityData, impactData, enableHighlight, rankProgressionData);
         const combinedRows = buildCombinedTable(rankRows, mfRows, separatePortfolio);
 
         // IMPORTANT CHECK: Verify all portfolio symbols are in the dashboard
