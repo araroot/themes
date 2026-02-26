@@ -1,14 +1,14 @@
 {
   "rank_files": [
     {
-      "filename": "out_20-Feb-26.csv",
-      "path": "data/eom_price/out_20-Feb-26.csv",
+      "filename": "out_26-Feb-26.csv",
+      "path": "data/eom_price/out_26-Feb-26.csv",
       "date": {
         "year": 2026,
         "month": 2,
-        "day": 20
+        "day": 26
       },
-      "display": "2026-02-20"
+      "display": "2026-02-26"
     },
     {
       "filename": "out_30-Jan-26.csv",
@@ -342,14 +342,14 @@
   "pf_ranks_path": "data/PF_Ranks_lite.xlsx",
   "defaults": {
     "current_rank": {
-      "filename": "out_20-Feb-26.csv",
-      "path": "data/eom_price/out_20-Feb-26.csv",
+      "filename": "out_26-Feb-26.csv",
+      "path": "data/eom_price/out_26-Feb-26.csv",
       "date": {
         "year": 2026,
         "month": 2,
-        "day": 20
+        "day": 26
       },
-      "display": "2026-02-20"
+      "display": "2026-02-26"
     },
     "prev_rank": {
       "filename": "out_30-Jan-26.csv",
