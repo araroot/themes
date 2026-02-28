@@ -391,7 +391,7 @@ function buildRankTable(items) {
     let html = '<table style="width:100%;border-collapse:collapse;font-size:inherit;">';
     items.forEach(item => {
         html += '<tr>';
-        html += `<td style="padding:2px 8px 2px 0;text-align:left;">${item.left}</td>`;
+        html += `<td style="padding:2px 8px 2px 0;text-align:left;width:120px;">${item.left}</td>`;
         html += `<td style="padding:2px 0;text-align:left;">${item.right}</td>`;
         html += '</tr>';
     });
