@@ -398,6 +398,20 @@ function buildRankTable(items) {
     return html;
 }
 
+// Build simple table for funds display (to match rank table alignment)
+function buildFundsTable(items) {
+    if (items.length === 0) return '';
+
+    let html = '<table style="width:100%;border-collapse:collapse;font-size:inherit;line-height:1.6;">';
+    items.forEach(item => {
+        html += '<tr>';
+        html += `<td style="padding:0;text-align:right;">${item}</td>`;
+        html += '</tr>';
+    });
+    html += '</table>';
+    return html;
+}
+
 // Build theme rank table
 function buildThemeRankTable(rankCurrent, rankPrev, impactData = new Map(), fundQualityData = new Map(), enableHighlight = true, rankProgressionData = new Map(), highlightCriteria = {}) {
     const rows = [];
@@ -543,7 +557,7 @@ function buildMFThemeTable(bbData, rankCurrent, fundQualityData = new Map(), imp
 
         const rowData = {
             theme,
-            all: allCells.join('<br/>')
+            all: buildFundsTable(allCells)
         };
 
         rows.push(rowData);
