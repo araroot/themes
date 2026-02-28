@@ -390,7 +390,7 @@ function buildRankTable(items) {
     let html = '<table style="width:100%;border-collapse:collapse;font-size:inherit;line-height:1.6;">';
     items.forEach(item => {
         html += '<tr>';
-        html += `<td style="padding:0 8px 0 0;text-align:left;width:150px;">${item.left}</td>`;
+        html += `<td style="padding:0 8px 0 0;text-align:left;width:180px;white-space:nowrap;">${item.left}</td>`;
         html += `<td style="padding:0;text-align:left;">${item.right}</td>`;
         html += '</tr>';
     });
