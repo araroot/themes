@@ -357,23 +357,46 @@ async function loadPivotFile(path) {
     return { bbData, impactData, fundQualityData, rankProgressionData };
 }
 
-// Generate battery-style rank change indicator
+// Generate battery-style rank change indicator (returns object with number and bars)
 function generateRankChangeIndicator(delta) {
     const absDelta = Math.abs(delta);
     const bars = Math.floor(absDelta / 5);
     const barChar = '█';
     const barStr = barChar.repeat(bars);
 
+    let cssClass = 'delta-flat';
+    let numberText = '0';
+
     if (delta < 0) {
         // Improvement (rank went down = better)
-        return ` <span class="delta-up" style="display:inline-block;min-width:80px;">${absDelta}${bars > 0 ? ' ' + barStr : ''}</span>`;
+        cssClass = 'delta-up';
+        numberText = String(absDelta);
     } else if (delta > 0) {
         // Decline (rank went up = worse)
-        return ` <span class="delta-down" style="display:inline-block;min-width:80px;">${delta}${bars > 0 ? ' ' + barStr : ''}</span>`;
-    } else {
-        // No change
-        return ` <span class="delta-flat" style="display:inline-block;min-width:80px;">0</span>`;
+        cssClass = 'delta-down';
+        numberText = String(delta);
     }
+
+    return {
+        number: `<span class="${cssClass}">${numberText}</span>`,
+        bars: `<span class="${cssClass}">${barStr}</span>`,
+        hasData: true
+    };
+}
+
+// Build inline table for rank display
+function buildRankTable(items) {
+    if (items.length === 0) return '';
+
+    let html = '<table style="width:100%;border-collapse:collapse;font-size:inherit;">';
+    items.forEach(item => {
+        html += '<tr>';
+        html += `<td style="padding:2px 8px 2px 0;text-align:left;">${item.left}</td>`;
+        html += `<td style="padding:2px 0;text-align:left;">${item.right}</td>`;
+        html += '</tr>';
+    });
+    html += '</table>';
+    return html;
 }
 
 // Build theme rank table
@@ -383,9 +406,9 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
     allThemes.forEach(theme => {
         const themeSymbols = themeMap.get(theme) || [];
 
-        let portfolioCells = [];
-        let otherCells = [];
-        let allCells = [];
+        let portfolioRows = [];
+        let otherRows = [];
+        let allRows = [];
 
         // Calculate median (filter out NaN, null, undefined)
         const currentRanks = themeSymbols
@@ -399,13 +422,20 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
         const medianCurrent = currentRanks.length > 0 ? median(currentRanks) : null;
         const medianPrev = prevRanks.length > 0 ? median(prevRanks) : null;
 
-        // Format median with delta
+        // Format median with delta (for display in table cell)
         let medianStr = '';
         if (medianCurrent !== null) {
-            medianStr = String(Math.round(medianCurrent));
+            const medianValue = Math.round(medianCurrent);
             if (medianPrev !== null) {
                 const delta = Math.round(medianCurrent - medianPrev);
-                medianStr += generateRankChangeIndicator(delta);
+                const indicator = generateRankChangeIndicator(delta);
+                // Build mini table for median
+                medianStr = buildRankTable([{
+                    left: String(medianValue) + ' ' + indicator.number,
+                    right: indicator.bars
+                }]);
+            } else {
+                medianStr = String(medianValue);
             }
         }
 
@@ -425,14 +455,19 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
             const fundQuality = fundQualityData.get(symbol) || 0;
             const rankProgression = rankProgressionData.get(symbol) || -999;
 
-            let rankStr = `${symbol} ${Math.round(currRank)}`;
+            // Build left side: symbol + rank + delta number
+            let leftContent = `${symbol} ${Math.round(currRank)}`;
+            let rightContent = '';
 
             if (prevRank !== undefined && prevRank !== null && !isNaN(prevRank)) {
                 const delta = Math.round(currRank - prevRank);
-                rankStr += generateRankChangeIndicator(delta);
+                const indicator = generateRankChangeIndicator(delta);
+                leftContent += ' ' + indicator.number;
+                rightContent = indicator.bars;
             } else {
                 // No previous rank - show as green with no bars
-                rankStr += ` <span class="delta-up">new</span>`;
+                leftContent += ` <span class="delta-up">new</span>`;
+                rightContent = '';
             }
 
             // Highlight if ALL customizable conditions met
@@ -441,17 +476,19 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
                 fundQuality >= highlightCriteria.fundQualityMin &&
                 currRank <= highlightCriteria.rankMax &&
                 rankProgression >= highlightCriteria.rankProgressionMin) {
-                rankStr = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${rankStr}</span>`;
+                leftContent = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${leftContent}</span>`;
             }
+
+            const rowData = { left: leftContent, right: rightContent };
 
             if (separatePortfolio) {
                 if (portfolioSymbols.has(symbol)) {
-                    portfolioCells.push(rankStr);
+                    portfolioRows.push(rowData);
                 } else {
-                    otherCells.push(rankStr);
+                    otherRows.push(rowData);
                 }
             } else {
-                allCells.push(rankStr);
+                allRows.push(rowData);
             }
         });
 
@@ -462,10 +499,10 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
         };
 
         if (separatePortfolio) {
-            rowData.portfolio = portfolioCells.join('<br/>');
-            rowData.others = otherCells.join('<br/>');
+            rowData.portfolio = buildRankTable(portfolioRows);
+            rowData.others = buildRankTable(otherRows);
         } else {
-            rowData.all = allCells.join('<br/>');
+            rowData.all = buildRankTable(allRows);
         }
 
         rows.push(rowData);
