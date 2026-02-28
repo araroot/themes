@@ -366,13 +366,13 @@ function generateRankChangeIndicator(delta) {
 
     if (delta < 0) {
         // Improvement (rank went down = better)
-        return ` <span class="delta-up">${absDelta}${bars > 0 ? ' ' + barStr : ''}</span>`;
+        return ` <span class="delta-up" style="display:inline-block;min-width:80px;">${absDelta}${bars > 0 ? ' ' + barStr : ''}</span>`;
     } else if (delta > 0) {
         // Decline (rank went up = worse)
-        return ` <span class="delta-down">${delta}${bars > 0 ? ' ' + barStr : ''}</span>`;
+        return ` <span class="delta-down" style="display:inline-block;min-width:80px;">${delta}${bars > 0 ? ' ' + barStr : ''}</span>`;
     } else {
         // No change
-        return ` <span class="delta-flat">0</span>`;
+        return ` <span class="delta-flat" style="display:inline-block;min-width:80px;">0</span>`;
     }
 }
 
