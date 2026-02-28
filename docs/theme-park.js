@@ -357,6 +357,25 @@ async function loadPivotFile(path) {
     return { bbData, impactData, fundQualityData, rankProgressionData };
 }
 
+// Generate battery-style rank change indicator
+function generateRankChangeIndicator(delta) {
+    const absDelta = Math.abs(delta);
+    const bars = Math.floor(absDelta / 5);
+    const barChar = '█';
+    const barStr = barChar.repeat(bars);
+
+    if (delta < 0) {
+        // Improvement (rank went down = better)
+        return ` <span class="delta-up">${absDelta}${bars > 0 ? ' ' + barStr : ''}</span>`;
+    } else if (delta > 0) {
+        // Decline (rank went up = worse)
+        return ` <span class="delta-down">${delta}${bars > 0 ? ' ' + barStr : ''}</span>`;
+    } else {
+        // No change
+        return ` <span class="delta-flat">0</span>`;
+    }
+}
+
 // Build theme rank table
 function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, impactData = new Map(), fundQualityData = new Map(), enableHighlight = true, rankProgressionData = new Map(), highlightCriteria = {}) {
     const rows = [];
@@ -386,13 +405,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
             medianStr = String(Math.round(medianCurrent));
             if (medianPrev !== null) {
                 const delta = Math.round(medianCurrent - medianPrev);
-                if (delta < 0) {
-                    medianStr += ` <span class="delta-up">(▲${Math.abs(delta)})</span>`;
-                } else if (delta > 0) {
-                    medianStr += ` <span class="delta-down">(▼${delta})</span>`;
-                } else {
-                    medianStr += ` <span class="delta-flat">(0)</span>`;
-                }
+                medianStr += generateRankChangeIndicator(delta);
             }
         }
 
@@ -416,16 +429,10 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
 
             if (prevRank !== undefined && prevRank !== null && !isNaN(prevRank)) {
                 const delta = Math.round(currRank - prevRank);
-                if (delta < 0) {
-                    rankStr += ` <span class="delta-up">(▲${Math.abs(delta)})</span>`;
-                } else if (delta > 0) {
-                    rankStr += ` <span class="delta-down">(▼${delta})</span>`;
-                } else {
-                    rankStr += ` <span class="delta-flat">(0)</span>`;
-                }
+                rankStr += generateRankChangeIndicator(delta);
             } else {
-                // No previous rank - show as green ▲0
-                rankStr += ` <span class="delta-up">(▲0)</span>`;
+                // No previous rank - show as green with no bars
+                rankStr += ` <span class="delta-up">new</span>`;
             }
 
             // Highlight if ALL customizable conditions met
