@@ -512,7 +512,7 @@ function buildThemeRankTable(rankCurrent, rankPrev, impactData = new Map(), fund
     return rows;
 }
 
-// Build MF theme table
+// Build MF theme table (must match rank table symbol order)
 function buildMFThemeTable(bbData, rankCurrent, fundQualityData = new Map(), impactData = new Map(), enableHighlight = true, rankProgressionData = new Map(), highlightCriteria = {}) {
     const rows = [];
 
@@ -521,13 +521,12 @@ function buildMFThemeTable(bbData, rankCurrent, fundQualityData = new Map(), imp
 
         let allCells = [];
 
-        // Sort stocks by current rank (same order as rank table)
+        // Use SAME filtering and sorting as rank table to ensure alignment
         const symbolData = themeSymbols
             .map(symbol => {
                 const currRank = rankCurrent.get(symbol);
-                const bbValues = bbData.get(symbol);
-                if (!bbValues || bbValues.length === 0) return null;
-                return { symbol, currRank: currRank || 999 };
+                if (currRank === undefined || currRank === null || isNaN(currRank)) return null;
+                return { symbol, currRank };
             })
             .filter(item => item !== null)
             .sort((a, b) => a.currRank - b.currRank);
@@ -538,6 +537,12 @@ function buildMFThemeTable(bbData, rankCurrent, fundQualityData = new Map(), imp
             const impact = impactData.get(symbol) || 0;
             const rankProgression = rankProgressionData.get(symbol) || -999;
             const isPortfolio = portfolioSymbols.has(symbol);
+
+            // Only show if BB values exist, otherwise show empty
+            if (!bbValues || bbValues.length === 0) {
+                allCells.push('');
+                return;
+            }
 
             // Make portfolio stocks bold
             let symbolPart = isPortfolio ? `<strong>${symbol}</strong>` : symbol;
