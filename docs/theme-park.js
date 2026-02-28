@@ -258,7 +258,6 @@ function setupEventListeners() {
 
     document.getElementById('prevRankSelect').addEventListener('change', loadAndRenderData);
     document.getElementById('pivotSelect').addEventListener('change', loadAndRenderData);
-    document.getElementById('separatePortfolioToggle').addEventListener('change', loadAndRenderData);
     document.getElementById('highlightToggle').addEventListener('change', loadAndRenderData);
 
     // Highlighting threshold controls
@@ -391,7 +390,7 @@ function buildRankTable(items) {
     let html = '<table style="width:100%;border-collapse:collapse;font-size:inherit;">';
     items.forEach(item => {
         html += '<tr>';
-        html += `<td style="padding:2px 8px 2px 0;text-align:left;width:120px;">${item.left}</td>`;
+        html += `<td style="padding:2px 8px 2px 0;text-align:left;width:150px;">${item.left}</td>`;
         html += `<td style="padding:2px 0;text-align:left;">${item.right}</td>`;
         html += '</tr>';
     });
@@ -400,14 +399,12 @@ function buildRankTable(items) {
 }
 
 // Build theme rank table
-function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, impactData = new Map(), fundQualityData = new Map(), enableHighlight = true, rankProgressionData = new Map(), highlightCriteria = {}) {
+function buildThemeRankTable(rankCurrent, rankPrev, impactData = new Map(), fundQualityData = new Map(), enableHighlight = true, rankProgressionData = new Map(), highlightCriteria = {}) {
     const rows = [];
 
     allThemes.forEach(theme => {
         const themeSymbols = themeMap.get(theme) || [];
 
-        let portfolioRows = [];
-        let otherRows = [];
         let allRows = [];
 
         // Calculate median (filter out NaN, null, undefined)
@@ -454,9 +451,11 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
             const impact = impactData.get(symbol) || 0;
             const fundQuality = fundQualityData.get(symbol) || 0;
             const rankProgression = rankProgressionData.get(symbol) || -999;
+            const isPortfolio = portfolioSymbols.has(symbol);
 
             // Build left side: symbol + rank + delta number
-            let leftContent = `${symbol} ${Math.round(currRank)}`;
+            // Add ⭐ marker for portfolio stocks
+            let leftContent = isPortfolio ? `⭐${symbol} ${Math.round(currRank)}` : `${symbol} ${Math.round(currRank)}`;
             let rightContent = '';
 
             if (prevRank !== undefined && prevRank !== null && !isNaN(prevRank)) {
@@ -476,34 +475,19 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
                 fundQuality >= highlightCriteria.fundQualityMin &&
                 currRank <= highlightCriteria.rankMax &&
                 rankProgression >= highlightCriteria.rankProgressionMin) {
-                leftContent = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${leftContent}</span>`;
+                leftContent = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;">${leftContent}</span>`;
             }
 
             const rowData = { left: leftContent, right: rightContent };
-
-            if (separatePortfolio) {
-                if (portfolioSymbols.has(symbol)) {
-                    portfolioRows.push(rowData);
-                } else {
-                    otherRows.push(rowData);
-                }
-            } else {
-                allRows.push(rowData);
-            }
+            allRows.push(rowData);
         });
 
         const rowData = {
             theme,
             median: medianStr,
             medianValue: medianCurrent !== null ? Math.round(medianCurrent) : 999, // For sorting
+            all: buildRankTable(allRows)
         };
-
-        if (separatePortfolio) {
-            rowData.portfolio = buildRankTable(portfolioRows);
-            rowData.others = buildRankTable(otherRows);
-        } else {
-            rowData.all = buildRankTable(allRows);
-        }
 
         rows.push(rowData);
     });
@@ -515,14 +499,12 @@ function buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio = true, im
 }
 
 // Build MF theme table
-function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQualityData = new Map(), impactData = new Map(), enableHighlight = true, rankProgressionData = new Map(), highlightCriteria = {}) {
+function buildMFThemeTable(bbData, rankCurrent, fundQualityData = new Map(), impactData = new Map(), enableHighlight = true, rankProgressionData = new Map(), highlightCriteria = {}) {
     const rows = [];
 
     allThemes.forEach(theme => {
         const themeSymbols = themeMap.get(theme) || [];
 
-        let portfolioCells = [];
-        let otherCells = [];
         let allCells = [];
 
         // Sort stocks by current rank (same order as rank table)
@@ -541,7 +523,10 @@ function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQu
             const fundQuality = fundQualityData.get(symbol) || 0;
             const impact = impactData.get(symbol) || 0;
             const rankProgression = rankProgressionData.get(symbol) || -999;
-            let bbText = `${symbol} (${bbValues.join(', ')})`;
+            const isPortfolio = portfolioSymbols.has(symbol);
+
+            // Add ⭐ marker for portfolio stocks
+            let bbText = isPortfolio ? `⭐${symbol} (${bbValues.join(', ')})` : `${symbol} (${bbValues.join(', ')})`;
 
             // Highlight if ALL customizable conditions met
             if (enableHighlight &&
@@ -549,28 +534,16 @@ function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQu
                 fundQuality >= highlightCriteria.fundQualityMin &&
                 currRank <= highlightCriteria.rankMax &&
                 rankProgression >= highlightCriteria.rankProgressionMin) {
-                bbText = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;font-weight:700;">${bbText}</span>`;
+                bbText = `<span style="background-color:#FFD700;padding:2px 4px;border-radius:3px;">${bbText}</span>`;
             }
 
-            if (separatePortfolio) {
-                if (portfolioSymbols.has(symbol)) {
-                    portfolioCells.push(bbText);
-                } else {
-                    otherCells.push(bbText);
-                }
-            } else {
-                allCells.push(bbText);
-            }
+            allCells.push(bbText);
         });
 
-        const rowData = { theme };
-
-        if (separatePortfolio) {
-            rowData.portfolio = portfolioCells.join('<br/>');
-            rowData.others = otherCells.join('<br/>');
-        } else {
-            rowData.all = allCells.join('<br/>');
-        }
+        const rowData = {
+            theme,
+            all: allCells.join('<br/>')
+        };
 
         rows.push(rowData);
     });
@@ -579,7 +552,7 @@ function buildMFThemeTable(bbData, rankCurrent, separatePortfolio = true, fundQu
 }
 
 // Build combined table
-function buildCombinedTable(rankRows, mfRows, separatePortfolio = true) {
+function buildCombinedTable(rankRows, mfRows) {
     const combined = [];
 
     // Create a map of MF rows by theme for quick lookup
@@ -590,23 +563,13 @@ function buildCombinedTable(rankRows, mfRows, separatePortfolio = true) {
 
     // Iterate over rankRows (already sorted by median)
     rankRows.forEach(rankRow => {
+        const mfRow = mfRowsByTheme.get(rankRow.theme) || { all: '' };
         const combinedRow = {
             theme: rankRow.theme,
             median: rankRow.median,
-            separatePortfolio: separatePortfolio
+            allRank: rankRow.all,
+            allBB: mfRow.all
         };
-
-        if (separatePortfolio) {
-            const mfRow = mfRowsByTheme.get(rankRow.theme) || { portfolio: '', others: '' };
-            combinedRow.portfolioRank = rankRow.portfolio;
-            combinedRow.portfolioBB = mfRow.portfolio;
-            combinedRow.othersRank = rankRow.others;
-            combinedRow.othersBB = mfRow.others;
-        } else {
-            const mfRow = mfRowsByTheme.get(rankRow.theme) || { all: '' };
-            combinedRow.allRank = rankRow.all;
-            combinedRow.allBB = mfRow.all;
-        }
 
         combined.push(combinedRow);
     });
@@ -618,61 +581,16 @@ function buildCombinedTable(rankRows, mfRows, separatePortfolio = true) {
 function renderCombinedTable(rows, dateStr) {
     if (rows.length === 0) return '<div>No data</div>';
 
-    const separatePortfolio = rows[0].separatePortfolio;
-
     let html = `
         <div style="margin:4px 0 8px 0;color:#666;font-size:12px;">
-            Combined View: Ranks + MF Fund Signals - As of ${dateStr}
+            Combined View: Ranks + MF Fund Signals - As of ${dateStr} (⭐ = Portfolio stock)
         </div>
         <table class="tp-table">
-    `;
-
-    if (separatePortfolio) {
-        html += `
             <colgroup>
-                <col style="width:10%">
-                <col style="width:6%">
-                <col style="width:21%">
-                <col style="width:21%">
-                <col style="width:21%">
-                <col style="width:21%">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th rowspan="2">Theme</th>
-                    <th rowspan="2">Median<br/>(Rank Δ)</th>
-                    <th colspan="2">Portfolio</th>
-                    <th colspan="2">Others</th>
-                </tr>
-                <tr>
-                    <th class="sub-header">Rank</th>
-                    <th class="sub-header">Funds</th>
-                    <th class="sub-header">Rank</th>
-                    <th class="sub-header">Funds</th>
-                </tr>
-            </thead>
-            <tbody>
-        `;
-
-        rows.forEach(row => {
-            html += `
-                <tr>
-                    <td class="col-theme">${row.theme}</td>
-                    <td class="col-median">${row.median}</td>
-                    <td class="col-list">${row.portfolioRank}</td>
-                    <td class="col-bb">${row.portfolioBB}</td>
-                    <td class="col-list">${row.othersRank}</td>
-                    <td class="col-bb">${row.othersBB}</td>
-                </tr>
-            `;
-        });
-    } else {
-        html += `
-            <colgroup>
-                <col style="width:16%">
+                <col style="width:14%">
                 <col style="width:8%">
-                <col style="width:38%">
-                <col style="width:38%">
+                <col style="width:42%">
+                <col style="width:36%">
             </colgroup>
             <thead>
                 <tr>
@@ -686,19 +604,18 @@ function renderCombinedTable(rows, dateStr) {
                 </tr>
             </thead>
             <tbody>
-        `;
+    `;
 
-        rows.forEach(row => {
-            html += `
-                <tr>
-                    <td class="col-theme">${row.theme}</td>
-                    <td class="col-median">${row.median}</td>
-                    <td class="col-list">${row.allRank}</td>
-                    <td class="col-bb">${row.allBB}</td>
-                </tr>
-            `;
-        });
-    }
+    rows.forEach(row => {
+        html += `
+            <tr>
+                <td class="col-theme">${row.theme}</td>
+                <td class="col-median">${row.median}</td>
+                <td class="col-list">${row.allRank}</td>
+                <td class="col-bb">${row.allBB}</td>
+            </tr>
+        `;
+    });
 
     html += `
             </tbody>
@@ -760,7 +677,6 @@ async function loadAndRenderData() {
         });
 
         // Get flags from checkboxes
-        const separatePortfolio = document.getElementById('separatePortfolioToggle').checked;
         const enableHighlight = document.getElementById('highlightToggle').checked;
 
         // Get highlighting thresholds
@@ -772,9 +688,9 @@ async function loadAndRenderData() {
         };
 
         // Build tables
-        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, separatePortfolio, impactData, fundQualityData, enableHighlight, rankProgressionData, highlightCriteria);
-        const mfRows = buildMFThemeTable(bbData, rankCurrent, separatePortfolio, fundQualityData, impactData, enableHighlight, rankProgressionData, highlightCriteria);
-        const combinedRows = buildCombinedTable(rankRows, mfRows, separatePortfolio);
+        const rankRows = buildThemeRankTable(rankCurrent, rankPrev, impactData, fundQualityData, enableHighlight, rankProgressionData, highlightCriteria);
+        const mfRows = buildMFThemeTable(bbData, rankCurrent, fundQualityData, impactData, enableHighlight, rankProgressionData, highlightCriteria);
+        const combinedRows = buildCombinedTable(rankRows, mfRows);
 
         // IMPORTANT CHECK: Verify all portfolio symbols are in the dashboard
         checkMissingPortfolioSymbols(combinedRows, rankCurrent);
