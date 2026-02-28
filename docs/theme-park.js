@@ -454,8 +454,8 @@ function buildThemeRankTable(rankCurrent, rankPrev, impactData = new Map(), fund
             const isPortfolio = portfolioSymbols.has(symbol);
 
             // Build left side: symbol + rank + delta number
-            // Add ⭐ marker for portfolio stocks
-            let leftContent = isPortfolio ? `⭐${symbol} ${Math.round(currRank)}` : `${symbol} ${Math.round(currRank)}`;
+            // Add * marker for portfolio stocks
+            let leftContent = isPortfolio ? `*${symbol} ${Math.round(currRank)}` : `${symbol} ${Math.round(currRank)}`;
             let rightContent = '';
 
             if (prevRank !== undefined && prevRank !== null && !isNaN(prevRank)) {
@@ -525,8 +525,8 @@ function buildMFThemeTable(bbData, rankCurrent, fundQualityData = new Map(), imp
             const rankProgression = rankProgressionData.get(symbol) || -999;
             const isPortfolio = portfolioSymbols.has(symbol);
 
-            // Add ⭐ marker for portfolio stocks
-            let bbText = isPortfolio ? `⭐${symbol} (${bbValues.join(', ')})` : `${symbol} (${bbValues.join(', ')})`;
+            // Add * marker for portfolio stocks
+            let bbText = isPortfolio ? `*${symbol} (${bbValues.join(', ')})` : `${symbol} (${bbValues.join(', ')})`;
 
             // Highlight if ALL customizable conditions met
             if (enableHighlight &&
@@ -583,7 +583,7 @@ function renderCombinedTable(rows, dateStr) {
 
     let html = `
         <div style="margin:4px 0 8px 0;color:#666;font-size:12px;">
-            Combined View: Ranks + MF Fund Signals - As of ${dateStr} (⭐ = Portfolio stock)
+            Combined View: Ranks + MF Fund Signals - As of ${dateStr} (* = Portfolio stock)
         </div>
         <table class="tp-table">
             <colgroup>
