@@ -1,6 +1,16 @@
 {
   "rank_files": [
     {
+      "filename": "out_06-Mar-26.csv",
+      "path": "data/eom_price/out_06-Mar-26.csv",
+      "date": {
+        "year": 2026,
+        "month": 3,
+        "day": 6
+      },
+      "display": "2026-03-06"
+    },
+    {
       "filename": "out_27-Feb-26.csv",
       "path": "data/eom_price/out_27-Feb-26.csv",
       "date": {
@@ -213,6 +223,15 @@
   ],
   "pivot_files": [
     {
+      "filename": "Feb26_pivot_features.xlsx",
+      "path": "data/final/Feb26_pivot_features.xlsx",
+      "date": {
+        "year": 2026,
+        "month": 2
+      },
+      "display": "2026-02"
+    },
+    {
       "filename": "Jan26_pivot_features.xlsx",
       "path": "data/final/Jan26_pivot_features.xlsx",
       "date": {
@@ -342,6 +361,16 @@
   "pf_ranks_path": "data/PF_Ranks_lite.xlsx",
   "defaults": {
     "current_rank": {
+      "filename": "out_06-Mar-26.csv",
+      "path": "data/eom_price/out_06-Mar-26.csv",
+      "date": {
+        "year": 2026,
+        "month": 3,
+        "day": 6
+      },
+      "display": "2026-03-06"
+    },
+    "prev_rank": {
       "filename": "out_27-Feb-26.csv",
       "path": "data/eom_price/out_27-Feb-26.csv",
       "date": {
@@ -350,16 +379,6 @@
         "day": 27
       },
       "display": "2026-02-27"
-    },
-    "prev_rank": {
-      "filename": "out_30-Jan-26.csv",
-      "path": "data/eom_price/out_30-Jan-26.csv",
-      "date": {
-        "year": 2026,
-        "month": 1,
-        "day": 30
-      },
-      "display": "2026-01-30"
     }
   }
 }
