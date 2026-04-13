@@ -1,6 +1,16 @@
 {
   "rank_files": [
     {
+      "filename": "out_13-Apr-26.csv",
+      "path": "data/eom_price/out_13-Apr-26.csv",
+      "date": {
+        "year": 2026,
+        "month": 4,
+        "day": 13
+      },
+      "display": "2026-04-13"
+    },
+    {
       "filename": "out_30-Mar-26.csv",
       "path": "data/eom_price/out_30-Mar-26.csv",
       "date": {
@@ -361,6 +371,16 @@
   "pf_ranks_path": "data/PF_Ranks_lite.xlsx",
   "defaults": {
     "current_rank": {
+      "filename": "out_13-Apr-26.csv",
+      "path": "data/eom_price/out_13-Apr-26.csv",
+      "date": {
+        "year": 2026,
+        "month": 4,
+        "day": 13
+      },
+      "display": "2026-04-13"
+    },
+    "prev_rank": {
       "filename": "out_30-Mar-26.csv",
       "path": "data/eom_price/out_30-Mar-26.csv",
       "date": {
@@ -369,16 +389,6 @@
         "day": 30
       },
       "display": "2026-03-30"
-    },
-    "prev_rank": {
-      "filename": "out_27-Feb-26.csv",
-      "path": "data/eom_price/out_27-Feb-26.csv",
-      "date": {
-        "year": 2026,
-        "month": 2,
-        "day": 27
-      },
-      "display": "2026-02-27"
     }
   }
 }
